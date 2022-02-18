@@ -256,6 +256,7 @@ SUBSYSTEM_DEF(overmap)
   * * ruin_type - The ruin to spawn. Don't pass this argument if you want it to randomly select based on planet type.
   */
 /datum/controller/subsystem/overmap/proc/spawn_dynamic_encounter(datum/overmap/planet/planet_type, ruin = TRUE, ignore_cooldown = FALSE, datum/map_template/ruin/ruin_type)
+	log_shuttle("SSOVERMAP: SPAWNING DYNAMIC ENCOUNTER STARTED")
 	var/list/ruin_list
 	var/datum/map_generator/mapgen
 	var/area/target_area
