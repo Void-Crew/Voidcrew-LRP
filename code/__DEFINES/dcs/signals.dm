@@ -240,6 +240,7 @@
 #define COMSIG_MOVABLE_MOVED "movable_moved"
 ///from base of atom/movable/Cross(): (/atom/movable)
 #define COMSIG_MOVABLE_CROSS "movable_cross"
+//TODO: Remove CROSSED AND UNCROSSED
 ///from base of atom/movable/Crossed(): (/atom/movable)
 #define COMSIG_MOVABLE_CROSSED "movable_crossed"
 ///from base of atom/movable/Uncross(): (/atom/movable)

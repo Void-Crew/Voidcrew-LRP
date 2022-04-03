@@ -21,6 +21,11 @@
 	. = ..()
 	air_update_turf(TRUE)
 
+	var/static/list/loc_connections = list(
+		COMSIG_ATOM_ENTERED = .proc/on_entered
+	)
+	AddElement(/datum/element/connect_loc, loc_connections)
+
 /obj/machinery/field/containment/Destroy()
 	if(FG1)
 		FG1.fields -= src
@@ -68,8 +73,8 @@
 	else
 		return ..()
 
-/obj/machinery/field/containment/Crossed(atom/movable/AM)
-	. = ..()
+/obj/machinery/field/containment/proc/on_entered(datum/source, atom/movable/AM)
+	SIGNAL_HANDLER
 	if(isliving(AM))
 		shock(AM)
 

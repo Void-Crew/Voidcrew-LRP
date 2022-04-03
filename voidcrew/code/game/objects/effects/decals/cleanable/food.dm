@@ -1,8 +1,8 @@
-/obj/effect/decal/cleanable/food/salt/Crossed(atom/movable/atom)
+/obj/effect/decal/cleanable/food/salt/on_entered(datum/source, atom/movable/O)
 	. = ..()
-	if(!issquidperson(atom))
+	if(!issquidperson(O))
 		return
-	var/mob/living/carbon/human/squid = atom
+	var/mob/living/carbon/human/squid = O
 	if(squid.movement_type & FLYING)
 		return
 	squid.adjustFireLoss(2, TRUE)

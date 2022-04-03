@@ -140,6 +140,7 @@
 		cam_background.fill_rect(1, 1, size_x, size_y)
 		return TRUE
 
+//TODO: Once we finish the overmap rework pr remove crossed
 /**
   * When something crosses another overmap object, add it to the nearby objects list, which are used by events and docking
   */
