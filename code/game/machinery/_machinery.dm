@@ -142,9 +142,15 @@ Class Procs:
 	. = ..()
 	GLOB.machines += src
 	RegisterSignal(src, COMSIG_MOVABLE_Z_CHANGED, .proc/power_change)
-	if(ispath(circuit, /obj/item/circuitboard) && (mapload || apply_default_parts))
+	if(ispath(circuit, /obj/item/circuitboard))
+		if(component_parts)
+			apply_default_parts = FALSE
+
 		circuit = new circuit
-		circuit.apply_default_parts(src)
+		if(!apply_default_parts)
+			circuit.apply_custom_parts(src)
+		else
+			circuit.apply_default_parts(src)
 
 	if(processing_flags & START_PROCESSING_ON_INIT)
 		begin_processing()

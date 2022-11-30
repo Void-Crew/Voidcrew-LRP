@@ -18,6 +18,9 @@
 /obj/item/circuitboard/proc/apply_default_parts(obj/machinery/M)
 	return
 
+/obj/item/circuitboard/proc/apply_custom_parts(obj/machinery/M)
+	return
+
 // Circuitboard/machine
 /*Common Parts: Parts List: Ignitor, Timer, Infra-red laser, Infra-red sensor, t_scanner, Capacitor, Valve, sensor unit,
 micro-manipulator, console screen, beaker, Microlaser, matter bin, power cells.
@@ -51,6 +54,29 @@ micro-manipulator, console screen, beaker, Microlaser, matter bin, power cells.
 			M.component_parts += new comp_path(null, comp_amt)
 		else
 			for(var/i in 1 to comp_amt)
+				M.component_parts += new comp_path(null)
+
+	M.RefreshParts()
+
+// Applies the custom parts with circuit board when the machine is created
+/obj/item/circuitboard/machine/apply_custom_parts(obj/machinery/M)
+	var/list/parts = M.component_parts // List of components loaded to machine
+	M.component_parts = list(src) // List of components always contains a board
+	moveToNullspace()
+
+	for(var/comp_path in parts)
+		var/comp_amount = parts[comp_path]
+
+		if(ispath(comp_path, /obj/item/stack))
+			if(comp_amount)
+				M.component_parts += new comp_path(null, comp_amount)
+			else
+				M.component_parts += new comp_path(null, 1)
+		else
+			if(comp_amount)
+				for(var/i in 1 to comp_amount)
+					M.component_parts += new comp_path(null)
+			else
 				M.component_parts += new comp_path(null)
 
 	M.RefreshParts()
