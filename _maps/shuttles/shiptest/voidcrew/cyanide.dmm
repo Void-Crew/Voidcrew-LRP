@@ -2,6 +2,14 @@
 "a" = (
 /turf/template_noop,
 /area/template_noop)
+"b" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ship/security)
 "c" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/ship/security)
@@ -13,34 +21,142 @@
 	},
 /turf/closed/wall/mineral/plastitanium,
 /area/ship/security)
-"l" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
+"f" = (
 /obj/structure/cable{
-	icon_state = "0-4"
-	},
-/turf/open/floor/plating/airless,
-/area/ship/security)
-"m" = (
-/obj/machinery/power/smes/shuttle/precharged{
-	dir = 8
-	},
-/obj/structure/cable{
-	icon_state = "0-8"
+	icon_state = "0-2"
 	},
 /turf/closed/wall/mineral/plastitanium,
 /area/ship/security)
-"q" = (
+"h" = (
 /obj/machinery/power/terminal{
 	dir = 8
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/closed/wall/mineral/plastitanium,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ship/security)
+"j" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/closet/wall/red{
+	dir = 8;
+	name = "uniform closet";
+	pixel_x = 28
+	},
+/obj/item/clothing/suit/space/syndicate/black/red,
+/obj/item/clothing/suit/space/syndicate/black/red,
+/obj/item/clothing/head/helmet/space/syndicate/black/red,
+/obj/item/clothing/head/helmet/space/syndicate/black/red,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/stack/cable_coil/red,
+/obj/item/melee/transforming/energy/sword/saber/red{
+	name = "energy saber"
+	},
+/obj/item/melee/transforming/energy/sword/saber/red{
+	name = "energy saber"
+	},
+/obj/item/mining_scanner,
+/obj/item/mining_scanner,
+/obj/item/areaeditor/shuttle,
+/obj/item/storage/box/donkpockets,
+/obj/item/soap/syndie,
+/obj/item/syndie_crusher,
+/obj/item/syndie_crusher,
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/security)
+"n" = (
+/obj/machinery/telecomms/allinone{
+	intercept = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/security)
+"q" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/computer/autopilot{
+	ship_id = "syndietest"
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/ship/security)
 "s" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/security)
+"t" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/security)
+"w" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/holopad/emergency/command{
+	name = "advanced holopad"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/security)
+"x" = (
+/obj/machinery/power/apc/auto_name/east{
+	auto_name = 0;
+	desc = "A control terminal for the ship's electrical systems.";
+	name = "Syndicate Interceptor APC"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable,
+/obj/machinery/turretid{
+	desc = "Used to control the Inteceptor's automated defenses.";
+	pixel_x = 26;
+	pixel_y = -10;
+	req_access = list(150)
+	},
+/obj/machinery/cryopod{
+	alpha = 30
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/security)
+"z" = (
+/obj/structure/cable,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ship/security)
+"C" = (
+/obj/item/radio/intercom/wideband{
+	pixel_y = -29
+	},
+/obj/structure/cable,
+/obj/machinery/power/port_gen/pacman/uranium,
+/turf/open/floor/mineral/plastitanium,
+/area/ship/security)
+"D" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/chair/stool,
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/security)
+"E" = (
 /obj/machinery/computer/helm,
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -52,39 +168,42 @@
 	all_items_free = 1;
 	pixel_y = 32
 	},
-/turf/open/floor/mineral/plastitanium/red,
+/turf/open/floor/mineral/plastitanium,
 /area/ship/security)
-"t" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/smes/engineering,
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/machinery/cryopod{
-	alpha = 30;
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium/red,
+"G" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ship/security)
-"w" = (
-/obj/effect/decal/cleanable/dirt,
+"H" = (
 /obj/structure/cable{
-	icon_state = "2-8"
+	icon_state = "1-2"
 	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/structure/closet/wall/orange{
-	dir = 8;
-	name = "fuel locker";
-	pixel_x = 28
-	},
-/obj/item/stack/sheet/mineral/uranium{
-	amount = 10
-	},
-/turf/open/floor/mineral/plastitanium/red,
+/obj/structure/table/reinforced,
+/obj/item/documents/syndicate,
+/obj/item/clothing/glasses/thermal/xray,
+/turf/open/floor/mineral/plastitanium,
 /area/ship/security)
-"A" = (
+"J" = (
+/obj/machinery/porta_turret/centcom_shuttle/ballistic{
+	dir = 6;
+	name = "ship turret";
+	on = 0
+	},
+/obj/machinery/porta_turret/centcom_shuttle/ballistic{
+	dir = 6;
+	name = "ship turret";
+	on = 0
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/ship/security)
+"K" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ship/security)
+"L" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/docking_port/mobile{
 	callTime = 50;
@@ -104,85 +223,46 @@
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/ship/security)
-"C" = (
-/obj/machinery/power/terminal{
-	dir = 1
+"N" = (
+/obj/structure/sign/poster/contraband/syndicate,
+/turf/closed/wall/mineral/plastitanium,
+/area/ship/security)
+"R" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
 	},
 /obj/structure/cable{
-	icon_state = "0-2"
+	icon_state = "0-4"
 	},
-/turf/open/floor/mineral/plastitanium/red,
+/turf/open/floor/plating/airless,
 /area/ship/security)
-"D" = (
-/obj/machinery/power/apc/auto_name/east{
-	auto_name = 0;
-	desc = "A control terminal for the ship's electrical systems.";
-	name = "Syndicate Interceptor APC"
+"U" = (
+/obj/machinery/power/smes/shuttle/precharged{
+	dir = 8
 	},
 /obj/structure/cable{
-	icon_state = "1-2"
+	icon_state = "0-8"
 	},
-/obj/structure/cable,
-/obj/machinery/turretid{
-	desc = "Used to control the Inteceptor's automated defenses.";
-	pixel_x = 26;
-	pixel_y = -10;
-	req_access = list(150)
-	},
-/obj/machinery/holopad/emergency/command{
-	name = "advanced holopad"
-	},
-/turf/open/floor/mineral/plastitanium/red,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ship/security)
-"G" = (
-/obj/item/radio/intercom/wideband{
-	pixel_y = -29
-	},
-/obj/structure/cable,
-/obj/machinery/power/port_gen/pacman/uranium,
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/security)
-"H" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
+"X" = (
 /obj/structure/cable{
-	icon_state = "1-2"
+	icon_state = "2-8"
 	},
-/obj/structure/closet/wall/red{
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/closet/wall/orange{
 	dir = 8;
-	name = "uniform closet";
+	name = "fuel locker";
 	pixel_x = 28
 	},
-/obj/item/clothing/suit/space/syndicate/black/red,
-/obj/item/clothing/suit/space/syndicate/black/red,
-/obj/item/clothing/suit/space/syndicate/black/red,
-/obj/item/clothing/head/helmet/space/syndicate/black/red,
-/obj/item/clothing/head/helmet/space/syndicate/black/red,
-/obj/item/clothing/head/helmet/space/syndicate/black/red,
-/obj/item/tank/internals/emergency_oxygen/double,
-/obj/item/tank/internals/emergency_oxygen/double,
-/obj/item/tank/internals/emergency_oxygen/double,
-/obj/item/storage/toolbox/syndicate,
-/obj/item/stack/cable_coil/red,
-/obj/item/resonator,
-/obj/item/resonator,
-/obj/item/resonator,
-/obj/item/melee/transforming/energy/sword/saber/red{
-	name = "energy saber"
+/obj/item/stack/sheet/mineral/uranium{
+	amount = 10
 	},
-/obj/item/melee/transforming/energy/sword/saber/red{
-	name = "energy saber"
-	},
-/obj/item/melee/transforming/energy/sword/saber/red{
-	name = "energy saber"
-	},
-/obj/item/mining_scanner,
-/obj/item/mining_scanner,
-/obj/item/mining_scanner,
-/obj/item/areaeditor/shuttle,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security)
-"K" = (
+"Y" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -192,80 +272,101 @@
 	},
 /obj/machinery/autolathe,
 /obj/machinery/light,
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/security)
-"R" = (
-/obj/machinery/power/terminal{
-	dir = 8
-	},
-/obj/structure/cable,
-/turf/closed/wall/mineral/plastitanium,
-/area/ship/security)
-"U" = (
-/obj/machinery/porta_turret/centcom_shuttle/ballistic{
-	dir = 6;
-	name = "ship turret";
-	on = 0
-	},
-/turf/closed/wall/mineral/plastitanium,
+/turf/open/floor/mineral/plastitanium,
 /area/ship/security)
 
 (1,1,1) = {"
 a
-l
-c
-c
-A
-c
-c
-l
+a
+R
+G
+G
+L
+G
+G
+R
+a
 a
 "}
 (2,1,1) = {"
 a
-m
-c
+a
+U
+G
+b
 t
 C
 G
-c
-m
+U
+a
 a
 "}
 (3,1,1) = {"
+a
 c
+h
 q
 s
 w
 D
 H
 K
-R
 c
+a
 "}
 (4,1,1) = {"
-c
-c
-c
-c
-c
-c
-c
-c
-c
+a
+G
+f
+E
+X
+x
+j
+Y
+z
+G
+a
 "}
 (5,1,1) = {"
 c
+G
+G
+G
+G
+G
+G
+G
+G
+G
+c
+"}
+(6,1,1) = {"
+c
+c
+c
+a
+G
+n
+G
+a
+c
+c
+c
+"}
+(7,1,1) = {"
+c
 c
 a
 a
-a
+c
+N
+c
 a
 a
 c
 c
 "}
-(6,1,1) = {"
+(8,1,1) = {"
 e
 a
 a
@@ -274,5 +375,7 @@ a
 a
 a
 a
-U
+a
+a
+J
 "}
