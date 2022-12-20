@@ -391,9 +391,7 @@
 /obj/effect/turf_decal/industrial/warning/corner{
 	dir = 8
 	},
-/obj/machinery/suit_storage_unit/inherit,
-/obj/item/clothing/suit/space/hardsuit/swat,
-/obj/item/tank/jetpack/carbondioxide,
+/obj/machinery/suit_storage_unit/syndicate,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
 "pA" = (
@@ -423,10 +421,6 @@
 	dir = 4;
 	pixel_y = 12
 	},
-/obj/item/storage/box{
-	icon_state = "lethalshot_box";
-	name = "dusty shotshell box"
-	},
 /obj/effect/turf_decal/industrial/warning{
 	dir = 5
 	},
@@ -436,25 +430,19 @@
 	pixel_x = 28;
 	req_one_access_txt = "1"
 	},
+/obj/item/gun/ballistic/automatic/ak47,
+/obj/item/ammo_box/magazine/ak47,
+/obj/item/ammo_box/magazine/ak47,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
 "pW" = (
 /obj/structure/cable{
 	icon_state = "4-6"
 	},
-/obj/item/clothing/suit/space/orange,
-/obj/item/clothing/mask/breath,
-/obj/item/tank/internals/oxygen,
-/obj/item/clothing/head/helmet/space,
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
 	},
-/obj/structure/closet/wall/red{
-	dir = 4;
-	name = "suit locker";
-	pixel_x = -28;
-	req_one_access_txt = "1"
-	},
+/obj/machinery/suit_storage_unit/syndicate,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
 "qP" = (
@@ -507,6 +495,14 @@
 /obj/item/gun/ballistic/shotgun/doublebarrel{
 	pixel_y = 4
 	},
+/obj/item/storage/box{
+	icon_state = "lethalshot_box";
+	name = "dusty shotshell box"
+	},
+/obj/item/storage/box{
+	icon_state = "lethalshot_box";
+	name = "dusty shotshell box"
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
 "rL" = (
@@ -527,19 +523,10 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/obj/item/clothing/suit/space/orange,
-/obj/item/clothing/mask/breath,
-/obj/item/tank/internals/oxygen,
-/obj/item/clothing/head/helmet/space,
 /obj/effect/turf_decal/industrial/warning/corner{
 	dir = 1
 	},
-/obj/structure/closet/wall/red{
-	dir = 4;
-	name = "suit locker";
-	pixel_x = -28;
-	req_one_access_txt = "1"
-	},
+/obj/machinery/suit_storage_unit/syndicate,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
 "sv" = (

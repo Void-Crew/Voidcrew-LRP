@@ -11,7 +11,7 @@
 /area/ship/crew/canteen)
 "ai" = (
 /obj/structure/grille,
-/obj/structure/window/plasma/reinforced/plastitanium,
+/obj/structure/window/reinforced/fulltile,
 /obj/machinery/door/poddoor/shutters{
 	id = "externalbridgeshutter";
 	name = "blast shutters"
@@ -43,7 +43,7 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ship/hallway/central)
 "aC" = (
-/turf/closed/wall/mineral/plastitanium,
+/turf/closed/wall/mineral/titanium/exterior,
 /area/ship/construction)
 "aD" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -359,7 +359,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "eE" = (
-/turf/closed/wall/mineral/plastitanium/overspace,
+/turf/closed/wall/mineral/titanium/overspace,
 /area/ship/bridge)
 "eM" = (
 /obj/machinery/power/terminal,
@@ -367,7 +367,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "eN" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/science)
 "eU" = (
 /obj/structure/cable{
@@ -553,7 +553,7 @@
 /area/ship/engineering/engine)
 "hR" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/maintenance/starboard)
 "hV" = (
 /obj/structure/cable{
@@ -621,8 +621,8 @@
 /turf/open/floor/pod/light,
 /area/ship/hallway/starboard)
 "is" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/ship/bridge)
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/crew/dorm)
 "iF" = (
 /obj/machinery/computer/robotics,
 /obj/machinery/light{
@@ -647,8 +647,8 @@
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/science)
 "iV" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/ship/science/robotics)
+/turf/closed/wall/mineral/titanium/exterior,
+/area/ship/bridge)
 "jc" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -689,7 +689,7 @@
 /area/ship/science)
 "kt" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/crew/dorm)
 "ku" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -757,7 +757,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "kM" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering/electrical)
 "kQ" = (
 /obj/effect/turf_decal/techfloor{
@@ -791,7 +791,7 @@
 /turf/open/floor/pod/light,
 /area/ship/cargo)
 "lA" = (
-/obj/structure/window/plasma/reinforced/plastitanium,
+/obj/structure/window/reinforced/fulltile,
 /obj/structure/grille,
 /obj/machinery/door/firedoor/window,
 /obj/structure/curtain/bounty,
@@ -891,7 +891,7 @@
 /turf/open/floor/pod/dark,
 /area/ship/cargo)
 "nl" = (
-/turf/closed/wall/mineral/plastitanium/overspace,
+/turf/closed/wall/mineral/titanium/overspace,
 /area/ship/maintenance/starboard)
 "no" = (
 /obj/structure/rack,
@@ -1129,7 +1129,7 @@
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/maintenance/starboard)
 "pz" = (
-/turf/closed/wall/mineral/plastitanium/overspace,
+/turf/closed/wall/mineral/titanium/overspace,
 /area/ship/engineering/engine)
 "pC" = (
 /obj/effect/landmark/start/shaft_miner,
@@ -1294,7 +1294,7 @@
 /turf/open/floor/pod/light,
 /area/ship/science/robotics)
 "rw" = (
-/turf/closed/wall/mineral/plastitanium/overspace,
+/turf/closed/wall/mineral/titanium/overspace,
 /area/ship/hallway/fore)
 "rI" = (
 /obj/structure/cable{
@@ -1400,7 +1400,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "tf" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/maintenance/starboard)
 "th" = (
 /obj/machinery/vending/cigarette,
@@ -1611,7 +1611,7 @@
 /turf/open/floor/pod/light,
 /area/ship/science/robotics)
 "vK" = (
-/turf/closed/wall/mineral/plastitanium,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/science/robotics)
 "wa" = (
 /obj/machinery/door/poddoor/shutters{
@@ -1619,7 +1619,7 @@
 	name = "blast shutters"
 	},
 /obj/structure/grille,
-/obj/structure/window/plasma/reinforced/plastitanium,
+/obj/structure/window/plasma/reinforced/fulltile,
 /turf/open/floor/plating,
 /area/ship/hallway/central)
 "wi" = (
@@ -1635,7 +1635,7 @@
 /turf/open/floor/pod/light,
 /area/ship/storage)
 "wx" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/crew/canteen)
 "wA" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
@@ -1674,7 +1674,7 @@
 /obj/structure/closet/secure_closet/freezer/kitchen/wall{
 	dir = 4
 	},
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/maintenance/starboard)
 "xk" = (
 /obj/structure/frame/machine,
@@ -1955,7 +1955,7 @@
 /turf/open/floor/pod/light,
 /area/ship/bridge)
 "zZ" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering/engine)
 "Ab" = (
 /obj/machinery/shower{
@@ -2209,11 +2209,11 @@
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "DL" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/hallway/central)
 "DM" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/hallway/fore)
 "DO" = (
 /obj/machinery/mech_bay_recharge_port{
@@ -2378,7 +2378,7 @@
 /turf/open/floor/pod/light,
 /area/ship/bridge)
 "Fz" = (
-/obj/structure/window/plasma/reinforced/plastitanium,
+/obj/structure/window/reinforced/fulltile,
 /obj/structure/grille,
 /obj/machinery/door/firedoor/window,
 /obj/structure/curtain/bounty,
@@ -2531,7 +2531,7 @@
 /area/ship/cargo)
 "Hs" = (
 /obj/structure/grille,
-/obj/structure/window/plasma/reinforced/plastitanium,
+/obj/structure/window/reinforced/fulltile,
 /obj/machinery/door/firedoor/window,
 /obj/structure/curtain/bounty,
 /turf/open/floor/plating,
@@ -2671,7 +2671,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering/electrical)
 "IY" = (
-/turf/closed/wall/mineral/plastitanium,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/bridge)
 "IZ" = (
 /obj/machinery/light,
@@ -2716,7 +2716,7 @@
 /turf/open/floor/plasteel/showroomfloor,
 /area/ship/science)
 "JJ" = (
-/turf/closed/wall/mineral/plastitanium/overspace,
+/turf/closed/wall/mineral/titanium/overspace,
 /area/ship/construction)
 "JO" = (
 /obj/effect/turf_decal/siding/yellow{
@@ -2916,7 +2916,7 @@
 /turf/open/floor/pod/light,
 /area/ship/bridge)
 "Lz" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/hallway/fore)
 "LD" = (
 /obj/machinery/power/terminal,
@@ -3237,7 +3237,7 @@
 /turf/open/floor/pod/light,
 /area/ship/cargo)
 "OP" = (
-/turf/closed/wall/mineral/plastitanium/overspace,
+/turf/closed/wall/mineral/titanium/overspace,
 /area/ship/engineering/electrical)
 "Ph" = (
 /turf/open/floor/pod/light,
@@ -3259,7 +3259,7 @@
 /turf/open/floor/eighties,
 /area/ship/crew/canteen)
 "Pw" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/crew/toilet)
 "PA" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
@@ -3525,7 +3525,7 @@
 /turf/open/floor/eighties,
 /area/ship/crew/canteen)
 "RS" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/storage)
 "Sc" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
@@ -3538,10 +3538,10 @@
 /turf/open/floor/eighties,
 /area/ship/crew/canteen)
 "Sh" = (
-/turf/closed/wall/mineral/plastitanium/overspace,
+/turf/closed/wall/mineral/titanium/overspace,
 /area/ship/engineering/atmospherics)
 "Sr" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/construction)
 "SN" = (
 /turf/open/floor/engine/hull,
@@ -3708,7 +3708,7 @@
 /turf/open/floor/pod/light,
 /area/ship/storage)
 "TW" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/cargo)
 "TZ" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
@@ -3796,7 +3796,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering/engine)
 "UL" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
@@ -3888,7 +3888,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "Wb" = (
-/obj/structure/window/plasma/reinforced/plastitanium,
+/obj/structure/window/reinforced/fulltile,
 /obj/structure/grille,
 /obj/machinery/door/firedoor/window,
 /obj/structure/curtain/bounty,
@@ -3996,7 +3996,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "XR" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/hallway/starboard)
 "XS" = (
 /obj/machinery/vending/coffee,
@@ -4018,7 +4018,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "Yu" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering/atmospherics)
 "Yy" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -4090,7 +4090,7 @@
 /turf/open/floor/pod/light,
 /area/ship/cargo)
 "Zs" = (
-/obj/structure/window/plasma/reinforced/plastitanium,
+/obj/structure/window/reinforced/fulltile,
 /obj/structure/grille,
 /obj/machinery/door/firedoor/window,
 /obj/structure/curtain/bounty,
@@ -4211,11 +4211,11 @@ PF
 (2,1,1) = {"
 PF
 eE
-is
-is
-is
-is
-is
+IY
+IY
+IY
+IY
+IY
 Hs
 Hs
 wx
@@ -4231,7 +4231,7 @@ wx
 wx
 wx
 wx
-PA
+is
 lA
 lA
 lA
@@ -4248,12 +4248,12 @@ PF
 "}
 (3,1,1) = {"
 eE
-is
-is
-is
-is
-is
-is
+IY
+IY
+IY
+IY
+IY
+IY
 kS
 Fa
 wx
@@ -4291,7 +4291,7 @@ fX
 li
 qG
 zg
-is
+IY
 Tq
 Nz
 QI
@@ -4367,7 +4367,7 @@ kQ
 TD
 Mw
 ov
-is
+IY
 Rq
 ZJ
 wx
@@ -4384,7 +4384,7 @@ DR
 RQ
 wx
 tA
-PA
+is
 uA
 Pw
 ku
@@ -4400,12 +4400,12 @@ Ic
 "}
 (7,1,1) = {"
 eE
-is
-is
+IY
+IY
 Zf
 Nw
 AX
-is
+IY
 PR
 uR
 wx
@@ -4422,7 +4422,7 @@ DR
 nO
 wx
 SO
-PA
+is
 SO
 Pw
 RE
@@ -4438,7 +4438,7 @@ cW
 "}
 (8,1,1) = {"
 PF
-IY
+iV
 IY
 Lv
 Qr
@@ -4459,8 +4459,8 @@ Pi
 UL
 Zx
 wx
-PA
-PA
+is
+is
 PA
 Pw
 Kn
@@ -4861,7 +4861,7 @@ Sr
 Sr
 Sr
 Sr
-iV
+vK
 vB
 GP
 GP
@@ -4899,14 +4899,14 @@ Sr
 ql
 xk
 pb
-iV
-iV
+vK
+vK
 Wb
 Wb
 TS
 Wb
 Wb
-iV
+vK
 eN
 Ep
 Gs
@@ -4937,14 +4937,14 @@ iF
 qq
 xN
 Fg
-iV
+vK
 WH
 wA
 YF
 sc
 gJ
 FG
-iV
+vK
 Lz
 Lz
 Lz
@@ -5013,14 +5013,14 @@ Sr
 mF
 ny
 to
-iV
+vK
 MO
 wL
 xQ
 yk
 zq
 zr
-iV
+vK
 aO
 VS
 GF
@@ -5051,14 +5051,14 @@ Sr
 Sr
 Sr
 Sr
-iV
+vK
 vK
 Wb
 Wb
 Wb
 Wb
-iV
-iV
+vK
+vK
 DM
 Fz
 Fz
