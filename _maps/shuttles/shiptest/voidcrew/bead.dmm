@@ -450,7 +450,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 1
 	},
-/obj/machinery/suit_storage_unit/ert/security,
+/obj/machinery/suit_storage_unit/ert/security{
+	storage_type = /obj/item/tank/jetpack/oxygen
+	},
 /obj/effect/turf_decal/industrial/outline/red,
 /turf/open/floor/plasteel,
 /area/ship/cargo)
@@ -482,7 +484,9 @@
 	pixel_x = 24
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/obj/machinery/suit_storage_unit/ert/security,
+/obj/machinery/suit_storage_unit/ert/security{
+	storage_type = /obj/item/tank/jetpack/oxygen
+	},
 /obj/effect/turf_decal/industrial/outline/red,
 /turf/open/floor/plasteel,
 /area/ship/cargo)

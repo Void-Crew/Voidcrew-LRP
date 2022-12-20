@@ -26,13 +26,16 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/bridge)
 "n" = (
+/obj/structure/closet/wall/red{
+	dir = 8;
+	pixel_x = -32
+	},
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/structure/closet/wall/red{
-	dir = 4;
-	pixel_x = -32
-	},
+/obj/item/tank/internals/emergency_oxygen/double/empty,
+/obj/item/tank/internals/emergency_oxygen/double/empty,
+/obj/item/tank/internals/emergency_oxygen/double/empty,
 /obj/item/mining_scanner,
 /obj/item/mining_scanner,
 /obj/item/mining_scanner,
@@ -42,17 +45,10 @@
 /obj/item/storage/bag/ore,
 /obj/item/storage/bag/ore,
 /obj/item/storage/bag/ore,
-/obj/item/tank/internals/emergency_oxygen/double,
-/obj/item/tank/internals/emergency_oxygen/double,
-/obj/item/tank/internals/emergency_oxygen/double,
 /turf/open/floor/carpet/executive,
 /area/ship/bridge)
 "r" = (
 /obj/item/areaeditor/shuttle,
-/obj/machinery/recharger{
-	pixel_x = 11;
-	pixel_y = 10
-	},
 /turf/open/floor/carpet/executive,
 /area/ship/bridge)
 "s" = (
@@ -112,7 +108,9 @@
 	},
 /area/ship/bridge)
 "B" = (
-/obj/machinery/suit_storage_unit/ert/security,
+/obj/machinery/suit_storage_unit/ert/security{
+	storage_type = /obj/item/tank/jetpack/oxygen
+	},
 /obj/effect/turf_decal/box/white,
 /obj/machinery/light{
 	dir = 8
@@ -141,7 +139,9 @@
 /turf/open/floor/carpet/executive,
 /area/ship/bridge)
 "D" = (
-/obj/machinery/suit_storage_unit/ert/security,
+/obj/machinery/suit_storage_unit/ert/security{
+	storage_type = /obj/item/tank/jetpack/oxygen
+	},
 /obj/effect/turf_decal/box/white,
 /turf/open/floor/plasteel{
 	icon_state = "steel"
