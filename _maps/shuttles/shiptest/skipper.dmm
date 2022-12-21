@@ -320,7 +320,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/structure/sign/poster/official/random{
+/obj/structure/sign/poster/random{
 	pixel_y = 32
 	},
 /turf/open/floor/carpet,
@@ -1140,9 +1140,9 @@
 /obj/structure/table/wood,
 /obj/item/folder/blue,
 /obj/item/stamp/law,
-/obj/structure/sign/poster/official/random{
-	pixel_x = 32;
-	pixel_y = -32
+/obj/structure/sign/poster/random{
+	pixel_y = -32;
+	pixel_x = 32
 	},
 /turf/open/floor/carpet/blue,
 /area/ship/crew/solgov)
@@ -1918,7 +1918,7 @@
 	dir = 1
 	},
 /obj/item/reagent_containers/glass/bottle{
-	list_reagents = list(/datum/reagent/medicine/thializid = 30);
+	list_reagents = list(/datum/reagent/medicine/thializid=30);
 	name = "thializid bottle"
 	},
 /turf/open/floor/plasteel,
@@ -1999,7 +1999,7 @@
 /area/ship/hallway/central)
 "zQ" = (
 /obj/machinery/vending/cola/random,
-/obj/structure/sign/poster/official/random{
+/obj/structure/sign/poster/random{
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel/dark,
@@ -2136,9 +2136,6 @@
 /turf/open/floor/plasteel/mono/white,
 /area/ship/crew/canteen)
 "AY" = (
-/obj/structure/sign/nanotrasen{
-	pixel_y = 32
-	},
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood,
 /area/ship/crew/solgov)
@@ -2323,9 +2320,6 @@
 /turf/open/floor/plasteel,
 /area/ship/crew/canteen)
 "CY" = (
-/obj/structure/sign/nanotrasen{
-	pixel_y = 32
-	},
 /obj/machinery/photocopier,
 /turf/open/floor/plasteel/grimy,
 /area/ship/crew/solgov)
@@ -2800,7 +2794,7 @@
 /turf/open/floor/plasteel/mono,
 /area/ship/cargo)
 "HN" = (
-/obj/structure/sign/poster/official/random{
+/obj/structure/sign/poster/random{
 	pixel_y = -32
 	},
 /turf/open/floor/carpet/nanoweave,
@@ -4093,7 +4087,7 @@
 "Zk" = (
 /obj/structure/table/reinforced,
 /obj/machinery/chem_dispenser/drinks,
-/obj/structure/sign/poster/official/random{
+/obj/structure/sign/poster/random{
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel/white,
