@@ -59,13 +59,13 @@
 	pixel_y = 5
 	},
 /obj/machinery/button/door{
-	id = "piratecargo";
-	name = "Blast Door Control";
+	id = "Cargo Bay NT";
+	name = "Cargo Bay";
 	pixel_x = 37;
 	pixel_y = -5
 	},
 /obj/machinery/button/door{
-	id = "pirateshutters";
+	id = "ntlibshutters";
 	name = "Window Lockdown";
 	pixel_x = 27;
 	pixel_y = -5
@@ -104,7 +104,7 @@
 	port_direction = 2
 	},
 /obj/machinery/door/poddoor/shutters{
-	id = "piratecargo";
+	id = "Cargo Bay NT";
 	name = "Cargo Bay"
 	},
 /turf/open/floor/engine/hull/interior,
@@ -208,7 +208,7 @@
 "kK" = (
 /obj/structure/grille,
 /obj/machinery/door/poddoor/shutters{
-	id = "pirateshutters";
+	id = "ntlibshutters";
 	name = "blast shutters"
 	},
 /obj/structure/window/shuttle,
@@ -350,14 +350,14 @@
 /area/ship/security)
 "nW" = (
 /obj/structure/grille,
-/obj/machinery/door/poddoor/shutters{
-	id = "pirateshutters";
-	name = "blast shutters"
-	},
 /obj/machinery/atmospherics/pipe/layer_manifold{
 	dir = 4
 	},
 /obj/structure/window/shuttle,
+/obj/machinery/door/poddoor/shutters{
+	id = "ntlibshutters";
+	name = "blast shutters"
+	},
 /turf/open/floor/plating,
 /area/ship/security)
 "oo" = (
@@ -482,10 +482,10 @@
 	dir = 1
 	},
 /obj/machinery/button/door{
-	id = "piratecargo";
-	name = "Blast Door Control";
+	id = "Cargo Bay NT";
+	name = "Cargo Bay";
 	pixel_x = -24;
-	pixel_y = -10
+	pixel_y = -5
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
@@ -701,19 +701,19 @@
 /area/ship/crew)
 "yi" = (
 /obj/structure/chair/plastic,
-/turf/open/floor/carpet/nanoweave/beige,
+/turf/open/floor/carpet/nanoweave/purple,
 /area/ship/crew)
 "yU" = (
 /obj/structure/sink{
 	dir = 8;
 	pixel_x = 12
 	},
-/turf/open/floor/carpet/nanoweave/beige,
+/turf/open/floor/carpet/nanoweave/purple,
 /area/ship/crew)
 "za" = (
 /obj/structure/grille,
 /obj/machinery/door/poddoor/shutters{
-	id = "pirateshutters";
+	id = "ntlibshutters";
 	name = "blast shutters"
 	},
 /obj/structure/window/shuttle,
@@ -761,52 +761,21 @@
 /obj/effect/spawner/lootdrop/donkpockets,
 /obj/effect/spawner/lootdrop/donkpockets,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
-/turf/open/floor/carpet/nanoweave/beige,
+/turf/open/floor/carpet/nanoweave/purple,
 /area/ship/crew)
 "Bb" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/bridge)
 "Bi" = (
-/obj/structure/table,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
-/obj/item/kitchen/knife/plastic{
-	pixel_x = -3
-	},
-/obj/item/kitchen/fork/plastic{
-	pixel_x = 3
-	},
-/turf/open/floor/carpet/nanoweave/beige,
+/turf/open/floor/carpet/nanoweave/purple,
 /area/ship/crew)
 "Bw" = (
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/item/clothing/under/solgov,
-/obj/item/clothing/under/solgov,
-/obj/item/clothing/under/solgov,
-/obj/item/clothing/under/solgov,
-/obj/item/clothing/under/solgov,
-/obj/item/clothing/head/beret/solgov/plain,
-/obj/item/clothing/head/beret/solgov/plain,
-/obj/item/clothing/head/beret/solgov/plain,
-/obj/item/clothing/head/beret/solgov/plain,
-/obj/item/clothing/head/beret/solgov/plain,
-/obj/item/clothing/shoes/combat,
-/obj/item/clothing/shoes/combat,
-/obj/item/clothing/shoes/combat,
-/obj/item/clothing/shoes/combat,
-/obj/item/clothing/shoes/combat,
-/obj/item/radio/headset,
-/obj/item/radio/headset,
-/obj/item/radio/headset,
-/obj/item/radio/headset,
-/obj/item/radio/headset,
-/obj/structure/closet/wall{
-	dir = 8;
-	icon_door = "grey_wall";
-	pixel_x = 28
-	},
-/turf/open/floor/carpet/nanoweave/beige,
+/obj/machinery/vending/sustenance,
+/turf/open/floor/carpet/nanoweave/purple,
 /area/ship/crew)
 "By" = (
 /obj/structure/closet/wall/white/med{
@@ -859,16 +828,13 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 9
 	},
-/turf/open/floor/carpet/nanoweave/beige,
+/turf/open/floor/carpet/nanoweave/purple,
 /area/ship/crew)
 "Cx" = (
-/obj/structure/chair/plastic{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
 	},
-/turf/open/floor/carpet/nanoweave/beige,
+/turf/open/floor/carpet/nanoweave/purple,
 /area/ship/crew)
 "CK" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
@@ -894,7 +860,7 @@
 	desc = "Cleaning up the sector, one ship at a time.";
 	name = "\improper Mopfficer Sweepsky"
 	},
-/turf/open/floor/carpet/nanoweave/beige,
+/turf/open/floor/carpet/nanoweave/purple,
 /area/ship/crew)
 "Ec" = (
 /obj/item/reagent_containers/glass/bottle/epinephrine{
@@ -1091,7 +1057,7 @@
 /obj/structure/bed,
 /obj/effect/turf_decal/corner/red/diagonal,
 /obj/item/bedsheet/grey,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/ship/cargo)
 "Ie" = (
 /obj/structure/bed,
@@ -1100,7 +1066,7 @@
 /obj/structure/sign/poster/official/obey{
 	pixel_y = 32
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/ship/cargo)
 "IF" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
@@ -1155,7 +1121,7 @@
 /turf/open/floor/carpet/nanoweave/red,
 /area/ship/cargo)
 "Ko" = (
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/ship/cargo)
 "Ks" = (
 /obj/machinery/door/window/brigdoor/security/cell/eastright{
@@ -1164,11 +1130,11 @@
 	req_one_access_txt = "2"
 	},
 /obj/effect/turf_decal/corner/red/diagonal,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/ship/cargo)
 "KD" = (
 /obj/effect/turf_decal/corner/red/diagonal,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/ship/cargo)
 "KS" = (
 /obj/machinery/light{
@@ -1179,7 +1145,7 @@
 	pixel_x = 24
 	},
 /obj/effect/turf_decal/corner/red/diagonal,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/ship/cargo)
 "KV" = (
 /obj/item/reagent_containers/food/snacks/canned/beans{
@@ -1312,7 +1278,7 @@
 	id = "Cell 1";
 	pixel_x = 32
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/ship/cargo)
 "NN" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
@@ -1404,8 +1370,11 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/pod/dark,
 /area/ship/hallway/port)
+"QK" = (
+/turf/open/floor/carpet/nanoweave/purple,
+/area/ship/crew)
 "QO" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Port Engines"
@@ -1453,7 +1422,7 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/ship/cargo)
 "Sc" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -1465,7 +1434,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/ship/cargo)
 "Sw" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -1477,7 +1446,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/ship/cargo)
 "SA" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
@@ -1492,7 +1461,7 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/ship/cargo)
 "SR" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -1511,7 +1480,7 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/ship/cargo)
 "Ty" = (
 /obj/machinery/door/airlock/maintenance_hatch{
@@ -1533,7 +1502,7 @@
 /area/ship/cargo)
 "TP" = (
 /obj/machinery/door/poddoor/shutters{
-	id = "piratecargo";
+	id = "Cargo Bay NT";
 	name = "Cargo Bay"
 	},
 /obj/structure/fans/tiny,
@@ -1552,7 +1521,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/pod/dark,
 /area/ship/hallway/starboard)
 "Ut" = (
 /obj/machinery/door/airlock/maintenance_hatch{
@@ -1729,7 +1698,7 @@
 "XB" = (
 /obj/structure/grille,
 /obj/machinery/door/poddoor/shutters{
-	id = "pirateshutters";
+	id = "ntlibshutters";
 	name = "blast shutters"
 	},
 /obj/structure/window/shuttle,
@@ -1797,10 +1766,10 @@
 	dir = 1
 	},
 /obj/machinery/button/door{
-	id = "piratecargo";
-	name = "Blast Door Control";
+	id = "Cargo Bay NT";
+	name = "Cargo Bay";
 	pixel_x = 24;
-	pixel_y = -10
+	pixel_y = -5
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
@@ -2088,7 +2057,7 @@ rF
 sI
 tT
 wq
-yi
+QK
 Bi
 Cx
 EG
