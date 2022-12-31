@@ -42,7 +42,7 @@
 	del_on_death = 1
 	faction = list("hermit", "wasteland") // VOID edit
 
-/mob/living/simple_animal/hostile/asteroid/whitesands/survivor/death(gibbed)
+/mob/living/simple_animal/hostile/asteroid/whitesands/death(gibbed)
 	move_force = MOVE_FORCE_DEFAULT
 	move_resist = MOVE_RESIST_DEFAULT
 	pull_force = PULL_FORCE_DEFAULT
