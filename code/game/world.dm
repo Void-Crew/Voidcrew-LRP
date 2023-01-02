@@ -303,17 +303,21 @@ GLOBAL_VAR(restart_counter)
 			features += "AI allowed"
 		hostedby = CONFIG_GET(string/hostedby)
 
+	var/discordurl = CONFIG_GET(string/discordurl)
+	var/githuburl = CONFIG_GET(string/githuburl)
 	s += "<b>[station_name()]</b>";
-	s += " ("
-	s += "<a href=\"https://discord.gg/edazjdr7Gt\">" //Change this to wherever you want the hub to link to.
-	s += "Discord"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
-	s += "</a>"
-	s += ")"
-	s += " ("
-	s += "<a href=\"https://github.com/voidcrew/Voidcrew-LRP\">"
-	s += "Github"
-	s += "</a>"
-	s += ")"
+	if(discordurl)
+		s += " ("
+		s += "<a href=\"[discordurl]\">" //Change this to wherever you want the hub to link to.
+		s += "Discord"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
+		s += "</a>"
+		s += ")"
+	if(githuburl)
+		s += " ("
+		s += "<a href=\"[githuburl]\">"
+		s += "Github"
+		s += "</a>"
+		s += ")"
 
 	var/players = GLOB.clients.len
 

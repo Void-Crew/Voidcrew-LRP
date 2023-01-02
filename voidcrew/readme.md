@@ -120,7 +120,7 @@ Such modules, unless _very_ simple, **need** to have a `readme.dm` in their fold
 ***Template:***
 
 ```md
-https://github.com/Jackriip/Voidcrew-LRP/pull/<!--PR Number-->
+https://github.com/Acensti/Voidcrew-LRP/pull/<!--PR Number-->
 
 ## Title: <!--Title of your addition-->
 
