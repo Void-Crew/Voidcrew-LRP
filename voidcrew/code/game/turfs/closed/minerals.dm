@@ -12,3 +12,11 @@
 /turf/closed/mineral/random/beach
 	baseturfs = /turf/open/floor/plating/asteroid/sand/beach/dense
 	initial_gas_mix = OPENTURF_DEFAULT_ATMOS
+
+/turf/closed/wall/mineral/titanium/interior/blue
+	color = "#9CE9F6"
+	smoothing_flags = SMOOTH_BITMASK
+
+/turf/closed/wall/mineral/titanium/interior/blue/Initialize()
+	. = ..()
+	add_atom_colour("#9CE9F6", FIXED_COLOUR_PRIORITY) // fuck you
