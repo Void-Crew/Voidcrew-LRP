@@ -128,7 +128,7 @@
 /obj/item/vending_refill/sovietsoda,
 /obj/item/vending_refill/cola,
 /obj/item/vending_refill/cola,
-/obj/effect/turf_decal/corner/brown{
+/obj/effect/turf_decal/corner/bar{
 	dir = 9
 	},
 /turf/open/floor/plasteel/dark,
@@ -672,15 +672,12 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/structure/closet/crate/large,
-/obj/item/mecha_parts/mecha_equipment/drill,
-/obj/item/mecha_parts/mecha_equipment/mining_scanner,
-/mob/living/simple_animal/bot/secbot/grievous/toy,
 /obj/effect/decal/cleanable/blood/old,
-/obj/item/hand_labeler_refill,
-/obj/effect/turf_decal/corner/brown/three_quarters{
+/obj/effect/turf_decal/corner/bar/three_quarters{
 	dir = 8
 	},
+/obj/structure/closet/crate/secure/weapon,
+/obj/item/gun/energy/beam_rifle,
 /turf/open/floor/plasteel/dark,
 /area/ship/storage)
 "no" = (
@@ -843,7 +840,7 @@
 /obj/item/storage/box/donkpockets/donkpocketberry,
 /obj/item/storage/box/donkpockets/donkpocketberry,
 /obj/item/storage/box/donkpockets/donkpocketberry,
-/obj/effect/turf_decal/corner/brown{
+/obj/effect/turf_decal/corner/bar{
 	dir = 9
 	},
 /turf/open/floor/plasteel/dark,
@@ -945,15 +942,18 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/mecha/working/ripley{
-	name = "\improper Donk! Co. Cargo Loading Device"
-	},
-/obj/structure/closet/crate/large{
-	name = "Donk! Co. Powerloader In a Box"
-	},
-/obj/item/mecha_parts/mecha_equipment/hydraulic_clamp,
 /obj/effect/decal/cleanable/oil,
-/obj/effect/turf_decal/corner/brown{
+/obj/structure/closet/crate/secure/weapon,
+/obj/item/ammo_box/magazine/ak47,
+/obj/item/ammo_box/magazine/ak47,
+/obj/item/ammo_box/magazine/ak47,
+/obj/item/ammo_box/magazine/ak47,
+/obj/item/ammo_box/magazine/ak47,
+/obj/item/ammo_box/magazine/ak47,
+/obj/item/gun/ballistic/automatic/ak47,
+/obj/item/gun/ballistic/automatic/ak47,
+/obj/item/gun/ballistic/automatic/ak47,
+/obj/effect/turf_decal/corner/bar{
 	dir = 6
 	},
 /turf/open/floor/plasteel/dark,
@@ -1007,7 +1007,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 5
 	},
-/obj/effect/turf_decal/corner/brown{
+/obj/effect/turf_decal/corner/bar{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
@@ -1091,7 +1091,7 @@
 /obj/item/circuitboard/machine/microwave,
 /obj/item/circuitboard/machine/microwave,
 /obj/item/circuitboard/machine/microwave,
-/obj/effect/turf_decal/corner/brown/three_quarters{
+/obj/effect/turf_decal/corner/bar/three_quarters{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
@@ -1344,7 +1344,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/turf_decal/corner/brown{
+/obj/effect/turf_decal/corner/bar{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
@@ -1495,7 +1495,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 5
 	},
-/obj/effect/turf_decal/corner/brown{
+/obj/effect/turf_decal/corner/bar{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
@@ -1713,7 +1713,7 @@
 /obj/item/soap/syndie,
 /obj/item/soap/syndie,
 /obj/item/soap/syndie,
-/obj/effect/turf_decal/corner/brown/three_quarters{
+/obj/effect/turf_decal/corner/bar/three_quarters{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
@@ -1794,7 +1794,7 @@
 /obj/item/storage/box/donkpockets/donkpocketpizza,
 /obj/item/storage/box/donkpockets/donkpocketpizza,
 /obj/item/storage/box/donkpockets/donkpocketpizza,
-/obj/effect/turf_decal/corner/brown/three_quarters{
+/obj/effect/turf_decal/corner/bar/three_quarters{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
@@ -1889,7 +1889,7 @@
 /obj/item/stack/sheet/glass/fifty,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/hand_labeler_refill,
-/obj/effect/turf_decal/corner/brown{
+/obj/effect/turf_decal/corner/bar{
 	dir = 9
 	},
 /turf/open/floor/plasteel/dark,
@@ -1917,11 +1917,9 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "Rx" = (
-/obj/machinery/mech_bay_recharge_port{
-	dir = 1
-	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/corner/brown/three_quarters,
+/obj/machinery/vending/security/marine,
+/obj/effect/turf_decal/corner/bar/three_quarters,
 /turf/open/floor/plasteel/dark,
 /area/ship/storage)
 "Ry" = (
@@ -1950,7 +1948,7 @@
 /obj/item/storage/box/donkpockets,
 /obj/item/storage/box/donkpockets,
 /obj/machinery/airalarm/directional/west,
-/obj/effect/turf_decal/corner/brown{
+/obj/effect/turf_decal/corner/bar{
 	dir = 9
 	},
 /turf/open/floor/plasteel/dark,
@@ -2096,12 +2094,12 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/obj/machinery/computer/mech_bay_power_console{
-	dir = 8
-	},
-/obj/effect/turf_decal/corner/brown{
+/obj/effect/turf_decal/corner/bar{
 	dir = 6
 	},
+/obj/structure/closet/crate/secure/weapon,
+/obj/item/gun/medbeam,
+/obj/item/gun/medbeam,
 /turf/open/floor/plasteel/dark,
 /area/ship/storage)
 "VH" = (
@@ -2163,7 +2161,7 @@
 /area/ship/bridge)
 "Xk" = (
 /obj/structure/ore_box,
-/obj/effect/turf_decal/corner/brown/three_quarters{
+/obj/effect/turf_decal/corner/bar/three_quarters{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
@@ -2217,7 +2215,7 @@
 	dir = 4;
 	pixel_x = 26
 	},
-/obj/effect/turf_decal/corner/brown{
+/obj/effect/turf_decal/corner/bar{
 	dir = 6
 	},
 /turf/open/floor/plasteel/dark,
@@ -2246,7 +2244,7 @@
 /obj/item/storage/box/donkpockets/donkpocketteriyaki,
 /obj/item/storage/box/donkpockets/donkpocketteriyaki,
 /obj/item/storage/box/donkpockets/donkpocketteriyaki,
-/obj/effect/turf_decal/corner/brown/three_quarters{
+/obj/effect/turf_decal/corner/bar/three_quarters{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,

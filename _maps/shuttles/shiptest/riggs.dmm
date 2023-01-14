@@ -119,7 +119,12 @@
 	pixel_y = -32
 	},
 /obj/effect/turf_decal/industrial/outline/yellow,
-/obj/machinery/suit_storage_unit/independent/pilot,
+/obj/machinery/suit_storage_unit{
+	helmet_type = /obj/item/tank/internals/oxygen/yellow;
+	mask_type = /obj/item/clothing/mask/gas/syndicate;
+	storage_type = /obj/item/tank/jetpack/oxygen/harness;
+	suit_type = /obj/item/clothing/suit/space/hardsuit/syndi
+	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/cargo)
 "bx" = (
@@ -373,7 +378,7 @@
 	pixel_y = 8
 	},
 /obj/item/reagent_containers/glass/bottle{
-	list_reagents = list(/datum/reagent/medicine/thializid = 30);
+	list_reagents = list(/datum/reagent/medicine/thializid=30);
 	name = "thializid bottle";
 	pixel_x = 5
 	},
@@ -1033,7 +1038,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel/grimy,
+/turf/closed/wall/mineral/plastitanium,
 /area/ship/crew/office)
 "mY" = (
 /turf/open/floor/plating,
@@ -1686,8 +1691,16 @@
 /turf/open/floor/plasteel/mono,
 /area/ship/engineering/communications)
 "vw" = (
-/obj/item/pen,
-/turf/open/floor/plasteel/grimy,
+/obj/effect/turf_decal/corner_steel_grid{
+	dir = 5
+	},
+/obj/machinery/suit_storage_unit{
+	helmet_type = /obj/item/tank/internals/oxygen/yellow;
+	mask_type = /obj/item/clothing/mask/gas/syndicate;
+	storage_type = /obj/item/tank/jetpack/oxygen/harness;
+	suit_type = /obj/item/clothing/suit/space/hardsuit/syndi
+	},
+/turf/open/floor/plasteel,
 /area/ship/crew/office)
 "vL" = (
 /obj/effect/turf_decal/techfloor/corner{
@@ -2232,11 +2245,11 @@
 /turf/open/floor/plasteel,
 /area/ship/engineering)
 "BP" = (
-/obj/item/radio/intercom{
-	dir = 4;
-	pixel_x = -22
+/obj/machinery/door/airlock/security{
+	req_access_txt = "1";
+	name = "Auxiliary Armory"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/carpet/red,
 /area/ship/crew/office)
 "BS" = (
 /obj/structure/window/plasma/reinforced/plastitanium,
@@ -2311,7 +2324,12 @@
 "CG" = (
 /obj/structure/window/reinforced,
 /obj/effect/turf_decal/industrial/outline/yellow,
-/obj/machinery/suit_storage_unit/independent/mining/eva,
+/obj/machinery/suit_storage_unit{
+	helmet_type = /obj/item/tank/internals/oxygen/yellow;
+	mask_type = /obj/item/clothing/mask/gas/syndicate;
+	storage_type = /obj/item/tank/jetpack/oxygen/harness;
+	suit_type = /obj/item/clothing/suit/space/hardsuit/syndi
+	},
 /turf/open/floor/plating,
 /area/ship/engineering)
 "CL" = (
@@ -2626,7 +2644,7 @@
 /turf/open/floor/plasteel,
 /area/ship/construction)
 "FC" = (
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/carpet/red,
 /area/ship/crew/office)
 "FH" = (
 /obj/machinery/light/small,
@@ -2757,9 +2775,8 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering/communications)
 "GQ" = (
-/obj/structure/table/wood,
-/obj/item/storage/fancy/donut_box,
-/turf/open/floor/plasteel/grimy,
+/obj/structure/closet/secure_closet/armory2,
+/turf/open/floor/carpet/red,
 /area/ship/crew/office)
 "GT" = (
 /obj/machinery/atmospherics/pipe/layer_manifold,
@@ -2778,7 +2795,8 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/open/floor/plating,
+/obj/structure/closet/secure_closet/armory3,
+/turf/open/floor/carpet/red,
 /area/ship/crew/office)
 "He" = (
 /obj/structure/cable{
@@ -3022,6 +3040,12 @@
 /obj/effect/turf_decal/corner_steel_grid{
 	dir = 5
 	},
+/obj/machinery/suit_storage_unit{
+	helmet_type = /obj/item/tank/internals/oxygen/yellow;
+	mask_type = /obj/item/clothing/mask/gas/syndicate;
+	storage_type = /obj/item/tank/jetpack/oxygen/harness;
+	suit_type = /obj/item/clothing/suit/space/hardsuit/syndi
+	},
 /turf/open/floor/plasteel,
 /area/ship/crew/office)
 "Kk" = (
@@ -3106,6 +3130,7 @@
 	name = "dried tobacco leaves"
 	},
 /obj/item/clothing/mask/cigarette/pipe/cobpipe,
+/obj/machinery/recharger,
 /turf/open/floor/plasteel/dark,
 /area/ship/bridge)
 "LV" = (
@@ -3604,6 +3629,8 @@
 	dir = 8;
 	pixel_x = -28
 	},
+/obj/item/stack/spacecash/c1000,
+/obj/item/stack/spacecash/c1000,
 /turf/open/floor/carpet/blue,
 /area/ship/bridge)
 "RO" = (
@@ -3644,7 +3671,12 @@
 "Su" = (
 /obj/effect/turf_decal/industrial/outline/yellow,
 /obj/structure/window/reinforced,
-/obj/machinery/suit_storage_unit/independent/mining/eva,
+/obj/machinery/suit_storage_unit{
+	helmet_type = /obj/item/tank/internals/oxygen/yellow;
+	mask_type = /obj/item/clothing/mask/gas/syndicate;
+	storage_type = /obj/item/tank/jetpack/oxygen/harness;
+	suit_type = /obj/item/clothing/suit/space/hardsuit/syndi
+	},
 /turf/open/floor/plating,
 /area/ship/engineering)
 "SE" = (
@@ -3953,10 +3985,12 @@
 /obj/structure/sign/poster/official/solgov_enlist{
 	pixel_y = 32
 	},
-/obj/structure/chair{
-	dir = 4
+/obj/item/radio/intercom{
+	dir = 4;
+	pixel_x = -22
 	},
-/turf/open/floor/plasteel/grimy,
+/obj/structure/closet/secure_closet/armory1,
+/turf/open/floor/carpet/red,
 /area/ship/crew/office)
 "VI" = (
 /obj/structure/cable{
@@ -4357,10 +4391,9 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/obj/structure/chair{
-	dir = 8
-	},
-/turf/open/floor/plating,
+/obj/structure/table,
+/obj/machinery/recharger,
+/turf/open/floor/carpet/red,
 /area/ship/crew/office)
 "ZW" = (
 /obj/structure/cable{
@@ -4636,9 +4669,9 @@ Ly
 vm
 mK
 GQ
-vw
 FC
-Hz
+XM
+vw
 UA
 BZ
 zu
