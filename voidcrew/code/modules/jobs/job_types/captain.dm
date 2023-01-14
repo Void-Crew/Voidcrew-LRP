@@ -61,3 +61,13 @@
 	head = /obj/item/clothing/head/aclfcap
 	suit = /obj/item/clothing/suit/aclf
 
+/datum/outfit/job/captain/wizard
+	name = "Captain (Wizard)"
+
+	uniform = /obj/item/clothing/under/color/lightpurple
+	suit = /obj/item/clothing/suit/wizrobe
+	shoes = /obj/item/clothing/shoes/sandal/magic
+	ears = /obj/item/radio/headset
+	head = /obj/item/clothing/head/wizard
+	l_hand = /obj/item/staff
+	back = /obj/item/storage/backpack
