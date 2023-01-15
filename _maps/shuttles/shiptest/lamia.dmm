@@ -1126,6 +1126,10 @@
 	name = "emerald wall"
 	},
 /area/ship/medical)
+"nw" = (
+/obj/machinery/mineral/ore_redemption,
+/turf/open/floor/bronze,
+/area/ship/maintenance/central)
 "nC" = (
 /turf/closed/wall/mineral/uranium/safe{
 	desc = "A wall plated with emerald.";
@@ -1259,7 +1263,7 @@
 /obj/item/table_bell/brass{
 	pixel_y = 3
 	},
-/obj/structure/table/wood/fancy/black,
+/obj/structure/constructshell,
 /turf/open/floor/carpet/purple,
 /area/ship/crew/canteen)
 "rh" = (
@@ -2599,7 +2603,7 @@ KY
 ZW
 bK
 Pc
-bX
+nw
 kC
 Xm
 VR
