@@ -1126,6 +1126,10 @@
 	name = "emerald wall"
 	},
 /area/ship/medical)
+"nw" = (
+/obj/machinery/mineral/ore_redemption,
+/turf/open/floor/bronze,
+/area/ship/maintenance/central)
 "nC" = (
 /turf/closed/wall/mineral/uranium/safe{
 	desc = "A wall plated with emerald.";
@@ -1141,7 +1145,9 @@
 	desc = "A powerful staff that required almost 100 assistant souls to create.";
 	icon = 'icons/obj/items_and_weapons.dmi';
 	icon_state = "godstaff-red";
-	pixel_x = 5
+	pixel_x = 5;
+	lefthand_file = 'icons/mob/inhands/items_lefthand.dmi';
+	righthand_file = 'icons/mob/inhands/items_righthand.dmi'
 	},
 /obj/structure/table/wood/fancy/black,
 /obj/item/gun/energy/e_gun/smg{
@@ -1149,7 +1155,9 @@
 	desc = "A powerful staff that required almost 100 assistant souls to create.";
 	icon = 'icons/obj/items_and_weapons.dmi';
 	icon_state = "godstaff-red";
-	pixel_x = -5
+	pixel_x = -5;
+	lefthand_file = 'icons/mob/inhands/items_lefthand.dmi';
+	righthand_file = 'icons/mob/inhands/items_righthand.dmi'
 	},
 /turf/open/floor/carpet/purple,
 /area/ship/crew/canteen)
@@ -1256,10 +1264,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/item/table_bell/brass{
-	pixel_y = 3
-	},
-/obj/structure/table/wood/fancy/black,
+/obj/structure/constructshell,
 /turf/open/floor/carpet/purple,
 /area/ship/crew/canteen)
 "rh" = (
@@ -1626,7 +1631,6 @@
 /area/ship/crew/canteen)
 "Fu" = (
 /obj/structure/table/wood/fancy/green,
-/obj/item/upgradescroll,
 /turf/open/floor/carpet/orange,
 /area/ship/crew/dorm/dormtwo)
 "FQ" = (
@@ -2599,7 +2603,7 @@ KY
 ZW
 bK
 Pc
-bX
+nw
 kC
 Xm
 VR
