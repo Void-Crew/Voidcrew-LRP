@@ -59,6 +59,10 @@
 
 /area/centcom/supplypod/loading/ert
 	name = "ERT Bay"
+
+/area/centcom/supplypod/loading/syndicate
+	name = "Syndicate Pod Elevator"
+
 //THUNDERDOME
 
 /area/tdome
