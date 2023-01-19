@@ -261,6 +261,10 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/AI_Module))
 
 /obj/machinery/doomsday_device/Initialize()
 	. = ..()
+	if(!isAI(loc))
+		stack_trace("Doomsday created outside an AI somehow, shit's fucking broke. Anyway, we're just gonna qdel now. Go make a github issue report.")
+		qdel(src)
+		return INITIALIZE_HINT_QDEL
 	countdown = new(src)
 
 /obj/machinery/doomsday_device/Destroy()

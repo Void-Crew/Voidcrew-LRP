@@ -275,6 +275,9 @@
 	icon_state = ""
 
 /obj/effect/DPfall/Initialize(dropLocation, obj/structure/closet/supplypod/pod)
+	if(!pod)
+		stack_trace("Pod landingzone effect created with no pod")
+		return INITIALIZE_HINT_QDEL
 	if (pod.style == STYLE_SEETHROUGH)
 		pixel_x = -16
 		pixel_y = 0
@@ -302,6 +305,9 @@
 
 /obj/effect/DPtarget/Initialize(mapload, podParam, single_order = null)
 	. = ..()
+	if(!podParam)
+		stack_trace("Pod landingzone created with no pod")
+		return INITIALIZE_HINT_QDEL
 	if (ispath(podParam)) //We can pass either a path for a pod (as expressconsoles do), or a reference to an instantiated pod (as the centcom_podlauncher does)
 		podParam = new podParam() //If its just a path, instantiate it
 	pod = podParam
