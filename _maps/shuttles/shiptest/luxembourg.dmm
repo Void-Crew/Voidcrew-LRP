@@ -660,7 +660,8 @@
 /obj/item/gun/ballistic/shotgun/doublebarrel,
 /obj/item/storage/box/syndie_kit/chameleon,
 /obj/structure/closet/secure_closet/bar{
-	req_access = list(25,41)
+	req_access = null;
+	req_one_access = list(25,41)
 	},
 /turf/open/floor/plating,
 /area/ship/engineering)
@@ -968,7 +969,8 @@
 /obj/item/pipe_dispenser,
 /obj/item/clothing/under/syndicate/intern,
 /obj/structure/closet/secure_closet/engineering_personal{
-	req_access = list(11,41)
+	req_access = null;
+	req_one_access = list(11,41)
 	},
 /turf/open/floor/plating,
 /area/ship/engineering)
