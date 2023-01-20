@@ -23,7 +23,8 @@
 			break
 
 /obj/machinery/computer/pod/connect_to_shuttle(obj/docking_port/mobile/port, obj/docking_port/stationary/dock)
-	id = "[REF(port)][id]"
+	if(port)
+		id = "[REF(port)][id]"
 
 /obj/machinery/computer/pod/process(delta_time)
 	if(COOLDOWN_FINISHED(src, massdriver_countdown))
