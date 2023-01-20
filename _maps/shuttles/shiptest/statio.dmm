@@ -970,10 +970,7 @@
 "dM" = (
 /obj/machinery/suit_storage_unit/security,
 /obj/effect/turf_decal/corner/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/corner/red{
-	dir = 1
+	dir = 5
 	},
 /turf/open/floor/plasteel,
 /area/ship/security)
@@ -2452,8 +2449,7 @@
 "kd" = (
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "medbay_front_door";
-	name = "Medbay";
-	req_access_txt = "5"
+	name = "Medbay"
 	},
 /obj/effect/turf_decal/corner/blue{
 	dir = 8
@@ -3709,7 +3705,6 @@
 /area/ship)
 "oT" = (
 /obj/structure/table/reinforced,
-/obj/machinery/door/window/southright,
 /obj/machinery/door/window,
 /obj/machinery/door/window/southright{
 	dir = 1
@@ -4926,7 +4921,6 @@
 	},
 /obj/machinery/door/window/northleft{
 	name = "Captain's Desk";
-	req_access = null;
 	req_access_txt = "20"
 	},
 /turf/open/floor/wood,
@@ -5457,8 +5451,8 @@
 /obj/item/storage/backpack/duffelbag/med/surgery,
 /obj/structure/table/glass,
 /obj/item/clothing/mask/surgical,
-/obj/item/defibrillator,
 /obj/effect/turf_decal/corner/blue/three_quarters,
+/obj/item/storage/backpack/duffelbag/med/surgery,
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
 "wc" = (
@@ -5565,13 +5559,10 @@
 /area/ship/science)
 "wu" = (
 /obj/machinery/suit_storage_unit/security,
-/obj/effect/turf_decal/corner/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/corner/red{
-	dir = 1
-	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/effect/turf_decal/corner/red{
+	dir = 5
+	},
 /turf/open/floor/plasteel,
 /area/ship/security)
 "wy" = (
@@ -5688,9 +5679,6 @@
 /area/ship/science)
 "wW" = (
 /obj/structure/table/optable,
-/obj/machinery/defibrillator_mount{
-	pixel_x = 28
-	},
 /obj/machinery/light{
 	dir = 4
 	},
@@ -5699,6 +5687,9 @@
 	},
 /obj/effect/turf_decal/corner/blue{
 	dir = 6
+	},
+/obj/machinery/defibrillator_mount/loaded{
+	pixel_x = 28
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
@@ -7472,10 +7463,10 @@
 /obj/structure/table/glass,
 /obj/item/storage/backpack/duffelbag/med/surgery,
 /obj/item/clothing/mask/surgical,
-/obj/item/defibrillator,
 /obj/effect/turf_decal/corner/blue/three_quarters{
 	dir = 8
 	},
+/obj/item/storage/backpack/duffelbag/med/surgery,
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
 "Eo" = (
@@ -7763,8 +7754,7 @@
 "Fs" = (
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "medbay_front_door";
-	name = "Medbay";
-	req_access_txt = "5"
+	name = "Medbay"
 	},
 /obj/effect/turf_decal/corner/blue,
 /obj/effect/turf_decal/corner/blue{
@@ -8188,6 +8178,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ship/hallway/starboard)
+"GA" = (
+/turf/closed/wall,
+/area/ship/crew)
 "GE" = (
 /obj/machinery/mecha_part_fabricator,
 /obj/machinery/airalarm/directional/north,
@@ -9155,7 +9148,6 @@
 "KL" = (
 /obj/machinery/door/window/northleft{
 	name = "Custodial Cubby";
-	req_access = null;
 	req_access_txt = "26"
 	},
 /obj/structure/cable{
@@ -11073,8 +11065,6 @@
 /obj/machinery/door/window{
 	dir = 4
 	},
-/obj/item/storage/backpack/duffelbag/med/surgery,
-/obj/item/storage/backpack/duffelbag/med/surgery,
 /obj/item/clothing/suit/space/hardsuit/medical,
 /obj/item/defibrillator,
 /obj/effect/turf_decal/corner/blue/three_quarters{
@@ -12329,7 +12319,6 @@
 /obj/item/disk/nuclear,
 /obj/machinery/door/window/northleft{
 	name = "Captain's Desk";
-	req_access = null;
 	req_access_txt = "20"
 	},
 /obj/machinery/door/firedoor/border_only{
@@ -13950,7 +13939,7 @@ as
 wj
 qb
 Vy
-TV
+Id
 vW
 cZ
 bG
@@ -14008,7 +13997,7 @@ xN
 RY
 Kj
 wA
-TV
+Id
 fb
 ox
 SS
@@ -14049,24 +14038,24 @@ zs
 zc
 "}
 (22,1,1) = {"
-pn
-pn
+if
+if
 DM
-pn
-pn
-pn
-pn
-pn
-pn
-pn
-pn
-TV
+if
+if
+if
+if
+if
+if
+if
+if
+Id
 fu
-TV
-TV
-TV
-TV
-TV
+Id
+Id
+Id
+Id
+Id
 fN
 vC
 Qx
@@ -14230,16 +14219,16 @@ XI
 TV
 TV
 TV
-TV
-wr
-wr
+lH
+vV
+vV
 iq
-TV
-TV
+lH
+lH
 Fz
 OU
-TV
-TV
+oG
+oG
 KK
 Pc
 fZ
@@ -14691,19 +14680,19 @@ Mi
 Mi
 Mi
 Mi
-ir
+GA
 xm
-ir
-ir
-ku
-ku
+GA
+FK
+lz
+lz
 ix
-ir
-ir
-ir
+FK
+FK
+oG
 Hl
 HV
-ir
+oG
 ir
 ir
 yN
@@ -14865,12 +14854,12 @@ Mi
 kA
 xH
 Mi
-Rr
+tY
 Gt
-Rr
-Rr
-Rr
-Rr
+tY
+tY
+tY
+tY
 Xm
 Xm
 gY
