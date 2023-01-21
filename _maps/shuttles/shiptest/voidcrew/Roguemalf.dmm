@@ -152,7 +152,6 @@
 /obj/effect/turf_decal/industrial/outline/yellow,
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/donkpockets,
-/obj/effect/spawner/lootdrop/maintenance/eight,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/cargo)
 "dI" = (
@@ -361,10 +360,9 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
 	dir = 8
 	},
-/mob/living/simple_animal/slaughter{
-	faction = list("neutral");
-	desc = "A quiet, friendly fella who likes to hang around the AI. It would be a good idea to leave him alone.";
-	name = "Limon"
+/mob/living/simple_animal/crab/evil/kreb{
+	desc = "A friendly guy who- wait, what happend to Limon??";
+	name = "Guilty Kani"
 	},
 /turf/open/floor/circuit/airless,
 /area/ship/security/armory)
@@ -592,6 +590,7 @@
 	},
 /obj/structure/cable,
 /obj/item/stack/sheet/mineral/uranium/five,
+/obj/effect/turf_decal/industrial/radiation/full,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/maintenance/port)
 "mo" = (
@@ -685,6 +684,7 @@
 	icon_state = "0-2"
 	},
 /obj/item/stack/sheet/mineral/plasma/five,
+/obj/effect/turf_decal/industrial/radiation/full,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/maintenance/port)
 "oG" = (
@@ -756,7 +756,6 @@
 	dir = 6
 	},
 /obj/machinery/airalarm/directional/north,
-/obj/machinery/portable_atmospherics/canister/nitrous_oxide,
 /obj/machinery/light/floor,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
@@ -907,7 +906,7 @@
 /obj/item/multitool,
 /obj/item/storage/belt/utility,
 /obj/structure/table/reinforced,
-/obj/item/clothing/glasses/meson/night,
+/obj/item/clothing/glasses/meson,
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/ship/engineering)
 "sT" = (
@@ -969,12 +968,6 @@
 	dir = 9
 	},
 /obj/structure/table,
-/obj/item/organ/liver/cybernetic/upgraded/ipc,
-/obj/item/organ/stomach/cybernetic/tier3,
-/obj/item/organ/lungs/cybernetic/tier3,
-/obj/item/organ/liver/cybernetic/tier3,
-/obj/item/organ/heart/cybernetic/tier3,
-/obj/item/organ/ears/cybernetic/upgraded,
 /turf/open/floor/plasteel/patterned,
 /area/ship/science/robotics)
 "tL" = (
@@ -1319,7 +1312,6 @@
 /obj/effect/spawner/lootdrop/glowstick,
 /obj/effect/spawner/lootdrop/glowstick,
 /obj/effect/spawner/lootdrop/glowstick,
-/obj/effect/spawner/lootdrop/maintenance/eight,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/cargo)
 "Af" = (
@@ -1470,12 +1462,6 @@
 /area/ship/engineering)
 "DQ" = (
 /obj/structure/table,
-/obj/item/organ/liver/cybernetic/upgraded/ipc,
-/obj/item/organ/stomach/cybernetic/tier3,
-/obj/item/organ/lungs/cybernetic/tier3,
-/obj/item/organ/liver/cybernetic/tier3,
-/obj/item/organ/heart/cybernetic/tier3,
-/obj/item/organ/ears/cybernetic/upgraded,
 /turf/open/floor/plasteel/patterned,
 /area/ship/science/robotics)
 "Em" = (
@@ -2035,10 +2021,6 @@
 /obj/machinery/recharge_station,
 /turf/open/floor/mineral/plastitanium/airless,
 /area/ship/security/armory)
-"Nn" = (
-/obj/machinery/portable_atmospherics/canister/freon,
-/turf/open/floor/plating,
-/area/ship/engineering/atmospherics)
 "NF" = (
 /obj/machinery/camera/xray{
 	dir = 5
@@ -2585,7 +2567,7 @@
 /area/ship/cargo)
 "Xa" = (
 /obj/effect/turf_decal/rechargefloor,
-/obj/mecha/combat/durand,
+/obj/structure/mecha_wreckage/durand,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/purple,
 /area/ship/security)
@@ -3743,7 +3725,7 @@ uL
 uL
 MR
 MR
-Nn
+Ux
 jh
 ZN
 RU
@@ -3772,7 +3754,7 @@ uL
 uL
 nM
 MR
-Nn
+Ux
 Tf
 Dq
 MR
