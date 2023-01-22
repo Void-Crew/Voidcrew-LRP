@@ -1565,8 +1565,6 @@
 /turf/open/floor/pod/light,
 /area/ship/hallway/aft)
 "sW" = (
-/obj/item/restraints/handcuffs,
-/obj/item/restraints/handcuffs,
 /obj/structure/closet/wall{
 	dir = 4;
 	name = "armory locker";
@@ -1575,6 +1573,9 @@
 /obj/effect/turf_decal/siding/red{
 	dir = 9
 	},
+/obj/item/gun/energy/laser/terra,
+/obj/item/gun/energy/laser/terra,
+/obj/item/gun/energy/laser/terra,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
 "tb" = (
@@ -1583,15 +1584,15 @@
 	name = "armory locker";
 	pixel_x = 32
 	},
-/obj/item/gun/ballistic/shotgun/doublebarrel{
-	pixel_y = -5
-	},
-/obj/item/gun/ballistic/shotgun/lethal{
-	pixel_y = 4
-	},
 /obj/effect/turf_decal/siding/red{
 	dir = 5
 	},
+/obj/item/gun/ballistic/shotgun/automatic/dual_tube,
+/obj/item/gun/ballistic/shotgun/automatic/dual_tube,
+/obj/item/storage/box/slugshot,
+/obj/item/storage/box/rubbershot,
+/obj/item/storage/box/lethalshot,
+/obj/item/gun/ballistic/shotgun/automatic/dual_tube,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
 "tf" = (
@@ -2297,11 +2298,9 @@
 	name = "armory locker";
 	pixel_x = -32
 	},
-/obj/item/storage/box{
-	icon_state = "lethalshot_box";
-	name = "dusty shotshell box"
-	},
 /obj/machinery/light/dim,
+/obj/item/storage/box/handcuffs,
+/obj/item/storage/box/handcuffs,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
 "AP" = (
