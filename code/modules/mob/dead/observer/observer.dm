@@ -35,6 +35,7 @@ GLOBAL_VAR_INIT(observer_default_invisibility, INVISIBILITY_OBSERVER)
 	var/mob/observetarget = null	//The target mob that the ghost is observing. Used as a reference in logout()
 	var/ghost_hud_enabled = 1 //did this ghost disable the on-screen HUD?
 	var/data_huds_on = 0 //Are data HUDs currently enabled?
+	var/faction_hud_on = 0
 	var/health_scan = FALSE //Are health scans currently enabled?
 	var/chem_scan = FALSE //Are chem scans currently enabled?
 	var/gas_scan = FALSE //Are gas scans currently enabled?
@@ -147,7 +148,9 @@ GLOBAL_VAR_INIT(observer_default_invisibility, INVISIBILITY_OBSERVER)
 
 	grant_all_languages()
 	show_data_huds()
+	show_faction_huds()
 	data_huds_on = 1
+	faction_hud_on = 1
 
 
 /mob/dead/observer/get_photo_description(obj/item/camera/camera)
@@ -720,6 +723,16 @@ This is the proc mobs get to turn into a ghost. Forked from ghostize due to comp
 		var/datum/atom_hud/H = GLOB.huds[hudtype]
 		H.remove_hud_from(src)
 
+/mob/dead/observer/proc/show_faction_huds()
+	for(var/datum/atom_hud/faction/H in GLOB.huds) // add faction huds
+		H.add_hud_to(src)
+
+
+/mob/dead/observer/proc/remove_faction_huds()
+	for(var/datum/atom_hud/faction/H in GLOB.huds) // remove faction huds
+		H.add_hud_to(src)
+
+
 /mob/dead/observer/verb/toggle_data_huds()
 	set name = "Toggle Sec/Med/Diag HUD"
 	set desc = "Toggles whether you see medical/security/diagnostic HUDs"
@@ -733,6 +746,20 @@ This is the proc mobs get to turn into a ghost. Forked from ghostize due to comp
 		show_data_huds()
 		to_chat(src, "<span class='notice'>Data HUDs enabled.</span>")
 		data_huds_on = 1
+
+/mob/dead/observer/verb/toggle_faction_hud()
+	set name = "Toggle Faction HUD"
+	set desc = "Toggles whether you see the Faction HUD"
+	set category = "Ghost"
+
+	if(faction_hud_on) //remove old huds
+		remove_faction_huds()
+		to_chat(src, "<span class='notice'>Faction HUD disabled.</span>")
+		faction_hud_on = 0
+	else
+		show_faction_huds()
+		to_chat(src, "<span class='notice'>Faction HUD enabled.</span>")
+		faction_hud_on = 1
 
 /mob/dead/observer/verb/toggle_health_scan()
 	set name = "Toggle Health Scan"
