@@ -730,7 +730,7 @@ This is the proc mobs get to turn into a ghost. Forked from ghostize due to comp
 
 /mob/dead/observer/proc/remove_faction_huds()
 	for(var/datum/atom_hud/faction/H in GLOB.huds) // remove faction huds
-		H.add_hud_to(src)
+		H.remove_hud_from(src)
 
 
 /mob/dead/observer/verb/toggle_data_huds()
