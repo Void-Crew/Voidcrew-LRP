@@ -480,7 +480,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering/electrical)
 "fg" = (
-/obj/machinery/suit_storage_unit/mining/eva,
+/obj/machinery/suit_storage_unit/syndicate,
 /obj/item/radio/intercom{
 	pixel_x = 28
 	},
@@ -841,7 +841,7 @@
 	dir = 8;
 	pixel_x = 24
 	},
-/obj/machinery/suit_storage_unit/mining/eva,
+/obj/machinery/suit_storage_unit/syndicate,
 /obj/machinery/light{
 	dir = 4
 	},
@@ -963,6 +963,9 @@
 /obj/effect/turf_decal/siding/red{
 	dir = 5
 	},
+/obj/machinery/vending/security/marine{
+	pixel_y = 32
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
 "lT" = (
@@ -1041,7 +1044,7 @@
 /turf/open/floor/pod/light,
 /area/ship/cargo)
 "mz" = (
-/obj/structure/ore_box,
+/obj/structure/closet/crate/secure/weapon,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -1049,6 +1052,8 @@
 /obj/effect/turf_decal/siding/yellow{
 	dir = 1
 	},
+/obj/item/gun/medbeam,
+/obj/item/gun/medbeam,
 /turf/open/floor/pod/dark,
 /area/ship/cargo)
 "mC" = (
@@ -1171,7 +1176,7 @@
 	pixel_x = -8;
 	pixel_y = -24
 	},
-/obj/machinery/suit_storage_unit/mining/eva,
+/obj/machinery/suit_storage_unit/syndicate,
 /obj/machinery/power/apc/auto_name/east,
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -1935,7 +1940,7 @@
 /obj/effect/turf_decal/techfloor/orange{
 	dir = 6
 	},
-/obj/machinery/suit_storage_unit/engine,
+/obj/machinery/suit_storage_unit/syndicate,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/hallway/aft)
 "wW" = (
@@ -2885,7 +2890,7 @@
 	},
 /obj/machinery/light,
 /obj/effect/turf_decal/techfloor/orange,
-/obj/machinery/suit_storage_unit/engine,
+/obj/machinery/suit_storage_unit/syndicate,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/hallway/aft)
 "HY" = (
@@ -3236,7 +3241,7 @@
 /obj/effect/turf_decal/techfloor/orange{
 	dir = 10
 	},
-/obj/machinery/suit_storage_unit/engine,
+/obj/machinery/suit_storage_unit/syndicate,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/hallway/aft)
 "LV" = (
@@ -3966,11 +3971,17 @@
 /turf/open/floor/pod/light,
 /area/ship/cargo)
 "Tu" = (
-/obj/structure/ore_box,
+/obj/structure/closet/crate/secure/weapon,
 /obj/effect/turf_decal/box,
 /obj/effect/turf_decal/siding/yellow{
 	dir = 9
 	},
+/obj/item/gun/ballistic/automatic/ak47,
+/obj/item/gun/ballistic/automatic/ak47,
+/obj/item/ammo_box/magazine/ak47,
+/obj/item/ammo_box/magazine/ak47,
+/obj/item/ammo_box/magazine/ak47,
+/obj/item/ammo_box/magazine/ak47,
 /turf/open/floor/pod/dark,
 /area/ship/cargo)
 "Tv" = (
