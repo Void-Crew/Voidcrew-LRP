@@ -232,7 +232,7 @@
 	if(!(flags_1 & NODECONSTRUCT_1))
 		open_machine()
 		dump_contents()
-		new /obj/item/stack/sheet/metal (loc, 2)
+		spawn_frame(TRUE)
 	qdel(src)
 
 /obj/machinery/suit_storage_unit/interact(mob/living/user)
@@ -527,35 +527,17 @@
 	if(panel_open && is_wire_tool(I))
 		wires.interact(user)
 		return
-	if(!state_open)
-		if(default_deconstruction_screwdriver(user, "[base_icon_state]", "[base_icon_state]", I))
-			update_icon()
-			return
+	if(panel_open && I.tool_behaviour == TOOL_CROWBAR)
+		default_deconstruction_crowbar(I)
+		return
+	if(default_deconstruction_screwdriver(user, "[base_icon_state]", "[base_icon_state]", I))
+		update_icon()
+		return
 	if(default_pry_open(I))
 		dump_contents()
 		return
 
 	return ..()
-
-/*	ref tg-git issue #45036
-	screwdriving it open while it's running a decontamination sequence without closing the panel prior to finish
-	causes the SSU to break due to state_open being set to TRUE at the end, and the panel becoming inaccessible.
-*/
-/obj/machinery/suit_storage_unit/default_deconstruction_screwdriver(mob/user, icon_state_open, icon_state_closed, obj/item/I)
-	if(!(flags_1 & NODECONSTRUCT_1) && I.tool_behaviour == TOOL_SCREWDRIVER && uv)
-		to_chat(user, "<span class='warning'>It might not be wise to fiddle with [src] while it's running...</span>")
-		return TRUE
-	return ..()
-
-
-/obj/machinery/suit_storage_unit/default_pry_open(obj/item/I)//needs to check if the storage is locked.
-	. = !(state_open || panel_open || is_operational() || locked || (flags_1 & NODECONSTRUCT_1)) && I.tool_behaviour == TOOL_CROWBAR
-	if(.)
-		I.play_tool_sound(src, 50)
-		visible_message("<span class='notice'>[usr] pries open \the [src].</span>", "<span class='notice'>You pry open \the [src].</span>")
-		open_machine()
-
-// Mapping helper unit takes whatever lies on top of it
 /obj/machinery/suit_storage_unit/inherit/Initialize(mapload)
 	. = ..()
 	if(mapload)
