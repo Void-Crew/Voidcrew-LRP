@@ -28,6 +28,9 @@
 	design_ids = list("bluespace_miner", "miningcore_shell")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
 
+/datum/techweb_node/engineering/New()
+	design_ids |= list("ssu")
+
 /////////////////////////shuttle tech/////////////////////////
 /datum/techweb_node/basic_shuttle_tech
 	id = "basic_shuttle"

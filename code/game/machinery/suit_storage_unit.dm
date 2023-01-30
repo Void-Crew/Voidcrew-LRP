@@ -232,7 +232,6 @@
 	if(!(flags_1 & NODECONSTRUCT_1))
 		open_machine()
 		dump_contents()
-		spawn_frame(TRUE)
 	qdel(src)
 
 /obj/machinery/suit_storage_unit/interact(mob/living/user)
@@ -527,8 +526,7 @@
 	if(panel_open && is_wire_tool(I))
 		wires.interact(user)
 		return
-	if(panel_open && I.tool_behaviour == TOOL_CROWBAR)
-		default_deconstruction_crowbar(I)
+	if(default_deconstruction_crowbar(I))
 		return
 	if(default_deconstruction_screwdriver(user, "[base_icon_state]", "[base_icon_state]", I))
 		update_icon()

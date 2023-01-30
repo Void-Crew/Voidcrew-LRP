@@ -46,6 +46,14 @@
 	category = list("Misc. Machinery")
 	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_CARGO | DEPARTMENTAL_FLAG_ENGINEERING
 
+/datum/design/board/ssu
+	name = "Machine Design (Suit Storage Unit)"
+	desc = "An industrial unit made to hold and decontaminate equipment with a built-in UV cauterization mechanism."
+	id = "ssu"
+	build_path = /obj/item/circuitboard/machine/ssu
+	category = list ("Misc. Machinery")
+	departmental_flags = DEPARTMENTAL_FLAG_ENGINEERING
+
 ///////////////////////////////////////////
 //////////////Shuttle Boards///////////////
 ///////////////////////////////////////////

@@ -1,3 +1,5 @@
+/obj/machinery/suit_storage_unit
+	circuit = /obj/item/circuitboard/machine/ssu
 /obj/machinery/suit_storage_unit/solgov
 	name = "solgov suit storage unit"
 	suit_type = /obj/item/clothing/suit/space/solgov

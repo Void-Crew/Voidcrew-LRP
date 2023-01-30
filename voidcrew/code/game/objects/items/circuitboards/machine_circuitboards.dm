@@ -166,3 +166,14 @@
 		/obj/item/stock_parts/capacitor = 1,
 		/obj/item/stack/sheet/glass = 1
 	)
+
+/obj/item/circuitboard/machine/ssu
+	name = "Suit Storage Unit (Machine Board)"
+	build_path = /obj/machinery/suit_storage_unit
+	req_components = list(
+		/obj/item/stack/cable_coil = 3,
+		/obj/item/stock_parts/capacitor = 1,
+		/obj/item/stock_parts/micro_laser = 1,
+		/obj/item/stack/sheet/glass = 1
+	)
+	needs_anchored = TRUE
