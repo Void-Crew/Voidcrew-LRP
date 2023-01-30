@@ -232,6 +232,12 @@
 	if(!(flags_1 & NODECONSTRUCT_1))
 		open_machine()
 		dump_contents()
+		on_deconstruction() // Copy pasted from -machinery, im certain theres a way to add the above on to the deconstruct proc, like |= or smthn, but I give up
+		if(component_parts && component_parts.len)
+			spawn_frame(disassembled)
+			for(var/obj/item/I in component_parts)
+				I.forceMove(loc)
+			component_parts.Cut()
 	qdel(src)
 
 /obj/machinery/suit_storage_unit/interact(mob/living/user)
