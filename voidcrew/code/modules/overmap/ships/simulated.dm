@@ -335,6 +335,7 @@
 				if(repair_timer)
 					deltimer(repair_timer)
 				addtimer(CALLBACK(src, /obj/structure/overmap/ship/.proc/tick_autopilot), 5 SECONDS) //TODO: Improve this SOMEHOW
+	calculate_mass()
 	update_screen()
 
 /obj/structure/overmap/ship/simulated/get_eta()
