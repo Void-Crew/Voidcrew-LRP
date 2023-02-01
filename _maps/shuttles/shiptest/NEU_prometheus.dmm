@@ -76,9 +76,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/airalarm/directional/south,
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
-	dir = 2
-	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -375,7 +373,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 1
 	},
-/obj,
 /turf/closed/wall/mineral/titanium,
 /area/ship/engineering/atmospherics)
 "jc" = (
@@ -621,6 +618,7 @@
 	pixel_y = 20
 	},
 /obj/effect/decal/cleanable/confetti,
+/obj/machinery/camera,
 /turf/open/floor/plasteel/patterned,
 /area/ship/crew/janitor)
 "mQ" = (
@@ -796,6 +794,9 @@
 	pixel_x = 10;
 	dir = 1
 	},
+/obj/machinery/camera{
+	dir = 4
+	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/bridge)
 "pV" = (
@@ -812,9 +813,7 @@
 	icon_state = "1-4"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
-	dir = 2
-	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
 /turf/open/floor/mineral/titanium/white,
 /area/ship/crew/toilet)
 "qo" = (
@@ -905,6 +904,9 @@
 	pixel_x = -32
 	},
 /obj/item/toy/gun,
+/obj/machinery/camera{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/ship/medical)
 "rV" = (
@@ -1198,7 +1200,6 @@
 "yV" = (
 /obj/item/reagent_containers/glass/bucket,
 /obj/item/mop,
-/obj/machinery/camera,
 /obj/item/storage/bag/trash,
 /obj/machinery/light{
 	dir = 1
@@ -1327,7 +1328,6 @@
 /area/ship/crew/dorm)
 "BY" = (
 /obj/effect/spawner/structure/window/shuttle,
-/obj/structure/grille,
 /obj/machinery/door/poddoor/shutters{
 	id = 48
 	},
@@ -1511,9 +1511,6 @@
 	},
 /obj/structure/curtain,
 /obj/item/soap,
-/obj/machinery/camera{
-	dir = 10
-	},
 /obj/machinery/door/window/survival_pod{
 	dir = 1
 	},
@@ -2118,9 +2115,6 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -26
 	},
-/obj/machinery/camera{
-	dir = 4
-	},
 /obj/machinery/light{
 	dir = 8
 	},
@@ -2358,9 +2352,6 @@
 /obj/item/restraints/legcuffs/bola,
 /obj/item/storage/box/zipties,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/camera{
-	dir = 5
-	},
 /obj/machinery/light{
 	dir = 8
 	},
