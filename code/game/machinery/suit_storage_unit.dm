@@ -535,15 +535,8 @@
 	if(default_deconstruction_crowbar(I))
 		return
 	if(default_deconstruction_screwdriver(user, "[base_icon_state]", "[base_icon_state]", I))
-		/*	ref tg-git issue #45036
-		screwdriving it open while it's running a decontamination sequence without closing the panel prior to finish
-		causes the SSU to break due to state_open being set to TRUE at the end, and the panel becoming inaccessible.
-		*/
-		if(!(flags_1 & NODECONSTRUCT_1) && I.tool_behaviour == TOOL_SCREWDRIVER && uv)
-			to_chat(user, "<span class='warning'>It might not be wise to fiddle with [src] while it's running...</span>")
-			return TRUE
-		return ..()
 		update_icon()
+		return
 	if(default_pry_open(I))
 		dump_contents()
 		return
