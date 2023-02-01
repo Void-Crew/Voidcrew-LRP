@@ -269,6 +269,10 @@
 /obj/item/t_scanner/adv_mining_scanner/lesser,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/storage)
+"eP" = (
+/obj/machinery/light/floor,
+/turf/open/floor/plating,
+/area/ship/external)
 "fi" = (
 /obj/machinery/power/port_gen/pacman/uranium,
 /obj/effect/turf_decal/radiation/white,
@@ -1352,6 +1356,9 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
+"wJ" = (
+/turf/open/floor/plating,
+/area/ship/external)
 "wP" = (
 /obj/effect/turf_decal/industrial/outline,
 /turf/open/floor/plasteel/tech/techmaint,
@@ -1697,6 +1704,11 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/tech,
 /area/ship/hallway/central)
+"BH" = (
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/turf/open/space/basic,
+/area/ship/external)
 "Ck" = (
 /obj/structure/sink{
 	dir = 4;
@@ -2879,6 +2891,7 @@
 	pixel_x = -24
 	},
 /obj/item/disk/design_disk/ammo_c10mm,
+/obj/item/construction/plumbing,
 /turf/open/floor/carpet/red,
 /area/ship/cargo/office)
 "Wc" = (
@@ -3118,8 +3131,8 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/hallway/central)
 "Zb" = (
-/obj/structure/lattice,
-/turf/template_noop,
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
 /area/ship/external)
 "Zg" = (
 /obj/effect/turf_decal/industrial/warning{
@@ -3338,7 +3351,7 @@ sE
 CW
 "}
 (9,1,1) = {"
-Zb
+BH
 JL
 iT
 iT
@@ -3378,7 +3391,7 @@ nn
 Zb
 "}
 (11,1,1) = {"
-Zb
+BH
 nn
 YI
 Sh
@@ -3398,7 +3411,7 @@ nn
 Zb
 "}
 (12,1,1) = {"
-Zb
+BH
 nn
 cs
 FA
@@ -3418,8 +3431,8 @@ nn
 Zb
 "}
 (13,1,1) = {"
-Zb
-Zb
+BH
+BH
 cs
 wA
 Lv
@@ -3438,7 +3451,7 @@ Zb
 Zb
 "}
 (14,1,1) = {"
-Zb
+BH
 nn
 cs
 HT
@@ -3458,7 +3471,7 @@ nn
 Zb
 "}
 (15,1,1) = {"
-Zb
+BH
 nn
 YI
 MO
@@ -3724,16 +3737,16 @@ oz
 oz
 oz
 fV
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+eP
+wJ
+wJ
+wJ
+eP
+wJ
+wJ
+wJ
+eP
+wJ
 LC
 uP
 "}
