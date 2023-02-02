@@ -181,37 +181,6 @@
 	else
 		status_flags &= ~GODMODE
 
-// Bar table, a wooden table that kicks you in a direction if you're not
-// barstaff (defined as someone who was a roundstart bartender or someone
-// with CENTCOM_BARSTAFF)
-
-/obj/structure/table/wood/bar
-	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF
-	flags_1 = NODECONSTRUCT_1
-	max_integrity = 1000
-	var/boot_dir = 1
-
-/obj/structure/table/wood/bar/Crossed(atom/movable/AM)
-	if(isliving(AM) && !is_barstaff(AM))
-		// No climbing on the bar please
-		var/mob/living/M = AM
-		var/throwtarget = get_edge_target_turf(src, boot_dir)
-		M.Paralyze(40)
-		M.throw_at(throwtarget, 5, 1)
-		to_chat(M, "<span class='notice'>No climbing on the bar please.</span>")
-	else
-		. = ..()
-
-/obj/structure/table/wood/bar/proc/is_barstaff(mob/living/user)
-	. = FALSE
-	if(ishuman(user))
-		var/mob/living/carbon/human/H = user
-		if(H.mind && H.mind.assigned_role == "Bartender")
-			return TRUE
-
-	var/obj/item/card/id/ID = user.get_idcard(FALSE)
-	if(ID && (ACCESS_CENT_BAR in ID.access))
-		return TRUE
 
 //Luxury Shuttle Blockers
 
