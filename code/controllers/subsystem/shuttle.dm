@@ -302,9 +302,9 @@ SUBSYSTEM_DEF(shuttle)
 	template.load(BL, centered = FALSE, register = FALSE)
 
 	var/affected = template.get_affected_turfs(BL, centered=FALSE)
+	var/obj/docking_port/mobile/new_shuttle
 
 	var/found = 0
-	var/obj/docking_port/mobile/new_shuttle
 	// Search the turfs for docking ports
 	// - We need to find the mobile docking port because that is the heart of
 	//   the shuttle.
