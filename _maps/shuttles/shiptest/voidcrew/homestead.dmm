@@ -1406,6 +1406,12 @@
 /obj/machinery/power/apc/auto_name/east,
 /turf/open/floor/circuit/airless,
 /area/ship/engineering/communications)
+"AB" = (
+/obj/structure/toilet{
+	dir = 1
+	},
+/turf/open/floor/wood/bamboo,
+/area/ship/crew/toilet)
 "AF" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
@@ -2104,7 +2110,6 @@
 /obj/machinery/door/airlock/wood{
 	name = "Outhouse"
 	},
-/obj/structure/fans/tiny,
 /turf/open/floor/wood/bamboo,
 /area/ship/crew/toilet)
 "Ne" = (
@@ -2623,8 +2628,15 @@
 /turf/open/floor/wood/yew,
 /area/ship/crew/canteen)
 "VY" = (
-/obj/structure/toilet{
-	dir = 8
+/obj/structure/table/wood,
+/obj/item/storage/fancy/candle_box{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/item/candle,
+/obj/item/storage/box/matches{
+	pixel_x = 8;
+	pixel_y = 4
 	},
 /turf/open/floor/wood/bamboo,
 /area/ship/crew/toilet)
@@ -4233,7 +4245,7 @@ Sr
 iK
 Nc
 Ux
-Ux
+AB
 vD
 Sr
 Sr
