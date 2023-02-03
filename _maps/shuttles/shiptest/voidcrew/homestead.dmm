@@ -17,6 +17,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/storage)
+"an" = (
+/obj/machinery/shower{
+	pixel_y = 24
+	},
+/obj/structure/curtain/bounty,
+/turf/open/floor/wood/bamboo,
+/area/ship/crew/toilet)
 "ay" = (
 /obj/machinery/suit_storage_unit/ert/command,
 /turf/open/floor/engine,
@@ -421,7 +428,7 @@
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/external)
 "ht" = (
-/obj/structure/cable/yellow{
+/obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/structure/fireaxecabinet{
@@ -598,7 +605,7 @@
 /obj/machinery/power/terminal{
 	dir = 8
 	},
-/obj/structure/cable/yellow{
+/obj/structure/cable{
 	icon_state = "0-4"
 	},
 /obj/structure/sign/poster/random{
@@ -941,7 +948,7 @@
 /obj/machinery/power/terminal{
 	dir = 8
 	},
-/obj/structure/cable/yellow{
+/obj/structure/cable{
 	icon_state = "0-4"
 	},
 /turf/open/floor/plating,
@@ -1140,6 +1147,9 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/ship/external)
+"vD" = (
+/turf/closed/wall/mineral/wood/nonmetal,
+/area/ship/crew/toilet)
 "vF" = (
 /obj/machinery/processor,
 /turf/open/floor/plasteel/mono/dark,
@@ -1178,10 +1188,10 @@
 /turf/open/floor/plating,
 /area/ship/maintenance/central)
 "wc" = (
-/obj/structure/cable/yellow{
+/obj/structure/cable{
 	icon_state = "2-8"
 	},
-/obj/structure/cable/yellow{
+/obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/machinery/cell_charger,
@@ -1445,9 +1455,7 @@
 /turf/open/floor/wood/mahogany,
 /area/ship/storage)
 "BH" = (
-/obj/machinery/door/airlock/vault{
-	req_access_txt = "12"
-	},
+/obj/machinery/door/airlock/vault,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/storage)
 "BI" = (
@@ -1829,6 +1837,7 @@
 	},
 /obj/machinery/light,
 /obj/structure/closet/secure_closet/captains,
+/obj/item/gun/energy/laser/captain,
 /turf/open/floor/wood/bamboo,
 /area/ship/crew/dorm)
 "HY" = (
@@ -2043,7 +2052,9 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
 	},
-/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
 /turf/open/floor/plating,
 /area/ship/maintenance/central)
 "LV" = (
@@ -2080,14 +2091,22 @@
 /area/ship/crew/canteen)
 "MS" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plating,
 /area/ship/maintenance/central)
 "MU" = (
-/obj/structure/cable/yellow{
+/obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
 /area/ship/maintenance/central)
+"Nc" = (
+/obj/machinery/door/airlock/wood{
+	name = "Outhouse"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/wood/bamboo,
+/area/ship/crew/toilet)
 "Ne" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/mono/dark,
@@ -2210,6 +2229,10 @@
 /obj/item/areaeditor/shuttle{
 	pixel_y = 5
 	},
+/obj/item/gun/energy/laser/hitscanpistol{
+	pixel_y = 5
+	},
+/obj/item/gun/energy/laser/hitscanpistol,
 /turf/open/floor/wood/yew,
 /area/ship/bridge)
 "Pj" = (
@@ -2276,7 +2299,7 @@
 /turf/open/floor/mineral/titanium,
 /area/ship/external)
 "Qw" = (
-/obj/structure/cable/yellow{
+/obj/structure/cable{
 	icon_state = "2-8"
 	},
 /turf/open/floor/plating,
@@ -2475,6 +2498,9 @@
 /obj/structure/bonfire,
 /turf/open/floor/plating/dirt,
 /area/ship/external)
+"Ux" = (
+/turf/open/floor/wood/bamboo,
+/area/ship/crew/toilet)
 "UA" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2596,6 +2622,12 @@
 /obj/item/clothing/glasses/meson,
 /turf/open/floor/wood/yew,
 /area/ship/crew/canteen)
+"VY" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/turf/open/floor/wood/bamboo,
+/area/ship/crew/toilet)
 "Wd" = (
 /obj/machinery/light{
 	dir = 8
@@ -2631,13 +2663,15 @@
 /turf/open/floor/circuit/airless,
 /area/ship/engineering/communications)
 "WB" = (
-/obj/structure/cable/yellow{
+/obj/structure/cable{
 	icon_state = "2-8"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plating,
 /area/ship/maintenance/central)
 "WL" = (
@@ -2842,10 +2876,10 @@
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/storage)
 "YH" = (
-/obj/structure/cable/yellow{
+/obj/structure/cable{
 	icon_state = "1-8"
 	},
-/obj/structure/cable/yellow{
+/obj/structure/cable{
 	icon_state = "2-8"
 	},
 /turf/open/floor/plating,
@@ -4155,10 +4189,10 @@ Sr
 Sr
 Sr
 iK
-Sr
-Sr
-Sr
-Sr
+vD
+vD
+vD
+vD
 Sr
 Sr
 Sr
@@ -4197,10 +4231,10 @@ Sr
 Sr
 Sr
 iK
-Sr
-Sr
-Sr
-Sr
+Nc
+Ux
+Ux
+vD
 Sr
 Sr
 Sr
@@ -4239,10 +4273,10 @@ Sr
 Sr
 Sr
 iK
-Sr
-Sr
-Sr
-Sr
+vD
+an
+VY
+vD
 Sr
 Sr
 Sr
@@ -4281,10 +4315,10 @@ Sr
 Sr
 Sr
 iK
-Sr
-Sr
-Sr
-Sr
+vD
+vD
+vD
+vD
 Sr
 Sr
 Sr
