@@ -122,7 +122,6 @@
 /obj/item/clothing/under/solgov/formal,
 /obj/item/clothing/head/solgov,
 /obj/item/gun/ballistic/revolver/detective{
-	current_skin = null;
 	name = "\improper SolGov Officer's Pistol"
 	},
 /obj/item/clothing/suit/toggle/solgov,
@@ -413,6 +412,10 @@
 	pixel_y = 12
 	},
 /obj/machinery/vending/security/marine/solgov,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/ship/security)
 "pW" = (
 /obj/effect/turf_decal/industrial/warning{
