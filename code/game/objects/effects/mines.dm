@@ -37,7 +37,7 @@
 /obj/effect/mine/explosive
 	name = "explosive mine"
 	var/range_devastation = 0
-	var/range_heavy = 1
+	var/range_heavy = 0
 	var/range_light = 2
 	var/range_flash = 3
 
