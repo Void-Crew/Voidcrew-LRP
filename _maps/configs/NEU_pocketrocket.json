@@ -1,0 +1,20 @@
+{
+	"map_name": "pocketrocket-class general purpose ship",
+	"map_short_name": "multipurpose-class",
+	"prefix": "NEU",
+	"map_path": "_maps/shuttles/shiptest/voidcrew/pocketrocket.dmm",
+	"map_id": "pocketrocket",
+	"limit": 3,
+	"job_slots": {
+		"Pilot": {
+			"outfit": "/datum/outfit/job/captain",
+			"officer": true,
+			"slots": 1
+		},
+				"Civilian": {
+			"outfit": "/datum/outfit/job/assistant",
+			"slots": 4
+		}
+	},
+	"cost": 150
+}
