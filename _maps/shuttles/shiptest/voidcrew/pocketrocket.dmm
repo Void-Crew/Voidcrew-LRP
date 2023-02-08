@@ -695,7 +695,10 @@
 	dir = 1;
 	on = 1
 	},
-/obj/docking_port/mobile,
+/obj/docking_port/mobile{
+	launch_status = 0;
+	port_direction = 2
+	},
 /obj/machinery/button/door{
 	id = "pocketdoor";
 	name = "Bay doors";
