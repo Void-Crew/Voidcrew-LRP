@@ -695,6 +695,13 @@
 	dir = 1;
 	on = 1
 	},
+/obj/docking_port/mobile,
+/obj/machinery/button/door{
+	id = "pocketdoor";
+	name = "Bay doors";
+	pixel_x = -25;
+	pixel_y = 5
+	},
 /turf/open/floor/plating,
 /area/ship/cargo)
 "XD" = (
