@@ -335,6 +335,8 @@ SUBSYSTEM_DEF(explosions)
 				var/atom/A = I
 				if (length(A.contents) && !(A.flags_1 & PREVENT_CONTENTS_EXPLOSION_1)) //The atom/contents_explosion() proc returns null if the contents ex_acting has been handled by the atom, and TRUE if it hasn't.
 					items += A.GetAllContents()
+				if(isliving(A))
+					items -= A
 			for(var/O in items)
 				var/atom/A = O
 				if(!QDELETED(A))
