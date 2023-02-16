@@ -356,7 +356,9 @@
 "oU" = (
 /obj/effect/turf_decal/corner/red/mono,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
-/obj/machinery/suit_storage_unit/ert/security,
+/obj/machinery/suit_storage_unit/ert/security{
+	storage_type = /obj/item/tank/jetpack/oxygen
+	},
 /turf/open/floor/mineral/titanium,
 /area/ship/security)
 "po" = (
@@ -535,7 +537,9 @@
 "tQ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/corner/red/mono,
-/obj/machinery/suit_storage_unit/ert/security,
+/obj/machinery/suit_storage_unit/ert/security{
+	storage_type = /obj/item/tank/jetpack/oxygen
+	},
 /turf/open/floor/mineral/titanium,
 /area/ship/security)
 "uj" = (
@@ -785,7 +789,9 @@
 /area/ship/bridge)
 "Gw" = (
 /obj/effect/turf_decal/corner/red/mono,
-/obj/machinery/suit_storage_unit/ert/security,
+/obj/machinery/suit_storage_unit/ert/security{
+	storage_type = /obj/item/tank/jetpack/oxygen
+	},
 /turf/open/floor/mineral/titanium,
 /area/ship/security)
 "Gy" = (

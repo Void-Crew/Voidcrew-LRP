@@ -119,9 +119,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
-/obj/structure/table/wood,
-/obj/item/storage/backpack/duffelbag/med/surgery,
-/turf/open/floor/carpet/royalblack,
+/turf/open/floor/wood,
 /area/ship/medical)
 "av" = (
 /obj/structure/cable/cyan{
@@ -172,13 +170,6 @@
 /area/ship/maintenance/aft)
 "aC" = (
 /obj/machinery/iv_drip,
-/turf/open/floor/wood,
-/area/ship/medical)
-"aF" = (
-/obj/machinery/sleeper{
-	icon_state = "sleeper_clockwork-open";
-	dir = 1
-	},
 /turf/open/floor/wood,
 /area/ship/medical)
 "aG" = (
@@ -283,8 +274,8 @@
 /area/ship/crew/chapel)
 "aV" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/sleeper{
-	icon_state = "sleeper_clockwork-open"
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
 	},
 /turf/open/floor/wood,
 /area/ship/medical)
@@ -422,7 +413,7 @@
 "bq" = (
 /obj/machinery/door/airlock{
 	icon = 'icons/obj/doors/airlocks/station/uranium.dmi';
-	name = "Hospital"
+	name = "Hallway"
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -537,15 +528,58 @@
 /turf/open/floor/plasteel/white,
 /area/ship/security)
 "bJ" = (
-/obj/effect/turf_decal/industrial/outline/yellow,
-/obj/machinery/light{
-	dir = 8
+/obj/structure/closet/crate/miningcar{
+	name = "mining car"
+	},
+/obj/item/pickaxe/emergency{
+	attack_verb = list("hit","spelled","cantripped","ensorceled");
+	desc = "Forged by the greatest smiths of the academy, enchanted by the archmagus council, this is a TRUE boulder eradicator.";
+	icon = 'icons/obj/guns/magic.dmi';
+	icon_state = "staffofflight";
+	name = "staff of rock removal"
+	},
+/obj/item/pickaxe/emergency{
+	attack_verb = list("hit","spelled","cantripped","ensorceled");
+	desc = "Forged by the greatest smiths of the academy, enchanted by the archmagus council, this is a TRUE boulder eradicator.";
+	icon = 'icons/obj/guns/magic.dmi';
+	icon_state = "staffofflight";
+	name = "staff of rock removal"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/obj/item/storage/firstaid,
+/obj/item/clothing/glasses/meson{
+	icon_state = "jamjar_glasses";
+	desc = "Used by wizards to see the terrain of an area.";
+	name = "glasses of terrain-sight"
+	},
+/obj/item/clothing/glasses/meson{
+	icon_state = "jamjar_glasses";
+	desc = "Used by wizards to see the terrain of an area.";
+	name = "glasses of terrain-sight"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/mining_scanner{
+	desc = "A grimoire penned by the mighty magus Antoras. Revelations of Rock is regarded as one of the most important and influential tomes to ever grace the Federation, granting it's reader the ability to divine minerals. And we mean REALLY divine. The book contains detailed information on hundreds of thousands of types of soil, minerals, gemstones, and more. A wizard wielding this tome could indeed, within seconds, precisely deduce how many individual grains of sand were on a planet. This tome alone is touted as the grandfather of the modern Wizard Federation, and certainly is responsible for your gem-encrusted hardsuits and your emerald-plated vessel. Your operations will, through the power of this stony grimoire, surely proceed smooth as slate and clear as crystal. That.. being said... It would appear that some, okay well, MOST of the pages have been ripped out of this copy. Through your wizardly intellect however, you deduce that missing pages will not lessen it's power. After all, tomes don't ACTUALLY utilize those pages, right?";
+	icon = 'icons/obj/library.dmi';
+	icon_state = "book";
+	name = "The Grimoire of Rock Revelation"
+	},
+/obj/item/mining_scanner{
+	desc = "A grimoire penned by the mighty magus Antoras. Revelations of Rock is regarded as one of the most important and influential tomes to ever grace the Federation, granting it's reader the ability to divine minerals. And we mean REALLY divine. The book contains detailed information on hundreds of thousands of types of soil, minerals, gemstones, and more. A wizard wielding this tome could indeed, within seconds, precisely deduce how many individual grains of sand were on a planet. This tome alone is touted as the grandfather of the modern Wizard Federation, and certainly is responsible for your gem-encrusted hardsuits and your emerald-plated vessel. Your operations will, through the power of this stony grimoire, surely proceed smooth as slate and clear as crystal. That.. being said... It would appear that some, okay well, MOST of the pages have been ripped out of this copy. Through your wizardly intellect however, you deduce that missing pages will not lessen it's power. After all, tomes don't ACTUALLY utilize those pages, right?";
+	icon = 'icons/obj/library.dmi';
+	icon_state = "book";
+	name = "The Grimoire of Rock Revelation"
+	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
-/obj/structure/closet/crate,
+/obj/effect/turf_decal/industrial/outline/yellow,
+/obj/machinery/light/small{
+	brightness = 3;
+	dir = 8
+	},
 /turf/open/floor/plasteel,
 /area/ship/maintenance/central)
 "bK" = (
@@ -751,6 +785,10 @@
 /obj/item/clothing/suit/space/hardsuit/wizard,
 /obj/machinery/airalarm/directional/south,
 /obj/item/clothing/gloves/combat/wizard,
+/obj/machinery/light/small{
+	brightness = 3;
+	dir = 8
+	},
 /turf/open/floor/bronze,
 /area/ship/maintenance/central)
 "ch" = (
@@ -973,10 +1011,10 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 1
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 4
 	},
-/turf/open/floor/carpet/royalblack,
+/turf/open/floor/wood,
 /area/ship/medical)
 "hq" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -1228,11 +1266,11 @@
 /turf/open/floor/wood,
 /area/ship/hallway/central)
 "qJ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
+/obj/machinery/stasis{
+	name = "Mana preservation unit"
 	},
-/turf/open/floor/carpet/royalblack,
+/obj/item/storage/backpack/duffelbag/med/surgery,
+/turf/open/floor/wood,
 /area/ship/medical)
 "qN" = (
 /obj/structure/grille,
@@ -1731,8 +1769,6 @@
 /turf/open/floor/carpet/royalblue,
 /area/ship/hallway/central)
 "Jo" = (
-/obj/item/trash/can,
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -1742,9 +1778,11 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
-/obj/structure/table/wood,
-/obj/item/book/manual/wiki/medicine,
-/turf/open/floor/carpet/royalblack,
+/obj/machinery/door/airlock{
+	icon = 'icons/obj/doors/airlocks/station/uranium.dmi';
+	name = "Hospital"
+	},
+/turf/open/floor/wood,
 /area/ship/medical)
 "JB" = (
 /obj/structure/sign/poster/random,
@@ -1939,10 +1977,10 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
-	dir = 8
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 1
 	},
-/turf/open/floor/carpet/royalblack,
+/turf/open/floor/wood,
 /area/ship/medical)
 "Ny" = (
 /obj/structure/cable{
@@ -2079,6 +2117,9 @@
 "Sc" = (
 /obj/structure/cable/cyan{
 	icon_state = "4-8"
+	},
+/obj/machinery/shower{
+	pixel_y = 19
 	},
 /turf/open/floor/bronze,
 /area/ship/maintenance/aft)
@@ -2324,7 +2365,7 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/open/floor/carpet/royalblack,
+/turf/open/floor/wood,
 /area/ship/medical)
 "YD" = (
 /obj/structure/cable{
@@ -2654,7 +2695,7 @@ aV
 Ee
 iZ
 az
-aF
+dH
 Uu
 WV
 qY
@@ -2683,10 +2724,10 @@ ac
 pj
 YF
 aj
-Mq
+hh
 Np
 Yn
-hh
+Mq
 Mq
 bq
 NI
@@ -2715,12 +2756,12 @@ ab
 TY
 af
 wq
-ab
-bd
-qJ
+Tt
+KW
+KW
 Jo
-an
-dH
+KW
+KW
 KW
 SC
 do
@@ -2750,9 +2791,9 @@ ag
 ai
 ab
 bd
-an
+dH
 au
-an
+dH
 VP
 iu
 ui
@@ -2786,7 +2827,7 @@ ba
 an
 Ek
 an
-VP
+qJ
 KW
 aR
 WW

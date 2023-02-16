@@ -522,8 +522,6 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
-/obj/item/kirbyplants/random,
-/turf/open/floor/wood,
 /area/ship/engineering)
 "na" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
@@ -533,10 +531,6 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/effect/turf_decal/corner/bar/three_quarters{
-	dir = 8
-	},
-/obj/machinery/vending/security/marine,
 /turf/open/floor/plasteel/dark,
 /area/ship/storage)
 "no" = (
@@ -1506,11 +1500,6 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "Rx" = (
-/obj/effect/turf_decal/corner/bar/three_quarters,
-/obj/structure/closet/crate/secure/weapon,
-/obj/item/gun/ballistic/automatic/l6_saw,
-/obj/item/ammo_box/magazine/l666ammo,
-/obj/item/ammo_box/magazine/l666ammo,
 /turf/open/floor/plasteel/dark,
 /area/ship/storage)
 "Ry" = (
@@ -1653,6 +1642,9 @@
 /obj/effect/turf_decal/corner/bar{
 	dir = 6
 	},
+/obj/structure/closet/crate/secure/weapon,
+/obj/item/gun/medbeam,
+/obj/item/gun/medbeam,
 /turf/open/floor/plasteel/dark,
 /area/ship/storage)
 "VH" = (

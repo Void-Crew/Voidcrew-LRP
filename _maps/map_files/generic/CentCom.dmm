@@ -2344,10 +2344,22 @@
 /turf/closed/indestructible/opsglass,
 /area/syndicate_mothership/control)
 "anA" = (
-/obj/structure/sign/poster/official/nanotrasen_logo{
-	pixel_y = 32
-	},
-/turf/open/floor/carpet/royalblue,
+/obj/structure/fluff/beach_umbrella,
+/obj/structure/closet/crate/freezer,
+/obj/item/reagent_containers/food/drinks/soda_cans/cola,
+/obj/item/reagent_containers/food/drinks/soda_cans/dr_gibb,
+/obj/item/reagent_containers/food/drinks/soda_cans/lemon_lime,
+/obj/item/reagent_containers/food/drinks/soda_cans/molten,
+/obj/item/reagent_containers/food/drinks/soda_cans/pwr_game,
+/obj/item/reagent_containers/food/drinks/soda_cans/shamblers,
+/obj/item/reagent_containers/food/drinks/soda_cans/sodawater,
+/obj/item/reagent_containers/food/drinks/soda_cans/sol_dry,
+/obj/item/reagent_containers/food/drinks/soda_cans/space_mountain_wind,
+/obj/item/reagent_containers/food/drinks/soda_cans/space_up,
+/obj/item/reagent_containers/food/drinks/soda_cans/starkist,
+/obj/item/reagent_containers/food/drinks/soda_cans/thirteenloko,
+/obj/item/reagent_containers/food/drinks/soda_cans/tonic,
+/turf/open/floor/plating/beach/sand,
 /area/centcom/ferry)
 "anJ" = (
 /obj/effect/turf_decal/corner/green{
@@ -2422,12 +2434,11 @@
 /turf/open/floor/plasteel/dark,
 /area/centcom/ferry)
 "aom" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4;
-	desc = "A thruster that expels charged particles to generate thrust. Used as part of CentCom's reaction control system.";
-	name = "CentCom RCS thruster"
+/obj/structure/table/wood,
+/obj/machinery/chem_dispenser/drinks/fullupgrade{
+	dir = 1
 	},
-/turf/open/floor/plating/airless,
+/turf/open/floor/wood,
 /area/centcom/ferry)
 "aon" = (
 /obj/machinery/door/airlock/centcom{
@@ -2453,20 +2464,17 @@
 /turf/open/floor/wood,
 /area/centcom/ferry)
 "aoD" = (
-/obj/structure/girder/bronze{
-	desc = "A girder made out of sturdy bronze, made to resemble a gear. Something about an elder god that has never truly been forgotten is engraved onto it.";
-	name = "memorial gear"
-	},
-/turf/open/floor/carpet/royalblue,
-/area/centcom/ferry)
-"aoG" = (
-/obj/structure/showcase/mecha/marauder{
-	icon_state = "seraph";
-	desc = "A rusted-away Seraph exosuit bolted to a window in a commander's office. Even in its rusted state, it is intimidating.";
-	name = "old mech";
+/obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/carpet/royalblack,
+/turf/open/floor/wood,
+/area/centcom/ferry)
+"aoG" = (
+/obj/machinery/door/airlock/centcom{
+	name = "King Doogan's Beach";
+	req_access_txt = "109"
+	},
+/turf/open/floor/wood,
 /area/centcom/ferry)
 "aoH" = (
 /obj/machinery/porta_turret/syndicate/energy/heavy{
@@ -2499,22 +2507,11 @@
 /turf/open/floor/wood,
 /area/centcom/ferry)
 "aoZ" = (
-/obj/machinery/sleeper/syndie{
-	dir = 4;
-	desc = "A tactical stasis and healing unit. Has an internal panel."
-	},
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/carpet/royalblue,
+/obj/effect/turf_decal/sand,
+/turf/open/floor/plating/beach/sand,
 /area/centcom/ferry)
 "apc" = (
-/obj/structure/window/plasma/reinforced/spawner/east,
-/obj/structure/shuttle/engine/heater{
-	dir = 8;
-	desc = "Directs energy into compressed particles in order to power engines. Looks a bit beefed-up."
-	},
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/beach/water,
 /area/centcom/ferry)
 "ape" = (
 /obj/machinery/keycard_auth{
@@ -2596,8 +2593,9 @@
 /turf/open/floor/plating/asteroid/snow/airless,
 /area/syndicate_mothership)
 "apI" = (
-/obj/machinery/light,
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/plating/beach/coastline_t{
+	dir = 1
+	},
 /area/centcom/ferry)
 "apJ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -2606,10 +2604,8 @@
 /turf/open/floor/wood,
 /area/centcom/ferry)
 "apK" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/carpet/royalblue,
+/obj/machinery/grill,
+/turf/open/floor/wood,
 /area/centcom/ferry)
 "apL" = (
 /turf/open/floor/carpet/royalblack,
@@ -2653,22 +2649,19 @@
 /turf/open/floor/plasteel/dark,
 /area/centcom/ferry)
 "aqd" = (
-/obj/structure/closet/malf/suits{
-	name = "Addust's Emergency EVA Locker";
-	desc = "It's a storage unit for emergency EVA gear."
-	},
-/obj/item/tank/internals/oxygen,
-/turf/open/floor/carpet/royalblue,
+/obj/structure/table/wood,
+/obj/machinery/reagentgrinder/constructed,
+/turf/open/floor/wood,
 /area/centcom/ferry)
 "aqe" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/carpet/royalblue,
+/obj/structure/table/wood,
+/obj/machinery/chem_dispenser/drinks/beer/fullupgrade,
+/turf/open/floor/wood,
 /area/centcom/ferry)
 "aqf" = (
-/obj/structure/chair/office{
-	dir = 8
-	},
-/turf/open/floor/carpet/royalblue,
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/shaker,
+/turf/open/floor/wood,
 /area/centcom/ferry)
 "aqp" = (
 /obj/structure/closet/secure_closet/ertCom,
@@ -2755,6 +2748,12 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/centcom/holding)
+"aqL" = (
+/obj/machinery/door/airlock/centcom{
+	name = "King Doogan's Office"
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "aqM" = (
 /obj/effect/light_emitter{
 	set_cap = 1;
@@ -9401,25 +9400,12 @@
 /turf/open/floor/plasteel,
 /area/centcom/control)
 "aRr" = (
-/obj/structure/closet/secure_closet/ertCom{
-	name = "Addust's Locker";
-	desc = "A storage unit containing equipment for an admin."
+/obj/machinery/light{
+	dir = 4
 	},
-/obj/item/clothing/under/rank/centcom/commander{
-	desc = "It's a jumpsuit worn by CentCom's highest-tier Commanders. This one has the name 'Addust' engraved onto it."
+/turf/open/floor/plating/beach/coastline_t{
+	dir = 1
 	},
-/obj/item/clothing/shoes/jackboots/fast{
-	name = "tactical boots";
-	desc = "Gotta go fast."
-	},
-/obj/item/clothing/head/helmet/space/beret,
-/obj/item/clothing/gloves/tackler/combat/insulated,
-/obj/item/gun/ballistic/automatic/pistol/deagle/camo,
-/obj/item/ammo_box/magazine/m50,
-/obj/item/ammo_box/magazine/m50,
-/obj/item/ammo_box/magazine/m50,
-/obj/item/ammo_box/magazine/m50,
-/turf/open/floor/carpet/royalblue,
 /area/centcom/ferry)
 "aRs" = (
 /obj/structure/table/reinforced,
@@ -13393,6 +13379,12 @@
 /obj/effect/turf_decal/corner/green,
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/firingrange)
+"brS" = (
+/obj/structure/mineral_door/wood{
+	name = "King Doogan's Bar"
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "bsD" = (
 /obj/structure/table/reinforced,
 /obj/item/folder,
@@ -13583,6 +13575,20 @@
 /obj/item/bikehorn,
 /turf/open/floor/wood,
 /area/centcom/ferry)
+"cuj" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/wood,
+/area/centcom/ferry)
+"cyz" = (
+/obj/machinery/button/door/indestructible{
+	id = "KDSleepRoom";
+	name = "Privacy Shutters";
+	pixel_x = -8;
+	pixel_y = 24;
+	req_access_txt = "101"
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "czl" = (
 /obj/effect/turf_decal/industrial/warning,
 /obj/effect/turf_decal/corner/red{
@@ -13646,6 +13652,12 @@
 	},
 /obj/structure/cable{
 	icon_state = "1-8"
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
+"cLZ" = (
+/obj/machinery/vending/boozeomat/all_access{
+	desc = "A technological marvel, supposedly able to mix just the mixture you'd like to drink the moment you ask for one. May not work for bartenders that don't have Nanotrasen bank accounts."
 	},
 /turf/open/floor/wood,
 /area/centcom/ferry)
@@ -13726,10 +13738,9 @@
 /turf/open/floor/plasteel,
 /area/centcom/supply)
 "cZO" = (
-/obj/structure/chair/office{
-	dir = 4
+/turf/open/floor/plating/beach/coastline_b{
+	dir = 1
 	},
-/turf/open/floor/carpet/royalblack,
 /area/centcom/ferry)
 "dbb" = (
 /obj/structure/window{
@@ -14122,6 +14133,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
+"eDD" = (
+/obj/structure/bed,
+/obj/item/bedsheet/random,
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "eGR" = (
 /obj/effect/turf_decal/corner/brown{
 	dir = 1
@@ -14295,11 +14311,7 @@
 /turf/open/floor/plasteel,
 /area/centcom/ferry)
 "fzh" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Addust's Stasis Unit";
-	req_access_txt = "109"
-	},
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/plating/beach/sand,
 /area/centcom/ferry)
 "fBW" = (
 /obj/structure/closet/secure_closet/courtroom,
@@ -14369,6 +14381,10 @@
 /obj/effect/turf_decal/corner/green,
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/dodgeball)
+"fTa" = (
+/obj/structure/chair/office,
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "fTB" = (
 /obj/effect/turf_decal/industrial/warning/corner{
 	dir = 4
@@ -14417,6 +14433,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supply)
+"gfw" = (
+/obj/machinery/computer/communications,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "gfS" = (
 /obj/effect/turf_decal/corner/green,
 /obj/effect/turf_decal/corner/green{
@@ -14526,6 +14549,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supply)
+"gGK" = (
+/obj/effect/overlay/palmtree_r,
+/turf/open/floor/plating/beach/sand,
+/area/centcom/ferry)
 "gGV" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
@@ -14650,11 +14677,9 @@
 /turf/open/floor/plating/rust,
 /area/centcom/ferry)
 "hfh" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Addust's Office";
-	req_access_txt = "109"
-	},
-/turf/open/floor/carpet/royalblue,
+/obj/structure/table/wood,
+/obj/machinery/microwave,
+/turf/open/floor/wood,
 /area/centcom/ferry)
 "hlA" = (
 /obj/machinery/power/smes/magical{
@@ -14699,6 +14724,13 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
+"hnk" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/indestructible/preopen{
+	id = "KDSleepRoom"
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "hql" = (
 /obj/docking_port/stationary{
 	dir = 8;
@@ -14796,11 +14828,13 @@
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/basketball)
 "hHh" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Addust's Office";
-	req_access_txt = "109"
-	},
-/turf/open/floor/carpet/royalblack,
+/obj/structure/closet/secure_closet/freezer/meat/open,
+/obj/item/reagent_containers/food/snacks/meat/slab/goliath,
+/obj/item/reagent_containers/food/snacks/meat/slab/xeno,
+/obj/item/reagent_containers/food/snacks/meat/slab/spider,
+/obj/item/reagent_containers/food/snacks/meat/slab/killertomato,
+/obj/item/reagent_containers/food/snacks/meat/slab/bear,
+/turf/open/floor/wood,
 /area/centcom/ferry)
 "hHp" = (
 /obj/structure/window,
@@ -14896,6 +14930,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
+"igW" = (
+/obj/structure/mineral_door/wood{
+	name = "King Doogan's Bedroom"
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "inF" = (
 /obj/machinery/power/apc{
 	dir = 8;
@@ -15268,6 +15308,16 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
+"keF" = (
+/obj/structure/table/wood,
+/obj/item/storage/box/donkpockets,
+/obj/item/storage/box/donkpockets/donkpocketberry,
+/obj/item/storage/box/donkpockets/donkpockethonk,
+/obj/item/storage/box/donkpockets/donkpocketpizza,
+/obj/item/storage/box/donkpockets/donkpocketspicy,
+/obj/item/storage/box/donkpockets/donkpocketteriyaki,
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "keH" = (
 /obj/effect/turf_decal/corner/red,
 /obj/effect/turf_decal/corner/red{
@@ -16086,6 +16136,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
+"nNo" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/glass/rag{
+	pixel_y = 7
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "nPP" = (
 /obj/effect/turf_decal/corner/red{
 	dir = 1
@@ -16113,6 +16170,10 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
+"nZW" = (
+/obj/structure/table/wood,
 /turf/open/floor/wood,
 /area/centcom/ferry)
 "odb" = (
@@ -16596,6 +16657,10 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/kobayashi)
+"pSq" = (
+/obj/structure/filingcabinet/filingcabinet,
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "pWB" = (
 /obj/structure/extinguisher_cabinet{
 	dir = 4;
@@ -16688,6 +16753,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supply)
+"qqH" = (
+/obj/item/flashlight/lamp,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "qrx" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21";
@@ -16933,6 +17003,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
+"rdq" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "rfU" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
@@ -17175,6 +17249,10 @@
 	},
 /turf/open/floor/circuit/red,
 /area/ctf)
+"ste" = (
+/obj/machinery/computer/card/centcom,
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "sug" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4
@@ -17462,6 +17540,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
+"ttf" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "ttz" = (
 /obj/effect/turf_decal/corner/red{
 	dir = 1
@@ -17770,7 +17854,18 @@
 /turf/open/floor/wood,
 /area/centcom/ferry)
 "uLU" = (
-/turf/open/floor/carpet/royalblue,
+/obj/structure/chair{
+	dir = 1
+	},
+/turf/open/floor/plating/beach/sand,
+/area/centcom/ferry)
+"uPr" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plating/beach/coastline_t{
+	dir = 1
+	},
 /area/centcom/ferry)
 "uSs" = (
 /obj/structure/window{
@@ -52813,16 +52908,16 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+amD
+eXg
+eXg
+amD
+eXg
+eXg
+amD
+hnk
+hnk
+amD
 aaa
 aoe
 oCc
@@ -53070,16 +53165,16 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+amD
+pSq
+aoB
+aqL
+aoB
+rdq
+amD
+cyz
+aoB
+amD
 aaa
 amD
 kOq
@@ -53327,16 +53422,16 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+amD
+gfw
+aoB
+cuj
+aoB
+xIF
+amD
+eDD
+aoB
+amD
 aaa
 aoe
 fvP
@@ -53571,29 +53666,29 @@ aaa
 aaa
 aaa
 aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 amD
-aom
-aom
-aom
-aom
-aom
+ste
+fTa
+cuj
+ttf
+aoB
 amD
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+qqH
+aoB
+amD
 aaa
 aoe
 lnt
@@ -53828,30 +53923,30 @@ aaa
 aaa
 aaa
 aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 amD
-apc
-apc
-apc
-apc
-apc
 amD
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+amD
+amD
+amD
+amD
+aqL
+amD
+amD
+igW
+amD
+amD
 anU
 eni
 aWP
@@ -54086,29 +54181,29 @@ amD
 amD
 amD
 amD
+amD
+amD
+amD
+amD
+amD
+amD
+amD
+amD
+amD
+amD
+amD
+amD
+apc
+apc
+cZO
+uPr
+gGK
 aoZ
-amD
+nZW
 aoD
-aqd
-aRr
-amD
-amD
-amD
-amD
-amD
-amD
-amD
-amD
-amD
-amD
-amD
-amD
-amD
-amD
-amD
-amD
-amD
-amD
+aoB
+aoB
+hHh
 amD
 rcn
 aWP
@@ -54343,29 +54438,29 @@ aoB
 aoB
 aoB
 amD
-fzh
+aoB
+aoB
+aoB
+aoB
+aoB
 amD
-anA
+aoB
+aoB
+aoB
+aoB
+aoB
+amD
+apc
+apc
+cZO
+apI
 uLU
-uLU
-amD
+aoZ
+nZW
 aoB
+apK
 aoB
-aoB
-aoB
-aoB
-amD
-aoB
-aoB
-aoB
-aoB
-aoB
-amD
-aoB
-aoB
-aoB
-aoB
-aoB
+hfh
 amD
 hyx
 aRl
@@ -54600,29 +54695,29 @@ aoB
 aoB
 aoB
 amD
-apK
-apL
+ufv
+aoB
+aoB
+aoB
+aoB
+amD
+ufv
+aoB
+aoB
+aoB
+aoB
+amD
+apc
+apc
 cZO
-aoG
 apI
-amD
-ufv
+anA
+aoZ
+aqf
 aoB
+keF
 aoB
-aoB
-aoB
-amD
-ufv
-aoB
-aoB
-aoB
-aoB
-amD
-ufv
-aoB
-aoB
-aoB
-aoB
+cLZ
 amD
 amD
 amD
@@ -54857,12 +54952,6 @@ aoB
 aoB
 xIF
 amD
-aqe
-aUJ
-aUJ
-aoe
-hfh
-amD
 aoB
 aoB
 aoB
@@ -54875,11 +54964,17 @@ aoB
 aoB
 xIF
 amD
+apc
+apc
+cZO
+apI
+uLU
+aoZ
+nNo
 aoB
+aqd
 aoB
-aoB
-aoB
-xIF
+aom
 amD
 wbx
 aVg
@@ -55114,12 +55209,6 @@ aoB
 aoB
 aoB
 amD
-uLU
-aqf
-apL
-uLU
-uLU
-amD
 aoB
 aoB
 aoB
@@ -55132,11 +55221,17 @@ aoB
 aoB
 aoB
 amD
+apc
+apc
+cZO
+aRr
+fzh
+aoZ
+brS
+uJC
 aoB
 aoB
-aoB
-aoB
-aoB
+aqe
 amD
 wPY
 aVg
@@ -55372,12 +55467,6 @@ amD
 amD
 amD
 amD
-aoe
-hHh
-aoe
-amD
-amD
-amD
 amD
 aoY
 amD
@@ -55391,7 +55480,13 @@ amD
 amD
 amD
 amD
-aoY
+amD
+amD
+aoG
+amD
+amD
+amD
+amD
 amD
 amD
 amD
@@ -55882,22 +55977,22 @@ aoB
 aoB
 aoB
 aoB
-uJC
-aoB
-aoB
-aoB
-uJC
 aoB
 aoB
 aoB
 aoB
 aoB
 aoB
-uJC
 aoB
 aoB
 aoB
-uJC
+aoB
+aoB
+aoB
+aoB
+aoB
+aoB
+aoB
 aoB
 aoB
 aoB
@@ -56138,25 +56233,9 @@ aoB
 uJC
 aoB
 aoB
-uJC
-amD
-aoe
-aoe
-aoe
-amD
-aoe
-aoe
-aoe
-aoe
-aoe
-aoe
-amD
-aoe
-aoe
-aoe
-amD
 aoB
 uJC
+aoB
 aoB
 aoB
 uJC
@@ -56165,6 +56244,22 @@ aoB
 aoB
 aoB
 aoB
+aoB
+uJC
+aoB
+aoB
+aoB
+uJC
+aoB
+aoB
+aoB
+uJC
+aoB
+aoB
+uJC
+aoB
+aoB
+uJC
 amD
 aZr
 apJ
@@ -56397,20 +56492,20 @@ amD
 amD
 amD
 amD
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+aoe
+aoe
+aoe
+amD
+aoe
+aoe
+aoe
+aoe
+aoe
+aoe
+amD
+aoe
+aoe
+aoe
 amD
 amD
 amD
