@@ -1,353 +1,695 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"a" = (
-/turf/template_noop,
-/area/template_noop)
-"b" = (
-/obj/structure/lattice,
-/turf/template_noop,
-/area/space/nearstation)
-"c" = (
+"aF" = (
+/obj/structure/girder/reinforced,
 /turf/open/floor/plating/airless,
 /area/ruin/space/oldteleporter)
-"d" = (
+"cp" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/dark/airless,
+/area/ruin/space/oldteleporter)
+"dx" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"dD" = (
 /turf/closed/wall/r_wall,
 /area/ruin/space/oldteleporter)
-"e" = (
+"ef" = (
+/obj/machinery/light/dim,
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"ex" = (
+/obj/machinery/teleport/station,
+/obj/effect/turf_decal/industrial/warning,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"gJ" = (
+/obj/structure/lattice,
+/obj/structure/firelock_frame,
+/turf/template_noop,
+/area/space/nearstation)
+"gS" = (
+/obj/structure/girder/displaced,
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"he" = (
+/obj/item/stack/cable_coil/cut/red,
+/obj/item/stack/rods,
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"iN" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/plasteel/dark/airless,
+/area/ruin/space/oldteleporter)
+"iW" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/dark/airless,
+/area/ruin/space/oldteleporter)
+"jI" = (
+/obj/structure/grille/broken,
+/obj/effect/decal/cleanable/glass,
+/obj/machinery/door/firedoor/window,
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"jQ" = (
+/obj/item/hand_tele,
+/obj/structure/closet/secure_closet{
+	req_access_txt = "102";
+	name = "reinforced locker";
+	desc = "It's a card-locked storage unit with several layers of plasteel reinforcement, and you don't think most weaponry would be able to break it.";
+	max_integrity = 500;
+	armor = list("melee"=60,"bullet"=80,"laser"=70,"energy"=100,"bomb"=100,"bio"=0,"rad"=0,"fire"=90,"acid"=90)
+	},
+/turf/open/floor/plasteel/dark/airless,
+/area/ruin/space/oldteleporter)
+"lp" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark/airless,
+/area/ruin/space/oldteleporter)
+"lt" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
+/obj/item/shard,
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"lu" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
 /turf/open/floor/plasteel/airless,
 /area/ruin/space/oldteleporter)
-"g" = (
-/obj/structure/light_construct/small{
+"mS" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/airalarm/all_access{
+	pixel_y = 24
+	},
+/turf/open/floor/plasteel/dark/airless,
+/area/ruin/space/oldteleporter)
+"na" = (
+/obj/item/stack/sheet/plasteel,
+/obj/structure/girder/displaced,
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"no" = (
+/obj/machinery/airalarm/all_access{
+	dir = 1;
+	pixel_y = -24
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"oc" = (
+/turf/template_noop,
+/area/template_noop)
+"ow" = (
+/obj/machinery/door/airlock/command{
+	name = "Teleporter"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/door/firedoor/closed,
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"pA" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/dark/airless,
+/area/ruin/space/oldteleporter)
+"pZ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"sb" = (
+/obj/structure/lattice,
+/obj/item/stack/cable_coil/cut/red,
+/turf/template_noop,
+/area/space/nearstation)
+"tl" = (
+/obj/item/light/tube/broken,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 6
+	},
+/turf/open/floor/plasteel/dark/airless,
+/area/ruin/space/oldteleporter)
+"vz" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
 	dir = 1
 	},
 /turf/open/floor/plasteel/airless,
 /area/ruin/space/oldteleporter)
-"h" = (
+"zG" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/plasteel/dark/airless,
+/area/ruin/space/oldteleporter)
+"Av" = (
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = 26
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"Bd" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/closed,
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"Du" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"DL" = (
+/obj/item/stack/rods,
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"EH" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/airless,
+/area/ruin/space/oldteleporter)
+"EQ" = (
 /obj/machinery/computer/teleporter{
 	dir = 1
 	},
-/turf/open/floor/plasteel/airless,
+/obj/effect/turf_decal/industrial/warning/cee{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
 /area/ruin/space/oldteleporter)
-"i" = (
-/obj/machinery/teleport/station,
-/turf/open/floor/plasteel/airless,
+"FJ" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark/airless,
 /area/ruin/space/oldteleporter)
-"j" = (
-/obj/machinery/teleport/hub,
-/turf/open/floor/plasteel/airless,
-/area/ruin/space/oldteleporter)
-"k" = (
-/obj/structure/light_construct/small{
+"Gc" = (
+/obj/machinery/light/dim{
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/oldteleporter)
-"l" = (
+"GO" = (
+/obj/structure/sign/warning/securearea{
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/trimline/blue/line,
+/turf/open/floor/plasteel/airless,
+/area/ruin/space/oldteleporter)
+"Hy" = (
+/obj/machinery/door/firedoor/closed,
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"HE" = (
+/obj/machinery/teleport/hub,
+/obj/effect/turf_decal/industrial/warning/cee{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"HV" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/turf/open/floor/plasteel/dark/airless,
+/area/ruin/space/oldteleporter)
+"KA" = (
+/obj/item/stack/cable_coil/cut/yellow,
+/turf/open/floor/plasteel/dark/airless,
+/area/ruin/space/oldteleporter)
+"KG" = (
 /obj/structure/table,
 /obj/item/stock_parts/cell{
 	charge = 100;
 	maxcharge = 15000
 	},
-/turf/open/floor/plasteel/airless,
+/turf/open/floor/plasteel/dark/airless,
 /area/ruin/space/oldteleporter)
-"n" = (
+"KL" = (
+/obj/item/stack/sheet/plasteel,
+/obj/item/wallframe/light_fixture,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/plasteel/dark/airless,
+/area/ruin/space/oldteleporter)
+"Po" = (
+/obj/item/stack/sheet/plasteel,
+/turf/open/floor/plasteel/dark/airless,
+/area/ruin/space/oldteleporter)
+"Rq" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/item/stack/rods,
+/obj/machinery/door/firedoor/closed,
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"RB" = (
 /obj/machinery/power/apc{
 	name = "Worn-out APC";
 	pixel_y = -23
 	},
+/obj/structure/cable,
+/turf/open/floor/plasteel/dark/airless,
+/area/ruin/space/oldteleporter)
+"So" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/space/nearstation)
+"Sx" = (
+/obj/structure/sign/warning/securearea{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/dark/airless,
+/area/ruin/space/oldteleporter)
+"Vg" = (
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"Wu" = (
+/turf/open/floor/plasteel/dark/airless,
+/area/ruin/space/oldteleporter)
+"WG" = (
+/turf/closed/wall,
+/area/ruin/space/oldteleporter)
+"XN" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 1
+	},
 /turf/open/floor/plasteel/airless,
+/area/ruin/space/oldteleporter)
+"Yw" = (
+/obj/structure/firelock_frame,
+/turf/template_noop,
+/area/template_noop)
+"YH" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/effect/turf_decal/trimline/blue/line,
+/turf/open/floor/plasteel/airless,
+/area/ruin/space/oldteleporter)
+"YS" = (
+/obj/structure/lattice,
+/obj/item/stack/sheet/plasteel,
+/turf/template_noop,
+/area/space/nearstation)
+"Zx" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/oldteleporter)
+"ZO" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/item/shard,
+/turf/open/floor/plasteel/airless,
+/area/ruin/space/oldteleporter)
+"ZZ" = (
+/obj/machinery/door/airlock/command{
+	name = "Captain's Tactical Retreat"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/door/poddoor/shutters,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/firedoor/closed,
+/turf/open/floor/plating/airless,
 /area/ruin/space/oldteleporter)
 
 (1,1,1) = {"
-a
-a
-a
-a
-b
-a
-a
-a
-a
-a
-a
-a
+oc
+oc
+oc
+So
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
 "}
 (2,1,1) = {"
-a
-a
-a
-a
-b
-b
-a
-a
-a
-a
-a
-a
+oc
+oc
+oc
+So
+So
+oc
+oc
+oc
+oc
+oc
+oc
+oc
 "}
 (3,1,1) = {"
-a
-a
-a
-b
-b
-b
-a
-a
-a
-a
-a
-a
+oc
+oc
+So
+So
+YS
+oc
+oc
+oc
+oc
+oc
+oc
+oc
 "}
 (4,1,1) = {"
-a
-a
-a
-b
-b
-b
-a
-a
-a
-a
-a
-a
+oc
+oc
+So
+So
+So
+oc
+oc
+oc
+oc
+oc
+oc
+oc
 "}
 (5,1,1) = {"
-a
-a
-a
-b
-b
-b
-d
-d
-d
-d
-d
-a
+gS
+oc
+pZ
+sb
+So
+dD
+aF
+na
+dD
+dD
+oc
+oc
 "}
 (6,1,1) = {"
-a
-a
-a
-b
-b
-d
-d
-g
-e
-l
-d
-d
+WG
+Hy
+Rq
+Hy
+dD
+dD
+Po
+KA
+KG
+dD
+dD
+oc
 "}
 (7,1,1) = {"
-a
-a
-a
-b
-b
-d
-c
-e
-e
-e
-e
-d
+WG
+Av
+ZO
+ef
+dD
+Vg
+tl
+iN
+KL
+jQ
+dD
+oc
 "}
 (8,1,1) = {"
-a
-a
-a
-b
-c
-d
-c
-e
-h
-c
-n
-d
+gS
+Vg
+vz
+no
+dD
+Av
+FJ
+EQ
+Zx
+RB
+dD
+oc
 "}
 (9,1,1) = {"
-a
-a
-a
-b
-c
-c
-e
-e
-i
-e
-e
-d
+jI
+DL
+XN
+YH
+ow
+zG
+HV
+ex
+lp
+Wu
+dD
+oc
 "}
 (10,1,1) = {"
-a
-a
-a
-b
-c
-d
-e
-e
-j
-e
-e
-d
+WG
+lt
+lu
+GO
+dD
+mS
+EH
+HE
+lp
+Sx
+dD
+So
 "}
 (11,1,1) = {"
-b
-b
-b
-b
-c
-d
-e
-e
-e
-e
-c
-c
+So
+Vg
+dx
+he
+dD
+cp
+pA
+pA
+iW
+Du
+ZZ
+sb
 "}
 (12,1,1) = {"
-a
-b
-a
-b
-b
-d
-c
-e
-k
-e
-d
-c
+So
+Yw
+Bd
+So
+dD
+dD
+Wu
+Gc
+Wu
+dD
+dD
+So
 "}
 (13,1,1) = {"
-b
-b
-b
-b
-b
-c
-c
-d
-d
-d
-d
-a
+So
+So
+So
+So
+Vg
+dD
+dD
+dD
+dD
+dD
+oc
+oc
 "}
 (14,1,1) = {"
-b
-b
-b
-b
-b
-c
-b
-b
-b
-a
-a
-a
+So
+So
+So
+So
+Vg
+So
+So
+So
+oc
+oc
+oc
+oc
 "}
 (15,1,1) = {"
-b
-b
-b
-b
-b
-c
-b
-a
-a
-a
-a
-a
+So
+So
+So
+gJ
+Vg
+So
+oc
+oc
+oc
+oc
+oc
+oc
 "}
 (16,1,1) = {"
-b
-b
-b
-b
-b
-b
-a
-a
-a
-a
-a
-a
+So
+So
+So
+So
+So
+oc
+oc
+oc
+oc
+oc
+oc
+oc
 "}
 (17,1,1) = {"
-b
-b
-b
-b
-b
-a
-a
-a
-a
-a
-a
-a
+So
+So
+So
+So
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
 "}
 (18,1,1) = {"
-a
-b
-b
-b
-a
-a
-a
-a
-a
-a
-a
-a
+So
+So
+So
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
 "}
 (19,1,1) = {"
-a
-b
-b
-b
-b
-b
-b
-a
-a
-a
-a
-a
+So
+So
+So
+So
+So
+So
+oc
+oc
+oc
+oc
+oc
+oc
 "}
 (20,1,1) = {"
-b
-b
-b
-a
-b
-b
-a
-a
-a
-a
-a
-a
+So
+So
+oc
+So
+So
+oc
+oc
+oc
+oc
+oc
+oc
+oc
 "}
 (21,1,1) = {"
-a
-b
-a
-a
-b
-b
-a
-a
-a
-a
-a
-a
+So
+oc
+oc
+So
+So
+oc
+oc
+oc
+oc
+oc
+oc
+oc
 "}
