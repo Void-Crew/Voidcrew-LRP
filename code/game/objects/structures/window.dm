@@ -664,7 +664,7 @@
 	max_integrity = 300 //WS change - Monstermos
 	glass_amount = 2
 
-/obj/structure/window/reinforced/shuttle
+/obj/structure/window/shuttle
 	name = "shuttle window"
 	desc = "A reinforced, air-locked pod window."
 	icon = 'whitesands/icons/obj/smooth_structures/shuttle_window.dmi'
@@ -685,13 +685,13 @@
 	glass_amount = 2
 	ricochet_chance_mod = 0.9
 
-/obj/structure/window/reinforced/shuttle/narsie_act()
+/obj/structure/window/shuttle/narsie_act()
 	add_atom_colour("#3C3434", FIXED_COLOUR_PRIORITY)
 
-/obj/structure/window/reinforced/shuttle/tinted
+/obj/structure/window/shuttle/tinted
 	opacity = TRUE
 
-/obj/structure/window/reinforced/shuttle/unanchored
+/obj/structure/window/shuttle/unanchored
 	anchored = FALSE
 
 /obj/structure/window/plasma/reinforced/plastitanium
