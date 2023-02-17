@@ -56,10 +56,6 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/medical)
 "am" = (
-/obj/effect/turf_decal/corner/neutral,
-/obj/effect/turf_decal/corner/neutral{
-	dir = 8
-	},
 /obj/structure/closet/secure_closet{
 	icon_state = "med";
 	name = "medicine locker"
@@ -72,10 +68,13 @@
 /obj/item/storage/belt/medical,
 /obj/item/storage/belt/medical,
 /obj/item/reagent_containers/spray/cleaner,
-/obj/machinery/light/built{
+/obj/machinery/light{
 	dir = 8
 	},
 /obj/item/storage/backpack/duffelbag/med/surgery,
+/obj/effect/turf_decal/corner/neutral{
+	dir = 10
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/medical)
 "aq" = (
@@ -248,7 +247,7 @@
 /area/ship/cargo)
 "aR" = (
 /obj/machinery/vending/medical,
-/obj/machinery/light/built{
+/obj/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
@@ -482,11 +481,10 @@
 /area/ship/engineering)
 "br" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer,
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/corner/neutral,
 /obj/effect/turf_decal/industrial/outline/yellow,
+/obj/effect/turf_decal/corner/neutral{
+	dir = 6
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/medical)
 "bs" = (
@@ -503,27 +501,22 @@
 /area/ship/medical)
 "bt" = (
 /obj/machinery/sleeper,
-/obj/effect/turf_decal/corner/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/corner/neutral,
-/obj/effect/turf_decal/corner/neutral{
+/obj/effect/turf_decal/corner/neutral/three_quarters{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/medical)
 "bu" = (
 /obj/structure/table/glass,
-/obj/effect/turf_decal/corner/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/corner/neutral,
 /obj/machinery/reagentgrinder{
 	pixel_y = 6
 	},
 /obj/item/storage/box/beakers{
 	pixel_x = -6;
 	pixel_y = 8
+	},
+/obj/effect/turf_decal/corner/neutral{
+	dir = 10
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/medical)
@@ -568,21 +561,19 @@
 /area/ship/engineering)
 "bz" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible,
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/corner/neutral,
-/obj/machinery/light/built{
+/obj/machinery/light{
 	dir = 8
+	},
+/obj/effect/turf_decal/corner/neutral{
+	dir = 6
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/medical)
 "bI" = (
 /obj/structure/table/glass,
 /obj/effect/turf_decal/corner/neutral{
-	dir = 8
+	dir = 10
 	},
-/obj/effect/turf_decal/corner/neutral,
 /obj/machinery/door/window/southleft{
 	name = "equipment storage"
 	},
@@ -594,13 +585,13 @@
 /obj/item/storage/box/syringes,
 /obj/item/storage/box/bodybags,
 /obj/item/reagent_containers/glass/bottle{
-	list_reagents = list(/datum/reagent/medicine/rezadone = 30);
+	list_reagents = list(/datum/reagent/medicine/rezadone=30);
 	name = "rezadone bottle";
 	pixel_x = -3;
 	pixel_y = 8
 	},
 /obj/item/reagent_containers/glass/bottle{
-	list_reagents = list(/datum/reagent/medicine/thializid = 30);
+	list_reagents = list(/datum/reagent/medicine/thializid=30);
 	name = "thializid bottle"
 	},
 /turf/open/floor/plasteel/dark,
@@ -634,9 +625,8 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/corner/neutral{
-	dir = 4
+	dir = 6
 	},
-/obj/effect/turf_decal/corner/neutral,
 /turf/open/floor/plasteel/dark,
 /area/ship/medical)
 "bO" = (
@@ -659,12 +649,6 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 1
 	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
-	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -677,12 +661,6 @@
 	dir = 4
 	},
 /obj/structure/bedsheetbin,
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
-	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -766,14 +744,11 @@
 /turf/open/floor/carpet/nanoweave/blue,
 /area/ship/bridge)
 "cb" = (
-/obj/effect/turf_decal/corner/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/blue{
-	dir = 8
-	},
 /obj/structure/table/reinforced,
 /obj/item/radio/intercom/wideband,
+/obj/effect/turf_decal/corner/blue{
+	dir = 9
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/bridge)
 "cc" = (
@@ -793,11 +768,10 @@
 /obj/machinery/atmospherics/components/unary/portables_connector{
 	dir = 1
 	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/corner/neutral,
 /obj/effect/turf_decal/industrial/outline/yellow,
+/obj/effect/turf_decal/corner/neutral{
+	dir = 6
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/medical)
 "ce" = (
@@ -817,9 +791,8 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 1
 	},
-/obj/effect/turf_decal/corner/blue,
 /obj/effect/turf_decal/corner/blue{
-	dir = 8
+	dir = 10
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
@@ -835,7 +808,7 @@
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
 "cl" = (
-/obj/machinery/light/small/built{
+/obj/machinery/light/small{
 	dir = 4
 	},
 /obj/item/kirbyplants/random,
@@ -845,7 +818,7 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/medical)
 "cm" = (
-/obj/machinery/light/small/built{
+/obj/machinery/light/small{
 	dir = 8
 	},
 /obj/machinery/firealarm{
@@ -954,10 +927,6 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "cv" = (
-/obj/effect/turf_decal/corner/neutral,
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
-	},
 /obj/structure/table,
 /obj/item/reagent_containers/glass/beaker/cryoxadone{
 	pixel_x = 7;
@@ -972,6 +941,9 @@
 /obj/item/stock_parts/cell/high{
 	pixel_x = -8;
 	pixel_y = -8
+	},
+/obj/effect/turf_decal/corner/neutral{
+	dir = 6
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/medical)
@@ -1090,7 +1062,7 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/crew)
 "cI" = (
-/obj/machinery/light/built,
+/obj/machinery/light,
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
@@ -1430,7 +1402,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "dv" = (
-/obj/machinery/light/small/built{
+/obj/machinery/light/small{
 	dir = 8
 	},
 /obj/machinery/airalarm/all_access{
@@ -1498,15 +1470,15 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "gi" = (
-/obj/effect/turf_decal/corner/blue,
 /obj/effect/turf_decal/corner/blue{
-	dir = 4
+	dir = 6
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
 "gD" = (
 /obj/structure/closet/secure_closet/CMO,
 /obj/item/retractor/advanced,
+/obj/item/construction/plumbing,
 /turf/open/floor/plasteel/dark,
 /area/ship/crew)
 "gE" = (
@@ -1598,12 +1570,6 @@
 	dir = 4
 	},
 /obj/item/storage/backpack/duffelbag/med/surgery,
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
-	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -1773,9 +1739,8 @@
 /turf/open/floor/plasteel/mono/white,
 /area/ship/medical)
 "xP" = (
-/obj/effect/turf_decal/corner/blue,
 /obj/effect/turf_decal/corner/blue{
-	dir = 8
+	dir = 10
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
@@ -1844,16 +1809,6 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering)
-"Dp" = (
-/obj/machinery/stasis,
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/ship/medical)
 "Dr" = (
 /obj/machinery/door/airlock{
 	name = "Crew Quarters"
@@ -1877,13 +1832,10 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "ED" = (
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
-	},
 /obj/machinery/stasis,
+/obj/effect/turf_decal/corner/neutral{
+	dir = 5
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/medical)
 "ER" = (
@@ -1919,7 +1871,7 @@
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
 "Lt" = (
-/obj/machinery/light/small/built{
+/obj/machinery/light/small{
 	dir = 4
 	},
 /obj/item/kirbyplants/random,
@@ -1961,16 +1913,13 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "Nq" = (
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
-	},
 /obj/machinery/iv_drip,
 /obj/machinery/airalarm/all_access{
 	dir = 1;
 	pixel_y = -24
+	},
+/obj/effect/turf_decal/corner/neutral{
+	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/medical)
@@ -1993,18 +1942,15 @@
 /turf/open/floor/plating/airless,
 /area/ship/external)
 "QS" = (
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
-	},
 /obj/machinery/computer/operating{
 	dir = 8
 	},
-/obj/machinery/light/built,
+/obj/machinery/light,
 /obj/machinery/defibrillator_mount/charging{
 	pixel_y = -32
+	},
+/obj/effect/turf_decal/corner/neutral{
+	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/medical)
@@ -2531,7 +2477,7 @@ bI
 Ye
 bs
 Jq
-Dp
+ED
 tD
 wc
 df
