@@ -145,7 +145,7 @@
 /area/ship/maintenance/central)
 "jp" = (
 /obj/effect/spawner/structure/window/shuttle,
-/obj/machinery/door/poddoor/shutters/indestructible/preopen{
+/obj/machinery/door/poddoor/shutters/preopen{
 	id = "shutterspocket"
 	},
 /turf/open/floor/plating,
@@ -227,7 +227,7 @@
 /area/ship/bridge)
 "pG" = (
 /obj/effect/spawner/structure/window/shuttle,
-/obj/machinery/door/poddoor/shutters/indestructible/preopen{
+/obj/machinery/door/poddoor/shutters/preopen{
 	id = "shutterspocket"
 	},
 /turf/open/floor/plating,
@@ -265,7 +265,7 @@
 /area/ship/crew/canteen)
 "tw" = (
 /obj/effect/spawner/structure/window/shuttle,
-/obj/machinery/door/poddoor/shutters/indestructible/preopen{
+/obj/machinery/door/poddoor/shutters/preopen{
 	id = "shutterspocket"
 	},
 /turf/open/floor/plating,
@@ -506,10 +506,12 @@
 	dir = 8
 	},
 /obj/machinery/shower{
-	pixel_y = 14
+	pixel_y = 14;
+	pixel_x = 6
 	},
 /obj/structure/sink{
-	pixel_x = -10
+	pixel_x = -10;
+	pixel_y = 18
 	},
 /obj/structure/mirror{
 	pixel_y = -32
@@ -562,7 +564,7 @@
 /area/ship/cargo)
 "KI" = (
 /obj/effect/spawner/structure/window/shuttle,
-/obj/machinery/door/poddoor/shutters/indestructible/preopen{
+/obj/machinery/door/poddoor/shutters/preopen{
 	id = "shutterspocket"
 	},
 /turf/open/floor/plating,
