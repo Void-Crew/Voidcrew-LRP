@@ -1,6 +1,13 @@
-# base = ubuntu + full apt update
-FROM ubuntu:xenial AS base
+# syntax=docker/dockerfile:1
+FROM beestation/byond:514.1583 as base
 
+# Install the tools needed to compile our rust dependencies
+FROM base as rust-build
+ENV PKG_CONFIG_ALLOW_CROSS=1 \
+    CARGO_HOME=/usr/local/cargo \
+    PATH=/usr/local/cargo/bin:$PATH
+WORKDIR /build
+COPY dependencies.sh .
 RUN dpkg --add-architecture i386 \
     && apt-get update \
     && apt-get upgrade -y \
@@ -12,12 +19,17 @@ RUN dpkg --add-architecture i386 \
 FROM base AS byond
 WORKDIR /byond
 
-RUN apt-get install -y --no-install-recommends \
-        curl \
-        unzip \
-        make \
-        libstdc++6:i386
+# Build auxmos
+FROM rust-build as auxmos
+RUN git init \
+    && git remote add origin https://github.com/jupyterkat/auxmos \
+    && /bin/bash -c "source dependencies.sh \
+    && git fetch --depth 1 origin \$AUXMOS_VERSION" \
+    && git checkout FETCH_HEAD \
+    && cargo rustc --target=i686-unknown-linux-gnu --release --features all_reaction_hooks,katmos -- -C target-cpu=native
 
+# Install nodejs which is required to deploy Shiptest
+FROM base as node
 COPY dependencies.sh .
 
 RUN . ./dependencies.sh \
