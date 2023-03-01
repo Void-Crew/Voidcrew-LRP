@@ -32,15 +32,11 @@
 /turf/open/floor/circuit/telecomms{
 	name = "coldroom"
 	},
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "az" = (
 /obj/structure/alien/weeds/node,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "aB" = (
 /turf/open/floor/plating,
 /area/ship/hallway/aft)
@@ -54,18 +50,14 @@
 /obj/structure/alien/weeds,
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "aT" = (
 /obj/item/stack/sheet/mineral/titanium{
 	amount = 2
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "aX" = (
 /obj/structure/sign/poster/official/science,
 /turf/closed/wall/mineral/titanium,
@@ -76,9 +68,7 @@
 /obj/item/storage/box/monkeycubes,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "bB" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/engineering/engine)
@@ -106,9 +96,7 @@
 	name = "Lockdown Shutters"
 	},
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "bL" = (
 /obj/structure/disposalpipe/segment{
 	dir = 1
@@ -119,9 +107,7 @@
 	name = "Lockdown Shutters"
 	},
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "bS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light,
@@ -131,18 +117,14 @@
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "cd" = (
 /obj/effect/mob_spawn/human/scientist,
 /obj/effect/decal/cleanable/blood,
 /obj/structure/alien/weeds,
 /obj/structure/bed/nest,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "cf" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
@@ -168,16 +150,14 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "cL" = (
 /obj/machinery/light,
 /obj/structure/alien/weeds,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "cV" = (
 /obj/item/shard,
@@ -192,9 +172,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "cW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/airalarm/directional/north,
@@ -227,9 +205,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/warning/electricshock,
 /turf/closed/wall/mineral/titanium,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "dL" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/science/robotics)
@@ -257,9 +233,7 @@
 /turf/closed/wall/mineral/titanium{
 	baseturfs = /turf/open/floor/mineral/titanium/tiled/white
 	},
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "ee" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -288,9 +262,7 @@
 /obj/machinery/smartfridge/extract/preloaded,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "es" = (
 /obj/effect/decal/cleanable/xenoblood/xgibs,
 /obj/structure/cable{
@@ -319,9 +291,7 @@
 "eB" = (
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "eE" = (
 /obj/structure/cable{
 	icon_state = "4-10"
@@ -331,9 +301,9 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "eM" = (
 /obj/effect/decal/cleanable/dirt,
@@ -345,9 +315,7 @@
 /turf/closed/wall/mineral/titanium{
 	baseturfs = /turf/open/floor/mineral/titanium/tiled/white
 	},
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "eT" = (
 /obj/effect/decal/cleanable/xenoblood,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -400,9 +368,7 @@
 	},
 /obj/structure/alien/egg/burst,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "fn" = (
 /obj/item/kirbyplants/dead,
 /obj/item/aiModule/toyAI,
@@ -417,9 +383,9 @@
 /obj/structure/alien/weeds,
 /obj/structure/alien/weeds,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "fv" = (
 /obj/structure/sign/poster/contraband/lusty_xenomorph,
@@ -436,9 +402,7 @@
 /area/ship/crew/office)
 "fH" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "fK" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -456,9 +420,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "fQ" = (
 /obj/structure/cable{
 	icon_state = "4-9"
@@ -479,9 +441,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "gb" = (
 /obj/structure/disposalpipe/segment{
 	dir = 1
@@ -489,9 +449,7 @@
 /turf/closed/wall/mineral/titanium{
 	baseturfs = /turf/open/floor/mineral/titanium/tiled/white
 	},
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "gj" = (
 /obj/machinery/atmospherics/pipe/manifold/cyan/hidden/layer2{
 	dir = 4
@@ -506,9 +464,7 @@
 /obj/machinery/monkey_recycler,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "gH" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/structure/cable{
@@ -565,9 +521,7 @@
 /turf/closed/wall/mineral/titanium{
 	baseturfs = /turf/open/floor/mineral/titanium/tiled/white
 	},
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "hr" = (
 /obj/structure/filingcabinet/chestdrawer/wheeled,
 /turf/open/floor/carpet/purple,
@@ -600,9 +554,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "hD" = (
 /obj/structure/grille/broken,
 /obj/effect/decal/cleanable/glass,
@@ -643,9 +595,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "hX" = (
 /obj/item/circuitboard/machine/protolathe/department/science,
 /obj/item/kirbyplants/random,
@@ -660,9 +610,7 @@
 /obj/machinery/disposal/bin,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "ic" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/hallway/aft)
@@ -685,9 +633,7 @@
 	dir = 6
 	},
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "it" = (
 /obj/effect/decal/cleanable/blood,
 /obj/structure/cable{
@@ -704,9 +650,7 @@
 /turf/closed/wall/mineral/titanium{
 	baseturfs = /turf/open/floor/mineral/titanium/tiled/white
 	},
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "iG" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering/engine)
@@ -716,9 +660,9 @@
 	id = "flash"
 	},
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "jc" = (
 /obj/structure/closet/crate/radiation,
@@ -754,9 +698,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "jq" = (
 /obj/structure/window/plasma/reinforced/spawner,
 /obj/structure/window/plasma/reinforced/spawner/east,
@@ -773,9 +715,7 @@
 /obj/item/stack/sheet/mineral/plasma/five,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "jH" = (
 /obj/effect/decal/cleanable/oil,
 /obj/structure/alien/weeds,
@@ -825,9 +765,9 @@
 	color = "#8000b6"
 	},
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "kz" = (
 /obj/effect/decal/cleanable/dirt,
@@ -855,9 +795,7 @@
 /turf/closed/wall/mineral/titanium{
 	baseturfs = /turf/open/floor/mineral/titanium/tiled/white
 	},
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "kZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -884,9 +822,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "la" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -895,9 +831,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "ll" = (
 /obj/structure/toilet/secret{
 	dir = 8;
@@ -920,9 +854,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "lx" = (
 /obj/structure/falsewall/titanium,
 /obj/structure/sign/poster/retro/science,
@@ -954,9 +886,7 @@
 	dir = 9
 	},
 /turf/closed/wall/mineral/titanium,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "lS" = (
 /obj/effect/decal/cleanable/blood,
 /obj/machinery/camera/autoname{
@@ -976,9 +906,9 @@
 "md" = (
 /obj/structure/sign/warning/biohazard,
 /turf/closed/wall/r_wall,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "me" = (
 /turf/closed/wall/mineral/titanium,
@@ -1043,9 +973,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "mL" = (
 /obj/machinery/suit_storage_unit/rd,
 /obj/structure/window/plasma/reinforced/spawner/east,
@@ -1077,9 +1005,9 @@
 	name = "large blast door"
 	},
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "nn" = (
 /obj/structure/frame/computer,
@@ -1097,25 +1025,21 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "ny" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/alien/weeds/node,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "nF" = (
 /obj/structure/alien/weeds,
 /turf/closed/wall/mineral/titanium{
 	baseturfs = /turf/open/floor/mineral/titanium/tiled/white
 	},
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "nI" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
@@ -1141,9 +1065,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "nT" = (
 /obj/structure/window/reinforced/spawner,
 /obj/structure/closet/l3closet/scientist,
@@ -1153,9 +1075,7 @@
 	},
 /obj/structure/alien/weeds/node,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "oc" = (
 /obj/machinery/door/airlock/science,
 /obj/effect/decal/cleanable/oil/slippery,
@@ -1194,17 +1114,13 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "ow" = (
 /obj/structure/sign/poster/contraband/lusty_xenomorph,
 /turf/closed/wall/mineral/titanium{
 	baseturfs = /turf/open/floor/mineral/titanium/tiled/white
 	},
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "oJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/broken{
@@ -1257,9 +1173,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "pG" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
@@ -1314,9 +1228,7 @@
 /area/ship/crew/canteen)
 "qB" = (
 /turf/closed/wall/mineral/titanium,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "qL" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
@@ -1408,9 +1320,9 @@
 /obj/effect/decal/cleanable/blood,
 /obj/structure/alien/weeds/node,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "ry" = (
 /obj/structure/table_frame,
@@ -1419,9 +1331,7 @@
 /obj/item/toy/plush/slimeplushie,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "rH" = (
 /obj/effect/decal/cleanable/blood,
 /obj/structure/cable{
@@ -1516,9 +1426,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "sH" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/engineering/electrical)
@@ -1528,9 +1436,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "sO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -1583,9 +1489,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "tw" = (
 /obj/machinery/suit_storage_unit/open,
 /turf/open/floor/plating,
@@ -1611,16 +1515,12 @@
 /obj/effect/mob_spawn/human/corpse/damaged,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "us" = (
 /obj/structure/frame/machine,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "ut" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1635,9 +1535,9 @@
 /obj/structure/alien/weeds,
 /obj/structure/alien/weeds,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "uP" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible/layer3,
@@ -1650,9 +1550,7 @@
 /turf/closed/wall/mineral/titanium{
 	baseturfs = /turf/open/floor/mineral/titanium/tiled/white
 	},
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "uY" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 10
@@ -1662,18 +1560,18 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "vb" = (
 /obj/machinery/button/flasher{
 	id = "flash"
 	},
 /turf/closed/wall/r_wall,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "vh" = (
 /obj/machinery/power/shuttle/engine/electric{
@@ -1697,9 +1595,7 @@
 /obj/structure/alien/weeds,
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "vE" = (
 /obj/effect/decal/cleanable/xenoblood/xsplatter,
 /obj/machinery/light/broken,
@@ -1718,9 +1614,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "vW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/broken,
@@ -1741,9 +1635,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "wa" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/alien/weeds/node,
@@ -1779,9 +1671,7 @@
 /obj/machinery/camera/autoname,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "wD" = (
 /obj/machinery/power/apc/auto_name/north,
 /obj/structure/cable{
@@ -1810,9 +1700,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "wR" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/snacks/cubancarp,
@@ -1836,16 +1724,12 @@
 /obj/structure/alien/weeds,
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "xu" = (
 /obj/item/shard,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "xv" = (
 /obj/machinery/light/small/broken{
 	dir = 1
@@ -1853,9 +1737,7 @@
 /obj/structure/alien/weeds/node,
 /obj/structure/bed/nest,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "xy" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
@@ -1863,9 +1745,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "xB" = (
 /obj/machinery/power/apc/auto_name/north,
 /obj/structure/cable{
@@ -1878,9 +1758,7 @@
 /obj/machinery/airalarm/directional/east,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "xV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -1891,9 +1769,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "xY" = (
 /obj/structure/cable{
 	icon_state = "2-9"
@@ -1963,9 +1839,7 @@
 /obj/structure/alien/weeds,
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "yD" = (
 /obj/structure/cable{
 	icon_state = "6-8"
@@ -2061,9 +1935,9 @@
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/airlock/vault,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "zG" = (
 /obj/structure/sign/poster/random,
@@ -2095,9 +1969,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Af" = (
 /obj/structure/cable{
 	icon_state = "5-8"
@@ -2113,9 +1985,7 @@
 /obj/item/kirbyplants/random,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Ai" = (
 /obj/machinery/atmospherics/pipe/manifold/general/hidden{
 	dir = 1
@@ -2133,9 +2003,7 @@
 /turf/open/floor/circuit/telecomms{
 	name = "coldroom"
 	},
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Al" = (
 /obj/effect/decal/cleanable/blood/gibs/core,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
@@ -2167,9 +2035,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "AI" = (
 /obj/structure/closet/cardboard,
 /obj/effect/spawner/lootdrop/maintenance/four,
@@ -2189,9 +2055,9 @@
 	color = "#8000b6"
 	},
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "Bf" = (
 /obj/structure/cable{
@@ -2209,9 +2075,9 @@
 "Bg" = (
 /obj/structure/sign/poster/official/random,
 /turf/closed/wall/r_wall,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "Bi" = (
 /obj/effect/decal/cleanable/blood,
@@ -2223,9 +2089,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Bp" = (
 /obj/structure/table/reinforced,
 /obj/machinery/cell_charger,
@@ -2235,9 +2099,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "By" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/purple,
@@ -2307,9 +2169,9 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "Co" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2335,9 +2197,7 @@
 /turf/open/floor/circuit/telecomms{
 	name = "coldroom"
 	},
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Cz" = (
 /obj/machinery/atmospherics/pipe/layer_manifold{
 	dir = 1
@@ -2356,9 +2216,7 @@
 /obj/effect/decal/cleanable/xenoblood,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "CP" = (
 /obj/effect/decal/cleanable/xenoblood,
 /obj/structure/alien/weeds/node,
@@ -2391,9 +2249,7 @@
 /obj/machinery/door/firedoor/window,
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "De" = (
 /obj/effect/decal/cleanable/blood,
 /obj/structure/alien/weeds,
@@ -2405,9 +2261,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Dq" = (
 /obj/machinery/door/window/brigdoor/eastright{
 	dir = 8
@@ -2423,9 +2277,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Dr" = (
 /obj/structure/cable{
 	icon_state = "2-5"
@@ -2447,9 +2299,7 @@
 /obj/structure/alien/weeds,
 /obj/structure/alien/resin/membrane,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Dt" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/manifold4w/supply/hidden/layer2,
@@ -2485,9 +2335,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "DO" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
@@ -2569,9 +2417,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Eh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/alien/weeds,
@@ -2585,9 +2431,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "EG" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -2609,9 +2453,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/door/airlock/vault,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "EM" = (
 /turf/closed/wall/mineral/titanium,
@@ -2651,18 +2495,14 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Fm" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Fo" = (
 /obj/effect/decal/cleanable/oil/streak,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
@@ -2677,9 +2517,9 @@
 /obj/machinery/atmospherics/components/unary/portables_connector/visible/layer2,
 /obj/machinery/portable_atmospherics/canister/toxins,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "Fr" = (
 /obj/machinery/power/terminal,
@@ -2705,9 +2545,7 @@
 "Fy" = (
 /obj/structure/sign/warning/xeno_mining,
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "FE" = (
 /obj/effect/decal/cleanable/blood,
 /obj/structure/cable{
@@ -2777,14 +2615,12 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/structure/alien/weeds/node,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Gt" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "Gw" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2821,9 +2657,9 @@
 "GK" = (
 /obj/structure/alien/weeds,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "GL" = (
 /obj/structure/sign/poster/random,
@@ -2841,9 +2677,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "He" = (
 /obj/structure/chair/wood,
 /turf/open/floor/carpet/purple,
@@ -2867,9 +2701,7 @@
 /obj/structure/alien/weeds,
 /obj/structure/alien/egg/burst,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Ho" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -2879,15 +2711,11 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Hy" = (
 /obj/structure/sign/departments/science,
 /turf/closed/wall/mineral/titanium,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Hz" = (
 /obj/item/chair{
 	dir = 8
@@ -2903,9 +2731,7 @@
 /turf/open/floor/circuit/telecomms{
 	name = "coldroom"
 	},
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "HC" = (
 /obj/structure/window/reinforced/spawner,
 /obj/structure/closet/l3closet/scientist,
@@ -2915,24 +2741,18 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "HG" = (
 /obj/structure/bookcase/manuals/research_and_development,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "HM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/alien/weeds,
 /obj/structure/bed/nest,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "HQ" = (
 /obj/item/shard,
 /obj/structure/alien/weeds,
@@ -2946,9 +2766,7 @@
 /obj/machinery/airalarm/directional/west,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "HV" = (
 /obj/effect/decal/cleanable/oil,
 /obj/structure/cable{
@@ -2996,9 +2814,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Ig" = (
 /obj/machinery/door/airlock/titanium/glass{
 	name = "Bridge"
@@ -3074,9 +2890,9 @@
 /obj/machinery/atmospherics/components/binary/pump/layer2,
 /obj/structure/alien/weeds,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "IJ" = (
 /obj/machinery/firealarm{
@@ -3091,9 +2907,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "IS" = (
 /obj/effect/decal/cleanable/generic,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -3143,9 +2957,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Jj" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
@@ -3162,9 +2974,7 @@
 	},
 /obj/structure/alien/resin/membrane,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Jo" = (
 /obj/machinery/computer/rdconsole/robotics{
 	dir = 8
@@ -3231,18 +3041,14 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "JT" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 6
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Kb" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/bridge)
@@ -3285,9 +3091,7 @@
 /obj/structure/alien/weeds,
 /obj/structure/alien/egg/burst,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "KA" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -3299,9 +3103,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "KB" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -3351,17 +3153,15 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "LG" = (
 /obj/machinery/holopad/emergency/science,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "LH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -3372,9 +3172,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "LK" = (
 /obj/structure/frame/machine,
 /obj/machinery/light{
@@ -3382,9 +3180,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "LO" = (
 /obj/item/flashlight/glowstick/pink,
 /obj/machinery/power/apc/auto_name/north,
@@ -3414,9 +3210,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Mc" = (
 /obj/machinery/light/broken{
 	dir = 4
@@ -3425,9 +3219,7 @@
 /obj/item/slime_scanner,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Mg" = (
 /obj/structure/sign/poster/official/random,
 /turf/closed/wall/mineral/titanium/nodiagonal,
@@ -3443,9 +3235,7 @@
 	},
 /obj/item/pipe/trinary/flippable,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "ME" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/vending/wardrobe/science_wardrobe,
@@ -3454,9 +3244,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "MK" = (
 /obj/machinery/vending/cigarette,
 /obj/structure/alien/weeds,
@@ -3479,9 +3267,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Nl" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/storage)
@@ -3503,9 +3289,7 @@
 /obj/item/storage/box/beakers,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Nz" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3522,9 +3306,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "ND" = (
 /obj/machinery/cryopod{
 	dir = 4;
@@ -3568,9 +3350,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "NW" = (
 /obj/structure/bed/pod,
 /obj/item/bedsheet/cosmos,
@@ -3588,9 +3368,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Ob" = (
 /obj/machinery/button/door{
 	id = "rdshutter";
@@ -3614,9 +3392,7 @@
 	},
 /obj/structure/sign/warning/coldtemp,
 /turf/closed/wall/mineral/titanium,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Oo" = (
 /obj/structure/sign/poster/official/ion_rifle,
 /turf/closed/wall/mineral/titanium{
@@ -3650,9 +3426,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "OM" = (
 /obj/effect/decal/cleanable/oil,
 /obj/machinery/light/built{
@@ -3667,9 +3441,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "OS" = (
 /obj/structure/alien/weeds,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
@@ -3678,9 +3450,7 @@
 /obj/structure/bed/nest,
 /obj/effect/decal/cleanable/blood/gibs/old,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "OV" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/crew/toilet)
@@ -3689,9 +3459,9 @@
 	dir = 8
 	},
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "Pt" = (
 /obj/effect/decal/cleanable/oil,
@@ -3725,9 +3495,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "PJ" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 4
@@ -3735,9 +3503,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/structure/alien/weeds,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "PX" = (
 /obj/machinery/door/airlock/science,
 /obj/machinery/door/firedoor/border_only{
@@ -3758,9 +3524,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "PY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -3801,9 +3565,7 @@
 	name = "Lockdown Shutters"
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Qo" = (
 /obj/effect/decal/cleanable/xenoblood/xsplatter,
 /obj/structure/cable{
@@ -3823,9 +3585,7 @@
 "QB" = (
 /obj/structure/sign/poster/random,
 /turf/closed/wall/mineral/titanium,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "QM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/alien/weeds/node,
@@ -3842,9 +3602,9 @@
 "QT" = (
 /obj/structure/alien/weeds/node,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "Ri" = (
 /obj/item/shard,
@@ -3896,9 +3656,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "RQ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -3923,9 +3681,7 @@
 	},
 /obj/structure/alien/resin/membrane,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Sa" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/firealarm{
@@ -3938,9 +3694,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/structure/alien/weeds/node,
 /turf/open/space/basic,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Se" = (
 /obj/structure/cable{
 	icon_state = "2-9"
@@ -3971,9 +3725,7 @@
 /obj/structure/bed/nest,
 /obj/effect/mob_spawn/human/corpse/damaged,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Sp" = (
 /obj/effect/turf_decal/rechargefloor,
 /obj/structure/alien/weeds,
@@ -4022,9 +3774,7 @@
 /turf/open/floor/circuit/telecomms{
 	name = "coldroom"
 	},
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Tk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
@@ -4032,9 +3782,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Tr" = (
 /obj/structure/chair{
 	dir = 4
@@ -4054,9 +3802,9 @@
 /area/ship/hallway/aft)
 "TH" = (
 /turf/closed/wall/r_wall,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "TQ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4099,9 +3847,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Us" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -4112,18 +3858,16 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Ut" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "Uu" = (
 /obj/effect/decal/cleanable/ash,
@@ -4143,9 +3887,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Uy" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -4180,9 +3922,9 @@
 	name = "large blast door"
 	},
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "UZ" = (
 /turf/closed/wall/mineral/titanium{
@@ -4192,9 +3934,9 @@
 "Vb" = (
 /obj/machinery/light/floor,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "Vj" = (
 /obj/structure/window/reinforced/spawner,
@@ -4227,9 +3969,7 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/tiled,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Vz" = (
 /obj/machinery/light{
 	dir = 1
@@ -4237,9 +3977,9 @@
 /obj/machinery/atmospherics/components/unary/portables_connector/visible/layer2,
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "VA" = (
 /obj/machinery/computer/security/research,
@@ -4264,9 +4004,9 @@
 /obj/machinery/light,
 /obj/structure/alien/weeds,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "VS" = (
 /obj/effect/decal/cleanable/xenoblood/xsplatter,
@@ -4274,9 +4014,7 @@
 /obj/structure/alien/weeds,
 /obj/structure/bed/nest,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "VU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -4322,9 +4060,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Wr" = (
 /obj/machinery/camera/autoname{
 	dir = 1
@@ -4339,9 +4075,7 @@
 	name = "Lockdown Shutters"
 	},
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Wz" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/hallway/aft)
@@ -4358,9 +4092,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "WQ" = (
 /obj/structure/window/reinforced/spawner,
 /obj/machinery/power/smes/shuttle/precharged{
@@ -4385,9 +4117,7 @@
 /turf/open/floor/circuit/telecomms{
 	name = "coldroom"
 	},
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "WZ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
@@ -4395,9 +4125,7 @@
 /turf/closed/wall/mineral/titanium{
 	baseturfs = /turf/open/floor/mineral/titanium/tiled/white
 	},
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Xc" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/sheet/metal/fifty,
@@ -4447,9 +4175,7 @@
 /obj/structure/alien/weeds,
 /obj/structure/bed/nest,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Xx" = (
 /turf/closed/wall/mineral/titanium{
 	baseturfs = /turf/open/floor/mineral/titanium/tiled/white
@@ -4469,9 +4195,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "XG" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/bridge)
@@ -4490,9 +4214,9 @@
 /obj/machinery/light/floor,
 /turf/open/floor/holofloor/plating/burnmix,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "XI" = (
 /obj/structure/alien/weeds,
@@ -4501,27 +4225,23 @@
 "XN" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "XY" = (
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "XZ" = (
 /obj/item/kirbyplants/random,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/toy/figure/roboticist,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Ye" = (
 /obj/machinery/power/apc/auto_name/north,
 /obj/structure/cable{
@@ -4572,18 +4292,16 @@
 /obj/effect/mob_spawn/human/corpse/russian,
 /obj/item/toy/plush/moth,
 /turf/open/floor/plating,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Yz" = (
 /obj/machinery/atmospherics/components/unary/passive_vent/layer2{
 	dir = 4;
 	pixel_y = 1
 	},
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "YB" = (
 /obj/effect/decal/cleanable/glass,
@@ -4597,9 +4315,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "YG" = (
 /obj/structure/frame/machine,
 /obj/machinery/camera/autoname{
@@ -4608,9 +4324,7 @@
 /obj/structure/alien/weeds,
 /obj/item/stack/cable_coil/random/five,
 /turf/open/floor/mineral/titanium/tiled/purple,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "YO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/firealarm{
@@ -4653,9 +4367,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "Zq" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
@@ -4691,9 +4403,9 @@
 	id = "flash"
 	},
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 "ZM" = (
 /obj/machinery/airalarm/directional/east,
@@ -4701,9 +4413,7 @@
 /obj/item/toy/figure/scientist,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/science{
-	name = Containment
-	})
+/area/ship/science)
 "ZT" = (
 /obj/structure/closet/crate/internals,
 /obj/effect/decal/cleanable/dirt,
@@ -4724,9 +4434,9 @@
 	},
 /obj/structure/alien/egg/grown,
 /turf/open/floor/holofloor/plating/burnmix,
-/area/ship/science{
-	name = Containment;
-	icon_state = "xenomaint"
+/area/ship/science/ai_chamber{
+	icon_state = "xenomaint";
+	name = "Containment"
 	})
 
 (1,1,1) = {"
