@@ -93,8 +93,7 @@
 	},
 /obj/machinery/door/airlock{
 	icon = 'icons/obj/doors/airlocks/station/uranium.dmi';
-	name = "Conducting Chamber";
-	req_access_txt = "19"
+	name = "Conducting Chamber"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 8
@@ -187,7 +186,7 @@
 "bq" = (
 /obj/machinery/chem_dispenser/fullupgrade{
 	name = "chemical conjurer";
-	desc = "Creates and dispenses chemicals using magis spells, like 'hocus pocus'."
+	desc = "Creates and dispenses chemicals using magic spells, like 'hocus pocus'."
 	},
 /turf/open/floor/mineral/silver,
 /area/ship/medical)
@@ -315,6 +314,10 @@
 /turf/open/floor/wood/yew,
 /area/ship/crew/dorm/dormtwo)
 "cR" = (
+/obj/effect/mob_spawn/human/corpse/wizard{
+	name = "Pongus"
+	},
+/obj/item/research_notes/loot/tiny,
 /turf/open/floor/engine/airless,
 /area/ship/storage)
 "cS" = (
@@ -660,8 +663,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/machinery/door/airlock{
 	icon = 'icons/obj/doors/airlocks/station/uranium.dmi';
-	name = "Mana requillary";
-	req_access_txt = "16"
+	name = "Mana requillary"
 	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/carpet/green,
@@ -813,8 +815,7 @@
 /obj/machinery/button/door{
 	id = "wizardship4_rear";
 	name = "Blast Doors";
-	pixel_x = -26;
-	req_access_txt = "13"
+	pixel_x = -26
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 5
@@ -1511,9 +1512,6 @@
 	pixel_x = -5;
 	pixel_y = 2
 	},
-/obj/item/upgradescroll{
-	pixel_y = -5
-	},
 /turf/open/floor/wood/yew,
 /area/ship/crew/dorm/dormtwo)
 "nV" = (
@@ -1688,9 +1686,6 @@
 	id = "wizardship4_v1"
 	},
 /turf/open/floor/wood/mahogany,
-/area/ship/storage)
-"qf" = (
-/turf/open/floor/engine/plasma,
 /area/ship/storage)
 "ql" = (
 /obj/machinery/power/rtg/advanced{
@@ -2058,16 +2053,16 @@
 /area/ship/maintenance/central)
 "tW" = (
 /obj/structure/filingcabinet/chestdrawer,
+/obj/item/research_notes/loot/tiny,
+/obj/item/research_notes/loot/tiny,
+/obj/item/research_notes/loot/tiny,
+/obj/item/research_notes/loot/tiny,
+/obj/item/research_notes/loot/tiny,
+/obj/item/research_notes/loot/tiny,
+/obj/item/research_notes/loot/tiny,
+/obj/item/research_notes/loot/tiny,
+/obj/item/research_notes/loot/tiny,
 /obj/item/research_notes/loot/medium,
-/obj/item/research_notes/loot/tiny,
-/obj/item/research_notes/loot/tiny,
-/obj/item/research_notes/loot/tiny,
-/obj/item/research_notes/loot/tiny,
-/obj/item/research_notes/loot/tiny,
-/obj/item/research_notes/loot/tiny,
-/obj/item/research_notes/loot/tiny,
-/obj/item/research_notes/loot/tiny,
-/obj/item/research_notes/loot/tiny,
 /obj/item/research_notes/loot/medium,
 /turf/open/floor/wood/bamboo,
 /area/ship/crew/library)
@@ -2526,7 +2521,7 @@
 	name = "Pingus"
 	},
 /obj/item/research_notes/loot/tiny,
-/turf/open/floor/engine/plasma,
+/turf/open/floor/engine/airless,
 /area/ship/storage)
 "xy" = (
 /obj/structure/cable{
@@ -3192,13 +3187,11 @@
 	name = "Gamma Staff";
 	pin = /obj/item/firing_pin;
 	armour_penetration = 5;
-	bayonet = 1;
 	charge_tick = 1;
 	force = 10;
 	projectile_damage_multiplier = 1.2;
 	selfcharge = 1;
 	sharpness = 1;
-	trigger_guard = 0;
 	w_class = 2
 	},
 /turf/open/floor/carpet/black,
@@ -3888,18 +3881,6 @@
 	},
 /turf/open/floor/light,
 /area/ship/medical)
-"Jj" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 2
-	},
-/turf/open/floor/wood/mahogany,
-/area/ship/hallway/central)
 "Jm" = (
 /turf/closed/wall/mineral/uranium/safe{
 	desc = "A wall plated with emerald.";
@@ -4004,7 +3985,7 @@
 "JY" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/suit/space/hardsuit/wizard{
-	armor = list("melee" = 50, "bullet" = 50, "laser" = 50, "energy" = 60, "bomb" = 35, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 100);
+	armor = list("melee"=50,"bullet"=50,"laser"=50,"energy"=60,"bomb"=35,"bio"=100,"rad"=100,"fire"=100,"acid"=100);
 	color = "#008000"
 	},
 /obj/item/clothing/gloves/combat/wizard,
@@ -4032,7 +4013,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 1
 	},
-/turf/open/floor/wood/mahogany,
+/turf/open/floor/carpet/royalblue,
 /area/ship/hallway/central)
 "Kh" = (
 /obj/structure/window/plasma/reinforced/fulltile{
@@ -4329,8 +4310,7 @@
 	},
 /obj/machinery/door/airlock{
 	icon = 'icons/obj/doors/airlocks/station/uranium.dmi';
-	name = "Mana requillary";
-	req_access_txt = "16"
+	name = "Mana requillary"
 	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/carpet/green,
@@ -4439,7 +4419,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
 	dir = 1
 	},
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/wood/mahogany,
 /area/ship/hallway/central)
 "Og" = (
 /obj/machinery/door/poddoor{
@@ -6080,18 +6060,18 @@ er
 Oa
 Ny
 zz
-Jj
+zz
 QP
-rg
 Mm
-rg
 Mm
-rg
+Mm
+Mm
+Mm
 lD
-rg
+Mm
 Mm
 Kc
-Mm
+rg
 RQ
 zj
 Jf
@@ -6203,17 +6183,17 @@ ny
 qN
 ZU
 pW
-Di
+Ir
 pW
 xZ
+xZ
+xZ
+xZ
+xZ
+xZ
 cR
-cR
-cR
-qf
-qf
-cR
-cR
-cR
+xZ
+xZ
 xZ
 ya
 nI
@@ -6248,7 +6228,7 @@ pW
 Ho
 bJ
 xZ
-qf
+xZ
 xZ
 xZ
 xZ
@@ -6287,10 +6267,10 @@ ny
 rd
 ZU
 gn
-Di
+Ir
 pW
 xZ
-qf
+xZ
 xZ
 jI
 Ao
@@ -6332,7 +6312,7 @@ pI
 Ir
 pW
 xZ
-qf
+xZ
 xZ
 TM
 Vh
@@ -6371,10 +6351,10 @@ ny
 rd
 ZU
 cw
-Di
+Ir
 pW
 xZ
-qf
+xZ
 xZ
 OX
 xJ
@@ -6416,7 +6396,7 @@ WC
 Ir
 pW
 xZ
-qf
+xZ
 xZ
 xZ
 xZ
@@ -6455,14 +6435,14 @@ CU
 nx
 ZU
 pW
-Di
+Ir
 pW
 xZ
-cR
-qf
-qf
-qf
-qf
+xZ
+xZ
+xZ
+xZ
+xZ
 xZ
 wu
 ia
@@ -6500,7 +6480,7 @@ QW
 Mq
 pW
 xZ
-cR
+xZ
 xZ
 xZ
 xZ
@@ -6542,7 +6522,7 @@ pW
 Di
 pW
 xZ
-qf
+xZ
 xZ
 jI
 Ao
@@ -6584,7 +6564,7 @@ gC
 Di
 pW
 xZ
-qf
+xZ
 xZ
 TM
 CA
@@ -6668,7 +6648,7 @@ IR
 Di
 KS
 xZ
-qf
+xZ
 xZ
 xZ
 xZ
@@ -6710,11 +6690,11 @@ gC
 Di
 pW
 xZ
-cR
-cR
-cR
-cR
-cR
+xZ
+xZ
+xZ
+xZ
+xZ
 xZ
 DD
 YO
