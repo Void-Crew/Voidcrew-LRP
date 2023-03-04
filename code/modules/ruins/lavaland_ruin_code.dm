@@ -156,7 +156,7 @@
 
 /obj/effect/mob_spawn/human/lavaland_syndicate/comms/space
 	short_desc = "You are a syndicate agent, assigned to a small listening post formerly situated near your hated enemy's most important research station: Space Station 13."
-	flavour_text = "The station of your enemies has been wiped out long ago, and as such you are expected to maintain the base and monitor communications nearby. An allied freighter crashed into the asteroid after SS13 was destroyed - maybe you could make use of what's onboard."
+	flavour_text = "The station of your enemies has been wiped out long ago, and as such you are expected to maintain the base and monitor communications nearby."
 	important_info = "Your faction is SYN-C. Protect and maintain your base, and do not abandon it."
 
 /datum/outfit/lavaland_syndicate/comms
