@@ -145,7 +145,7 @@
 /area/ship/maintenance/central)
 "jp" = (
 /obj/effect/spawner/structure/window/shuttle,
-/obj/machinery/door/poddoor/shutters/indestructible/preopen{
+/obj/machinery/door/poddoor/shutters/preopen{
 	id = "shutterspocket"
 	},
 /turf/open/floor/plating,
@@ -227,7 +227,7 @@
 /area/ship/bridge)
 "pG" = (
 /obj/effect/spawner/structure/window/shuttle,
-/obj/machinery/door/poddoor/shutters/indestructible/preopen{
+/obj/machinery/door/poddoor/shutters/preopen{
 	id = "shutterspocket"
 	},
 /turf/open/floor/plating,
@@ -265,7 +265,7 @@
 /area/ship/crew/canteen)
 "tw" = (
 /obj/effect/spawner/structure/window/shuttle,
-/obj/machinery/door/poddoor/shutters/indestructible/preopen{
+/obj/machinery/door/poddoor/shutters/preopen{
 	id = "shutterspocket"
 	},
 /turf/open/floor/plating,
@@ -470,6 +470,7 @@
 	icon_state = "0-4"
 	},
 /obj/effect/turf_decal/industrial/warning/full,
+/obj/item/stack/sheet/mineral/plasma/twenty,
 /turf/open/floor/plating,
 /area/ship/maintenance/central)
 "FZ" = (
@@ -505,10 +506,12 @@
 	dir = 8
 	},
 /obj/machinery/shower{
-	pixel_y = 14
+	pixel_y = 14;
+	pixel_x = 6
 	},
 /obj/structure/sink{
-	pixel_x = -10
+	pixel_x = -10;
+	pixel_y = 18
 	},
 /obj/structure/mirror{
 	pixel_y = -32
@@ -561,7 +564,7 @@
 /area/ship/cargo)
 "KI" = (
 /obj/effect/spawner/structure/window/shuttle,
-/obj/machinery/door/poddoor/shutters/indestructible/preopen{
+/obj/machinery/door/poddoor/shutters/preopen{
 	id = "shutterspocket"
 	},
 /turf/open/floor/plating,
@@ -600,6 +603,7 @@
 /obj/item/clothing/glasses/meson,
 /obj/effect/spawner/lootdrop/maintenance/four,
 /obj/item/storage/belt/fannypack,
+/obj/item/storage/firstaid/advanced,
 /turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "NK" = (
@@ -702,7 +706,7 @@
 /obj/machinery/button/door{
 	id = "pocketdoor";
 	name = "Bay doors";
-	pixel_x = -25;
+	pixel_x = -36;
 	pixel_y = 5
 	},
 /turf/open/floor/plating,

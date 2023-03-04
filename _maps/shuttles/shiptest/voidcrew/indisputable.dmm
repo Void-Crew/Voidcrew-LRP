@@ -635,7 +635,9 @@
 	dir = 1
 	},
 /obj/machinery/door/window/brigdoor,
-/obj/machinery/rnd/server,
+/obj/machinery/rnd/server{
+	desc = "A cardboard box with some LED lights. A small note taped to the side reads 'A computer system running a deep neural network that processes arbitrary information to produce data useable in the development of new technologies. In layman's terms, it makes research points.' I wonder who wrote that?"
+	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/science/ai_chamber)
 "if" = (
@@ -3272,6 +3274,8 @@
 /obj/item/clothing/suit/hooded/ablative,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/corner_techfloor_gray/diagonal,
+/obj/item/gun_voucher,
+/obj/item/gun_voucher,
 /turf/open/floor/plasteel/patterned,
 /area/ship/security/armory)
 "OC" = (
