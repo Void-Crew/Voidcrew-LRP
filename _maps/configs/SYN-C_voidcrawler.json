@@ -1,0 +1,27 @@
+{
+	"map_name": "Voidcrawler-class Chemical Terrorizer",
+	"map_short_name": "Voidcrawler-Class",
+	"prefix": "SYN-C",
+	"map_path": "_maps/shuttles/shiptest/voidcrew/voidcrawler.dmm",
+	"map_id": "voidcrawler",
+	"job_slots": {
+		"Syndicate Strike Captain": {
+			"outfit": "/datum/outfit/syndicate_empty/sbc/assault/captain",
+			"slots": 1
+	  },
+		"Mechanic":{
+			"outfit": "/datum/outfit/syndicate_empty/sbc/engi",
+			"slots": 4
+		},
+		"Medic":{
+			"outfit": "/datum/outfit/syndicate_empty/sbc/med",
+			"slots": 2
+		},
+		"Operative": {
+			"outfit": "/datum/outfit/syndicate_empty/sbc/assault/operative",
+			"officer": true,
+			"slots": 2
+	},
+	"cost": 1250
+}
+}
