@@ -791,10 +791,8 @@
 /turf/open/floor/pod/light,
 /area/ship/cargo)
 "lA" = (
-/obj/structure/window/shuttle,
 /obj/structure/grille,
-/obj/machinery/door/firedoor/window,
-/obj/structure/curtain/bounty,
+/obj/structure/window/shuttle,
 /turf/open/floor/plating,
 /area/ship/crew/dorm)
 "lL" = (
@@ -848,6 +846,7 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/computer/mech_bay_power_console,
 /turf/open/floor/pod/light,
 /area/ship/cargo)
 "mF" = (
@@ -974,8 +973,8 @@
 /area/ship/cargo)
 "nU" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/deepfryer,
 /obj/machinery/light/small,
+/obj/machinery/grill,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/maintenance/starboard)
 "nV" = (
@@ -1776,9 +1775,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "yk" = (
-/obj/machinery/computer/nanite_chamber_control{
-	dir = 8
-	},
+/obj/machinery/public_nanite_chamber,
 /turf/open/floor/pod/light,
 /area/ship/science/robotics)
 "yz" = (
@@ -1877,7 +1874,6 @@
 /turf/open/floor/pod/light,
 /area/ship/bridge)
 "zh" = (
-/obj/effect/spawner/lootdrop/maintenance,
 /obj/structure/closet/firecloset/full,
 /obj/machinery/airalarm/all_access{
 	dir = 4;
@@ -1886,7 +1882,6 @@
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "zq" = (
-/obj/machinery/nanite_chamber,
 /turf/open/floor/pod/light,
 /area/ship/science/robotics)
 "zr" = (
@@ -2185,8 +2180,6 @@
 	},
 /obj/item/circuitboard/machine/destructive_analyzer,
 /obj/item/circuitboard/machine/experimentor,
-/obj/item/circuitboard/machine/public_nanite_chamber,
-/obj/item/survey_handheld,
 /obj/item/survey_handheld,
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/science)
@@ -2377,13 +2370,6 @@
 	},
 /turf/open/floor/pod/light,
 /area/ship/bridge)
-"Fz" = (
-/obj/structure/window/shuttle,
-/obj/structure/grille,
-/obj/machinery/door/firedoor/window,
-/obj/structure/curtain/bounty,
-/turf/open/floor/plating,
-/area/ship/hallway/fore)
 "FC" = (
 /obj/machinery/firealarm{
 	dir = 4;
@@ -2511,7 +2497,6 @@
 	name = "fuel crate"
 	},
 /obj/item/stack/sheet/mineral/uranium/twenty,
-/obj/effect/spawner/lootdrop/maintenance/two,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
 	},
@@ -2539,8 +2524,6 @@
 "Hs" = (
 /obj/structure/grille,
 /obj/structure/window/shuttle,
-/obj/machinery/door/firedoor/window,
-/obj/structure/curtain/bounty,
 /turf/open/floor/plating,
 /area/ship/hallway/fore)
 "HG" = (
@@ -3571,6 +3554,10 @@
 	},
 /obj/structure/closet/secure_closet/freezer/fridge/open,
 /obj/item/reagent_containers/food/condiment/enzyme,
+/obj/item/reagent_containers/food/snacks/meat/slab/bear,
+/obj/item/reagent_containers/food/snacks/meat/slab/killertomato,
+/obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/ethereal,
+/obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/lizard,
 /turf/open/floor/plasteel/showroomfloor,
 /area/ship/maintenance/starboard)
 "Te" = (
@@ -3750,6 +3737,7 @@
 /obj/effect/turf_decal/siding/yellow{
 	dir = 8
 	},
+/obj/machinery/computer/mech_bay_power_console,
 /turf/open/floor/pod/light,
 /area/ship/cargo)
 "Ul" = (
@@ -3817,7 +3805,9 @@
 "UP" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table/reinforced,
-/obj/item/reagent_containers/food/snacks/meat/slab/killertomato,
+/obj/item/reagent_containers/food/snacks/meat/slab/gorilla,
+/obj/item/reagent_containers/food/snacks/meat/slab/human,
+/obj/item/reagent_containers/food/snacks/meat/slab/corgi,
 /turf/open/floor/plasteel/showroomfloor,
 /area/ship/maintenance/starboard)
 "Vo" = (
@@ -3892,10 +3882,8 @@
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "Wb" = (
-/obj/structure/window/shuttle/unanchored,
 /obj/structure/grille,
-/obj/machinery/door/firedoor/window,
-/obj/structure/curtain/bounty,
+/obj/structure/window/shuttle,
 /turf/open/floor/plating,
 /area/ship/science/robotics)
 "Wp" = (
@@ -3971,7 +3959,6 @@
 /area/ship/engineering/engine)
 "XE" = (
 /obj/structure/closet/emcloset,
-/obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "XJ" = (
@@ -4094,10 +4081,8 @@
 /turf/open/floor/pod/light,
 /area/ship/cargo)
 "Zs" = (
-/obj/structure/window/shuttle,
 /obj/structure/grille,
-/obj/machinery/door/firedoor/window,
-/obj/structure/curtain/bounty,
+/obj/structure/window/shuttle,
 /turf/open/floor/plating,
 /area/ship/crew/canteen)
 "Zt" = (
@@ -5057,18 +5042,12 @@ Sr
 Sr
 vK
 vK
-Hj
-Hj
-Hj
-Hj
-vK
-vK
 DM
-Fz
-Fz
-Fz
-Fz
-Fz
+Hs
+Hs
+Hs
+Hs
+Hs
 Lz
 Lz
 Lp
