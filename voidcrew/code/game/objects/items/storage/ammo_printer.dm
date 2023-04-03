@@ -1,4 +1,6 @@
-/obj/structure/ammo_printer
+#define METAL_REQUIRED 15
+
+/obj/machinery/ammo_printer
 	name = "rusting ammo printer"
 	desc = "An ammunition printer covered in rust. It looks like it has enough juice for one more run.."
 	icon = 'icons/obj/storage.dmi'
@@ -13,55 +15,74 @@
 		/obj/item/gun/ballistic/automatic/gyropistol
 	)
 	var/obj/item/gun/ballistic/inserted_gun
-	var/has_metal = FALSE
+	var/metal_amount = 0
 	var/total_ammo = 1
 	var/ammo_type
+	var/reusable = FALSE
 
-/obj/structure/ammo_printer/Initialize()
+/obj/machinery/ammo_printer/Initialize()
 	. = ..()
-	desc = "An ammunition printer covered in rust. It looks like it has enough juice for one more run.. It has 0 sheets of metal loaded."
+	if(reusable)
+		component_parts = list()
+		component_parts += new /obj/item/circuitboard/machine/ammo_printer(null)
+		component_parts += new /obj/item/stock_parts/scanning_module/triphasic(null)
+		component_parts += new /obj/item/stock_parts/scanning_module/triphasic(null)
+		component_parts += new /obj/item/stock_parts/manipulator/femto(null)
+		component_parts += new /obj/item/stock_parts/micro_laser/quadultra(null)
+		component_parts += new /obj/item/stock_parts/matter_bin/bluespace(null)
+	else
+		flags_1 = NODECONSTRUCT_1
+	desc = "An ammunition printer[reusable ? "." :" covered in rust. It looks like it has enough juice for one more run.."] It has [metal_amount] sheets of metal loaded."
 
-/obj/structure/ammo_printer/attackby(obj/item/inserted_item, mob/living/user)
+/obj/machinery/ammo_printer/attackby(obj/item/I, mob/living/user)
+	if(!inserted_gun && default_deconstruction_screwdriver(user, icon_state, icon_state, I))
+		return
+	if(default_deconstruction_crowbar(I))
+		return
+	if(!inserted_gun && default_unfasten_wrench(user, I))
+		return
 	if(used)
 		to_chat(user, "<span class='warning'>The printer has no power left!</span>")
 		playsound(src, 'sound/machines/uplinkerror.ogg', 25, FALSE)
 		return
-	if(istype(inserted_item, /obj/item/gun/ballistic))
+	if(istype(I, /obj/item/gun/ballistic))
 		if(inserted_gun)
 			to_chat(user, "<span class='warning'>A weapon is already loaded into the machine!</span>")
 			playsound(src, 'sound/machines/uplinkerror.ogg', 25, FALSE)
 			return
 		for(var/weapon in blacklist)
-			if(istype(inserted_item, weapon))
+			if(istype(I, weapon))
 				to_chat(user, "<span class='warning'>The printer cannot work with weapons of this caliber!</span>")
 				playsound(src, 'sound/machines/uplinkerror.ogg', 25, FALSE)
 				return
-		if(!user.transferItemToLoc(inserted_item, src))
+		if(!user.transferItemToLoc(I, src))
 			to_chat(user, "<span class='warning'>The weapon is stuck to your hand!</span>")
 			playsound(src, 'sound/machines/uplinkerror.ogg', 25, FALSE)
 			return
-		inserted_gun = inserted_item
+		inserted_gun = I
 		playsound(src, 'sound/items/deconstruct.ogg', 50, FALSE)
-		to_chat(user, "You load the [inserted_item.name] into the printer.")
-	if(istype(inserted_item, /obj/item/stack/sheet/metal))
-		if (has_metal)
+		to_chat(user, "You load the [I.name] into the printer.")
+	if(istype(I, /obj/item/stack/sheet/metal))
+		if (metal_amount >= METAL_REQUIRED)
+			to_chat(user, "<span class='warning'>The machine is already full of metal!</span>")
+			playsound(src, 'sound/machines/uplinkerror.ogg', 25, FALSE)
 			return
-		var/obj/item/stack/sheet/metal/stack = inserted_item
-		switch(stack.amount)
-			if(0 to 24)
-				to_chat(user, "<span class='warning'>You need to insert 25 metal sheets!</span>")
-				playsound(src, 'sound/machines/uplinkerror.ogg', 25, FALSE)
-				return
-			if(25)
-				to_chat(user, "<span class='warning'>You insert 25 metal sheets into the machine.</span>")
-				playsound(src, 'sound/items/deconstruct.ogg', 50, FALSE)
-				qdel(stack)
+		else//inserts as much as need, or as much as possible if not enough
+			var/obj/item/stack/sheet/metal/stack = I
+			var/metal_needed = METAL_REQUIRED - metal_amount
+			if(stack.amount > metal_needed)
+				metal_amount += metal_needed
+				stack.add(-metal_needed)
 			else
-				stack.add(-25)
-		has_metal = TRUE
-		desc = "An ammunition printer covered in rust. It looks like it has enough juice for one more run.. It has 25 sheets of metal loaded."
+				metal_amount += stack.amount
+				metal_needed = stack.amount
+				qdel(stack)
 
-/obj/structure/ammo_printer/interact(mob/user)
+			to_chat(user, "<span class='warning'>You insert [metal_needed] metal sheets into the machine.</span>")
+			playsound(src, 'sound/items/deconstruct.ogg', 50, FALSE)
+			desc = "An ammunition printer[reusable ? "." :" covered in rust. It looks like it has enough juice for one more run.."] It has [metal_amount] sheets of metal loaded."
+
+/obj/machinery/ammo_printer/interact(mob/user)
 	. = ..()
 	if(used)
 		to_chat(user, "<span class='warning'>The printer has no power left!</span>")
@@ -71,8 +92,8 @@
 		to_chat(user, "<span class='warning'>Insert a weapon first!</span>")
 		playsound(src, 'sound/machines/uplinkerror.ogg', 25, FALSE)
 		return
-	if(!has_metal)
-		to_chat(user, "<span class='warning'>You need to insert 25 metal to operate this printer!</span>")
+	if(metal_amount < METAL_REQUIRED)
+		to_chat(user, "<span class='warning'>You need to insert [METAL_REQUIRED] metal to operate this printer!</span>")
 		playsound(src, 'sound/machines/uplinkerror.ogg', 25, FALSE)
 		return
 
@@ -92,12 +113,27 @@
 			total_ammo -= 1
 		inserted_gun.forceMove(src.loc)
 		inserted_gun = FALSE
-		desc = "An ammunition printer covered in rust. It's out of juice!"
-		used = TRUE
 
-/obj/structure/ammo_printer/AltClick(mob/user)
+		if(reusable)
+			metal_amount -= METAL_REQUIRED
+		else
+			desc = "An ammunition printer covered in rust. It's out of juice!"
+			used = TRUE
+		desc = "An ammunition printer[reusable ? "." :" covered in rust. It looks like it has enough juice for one more run.."] It has [metal_amount] sheets of metal loaded."
+
+
+/obj/machinery/ammo_printer/AltClick(mob/user)
 	if(inserted_gun)
 		inserted_gun.forceMove(src.loc)
 		inserted_gun = null
 	else
 		to_chat(user, "<span class='warning'>No weapon inserted!</span>")
+
+/obj/machinery/ammo_printer/built
+	name = "Bluespace ammo manufacturer"
+	desc = "An ammunition printer."
+	icon = 'icons/obj/storage.dmi'
+	icon_state = "brassbox"
+	reusable = TRUE
+
+#undef METAL_REQUIRED
