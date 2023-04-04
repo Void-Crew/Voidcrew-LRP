@@ -22,17 +22,17 @@
 
 /obj/machinery/ammo_printer/Initialize()
 	. = ..()
-	if(reusable)
-		component_parts = list()
-		component_parts += new /obj/item/circuitboard/machine/ammo_printer(null)
-		component_parts += new /obj/item/stock_parts/scanning_module/triphasic(null)
-		component_parts += new /obj/item/stock_parts/scanning_module/triphasic(null)
-		component_parts += new /obj/item/stock_parts/manipulator/femto(null)
-		component_parts += new /obj/item/stock_parts/micro_laser/quadultra(null)
-		component_parts += new /obj/item/stock_parts/matter_bin/bluespace(null)
-	else
-		flags_1 = NODECONSTRUCT_1
-	desc = "An ammunition printer[reusable ? "." :" covered in rust. It looks like it has enough juice for one more run.."] It has [metal_amount] sheets of metal loaded."
+	if(!reusable)
+		flags_1 += NODECONSTRUCT_1
+	component_parts = list()
+	component_parts += new /obj/item/circuitboard/machine/ammo_printer(null)
+	component_parts += new /obj/item/stock_parts/scanning_module/triphasic(null)
+	component_parts += new /obj/item/stock_parts/scanning_module/triphasic(null)
+	component_parts += new /obj/item/stock_parts/manipulator/femto(null)
+	component_parts += new /obj/item/stock_parts/micro_laser/quadultra(null)
+	component_parts += new /obj/item/stock_parts/matter_bin/bluespace(null)
+
+	desc = "An ammunition printer[reusable ? ". It has [metal_amount] sheets of metal loaded." :" covered in rust. It looks like it has enough juice for one more run.."] "
 
 /obj/machinery/ammo_printer/attackby(obj/item/I, mob/living/user)
 	if(!inserted_gun && default_deconstruction_screwdriver(user, icon_state, icon_state, I))
@@ -62,7 +62,7 @@
 		inserted_gun = I
 		playsound(src, 'sound/items/deconstruct.ogg', 50, FALSE)
 		to_chat(user, "You load the [I.name] into the printer.")
-	if(istype(I, /obj/item/stack/sheet/metal))
+	if(istype(I, /obj/item/stack/sheet/metal) && reusable)
 		if (metal_amount >= METAL_REQUIRED)
 			to_chat(user, "<span class='warning'>The machine is already full of metal!</span>")
 			playsound(src, 'sound/machines/uplinkerror.ogg', 25, FALSE)
@@ -80,7 +80,7 @@
 
 			to_chat(user, "<span class='warning'>You insert [metal_needed] metal sheets into the machine.</span>")
 			playsound(src, 'sound/items/deconstruct.ogg', 50, FALSE)
-			desc = "An ammunition printer[reusable ? "." :" covered in rust. It looks like it has enough juice for one more run.."] It has [metal_amount] sheets of metal loaded."
+			desc = "An ammunition printer[reusable ? ". It has [metal_amount] sheets of metal loaded." :" covered in rust."] "
 
 /obj/machinery/ammo_printer/interact(mob/user)
 	. = ..()
@@ -92,7 +92,7 @@
 		to_chat(user, "<span class='warning'>Insert a weapon first!</span>")
 		playsound(src, 'sound/machines/uplinkerror.ogg', 25, FALSE)
 		return
-	if(metal_amount < METAL_REQUIRED)
+	if((metal_amount < METAL_REQUIRED) && reusable)
 		to_chat(user, "<span class='warning'>You need to insert [METAL_REQUIRED] metal to operate this printer!</span>")
 		playsound(src, 'sound/machines/uplinkerror.ogg', 25, FALSE)
 		return
@@ -119,7 +119,8 @@
 		else
 			desc = "An ammunition printer covered in rust. It's out of juice!"
 			used = TRUE
-		desc = "An ammunition printer[reusable ? "." :" covered in rust. It looks like it has enough juice for one more run.."] It has [metal_amount] sheets of metal loaded."
+			return
+		desc = "An ammunition printer[reusable ? ". It has [metal_amount] sheets of metal loaded." :" covered in rust."] "
 
 
 /obj/machinery/ammo_printer/AltClick(mob/user)
