@@ -1,6 +1,6 @@
 /obj/machinery/ammo_printer
 	name = "rusting ammo printer"
-	desc = "An ammunition printer covered in rust. It looks like it has enough juice for one more run.."
+	desc = "An ammunition printer covered in rust."
 	icon = 'icons/obj/storage.dmi'
 	icon_state = "brassbox"
 	var/icon_idle = "brassbox"
@@ -21,6 +21,7 @@
 	var/metal_required = 0
 	var/ammo_type
 	var/reusable = FALSE
+	var/active = FALSE
 
 /obj/machinery/ammo_printer/Initialize()
 	. = ..()
@@ -64,6 +65,9 @@
 		inserted_gun = I
 		playsound(src, 'sound/items/deconstruct.ogg', 50, FALSE)
 		to_chat(user, "You load the [I.name] into the printer.")
+		icon_state = icon_insert
+		addtimer(CALLBACK(src, .proc/resetIcon), 1 SECONDS)
+
 	if(istype(I, /obj/item/stack/sheet/metal) && reusable)
 		if (metal_amount >= metal_required)
 			to_chat(user, "<span class='warning'>The machine is already full of metal!</span>")
@@ -83,9 +87,13 @@
 			to_chat(user, "<span class='warning'>You insert [metal_needed] metal sheets into the machine.</span>")
 			playsound(src, 'sound/items/deconstruct.ogg', 50, FALSE)
 			desc = "An ammunition printer[reusable ? ". It has [metal_amount] sheets of metal loaded." :" covered in rust."] "
+			icon_state = icon_insert
+			addtimer(CALLBACK(src, .proc/resetIcon), 1 SECONDS)
 
 /obj/machinery/ammo_printer/interact(mob/user)
 	. = ..()
+	if(active)
+		return
 	if(used)
 		to_chat(user, "<span class='warning'>The printer has no power left!</span>")
 		playsound(src, 'sound/machines/uplinkerror.ogg', 25, FALSE)
@@ -110,8 +118,8 @@
 		else
 			total_ammo = 1
 	playsound(src, 'sound/machines/button1.ogg', 25, FALSE)
-
 	icon_state = icon_craft
+	active = TRUE
 	addtimer(CALLBACK(src, .proc/manufacture), 2 SECONDS)
 
 
@@ -126,10 +134,12 @@
 	if(reusable)
 		metal_amount -= metal_required
 	else
-		desc = "An ammunition printer covered in rust. It's out of juice!"
 		used = TRUE
 		return
-	desc = "An ammunition printer[reusable ? ". It has [metal_amount] sheets of metal loaded." :" covered in rust."] "
+	active = FALSE
+	icon_state = icon_idle
+
+/obj/machinery/ammo_printer/proc/resetIcon()
 	icon_state = icon_idle
 
 /obj/machinery/ammo_printer/AltClick(mob/user)
@@ -139,9 +149,16 @@
 	else
 		to_chat(user, "<span class='warning'>No weapon inserted!</span>")
 
+/obj/machinery/ammo_printer/examine(mob/user)
+	. = ..()
+	if(reusable)
+		. += "It has [metal_amount] sheets of metal loaded."
+	if(used)
+		. += ". It is out of juice!"
+
 /obj/machinery/ammo_printer/built
 	name = "Bluespace ammo manufacturer"
-	desc = "An ammunition printer."
+	desc = "A bluespace ammo manufacturer designed to replace the aging mag printers found laying around deserted planets. It uses bluespace to make a fresh mag and ammo out of nothing but raw metal for the gun inserted."
 	icon = 'voidcrew/icons/obj/machines/ammo_printer.dmi'
 	icon_state = "ammo_printer"
 	icon_idle = "ammo_printer"
