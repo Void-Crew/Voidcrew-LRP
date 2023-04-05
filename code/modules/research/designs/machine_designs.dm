@@ -419,6 +419,7 @@
 	build_path = /obj/item/circuitboard/machine/recharger
 	category = list("Misc. Machinery")
 
+
 /datum/design/board/vendor
 	name = "Machine Design (Vendor Board)"
 	desc = "The circuit board for a Vendor."
