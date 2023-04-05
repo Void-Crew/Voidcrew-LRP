@@ -35,8 +35,6 @@
 	component_parts += new /obj/item/stock_parts/micro_laser/quadultra(null)
 	component_parts += new /obj/item/stock_parts/matter_bin/bluespace(null)
 
-	desc = "An ammunition printer[reusable ? ". It has [metal_amount] sheets of metal loaded." :" covered in rust. It looks like it has enough juice for one more run.."] "
-
 /obj/machinery/ammo_printer/attackby(obj/item/I, mob/living/user)
 	if(!inserted_gun && default_deconstruction_screwdriver(user, icon_state, icon_state, I))
 		return
@@ -86,7 +84,6 @@
 
 			to_chat(user, "<span class='warning'>You insert [metal_needed] metal sheets into the machine.</span>")
 			playsound(src, 'sound/items/deconstruct.ogg', 50, FALSE)
-			desc = "An ammunition printer[reusable ? ". It has [metal_amount] sheets of metal loaded." :" covered in rust."] "
 			icon_state = icon_insert
 			addtimer(CALLBACK(src, .proc/resetIcon), 1 SECONDS)
 
