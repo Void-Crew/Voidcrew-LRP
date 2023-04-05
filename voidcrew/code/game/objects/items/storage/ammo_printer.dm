@@ -151,7 +151,7 @@
 	if(reusable)
 		. += "It has [metal_amount] sheets of metal loaded."
 	if(used)
-		. += ". It is out of juice!"
+		. += "It is out of juice!"
 
 /obj/machinery/ammo_printer/built
 	name = "Bluespace ammo manufacturer"
