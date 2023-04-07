@@ -49,7 +49,7 @@
 /datum/design/board/ammo_printer
 	name = "Machine Design (Ammo Printer Board)"
 	desc = "The circuit board for an Ammo Printer."
-	id = "ammoprinter"
+	id = "ammo_printer"
 	materials = list(/datum/material/glass = 1000, /datum/material/gold = 2000)
 	build_path = /obj/item/circuitboard/machine/ammo_printer
 	category = list("Misc. Machinery")
