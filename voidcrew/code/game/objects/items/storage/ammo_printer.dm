@@ -1,11 +1,11 @@
 /obj/machinery/ammo_printer
-	name = "rusting ammo printer"
-	desc = "An ammunition printer covered in rust."
-	icon = 'icons/obj/storage.dmi'
-	icon_state = "brassbox"
-	var/icon_idle = "brassbox"
-	var/icon_insert = "brassbox"
-	var/icon_craft = "brassbox"
+	name = "Bluespace ammo manufacturer"
+	desc = "A bluespace ammo manufacturer designed to replace the aging mag printers found laying around deserted planets. It uses bluespace to make a fresh mag and ammo out of nothing but raw metal for the gun inserted."
+	icon = 'voidcrew/icons/obj/machines/ammo_printer.dmi'
+	icon_state = "ammo_printer"
+	var/icon_idle = "ammo_printer"
+	var/icon_insert = "ammo_printer_i"
+	var/icon_craft = "ammo_printer_m"
 	anchored = TRUE
 	density = TRUE
 	var/used = FALSE
@@ -18,15 +18,13 @@
 	var/obj/item/gun/ballistic/inserted_gun
 	var/metal_amount = 0
 	var/total_ammo = 1
-	var/metal_required = 0
+	var/metal_required = 10
 	var/ammo_type
-	var/reusable = FALSE
+	var/reusable = TRUE
 	var/active = FALSE
 
 /obj/machinery/ammo_printer/Initialize()
 	. = ..()
-	if(!reusable)
-		flags_1 += NODECONSTRUCT_1
 	component_parts = list()
 	component_parts += new /obj/item/circuitboard/machine/ammo_printer(null)
 	component_parts += new /obj/item/stock_parts/scanning_module/triphasic(null)
@@ -153,13 +151,17 @@
 	if(used)
 		. += "It is out of juice!"
 
-/obj/machinery/ammo_printer/built
-	name = "Bluespace ammo manufacturer"
-	desc = "A bluespace ammo manufacturer designed to replace the aging mag printers found laying around deserted planets. It uses bluespace to make a fresh mag and ammo out of nothing but raw metal for the gun inserted."
-	icon = 'voidcrew/icons/obj/machines/ammo_printer.dmi'
-	icon_state = "ammo_printer"
-	icon_idle = "ammo_printer"
-	icon_insert = "ammo_printer_i"
-	icon_craft = "ammo_printer_m"
-	reusable = TRUE
-	metal_required = 10
+/obj/machinery/ammo_printer/ruin
+	name = "Rusting ammo printer"
+	desc = "An ammunition printer covered in rust."
+	icon = 'icons/obj/storage.dmi'
+	icon_state = "brassbox"
+	icon_idle = "brassbox"
+	icon_insert = "brassbox"
+	icon_craft = "brassbox"
+	reusable = FALSE
+	metal_required = 0
+
+/obj/machinery/ammo_printer/ruin/Initialize()
+	. = ..()
+	flags_1 += NODECONSTRUCT_1

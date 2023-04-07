@@ -170,7 +170,7 @@
 /obj/item/circuitboard/machine/ammo_printer
 	name = "Ammo Printer (Machine Board)"
 	icon_state = "security"
-	build_path = /obj/machinery/ammo_printer/built
+	build_path = /obj/machinery/ammo_printer
 	req_components = list(
 		/obj/item/stock_parts/scanning_module/triphasic = 2,
 		/obj/item/stock_parts/manipulator/femto = 1,
