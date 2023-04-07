@@ -25,7 +25,7 @@
 	display_name = "Bluespace Manufacturing Technology"
 	description = "Harness the power of bluespace to make materials out of nothing. And ammo."
 	prereq_ids = list("bluespace_storage", "adv_mining", "adv_weaponry")
-	design_ids = list("bluespace_miner", "miningcore_shell")
+	design_ids = list("bluespace_miner", "miningcore_shell", "ammo_printer")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
 
 /////////////////////////shuttle tech/////////////////////////
