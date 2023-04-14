@@ -482,21 +482,11 @@
 /obj/item/storage/bag/ore,
 /obj/item/pickaxe/drill,
 /obj/item/mining_scanner,
-/obj/item/syndie_crusher{
-	pixel_x = 5;
-	pixel_y = 6
-	},
-/obj/item/syndie_crusher{
-	pixel_x = 5;
-	pixel_y = 6
-	},
-/obj/item/syndie_crusher{
-	pixel_x = 5;
-	pixel_y = 6
-	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/clothing/shoes/magboots/syndie,
 /obj/item/clothing/shoes/magboots/syndie,
+/obj/item/kinetic_crusher/syndie,
+/obj/item/kinetic_crusher/syndie,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_cargopod)
 "bq" = (
@@ -1910,9 +1900,6 @@
 	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
 	name = "gelatinous floor"
 	},
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
-"ro" = (
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "rr" = (
@@ -4067,7 +4054,7 @@ Gy
 cU
 by
 dq
-ro
+al
 em
 cc
 Pp
