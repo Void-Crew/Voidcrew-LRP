@@ -811,6 +811,7 @@
 	r_pocket = /obj/item/kitchen/knife/combat/survival
 	belt = /obj/item/storage/belt/military/assault
 	id = /obj/item/card/id/syndicate_command/crew_id
+	backpack_contents = list(obj/item/storage/box/survival/syndie, /obj/item/gun_voucher/syndicate)
 	implants = list(/obj/item/implant/weapons_auth)
 
 /datum/outfit/syndicatespace/syndicaptain
@@ -828,7 +829,7 @@
 	r_pocket = /obj/item/kitchen/knife/combat/survival
 	belt = /obj/item/storage/belt/military/assault
 	id = /obj/item/card/id/syndicate_command/captain_id
-	backpack_contents = list(/obj/item/documents/syndicate/red, /obj/item/paper/fluff/ruins/forgottenship/password)
+	backpack_contents = list(obj/item/storage/box/survival/syndie, /obj/item/documents/syndicate/red, /obj/item/paper/fluff/ruins/forgottenship/password, /obj/item/gun_voucher/syndicate)
 	implants = list(/obj/item/implant/weapons_auth)
 
 //ashdrake lair ghost roles
