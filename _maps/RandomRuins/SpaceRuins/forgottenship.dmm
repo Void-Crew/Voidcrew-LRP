@@ -880,7 +880,9 @@
 	id = "fslockdown";
 	state_open = 1
 	},
-/obj/machinery/door/firedoor/window,
+/obj/machinery/door/firedoor/window{
+	desc = "A second window that slides in when the original window is broken, designed to protect against hull breaches. Truly a work of genius by Cybersun engineers."
+	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "cf" = (
@@ -1679,7 +1681,9 @@
 	name = "armoury blast door";
 	state_open = 1
 	},
-/obj/machinery/door/firedoor/window,
+/obj/machinery/door/firedoor/window{
+	desc = "A second window that slides in when the original window is broken, designed to protect against hull breaches. Truly a work of genius by Cybersun engineers."
+	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "kN" = (
