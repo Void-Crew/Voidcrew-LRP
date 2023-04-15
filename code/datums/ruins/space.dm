@@ -282,8 +282,8 @@
 /datum/map_template/ruin/space/forgottenship
 	id = "forgottenship"
 	suffix = "forgottenship.dmm"
-	name = "SCSBC-12 - SYN-C Hellfire"
-	description = "The pride of Cybersun, left dead in the water after an attack by hellish beasts, lashing out at nothing. Its crew lie asleep still, but ready to wake up."
+	name = "Forgotten Ship"
+	description = "The SYN-C Hellfire: The pride of Cybersun, left dead in the water after an attack by hellish beasts, lashing out at nothing. Its crew lie asleep still, but ready to wake up."
 
 /datum/map_template/ruin/space/hellfactory
 	id = "hellfactory"
