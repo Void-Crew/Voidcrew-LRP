@@ -90,8 +90,11 @@
 /turf/closed/wall/r_wall/syndicate,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "ao" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
-	dir = 8
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
 	},
 /turf/open/floor/carpet/royalblack,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
@@ -311,19 +314,12 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "aM" = (
+/obj/structure/catwalk,
 /obj/structure/cable{
-	icon_state = "1-2"
+	icon_state = "1-8"
 	},
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/syndicate_forgotten_cargopod)
 "aO" = (
 /obj/machinery/light,
 /obj/machinery/suit_storage_unit/syndicate{
@@ -594,6 +590,18 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_cargopod)
+"bv" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/layer_manifold,
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "bw" = (
 /obj/structure/alien/weeds{
 	color = "#4BAE56";
@@ -965,7 +973,6 @@
 /obj/machinery/airalarm/syndicate{
 	pixel_y = 24
 	},
-/obj/item/gun_voucher/syndicate,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "ch" = (
@@ -1182,13 +1189,19 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "cA" = (
-/obj/structure/catwalk,
-/obj/structure/cable{
-	icon_state = "0-2"
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
 	},
-/obj/structure/marker_beacon,
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/syndicate_forgotten_cargopod)
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "cB" = (
 /obj/structure/alien/weeds{
 	color = "#4BAE56";
@@ -1245,15 +1258,27 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "cM" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
-	dir = 8
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
-/turf/open/floor/mineral/plastitanium,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "cN" = (
 /turf/closed/mineral/gibtonite,
 /area/asteroid)
 "cO" = (
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"cP" = (
 /obj/structure/table/reinforced,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -1262,14 +1287,6 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
-"cP" = (
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "cQ" = (
 /obj/machinery/door/airlock/grunge{
@@ -1585,7 +1602,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/layer_manifold,
+/obj/machinery/atmospherics/pipe/simple/cyan/visible{
+	dir = 9
+	},
 /obj/structure/alien/weeds{
 	color = "#4BAE56";
 	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
@@ -1644,12 +1663,6 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"du" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
-	dir = 4
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "dy" = (
 /obj/machinery/airalarm/syndicate{
 	pixel_y = 24
@@ -1675,13 +1688,11 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"dQ" = (
-/obj/structure/window/plasma/reinforced/spawner,
-/obj/structure/window/plasma/reinforced/spawner/east,
-/obj/machinery/atmospherics/components/unary/vent_scrubber{
-	dir = 4
+"dI" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
 	},
-/turf/open/floor/engine/n2,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "dX" = (
 /obj/structure/cable{
@@ -1701,24 +1712,18 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"ea" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/cyan/visible,
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "em" = (
 /obj/machinery/light,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"ep" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/carpet/royalblack,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "eO" = (
 /obj/structure/cable{
@@ -1732,17 +1737,6 @@
 	name = "gelatinous floor"
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
-"eW" = (
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 9
-	},
-/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "eY" = (
 /obj/structure/sign/poster/official/nanotrasen_logo{
@@ -1764,15 +1758,6 @@
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_cargopod)
-"gb" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 10
-	},
-/turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "gd" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Armoury";
@@ -1811,33 +1796,20 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"gV" = (
-/obj/structure/window/plasma/reinforced/spawner/north,
-/obj/structure/window/plasma/reinforced/spawner/west,
-/obj/machinery/atmospherics/miner/nitrogen,
-/turf/open/floor/engine/n2,
+"gN" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "hA" = (
 /obj/item/circuitboard/machine/bluespace_miner,
 /obj/item/bluespace_parts/miningcore_shell,
 /obj/structure/frame/machine,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
-"hB" = (
-/obj/structure/catwalk,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/syndicate_forgotten_cargopod)
-"hH" = (
-/obj/machinery/atmospherics/pipe/simple/orange/visible,
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/mob/living/simple_animal/hostile/netherworld,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "hN" = (
@@ -1860,13 +1832,6 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"ia" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 9
-	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "iC" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/donkpockets,
@@ -1878,6 +1843,13 @@
 /obj/effect/spawner/lootdrop/donkpockets,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
+"iR" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/mineral/plastitanium/red,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "jg" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1888,6 +1860,16 @@
 	name = "gelatinous floor"
 	},
 /turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"jj" = (
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "jp" = (
 /obj/structure/lattice,
@@ -1973,6 +1955,15 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
+"li" = (
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/mob/living/simple_animal/hostile/netherworld,
+/turf/open/floor/plating/asteroid,
+/area/asteroid)
 "ll" = (
 /obj/structure/window/plasma/reinforced/spawner/west,
 /obj/structure/window/plasma/reinforced/spawner,
@@ -1988,7 +1979,8 @@
 	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
 	name = "gelatinous floor"
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "lz" = (
@@ -2018,33 +2010,16 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"mg" = (
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/obj/structure/alien/resin/membrane{
-	color = "#4BAE56";
-	name = "gelatinous membrane";
-	desc = "It feels sloppy as you touch it, like a liquid barely holding itself together."
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 4
-	},
+"mj" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
 	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
-"mj" = (
 /obj/structure/alien/weeds{
 	color = "#4BAE56";
 	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
 	name = "gelatinous floor"
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "ml" = (
 /obj/structure/window/plasma/reinforced/spawner/west,
@@ -2099,7 +2074,6 @@
 /obj/machinery/airalarm/syndicate{
 	pixel_y = 24
 	},
-/obj/item/gun_voucher/syndicate,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "no" = (
@@ -2137,33 +2111,34 @@
 /obj/item/ammo_box/magazine/pistolm9mm,
 /obj/item/clothing/head/HoS/syndicate,
 /obj/item/clothing/head/HoS/beret/syndicate,
-/obj/item/gun_voucher/syndicate,
 /turf/open/floor/carpet/royalblack,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"oh" = (
+"oa" = (
 /obj/structure/alien/weeds{
 	color = "#4BAE56";
 	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
 	name = "gelatinous floor"
 	},
+/obj/item/stack/sheet/mineral/uranium{
+	amount = 50
+	},
+/obj/structure/closet/crate/radiation{
+	name = "emergency generator fuel crate";
+	desc = "A crate with a radiation sign on it. It's covered in some sloppy green material."
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"oc" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 9
+	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 9
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
-"pg" = (
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/mob/living/simple_animal/hostile/netherworld,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "pK" = (
 /obj/structure/cable{
@@ -2172,23 +2147,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_cargopod)
-"pO" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 10
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "pY" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2250,6 +2208,45 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
+"qG" = (
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"qK" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/warning{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"qT" = (
+/mob/living/simple_animal/hostile/netherworld,
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
+/turf/open/floor/mineral/plastitanium/red,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "rc" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2262,21 +2259,18 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "rf" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 8
+/obj/structure/window/plasma/reinforced/spawner/east,
+/obj/structure/window/plasma/reinforced/spawner,
+/obj/machinery/atmospherics/components/unary/vent_scrubber{
+	dir = 4
 	},
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/turf/open/floor/plating,
+/turf/open/floor/engine/o2,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "rr" = (
 /obj/effect/turf_decal/dept/medical,
 /turf/open/floor/plasteel/showroomfloor,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"rO" = (
+"rB" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -2297,25 +2291,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"ss" = (
-/mob/living/simple_animal/hostile/netherworld,
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/open/floor/mineral/plastitanium/red,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
-"su" = (
-/obj/structure/window/plasma/reinforced/spawner/east,
-/obj/structure/window/plasma/reinforced/spawner,
-/obj/machinery/atmospherics/components/unary/vent_scrubber{
-	dir = 4
-	},
-/turf/open/floor/engine/o2,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "sw" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2331,20 +2306,6 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"sz" = (
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 5
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "tf" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible,
 /obj/structure/alien/weeds{
@@ -2352,6 +2313,7 @@
 	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
 	name = "gelatinous floor"
 	},
+/mob/living/simple_animal/hostile/netherworld,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "ti" = (
@@ -2397,23 +2359,20 @@
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "tR" = (
 /obj/structure/cable{
-	icon_state = "1-2"
+	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
-"tW" = (
-/obj/item/am_shielding_container,
 /obj/structure/alien/weeds{
 	color = "#4BAE56";
 	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
 	name = "gelatinous floor"
 	},
-/mob/living/simple_animal/hostile/netherworld,
-/turf/open/floor/plating,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "tY" = (
 /obj/structure/alien/weeds{
@@ -2440,6 +2399,19 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
+"ue" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "uj" = (
 /obj/structure/closet/crate/secure/gear{
 	name = "combat gear crate";
@@ -2453,6 +2425,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/pod/dark,
 /area/ruin/space/has_grav/powered/syndicate_forgotten_vault)
+"un" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/syndicate_forgotten_cargopod)
 "uB" = (
 /obj/machinery/telecomms/relay/preset/ruskie,
 /turf/open/floor/mineral/plastitanium/red,
@@ -2462,18 +2441,6 @@
 	dir = 1
 	},
 /turf/closed/wall/r_wall/syndicate,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
-"uE" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/mob/living/simple_animal/hostile/netherworld,
-/turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "uF" = (
 /obj/item/stack/marker_beacon/thirty,
@@ -2520,6 +2487,29 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
+"vh" = (
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"vl" = (
+/obj/machinery/atmospherics/pipe/simple/orange/visible,
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "vw" = (
 /obj/structure/alien/weeds{
 	color = "#4BAE56";
@@ -2540,29 +2530,16 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"vA" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 9
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "vW" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/power/terminal{
-	dir = 8
-	},
 /obj/effect/turf_decal/trimline/yellow/filled/warning{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/layer_manifold{
+	dir = 4
+	},
 /obj/structure/alien/weeds{
 	color = "#4BAE56";
 	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
@@ -2577,25 +2554,6 @@
 /obj/structure/frame/machine,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"wA" = (
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/obj/structure/alien/resin/membrane{
-	color = "#4BAE56";
-	name = "gelatinous membrane";
-	desc = "It feels sloppy as you touch it, like a liquid barely holding itself together."
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 10
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "wE" = (
 /obj/effect/turf_decal/syndicateemblem/bottom/left,
 /obj/structure/alien/weeds{
@@ -2607,15 +2565,22 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"xc" = (
+"wG" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /obj/structure/alien/weeds{
 	color = "#4BAE56";
 	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
 	name = "gelatinous floor"
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/open/floor/mineral/plastitanium/red,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "xr" = (
 /obj/structure/cable{
@@ -2634,18 +2599,21 @@
 /obj/machinery/microwave,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"yc" = (
+"xL" = (
 /obj/structure/cable{
-	icon_state = "4-8"
+	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /obj/structure/alien/weeds{
 	color = "#4BAE56";
 	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
 	name = "gelatinous floor"
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/open/floor/mineral/plastitanium,
+/obj/machinery/airalarm/syndicate{
+	dir = 8;
+	pixel_x = -24
+	},
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "yi" = (
 /obj/machinery/light{
@@ -2655,20 +2623,6 @@
 	color = "#4BAE56";
 	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
 	name = "gelatinous floor"
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
-"yu" = (
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 5
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
@@ -2694,6 +2648,14 @@
 	name = "gelatinous floor"
 	},
 /turf/open/floor/mineral/plastitanium/red,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"zn" = (
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "zw" = (
 /obj/structure/cable{
@@ -2734,6 +2696,12 @@
 /obj/item/clothing/suit/space/syndicate/black/red,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
+"Am" = (
+/obj/structure/window/plasma/reinforced/spawner/west,
+/obj/structure/window/plasma/reinforced/spawner,
+/obj/effect/turf_decal/atmos/nitrogen,
+/turf/open/floor/engine/n2,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Bf" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible{
 	dir = 6
@@ -2751,21 +2719,6 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"Bh" = (
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/obj/item/stack/sheet/mineral/uranium{
-	amount = 50
-	},
-/obj/structure/closet/crate/radiation{
-	name = "emergency generator fuel crate";
-	desc = "A crate with a radiation sign on it. It's covered in some sloppy green material."
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Bi" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Telecommunications";
@@ -2775,15 +2728,6 @@
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/open/floor/mineral/plastitanium/red,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
-"BI" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
-	dir = 4
-	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "BM" = (
@@ -2849,16 +2793,6 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"BW" = (
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "BZ" = (
 /obj/machinery/door/airlock/external{
 	req_one_access_txt = "150";
@@ -2870,6 +2804,12 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_cargopod)
+"Cg" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Cm" = (
 /turf/closed/mineral,
 /area/asteroid)
@@ -2905,6 +2845,32 @@
 	},
 /obj/machinery/door/firedoor/heavy,
 /turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"CN" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/syndicate_forgotten_cargopod)
+"Da" = (
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/obj/structure/alien/resin/membrane{
+	color = "#4BAE56";
+	name = "gelatinous membrane";
+	desc = "It feels sloppy as you touch it, like a liquid barely holding itself together."
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "DJ" = (
 /obj/structure/cable{
@@ -2944,6 +2910,44 @@
 "Ei" = (
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
+"Ey" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/door/window{
+	dir = 4;
+	name = "Engine Hatch";
+	req_one_access_txt = "150"
+	},
+/obj/machinery/door/poddoor{
+	id = "fslockdown";
+	state_open = 1
+	},
+/obj/machinery/atmospherics/components/unary/shuttle/heater/tank{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"Ez" = (
+/obj/structure/window/plasma/reinforced/spawner/north,
+/obj/structure/window/plasma/reinforced/spawner/west,
+/obj/machinery/atmospherics/miner/nitrogen,
+/turf/open/floor/engine/n2,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"EH" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "EN" = (
 /obj/machinery/atmospherics/components/unary/shuttle/heater{
 	dir = 4
@@ -2959,17 +2963,6 @@
 /obj/machinery/door/poddoor{
 	id = "fslockdown";
 	state_open = 1
-	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
-"EO" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 10
-	},
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
@@ -3013,6 +3006,29 @@
 /obj/item/storage/part_replacer/bluespace/tier4,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_cargopod)
+"FM" = (
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/mob/living/simple_animal/hostile/netherworld,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/mineral/plastitanium/red,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"FQ" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/mob/living/simple_animal/hostile/netherworld,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Gm" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
@@ -3111,7 +3127,13 @@
 "Hd" = (
 /obj/structure/catwalk,
 /obj/structure/cable{
-	icon_state = "1-8"
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/syndicate_forgotten_cargopod)
@@ -3120,6 +3142,15 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"Ia" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Ib" = (
 /obj/structure/cable{
@@ -3137,13 +3168,6 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"Ij" = (
-/obj/structure/catwalk,
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/syndicate_forgotten_cargopod)
 "Ip" = (
 /obj/machinery/vending/cigarette/syndicate{
 	all_items_free = 1
@@ -3154,17 +3178,6 @@
 	name = "gelatinous floor"
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
-"Iu" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 6
-	},
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Iy" = (
 /obj/structure/cable{
@@ -3184,11 +3197,6 @@
 	name = "gelatinous floor"
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
-"ID" = (
-/obj/structure/window/plasma/reinforced/spawner/north,
-/obj/structure/window/plasma/reinforced/spawner/east,
-/turf/open/floor/engine/n2,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "IQ" = (
 /obj/effect/turf_decal/syndicateemblem/bottom/middle,
@@ -3255,7 +3263,6 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/obj/item/gun_voucher/syndicate,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "JT" = (
@@ -3265,17 +3272,9 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "JW" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/open/floor/mineral/plastitanium/red,
+/obj/structure/window/plasma/reinforced/spawner/north,
+/obj/structure/window/plasma/reinforced/spawner/east,
+/turf/open/floor/engine/n2,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Ka" = (
 /obj/structure/table/reinforced,
@@ -3283,10 +3282,6 @@
 	name = "SCSBC-12 blueprints";
 	desc = "Blueprints bearing Cybersun's markings and the words 'Special Project SCSBC-12 - SYN-C Hellfire - PROPERTY OF THE SYNDICATE COALITION'. Huh."
 	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
-"Ln" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Lw" = (
@@ -3334,36 +3329,19 @@
 /mob/living/simple_animal/hostile/netherworld,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"LV" = (
-/obj/structure/cable{
-	icon_state = "1-2"
+"Mh" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/mineral/plastitanium/red,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"Mi" = (
+/obj/effect/turf_decal/corner/blue{
+	dir = 1
 	},
-/obj/effect/turf_decal/trimline/yellow/filled/warning{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/layer_manifold{
-	dir = 4
-	},
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
-"Mh" = (
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 9
-	},
-/turf/open/floor/mineral/plastitanium/red,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
+/turf/open/floor/plasteel/showroomfloor,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "MQ" = (
 /obj/structure/sign/number/one{
@@ -3388,6 +3366,13 @@
 	color = "#4BAE56";
 	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
 	name = "gelatinous floor"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"Nj" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
@@ -3434,6 +3419,10 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
+"NM" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
+/turf/open/floor/mineral/plastitanium/red,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "NR" = (
 /obj/structure/closet/syndicate{
 	anchored = 1;
@@ -3458,12 +3447,6 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"NS" = (
-/obj/structure/window/plasma/reinforced/spawner/north,
-/obj/structure/window/plasma/reinforced/spawner/west,
-/obj/machinery/atmospherics/miner/oxygen,
-/turf/open/floor/engine/o2,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Ob" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3479,28 +3462,11 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"Om" = (
-/obj/machinery/power/shuttle/engine/fueled/expulsion{
-	dir = 4
-	},
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Oo" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 8
-	},
-/turf/open/floor/mineral/plastitanium/red,
+/obj/structure/window/plasma/reinforced/spawner/north,
+/obj/structure/window/plasma/reinforced/spawner/west,
+/obj/machinery/atmospherics/miner/oxygen,
+/turf/open/floor/engine/o2,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "OC" = (
 /obj/structure/closet/syndicate{
@@ -3522,33 +3488,8 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"OJ" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/open/floor/mineral/plastitanium/red,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Pp" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
-"PO" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/door/window{
-	dir = 4;
-	name = "Engine Hatch";
-	req_one_access_txt = "150"
-	},
-/obj/machinery/door/poddoor{
-	id = "fslockdown";
-	state_open = 1
-	},
-/obj/machinery/atmospherics/components/unary/shuttle/heater/tank{
-	dir = 4
-	},
-/turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "PP" = (
 /obj/structure/catwalk,
@@ -3574,6 +3515,14 @@
 	},
 /obj/machinery/door/firedoor/heavy,
 /turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"Qp" = (
+/obj/structure/window/plasma/reinforced/spawner,
+/obj/structure/window/plasma/reinforced/spawner/east,
+/obj/machinery/atmospherics/components/unary/vent_scrubber{
+	dir = 4
+	},
+/turf/open/floor/engine/n2,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Qv" = (
 /obj/structure/frame/computer{
@@ -3633,6 +3582,31 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
+"QO" = (
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"QR" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
+	},
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Rb" = (
 /obj/structure/closet/crate/secure/gear{
 	req_one_access_txt = "150"
@@ -3676,12 +3650,6 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"Ry" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "RZ" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -3715,6 +3683,14 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
+"Sp" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/marker_beacon,
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/syndicate_forgotten_cargopod)
 "Sx" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -3727,10 +3703,6 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"SF" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/open/floor/mineral/plastitanium/red,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "SO" = (
 /obj/structure/alien/weeds{
 	color = "#4BAE56";
@@ -3739,20 +3711,6 @@
 	},
 /obj/item/shard/plasma,
 /turf/open/floor/mineral/plastitanium/red,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
-"ST" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/cyan/visible{
-	dir = 9
-	},
-/obj/structure/alien/weeds{
-	color = "#4BAE56";
-	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
-	name = "gelatinous floor"
-	},
-/turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Ta" = (
 /obj/structure/cable{
@@ -3771,20 +3729,31 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_cargopod)
-"Tm" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 10
-	},
-/turf/open/floor/mineral/plastitanium,
+"Ti" = (
+/obj/structure/window/plasma/reinforced/spawner/east,
+/obj/structure/window/plasma/reinforced/spawner/north,
+/turf/open/floor/engine/o2,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"TG" = (
-/obj/structure/window/plasma/reinforced/spawner/west,
-/obj/structure/window/plasma/reinforced/spawner,
-/obj/effect/turf_decal/atmos/nitrogen,
-/turf/open/floor/engine/n2,
+"Tz" = (
+/obj/item/am_shielding_container,
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/mob/living/simple_animal/hostile/netherworld,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"TP" = (
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Uh" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible{
@@ -3797,14 +3766,32 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"Uu" = (
+"Ur" = (
 /obj/structure/alien/weeds{
 	color = "#4BAE56";
 	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
 	name = "gelatinous floor"
 	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
-	dir = 1
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"Us" = (
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/obj/structure/alien/resin/membrane{
+	color = "#4BAE56";
+	name = "gelatinous membrane";
+	desc = "It feels sloppy as you touch it, like a liquid barely holding itself together."
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
@@ -3812,6 +3799,12 @@
 /obj/structure/window/plasma/reinforced/spawner/east,
 /obj/machinery/atmospherics/miner/toxins,
 /turf/open/floor/engine/plasma,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"UM" = (
+/obj/machinery/power/shuttle/engine/fueled/expulsion{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Vm" = (
 /obj/machinery/button/door{
@@ -3821,11 +3814,6 @@
 	req_one_access_txt = "150"
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
-"Vo" = (
-/obj/structure/window/plasma/reinforced/spawner/east,
-/obj/structure/window/plasma/reinforced/spawner/north,
-/turf/open/floor/engine/o2,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Vq" = (
 /obj/structure/alien/weeds{
@@ -3904,23 +3892,17 @@
 /turf/closed/mineral/random/high_chance,
 /area/asteroid)
 "WH" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /obj/structure/alien/weeds{
 	color = "#4BAE56";
 	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
 	name = "gelatinous floor"
 	},
-/mob/living/simple_animal/hostile/netherworld,
-/turf/open/floor/plating/asteroid,
-/area/asteroid)
-"WZ" = (
-/obj/effect/turf_decal/corner/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/blue{
-	dir = 8
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
-/turf/open/floor/plasteel/showroomfloor,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Xc" = (
 /obj/effect/turf_decal/syndicateemblem/bottom/right,
@@ -3944,19 +3926,31 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"XI" = (
-/obj/structure/catwalk,
-/obj/structure/cable{
-	icon_state = "1-2"
+"XL" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 6
 	},
-/obj/structure/cable{
-	icon_state = "2-4"
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
 	},
-/obj/structure/cable{
-	icon_state = "2-8"
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"XU" = (
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
 	},
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/syndicate_forgotten_cargopod)
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Yd" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
@@ -3982,6 +3976,12 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"Zd" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
@@ -4394,21 +4394,21 @@ aa
 aa
 aa
 aa
-bZ
+ci
 ap
 ap
 bZ
 af
 af
 af
-Om
+UM
 af
 af
 af
 bZ
 ap
 ap
-bZ
+ci
 aa
 aa
 aa
@@ -4454,7 +4454,7 @@ bZ
 cz
 cz
 cz
-PO
+Ey
 cz
 cz
 cz
@@ -4499,23 +4499,23 @@ ba
 aa
 aa
 aa
-ci
+bZ
 bZ
 dk
 dt
 Nc
-vW
+qK
 dm
 ZN
-LV
 vW
-vW
+qK
+qK
 Ha
 Bf
 Gn
 ds
 bZ
-ci
+bZ
 aa
 aa
 aa
@@ -4555,17 +4555,17 @@ aa
 ce
 hA
 aY
-Iu
+XL
 aG
 vz
 vz
 yE
 ma
 Uh
-hH
 tf
+vl
 Iz
-cP
+zn
 Ob
 wf
 ce
@@ -4608,18 +4608,18 @@ aa
 ce
 hA
 tQ
-rf
+mj
 VU
 VU
 VU
 ml
 cJ
 ll
-gV
-TG
-NS
+Ez
+Am
+Oo
 cn
-rO
+rB
 wf
 ce
 aa
@@ -4664,14 +4664,14 @@ aY
 le
 VU
 bd
-tW
+Tz
 Js
 UB
 bz
-ID
-dQ
-Vo
-su
+JW
+Qp
+Ti
+rf
 mH
 aJ
 ce
@@ -4713,18 +4713,18 @@ ba
 aa
 ce
 qt
-uE
-EO
+FQ
+QR
 zL
 Sx
 mQ
 cZ
 dc
-dp
-ea
+bv
+xL
 cR
 eO
-ST
+dp
 Ib
 wf
 ce
@@ -4872,7 +4872,7 @@ aa
 aa
 bZ
 aA
-BI
+cM
 bZ
 NC
 aO
@@ -4935,7 +4935,7 @@ Gy
 cU
 by
 dq
-Ry
+dI
 em
 cc
 Pp
@@ -4980,14 +4980,14 @@ bZ
 ay
 as
 bZ
+ep
 ao
-gb
 bx
 aS
 pY
 IQ
 qy
-tR
+gN
 vf
 sa
 CA
@@ -5192,7 +5192,7 @@ aa
 uC
 ad
 am
-WZ
+Mi
 ct
 bZ
 cL
@@ -5249,7 +5249,7 @@ VD
 cj
 bZ
 yi
-Oo
+tR
 Ri
 Pp
 bH
@@ -5301,11 +5301,11 @@ ar
 kT
 Zt
 cm
-JW
+WH
 qg
-JW
+WH
 aQ
-ia
+Nj
 Vt
 Vm
 Ei
@@ -5409,16 +5409,16 @@ rc
 cv
 rc
 cy
-aM
+EH
 cv
 no
-Bh
+oa
 bZ
 al
 bJ
 ce
-cA
-Ij
+Sp
+un
 aa
 aa
 aa
@@ -5455,23 +5455,23 @@ aa
 aa
 bZ
 DR
-du
+Zd
 bZ
 dy
-BW
+Ur
 at
 at
 Gm
 at
 at
-yc
-sz
+ue
+XU
 Pp
 bP
 bK
 bZ
 jp
-hB
+CN
 jp
 jp
 jp
@@ -5508,23 +5508,23 @@ aa
 aa
 ae
 al
-Tm
+Ia
 aU
-oh
+vh
 di
 ah
 ah
-cO
+cP
 ah
 ah
 bs
-pO
+wG
 tu
-vA
+oc
 JT
 Qd
 PP
-XI
+Hd
 PP
 PP
 PP
@@ -5561,23 +5561,23 @@ aa
 aa
 ca
 ai
-cM
+Cg
 an
 dA
 di
 ah
 ah
-cO
+cP
 ah
 ah
 cX
 dA
 LI
-cM
+Cg
 bK
 ca
 jp
-hB
+CN
 jp
 jp
 jp
@@ -5629,8 +5629,8 @@ bZ
 zT
 bL
 bZ
-cA
-Hd
+Sp
+aM
 aa
 aa
 aa
@@ -5672,7 +5672,7 @@ bZ
 Ip
 eY
 aE
-mj
+cO
 dr
 QJ
 cS
@@ -5779,7 +5779,7 @@ OC
 cK
 cT
 cL
-Oo
+tR
 aT
 cT
 uN
@@ -5829,14 +5829,14 @@ bZ
 kM
 Pp
 hN
-pg
-xc
+FM
+jj
 aV
 bA
 wE
-xc
-ss
-yu
+jj
+lu
+QO
 bZ
 ce
 bZ
@@ -5879,17 +5879,17 @@ aa
 aa
 bZ
 BO
-SF
-gd
 Mh
+gd
+cA
 cL
-lu
+qT
 cp
 BP
 Eg
-Uu
+TP
 cL
-mg
+Da
 bZ
 df
 uB
@@ -5932,9 +5932,9 @@ aa
 aa
 bZ
 gv
-Ln
+NM
 cr
-eW
+qG
 Yd
 Yd
 BN
@@ -5942,9 +5942,9 @@ BM
 Xc
 Yd
 Yd
-wA
+Us
 Bi
-OJ
+iR
 bt
 bZ
 aa
@@ -6360,7 +6360,7 @@ aa
 ba
 br
 bw
-WH
+li
 Cx
 aF
 aF
