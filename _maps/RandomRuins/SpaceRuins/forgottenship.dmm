@@ -96,6 +96,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 10
 	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /turf/open/floor/carpet/royalblack,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "ap" = (
@@ -202,11 +205,8 @@
 /obj/item/coin/antagtoken,
 /obj/item/coin/gold,
 /obj/item/dnainjector/thermal,
-/obj/item/storage/box/firingpins,
-/obj/item/storage/box/firingpins,
-/obj/item/ammo_box/magazine/m50,
-/obj/item/ammo_box/magazine/m50,
-/obj/item/ammo_box/magazine/m50,
+/obj/item/storage/box/firingpins/syndicate,
+/obj/item/storage/box/firingpins/syndicate,
 /obj/item/ammo_box/c9mm,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
@@ -236,7 +236,6 @@
 "aD" = (
 /obj/machinery/camera/xray{
 	c_tag = "Crew Quarters Hallway";
-	dir = 8;
 	network = list("fsc");
 	screen_loc = ""
 	},
@@ -353,6 +352,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "aT" = (
@@ -503,6 +505,7 @@
 	dir = 1;
 	pixel_y = -24
 	},
+/obj/item/paper_bin,
 /turf/open/floor/carpet/royalblack,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "bo" = (
@@ -531,15 +534,6 @@
 /obj/item/kinetic_crusher/syndie,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_cargopod)
-"bq" = (
-/obj/structure/closet/crate/secure/gear{
-	req_one_access_txt = "150"
-	},
-/obj/item/codespeak_manual/unlimited,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/pod/dark,
-/area/ruin/space/has_grav/powered/syndicate_forgotten_vault)
 "br" = (
 /obj/structure/alien/resin/membrane{
 	color = "#4BAE56";
@@ -615,6 +609,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/carpet/royalblack,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "by" = (
@@ -692,9 +689,6 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /obj/effect/spawner/lootdrop/maintenance,
 /obj/effect/spawner/lootdrop/maintenance,
-/obj/effect/spawner/lootdrop/maintenance,
-/obj/effect/spawner/lootdrop/maintenance,
-/obj/effect/spawner/lootdrop/maintenance,
 /obj/item/assembly/prox_sensor,
 /obj/item/assembly/prox_sensor,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -736,8 +730,6 @@
 /obj/machinery/airalarm/syndicate{
 	pixel_y = 24
 	},
-/obj/effect/spawner/lootdrop/donkpockets,
-/obj/effect/spawner/lootdrop/donkpockets,
 /obj/effect/spawner/lootdrop/donkpockets,
 /obj/effect/spawner/lootdrop/donkpockets,
 /obj/effect/spawner/lootdrop/donkpockets,
@@ -860,12 +852,6 @@
 /obj/item/reagent_containers/food/drinks/waterbottle/large,
 /obj/item/reagent_containers/food/drinks/waterbottle/large,
 /obj/item/reagent_containers/food/drinks/waterbottle/large,
-/obj/item/reagent_containers/food/drinks/waterbottle/large,
-/obj/item/reagent_containers/food/drinks/waterbottle/large,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
 /obj/item/reagent_containers/food/snacks/rationpack,
 /obj/item/reagent_containers/food/snacks/rationpack,
 /obj/item/reagent_containers/food/snacks/rationpack,
@@ -964,6 +950,11 @@
 /obj/machinery/airalarm/syndicate{
 	pixel_y = 24
 	},
+/obj/item/clothing/under/syndicate/combat,
+/obj/item/clothing/under/syndicate/camo,
+/obj/item/clothing/under/syndicate,
+/obj/item/clothing/under/syndicate/skirt,
+/obj/item/clothing/under/syndicate/cybersun,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "ch" = (
@@ -1082,9 +1073,7 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "cs" = (
-/obj/structure/closet/crate/secure/gear{
-	req_one_access_txt = "150"
-	},
+/obj/structure/closet/crate/medical,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/storage/firstaid/regular,
 /obj/item/storage/firstaid/regular,
@@ -1131,12 +1120,8 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "cw" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/ammo_printer{
-	name = "cybersun ammo printer"
-	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/syndicate_forgotten_cargopod)
+/turf/open/floor/plating/asteroid/airless,
+/area/asteroid)
 "cx" = (
 /obj/effect/turf_decal/number/two,
 /turf/open/floor/plating,
@@ -1459,8 +1444,6 @@
 /obj/item/circuitboard/machine/rtg/advanced,
 /obj/item/circuitboard/machine/rtg/advanced,
 /obj/item/bluespace_parts/miningcore_filled,
-/obj/item/bluespace_parts/miningcore_filled,
-/obj/item/bluespace_parts/miningcore_filled,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/pod/dark,
@@ -1473,7 +1456,9 @@
 "dg" = (
 /obj/machinery/telecomms/allinone{
 	intercept = 1;
-	on = 0
+	on = 0;
+	network = "sync_hellfire";
+	tag = "SYN-C Hellfire Server"
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
@@ -1483,10 +1468,6 @@
 	dir = 6;
 	network = list("fsc");
 	screen_loc = ""
-	},
-/obj/item/circuitboard/computer/shuttle/helm,
-/obj/structure/closet/crate/secure/gear{
-	req_one_access_txt = "150"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium/red,
@@ -1521,18 +1502,12 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "dl" = (
-/obj/structure/closet/crate/secure/gear{
-	req_one_access_txt = "150"
-	},
-/obj/item/stack/sheet/mineral/gold{
-	amount = 50
-	},
-/obj/item/stack/sheet/mineral/silver{
-	amount = 50
-	},
 /obj/machinery/light,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/ammo_printer{
+	name = "cybersun ammo printer"
+	},
 /turf/open/floor/pod/dark,
 /area/ruin/space/has_grav/powered/syndicate_forgotten_vault)
 "dm" = (
@@ -1705,6 +1680,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
 	},
+/mob/living/simple_animal/hostile/netherworld,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "eb" = (
@@ -1898,21 +1874,9 @@
 /turf/template_noop,
 /area/template_noop)
 "kD" = (
-/obj/machinery/door/airlock/grunge{
-	name = "Captain's room";
-	req_one_access_txt = "150"
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/door/firedoor/heavy,
-/obj/machinery/door/poddoor{
-	id = "fscaproom";
-	name = "Captain's blast door";
-	state_open = 1
-	},
-/turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
+/mob/living/simple_animal/hostile/carp,
+/turf/open/floor/plating/asteroid/airless,
+/area/asteroid)
 "kJ" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2124,6 +2088,11 @@
 /obj/machinery/airalarm/syndicate{
 	pixel_y = 24
 	},
+/obj/item/clothing/under/syndicate/combat,
+/obj/item/clothing/under/syndicate/camo,
+/obj/item/clothing/under/syndicate,
+/obj/item/clothing/under/syndicate/skirt,
+/obj/item/clothing/under/syndicate/cybersun,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "no" = (
@@ -2161,7 +2130,22 @@
 /obj/item/ammo_box/magazine/pistolm9mm,
 /obj/item/clothing/head/HoS/syndicate,
 /obj/item/clothing/head/HoS/beret/syndicate,
+/obj/item/clothing/under/syndicate,
+/obj/item/clothing/under/syndicate/skirt,
+/obj/item/clothing/under/syndicate/camo,
+/obj/item/clothing/under/syndicate/combat,
+/obj/item/clothing/under/syndicate/cybersun,
+/obj/item/clothing/suit/armor/vest/capcarapace/syndicate,
 /turf/open/floor/carpet/royalblack,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"oq" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "fspod";
+	name = "Survival Equipment Pod Blast Door Override";
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "oW" = (
 /obj/structure/alien/weeds{
@@ -2411,23 +2395,18 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
 /obj/effect/turf_decal/syndicateemblem/top/left,
 /obj/structure/alien/weeds{
 	color = "#4BAE56";
 	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
 	name = "gelatinous floor"
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "uj" = (
-/obj/structure/closet/crate/secure/gear{
-	name = "combat gear crate";
-	req_one_access_txt = "150"
-	},
-/obj/item/melee/transforming/energy/sword/saber/red,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -2510,6 +2489,16 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
+"vR" = (
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/microwave,
+/turf/open/floor/mineral/plastitanium/red,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "vW" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2576,6 +2565,7 @@
 	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
 	name = "gelatinous floor"
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "yE" = (
@@ -2748,6 +2738,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/door/poddoor{
+	id = "fspod"
+	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_cargopod)
 "Cm" = (
@@ -2767,14 +2760,14 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Cz" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 5
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
 	},
 /turf/open/floor/carpet/royalblack,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
@@ -2906,15 +2899,15 @@
 	},
 /obj/item/stack/cable_coil,
 /obj/item/circuitboard/computer/rdconsole,
-/obj/item/storage/box/stockparts/deluxe,
-/obj/item/storage/box/stockparts/deluxe,
 /obj/item/storage/box/beakers,
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
 /obj/item/circuitboard/machine/rdserver,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/item/storage/part_replacer/bluespace/tier4,
+/obj/item/storage/part_replacer/bluespace/tier2,
+/obj/item/storage/box/stockparts/t2,
+/obj/item/storage/box/stockparts/t2,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_cargopod)
 "Gb" = (
@@ -3193,6 +3186,11 @@
 	dir = 1;
 	pixel_y = -24
 	},
+/obj/item/clothing/under/syndicate/combat,
+/obj/item/clothing/under/syndicate/camo,
+/obj/item/clothing/under/syndicate,
+/obj/item/clothing/under/syndicate/skirt,
+/obj/item/clothing/under/syndicate/cybersun,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "JT" = (
@@ -3442,8 +3440,6 @@
 	secure = 1
 	},
 /obj/effect/spawner/lootdrop/armory_contraband/metastation,
-/obj/effect/spawner/lootdrop/armory_contraband/metastation,
-/obj/effect/spawner/lootdrop/armory_contraband/metastation,
 /obj/structure/alien/weeds{
 	color = "#4BAE56";
 	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
@@ -3596,20 +3592,9 @@
 	req_one_access_txt = "150"
 	},
 /obj/item/disk/surgery/forgottenship,
-/obj/item/storage/box/cyber_implants,
-/obj/item/storage/box/cyber_implants,
-/obj/item/organ/eyes/robotic/xray,
-/obj/item/organ/eyes/robotic/xray,
-/obj/item/organ/eyes/robotic/xray,
-/obj/item/organ/eyes/robotic/thermals,
-/obj/item/organ/eyes/robotic/thermals,
-/obj/item/organ/eyes/robotic/thermals,
 /obj/item/organ/eyes/robotic/shield,
 /obj/item/organ/eyes/robotic/shield,
 /obj/item/organ/eyes/robotic/shield,
-/obj/item/organ/eyes/robotic/glow,
-/obj/item/organ/eyes/robotic/glow,
-/obj/item/organ/eyes/robotic/glow,
 /obj/item/organ/heart/cybernetic/tier3,
 /obj/item/organ/heart/cybernetic/tier3,
 /obj/item/organ/heart/cybernetic/tier3,
@@ -3620,6 +3605,20 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/pod/dark,
 /area/ruin/space/has_grav/powered/syndicate_forgotten_vault)
+"Re" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/mob/living/simple_animal/hostile/netherworld,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Ri" = (
 /obj/machinery/light,
 /obj/structure/alien/weeds{
@@ -3632,6 +3631,8 @@
 	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
 	name = "gelatinous floor"
 	},
+/obj/structure/table/reinforced,
+/obj/item/kitchen/knife,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Rn" = (
@@ -3752,8 +3753,8 @@
 "Th" = (
 /obj/machinery/button/door{
 	id = "fspod";
-	name = "Cargo pod blast door";
-	pixel_y = 32;
+	name = "Blast Door Override";
+	pixel_y = 24;
 	req_one_access_txt = "150"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
@@ -3839,11 +3840,11 @@
 /obj/item/research_notes/loot/genius{
 	name = "cybersun research findings"
 	},
-/obj/item/research_notes/loot/genius{
-	name = "cybersun research findings"
-	},
 /obj/item/weldingtool/experimental{
-	name = "cybersun welding tool"
+	name = "cybersun welding tool";
+	desc = "An experimental welding tool with an internal chemical synthesiser, invented by Cybersun and stolen by Nanotrasen. It's heavy.";
+	max_fuel = 25;
+	w_class = 3
 	},
 /turf/open/floor/pod/dark,
 /area/ruin/space/has_grav/powered/syndicate_forgotten_vault)
@@ -3880,7 +3881,7 @@
 	name = "stealthily-hidden emergency fuel";
 	req_one_access_txt = "150"
 	},
-/turf/closed/mineral/random/high_chance,
+/turf/open/floor/plating/asteroid/airless,
 /area/asteroid)
 "Wp" = (
 /obj/structure/window/plasma/reinforced/spawner/west,
@@ -4032,6 +4033,25 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"ZT" = (
+/obj/structure/alien/weeds{
+	color = "#4BAE56";
+	desc = "A thick gelatinous surface covers the floor, smelling absolutely putrid.";
+	name = "gelatinous floor"
+	},
+/obj/structure/closet/secure_closet/freezer/fridge{
+	req_access = list(150)
+	},
+/obj/item/reagent_containers/food/snacks/meat/slab/synthmeat,
+/obj/item/reagent_containers/food/snacks/meat/slab/synthmeat,
+/obj/item/reagent_containers/food/snacks/meat/slab/synthmeat,
+/obj/item/reagent_containers/food/snacks/meat/slab/synthmeat,
+/obj/item/reagent_containers/food/snacks/meat/slab/synthmeat,
+/obj/item/reagent_containers/food/snacks/meat/slab/synthmeat,
+/obj/item/reagent_containers/food/snacks/meat/slab/synthmeat,
+/obj/item/storage/box/ingredients/carnivore,
+/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 
 (1,1,1) = {"
@@ -4259,7 +4279,7 @@ aa
 ba
 ba
 ba
-ba
+cN
 ba
 ba
 ba
@@ -4952,7 +4972,7 @@ xr
 ch
 sw
 Cz
-kD
+Pp
 ua
 Gy
 cU
@@ -5183,7 +5203,7 @@ aa
 do
 do
 aZ
-bq
+dd
 dd
 dd
 Rb
@@ -5218,9 +5238,9 @@ am
 VJ
 ct
 bZ
-cL
+vR
 Nk
-aT
+ZT
 Pp
 bG
 bI
@@ -5485,7 +5505,7 @@ QL
 at
 at
 Gm
-at
+Re
 at
 HD
 QE
@@ -5662,7 +5682,7 @@ do
 bb
 bb
 cs
-cw
+zH
 bb
 bb
 do
@@ -5702,7 +5722,7 @@ cS
 EX
 bW
 bZ
-ah
+oq
 bZ
 ac
 aa
@@ -5766,9 +5786,9 @@ aa
 aa
 do
 do
-do
-do
-ba
+kD
+cw
+cw
 do
 do
 do
@@ -5818,11 +5838,11 @@ aa
 aa
 aa
 aa
-ba
-do
-do
-do
-do
+cw
+cw
+cw
+cw
+kD
 do
 aa
 aa
@@ -6449,9 +6469,9 @@ aa
 aa
 aa
 aa
-aa
 ba
-aa
+ba
+ba
 aa
 aa
 aa
