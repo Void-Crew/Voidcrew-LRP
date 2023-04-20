@@ -100,7 +100,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/suit_storage_unit/engine,
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/plating,
 /area/ship/storage)
 "ax" = (
 /obj/machinery/door/airlock/maintenance_hatch,
@@ -119,6 +119,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/lootdrop/maintenance/three,
 /obj/structure/closet/crate,
+/obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/ship/maintenance/starboard)
 "aC" = (
@@ -203,7 +204,8 @@
 "aV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating,
+/obj/effect/spawner/lootdrop/whiteship_cere_ripley,
+/turf/open/floor/mech_bay_recharge_floor,
 /area/ship/maintenance/starboard)
 "bx" = (
 /obj/structure/cable{
@@ -678,7 +680,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/suit_storage_unit/engine,
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/plating,
 /area/ship/storage)
 "fs" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1001,6 +1003,7 @@
 	pixel_x = -4;
 	pixel_y = 6
 	},
+/obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/wood,
 /area/ship/maintenance/starboard)
 "hG" = (
@@ -1104,9 +1107,10 @@
 "ik" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
-/obj/item/cigbutt,
-/obj/effect/spawner/lootdrop/maintenance,
-/turf/open/floor/plating,
+/obj/machinery/mech_bay_recharge_port{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
 /area/ship/maintenance/starboard)
 "im" = (
 /obj/item/kirbyplants/random,
@@ -2064,7 +2068,7 @@
 	icon_state = "1-2"
 	},
 /obj/item/trash/popcorn,
-/turf/open/floor/plating,
+/turf/open/floor/plasteel,
 /area/ship/maintenance/starboard)
 "oG" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -3002,6 +3006,7 @@
 	location = "talos_workshop"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plasteel/dark,
 /area/ship/storage)
 "uF" = (
@@ -3742,11 +3747,8 @@
 	dir = 1;
 	pixel_y = -25
 	},
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 10
-	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating,
 /area/ship/storage)
 "zB" = (
 /obj/structure/table/optable,
@@ -4168,11 +4170,10 @@
 /obj/item/weldingtool/largetank,
 /obj/item/clothing/glasses/welding,
 /obj/item/multitool,
-/obj/effect/turf_decal/industrial/outline/yellow,
 /obj/item/tank/jetpack/carbondioxide,
 /obj/item/tank/jetpack/carbondioxide,
 /obj/item/tank/jetpack/carbondioxide,
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/plating,
 /area/ship/storage)
 "Cs" = (
 /obj/structure/cable/yellow{
@@ -4461,7 +4462,7 @@
 /area/ship/engineering/engine)
 "Eg" = (
 /obj/machinery/mech_bay_recharge_port,
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/plating,
 /area/ship/storage)
 "Ep" = (
 /obj/item/trash/can,
@@ -4513,6 +4514,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 6
 	},
+/obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plasteel/dark,
 /area/ship/storage)
 "EL" = (
@@ -5042,6 +5044,7 @@
 	name = "hivebot AI module";
 	desc = "A piece of strange circuitry, that, when inserted into a hivebot, grants it sentience. There's a strange purple fluid leaking out of it."
 	},
+/obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/ship/maintenance/starboard)
 "ID" = (
@@ -5568,11 +5571,8 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 8
-	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating,
 /area/ship/storage)
 "Mz" = (
 /obj/structure/cable{
@@ -5675,7 +5675,7 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel,
 /area/ship/maintenance/starboard)
 "Ng" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -5712,7 +5712,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/closet/cardboard,
-/obj/effect/spawner/lootdrop/maintenance/three,
+/obj/effect/spawner/lootdrop/maintenance/five,
 /turf/open/floor/plating,
 /area/ship/maintenance/starboard)
 "NF" = (
@@ -5737,6 +5737,11 @@
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/cargo)
+"Og" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/plating,
+/area/ship/maintenance/starboard)
 "Oi" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -5747,7 +5752,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/lootdrop/maintenance/three,
 /obj/structure/closet/crate,
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/plating,
 /area/ship/storage)
 "Ol" = (
 /obj/machinery/light{
@@ -5839,6 +5844,11 @@
 	},
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/ship/engineering/communications)
+"OZ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/computer/mech_bay_power_console,
+/turf/open/floor/plating,
+/area/ship/maintenance/starboard)
 "Pf" = (
 /obj/structure/catwalk,
 /obj/effect/decal/cleanable/dirt,
@@ -5876,6 +5886,7 @@
 /obj/effect/turf_decal/industrial/warning/corner{
 	dir = 4
 	},
+/obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/ship/maintenance/starboard)
 "PE" = (
@@ -6089,11 +6100,8 @@
 /turf/open/floor/plating,
 /area/ship/maintenance/starboard)
 "Rc" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 5
-	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating,
 /area/ship/storage)
 "Rg" = (
 /obj/structure/cable{
@@ -6469,7 +6477,7 @@
 "TO" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/vomit/old,
-/turf/open/floor/plating,
+/turf/open/floor/plasteel,
 /area/ship/maintenance/starboard)
 "TV" = (
 /obj/structure/cable{
@@ -7136,6 +7144,8 @@
 "Ze" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/closet/firecloset,
+/obj/effect/spawner/lootdrop/maintenance,
+/obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/ship/maintenance/starboard)
 "Zh" = (
@@ -7521,7 +7531,7 @@ ao
 sV
 Su
 Rc
-Tg
+Rc
 Tg
 MC
 ED
@@ -8525,7 +8535,7 @@ sw
 sw
 uI
 ik
-pb
+OZ
 YI
 Rp
 uI
@@ -8665,7 +8675,7 @@ BN
 yP
 pa
 Ho
-pb
+Og
 uI
 sw
 sw
