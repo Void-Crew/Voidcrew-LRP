@@ -147,7 +147,7 @@ GLOBAL_LIST_INIT(available_depts, list(SEC_DEPT_ENGINEERING, SEC_DEPT_MEDICAL, S
 /datum/outfit/job/security/nanotrasen
 	name = "Security Officer (Nanotrasen)"
 
-	uniform = /obj/item/clothing/under/rank/security/officer/nt
+	uniform = /obj/item/clothing/under/rank/security/officer
 	alt_uniform = null
 	backpack_contents = list(/obj/item/radio, /obj/item/flashlight/seclite, /obj/item/gun_voucher)
 
@@ -168,7 +168,7 @@ GLOBAL_LIST_INIT(available_depts, list(SEC_DEPT_ENGINEERING, SEC_DEPT_MEDICAL, S
 	uniform = /obj/item/clothing/under/rank/engineering/engineer/hazard
 	head = null
 	backpack = /obj/item/storage/backpack/ert/engineer
-	belt = /obj/item/storage/belt/utility/full/ert
+	belt = /obj/item/storage/belt/utility/full
 	id = /obj/item/card/id/ert/security
 	r_pocket = /obj/item/kitchen/knife/combat/survival
 	backpack_contents = list(/obj/item/radio, /obj/item/flashlight/seclite)
@@ -193,7 +193,7 @@ GLOBAL_LIST_INIT(available_depts, list(SEC_DEPT_ENGINEERING, SEC_DEPT_MEDICAL, S
 
 	uniform = /obj/item/clothing/under/rank/security/old
 	head = /obj/item/clothing/head/beret/sec/officer
-	suit = /obj/item/clothing/suit/armor/vest/bulletproof
+	suit = /obj/item/clothing/suit/armor/bulletproof
 	backpack_contents = list(/obj/item/radio, /obj/item/flashlight/seclite)
 
 //Shiptest outfits end

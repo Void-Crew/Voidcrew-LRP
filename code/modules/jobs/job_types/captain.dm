@@ -63,5 +63,5 @@
 
 	uniform = /obj/item/clothing/under/rank/centcom/officer
 	head = /obj/item/clothing/head/centhat
-	suit = /obj/item/clothing/suit/armor/vest/bulletproof
+	suit = /obj/item/clothing/suit/armor/bulletproof
 	ears = /obj/item/radio/headset/headset_cent/commander
