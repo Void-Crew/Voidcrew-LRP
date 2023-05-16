@@ -14827,6 +14827,19 @@
 /obj/effect/turf_decal/corner/red,
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/basketball)
+"hFC" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/reinforced,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/item/paper{
+	name = "instruction manual";
+	info = "Operating the Whitaker Torture Device is simple! Simply configure the mixer (with more O2 than plasma going in) then turn the valve! Your victim will be painfully incinerated!";
+	desc = "An instruction pamphlet."
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "hHh" = (
 /obj/structure/closet/secure_closet/freezer/meat/open,
 /obj/item/reagent_containers/food/snacks/meat/slab/goliath,
@@ -14881,6 +14894,13 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 4;
 	name = "Sanity Preservation Injector"
+	},
+/obj/structure/grille/indestructable{
+	name = "Injector Security Grille";
+	desc = "An extremely tough grille used for protecting extremely important pipes."
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
 	},
 /turf/open/floor/wood,
 /area/centcom/ferry)
@@ -15242,6 +15262,13 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
+"jHF" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+	dir = 5
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "jOe" = (
 /obj/effect/turf_decal/corner/red,
 /turf/open/floor/plasteel/dark,
@@ -15986,11 +16013,14 @@
 /turf/open/floor/plasteel,
 /area/syndicate_mothership/control)
 "mWE" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
 /obj/effect/turf_decal/atmos/plasma,
 /obj/structure/window/plasma/reinforced/spawner/east,
 /obj/structure/window/plasma/reinforced/spawner/west,
 /obj/structure/window/plasma/reinforced/spawner/north,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+	dir = 10
+	},
+/obj/machinery/atmospherics/miner/toxins,
 /turf/open/floor/engine/plasma,
 /area/centcom/ferry)
 "mXU" = (
@@ -15998,8 +16028,8 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{
-	dir = 4
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+	dir = 9
 	},
 /turf/open/floor/wood,
 /area/centcom/ferry)
@@ -16162,13 +16192,12 @@
 /turf/open/floor/plasteel,
 /area/centcom/control)
 "nVB" = (
-/obj/machinery/atmospherics/components/binary/pump/on{
-	dir = 8;
-	name = "Burn Mix Output"
-	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/cable{
 	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/components/trinary/mixer/flipped{
+	dir = 4
 	},
 /turf/open/floor/wood,
 /area/centcom/ferry)
@@ -16268,12 +16297,13 @@
 /turf/open/floor/plasteel/dark,
 /area/centcom/ferry)
 "oCB" = (
-/obj/machinery/atmospherics/components/unary/passive_vent{
-	dir = 1
-	},
 /obj/structure/window/plasma/reinforced/spawner/east,
 /obj/structure/window/plasma/reinforced/spawner/west,
 /obj/structure/window/plasma/reinforced/spawner,
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos{
+	dir = 1;
+	id_tag = "whitaker_plasma_out"
+	},
 /turf/open/floor/engine/plasma,
 /area/centcom/ferry)
 "oGl" = (
@@ -16731,6 +16761,8 @@
 /obj/structure/window/plasma/reinforced/spawner/west,
 /obj/structure/window/plasma/reinforced/spawner,
 /obj/effect/turf_decal/atmos/oxygen,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
+/obj/machinery/atmospherics/miner/toxins,
 /turf/open/floor/engine/o2,
 /area/centcom/ferry)
 "qnU" = (
@@ -16985,10 +17017,12 @@
 /area/centcom/ferry)
 "rcY" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/atmospherics/components/unary/passive_vent,
 /obj/structure/window/plasma/reinforced/spawner/east,
 /obj/structure/window/plasma/reinforced/spawner/west,
 /obj/structure/window/plasma/reinforced/spawner/north,
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos{
+	id_tag = "whitaker_o2_out"
+	},
 /turf/open/floor/engine/o2,
 /area/centcom/ferry)
 "rdo" = (
@@ -17578,7 +17612,7 @@
 /obj/item/clothing/mask/gas/clown_hat,
 /obj/item/clothing/suit/space/hardsuit/clown{
 	name = "Whitaker's Hardsuit";
-	desc = "Honk honk, asshole."
+	desc = "The only relief when the floors have been melted through."
 	},
 /obj/item/clothing/under/rank/civilian/clown,
 /obj/item/megaphone/clown,
@@ -55701,7 +55735,7 @@ qIc
 pFH
 ukR
 cLv
-ukR
+hFC
 ukR
 euk
 aoB
@@ -55958,7 +55992,7 @@ iyZ
 oiD
 oiD
 nVB
-lTO
+jHF
 lTO
 ajC
 aoB
