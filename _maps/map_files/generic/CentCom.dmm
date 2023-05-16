@@ -15011,6 +15011,19 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
+"iJZ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/reinforced,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/item/paper{
+	name = "instruction manual";
+	info = "Operating the Whitaker Torture Device is simple! Simply configure the mixer (with more O2 than plasma going in) then turn the valve! Your victim will be painfully incinerated!";
+	desc = "An instruction pamphlet."
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "iKx" = (
 /obj/effect/turf_decal/corner/red{
 	dir = 4
@@ -15195,6 +15208,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
+"jqH" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+	dir = 5
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "jvG" = (
 /obj/machinery/computer/secure_data{
 	dir = 1
@@ -15214,19 +15234,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
-"jyQ" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/table/reinforced,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/item/paper{
-	name = "instruction manual";
-	info = "Operating the Whitaker Torture Device is simple! Simply configure the mixer (with more O2 than plasma going in) then turn the valve! Your victim will be painfully incinerated!";
-	desc = "An instruction pamphlet."
-	},
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "jCa" = (
 /obj/structure/table,
 /obj/item/folder,
@@ -16030,7 +16037,7 @@
 /obj/machinery/computer/atmos_control/toxinsmix{
 	dir = 8;
 	sensors = list("whitaker_chamber" = "Burn Chamber", "whitaker_chamber" = "Burn Chamber", "whitaker_chamber" = "Burn Chamber""whitaker_chamber" = "Burn Chamber", "whitaker_o2" = "Oxygen Supply", "whitaker_plasma" = "Plasma Tank");
-	name = "atmospherifcs monitor";
+	name = "atmospherics monitor";
 	desc = "Used to monitor gasses."
 	},
 /turf/open/floor/wood,
@@ -17091,13 +17098,6 @@
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/plasteel,
 /area/centcom/supply)
-"rlB" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
-	dir = 5
-	},
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "rrw" = (
 /obj/effect/turf_decal/corner/green{
 	dir = 8
@@ -55750,7 +55750,7 @@ qIc
 pFH
 ukR
 cLv
-jyQ
+iJZ
 ukR
 euk
 aoB
@@ -56007,7 +56007,7 @@ iyZ
 oiD
 oiD
 nVB
-rlB
+jqH
 lTO
 ajC
 aoB
