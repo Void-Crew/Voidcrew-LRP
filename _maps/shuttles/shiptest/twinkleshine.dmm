@@ -85,16 +85,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/ship/crew/dorm)
-"aD" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/security)
 "aE" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -276,6 +266,10 @@
 /obj/item/pipe_dispenser,
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering)
+"bY" = (
+/obj/machinery/atmospherics/pipe/layer_manifold,
+/turf/open/floor/plasteel/dark,
+/area/ship/engineering/atmospherics)
 "cd" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -990,9 +984,11 @@
 /turf/open/floor/wood,
 /area/ship/crew/canteen)
 "hb" = (
-/obj/machinery/computer/operating,
-/turf/open/floor/plasteel/mono/white,
-/area/ship/medical/surgery)
+/turf/closed/wall/r_wall/syndicate/nodiagonal{
+	rad_insulation = 0.2;
+	desc = "The armored hull of an ominous looking ship. This one is lead-lined, protecting those behind it from radiation."
+	},
+/area/ship/engineering/engine)
 "hd" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -1058,8 +1054,7 @@
 /area/ship/engineering/engine)
 "hu" = (
 /obj/machinery/porta_turret/syndicate/energy{
-	dir = 10;
-	faction = list("PlayerSyndicate")
+	dir = 10
 	},
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/bridge)
@@ -1262,6 +1257,9 @@
 /obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
+"iA" = (
+/turf/open/floor/plasteel/mono/white,
+/area/ship/medical)
 "iB" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
@@ -1357,6 +1355,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/bridge)
+"iZ" = (
+/obj/machinery/computer/operating,
+/turf/open/floor/plasteel/mono/white,
+/area/ship/medical/surgery)
 "jf" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
@@ -1517,11 +1519,6 @@
 /obj/machinery/light,
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
-"kf" = (
-/obj/machinery/light,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel/tech,
-/area/ship/hallway/central)
 "ks" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -1635,13 +1632,18 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security)
+"lo" = (
+/obj/machinery/door/poddoor{
+	id = "twinkle_cargo";
+	name = "Cargo Shutters"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/ship/cargo)
 "lv" = (
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
-"lw" = (
-/turf/open/floor/plasteel/tech,
-/area/ship/hallway/central)
 "lx" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -1948,15 +1950,23 @@
 /area/ship/medical)
 "nW" = (
 /obj/machinery/porta_turret/syndicate/energy{
-	dir = 6;
-	faction = list("PlayerSyndicate")
+	dir = 6
 	},
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/bridge)
+"oc" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/security)
 "of" = (
 /obj/machinery/porta_turret/syndicate/energy{
-	dir = 9;
-	faction = list("PlayerSyndicate")
+	dir = 9
 	},
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/bridge)
@@ -1984,6 +1994,9 @@
 	},
 /turf/open/floor/plating,
 /area/ship/hallway/central)
+"ow" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/security)
 "ox" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -2595,6 +2608,9 @@
 /obj/item/storage/cans/sixbeer,
 /turf/open/floor/plasteel/dark,
 /area/ship/bridge)
+"sr" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/security/armory)
 "ss" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -2811,9 +2827,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plasteel/tech,
 /area/ship/hallway/central)
-"tZ" = (
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/bridge)
 "ug" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox/electrical{
@@ -2980,6 +2993,9 @@
 /obj/machinery/atmospherics/pipe/simple/green/visible,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
+"vL" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/bridge)
 "vO" = (
 /obj/effect/turf_decal/syndicateemblem/middle/right{
 	dir = 8
@@ -3257,8 +3273,7 @@
 /area/ship/engineering/engine)
 "xp" = (
 /obj/machinery/porta_turret/syndicate/energy{
-	dir = 5;
-	faction = list("PlayerSyndicate")
+	dir = 5
 	},
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/bridge)
@@ -3337,6 +3352,16 @@
 	},
 /turf/open/floor/plasteel/elevatorshaft,
 /area/ship/bridge)
+"xP" = (
+/turf/open/floor/plasteel/tech,
+/area/ship/hallway/central)
+"xW" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/layer_manifold,
+/turf/open/floor/plasteel/dark,
+/area/ship/engineering/atmospherics)
 "ya" = (
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Laser Room";
@@ -3708,6 +3733,9 @@
 	},
 /turf/open/floor/carpet/red,
 /area/ship/bridge)
+"Ap" = (
+/turf/open/floor/plasteel/white,
+/area/ship/medical)
 "Aq" = (
 /obj/machinery/atmospherics/pipe/manifold/purple/visible{
 	dir = 4
@@ -3790,6 +3818,11 @@
 	},
 /turf/open/floor/wood,
 /area/ship/crew/canteen)
+"Bs" = (
+/obj/machinery/light,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech,
+/area/ship/hallway/central)
 "BB" = (
 /obj/structure/reflector/box{
 	anchored = 1;
@@ -3801,10 +3834,6 @@
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
-"BE" = (
-/obj/machinery/atmospherics/pipe/layer_manifold,
-/turf/open/floor/plasteel/dark,
-/area/ship/engineering/atmospherics)
 "BG" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -3916,9 +3945,6 @@
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
-"Cl" = (
-/turf/open/floor/plasteel/mono/white,
-/area/ship/medical)
 "Cp" = (
 /obj/machinery/telecomms/processor/preset_three{
 	network = "synd_commnet"
@@ -3962,9 +3988,6 @@
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
-"CJ" = (
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/security)
 "CQ" = (
 /obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
 /turf/open/floor/plating,
@@ -4230,10 +4253,6 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
-"EJ" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/bridge)
 "EN" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/hallway/central)
@@ -4524,12 +4543,6 @@
 /obj/item/trash/sosjerky,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
-"Gy" = (
-/turf/closed/wall/r_wall/syndicate/nodiagonal{
-	rad_insulation = 0.2;
-	desc = "The armored hull of an ominous looking ship. This one is lead-lined, protecting those behind it from radiation."
-	},
-/area/ship/engineering/engine)
 "GC" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
@@ -5812,13 +5825,6 @@
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
-"Pn" = (
-/obj/machinery/light/small{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/layer_manifold,
-/turf/open/floor/plasteel/dark,
-/area/ship/engineering/atmospherics)
 "Pv" = (
 /obj/structure/table/optable,
 /obj/machinery/camera/autoname{
@@ -6167,6 +6173,10 @@
 "Sc" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/medical/surgery)
+"Sd" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/bridge)
 "Sg" = (
 /obj/machinery/power/apc/auto_name/west,
 /obj/structure/cable/yellow{
@@ -6414,9 +6424,6 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel/tech,
 /area/ship/hallway/central)
-"TC" = (
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/security/armory)
 "TE" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/vending/tool,
@@ -6570,9 +6577,6 @@
 	},
 /turf/open/floor/wood,
 /area/ship/crew/canteen)
-"UH" = (
-/turf/open/floor/plasteel/white,
-/area/ship/medical)
 "UI" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/holopad/emergency/command,
@@ -6663,14 +6667,6 @@
 	},
 /turf/open/floor/plating,
 /area/ship/bridge)
-"VC" = (
-/obj/machinery/door/poddoor{
-	id = "twinkle_cargo";
-	name = "Cargo Shutters"
-	},
-/obj/structure/fans/tiny,
-/turf/open/floor/plating,
-/area/ship/cargo)
 "VG" = (
 /obj/structure/chair/stool/bar{
 	dir = 1
@@ -7558,7 +7554,7 @@ kS
 "}
 (8,1,1) = {"
 qM
-BE
+bY
 lj
 aE
 NL
@@ -7588,12 +7584,12 @@ EH
 VA
 qz
 ni
-BE
+bY
 gh
 "}
 (9,1,1) = {"
 gh
-Pn
+xW
 SA
 ZQ
 NL
@@ -7623,7 +7619,7 @@ cp
 mS
 qz
 aa
-Pn
+xW
 gh
 "}
 (10,1,1) = {"
@@ -7954,24 +7950,24 @@ sb
 Jz
 MQ
 MQ
-Gy
-Gy
-Gy
-Gy
-Gy
-Gy
-Gy
-Gy
-Gy
+hb
+hb
+hb
+hb
+hb
+hb
+hb
+hb
+hb
 MQ
 MQ
 xv
 Si
 si
-TC
+sr
 Eo
 lT
-CJ
+ow
 vn
 ZH
 nW
@@ -7989,24 +7985,24 @@ sb
 yF
 SM
 sd
-lw
+xP
 xa
 Ru
 Ei
 iq
 BP
 xa
-lw
+xP
 oX
 PN
 PN
 xv
 sG
-TC
+sr
 wg
 gk
 Kg
-CJ
+ow
 fX
 ZH
 mp
@@ -8037,11 +8033,11 @@ tY
 XR
 xv
 Si
-TC
-TC
+sr
+sr
 Eo
 cX
-CJ
+ow
 kH
 ZH
 mp
@@ -8092,7 +8088,7 @@ gZ
 zP
 dp
 WL
-lw
+xP
 QF
 Wj
 bP
@@ -8103,7 +8099,7 @@ vy
 Ry
 iv
 ro
-lw
+xP
 Fr
 xv
 xv
@@ -8111,7 +8107,7 @@ jH
 jH
 xv
 BG
-CJ
+ow
 Xf
 ZH
 mp
@@ -8127,7 +8123,7 @@ zD
 zD
 zD
 mG
-lw
+xP
 QF
 dm
 yM
@@ -8138,13 +8134,13 @@ ID
 TI
 ZE
 ro
-lw
+xP
 ox
 IC
-aD
-aD
-aD
-aD
+oc
+oc
+oc
+oc
 ln
 ET
 kc
@@ -8177,11 +8173,11 @@ VY
 GH
 ZH
 Ed
-CJ
+ow
 oG
-CJ
+ow
 KK
-CJ
+ow
 wC
 ZH
 mp
@@ -8250,8 +8246,8 @@ pL
 SV
 pE
 Dp
-CJ
-CJ
+ow
+ow
 Eh
 wh
 mp
@@ -8286,7 +8282,7 @@ HH
 Pa
 ZH
 HG
-CJ
+ow
 hY
 wh
 mp
@@ -8302,7 +8298,7 @@ JY
 zD
 zD
 qY
-kf
+Bs
 RC
 RC
 Zr
@@ -8321,14 +8317,14 @@ ZH
 ZH
 ZH
 YZ
-CJ
+ow
 fK
 TM
 mp
 "}
 (30,1,1) = {"
 mp
-VC
+lo
 CV
 Go
 rP
@@ -8363,7 +8359,7 @@ mp
 "}
 (31,1,1) = {"
 mp
-VC
+lo
 AW
 ZC
 Um
@@ -8372,19 +8368,19 @@ ep
 rP
 KJ
 oi
-lw
+xP
 IN
 wu
 If
-lw
-lw
+xP
+xP
 yX
-lw
+xP
 kM
 XE
 sz
-lw
-lw
+xP
+xP
 oi
 Gm
 ZH
@@ -8398,7 +8394,7 @@ mp
 "}
 (32,1,1) = {"
 mp
-VC
+lo
 AW
 UK
 EO
@@ -8421,7 +8417,7 @@ mQ
 Jh
 Tn
 oi
-lw
+xP
 ZH
 xe
 MK
@@ -8433,7 +8429,7 @@ mp
 "}
 (33,1,1) = {"
 mp
-VC
+lo
 dg
 NT
 Wo
@@ -8445,9 +8441,9 @@ oj
 eF
 mQ
 ii
-UH
-UH
-UH
+Ap
+Ap
+Ap
 xu
 nS
 YJ
@@ -8481,7 +8477,7 @@ hP
 mQ
 Dh
 st
-UH
+Ap
 fT
 CS
 al
@@ -8490,7 +8486,7 @@ JE
 vB
 mQ
 ak
-lw
+xP
 cW
 ZH
 ZH
@@ -8556,8 +8552,8 @@ dE
 Wm
 bN
 eP
-UH
-UH
+Ap
+Ap
 ck
 mQ
 pO
@@ -8581,18 +8577,18 @@ ql
 Yj
 RW
 fU
-kf
+Bs
 Sc
-hb
+iZ
 jz
 GZ
 CF
 zc
-Cl
+iA
 IH
-Cl
-UH
-UH
+iA
+Ap
+Ap
 FW
 mQ
 Qk
@@ -8627,10 +8623,10 @@ dV
 vl
 JL
 WR
-UH
+Ap
 Ks
 mQ
-lw
+xP
 hd
 EN
 EN
@@ -8651,9 +8647,9 @@ mp
 mp
 EN
 HY
-lw
+xP
 Sc
-hb
+iZ
 Iw
 SL
 SL
@@ -8665,7 +8661,7 @@ SL
 VM
 SS
 mQ
-lw
+xP
 lx
 EN
 mp
@@ -8727,9 +8723,9 @@ SL
 SL
 zT
 Xb
-tZ
+vL
 wb
-tZ
+vL
 lG
 zT
 SL
@@ -8760,15 +8756,15 @@ RA
 SL
 Im
 dL
-EJ
-EJ
+Sd
+Sd
 pI
 Zk
 bd
-EJ
-tZ
+Sd
+vL
 wr
-EJ
+Sd
 SL
 BU
 et
@@ -8829,15 +8825,15 @@ PB
 SL
 SL
 Tl
-tZ
-EJ
-EJ
+vL
+Sd
+Sd
 kV
 mx
 WZ
-tZ
-tZ
-EJ
+vL
+vL
+Sd
 Fu
 SL
 SL
@@ -8866,11 +8862,11 @@ SL
 QE
 SL
 VU
-EJ
-EJ
+Sd
+Sd
 UI
-EJ
-EJ
+Sd
+Sd
 Jw
 SL
 QE
@@ -8906,7 +8902,7 @@ Sa
 Gj
 tS
 tr
-EJ
+Sd
 QE
 mp
 SL
