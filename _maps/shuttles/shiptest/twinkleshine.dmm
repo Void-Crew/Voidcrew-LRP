@@ -85,6 +85,16 @@
 	},
 /turf/open/floor/plasteel,
 /area/ship/crew/dorm)
+"aD" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/security)
 "aE" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -266,10 +276,6 @@
 /obj/item/pipe_dispenser,
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering)
-"bY" = (
-/obj/machinery/atmospherics/pipe/layer_manifold,
-/turf/open/floor/plasteel/dark,
-/area/ship/engineering/atmospherics)
 "cd" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -1531,9 +1537,6 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
-"kE" = (
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/bridge)
 "kF" = (
 /obj/structure/table/wood/reinforced,
 /obj/item/folder/syndicate{
@@ -1636,6 +1639,9 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
+"lw" = (
+/turf/open/floor/plasteel/tech,
+/area/ship/hallway/central)
 "lx" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -1947,16 +1953,6 @@
 	},
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/bridge)
-"oc" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/security)
 "of" = (
 /obj/machinery/porta_turret/syndicate/energy{
 	dir = 9;
@@ -2266,6 +2262,10 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
+"pO" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech,
+/area/ship/hallway/central)
 "pU" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/structure/cable/yellow{
@@ -2811,6 +2811,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plasteel/tech,
 /area/ship/hallway/central)
+"tZ" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/bridge)
 "ug" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox/electrical{
@@ -2986,14 +2989,6 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/bridge)
-"vQ" = (
-/obj/machinery/door/poddoor{
-	id = "twinkle_cargo";
-	name = "Cargo Shutters"
-	},
-/obj/structure/fans/tiny,
-/turf/open/floor/plating,
-/area/ship/cargo)
 "vW" = (
 /obj/structure/sign/poster/official/moth/epi{
 	pixel_x = -32
@@ -3342,15 +3337,6 @@
 	},
 /turf/open/floor/plasteel/elevatorshaft,
 /area/ship/bridge)
-"xP" = (
-/turf/open/floor/plasteel/tech,
-/area/ship/hallway/central)
-"xW" = (
-/turf/closed/wall/r_wall/syndicate/nodiagonal{
-	rad_insulation = 0.2;
-	desc = "The armored hull of an ominous looking ship. This one is lead-lined, protecting those behind it from radiation."
-	},
-/area/ship/engineering/engine)
 "ya" = (
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Laser Room";
@@ -3722,9 +3708,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/ship/bridge)
-"Ap" = (
-/turf/open/floor/plasteel/white,
-/area/ship/medical)
 "Aq" = (
 /obj/machinery/atmospherics/pipe/manifold/purple/visible{
 	dir = 4
@@ -3818,6 +3801,10 @@
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
+"BE" = (
+/obj/machinery/atmospherics/pipe/layer_manifold,
+/turf/open/floor/plasteel/dark,
+/area/ship/engineering/atmospherics)
 "BG" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -3975,6 +3962,9 @@
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
+"CJ" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/security)
 "CQ" = (
 /obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
 /turf/open/floor/plating,
@@ -4240,6 +4230,10 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
+"EJ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/bridge)
 "EN" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/hallway/central)
@@ -4531,9 +4525,11 @@
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "Gy" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel/tech,
-/area/ship/hallway/central)
+/turf/closed/wall/r_wall/syndicate/nodiagonal{
+	rad_insulation = 0.2;
+	desc = "The armored hull of an ominous looking ship. This one is lead-lined, protecting those behind it from radiation."
+	},
+/area/ship/engineering/engine)
 "GC" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
@@ -4896,9 +4892,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
-"IB" = (
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/security)
 "IC" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -5308,6 +5301,10 @@
 /obj/structure/table/optable,
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
+"KJ" = (
+/obj/machinery/autolathe/hacked,
+/turf/open/floor/plasteel/tech,
+/area/ship/hallway/central)
 "KK" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -5428,14 +5425,6 @@
 	},
 /turf/open/floor/engine/o2,
 /area/ship/engineering/atmospherics)
-"Mk" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/shieldgen{
-	anchored = 1;
-	req_access = list(150)
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/bridge)
 "Mn" = (
 /obj/machinery/light,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -5837,10 +5826,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
-"PA" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/bridge)
 "PB" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Mech Launcher #1";
@@ -6086,9 +6071,6 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/hallway/central)
-"Rv" = (
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/security/armory)
 "Ry" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
@@ -6140,6 +6122,14 @@
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
+"RT" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/shieldgen{
+	anchored = 1;
+	req_access = list(150)
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/bridge)
 "RU" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -6405,6 +6395,10 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/bridge)
+"Tn" = (
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/plasteel/tech,
+/area/ship/hallway/central)
 "Tq" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table,
@@ -6420,6 +6414,9 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel/tech,
 /area/ship/hallway/central)
+"TC" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/security/armory)
 "TE" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/vending/tool,
@@ -6573,6 +6570,9 @@
 	},
 /turf/open/floor/wood,
 /area/ship/crew/canteen)
+"UH" = (
+/turf/open/floor/plasteel/white,
+/area/ship/medical)
 "UI" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/holopad/emergency/command,
@@ -6663,6 +6663,14 @@
 	},
 /turf/open/floor/plating,
 /area/ship/bridge)
+"VC" = (
+/obj/machinery/door/poddoor{
+	id = "twinkle_cargo";
+	name = "Cargo Shutters"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/ship/cargo)
 "VG" = (
 /obj/structure/chair/stool/bar{
 	dir = 1
@@ -7183,10 +7191,6 @@
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security)
-"Zc" = (
-/obj/structure/closet/emcloset/anchored,
-/turf/open/floor/plasteel/tech,
-/area/ship/hallway/central)
 "Zg" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 6
@@ -7554,7 +7558,7 @@ kS
 "}
 (8,1,1) = {"
 qM
-bY
+BE
 lj
 aE
 NL
@@ -7584,7 +7588,7 @@ EH
 VA
 qz
 ni
-bY
+BE
 gh
 "}
 (9,1,1) = {"
@@ -7950,24 +7954,24 @@ sb
 Jz
 MQ
 MQ
-xW
-xW
-xW
-xW
-xW
-xW
-xW
-xW
-xW
+Gy
+Gy
+Gy
+Gy
+Gy
+Gy
+Gy
+Gy
+Gy
 MQ
 MQ
 xv
 Si
 si
-Rv
+TC
 Eo
 lT
-IB
+CJ
 vn
 ZH
 nW
@@ -7985,24 +7989,24 @@ sb
 yF
 SM
 sd
-xP
+lw
 xa
 Ru
 Ei
 iq
 BP
 xa
-xP
+lw
 oX
 PN
 PN
 xv
 sG
-Rv
+TC
 wg
 gk
 Kg
-IB
+CJ
 fX
 ZH
 mp
@@ -8033,11 +8037,11 @@ tY
 XR
 xv
 Si
-Rv
-Rv
+TC
+TC
 Eo
 cX
-IB
+CJ
 kH
 ZH
 mp
@@ -8088,7 +8092,7 @@ gZ
 zP
 dp
 WL
-xP
+lw
 QF
 Wj
 bP
@@ -8099,7 +8103,7 @@ vy
 Ry
 iv
 ro
-xP
+lw
 Fr
 xv
 xv
@@ -8107,7 +8111,7 @@ jH
 jH
 xv
 BG
-IB
+CJ
 Xf
 ZH
 mp
@@ -8123,7 +8127,7 @@ zD
 zD
 zD
 mG
-xP
+lw
 QF
 dm
 yM
@@ -8134,13 +8138,13 @@ ID
 TI
 ZE
 ro
-xP
+lw
 ox
 IC
-oc
-oc
-oc
-oc
+aD
+aD
+aD
+aD
 ln
 ET
 kc
@@ -8173,11 +8177,11 @@ VY
 GH
 ZH
 Ed
-IB
+CJ
 oG
-IB
+CJ
 KK
-IB
+CJ
 wC
 ZH
 mp
@@ -8239,15 +8243,15 @@ KF
 WB
 wa
 RC
-Gy
+pO
 oi
 ZH
 pL
 SV
 pE
 Dp
-IB
-IB
+CJ
+CJ
 Eh
 wh
 mp
@@ -8263,7 +8267,7 @@ YO
 Fi
 zD
 Zt
-Gy
+pO
 RC
 pm
 qT
@@ -8274,7 +8278,7 @@ Dx
 gL
 NC
 RC
-Gy
+pO
 oi
 ZH
 Gk
@@ -8282,7 +8286,7 @@ HH
 Pa
 ZH
 HG
-IB
+CJ
 hY
 wh
 mp
@@ -8317,14 +8321,14 @@ ZH
 ZH
 ZH
 YZ
-IB
+CJ
 fK
 TM
 mp
 "}
 (30,1,1) = {"
 mp
-vQ
+VC
 CV
 Go
 rP
@@ -8359,28 +8363,28 @@ mp
 "}
 (31,1,1) = {"
 mp
-vQ
+VC
 AW
 ZC
 Um
 pH
 ep
 rP
-xP
+KJ
 oi
-xP
+lw
 IN
 wu
 If
-xP
-xP
+lw
+lw
 yX
-xP
+lw
 kM
 XE
 sz
-xP
-xP
+lw
+lw
 oi
 Gm
 ZH
@@ -8394,7 +8398,7 @@ mp
 "}
 (32,1,1) = {"
 mp
-vQ
+VC
 AW
 UK
 EO
@@ -8403,7 +8407,7 @@ EQ
 KQ
 yz
 ZJ
-Zc
+Tn
 Gi
 mQ
 uh
@@ -8415,9 +8419,9 @@ uh
 mQ
 mQ
 Jh
-Zc
+Tn
 oi
-xP
+lw
 ZH
 xe
 MK
@@ -8429,7 +8433,7 @@ mp
 "}
 (33,1,1) = {"
 mp
-vQ
+VC
 dg
 NT
 Wo
@@ -8441,9 +8445,9 @@ oj
 eF
 mQ
 ii
-Ap
-Ap
-Ap
+UH
+UH
+UH
 xu
 nS
 YJ
@@ -8477,7 +8481,7 @@ hP
 mQ
 Dh
 st
-Ap
+UH
 fT
 CS
 al
@@ -8486,7 +8490,7 @@ JE
 vB
 mQ
 ak
-xP
+lw
 cW
 ZH
 ZH
@@ -8542,7 +8546,7 @@ Ya
 Sb
 RW
 fU
-Gy
+pO
 Sc
 KI
 pp
@@ -8552,11 +8556,11 @@ dE
 Wm
 bN
 eP
-Ap
-Ap
+UH
+UH
 ck
 mQ
-Gy
+pO
 XL
 RW
 GN
@@ -8587,8 +8591,8 @@ zc
 Cl
 IH
 Cl
-Ap
-Ap
+UH
+UH
 FW
 mQ
 Qk
@@ -8612,7 +8616,7 @@ EN
 EN
 EN
 gi
-Gy
+pO
 Sc
 zG
 hW
@@ -8623,10 +8627,10 @@ dV
 vl
 JL
 WR
-Ap
+UH
 Ks
 mQ
-xP
+lw
 hd
 EN
 EN
@@ -8647,7 +8651,7 @@ mp
 mp
 EN
 HY
-xP
+lw
 Sc
 hb
 Iw
@@ -8661,7 +8665,7 @@ SL
 VM
 SS
 mQ
-xP
+lw
 lx
 EN
 mp
@@ -8723,9 +8727,9 @@ SL
 SL
 zT
 Xb
-kE
+tZ
 wb
-kE
+tZ
 lG
 zT
 SL
@@ -8756,15 +8760,15 @@ RA
 SL
 Im
 dL
-PA
-PA
+EJ
+EJ
 pI
 Zk
 bd
-PA
-kE
+EJ
+tZ
 wr
-PA
+EJ
 SL
 BU
 et
@@ -8825,15 +8829,15 @@ PB
 SL
 SL
 Tl
-kE
-PA
-PA
+tZ
+EJ
+EJ
 kV
 mx
 WZ
-kE
-kE
-PA
+tZ
+tZ
+EJ
 Fu
 SL
 SL
@@ -8862,11 +8866,11 @@ SL
 QE
 SL
 VU
-PA
-PA
+EJ
+EJ
 UI
-PA
-PA
+EJ
+EJ
 Jw
 SL
 QE
@@ -8902,7 +8906,7 @@ Sa
 Gj
 tS
 tr
-PA
+EJ
 QE
 mp
 SL
@@ -8931,13 +8935,13 @@ CU
 SL
 mp
 QE
-Mk
+RT
 BT
 jh
 zf
 oP
 Ao
-Mk
+RT
 QE
 mp
 SL
