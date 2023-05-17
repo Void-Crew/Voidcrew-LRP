@@ -286,6 +286,12 @@
 	},
 /turf/open/floor/plating,
 /area/ship/hallway/central)
+"cj" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal{
+	rad_insulation = 0.2;
+	desc = "The armored hull of an ominous looking ship. This one is lead-lined, protecting those behind it from radiation."
+	},
+/area/ship/engineering/engine)
 "ck" = (
 /obj/machinery/chem_heater,
 /turf/open/floor/plasteel/white,
@@ -389,6 +395,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/security)
+"da" = (
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security)
 "db" = (
@@ -983,12 +992,6 @@
 	},
 /turf/open/floor/wood,
 /area/ship/crew/canteen)
-"hb" = (
-/turf/closed/wall/r_wall/syndicate/nodiagonal{
-	rad_insulation = 0.2;
-	desc = "The armored hull of an ominous looking ship. This one is lead-lined, protecting those behind it from radiation."
-	},
-/area/ship/engineering/engine)
 "hd" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -1257,9 +1260,6 @@
 /obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
-"iA" = (
-/turf/open/floor/plasteel/mono/white,
-/area/ship/medical)
 "iB" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
@@ -1534,6 +1534,9 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
+"kE" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/bridge)
 "kF" = (
 /obj/structure/table/wood/reinforced,
 /obj/item/folder/syndicate{
@@ -1632,14 +1635,6 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security)
-"lo" = (
-/obj/machinery/door/poddoor{
-	id = "twinkle_cargo";
-	name = "Cargo Shutters"
-	},
-/obj/structure/fans/tiny,
-/turf/open/floor/plating,
-/area/ship/cargo)
 "lv" = (
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
@@ -1827,7 +1822,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/door/airlock/engineering{
-	req_access = list(150,10)
+	req_access = list(150)
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -1994,9 +1989,6 @@
 	},
 /turf/open/floor/plating,
 /area/ship/hallway/central)
-"ow" = (
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/security)
 "ox" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -2021,7 +2013,7 @@
 	dir = 8
 	},
 /obj/machinery/door/airlock/external{
-	req_access = list(150,10)
+	req_access = list(150)
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
@@ -2275,10 +2267,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
-"pO" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel/tech,
-/area/ship/hallway/central)
 "pU" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/structure/cable/yellow{
@@ -2489,7 +2477,7 @@
 "rd" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Engineer Room";
-	req_access = list(150,10)
+	req_access = list(150)
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
@@ -2608,9 +2596,6 @@
 /obj/item/storage/cans/sixbeer,
 /turf/open/floor/plasteel/dark,
 /area/ship/bridge)
-"sr" = (
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/security/armory)
 "ss" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -2993,9 +2978,6 @@
 /obj/machinery/atmospherics/pipe/simple/green/visible,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
-"vL" = (
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/bridge)
 "vO" = (
 /obj/effect/turf_decal/syndicateemblem/middle/right{
 	dir = 8
@@ -3005,6 +2987,14 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/bridge)
+"vQ" = (
+/obj/machinery/door/poddoor{
+	id = "twinkle_cargo";
+	name = "Cargo Shutters"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/ship/cargo)
 "vW" = (
 /obj/structure/sign/poster/official/moth/epi{
 	pixel_x = -32
@@ -3352,9 +3342,6 @@
 	},
 /turf/open/floor/plasteel/elevatorshaft,
 /area/ship/bridge)
-"xP" = (
-/turf/open/floor/plasteel/tech,
-/area/ship/hallway/central)
 "xW" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -3599,6 +3586,10 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
+"zy" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/bridge)
 "zD" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/crew/dorm)
@@ -3733,9 +3724,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/ship/bridge)
-"Ap" = (
-/turf/open/floor/plasteel/white,
-/area/ship/medical)
 "Aq" = (
 /obj/machinery/atmospherics/pipe/manifold/purple/visible{
 	dir = 4
@@ -3945,6 +3933,9 @@
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
+"Cl" = (
+/turf/open/floor/plasteel/mono/white,
+/area/ship/medical)
 "Cp" = (
 /obj/machinery/telecomms/processor/preset_three{
 	network = "synd_commnet"
@@ -4142,7 +4133,7 @@
 /obj/machinery/door/airlock/atmos/glass{
 	name = "Atmospherics";
 	req_one_access_txt = "150";
-	req_access = list(150,10)
+	req_access = list(150)
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/engineering/communications)
@@ -4543,6 +4534,10 @@
 /obj/item/trash/sosjerky,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
+"Gy" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech,
+/area/ship/hallway/central)
 "GC" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
@@ -4575,6 +4570,10 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering/atmospherics)
+"GG" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/plasteel/tech,
+/area/ship/crew/office)
 "GH" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -5056,6 +5055,9 @@
 /obj/machinery/light,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/bridge)
+"Jy" = (
+/turf/open/floor/plasteel/white,
+/area/ship/medical)
 "Jz" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -5067,7 +5069,7 @@
 	pixel_y = 32
 	},
 /obj/machinery/door/airlock/external{
-	req_access = list(150,10)
+	req_access = list(150)
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
@@ -5324,6 +5326,9 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security)
+"KM" = (
+/turf/open/floor/plasteel/tech,
+/area/ship/hallway/central)
 "KQ" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
@@ -5438,6 +5443,14 @@
 	},
 /turf/open/floor/engine/o2,
 /area/ship/engineering/atmospherics)
+"Mk" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/shieldgen{
+	anchored = 1;
+	req_access = list(150)
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/bridge)
 "Mn" = (
 /obj/machinery/light,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -5582,10 +5595,6 @@
 "Nr" = (
 /turf/open/floor/plasteel,
 /area/ship/crew/dorm)
-"NC" = (
-/obj/item/kirbyplants/random,
-/turf/open/floor/plasteel/tech,
-/area/ship/crew/office)
 "NE" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -6128,14 +6137,6 @@
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
-"RT" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/shieldgen{
-	anchored = 1;
-	req_access = list(150)
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/bridge)
 "RU" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -6173,10 +6174,6 @@
 "Sc" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/medical/surgery)
-"Sd" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/bridge)
 "Sg" = (
 /obj/machinery/power/apc/auto_name/west,
 /obj/structure/cable/yellow{
@@ -6424,6 +6421,9 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel/tech,
 /area/ship/hallway/central)
+"TC" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/security/armory)
 "TE" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/vending/tool,
@@ -7950,24 +7950,24 @@ sb
 Jz
 MQ
 MQ
-hb
-hb
-hb
-hb
-hb
-hb
-hb
-hb
-hb
+cj
+cj
+cj
+cj
+cj
+cj
+cj
+cj
+cj
 MQ
 MQ
 xv
 Si
 si
-sr
+TC
 Eo
 lT
-ow
+da
 vn
 ZH
 nW
@@ -7985,24 +7985,24 @@ sb
 yF
 SM
 sd
-xP
+KM
 xa
 Ru
 Ei
 iq
 BP
 xa
-xP
+KM
 oX
 PN
 PN
 xv
 sG
-sr
+TC
 wg
 gk
 Kg
-ow
+da
 fX
 ZH
 mp
@@ -8033,11 +8033,11 @@ tY
 XR
 xv
 Si
-sr
-sr
+TC
+TC
 Eo
 cX
-ow
+da
 kH
 ZH
 mp
@@ -8088,7 +8088,7 @@ gZ
 zP
 dp
 WL
-xP
+KM
 QF
 Wj
 bP
@@ -8099,7 +8099,7 @@ vy
 Ry
 iv
 ro
-xP
+KM
 Fr
 xv
 xv
@@ -8107,7 +8107,7 @@ jH
 jH
 xv
 BG
-ow
+da
 Xf
 ZH
 mp
@@ -8123,7 +8123,7 @@ zD
 zD
 zD
 mG
-xP
+KM
 QF
 dm
 yM
@@ -8134,7 +8134,7 @@ ID
 TI
 ZE
 ro
-xP
+KM
 ox
 IC
 oc
@@ -8173,11 +8173,11 @@ VY
 GH
 ZH
 Ed
-ow
+da
 oG
-ow
+da
 KK
-ow
+da
 wC
 ZH
 mp
@@ -8202,7 +8202,7 @@ Ls
 HQ
 AQ
 oJ
-NC
+GG
 RC
 Fl
 cd
@@ -8239,15 +8239,15 @@ KF
 WB
 wa
 RC
-pO
+Gy
 oi
 ZH
 pL
 SV
 pE
 Dp
-ow
-ow
+da
+da
 Eh
 wh
 mp
@@ -8263,7 +8263,7 @@ YO
 Fi
 zD
 Zt
-pO
+Gy
 RC
 pm
 qT
@@ -8272,9 +8272,9 @@ PQ
 Ig
 Dx
 gL
-NC
+GG
 RC
-pO
+Gy
 oi
 ZH
 Gk
@@ -8282,7 +8282,7 @@ HH
 Pa
 ZH
 HG
-ow
+da
 hY
 wh
 mp
@@ -8317,14 +8317,14 @@ ZH
 ZH
 ZH
 YZ
-ow
+da
 fK
 TM
 mp
 "}
 (30,1,1) = {"
 mp
-lo
+vQ
 CV
 Go
 rP
@@ -8359,7 +8359,7 @@ mp
 "}
 (31,1,1) = {"
 mp
-lo
+vQ
 AW
 ZC
 Um
@@ -8368,19 +8368,19 @@ ep
 rP
 KJ
 oi
-xP
+KM
 IN
 wu
 If
-xP
-xP
+KM
+KM
 yX
-xP
+KM
 kM
 XE
 sz
-xP
-xP
+KM
+KM
 oi
 Gm
 ZH
@@ -8394,7 +8394,7 @@ mp
 "}
 (32,1,1) = {"
 mp
-lo
+vQ
 AW
 UK
 EO
@@ -8417,7 +8417,7 @@ mQ
 Jh
 Tn
 oi
-xP
+KM
 ZH
 xe
 MK
@@ -8429,7 +8429,7 @@ mp
 "}
 (33,1,1) = {"
 mp
-lo
+vQ
 dg
 NT
 Wo
@@ -8441,9 +8441,9 @@ oj
 eF
 mQ
 ii
-Ap
-Ap
-Ap
+Jy
+Jy
+Jy
 xu
 nS
 YJ
@@ -8477,7 +8477,7 @@ hP
 mQ
 Dh
 st
-Ap
+Jy
 fT
 CS
 al
@@ -8486,7 +8486,7 @@ JE
 vB
 mQ
 ak
-xP
+KM
 cW
 ZH
 ZH
@@ -8542,7 +8542,7 @@ Ya
 Sb
 RW
 fU
-pO
+Gy
 Sc
 KI
 pp
@@ -8552,11 +8552,11 @@ dE
 Wm
 bN
 eP
-Ap
-Ap
+Jy
+Jy
 ck
 mQ
-pO
+Gy
 XL
 RW
 GN
@@ -8584,11 +8584,11 @@ jz
 GZ
 CF
 zc
-iA
+Cl
 IH
-iA
-Ap
-Ap
+Cl
+Jy
+Jy
 FW
 mQ
 Qk
@@ -8612,7 +8612,7 @@ EN
 EN
 EN
 gi
-pO
+Gy
 Sc
 zG
 hW
@@ -8623,10 +8623,10 @@ dV
 vl
 JL
 WR
-Ap
+Jy
 Ks
 mQ
-xP
+KM
 hd
 EN
 EN
@@ -8647,7 +8647,7 @@ mp
 mp
 EN
 HY
-xP
+KM
 Sc
 iZ
 Iw
@@ -8661,7 +8661,7 @@ SL
 VM
 SS
 mQ
-xP
+KM
 lx
 EN
 mp
@@ -8723,9 +8723,9 @@ SL
 SL
 zT
 Xb
-vL
+kE
 wb
-vL
+kE
 lG
 zT
 SL
@@ -8756,15 +8756,15 @@ RA
 SL
 Im
 dL
-Sd
-Sd
+zy
+zy
 pI
 Zk
 bd
-Sd
-vL
+zy
+kE
 wr
-Sd
+zy
 SL
 BU
 et
@@ -8825,15 +8825,15 @@ PB
 SL
 SL
 Tl
-vL
-Sd
-Sd
+kE
+zy
+zy
 kV
 mx
 WZ
-vL
-vL
-Sd
+kE
+kE
+zy
 Fu
 SL
 SL
@@ -8862,11 +8862,11 @@ SL
 QE
 SL
 VU
-Sd
-Sd
+zy
+zy
 UI
-Sd
-Sd
+zy
+zy
 Jw
 SL
 QE
@@ -8902,7 +8902,7 @@ Sa
 Gj
 tS
 tr
-Sd
+zy
 QE
 mp
 SL
@@ -8931,13 +8931,13 @@ CU
 SL
 mp
 QE
-RT
+Mk
 BT
 jh
 zf
 oP
 Ao
-RT
+Mk
 QE
 mp
 SL
