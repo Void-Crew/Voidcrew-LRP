@@ -3547,18 +3547,7 @@
 	icon_state = "34"
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/artilleryplaceholder/decorative{
-	icon_state = "28";
-	color = "#808080";
-	layer = 2
-	},
-/obj/structure/catwalk/over,
-/obj/structure/cable/orange{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating{
-	color = "#808080"
-	},
+/turf/open/floor/engine/hull/reinforced/interior,
 /area/ship/maintenance/fore)
 "nB" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -6786,16 +6775,6 @@
 	},
 /turf/open/floor/plasteel/patterned/grid,
 /area/ship/hallway/central)
-"AE" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/catwalk/over,
-/obj/structure/cable/orange{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating{
-	color = "#808080"
-	},
-/area/ship/maintenance/fore)
 "AF" = (
 /obj/structure/table/wood/reinforced,
 /obj/item/documents/nanotrasen,
@@ -12202,18 +12181,7 @@
 	icon_state = "23"
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/artilleryplaceholder{
-	icon_state = "17";
-	layer = 2;
-	color = "#808080"
-	},
-/obj/structure/catwalk/over,
-/obj/structure/cable/orange{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating{
-	color = "#808080"
-	},
+/turf/open/floor/engine/hull/reinforced/interior,
 /area/ship/maintenance/fore)
 "Ws" = (
 /obj/effect/turf_decal/industrial/traffic{
@@ -15333,7 +15301,7 @@ ei
 nE
 Wr
 nw
-AE
+ei
 WN
 rw
 gP
