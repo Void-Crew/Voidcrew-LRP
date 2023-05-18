@@ -86,6 +86,12 @@
 	},
 /turf/open/floor/carpet/nanoweave/red,
 /area/ship/crew/dorm)
+"aD" = (
+/obj/machinery/porta_turret/syndicate/energy{
+	dir = 9
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ship/engineering/atmospherics)
 "aE" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -402,7 +408,7 @@
 /obj/machinery/door/airlock/atmos/glass{
 	name = "Atmospherics";
 	req_one_access_txt = "150";
-	req_access = list(150,10)
+	req_access = list(150)
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -661,12 +667,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/bridge)
-"eD" = (
-/obj/machinery/porta_turret/syndicate/energy{
-	dir = 9
-	},
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/ship/engineering/atmospherics)
 "eF" = (
 /obj/machinery/vending/cigarette/syndicate,
 /turf/open/floor/plasteel/tech,
@@ -5548,7 +5548,7 @@
 /obj/machinery/door/airlock/atmos/glass{
 	name = "Atmospherics";
 	req_one_access_txt = "150";
-	req_access = list(150,10)
+	req_access = list(150)
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -5907,7 +5907,7 @@
 /obj/machinery/door/airlock/medical{
 	name = "Surgery";
 	req_one_access_txt = "150";
-	req_access = list(150,5)
+	req_access = list(150)
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 1
@@ -6229,7 +6229,7 @@
 /obj/machinery/door/airlock/atmos/glass{
 	name = "Atmospherics";
 	req_one_access_txt = "150";
-	req_access = list(150,10)
+	req_access = list(150)
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-10"
@@ -6897,7 +6897,7 @@
 /obj/machinery/door/airlock/atmos/glass{
 	name = "Atmospherics";
 	req_one_access_txt = "150";
-	req_access = list(150,10)
+	req_access = list(150)
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/engineering/communications)
@@ -7363,7 +7363,7 @@ mp
 mp
 mp
 mp
-eD
+aD
 ae
 LX
 kS
