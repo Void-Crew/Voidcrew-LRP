@@ -31,7 +31,8 @@
 /obj/machinery/power/shuttle/engine/fueled/plasma{
 	dir = 4
 	},
-/turf/open/floor/plating/airless)
+/turf/open/floor/plating/airless,
+/area/ship/engineering/atmospherics)
 "ag" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
@@ -660,6 +661,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/bridge)
+"eD" = (
+/obj/machinery/porta_turret/syndicate/energy{
+	dir = 9
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ship/engineering/atmospherics)
 "eF" = (
 /obj/machinery/vending/cigarette/syndicate,
 /turf/open/floor/plasteel/tech,
@@ -5435,7 +5442,8 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-4"
 	},
-/turf/open/floor/plating/airless)
+/turf/open/floor/plating/airless,
+/area/ship/engineering/atmospherics)
 "Mb" = (
 /obj/effect/turf_decal/atmos/oxygen{
 	dir = 8
@@ -7355,7 +7363,7 @@ mp
 mp
 mp
 mp
-of
+eD
 ae
 LX
 kS
