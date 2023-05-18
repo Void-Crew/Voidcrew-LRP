@@ -1284,6 +1284,9 @@
 /area/ship/engineering/atmospherics)
 "iG" = (
 /obj/machinery/power/apc/auto_name/east,
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/crew/cryo)
 "iI" = (
@@ -3352,6 +3355,12 @@
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/elevatorshaft,
 /area/ship/bridge)
+"xR" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/carpet/nanoweave/red,
+/area/ship/crew/dorm)
 "xW" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -3963,12 +3972,6 @@
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
-"CD" = (
-/obj/machinery/porta_turret/syndicate/energy{
-	dir = 9
-	},
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/ship/engineering/atmospherics)
 "CF" = (
 /obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -4058,6 +4061,12 @@
 /obj/machinery/atmospherics/pipe/simple/green/visible,
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
+"Dd" = (
+/obj/machinery/porta_turret/syndicate/energy{
+	dir = 9
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ship/engineering/atmospherics)
 "Dh" = (
 /obj/machinery/smartfridge/bloodbank/preloaded{
 	pixel_y = 32;
@@ -5595,6 +5604,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/open/floor/carpet/nanoweave/red,
 /area/ship/crew/dorm)
 "Nr" = (
@@ -5940,6 +5952,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
 	},
 /turf/open/floor/carpet/nanoweave/red,
 /area/ship/crew/dorm)
@@ -6360,6 +6375,9 @@
 "SR" = (
 /obj/machinery/door/airlock/glass{
 	name = "Cryo"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/crew/cryo)
@@ -6801,6 +6819,9 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc/auto_name/west,
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
 /turf/open/floor/carpet/nanoweave/red,
 /area/ship/crew/dorm)
 "Ws" = (
@@ -7150,6 +7171,9 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
 	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
 /turf/open/floor/carpet/nanoweave/red,
 /area/ship/crew/dorm)
 "YQ" = (
@@ -7362,7 +7386,7 @@ mp
 mp
 mp
 mp
-CD
+Dd
 ae
 LX
 kS
@@ -8271,7 +8295,7 @@ vb
 fn
 iG
 SR
-Nr
+xR
 YO
 Fi
 zD
