@@ -518,6 +518,16 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
+/obj/item/storage/fancy/donut_box,
+/obj/structure/closet/secure_closet{
+	req_access_txt = "1";
+	name = "donut locker"
+	},
+/obj/item/storage/fancy/donut_box,
+/obj/item/storage/fancy/donut_box,
+/obj/item/storage/fancy/donut_box,
+/obj/item/storage/fancy/donut_box,
+/obj/item/storage/fancy/donut_box,
 /turf/open/floor/plasteel/dark,
 /area/ship/security)
 "dG" = (
@@ -2096,6 +2106,17 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/security/prison)
+"pL" = (
+/obj/structure/closet/secure_closet/security/sec,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/sign/poster/contraband/donut_corp{
+	desc = "This poster is an authorized advertisement for Donut Corp.";
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/security)
 "pN" = (
 /obj/machinery/telecomms/receiver/preset_left/birdstation{
 	name = "subspace reciever"
@@ -4886,6 +4907,12 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 8
+	},
+/obj/structure/table/reinforced,
+/obj/item/storage/box/handcuffs,
+/obj/structure/sign/poster/contraband/donut_corp{
+	desc = "This poster is an authorized advertisement for Donut Corp.";
+	pixel_y = -32
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/security/prison)
@@ -8471,7 +8498,7 @@ uU
 gH
 op
 Dx
-Yz
+pL
 qm
 fm
 Lo
