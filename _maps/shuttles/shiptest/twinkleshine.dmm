@@ -392,12 +392,6 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security)
-"da" = (
-/turf/closed/wall/r_wall/syndicate/nodiagonal{
-	rad_insulation = 0.2;
-	desc = "The armored hull of an ominous looking ship. This one is lead-lined, protecting those behind it from radiation."
-	},
-/area/ship/engineering/engine)
 "db" = (
 /obj/machinery/door/airlock/atmos/glass{
 	name = "Atmospherics";
@@ -555,6 +549,10 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26
+	},
+/obj/structure/sign/poster/contraband/power{
+	desc = "A poster that details the dangerously unsafe power generation methods of most ships.";
+	pixel_x = -32
 	},
 /turf/open/floor/plating,
 /area/ship/hallway/central)
@@ -1221,13 +1219,6 @@
 /obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
-"iq" = (
-/obj/structure/sign/poster/contraband/power{
-	desc = "A poster that details the dangerously unsafe power generation methods of most ships.";
-	pixel_x = -32
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/hallway/central)
 "ir" = (
 /turf/open/floor/mineral/plastitanium,
 /area/ship/crew/office)
@@ -1399,6 +1390,10 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
 	},
+/obj/structure/closet/firecloset/wall{
+	dir = 4;
+	pixel_x = -28
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/hallway/central)
 "jr" = (
@@ -1516,6 +1511,10 @@
 	icon_state = "1-2"
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/structure/closet/emcloset/wall{
+	dir = 4;
+	pixel_x = -28
+	},
 /turf/open/floor/plating,
 /area/ship/hallway/central)
 "ke" = (
@@ -2104,17 +2103,6 @@
 /obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/plasma,
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
-"oX" = (
-/obj/machinery/door/firedoor/border_only,
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
-/obj/effect/turf_decal/industrial/warning{
-	dir = 1
-	},
-/obj/effect/turf_decal/industrial/warning,
-/turf/open/floor/plasteel/mono/dark,
-/area/ship/hallway/central)
 "pc" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
@@ -2562,15 +2550,19 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
 "sd" = (
-/obj/machinery/door/firedoor/border_only,
-/obj/effect/turf_decal/industrial/warning{
-	dir = 1
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
 	},
-/obj/effect/turf_decal/industrial/warning,
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/machinery/light{
+	dir = 4
 	},
-/turf/open/floor/plasteel/mono/dark,
+/obj/structure/sign/warning/radiation{
+	pixel_x = -32
+	},
+/turf/open/floor/plating,
 /area/ship/hallway/central)
 "sf" = (
 /obj/structure/table/reinforced,
@@ -3229,12 +3221,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
-"xa" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/hallway/central)
 "xe" = (
 /obj/structure/toilet/secret{
 	secret_type = "/obj/item/toy/plush/moth";
@@ -3764,6 +3750,9 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
 	},
+/obj/machinery/camera/autoname{
+	dir = 5
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/hallway/central)
 "Ay" = (
@@ -3894,11 +3883,20 @@
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
 "BP" = (
-/obj/structure/closet/firecloset/wall{
-	dir = 4;
-	pixel_x = -28
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel/tech,
+/obj/item/kirbyplants{
+	icon_state = "plant-21";
+	pixel_x = 8
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/structure/sign/warning/radiation{
+	pixel_x = -32
+	},
+/turf/open/floor/plating,
 /area/ship/hallway/central)
 "BS" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/toxin_input{
@@ -4193,13 +4191,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
-"Ei" = (
-/obj/structure/closet/emcloset/wall{
-	dir = 4;
-	pixel_x = -28
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/hallway/central)
 "En" = (
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/engine,
@@ -6100,12 +6091,6 @@
 /obj/machinery/atmospherics/pipe/simple/orange/visible,
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/engineering)
-"Ru" = (
-/obj/machinery/camera/autoname{
-	dir = 5
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/hallway/central)
 "Ry" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
@@ -7987,15 +7972,15 @@ sb
 Jz
 MQ
 MQ
-da
-da
-da
-da
-da
-da
-da
-da
-da
+MQ
+MQ
+MQ
+MQ
+MQ
+MQ
+MQ
+MQ
+MQ
 MQ
 MQ
 xv
@@ -8021,16 +8006,16 @@ ma
 sb
 yF
 SM
-sd
-KM
-xa
-Ru
-Ei
-iq
-BP
-xa
-KM
-oX
+EN
+EN
+EN
+EN
+EN
+EN
+EN
+EN
+EN
+EN
 PN
 PN
 xv
@@ -8058,13 +8043,13 @@ DW
 YT
 gW
 cq
-ag
+sd
 Ax
 kd
 dO
 jk
 ag
-cq
+BP
 ea
 YT
 XR
