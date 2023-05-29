@@ -154,6 +154,15 @@
 /obj/machinery/processor,
 /turf/open/floor/plasteel/kitchen_coldroom/freezerfloor,
 /area/ship/crew/canteen/kitchen)
+"bk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/item/gun/energy/disabler,
+/turf/open/floor/plasteel/dark,
+/area/ship/storage)
 "bl" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
 	dir = 8
@@ -176,6 +185,7 @@
 "bA" = (
 /obj/structure/closet/secure_closet/captains,
 /obj/machinery/light/small,
+/obj/item/gun/energy/e_gun/adv_stopping,
 /turf/open/floor/wood/yew,
 /area/ship/crew/office)
 "bE" = (
@@ -334,6 +344,9 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/chapel)
+"cs" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ship/maintenance/aft)
 "ct" = (
 /obj/structure/closet/secure_closet/armory1{
 	req_access_txt = "null"
@@ -1608,6 +1621,12 @@
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
 /area/ship/crew/chapel)
+"lO" = (
+/obj/effect/mob_spawn/human/corpse/nanotrasensoldier,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/plasteel/dark,
+/area/ship/storage)
 "lW" = (
 /obj/machinery/atmospherics/components/unary/portables_connector{
 	dir = 8
@@ -1929,6 +1948,7 @@
 /area/ship/crew/canteen/kitchen)
 "ow" = (
 /obj/structure/table/reinforced,
+/obj/machinery/recharger,
 /turf/open/floor/plasteel/grimy,
 /area/ship/security)
 "oz" = (
@@ -2106,17 +2126,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/security/prison)
-"pL" = (
-/obj/structure/closet/secure_closet/security/sec,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 8
-	},
-/obj/structure/sign/poster/contraband/donut_corp{
-	desc = "This poster is an authorized advertisement for Donut Corp.";
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/dark,
-/area/ship/security)
 "pN" = (
 /obj/machinery/telecomms/receiver/preset_left/birdstation{
 	name = "subspace reciever"
@@ -2167,6 +2176,9 @@
 	},
 /turf/open/floor/plasteel,
 /area/ship/hallway/aft)
+"pZ" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ship/engineering/atmospherics)
 "qa" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
@@ -2895,6 +2907,11 @@
 	},
 /turf/closed/wall/mineral/titanium,
 /area/ship/crew/dorm)
+"vo" = (
+/obj/machinery/computer/security,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/ship/storage)
 "vq" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Security Office";
@@ -2984,6 +3001,15 @@
 	},
 /turf/open/floor/engine,
 /area/ship/security/armory)
+"wd" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/machinery/recharger,
+/turf/open/floor/plasteel/dark,
+/area/ship/storage)
 "wg" = (
 /obj/machinery/button/door{
 	id = "phcargooneblastdoor3";
@@ -3704,6 +3730,9 @@
 	},
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/security)
+"Bu" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ship/engineering/communications)
 "Bz" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 8
@@ -3739,6 +3768,9 @@
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/atmospherics)
+"BV" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/crew/canteen)
 "Ce" = (
 /obj/machinery/button/door{
 	id = "phcargooneblastdoor2";
@@ -5126,6 +5158,17 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/cargo)
+"Mv" = (
+/obj/structure/closet/secure_closet/security/sec,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/sign/poster/contraband/donut_corp{
+	desc = "This poster is an authorized advertisement for Donut Corp.";
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/security)
 "Mw" = (
 /obj/structure/railing,
 /turf/open/floor/plasteel/dark,
@@ -5628,7 +5671,7 @@
 /area/ship/engineering/atmospherics)
 "PI" = (
 /obj/structure/sign/nanotrasen,
-/turf/closed/wall/mineral/titanium,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/storage)
 "PJ" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
@@ -5969,7 +6012,7 @@
 /turf/open/floor/wood,
 /area/ship/crew/dorm)
 "SC" = (
-/turf/closed/wall/mineral/plastitanium,
+/turf/closed/wall/r_wall/syndicate,
 /area/ship/engineering/communications)
 "SD" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
@@ -6212,6 +6255,15 @@
 /obj/machinery/door/window/eastright,
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/chapel)
+"Us" = (
+/obj/structure/falsewall/titanium,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/tracks,
+/obj/structure/barricade/wooden/crude{
+	layer = 2.4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/crew/canteen/kitchen)
 "Uz" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
 	dir = 1
@@ -7179,16 +7231,16 @@ oZ
 oZ
 oZ
 oZ
-Fk
+Bu
 UT
 Wb
 UT
 UT
-Fk
+Bu
 dU
-qL
-gr
-gr
+cs
+pZ
+pZ
 gr
 ux
 jV
@@ -7211,14 +7263,14 @@ oZ
 oZ
 oZ
 oZ
-Fk
+Bu
 zO
 Zg
 Wz
 xR
-Fk
+Bu
 zV
-qL
+cs
 mr
 jG
 ZU
@@ -7243,14 +7295,14 @@ oZ
 oZ
 oZ
 oZ
-Fk
+Bu
 pN
 Rq
 Cx
 aR
-Fk
+Bu
 MC
-qL
+cs
 qW
 fy
 BT
@@ -7275,16 +7327,16 @@ oZ
 oZ
 oZ
 oZ
-Fk
+Bu
 SC
 cj
 xX
 SC
-Fk
+Bu
 jK
-qL
-gr
-gr
+cs
+pZ
+pZ
 FY
 NQ
 nR
@@ -7307,16 +7359,16 @@ oZ
 oZ
 oZ
 oZ
-Fk
-Fk
-Fk
-Fk
-Fk
+Bu
+Bu
+Bu
+Bu
+Bu
 la
 vk
-qL
-gr
-gr
+cs
+pZ
+pZ
 LN
 HH
 Lg
@@ -7346,7 +7398,7 @@ PO
 qT
 JP
 MC
-qL
+cs
 uE
 KB
 PF
@@ -7378,7 +7430,7 @@ BI
 BI
 Gm
 FX
-qL
+cs
 oo
 jb
 wh
@@ -7410,9 +7462,9 @@ sh
 Xv
 BI
 DB
-qL
-gr
-gr
+cs
+pZ
+pZ
 gr
 ke
 TD
@@ -7945,10 +7997,10 @@ KG
 "}
 (30,1,1) = {"
 pd
-pd
-pd
+fa
+fa
 PI
-pd
+fa
 fa
 PM
 vT
@@ -7976,11 +8028,11 @@ KG
 Ex
 "}
 (31,1,1) = {"
-oZ
 pd
-pd
-pd
-pd
+fa
+fa
+fa
+bk
 ce
 ce
 ce
@@ -8005,15 +8057,15 @@ fP
 xl
 fP
 Ex
-oZ
+Ex
 "}
 (32,1,1) = {"
 oZ
-oZ
+pd
 fa
-pd
-pd
-ou
+vo
+lO
+Us
 Fi
 yQ
 ce
@@ -8036,15 +8088,15 @@ wZ
 fP
 fP
 fP
-oZ
+Ex
 oZ
 "}
 (33,1,1) = {"
 oZ
 oZ
-oZ
 pd
-pd
+fa
+wd
 ou
 JE
 yF
@@ -8067,7 +8119,7 @@ At
 nY
 KG
 Ex
-oZ
+Ex
 oZ
 oZ
 "}
@@ -8075,8 +8127,8 @@ oZ
 oZ
 oZ
 oZ
-oZ
 pd
+fa
 ou
 sq
 fs
@@ -8098,7 +8150,7 @@ nX
 rS
 wZ
 KG
-oZ
+Ex
 oZ
 oZ
 oZ
@@ -8140,7 +8192,7 @@ oZ
 oZ
 oZ
 oZ
-oZ
+pd
 ce
 ou
 ou
@@ -8161,7 +8213,7 @@ np
 NT
 wZ
 np
-oZ
+Ex
 oZ
 oZ
 oZ
@@ -8173,7 +8225,7 @@ oZ
 oZ
 oZ
 oZ
-yk
+BV
 ec
 Ri
 qd
@@ -8498,7 +8550,7 @@ uU
 gH
 op
 Dx
-pL
+Mv
 qm
 fm
 Lo
