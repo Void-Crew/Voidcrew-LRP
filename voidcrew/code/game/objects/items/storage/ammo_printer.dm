@@ -161,6 +161,7 @@
 	icon_craft = "brassbox"
 	reusable = FALSE
 	metal_required = 0
+	use_power = FALSE
 
 /obj/machinery/ammo_printer/ruin/Initialize()
 	. = ..()
