@@ -185,7 +185,7 @@
 
 /obj/structure/table/wood/bar
 	name = "bar table"
-	desc = "A wooden table. This one is specifically meant for bars, but shouldn't really be used at them."
+	desc = "A wooden table. This one is specifically meant for bars, but shouldn't really be used at them. CALL CODERS"
 
 
 //Luxury Shuttle Blockers
