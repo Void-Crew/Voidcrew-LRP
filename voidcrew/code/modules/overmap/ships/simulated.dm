@@ -55,6 +55,9 @@
 	/// Which docking port the ship is occupying
 	var/dock_index
 
+	/// Is the helm console unlocked for all players?
+	var/unlocked_helm
+
 /obj/structure/overmap/ship/simulated/Initialize(mapload, obj/docking_port/mobile/_shuttle, datum/map_template/shuttle/_source_template)
 	. = ..()
 	SSovermap.simulated_ships += src
