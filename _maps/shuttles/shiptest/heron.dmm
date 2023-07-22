@@ -5145,9 +5145,6 @@
 /obj/item/toy/figure/dsquad{
 	pixel_x = -3
 	},
-/obj/item/toy/figure{
-	pixel_y = -5
-	},
 /obj/item/toy/cattoy,
 /obj/item/toy/figure/hos,
 /turf/open/floor/wood{
@@ -6147,6 +6144,7 @@
 /turf/open/floor/engine/hull/reinforced/interior,
 /area/ship/maintenance/fore)
 "xY" = (
+/obj/machinery/atmospherics/miner/oxygen,
 /turf/open/floor/engine/o2,
 /area/ship/engineering/atmospherics)
 "ya" = (
@@ -7313,6 +7311,7 @@
 /turf/open/floor/plasteel,
 /area/ship/hallway/fore)
 "CZ" = (
+/obj/machinery/atmospherics/miner/nitrogen,
 /turf/open/floor/engine/n2,
 /area/ship/engineering/atmospherics)
 "Dd" = (
@@ -7995,10 +7994,6 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/electrical)
-"FL" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/ship/cargo)
 "FP" = (
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 1
@@ -10351,6 +10346,7 @@
 /turf/open/floor/wood,
 /area/ship/crew/dorm/dormtwo)
 "PB" = (
+/obj/machinery/atmospherics/miner/toxins,
 /turf/open/floor/engine/plasma,
 /area/ship/engineering/atmospherics)
 "PC" = (
@@ -12093,7 +12089,7 @@
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/security/armory)
 "VN" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector{
+/obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 4
 	},
 /turf/open/floor/plating,
@@ -12235,7 +12231,9 @@
 /obj/item/clothing/head/beret/sec/hos,
 /obj/item/clothing/suit/armor/vest/leather,
 /obj/item/clothing/suit/armor/hos/trenchcoat,
-/obj/item/storage/belt/military,
+/obj/item/storage/belt/military{
+	desc = "A set of tactical webbing worn by Nanotrasen boarding parties."
+	},
 /obj/item/reagent_containers/spray/pepper{
 	pixel_x = 7;
 	pixel_y = -3
@@ -14405,7 +14403,7 @@ bG
 Et
 aN
 rV
-FL
+bG
 LS
 Ni
 qV
