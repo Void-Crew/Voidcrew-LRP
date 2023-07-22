@@ -4923,7 +4923,9 @@
 	pixel_x = -9
 	},
 /obj/item/stack/cable_coil,
-/obj/item/stack/circuit_stack,
+/obj/item/stack/circuit_stack{
+	amount = 8
+	},
 /obj/effect/turf_decal/industrial/outline/yellow,
 /obj/machinery/airalarm/directional/east,
 /obj/machinery/button/door{
