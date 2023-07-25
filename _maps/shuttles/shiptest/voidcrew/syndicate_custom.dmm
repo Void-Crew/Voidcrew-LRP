@@ -72,6 +72,13 @@
 /obj/item/tank/jetpack/oxygen/harness,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
+"g" = (
+/obj/machinery/cryopod,
+/obj/machinery/computer/cryopod{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
 "i" = (
 /obj/structure/closet/crate/large{
 	name = "parts crate"
@@ -162,11 +169,14 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "l" = (
-/obj/machinery/vending/security/marine,
-/obj/machinery/light/small{
-	dir = 1
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
 	},
-/turf/open/floor/plasteel/tech,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/window/reinforced/spawner/north,
+/turf/open/floor/plating,
 /area/ship/construction)
 "m" = (
 /obj/structure/cable{
@@ -175,36 +185,6 @@
 /obj/machinery/power/terminal{
 	dir = 8
 	},
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
-"n" = (
-/obj/structure/closet/crate/large{
-	name = "miscellaneous crate"
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/vending_refill/security,
-/obj/item/vending_refill/security,
-/obj/item/vending_refill/security,
-/obj/item/storage/backpack/duffelbag/syndie/surgery,
-/obj/item/reagent_containers/glass/bottle/antitoxin/sleeper,
-/obj/item/reagent_containers/glass/bottle/bicaridine/sleeper,
-/obj/item/reagent_containers/glass/bottle/dexalin/sleeper,
-/obj/item/reagent_containers/glass/bottle/epinephrine/sleeper,
-/obj/item/reagent_containers/glass/bottle/kelotane/sleeper,
-/obj/item/reagent_containers/glass/bottle/morphine/sleeper,
-/obj/item/storage/bag/chemistry,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "o" = (
@@ -229,6 +209,9 @@
 /obj/item/gun/ballistic/revolver/mateba,
 /obj/item/clothing/suit/space/hardsuit/syndi/elite,
 /obj/item/construction/rcd/arcd,
+/obj/machinery/airalarm/all_access{
+	pixel_y = 24
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "p" = (
@@ -305,20 +288,16 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
-"u" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/structure/window/reinforced/spawner,
-/turf/open/floor/plating,
-/area/ship/construction)
 "v" = (
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
+"y" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -415,9 +394,10 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "H" = (
-/obj/structure/cable{
-	icon_state = "4-8"
+/obj/machinery/door/airlock/hatch{
+	name = "external airlock"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "P" = (
@@ -430,14 +410,37 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/obj/structure/window/reinforced/spawner/north,
+/obj/structure/window/reinforced/spawner,
 /turf/open/floor/plating,
 /area/ship/construction)
-"S" = (
-/obj/machinery/door/airlock/hatch{
-	name = "external airlock"
+"T" = (
+/obj/structure/closet/crate/large{
+	name = "miscellaneous crate"
 	},
-/obj/structure/fans/tiny,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/vending_refill/security,
+/obj/item/vending_refill/security,
+/obj/item/vending_refill/security,
+/obj/item/storage/backpack/duffelbag/syndie/surgery,
+/obj/item/reagent_containers/glass/bottle/antitoxin/sleeper,
+/obj/item/reagent_containers/glass/bottle/bicaridine/sleeper,
+/obj/item/reagent_containers/glass/bottle/dexalin/sleeper,
+/obj/item/reagent_containers/glass/bottle/epinephrine/sleeper,
+/obj/item/reagent_containers/glass/bottle/kelotane/sleeper,
+/obj/item/reagent_containers/glass/bottle/morphine/sleeper,
+/obj/item/storage/bag/chemistry,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "U" = (
@@ -457,6 +460,13 @@
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
+"V" = (
+/obj/machinery/vending/security/marine,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
 "W" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/machinery/power/smes/shuttle/precharged{
@@ -471,15 +481,11 @@
 /obj/structure/window/reinforced/spawner,
 /turf/open/floor/plating,
 /area/ship/construction)
-"X" = (
-/obj/machinery/cryopod,
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
 
 (1,1,1) = {"
 P
+l
 R
-u
 P
 P
 P
@@ -498,21 +504,21 @@ m
 t
 v
 a
-S
+H
 "}
 (4,1,1) = {"
 P
-l
+V
 a
-H
-X
+y
+g
 P
 "}
 (5,1,1) = {"
 P
 o
 a
-n
+T
 c
 P
 "}
