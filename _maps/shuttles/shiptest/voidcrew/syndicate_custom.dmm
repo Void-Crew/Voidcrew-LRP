@@ -89,17 +89,20 @@
 /obj/item/stock_parts/cell/high/plus{
 	charge = 15000
 	},
+/obj/item/stock_parts/subspace/amplifier,
+/obj/item/stock_parts/subspace/amplifier,
+/obj/item/stock_parts/subspace/transmitter,
+/obj/item/stock_parts/subspace/transmitter,
+/obj/item/stock_parts/subspace/crystal,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "g" = (
-/obj/structure/cable{
-	icon_state = "1-8"
+/obj/structure/catwalk/over,
+/obj/structure/railing{
+	dir = 10
 	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
+/turf/open/floor/plating/airless,
+/area/ship/external)
 "i" = (
 /obj/structure/closet/crate/large{
 	name = "miscellaneous crate"
@@ -131,18 +134,23 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "k" = (
-/obj/structure/catwalk/over,
-/obj/structure/railing{
-	dir = 10
+/obj/structure/closet/crate/medical,
+/obj/item/storage/firstaid/brute,
+/obj/item/storage/firstaid/fire,
+/obj/item/storage/firstaid/medical,
+/obj/item/defibrillator/loaded,
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
 "l" = (
-/obj/structure/table/reinforced,
-/obj/item/gps{
-	pixel_x = 7
+/obj/structure/cable{
+	icon_state = "1-8"
 	},
-/obj/item/areaeditor/shuttle,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "m" = (
@@ -152,6 +160,14 @@
 /obj/machinery/power/terminal{
 	dir = 8
 	},
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
+"n" = (
+/obj/structure/table/reinforced,
+/obj/item/gps{
+	pixel_x = 7
+	},
+/obj/item/areaeditor/shuttle,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "o" = (
@@ -185,23 +201,13 @@
 /obj/machinery/computer/helm,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
-"r" = (
+"s" = (
 /obj/structure/catwalk/over,
 /obj/structure/railing{
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
-"s" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/structure/window/reinforced/spawner,
-/turf/open/floor/plating,
-/area/ship/construction)
 "t" = (
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -215,30 +221,10 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "v" = (
-/obj/structure/closet/secure_closet{
-	anchored = 1;
-	icon_state = "hos";
-	name = "captain's locker";
-	req_access_txt = "20"
+/obj/machinery/door/airlock/hatch{
+	name = "external airlock"
 	},
-/obj/item/storage/backpack/security,
-/obj/item/clothing/under/syndicate/combat,
-/obj/item/clothing/suit/armor/vest/capcarapace/syndicate,
-/obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/gloves/combat,
-/obj/item/clothing/glasses/thermal/eyepatch,
-/obj/item/clothing/head/HoS/syndicate,
-/obj/item/codespeak_manual/unlimited,
-/obj/item/pen/edagger,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/item/ammo_box/a357,
-/obj/item/ammo_box/a357,
-/obj/item/gun/ballistic/revolver/mateba,
-/obj/item/clothing/suit/space/hardsuit/syndi/elite,
-/obj/item/construction/rcd/arcd,
-/obj/machinery/airalarm/all_access{
-	pixel_y = 24
-	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "z" = (
@@ -251,12 +237,61 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "B" = (
-/obj/structure/catwalk/over,
-/obj/structure/railing{
-	dir = 9
+/obj/structure/closet/crate/large{
+	name = "material crate"
 	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
+/obj/item/stack/sheet/mineral/plastitanium{
+	amount = 50
+	},
+/obj/item/stack/sheet/mineral/plastitanium{
+	amount = 50
+	},
+/obj/item/stack/sheet/mineral/plastitanium{
+	amount = 50
+	},
+/obj/item/stack/sheet/mineral/plastitanium{
+	amount = 50
+	},
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/mineral/plasma/fifty,
+/obj/item/stack/sheet/mineral/plasma/fifty,
+/obj/item/stack/sheet/mineral/silver/twenty,
+/obj/item/stack/sheet/mineral/uranium/twenty,
+/obj/item/stack/sheet/plasmarglass{
+	amount = 25
+	},
+/obj/item/stack/sheet/plastitaniumglass{
+	amount = 50
+	},
+/obj/item/stack/sheet/plastitaniumglass{
+	amount = 50
+	},
+/obj/item/stack/sheet/plastitaniumglass{
+	amount = 50
+	},
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/mineral/gold/twenty,
+/obj/item/stack/sheet/mineral/diamond/five,
+/obj/item/stack/cable_coil/red,
+/obj/item/stack/cable_coil/red,
+/obj/item/stack/cable_coil/red,
+/obj/item/stack/cable_coil/red,
+/obj/item/stack/cable_coil/red,
+/obj/item/stack/cable_coil/red,
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
 "C" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/machinery/power/smes/shuttle/precharged{
@@ -344,70 +379,98 @@
 /obj/machinery/power/smes/engineering,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
-"I" = (
+"G" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/window/reinforced/spawner,
+/turf/open/floor/plating,
+/area/ship/construction)
+"H" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/window/reinforced/spawner/north,
+/turf/open/floor/plating,
+/area/ship/construction)
+"N" = (
+/obj/structure/catwalk/over,
+/obj/structure/railing{
+	dir = 9
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"O" = (
+/obj/structure/closet/secure_closet{
+	anchored = 1;
+	icon_state = "hos";
+	name = "captain's locker";
+	req_access_txt = "20"
+	},
+/obj/item/storage/backpack/security,
+/obj/item/clothing/under/syndicate/combat,
+/obj/item/clothing/suit/armor/vest/capcarapace/syndicate,
+/obj/item/clothing/shoes/jackboots,
+/obj/item/clothing/gloves/combat,
+/obj/item/clothing/glasses/thermal/eyepatch,
+/obj/item/clothing/head/HoS/syndicate,
+/obj/item/codespeak_manual/unlimited,
+/obj/item/pen/edagger,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/ammo_box/a357,
+/obj/item/ammo_box/a357,
+/obj/item/gun/ballistic/revolver/mateba,
+/obj/item/clothing/suit/space/hardsuit/syndi/elite,
+/obj/item/construction/rcd/arcd,
+/obj/machinery/airalarm/all_access{
+	pixel_y = 24
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
+"P" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ship/construction)
+"R" = (
+/turf/template_noop,
+/area/template_noop)
+"U" = (
+/obj/docking_port/mobile{
+	can_move_docking_ports = 1;
+	dir = 2;
+	dwidth = 9;
+	height = 6;
+	launch_status = 0;
+	port_direction = 8;
+	preferred_direction = 4;
+	width = 9
+	},
 /obj/machinery/door/airlock/hatch{
 	name = "external airlock"
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
-"J" = (
-/obj/structure/closet/crate/large{
-	name = "material crate"
+"W" = (
+/obj/structure/window/reinforced/spawner/west,
+/obj/machinery/power/smes/shuttle/precharged{
+	dir = 4
 	},
-/obj/item/stack/sheet/mineral/plastitanium{
-	amount = 50
+/obj/structure/cable{
+	icon_state = "0-8"
 	},
-/obj/item/stack/sheet/mineral/plastitanium{
-	amount = 50
+/obj/machinery/door/window/eastleft{
+	name = "Engine Access"
 	},
-/obj/item/stack/sheet/mineral/plastitanium{
-	amount = 50
-	},
-/obj/item/stack/sheet/mineral/plastitanium{
-	amount = 50
-	},
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/mineral/plasma/fifty,
-/obj/item/stack/sheet/mineral/plasma/fifty,
-/obj/item/stack/sheet/mineral/silver/twenty,
-/obj/item/stack/sheet/mineral/uranium/twenty,
-/obj/item/stack/sheet/plasmarglass{
-	amount = 25
-	},
-/obj/item/stack/sheet/plastitaniumglass{
-	amount = 50
-	},
-/obj/item/stack/sheet/plastitaniumglass{
-	amount = 50
-	},
-/obj/item/stack/sheet/plastitaniumglass{
-	amount = 50
-	},
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/mineral/gold/twenty,
-/obj/item/stack/sheet/mineral/diamond/five,
-/obj/item/stack/cable_coil/red,
-/obj/item/stack/cable_coil/red,
-/obj/item/stack/cable_coil/red,
-/obj/item/stack/cable_coil/red,
-/obj/item/stack/cable_coil/red,
-/obj/item/stack/cable_coil/red,
-/turf/open/floor/plasteel/tech,
+/obj/structure/window/reinforced/spawner,
+/turf/open/floor/plating,
 /area/ship/construction)
-"K" = (
+"Z" = (
 /obj/item/construction/rcd/combat{
 	name = "syndicate RCD";
 	desc = "A high-capacity Syndicate-made RCD."
@@ -463,79 +526,21 @@
 /obj/item/tank/jetpack/oxygen/harness,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
-"M" = (
-/obj/structure/closet/crate/medical,
-/obj/item/storage/firstaid/brute,
-/obj/item/storage/firstaid/fire,
-/obj/item/storage/firstaid/medical,
-/obj/item/defibrillator/loaded,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
-"P" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/ship/construction)
-"R" = (
-/turf/template_noop,
-/area/template_noop)
-"U" = (
-/obj/docking_port/mobile{
-	can_move_docking_ports = 1;
-	dir = 2;
-	dwidth = 9;
-	height = 6;
-	launch_status = 0;
-	port_direction = 8;
-	preferred_direction = 4;
-	width = 9
-	},
-/obj/machinery/door/airlock/hatch{
-	name = "external airlock"
-	},
-/obj/structure/fans/tiny,
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
-"V" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/structure/window/reinforced/spawner/north,
-/turf/open/floor/plating,
-/area/ship/construction)
-"W" = (
-/obj/structure/window/reinforced/spawner/west,
-/obj/machinery/power/smes/shuttle/precharged{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/door/window/eastleft{
-	name = "Engine Access"
-	},
-/obj/structure/window/reinforced/spawner,
-/turf/open/floor/plating,
-/area/ship/construction)
 
 (1,1,1) = {"
 R
 R
 R
-B
-r
-k
+N
+s
+g
 "}
 (2,1,1) = {"
 P
-V
-s
+H
+G
 P
-I
+v
 P
 "}
 (3,1,1) = {"
@@ -550,21 +555,21 @@ P
 U
 m
 t
-g
+l
 a
-I
+v
 "}
 (5,1,1) = {"
 P
 o
 a
-M
+k
 c
 P
 "}
 (6,1,1) = {"
 P
-v
+O
 a
 i
 p
@@ -580,10 +585,10 @@ P
 "}
 (8,1,1) = {"
 D
-l
+n
 a
-K
-J
+Z
+B
 P
 "}
 (9,1,1) = {"
