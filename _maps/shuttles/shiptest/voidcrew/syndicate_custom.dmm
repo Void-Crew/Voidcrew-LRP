@@ -14,6 +14,11 @@
 /obj/item/pipe_dispenser,
 /obj/item/pipe_dispenser,
 /obj/structure/cable,
+/obj/item/paper{
+	info = "DO NOT ACTIVATE THE GAS MINER TELEPORTERS OUTSIDE OF THE APPROPRIATE TANKS YOU FUCKING DIMWITS!!";
+	color = "#ff0000";
+	desc = "Seems important. That's why it's red."
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "e" = (
@@ -70,13 +75,6 @@
 /obj/item/tank/jetpack/oxygen/harness,
 /obj/item/tank/jetpack/oxygen/harness,
 /obj/item/tank/jetpack/oxygen/harness,
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
-"g" = (
-/obj/machinery/cryopod,
-/obj/machinery/computer/cryopod{
-	pixel_y = -32
-	},
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "i" = (
@@ -167,16 +165,6 @@
 	pixel_x = 7
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/construction)
-"l" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/structure/window/reinforced/spawner/north,
-/turf/open/floor/plating,
 /area/ship/construction)
 "m" = (
 /obj/structure/cable{
@@ -276,6 +264,43 @@
 /obj/machinery/computer/helm,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
+"r" = (
+/obj/structure/closet/crate/large{
+	name = "miscellaneous crate"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/vending_refill/security,
+/obj/item/vending_refill/security,
+/obj/item/vending_refill/security,
+/obj/item/storage/backpack/duffelbag/syndie/surgery,
+/obj/item/reagent_containers/glass/bottle/antitoxin/sleeper,
+/obj/item/reagent_containers/glass/bottle/bicaridine/sleeper,
+/obj/item/reagent_containers/glass/bottle/dexalin/sleeper,
+/obj/item/reagent_containers/glass/bottle/epinephrine/sleeper,
+/obj/item/reagent_containers/glass/bottle/kelotane/sleeper,
+/obj/item/reagent_containers/glass/bottle/morphine/sleeper,
+/obj/item/storage/bag/chemistry,
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
+"s" = (
+/obj/machinery/cryopod,
+/obj/machinery/computer/cryopod{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
 "t" = (
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -297,11 +322,15 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
-"y" = (
-/obj/structure/cable{
-	icon_state = "4-8"
+"w" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
 	},
-/turf/open/floor/plasteel/tech,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/window/reinforced/spawner/north,
+/turf/open/floor/plating,
 /area/ship/construction)
 "z" = (
 /obj/machinery/power/port_gen/pacman,
@@ -393,15 +422,28 @@
 /obj/machinery/power/smes/engineering,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
-"H" = (
+"G" = (
+/obj/machinery/vending/security/marine,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
+"N" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
+"P" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ship/construction)
+"Q" = (
 /obj/machinery/door/airlock/hatch{
 	name = "external airlock"
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/tech,
-/area/ship/construction)
-"P" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ship/construction)
 "R" = (
 /obj/machinery/power/shuttle/engine/electric{
@@ -412,36 +454,6 @@
 	},
 /obj/structure/window/reinforced/spawner,
 /turf/open/floor/plating,
-/area/ship/construction)
-"T" = (
-/obj/structure/closet/crate/large{
-	name = "miscellaneous crate"
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/vending_refill/security,
-/obj/item/vending_refill/security,
-/obj/item/vending_refill/security,
-/obj/item/storage/backpack/duffelbag/syndie/surgery,
-/obj/item/reagent_containers/glass/bottle/antitoxin/sleeper,
-/obj/item/reagent_containers/glass/bottle/bicaridine/sleeper,
-/obj/item/reagent_containers/glass/bottle/dexalin/sleeper,
-/obj/item/reagent_containers/glass/bottle/epinephrine/sleeper,
-/obj/item/reagent_containers/glass/bottle/kelotane/sleeper,
-/obj/item/reagent_containers/glass/bottle/morphine/sleeper,
-/obj/item/storage/bag/chemistry,
-/turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "U" = (
 /obj/docking_port/mobile{
@@ -458,13 +470,6 @@
 	name = "external airlock"
 	},
 /obj/structure/fans/tiny,
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
-"V" = (
-/obj/machinery/vending/security/marine,
-/obj/machinery/light/small{
-	dir = 1
-	},
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "W" = (
@@ -484,7 +489,7 @@
 
 (1,1,1) = {"
 P
-l
+w
 R
 P
 P
@@ -504,21 +509,21 @@ m
 t
 v
 a
-H
+Q
 "}
 (4,1,1) = {"
 P
-V
+G
 a
-y
-g
+N
+s
 P
 "}
 (5,1,1) = {"
 P
 o
 a
-T
+r
 c
 P
 "}
