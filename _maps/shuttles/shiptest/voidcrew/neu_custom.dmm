@@ -1,35 +1,44 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /obj/structure/catwalk/over,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
 "b" = (
-/obj/machinery/airalarm/all_access{
-	dir = 4;
-	pixel_x = -24
+/obj/structure/cable{
+	icon_state = "0-2"
 	},
-/turf/open/floor/plating,
-/area/ship/construction)
-"c" = (
+/obj/machinery/power/port_gen/pacman,
+/obj/item/stack/sheet/mineral/plasma/fifty,
 /turf/open/floor/plasteel,
 /area/ship/construction)
-"e" = (
+"c" = (
 /obj/structure/catwalk/over,
-/obj/structure/cable{
-	icon_state = "1-8"
+/obj/structure/railing/corner{
+	dir = 1
 	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
-"f" = (
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/obj/machinery/light/small{
+"d" = (
+/obj/structure/catwalk/over,
+/obj/structure/railing{
 	dir = 8
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"e" = (
+/obj/machinery/cryopod,
+/obj/machinery/computer/cryopod{
+	pixel_y = -32
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel,
 /area/ship/construction)
-"g" = (
+"f" = (
 /obj/structure/closet/crate/large{
 	name = "miscellaneous crate"
 	},
@@ -60,7 +69,102 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
+"g" = (
+/obj/structure/catwalk/over,
+/obj/structure/railing,
+/turf/open/floor/plating/airless,
+/area/ship/external)
 "h" = (
+/obj/structure/closet/crate/large{
+	name = "circuitry crate"
+	},
+/obj/item/circuitboard/computer/communications,
+/obj/item/circuitboard/computer/cargo/express,
+/obj/item/circuitboard/machine/autolathe,
+/obj/item/circuitboard/machine/microwave,
+/obj/item/circuitboard/machine/ore_silo,
+/obj/item/circuitboard/machine/pacman,
+/obj/item/circuitboard/machine/pacman,
+/obj/item/circuitboard/machine/pacman/uranium,
+/obj/item/circuitboard/machine/pacman/uranium,
+/obj/item/circuitboard/machine/pacman/diamond,
+/obj/item/circuitboard/machine/shuttle/heater,
+/obj/item/circuitboard/machine/shuttle/heater,
+/obj/item/circuitboard/machine/shuttle/heater,
+/obj/item/circuitboard/machine/shuttle/heater,
+/obj/item/circuitboard/machine/shuttle/heater,
+/obj/item/circuitboard/machine/shuttle/heater,
+/obj/item/circuitboard/machine/shuttle/smes,
+/obj/item/circuitboard/machine/shuttle/smes,
+/obj/item/circuitboard/machine/shuttle/smes,
+/obj/item/circuitboard/machine/shuttle/smes,
+/obj/item/circuitboard/machine/shuttle/smes,
+/obj/item/circuitboard/machine/shuttle/smes,
+/obj/item/circuitboard/machine/shuttle/smes,
+/obj/item/circuitboard/machine/shuttle/engine/electric,
+/obj/item/circuitboard/machine/shuttle/engine/electric,
+/obj/item/circuitboard/machine/shuttle/engine/electric,
+/obj/item/circuitboard/machine/shuttle/engine/electric,
+/obj/item/circuitboard/machine/shuttle/engine/electric,
+/obj/item/circuitboard/machine/shuttle/engine/electric,
+/obj/item/circuitboard/machine/shuttle/engine/plasma,
+/obj/item/circuitboard/machine/shuttle/engine/plasma,
+/obj/item/circuitboard/machine/shuttle/engine/plasma,
+/obj/item/circuitboard/machine/shuttle/engine/plasma,
+/obj/item/circuitboard/machine/shuttle/engine/plasma,
+/obj/item/circuitboard/machine/shuttle/engine/plasma,
+/obj/item/circuitboard/machine/thermomachine/freezer,
+/obj/item/circuitboard/machine/thermomachine/heater,
+/obj/item/circuitboard/machine/circulator,
+/obj/item/circuitboard/machine/circulator,
+/obj/item/circuitboard/computer/selling_pad_control,
+/obj/item/circuitboard/machine/selling_pad,
+/obj/item/storage/box/rndboards{
+	name = "research boards";
+	desc = "A box containing circuit boards for establishing research and development equipment."
+	},
+/obj/item/circuitboard/machine/smes,
+/obj/item/circuitboard/machine/smes,
+/obj/item/circuitboard/machine/smes,
+/obj/item/circuitboard/machine/sleeper,
+/obj/item/circuitboard/machine/sleeper,
+/obj/item/circuitboard/machine/sleeper,
+/obj/structure/catwalk/over,
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"i" = (
+/obj/structure/catwalk/over,
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"j" = (
+/obj/structure/catwalk/over,
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"k" = (
+/obj/structure/cable,
+/obj/machinery/power/terminal,
+/turf/open/floor/plasteel,
+/area/ship/construction)
+"l" = (
+/obj/structure/catwalk/over,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"m" = (
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
@@ -70,7 +174,7 @@
 /obj/machinery/power/smes/engineering,
 /turf/open/floor/plasteel,
 /area/ship/construction)
-"i" = (
+"n" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -79,12 +183,54 @@
 	},
 /turf/open/floor/plasteel,
 /area/ship/construction)
-"j" = (
+"o" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ship/construction)
+"p" = (
+/turf/closed/wall,
+/area/ship/construction)
+"q" = (
 /obj/structure/catwalk/over,
-/obj/structure/cable,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
-"k" = (
+"r" = (
+/obj/machinery/power/smes/shuttle/precharged{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/railing,
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"s" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel,
+/area/ship/construction)
+"t" = (
 /obj/machinery/power/shuttle/engine/electric{
 	dir = 4
 	},
@@ -97,7 +243,113 @@
 /obj/structure/railing,
 /turf/open/floor/plating/airless,
 /area/ship/external)
-"l" = (
+"v" = (
+/turf/open/floor/plasteel,
+/area/ship/construction)
+"w" = (
+/obj/item/construction/rcd/combat,
+/obj/item/construction/rcd/combat,
+/obj/item/construction/rcd/combat,
+/obj/item/construction/rcd/combat,
+/obj/item/construction/rcd/combat,
+/obj/structure/closet/crate/large{
+	name = "equipment crate"
+	},
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/suit/space/hardsuit/mining/independent,
+/obj/item/clothing/suit/space/hardsuit/mining/independent,
+/obj/item/clothing/suit/space/hardsuit/mining/independent,
+/obj/item/clothing/suit/space/hardsuit/mining/independent,
+/obj/item/clothing/suit/space/hardsuit/mining/independent,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/clothing/gloves/color/yellow,
+/obj/machinery/light/small,
+/obj/item/clothing/gloves/color/yellow,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel,
+/area/ship/construction)
+"x" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ship/construction)
+"y" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/machinery/computer/helm,
+/turf/open/floor/plasteel,
+/area/ship/construction)
+"z" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
+/area/ship/construction)
+"A" = (
+/obj/structure/catwalk/over,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"B" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ship/construction)
+"C" = (
+/obj/machinery/door/airlock/external/glass,
+/obj/structure/fans/tiny,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/ship/construction)
+"D" = (
+/obj/machinery/airalarm/all_access{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/open/floor/plating,
+/area/ship/construction)
+"F" = (
 /obj/structure/catwalk/over,
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -114,50 +366,7 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
-"m" = (
-/obj/structure/closet/crate/large{
-	name = "atmospherics crate"
-	},
-/obj/item/sbeacondrop/atmospherics/nitrogen_miner,
-/obj/item/sbeacondrop/atmospherics/oxygen_miner,
-/obj/item/sbeacondrop/atmospherics/plasma_miner,
-/obj/item/pipe_dispenser,
-/obj/item/pipe_dispenser,
-/obj/item/pipe_dispenser,
-/obj/structure/catwalk/over,
-/obj/item/paper{
-	info = "DO NOT ACTIVATE THE GAS MINER TELEPORTERS OUTSIDE OF THE APPROPRIATE TANKS YOU FUCKING DIMWITS!!";
-	color = "#ff0000";
-	desc = "Seems important. That's why it's red."
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"n" = (
-/obj/structure/catwalk/over,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"o" = (
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/machinery/power/apc/auto_name/north,
-/obj/structure/closet/secure_closet/engineering_chief,
-/obj/item/clothing/mask/gas,
-/obj/item/tank/internals/oxygen,
-/obj/item/clothing/suit/space/hardsuit/engine/elite,
-/turf/open/floor/plasteel,
-/area/ship/construction)
-"p" = (
-/obj/structure/catwalk/over,
-/obj/structure/railing/corner{
-	dir = 1
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"r" = (
+"G" = (
 /obj/structure/closet/crate/large{
 	name = "parts crate"
 	},
@@ -243,192 +452,52 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
-"s" = (
-/obj/structure/catwalk/over,
-/obj/structure/railing{
-	dir = 10
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"t" = (
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/machinery/power/port_gen/pacman,
-/obj/item/stack/sheet/mineral/plasma/fifty,
-/turf/open/floor/plasteel,
-/area/ship/construction)
-"u" = (
-/obj/structure/catwalk/over,
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"v" = (
-/obj/structure/catwalk/over,
-/obj/machinery/power/terminal{
-	dir = 8
-	},
-/obj/structure/cable,
-/obj/structure/railing/corner{
-	dir = 8
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"w" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/machinery/computer/helm,
-/turf/open/floor/plasteel,
-/area/ship/construction)
-"x" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/structure/railing/corner{
-	dir = 8
-	},
-/obj/structure/railing/corner{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/ship/construction)
-"y" = (
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/machinery/power/terminal{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/ship/construction)
-"z" = (
-/turf/closed/wall,
-/area/ship/construction)
-"A" = (
+"H" = (
 /obj/effect/spawner/structure/window/reinforced/shutters,
 /turf/open/floor/plating,
 /area/ship/construction)
-"B" = (
+"I" = (
 /obj/structure/catwalk/over,
-/obj/structure/cable{
-	icon_state = "2-4"
+/obj/machinery/power/terminal{
+	dir = 8
 	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"C" = (
-/obj/structure/catwalk/over,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"D" = (
-/obj/structure/catwalk/over,
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"E" = (
-/obj/item/construction/rcd/combat,
-/obj/item/construction/rcd/combat,
-/obj/item/construction/rcd/combat,
-/obj/item/construction/rcd/combat,
-/obj/item/construction/rcd/combat,
-/obj/structure/closet/crate/large{
-	name = "equipment crate"
-	},
-/obj/item/storage/toolbox/mechanical,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/suit/space/hardsuit/mining/independent,
-/obj/item/clothing/suit/space/hardsuit/mining/independent,
-/obj/item/clothing/suit/space/hardsuit/mining/independent,
-/obj/item/clothing/suit/space/hardsuit/mining/independent,
-/obj/item/clothing/suit/space/hardsuit/mining/independent,
-/obj/item/clothing/mask/gas,
-/obj/item/clothing/mask/gas,
-/obj/item/clothing/mask/gas,
-/obj/item/clothing/mask/gas,
-/obj/item/clothing/mask/gas,
-/obj/item/tank/internals/oxygen,
-/obj/item/tank/internals/oxygen,
-/obj/item/tank/internals/oxygen,
-/obj/item/tank/internals/oxygen,
-/obj/item/tank/internals/oxygen,
-/obj/item/tank/jetpack/oxygen,
-/obj/item/tank/jetpack/oxygen,
-/obj/item/tank/jetpack/oxygen,
-/obj/item/tank/jetpack/oxygen,
-/obj/item/tank/jetpack/oxygen,
-/obj/item/clothing/gloves/color/yellow,
-/obj/item/clothing/gloves/color/yellow,
-/obj/item/clothing/gloves/color/yellow,
-/obj/item/clothing/gloves/color/yellow,
-/obj/machinery/light/small,
-/obj/item/clothing/gloves/color/yellow,
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/turf/open/floor/plasteel,
-/area/ship/construction)
-"F" = (
 /obj/structure/cable,
-/obj/machinery/power/terminal,
-/turf/open/floor/plasteel,
-/area/ship/construction)
-"G" = (
-/obj/structure/catwalk/over,
-/obj/structure/railing,
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"H" = (
-/obj/machinery/power/smes/shuttle/precharged{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/structure/railing,
-/obj/structure/railing{
-	dir = 1
+/obj/structure/railing/corner{
+	dir = 8
 	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
 "J" = (
 /obj/structure/catwalk/over,
 /obj/structure/cable{
-	icon_state = "1-4"
+	icon_state = "2-8"
 	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
 "K" = (
-/obj/structure/catwalk/over,
-/obj/structure/railing/corner{
-	dir = 8
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/railing,
+/obj/structure/railing{
+	dir = 1
 	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
 "L" = (
-/obj/structure/catwalk/over,
-/obj/structure/railing{
-	dir = 9
+/obj/structure/cable{
+	icon_state = "0-2"
 	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
+/obj/machinery/power/apc/auto_name/north,
+/obj/structure/closet/secure_closet/engineering_chief,
+/obj/item/clothing/mask/gas,
+/obj/item/tank/internals/oxygen,
+/obj/item/clothing/suit/space/hardsuit/engine/elite,
+/turf/open/floor/plasteel,
+/area/ship/construction)
 "M" = (
 /obj/structure/closet/crate/large{
 	name = "material crate"
@@ -482,28 +551,61 @@
 /turf/open/floor/plating/airless,
 /area/ship/external)
 "N" = (
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/turf/open/floor/plasteel,
-/area/ship/construction)
-"O" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/structure/railing,
+/obj/structure/catwalk/over,
 /obj/structure/railing{
-	dir = 1
+	dir = 10
 	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
+"O" = (
+/obj/structure/catwalk/over,
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/south,
+/turf/open/floor/plating/airless,
+/area/ship/external)
 "P" = (
+/obj/structure/closet/crate/large{
+	name = "atmospherics crate"
+	},
+/obj/item/sbeacondrop/atmospherics/nitrogen_miner,
+/obj/item/sbeacondrop/atmospherics/oxygen_miner,
+/obj/item/sbeacondrop/atmospherics/plasma_miner,
+/obj/item/pipe_dispenser,
+/obj/item/pipe_dispenser,
+/obj/item/pipe_dispenser,
+/obj/structure/catwalk/over,
+/obj/item/paper{
+	info = "DO NOT ACTIVATE THE GAS MINER TELEPORTERS OUTSIDE OF THE APPROPRIATE TANKS YOU FUCKING DIMWITS!!";
+	color = "#ff0000";
+	desc = "Seems important. That's why it's red."
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"R" = (
+/obj/machinery/power/smes/shuttle/precharged{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/railing,
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"S" = (
+/obj/structure/catwalk/over,
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"T" = (
+/obj/structure/catwalk/over,
+/obj/structure/railing{
+	dir = 9
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"U" = (
 /obj/structure/catwalk/over,
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -513,7 +615,10 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
-"Q" = (
+"V" = (
+/turf/template_noop,
+/area/template_noop)
+"W" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/machinery/power/smes/shuttle/precharged{
 	dir = 4
@@ -526,265 +631,161 @@
 	},
 /turf/open/floor/plating,
 /area/ship/construction)
-"R" = (
-/turf/template_noop,
-/area/template_noop)
-"S" = (
-/obj/machinery/door/airlock/external/glass,
-/obj/structure/fans/tiny,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating,
-/area/ship/construction)
-"T" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel,
-/area/ship/construction)
-"U" = (
-/obj/machinery/power/smes/shuttle/precharged{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
+"X" = (
+/obj/structure/catwalk/over,
 /obj/structure/railing{
 	dir = 1
 	},
-/obj/structure/railing,
 /turf/open/floor/plating/airless,
 /area/ship/external)
-"V" = (
-/obj/structure/catwalk/over,
-/obj/machinery/power/terminal{
-	dir = 8
-	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/structure/railing/corner{
-	dir = 1
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"W" = (
-/obj/machinery/cryopod,
-/obj/machinery/computer/cryopod{
-	pixel_y = -32
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel,
-/area/ship/construction)
-"X" = (
+"Z" = (
 /obj/structure/catwalk/over,
 /obj/structure/cable{
-	icon_state = "2-8"
+	icon_state = "1-8"
 	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"Y" = (
-/obj/structure/closet/crate/large{
-	name = "circuitry crate"
-	},
-/obj/item/circuitboard/computer/communications,
-/obj/item/circuitboard/computer/cargo/express,
-/obj/item/circuitboard/machine/autolathe,
-/obj/item/circuitboard/machine/microwave,
-/obj/item/circuitboard/machine/ore_silo,
-/obj/item/circuitboard/machine/pacman,
-/obj/item/circuitboard/machine/pacman,
-/obj/item/circuitboard/machine/pacman/uranium,
-/obj/item/circuitboard/machine/pacman/uranium,
-/obj/item/circuitboard/machine/pacman/diamond,
-/obj/item/circuitboard/machine/shuttle/heater,
-/obj/item/circuitboard/machine/shuttle/heater,
-/obj/item/circuitboard/machine/shuttle/heater,
-/obj/item/circuitboard/machine/shuttle/heater,
-/obj/item/circuitboard/machine/shuttle/heater,
-/obj/item/circuitboard/machine/shuttle/heater,
-/obj/item/circuitboard/machine/shuttle/smes,
-/obj/item/circuitboard/machine/shuttle/smes,
-/obj/item/circuitboard/machine/shuttle/smes,
-/obj/item/circuitboard/machine/shuttle/smes,
-/obj/item/circuitboard/machine/shuttle/smes,
-/obj/item/circuitboard/machine/shuttle/smes,
-/obj/item/circuitboard/machine/shuttle/smes,
-/obj/item/circuitboard/machine/shuttle/engine/electric,
-/obj/item/circuitboard/machine/shuttle/engine/electric,
-/obj/item/circuitboard/machine/shuttle/engine/electric,
-/obj/item/circuitboard/machine/shuttle/engine/electric,
-/obj/item/circuitboard/machine/shuttle/engine/electric,
-/obj/item/circuitboard/machine/shuttle/engine/electric,
-/obj/item/circuitboard/machine/shuttle/engine/plasma,
-/obj/item/circuitboard/machine/shuttle/engine/plasma,
-/obj/item/circuitboard/machine/shuttle/engine/plasma,
-/obj/item/circuitboard/machine/shuttle/engine/plasma,
-/obj/item/circuitboard/machine/shuttle/engine/plasma,
-/obj/item/circuitboard/machine/shuttle/engine/plasma,
-/obj/item/circuitboard/machine/thermomachine/freezer,
-/obj/item/circuitboard/machine/thermomachine/heater,
-/obj/item/circuitboard/machine/circulator,
-/obj/item/circuitboard/machine/circulator,
-/obj/item/circuitboard/computer/selling_pad_control,
-/obj/item/circuitboard/machine/selling_pad,
-/obj/item/storage/box/rndboards{
-	name = "research boards";
-	desc = "A box containing circuit boards for establishing research and development equipment."
-	},
-/obj/item/circuitboard/machine/smes,
-/obj/item/circuitboard/machine/smes,
-/obj/item/circuitboard/machine/smes,
-/obj/item/circuitboard/machine/sleeper,
-/obj/item/circuitboard/machine/sleeper,
-/obj/item/circuitboard/machine/sleeper,
-/obj/structure/catwalk/over,
 /turf/open/floor/plating/airless,
 /area/ship/external)
 
 (1,1,1) = {"
-R
-k
-L
-g
-r
-M
-s
-O
-R
-"}
-(2,1,1) = {"
-R
-U
-D
-a
-Y
-m
+V
+t
+T
+f
 G
-H
-R
-"}
-(3,1,1) = {"
-B
-v
-p
-a
-a
-a
+M
+N
 K
 V
-J
+"}
+(2,1,1) = {"
+V
+R
+X
+S
+h
+P
+g
+r
+V
+"}
+(3,1,1) = {"
+a
+I
+c
+S
+S
+S
+i
+j
+q
 "}
 (4,1,1) = {"
-n
-R
-R
-u
-x
-u
-R
-R
-n
+l
+V
+V
+d
+o
+d
+V
+V
+l
 "}
 (5,1,1) = {"
-n
-R
-z
-z
-Q
-z
-z
-R
-n
+l
+V
+p
+p
+W
+p
+p
+V
+l
 "}
 (6,1,1) = {"
-P
-j
-z
-b
-y
-f
-z
-a
-n
+U
+O
+p
+D
+B
+x
+p
+S
+l
 "}
 (7,1,1) = {"
-n
-R
-A
-t
-F
-h
-A
-R
-n
+l
+V
+H
+b
+k
+m
+H
+V
+l
 "}
 (8,1,1) = {"
+F
+V
+p
+y
+v
+e
+p
+V
 l
-R
-z
-w
-c
-W
-z
-R
-n
 "}
 (9,1,1) = {"
+l
+V
+p
+L
 n
-R
-z
-o
-i
-E
-z
-R
-n
+w
+p
+V
+l
 "}
 (10,1,1) = {"
-X
+J
+A
 C
-S
-T
-N
-T
-S
+z
+s
+z
 C
-e
+A
+Z
 "}
 (11,1,1) = {"
-a
-R
-z
-A
-A
-A
-z
-R
-a
+S
+V
+p
+H
+H
+H
+p
+V
+S
 "}
 (12,1,1) = {"
-a
-R
-R
-a
-R
-a
-R
-R
-a
+S
+V
+V
+S
+V
+S
+V
+V
+S
 "}
 (13,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
+S
+S
+S
+S
+S
+S
+S
+S
+S
 "}
