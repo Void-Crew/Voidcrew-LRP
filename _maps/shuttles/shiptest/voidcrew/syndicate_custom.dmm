@@ -22,36 +22,6 @@
 /obj/item/holosign_creator/atmos,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
-"d" = (
-/obj/structure/closet/crate/large{
-	name = "miscellaneous crate"
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/vending_refill/security,
-/obj/item/vending_refill/security,
-/obj/item/vending_refill/security,
-/obj/item/storage/backpack/duffelbag/syndie/surgery,
-/obj/item/reagent_containers/glass/bottle/antitoxin/sleeper,
-/obj/item/reagent_containers/glass/bottle/bicaridine/sleeper,
-/obj/item/reagent_containers/glass/bottle/dexalin/sleeper,
-/obj/item/reagent_containers/glass/bottle/epinephrine/sleeper,
-/obj/item/reagent_containers/glass/bottle/kelotane/sleeper,
-/obj/item/reagent_containers/glass/bottle/morphine/sleeper,
-/obj/item/storage/bag/chemistry,
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
 "e" = (
 /obj/item/construction/rcd/combat{
 	name = "syndicate RCD";
@@ -106,6 +76,13 @@
 /obj/item/tank/jetpack/oxygen/harness,
 /obj/item/tank/jetpack/oxygen/harness,
 /obj/item/tank/jetpack/oxygen/harness,
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
+"g" = (
+/obj/machinery/vending/security/marine,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "i" = (
@@ -187,13 +164,6 @@
 	},
 /obj/item/stock_parts/cell/high/plus{
 	charge = 15000
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
-"j" = (
-/obj/machinery/cryopod,
-/obj/machinery/computer/cryopod{
-	pixel_y = -32
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
@@ -297,10 +267,20 @@
 /obj/item/circuitboard/machine/sleeper,
 /obj/item/circuitboard/machine/sleeper,
 /obj/machinery/light/small,
+/obj/item/circuitboard/machine/generator,
+/obj/item/circuitboard/machine/power_compressor,
+/obj/item/circuitboard/machine/power_turbine,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "q" = (
 /obj/machinery/computer/helm,
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
+"r" = (
+/obj/machinery/cryopod,
+/obj/machinery/computer/cryopod{
+	pixel_y = -32
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "t" = (
@@ -315,12 +295,6 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
-"u" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
 "v" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -328,6 +302,36 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
+"w" = (
+/obj/structure/closet/crate/large{
+	name = "miscellaneous crate"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/vending_refill/security,
+/obj/item/vending_refill/security,
+/obj/item/vending_refill/security,
+/obj/item/storage/backpack/duffelbag/syndie/surgery,
+/obj/item/reagent_containers/glass/bottle/antitoxin/sleeper,
+/obj/item/reagent_containers/glass/bottle/bicaridine/sleeper,
+/obj/item/reagent_containers/glass/bottle/dexalin/sleeper,
+/obj/item/reagent_containers/glass/bottle/epinephrine/sleeper,
+/obj/item/reagent_containers/glass/bottle/kelotane/sleeper,
+/obj/item/reagent_containers/glass/bottle/morphine/sleeper,
+/obj/item/storage/bag/chemistry,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "z" = (
@@ -338,23 +342,6 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/construction)
-"A" = (
-/obj/machinery/door/airlock/hatch{
-	name = "external airlock"
-	},
-/obj/structure/fans/tiny,
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
-"B" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/structure/window/reinforced/spawner/north,
-/turf/open/floor/plating,
 /area/ship/construction)
 "C" = (
 /obj/structure/window/reinforced/spawner/west,
@@ -437,12 +424,15 @@
 /obj/machinery/power/smes/engineering,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
-"M" = (
-/obj/machinery/vending/security/marine,
-/obj/machinery/light/small{
-	dir = 1
+"L" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
 	},
-/turf/open/floor/plasteel/tech,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/window/reinforced/spawner,
+/turf/open/floor/plating,
 /area/ship/construction)
 "P" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
@@ -454,8 +444,15 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/obj/structure/window/reinforced/spawner,
+/obj/structure/window/reinforced/spawner/north,
 /turf/open/floor/plating,
+/area/ship/construction)
+"S" = (
+/obj/machinery/door/airlock/hatch{
+	name = "external airlock"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "U" = (
 /obj/docking_port/mobile{
@@ -488,11 +485,17 @@
 /obj/structure/window/reinforced/spawner,
 /turf/open/floor/plating,
 /area/ship/construction)
+"X" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
 
 (1,1,1) = {"
 P
-B
 R
+L
 P
 P
 P
@@ -511,21 +514,21 @@ m
 t
 v
 a
-A
+S
 "}
 (4,1,1) = {"
 P
-M
+g
 a
-u
-j
+X
+r
 P
 "}
 (5,1,1) = {"
 P
 o
 a
-d
+w
 c
 P
 "}

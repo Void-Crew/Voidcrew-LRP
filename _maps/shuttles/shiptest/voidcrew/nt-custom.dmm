@@ -1,18 +1,50 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/obj/machinery/power/terminal,
-/obj/structure/cable,
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/construction)
-"c" = (
+/obj/machinery/light/small,
 /obj/structure/window/reinforced/spawner/west,
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/ship/construction)
-"d" = (
-/obj/structure/marker_beacon,
-/turf/open/floor/plating/airless,
+"b" = (
+/obj/effect/spawner/structure/window/shuttle,
+/turf/open/floor/plating,
 /area/ship/construction)
 "e" = (
+/obj/machinery/computer/helm{
+	dir = 8
+	},
+/obj/item/areaeditor/shuttle,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ship/construction)
+"f" = (
+/obj/structure/window/reinforced/spawner/west,
+/obj/machinery/power/smes/shuttle/precharged{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/door/window/eastleft{
+	name = "Engine Access"
+	},
+/turf/open/floor/plating,
+/area/ship/construction)
+"h" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/cryopod,
+/obj/machinery/computer/cryopod{
+	pixel_y = -32
+	},
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ship/construction)
+"j" = (
 /obj/structure/closet/crate/large{
 	name = "parts crate"
 	},
@@ -94,7 +126,47 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/ship/construction)
-"f" = (
+"k" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ship/construction)
+"l" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/power/smes/engineering,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ship/construction)
+"m" = (
+/obj/structure/marker_beacon,
+/turf/open/floor/plating/airless,
+/area/ship/construction)
+"p" = (
+/obj/machinery/door/airlock/external/glass,
+/obj/structure/fans/tiny,
+/obj/docking_port/mobile{
+	can_move_docking_ports = 1;
+	dir = 2;
+	dwidth = 11;
+	height = 9;
+	launch_status = 0;
+	port_direction = 8;
+	preferred_direction = 4;
+	width = 11
+	},
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ship/construction)
+"r" = (
+/obj/machinery/door/airlock/external/glass,
+/obj/structure/fans/tiny,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ship/construction)
+"s" = (
 /obj/structure/closet/crate/large{
 	name = "material crate"
 	},
@@ -145,28 +217,21 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/ship/construction)
-"g" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/construction)
-"h" = (
-/turf/closed/wall/mineral/titanium,
-/area/ship/construction)
-"i" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
+"u" = (
+/obj/machinery/power/terminal{
+	dir = 8
 	},
 /obj/structure/cable{
-	icon_state = "0-4"
+	icon_state = "0-2"
 	},
-/obj/structure/window/reinforced/spawner,
-/turf/open/floor/plating,
+/turf/open/floor/mineral/titanium/tiled/white,
 /area/ship/construction)
-"j" = (
+"w" = (
 /obj/structure/closet/secure_closet/captains,
 /obj/item/tank/jetpack/oxygen/captain,
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/ship/construction)
-"l" = (
+"x" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/machinery/power/smes/shuttle/precharged{
 	dir = 4
@@ -177,26 +242,30 @@
 /obj/machinery/door/window/eastleft{
 	name = "Engine Access"
 	},
+/obj/structure/window/reinforced/spawner,
 /turf/open/floor/plating,
 /area/ship/construction)
-"o" = (
-/turf/template_noop,
-/area/template_noop)
-"p" = (
-/obj/machinery/door/window/westleft,
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/construction)
-"q" = (
-/obj/machinery/vending/security/marine/solgov,
-/obj/structure/cable{
-	icon_state = "4-8"
+"z" = (
+/obj/machinery/power/apc/auto_name/south,
+/obj/structure/closet/crate/large{
+	name = "atmospherics crate"
 	},
+/obj/item/sbeacondrop/atmospherics/nitrogen_miner,
+/obj/item/sbeacondrop/atmospherics/oxygen_miner,
+/obj/item/sbeacondrop/atmospherics/plasma_miner,
+/obj/item/pipe_dispenser,
+/obj/item/pipe_dispenser,
+/obj/item/pipe_dispenser,
+/obj/structure/cable,
+/obj/item/paper{
+	info = "DO NOT ACTIVATE THE GAS MINER TELEPORTERS OUTSIDE OF THE APPROPRIATE TANKS YOU FUCKING DIMWITS!!";
+	color = "#ff0000";
+	desc = "Seems important. That's why it's red."
+	},
+/obj/item/holosign_creator/atmos,
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/ship/construction)
-"r" = (
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/construction)
-"u" = (
+"D" = (
 /obj/item/construction/rcd/combat,
 /obj/item/construction/rcd/combat,
 /obj/item/construction/rcd/combat,
@@ -245,7 +314,7 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/ship/construction)
-"v" = (
+"F" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/machinery/power/smes/shuttle/precharged{
 	dir = 4
@@ -259,50 +328,7 @@
 /obj/structure/window/reinforced/spawner/north,
 /turf/open/floor/plating,
 /area/ship/construction)
-"A" = (
-/obj/structure/closet/crate/large{
-	name = "miscellaneous crate"
-	},
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/vending_refill/security,
-/obj/item/vending_refill/security,
-/obj/item/vending_refill/security,
-/obj/item/storage/backpack/duffelbag/syndie/surgery,
-/obj/item/reagent_containers/glass/bottle/antitoxin/sleeper,
-/obj/item/reagent_containers/glass/bottle/bicaridine/sleeper,
-/obj/item/reagent_containers/glass/bottle/dexalin/sleeper,
-/obj/item/reagent_containers/glass/bottle/epinephrine/sleeper,
-/obj/item/reagent_containers/glass/bottle/kelotane/sleeper,
-/obj/item/reagent_containers/glass/bottle/morphine/sleeper,
-/obj/item/storage/bag/chemistry,
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/construction)
-"D" = (
-/obj/effect/spawner/structure/window/shuttle,
-/turf/open/floor/plating,
-/area/ship/construction)
-"E" = (
-/obj/machinery/power/terminal{
-	dir = 8
-	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/construction)
-"F" = (
+"G" = (
 /obj/structure/closet/crate/large{
 	name = "circuitry crate"
 	},
@@ -360,141 +386,30 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/construction)
-"G" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
+/obj/item/circuitboard/machine/generator,
+/obj/item/circuitboard/machine/power_turbine,
+/obj/item/circuitboard/machine/power_compressor,
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/ship/construction)
 "H" = (
-/obj/structure/window/reinforced/spawner/west,
-/obj/machinery/power/smes/shuttle/precharged{
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ship/construction)
+"I" = (
+/obj/machinery/power/terminal,
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ship/construction)
+"K" = (
+/obj/machinery/power/shuttle/engine/electric{
 	dir = 4
 	},
 /obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/door/window/eastleft{
-	name = "Engine Access"
+	icon_state = "0-4"
 	},
 /obj/structure/window/reinforced/spawner,
 /turf/open/floor/plating,
 /area/ship/construction)
-"I" = (
-/obj/machinery/power/apc/auto_name/south,
-/obj/structure/closet/crate/large{
-	name = "atmospherics crate"
-	},
-/obj/item/sbeacondrop/atmospherics/nitrogen_miner,
-/obj/item/sbeacondrop/atmospherics/oxygen_miner,
-/obj/item/sbeacondrop/atmospherics/plasma_miner,
-/obj/item/pipe_dispenser,
-/obj/item/pipe_dispenser,
-/obj/item/pipe_dispenser,
-/obj/structure/cable,
-/obj/item/paper{
-	info = "DO NOT ACTIVATE THE GAS MINER TELEPORTERS OUTSIDE OF THE APPROPRIATE TANKS YOU FUCKING DIMWITS!!";
-	color = "#ff0000";
-	desc = "Seems important. That's why it's red."
-	},
-/obj/item/holosign_creator/atmos,
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/construction)
-"J" = (
-/obj/machinery/door/airlock/external/glass,
-/obj/structure/fans/tiny,
-/obj/docking_port/mobile{
-	can_move_docking_ports = 1;
-	dir = 2;
-	dwidth = 11;
-	height = 9;
-	launch_status = 0;
-	port_direction = 8;
-	preferred_direction = 4;
-	width = 11
-	},
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/construction)
-"M" = (
-/obj/machinery/light/small,
-/obj/structure/window/reinforced/spawner/west,
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/construction)
-"N" = (
-/obj/machinery/computer/helm{
-	dir = 8
-	},
-/obj/item/areaeditor/shuttle,
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/construction)
-"P" = (
-/obj/machinery/door/airlock/external/glass,
-/obj/structure/fans/tiny,
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/construction)
-"Q" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/structure/window/reinforced/spawner/north,
-/turf/open/floor/plating,
-/area/ship/construction)
-"S" = (
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/machinery/power/port_gen/pacman,
-/obj/item/stack/sheet/mineral/plasma/fifty,
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/construction)
-"V" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/turf/open/floor/plating,
-/area/ship/construction)
-"W" = (
-/obj/machinery/suit_storage_unit/ert/command,
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/construction)
-"X" = (
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/power/smes/engineering,
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/construction)
-"Y" = (
-/obj/machinery/power/terminal{
-	dir = 8
-	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/machinery/cryopod,
-/obj/machinery/computer/cryopod{
-	pixel_y = -32
-	},
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/ship/construction)
-"Z" = (
+"L" = (
 /obj/machinery/power/terminal{
 	dir = 8
 	},
@@ -506,125 +421,213 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/ship/construction)
+"M" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/construction)
+"N" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plating,
+/area/ship/construction)
+"O" = (
+/obj/machinery/suit_storage_unit/ert/command,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ship/construction)
+"P" = (
+/turf/closed/wall/mineral/titanium,
+/area/ship/construction)
+"Q" = (
+/obj/machinery/door/window/westleft,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ship/construction)
+"S" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/window/reinforced/spawner/north,
+/turf/open/floor/plating,
+/area/ship/construction)
+"T" = (
+/turf/template_noop,
+/area/template_noop)
+"U" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/port_gen/pacman,
+/obj/item/stack/sheet/mineral/plasma/fifty,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ship/construction)
+"V" = (
+/obj/structure/window/reinforced/spawner/west,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ship/construction)
+"X" = (
+/obj/machinery/vending/security/marine/solgov,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ship/construction)
+"Y" = (
+/obj/structure/closet/crate/large{
+	name = "miscellaneous crate"
+	},
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/vending_refill/security,
+/obj/item/vending_refill/security,
+/obj/item/vending_refill/security,
+/obj/item/storage/backpack/duffelbag/syndie/surgery,
+/obj/item/reagent_containers/glass/bottle/antitoxin/sleeper,
+/obj/item/reagent_containers/glass/bottle/bicaridine/sleeper,
+/obj/item/reagent_containers/glass/bottle/dexalin/sleeper,
+/obj/item/reagent_containers/glass/bottle/epinephrine/sleeper,
+/obj/item/reagent_containers/glass/bottle/kelotane/sleeper,
+/obj/item/reagent_containers/glass/bottle/morphine/sleeper,
+/obj/item/storage/bag/chemistry,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ship/construction)
 
 (1,1,1) = {"
-o
-o
-o
-Q
-V
-i
-o
-o
-o
+T
+T
+T
+S
+N
+K
+T
+T
+T
 "}
 (2,1,1) = {"
-o
-o
-h
-v
-l
-H
-h
-o
-o
+T
+T
+P
+F
+f
+x
+P
+T
+T
 "}
 (3,1,1) = {"
-o
-o
-g
-E
-Z
-Y
-g
-o
-o
+T
+T
+M
+u
+L
+h
+M
+T
+T
 "}
 (4,1,1) = {"
-o
-h
-g
-S
-a
-X
-g
-h
-o
+T
+P
+M
+U
+I
+l
+M
+P
+T
 "}
 (5,1,1) = {"
-g
-g
-u
-r
-r
-q
-f
-g
-g
+M
+M
+D
+H
+H
+X
+s
+M
+M
 "}
 (6,1,1) = {"
-J
+p
+H
+H
+H
+H
+k
+H
+H
 r
-r
-r
-r
-G
-r
-r
-P
 "}
 (7,1,1) = {"
-g
-g
-A
-e
-r
-F
-I
-g
-g
+M
+M
+Y
+j
+H
+G
+z
+M
+M
 "}
 (8,1,1) = {"
-o
-h
-g
-c
-p
+T
+P
 M
-g
-h
-o
+V
+Q
+a
+M
+P
+T
 "}
 (9,1,1) = {"
-o
-o
-g
-j
-N
-W
-g
-o
-o
+T
+T
+M
+w
+e
+O
+M
+T
+T
 "}
 (10,1,1) = {"
-o
-o
-g
-D
-D
-D
-g
-o
-o
+T
+T
+M
+b
+b
+b
+M
+T
+T
 "}
 (11,1,1) = {"
-o
-o
-d
-o
-o
-o
-d
-o
-o
+T
+T
+m
+T
+T
+T
+m
+T
+T
 "}
