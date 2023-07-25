@@ -2,6 +2,13 @@
 "a" = (
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
+"b" = (
+/obj/machinery/cryopod,
+/obj/machinery/computer/cryopod{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
 "c" = (
 /obj/machinery/power/apc/auto_name/south,
 /obj/structure/closet/crate/large{
@@ -164,6 +171,7 @@
 /obj/item/gps{
 	pixel_x = 7
 	},
+/obj/item/areaeditor/shuttle,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "m" = (
@@ -264,43 +272,6 @@
 /obj/machinery/computer/helm,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
-"r" = (
-/obj/structure/closet/crate/large{
-	name = "miscellaneous crate"
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/vending_refill/security,
-/obj/item/vending_refill/security,
-/obj/item/vending_refill/security,
-/obj/item/storage/backpack/duffelbag/syndie/surgery,
-/obj/item/reagent_containers/glass/bottle/antitoxin/sleeper,
-/obj/item/reagent_containers/glass/bottle/bicaridine/sleeper,
-/obj/item/reagent_containers/glass/bottle/dexalin/sleeper,
-/obj/item/reagent_containers/glass/bottle/epinephrine/sleeper,
-/obj/item/reagent_containers/glass/bottle/kelotane/sleeper,
-/obj/item/reagent_containers/glass/bottle/morphine/sleeper,
-/obj/item/storage/bag/chemistry,
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
-"s" = (
-/obj/machinery/cryopod,
-/obj/machinery/computer/cryopod{
-	pixel_y = -32
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
 "t" = (
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -321,16 +292,6 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/construction)
-"w" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/structure/window/reinforced/spawner/north,
-/turf/open/floor/plating,
 /area/ship/construction)
 "z" = (
 /obj/machinery/power/port_gen/pacman,
@@ -422,28 +383,62 @@
 /obj/machinery/power/smes/engineering,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
-"G" = (
+"H" = (
 /obj/machinery/vending/security/marine,
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
-"N" = (
-/obj/structure/cable{
-	icon_state = "4-8"
+"I" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
 	},
-/turf/open/floor/plasteel/tech,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/window/reinforced/spawner,
+/turf/open/floor/plating,
 /area/ship/construction)
-"P" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/ship/construction)
-"Q" = (
+"J" = (
 /obj/machinery/door/airlock/hatch{
 	name = "external airlock"
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/tech,
+/area/ship/construction)
+"K" = (
+/obj/structure/closet/crate/large{
+	name = "miscellaneous crate"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/vending_refill/security,
+/obj/item/vending_refill/security,
+/obj/item/vending_refill/security,
+/obj/item/storage/backpack/duffelbag/syndie/surgery,
+/obj/item/reagent_containers/glass/bottle/antitoxin/sleeper,
+/obj/item/reagent_containers/glass/bottle/bicaridine/sleeper,
+/obj/item/reagent_containers/glass/bottle/dexalin/sleeper,
+/obj/item/reagent_containers/glass/bottle/epinephrine/sleeper,
+/obj/item/reagent_containers/glass/bottle/kelotane/sleeper,
+/obj/item/reagent_containers/glass/bottle/morphine/sleeper,
+/obj/item/storage/bag/chemistry,
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
+"P" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ship/construction)
 "R" = (
 /obj/machinery/power/shuttle/engine/electric{
@@ -452,7 +447,7 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/obj/structure/window/reinforced/spawner,
+/obj/structure/window/reinforced/spawner/north,
 /turf/open/floor/plating,
 /area/ship/construction)
 "U" = (
@@ -472,6 +467,12 @@
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
+"V" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
 "W" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/machinery/power/smes/shuttle/precharged{
@@ -489,8 +490,8 @@
 
 (1,1,1) = {"
 P
-w
 R
+I
 P
 P
 P
@@ -509,21 +510,21 @@ m
 t
 v
 a
-Q
+J
 "}
 (4,1,1) = {"
 P
-G
+H
 a
-N
-s
+V
+b
 P
 "}
 (5,1,1) = {"
 P
 o
 a
-r
+K
 c
 P
 "}
