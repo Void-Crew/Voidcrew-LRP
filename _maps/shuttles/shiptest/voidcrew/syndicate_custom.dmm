@@ -91,38 +91,13 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
-"f" = (
-/obj/structure/closet/secure_closet{
-	anchored = 1;
-	icon_state = "hos";
-	name = "captain's locker";
-	req_access_txt = "20"
+"g" = (
+/obj/structure/cable{
+	icon_state = "1-8"
 	},
-/obj/item/storage/backpack/security,
-/obj/item/clothing/under/syndicate/combat,
-/obj/item/clothing/suit/armor/vest/capcarapace/syndicate,
-/obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/gloves/combat,
-/obj/item/clothing/glasses/thermal/eyepatch,
-/obj/item/clothing/head/HoS/syndicate,
-/obj/item/codespeak_manual/unlimited,
-/obj/item/pen/edagger,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/item/ammo_box/a357,
-/obj/item/ammo_box/a357,
-/obj/item/gun/ballistic/revolver/mateba,
-/obj/item/clothing/suit/space/hardsuit/syndi/elite,
-/obj/item/construction/rcd/arcd,
-/obj/machinery/airalarm/all_access{
-	pixel_y = 24
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
-"h" = (
-/obj/machinery/door/airlock/hatch{
-	name = "external airlock"
-	},
-/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "i" = (
@@ -163,14 +138,12 @@
 /turf/open/floor/plating/airless,
 /area/ship/external)
 "l" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
+/obj/structure/table/reinforced,
+/obj/item/gps{
+	pixel_x = 7
 	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/structure/window/reinforced/spawner/north,
-/turf/open/floor/plating,
+/obj/item/areaeditor/shuttle,
+/turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "m" = (
 /obj/structure/cable{
@@ -212,6 +185,23 @@
 /obj/machinery/computer/helm,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
+"r" = (
+/obj/structure/catwalk/over,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"s" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/window/reinforced/spawner,
+/turf/open/floor/plating,
+/area/ship/construction)
 "t" = (
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -225,12 +215,32 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
 "v" = (
-/obj/structure/catwalk/over,
-/obj/structure/railing{
-	dir = 9
+/obj/structure/closet/secure_closet{
+	anchored = 1;
+	icon_state = "hos";
+	name = "captain's locker";
+	req_access_txt = "20"
 	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
+/obj/item/storage/backpack/security,
+/obj/item/clothing/under/syndicate/combat,
+/obj/item/clothing/suit/armor/vest/capcarapace/syndicate,
+/obj/item/clothing/shoes/jackboots,
+/obj/item/clothing/gloves/combat,
+/obj/item/clothing/glasses/thermal/eyepatch,
+/obj/item/clothing/head/HoS/syndicate,
+/obj/item/codespeak_manual/unlimited,
+/obj/item/pen/edagger,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/ammo_box/a357,
+/obj/item/ammo_box/a357,
+/obj/item/gun/ballistic/revolver/mateba,
+/obj/item/clothing/suit/space/hardsuit/syndi/elite,
+/obj/item/construction/rcd/arcd,
+/obj/machinery/airalarm/all_access{
+	pixel_y = 24
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
 "z" = (
 /obj/machinery/power/port_gen/pacman,
 /obj/item/stack/sheet/mineral/plasma/fifty,
@@ -243,7 +253,7 @@
 "B" = (
 /obj/structure/catwalk/over,
 /obj/structure/railing{
-	dir = 8
+	dir = 9
 	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
@@ -334,16 +344,14 @@
 /obj/machinery/power/smes/engineering,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
-"H" = (
-/obj/structure/cable{
-	icon_state = "1-8"
+"I" = (
+/obj/machinery/door/airlock/hatch{
+	name = "external airlock"
 	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
-"L" = (
+"J" = (
 /obj/structure/closet/crate/large{
 	name = "material crate"
 	},
@@ -399,59 +407,7 @@
 /obj/item/stack/cable_coil/red,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
-"O" = (
-/obj/structure/table/reinforced,
-/obj/item/gps{
-	pixel_x = 7
-	},
-/obj/item/areaeditor/shuttle,
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
-"P" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/ship/construction)
-"R" = (
-/turf/template_noop,
-/area/template_noop)
-"S" = (
-/obj/structure/closet/crate/medical,
-/obj/item/storage/firstaid/brute,
-/obj/item/storage/firstaid/fire,
-/obj/item/storage/firstaid/medical,
-/obj/item/defibrillator/loaded,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
-"T" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/structure/window/reinforced/spawner,
-/turf/open/floor/plating,
-/area/ship/construction)
-"U" = (
-/obj/docking_port/mobile{
-	can_move_docking_ports = 1;
-	dir = 2;
-	dwidth = 8;
-	height = 6;
-	launch_status = 0;
-	port_direction = 8;
-	preferred_direction = 4;
-	width = 8
-	},
-/obj/machinery/door/airlock/hatch{
-	name = "external airlock"
-	},
-/obj/structure/fans/tiny,
-/turf/open/floor/plasteel/tech,
-/area/ship/construction)
-"V" = (
+"K" = (
 /obj/item/construction/rcd/combat{
 	name = "syndicate RCD";
 	desc = "A high-capacity Syndicate-made RCD."
@@ -507,6 +463,50 @@
 /obj/item/tank/jetpack/oxygen/harness,
 /turf/open/floor/plasteel/tech,
 /area/ship/construction)
+"M" = (
+/obj/structure/closet/crate/medical,
+/obj/item/storage/firstaid/brute,
+/obj/item/storage/firstaid/fire,
+/obj/item/storage/firstaid/medical,
+/obj/item/defibrillator/loaded,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
+"P" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ship/construction)
+"R" = (
+/turf/template_noop,
+/area/template_noop)
+"U" = (
+/obj/docking_port/mobile{
+	can_move_docking_ports = 1;
+	dir = 2;
+	dwidth = 9;
+	height = 6;
+	launch_status = 0;
+	port_direction = 8;
+	preferred_direction = 4;
+	width = 9
+	},
+/obj/machinery/door/airlock/hatch{
+	name = "external airlock"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel/tech,
+/area/ship/construction)
+"V" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/window/reinforced/spawner/north,
+/turf/open/floor/plating,
+/area/ship/construction)
 "W" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/machinery/power/smes/shuttle/precharged{
@@ -526,16 +526,16 @@
 R
 R
 R
-v
 B
+r
 k
 "}
 (2,1,1) = {"
 P
-l
-T
+V
+s
 P
-h
+I
 P
 "}
 (3,1,1) = {"
@@ -550,21 +550,21 @@ P
 U
 m
 t
-H
+g
 a
-h
+I
 "}
 (5,1,1) = {"
 P
 o
 a
-S
+M
 c
 P
 "}
 (6,1,1) = {"
 P
-f
+v
 a
 i
 p
@@ -580,10 +580,10 @@ P
 "}
 (8,1,1) = {"
 D
-O
+l
 a
-V
-L
+K
+J
 P
 "}
 (9,1,1) = {"
