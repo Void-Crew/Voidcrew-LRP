@@ -1,101 +1,163 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/obj/machinery/power/smes/shuttle/precharged{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/structure/railing,
-/obj/structure/railing{
-	dir = 1
-	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating/airless,
 /area/ship/external)
 "b" = (
-/turf/template_noop,
-/area/template_noop)
+/obj/machinery/airalarm/all_access{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/open/floor/plating,
+/area/ship/construction)
 "c" = (
+/turf/open/floor/plasteel,
+/area/ship/construction)
+"e" = (
+/obj/structure/catwalk/over,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"f" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ship/construction)
+"g" = (
+/obj/structure/closet/crate/large{
+	name = "miscellaneous crate"
+	},
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/vending_refill/security,
+/obj/item/vending_refill/security,
+/obj/item/vending_refill/security,
+/obj/item/storage/backpack/duffelbag/syndie/surgery,
+/obj/item/reagent_containers/glass/bottle/antitoxin/sleeper,
+/obj/item/reagent_containers/glass/bottle/bicaridine/sleeper,
+/obj/item/reagent_containers/glass/bottle/dexalin/sleeper,
+/obj/item/reagent_containers/glass/bottle/epinephrine/sleeper,
+/obj/item/reagent_containers/glass/bottle/kelotane/sleeper,
+/obj/item/reagent_containers/glass/bottle/morphine/sleeper,
+/obj/item/storage/bag/chemistry,
+/obj/structure/catwalk/over,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"h" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/power/smes/engineering,
+/turf/open/floor/plasteel,
+/area/ship/construction)
+"i" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel,
+/area/ship/construction)
+"j" = (
+/obj/structure/catwalk/over,
+/obj/structure/cable,
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"k" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/railing,
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"l" = (
+/obj/structure/catwalk/over,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/docking_port/mobile{
+	can_move_docking_ports = 1;
+	dir = 2;
+	dwidth = 13;
+	height = 9;
+	launch_status = 0;
+	port_direction = 8;
+	preferred_direction = 4;
+	width = 13
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"m" = (
+/obj/structure/closet/crate/large{
+	name = "atmospherics crate"
+	},
+/obj/item/sbeacondrop/atmospherics/nitrogen_miner,
+/obj/item/sbeacondrop/atmospherics/oxygen_miner,
+/obj/item/sbeacondrop/atmospherics/plasma_miner,
+/obj/item/pipe_dispenser,
+/obj/item/pipe_dispenser,
+/obj/item/pipe_dispenser,
+/obj/structure/catwalk/over,
+/obj/item/paper{
+	info = "DO NOT ACTIVATE THE GAS MINER TELEPORTERS OUTSIDE OF THE APPROPRIATE TANKS YOU FUCKING DIMWITS!!";
+	color = "#ff0000";
+	desc = "Seems important. That's why it's red."
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"n" = (
+/obj/structure/catwalk/over,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"o" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/apc/auto_name/north,
+/obj/structure/closet/secure_closet/engineering_chief,
+/obj/item/clothing/mask/gas,
+/obj/item/tank/internals/oxygen,
+/obj/item/clothing/suit/space/hardsuit/engine/elite,
+/turf/open/floor/plasteel,
+/area/ship/construction)
+"p" = (
 /obj/structure/catwalk/over,
 /obj/structure/railing/corner{
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
-"d" = (
-/obj/machinery/cryopod,
-/obj/machinery/computer/cryopod{
-	pixel_y = -32
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel,
-/area/ship/construction)
-"e" = (
-/obj/item/construction/rcd/combat,
-/obj/item/construction/rcd/combat,
-/obj/item/construction/rcd/combat,
-/obj/item/construction/rcd/combat,
-/obj/item/construction/rcd/combat,
-/obj/structure/closet/crate/large{
-	name = "equipment crate"
-	},
-/obj/item/storage/toolbox/mechanical,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/suit/space/hardsuit/mining/independent,
-/obj/item/clothing/suit/space/hardsuit/mining/independent,
-/obj/item/clothing/suit/space/hardsuit/mining/independent,
-/obj/item/clothing/suit/space/hardsuit/mining/independent,
-/obj/item/clothing/suit/space/hardsuit/mining/independent,
-/obj/item/clothing/mask/gas,
-/obj/item/clothing/mask/gas,
-/obj/item/clothing/mask/gas,
-/obj/item/clothing/mask/gas,
-/obj/item/clothing/mask/gas,
-/obj/item/tank/internals/oxygen,
-/obj/item/tank/internals/oxygen,
-/obj/item/tank/internals/oxygen,
-/obj/item/tank/internals/oxygen,
-/obj/item/tank/internals/oxygen,
-/obj/item/tank/jetpack/oxygen,
-/obj/item/tank/jetpack/oxygen,
-/obj/item/tank/jetpack/oxygen,
-/obj/item/tank/jetpack/oxygen,
-/obj/item/tank/jetpack/oxygen,
-/obj/item/clothing/gloves/color/yellow,
-/obj/item/clothing/gloves/color/yellow,
-/obj/item/clothing/gloves/color/yellow,
-/obj/item/clothing/gloves/color/yellow,
-/obj/machinery/light/small,
-/obj/item/clothing/gloves/color/yellow,
-/turf/open/floor/plasteel,
-/area/ship/construction)
-"f" = (
-/turf/open/floor/plasteel,
-/area/ship/construction)
-"g" = (
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/turf/open/floor/plasteel,
-/area/ship/construction)
-"h" = (
-/obj/structure/catwalk/over,
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"i" = (
+"r" = (
 /obj/structure/closet/crate/large{
 	name = "parts crate"
 	},
@@ -181,20 +243,29 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
-"j" = (
-/obj/structure/window/reinforced/spawner/west,
-/obj/machinery/power/smes/shuttle/precharged{
-	dir = 4
+"s" = (
+/obj/structure/catwalk/over,
+/obj/structure/railing{
+	dir = 10
 	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"t" = (
 /obj/structure/cable{
-	icon_state = "0-8"
+	icon_state = "0-2"
 	},
-/obj/machinery/door/window/eastleft{
-	name = "Engine Access"
-	},
-/turf/open/floor/plating,
+/obj/machinery/power/port_gen/pacman,
+/obj/item/stack/sheet/mineral/plasma/fifty,
+/turf/open/floor/plasteel,
 /area/ship/construction)
-"k" = (
+"u" = (
+/obj/structure/catwalk/over,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"v" = (
 /obj/structure/catwalk/over,
 /obj/machinery/power/terminal{
 	dir = 8
@@ -205,7 +276,29 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
-"l" = (
+"w" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/machinery/computer/helm,
+/turf/open/floor/plasteel,
+/area/ship/construction)
+"x" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ship/construction)
+"y" = (
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
@@ -214,126 +307,190 @@
 	},
 /turf/open/floor/plating,
 /area/ship/construction)
-"m" = (
-/obj/structure/catwalk/over,
-/obj/structure/railing,
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"o" = (
-/obj/structure/catwalk/over,
-/obj/structure/railing{
-	dir = 10
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"p" = (
+"z" = (
+/turf/closed/wall,
+/area/ship/construction)
+"A" = (
+/obj/effect/spawner/structure/window/reinforced/shutters,
+/turf/open/floor/plating,
+/area/ship/construction)
+"B" = (
 /obj/structure/catwalk/over,
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
-"q" = (
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/machinery/power/port_gen/pacman,
-/obj/item/stack/sheet/mineral/plasma/fifty,
-/turf/open/floor/plasteel,
-/area/ship/construction)
-"r" = (
+"C" = (
 /obj/structure/catwalk/over,
 /obj/structure/cable{
-	icon_state = "4-8"
+	icon_state = "1-2"
 	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
-"s" = (
-/obj/structure/catwalk/over,
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"t" = (
-/obj/structure/closet/crate/large{
-	name = "miscellaneous crate"
-	},
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/vending_refill/security,
-/obj/item/vending_refill/security,
-/obj/item/vending_refill/security,
-/obj/item/storage/backpack/duffelbag/syndie/surgery,
-/obj/item/reagent_containers/glass/bottle/antitoxin/sleeper,
-/obj/item/reagent_containers/glass/bottle/bicaridine/sleeper,
-/obj/item/reagent_containers/glass/bottle/dexalin/sleeper,
-/obj/item/reagent_containers/glass/bottle/epinephrine/sleeper,
-/obj/item/reagent_containers/glass/bottle/kelotane/sleeper,
-/obj/item/reagent_containers/glass/bottle/morphine/sleeper,
-/obj/item/storage/bag/chemistry,
-/obj/structure/catwalk/over,
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"u" = (
+"D" = (
 /obj/structure/catwalk/over,
 /obj/structure/railing{
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
-"v" = (
+"E" = (
+/obj/item/construction/rcd/combat,
+/obj/item/construction/rcd/combat,
+/obj/item/construction/rcd/combat,
+/obj/item/construction/rcd/combat,
+/obj/item/construction/rcd/combat,
+/obj/structure/closet/crate/large{
+	name = "equipment crate"
+	},
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/suit/space/hardsuit/mining/independent,
+/obj/item/clothing/suit/space/hardsuit/mining/independent,
+/obj/item/clothing/suit/space/hardsuit/mining/independent,
+/obj/item/clothing/suit/space/hardsuit/mining/independent,
+/obj/item/clothing/suit/space/hardsuit/mining/independent,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/clothing/gloves/color/yellow,
+/obj/machinery/light/small,
+/obj/item/clothing/gloves/color/yellow,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel,
+/area/ship/construction)
+"F" = (
+/obj/structure/cable,
+/obj/machinery/power/terminal,
+/turf/open/floor/plasteel,
+/area/ship/construction)
+"G" = (
+/obj/structure/catwalk/over,
+/obj/structure/railing,
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"H" = (
 /obj/machinery/power/smes/shuttle/precharged{
 	dir = 4
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
+/obj/structure/railing,
 /obj/structure/railing{
 	dir = 1
 	},
-/obj/structure/railing,
 /turf/open/floor/plating/airless,
 /area/ship/external)
-"w" = (
+"J" = (
 /obj/structure/catwalk/over,
-/obj/machinery/power/terminal{
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"K" = (
+/obj/structure/catwalk/over,
+/obj/structure/railing/corner{
 	dir = 8
 	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/structure/railing/corner{
-	dir = 1
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"L" = (
+/obj/structure/catwalk/over,
+/obj/structure/railing{
+	dir = 9
 	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
-"x" = (
+"M" = (
+/obj/structure/closet/crate/large{
+	name = "material crate"
+	},
+/obj/item/stack/sheet/mineral/titanium/fifty,
+/obj/item/stack/sheet/mineral/titanium/fifty,
+/obj/item/stack/sheet/mineral/titanium/fifty,
+/obj/item/stack/sheet/mineral/titanium/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/mineral/plasma/fifty,
+/obj/item/stack/sheet/mineral/plasma/fifty,
+/obj/item/stack/sheet/mineral/silver/twenty,
+/obj/item/stack/sheet/mineral/uranium/twenty,
+/obj/item/stack/sheet/plasmarglass{
+	amount = 25
+	},
+/obj/item/stack/sheet/titaniumglass{
+	amount = 50
+	},
+/obj/item/stack/sheet/titaniumglass{
+	amount = 50
+	},
+/obj/item/stack/sheet/titaniumglass{
+	amount = 50
+	},
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/mineral/gold/twenty,
+/obj/item/stack/sheet/mineral/diamond/five,
+/obj/item/stack/cable_coil/red,
+/obj/item/stack/cable_coil/red,
+/obj/item/stack/cable_coil/red,
+/obj/item/stack/cable_coil/red,
+/obj/item/stack/cable_coil/red,
+/obj/item/stack/cable_coil/red,
 /obj/structure/catwalk/over,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"N" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"y" = (
-/obj/effect/spawner/structure/window/reinforced/shutters,
-/turf/open/floor/plating,
+/turf/open/floor/plasteel,
 /area/ship/construction)
-"z" = (
+"O" = (
 /obj/machinery/power/shuttle/engine/electric{
 	dir = 4
 	},
@@ -346,7 +503,90 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ship/external)
-"A" = (
+"P" = (
+/obj/structure/catwalk/over,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"Q" = (
+/obj/structure/window/reinforced/spawner/west,
+/obj/machinery/power/smes/shuttle/precharged{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/door/window/eastleft{
+	name = "Engine Access"
+	},
+/turf/open/floor/plating,
+/area/ship/construction)
+"R" = (
+/turf/template_noop,
+/area/template_noop)
+"S" = (
+/obj/machinery/door/airlock/external/glass,
+/obj/structure/fans/tiny,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/ship/construction)
+"T" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
+/area/ship/construction)
+"U" = (
+/obj/machinery/power/smes/shuttle/precharged{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/railing,
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"V" = (
+/obj/structure/catwalk/over,
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"W" = (
+/obj/machinery/cryopod,
+/obj/machinery/computer/cryopod{
+	pixel_y = -32
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel,
+/area/ship/construction)
+"X" = (
+/obj/structure/catwalk/over,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external)
+"Y" = (
 /obj/structure/closet/crate/large{
 	name = "circuitry crate"
 	},
@@ -404,384 +644,147 @@
 /obj/structure/catwalk/over,
 /turf/open/floor/plating/airless,
 /area/ship/external)
-"B" = (
-/obj/machinery/airalarm/all_access{
-	dir = 4;
-	pixel_x = -24
-	},
-/turf/open/floor/plating,
-/area/ship/construction)
-"D" = (
-/obj/structure/catwalk/over,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/docking_port/mobile{
-	can_move_docking_ports = 1;
-	dir = 2;
-	dwidth = 13;
-	height = 9;
-	launch_status = 0;
-	port_direction = 8;
-	preferred_direction = 4;
-	width = 13
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"E" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/turf/open/floor/plasteel,
-/area/ship/construction)
-"F" = (
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/machinery/power/apc/auto_name/north,
-/obj/structure/closet/secure_closet/engineering_chief,
-/obj/item/clothing/mask/gas,
-/obj/item/tank/internals/oxygen,
-/obj/item/clothing/suit/space/hardsuit/engine/elite,
-/turf/open/floor/plasteel,
-/area/ship/construction)
-"G" = (
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/ship/construction)
-"H" = (
-/obj/structure/closet/crate/large{
-	name = "atmospherics crate"
-	},
-/obj/item/sbeacondrop/atmospherics/nitrogen_miner,
-/obj/item/sbeacondrop/atmospherics/oxygen_miner,
-/obj/item/sbeacondrop/atmospherics/plasma_miner,
-/obj/item/pipe_dispenser,
-/obj/item/pipe_dispenser,
-/obj/item/pipe_dispenser,
-/obj/structure/catwalk/over,
-/obj/item/paper{
-	info = "DO NOT ACTIVATE THE GAS MINER TELEPORTERS OUTSIDE OF THE APPROPRIATE TANKS YOU FUCKING DIMWITS!!";
-	color = "#ff0000";
-	desc = "Seems important. That's why it's red."
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"I" = (
-/obj/structure/catwalk/over,
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"J" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/structure/railing/corner{
-	dir = 8
-	},
-/obj/structure/railing/corner{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/ship/construction)
-"K" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/machinery/computer/helm,
-/turf/open/floor/plasteel,
-/area/ship/construction)
-"L" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/structure/railing{
-	dir = 1
-	},
-/obj/structure/railing,
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"M" = (
-/obj/structure/catwalk/over,
-/obj/structure/railing/corner{
-	dir = 8
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"N" = (
-/turf/closed/wall,
-/area/ship/construction)
-"O" = (
-/obj/structure/catwalk/over,
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"P" = (
-/obj/structure/catwalk/over,
-/obj/structure/railing{
-	dir = 9
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"Q" = (
-/obj/structure/catwalk/over,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"R" = (
-/obj/structure/cable,
-/obj/machinery/power/terminal,
-/turf/open/floor/plasteel,
-/area/ship/construction)
-"T" = (
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/power/smes/engineering,
-/turf/open/floor/plasteel,
-/area/ship/construction)
-"U" = (
-/obj/structure/catwalk/over,
-/obj/structure/cable,
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"V" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel,
-/area/ship/construction)
-"X" = (
-/obj/machinery/door/airlock/external/glass,
-/obj/structure/fans/tiny,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating,
-/area/ship/construction)
-"Y" = (
-/obj/structure/catwalk/over,
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
-"Z" = (
-/obj/structure/closet/crate/large{
-	name = "material crate"
-	},
-/obj/item/stack/sheet/mineral/titanium/fifty,
-/obj/item/stack/sheet/mineral/titanium/fifty,
-/obj/item/stack/sheet/mineral/titanium/fifty,
-/obj/item/stack/sheet/mineral/titanium/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/mineral/plasma/fifty,
-/obj/item/stack/sheet/mineral/plasma/fifty,
-/obj/item/stack/sheet/mineral/silver/twenty,
-/obj/item/stack/sheet/mineral/uranium/twenty,
-/obj/item/stack/sheet/plasmarglass{
-	amount = 25
-	},
-/obj/item/stack/sheet/titaniumglass{
-	amount = 50
-	},
-/obj/item/stack/sheet/titaniumglass{
-	amount = 50
-	},
-/obj/item/stack/sheet/titaniumglass{
-	amount = 50
-	},
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/mineral/gold/twenty,
-/obj/item/stack/sheet/mineral/diamond/five,
-/obj/item/stack/cable_coil/red,
-/obj/item/stack/cable_coil/red,
-/obj/item/stack/cable_coil/red,
-/obj/item/stack/cable_coil/red,
-/obj/item/stack/cable_coil/red,
-/obj/item/stack/cable_coil/red,
-/obj/structure/catwalk/over,
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
 
 (1,1,1) = {"
-b
+R
+k
 L
-P
-t
-i
-Z
-o
-z
-b
+g
+r
+M
+s
+O
+R
 "}
 (2,1,1) = {"
-b
-v
-u
-h
-A
-H
-m
+R
+U
+D
 a
-b
+Y
+m
+G
+H
+R
 "}
 (3,1,1) = {"
-O
-k
-c
-h
-h
-h
-M
-w
-s
+B
+v
+p
+a
+a
+a
+K
+V
+J
 "}
 (4,1,1) = {"
-r
-b
-b
-I
-J
-I
-b
-b
-r
+n
+R
+R
+u
+x
+u
+R
+R
+n
 "}
 (5,1,1) = {"
-r
-b
-N
-N
-j
-N
-N
-b
-r
+n
+R
+z
+z
+Q
+z
+z
+R
+n
 "}
 (6,1,1) = {"
-p
-U
-N
-B
-l
-G
-N
-h
-r
+P
+j
+z
+b
+y
+f
+z
+a
+n
 "}
 (7,1,1) = {"
-r
-b
-y
-q
+n
 R
-T
-y
-b
-r
+A
+t
+F
+h
+A
+R
+n
 "}
 (8,1,1) = {"
-D
-b
-N
-K
-f
-d
-N
-b
-r
+l
+R
+z
+w
+c
+W
+z
+R
+n
 "}
 (9,1,1) = {"
-r
-b
-N
-F
+n
+R
+z
+o
+i
 E
-e
-N
-b
-r
+z
+R
+n
 "}
 (10,1,1) = {"
-Y
-Q
 X
-V
-g
-V
-X
-Q
-x
+C
+S
+T
+N
+T
+S
+C
+e
 "}
 (11,1,1) = {"
-h
-b
-N
-y
-y
-y
-N
-b
-h
+a
+R
+z
+A
+A
+A
+z
+R
+a
 "}
 (12,1,1) = {"
-h
-b
-b
-h
-b
-h
-b
-b
-h
+a
+R
+R
+a
+R
+a
+R
+R
+a
 "}
 (13,1,1) = {"
-h
-h
-h
-h
-h
-h
-h
-h
-h
+a
+a
+a
+a
+a
+a
+a
+a
+a
 "}
