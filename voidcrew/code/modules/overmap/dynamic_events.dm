@@ -167,6 +167,7 @@
 		forceMove(SSovermap.get_unused_overmap_square_in_radius())
 	else
 		forceMove(SSovermap.get_unused_overmap_square())
+	planet = null
 	choose_level_type()
 
 	concerned = FALSE //Now it can be raided again
