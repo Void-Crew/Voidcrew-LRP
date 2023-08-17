@@ -1,0 +1,6104 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ae" = (
+/obj/machinery/turretid{
+	ailock = 1;
+	desc = "A specially designed set of turret controls. Looks to be covered in protective casing to prevent AI interfacing.";
+	icon_state = "control_kill";
+	lethal = 1;
+	name = "Shuttle turret control";
+	pixel_y = 34;
+	req_access = null;
+	req_access_txt = "150"
+	},
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/red{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"ai" = (
+/obj/effect/turf_decal/industrial/warning/corner,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"aj" = (
+/obj/effect/spawner/structure/window/shuttle,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/engine)
+"am" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "caravansyndicate3_bridge";
+	name = "Bridge Blast Door Control";
+	pixel_x = -16;
+	pixel_y = 5;
+	req_access_txt = "150"
+	},
+/obj/machinery/button/door{
+	id = "caravansyndicate3_bolt_bridge";
+	name = "Bridge Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_x = -16;
+	pixel_y = -5;
+	req_access_txt = "150";
+	specialfunctions = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/corner/red,
+/obj/effect/turf_decal/corner/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/red{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"aO" = (
+/obj/effect/turf_decal/industrial/warning,
+/obj/machinery/vending/cigarette,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"bE" = (
+/obj/structure/table/reinforced,
+/obj/machinery/recharger,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/effect/turf_decal/corner/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/red,
+/obj/effect/turf_decal/corner/red{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"bL" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"ct" = (
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/holopad/emergency/command,
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"cx" = (
+/obj/machinery/light/dim,
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"cz" = (
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"cK" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/sign/warning/vacuum{
+	pixel_y = -32
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/syndicate{
+	anchored = 1
+	},
+/obj/item/clothing/under/syndicate/combat,
+/obj/item/storage/belt/military,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/ert)
+"cL" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"cQ" = (
+/obj/item/gun/energy/pulse/carbine/loyalpin,
+/obj/item/gun/energy/pulse/carbine/loyalpin,
+/obj/item/gun/energy/pulse/carbine/loyalpin,
+/obj/structure/closet/crate/secure/loot{
+	desc = "A rusty crate with the Nanotrasen logo stamped on it, it may be full of valuable equipment!"
+	},
+/obj/machinery/light/dim{
+	dir = 1
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
+"cR" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/vending/assist,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"cT" = (
+/turf/open/floor/plating/airless{
+	icon_state = "platingdmg3"
+	},
+/area/ruin/space/has_grav/event_battleship/ammo)
+"cY" = (
+/obj/structure/shuttle/engine/propulsion/burst/left,
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/fighter2)
+"dj" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
+	dir = 1
+	},
+/obj/machinery/camera/all{
+	network = list("event_battleship_fighter2");
+	dir = 1;
+	pixel_y = 32;
+	pixel_x = 12
+	},
+/turf/closed/wall/mineral/titanium,
+/area/ruin/space/has_grav/event_battleship/fighter2)
+"dn" = (
+/obj/machinery/door/airlock/external{
+	name = "Gunnery Airlock"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"dB" = (
+/obj/item/ammo_casing/spent,
+/obj/effect/turf_decal/industrial/warning,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"dH" = (
+/obj/structure/window/plasma/reinforced/spawner/east,
+/obj/structure/shuttle/engine/heater{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/event_battleship/engine)
+"dJ" = (
+/turf/closed/wall/r_wall/syndicate/nosmooth,
+/area/ruin/space/has_grav/event_battleship/engine)
+"dZ" = (
+/turf/closed/wall/r_wall/syndicate/nosmooth,
+/area/ruin/space/has_grav/event_battleship/atmos)
+"eb" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"ej" = (
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
+"eE" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 10
+	},
+/obj/structure/closet/syndicate{
+	anchored = 1
+	},
+/obj/item/clothing/under/syndicate/combat,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/ert)
+"eP" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
+	dir = 9
+	},
+/turf/closed/wall/mineral/titanium,
+/area/ruin/space/has_grav/event_battleship/fighter2)
+"eT" = (
+/obj/machinery/power/port_gen/pacman{
+	anchored = 1
+	},
+/obj/item/wrench,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/ert)
+"eV" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"fh" = (
+/obj/machinery/door/airlock/external{
+	name = "Gunnery Airlock"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"fo" = (
+/obj/machinery/door/airlock/hatch{
+	id_tag = "caravansyndicate3_bolt_starboard";
+	name = "External Airlock";
+	normalspeed = 0
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/ert)
+"fr" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/closet/syndicate{
+	anchored = 1
+	},
+/obj/item/clothing/under/syndicate,
+/obj/item/clothing/glasses/night,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/ert)
+"gc" = (
+/turf/closed/wall/r_wall/syndicate/nosmooth,
+/area/ruin/space/has_grav/event_battleship/bridge)
+"gf" = (
+/obj/machinery/door/airlock/external{
+	req_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"gh" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/corner/red,
+/obj/effect/turf_decal/corner/red{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"gy" = (
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"gQ" = (
+/obj/machinery/button/door{
+	id = "event_battleship_hangar_port";
+	name = "Hangar Doors";
+	pixel_x = 24
+	},
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"hp" = (
+/turf/closed/wall/r_wall/syndicate/nosmooth,
+/area/space)
+"hz" = (
+/turf/closed/wall/r_wall/syndicate/nosmooth,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"hP" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"hS" = (
+/turf/open/space/basic,
+/area/space)
+"hT" = (
+/obj/item/stack/sheet/metal/five,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/event_battleship/bridge)
+"it" = (
+/obj/effect/turf_decal/corner/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/neutral,
+/obj/effect/turf_decal/corner/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"iu" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"iF" = (
+/obj/machinery/computer/helm{
+	dir = 1
+	},
+/obj/structure/window/plasma/reinforced,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"iL" = (
+/obj/machinery/light/dim{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"iT" = (
+/obj/effect/mob_spawn/human/corpse/nanotrasensoldier,
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"iW" = (
+/obj/effect/turf_decal/industrial/warning,
+/obj/machinery/vending/sovietsoda,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"jq" = (
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/atmos)
+"jv" = (
+/obj/structure/girder/reinforced,
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"jI" = (
+/obj/machinery/door/airlock/hatch{
+	id_tag = "caravansyndicate3_bolt_port";
+	name = "External Airlock";
+	normalspeed = 0
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/ert)
+"jQ" = (
+/obj/machinery/light/dim{
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
+"kd" = (
+/obj/machinery/conveyor{
+	id = "eventbattleship_autoloaders";
+	dir = 4
+	},
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"kL" = (
+/obj/machinery/airalarm/syndicate{
+	dir = 4;
+	pixel_x = -24
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"lc" = (
+/turf/open/floor/plating/airless{
+	icon_state = "platingdmg2"
+	},
+/area/ruin/space/has_grav/event_battleship/ammo)
+"lM" = (
+/obj/structure/cable,
+/obj/machinery/power/smes/engineering,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"lN" = (
+/obj/machinery/computer/helm,
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/fighter2)
+"lW" = (
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/fighter2)
+"mI" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
+	dir = 5
+	},
+/turf/closed/wall/mineral/titanium,
+/area/ruin/space/has_grav/event_battleship/fighter2)
+"nw" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"nE" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"nL" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -26
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 9
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"nN" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"nT" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/machinery/button/door{
+	id = "caravansyndicate3_bolt_starboard";
+	name = "External Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_x = -24;
+	pixel_y = -6;
+	req_access_txt = "150";
+	specialfunctions = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"nZ" = (
+/obj/machinery/light/dim{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"oa" = (
+/obj/structure/shuttle/engine/propulsion/burst/right,
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/fighter2)
+"oj" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Fighter Beta"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/fighter2)
+"on" = (
+/obj/machinery/button/door{
+	id = "event_battleship_hangar_starboard";
+	name = "Hangar Doors";
+	pixel_x = -24
+	},
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"ox" = (
+/turf/open/space/basic,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"oB" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/event_battleship/bridge)
+"oC" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"oK" = (
+/obj/item/gun/energy/xray,
+/obj/item/gun/energy/xray,
+/obj/item/gun/energy/xray,
+/obj/structure/closet/crate/secure/loot{
+	desc = "A rusty crate with the Nanotrasen logo stamped on it, it may be full of valuable equipment!"
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
+"oR" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"pm" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/syndicate{
+	anchored = 1
+	},
+/obj/item/clothing/shoes/jackboots,
+/obj/item/crowbar/red,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/ert)
+"pD" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
+	dir = 1
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/ert)
+"pN" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"pP" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"pY" = (
+/mob/living/simple_animal/hostile/syndicate/ranged/smg/space,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"pZ" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/fighter2)
+"qC" = (
+/obj/machinery/porta_turret/syndicate{
+	dir = 6
+	},
+/turf/closed/wall/r_wall/syndicate,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"qQ" = (
+/obj/structure/shuttle/engine/propulsion{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/event_battleship/engine)
+"qU" = (
+/obj/structure/girder/displaced,
+/turf/open/space/basic,
+/area/space)
+"rL" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/ert)
+"rN" = (
+/obj/item/melee/transforming/energy/sword/saber/blue,
+/obj/item/melee/transforming/energy/sword/saber/blue,
+/obj/item/melee/transforming/energy/sword/saber/blue,
+/obj/structure/closet/crate/secure/loot{
+	desc = "A rusty crate with the Nanotrasen logo stamped on it, it may be full of valuable equipment!"
+	},
+/obj/machinery/light/dim,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
+"sc" = (
+/obj/effect/turf_decal/industrial/warning,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"sq" = (
+/obj/machinery/light/dim,
+/turf/open/floor/engine/hull/reinforced,
+/area/ruin/space/has_grav/event_battleship/gunbay)
+"sr" = (
+/turf/open/floor/engine/hull/reinforced,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"sH" = (
+/obj/effect/turf_decal/industrial/warning/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"sO" = (
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"ti" = (
+/obj/machinery/power/rtg/advanced,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/window/plasma/reinforced/spawner/east,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"tm" = (
+/obj/machinery/light/dim{
+	dir = 1
+	},
+/turf/open/floor/engine/hull/reinforced,
+/area/ruin/space/has_grav/event_battleship/gunbay)
+"tC" = (
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/event_battleship/bridge)
+"tO" = (
+/obj/structure/fluff/event_battleship/cannon{
+	dir = 4
+	},
+/turf/open/floor/engine/hull/reinforced,
+/area/ruin/space/has_grav/event_battleship/gunbay)
+"tY" = (
+/obj/machinery/power/rtg/advanced,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/window/plasma/reinforced/spawner/east,
+/obj/structure/window/plasma/reinforced/spawner/north,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"ub" = (
+/obj/structure/shuttle/engine/propulsion/burst/right,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/fighter2)
+"ue" = (
+/obj/effect/turf_decal/corner/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/red{
+	dir = 8
+	},
+/obj/machinery/computer/helm{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"ur" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/corner/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/red,
+/obj/effect/turf_decal/corner/red{
+	dir = 8
+	},
+/obj/structure/frame/computer{
+	anchored = 1;
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"uv" = (
+/obj/item/ammo_casing/spent,
+/obj/machinery/light/dim{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"uy" = (
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"uE" = (
+/obj/machinery/door/poddoor/preopen{
+	id = "event_battleship_ammo_storage"
+	},
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"vt" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/vending/cola/random,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"vz" = (
+/obj/structure/fluff/event_battleship/oldshell,
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"vP" = (
+/obj/machinery/light/dim{
+	dir = 8
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
+"vV" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/red,
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"wb" = (
+/mob/living/simple_animal/hostile/syndicate/ranged/infiltrator{
+	name = "Syndicate Engineer"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"we" = (
+/obj/effect/mob_spawn/human/commander,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/event_battleship/bridge)
+"wm" = (
+/obj/structure/fluff/event_battleship/cannon{
+	dir = 1
+	},
+/turf/open/floor/engine/hull/reinforced,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"wF" = (
+/obj/machinery/light/dim{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/event_battleship/bridge)
+"xq" = (
+/obj/structure/closet/crate/secure/loot{
+	desc = "A rusty crate with the Nanotrasen logo stamped on it, it may be full of valuable equipment!"
+	},
+/obj/item/shield/energy,
+/obj/item/shield/energy,
+/obj/item/shield/energy,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
+"xr" = (
+/obj/effect/turf_decal/industrial/warning,
+/obj/machinery/vending/snack/random,
+/obj/machinery/light/dim{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"xs" = (
+/obj/effect/spawner/structure/window/shuttle,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/bridge)
+"xE" = (
+/obj/item/clothing/suit/space/hardsuit/shielded,
+/obj/item/clothing/suit/space/hardsuit/shielded,
+/obj/item/clothing/suit/space/hardsuit/shielded,
+/obj/structure/closet/crate/secure/loot{
+	desc = "A rusty crate with the Nanotrasen logo stamped on it, it may be full of valuable equipment!"
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
+"xF" = (
+/obj/structure/plasticflaps/opaque,
+/obj/machinery/conveyor{
+	id = "eventbattleship_autoloaders";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/gunbay)
+"xO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/corner/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/red{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"yl" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/west{
+	req_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"zG" = (
+/obj/item/shard,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"zZ" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"Ab" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Ready Room"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/neutral,
+/obj/effect/turf_decal/corner/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"Av" = (
+/obj/machinery/light/dim{
+	dir = 8
+	},
+/turf/open/floor/engine/hull/reinforced,
+/area/ruin/space/has_grav/event_battleship/gunbay)
+"AR" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"Bk" = (
+/obj/machinery/button/door{
+	id = "event_battleship_hangar_port";
+	name = "Hangar Doors";
+	pixel_x = -24
+	},
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"Bm" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/ert)
+"Bq" = (
+/obj/effect/turf_decal/corner/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/red{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"Br" = (
+/mob/living/simple_animal/hostile/syndicate/melee/sword/space/stormtrooper{
+	name = "Syndicate Captain"
+	},
+/obj/structure/chair/comfy/shuttle,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"Bu" = (
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
+"By" = (
+/obj/structure/shuttle/engine/propulsion/burst/left,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/fighter2)
+"BT" = (
+/obj/structure/chair/comfy/shuttle,
+/obj/machinery/airalarm/syndicate{
+	pixel_y = 24
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"CE" = (
+/obj/machinery/power/rtg/advanced,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/window/plasma/reinforced/spawner/west,
+/obj/structure/window/plasma/reinforced/spawner/north,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"CH" = (
+/obj/structure/closet/crate/secure/loot{
+	desc = "A rusty crate with the Nanotrasen logo stamped on it, it may be full of valuable equipment!"
+	},
+/obj/item/storage/firstaid/tactical,
+/obj/item/storage/firstaid/tactical,
+/obj/item/storage/firstaid/tactical,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
+"CK" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"CN" = (
+/turf/closed/wall/r_wall/syndicate/nosmooth,
+/area/ruin/space/has_grav/event_battleship/gunbay)
+"CU" = (
+/obj/machinery/power/rtg/advanced,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/window/plasma/reinforced/spawner/west,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"Dg" = (
+/obj/machinery/power/smes{
+	charge = 5e+006
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 10
+	},
+/obj/structure/cable/yellow,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/ert)
+"DL" = (
+/obj/machinery/light,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"DS" = (
+/turf/closed/wall/r_wall/syndicate,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"DZ" = (
+/obj/structure/grille/broken,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/bridge)
+"Eg" = (
+/obj/machinery/computer/autopilot{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/fighter2)
+"Ei" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/syndicate{
+	anchored = 1
+	},
+/obj/item/storage/box/syndie_kit/chameleon,
+/obj/item/crowbar/red,
+/obj/machinery/light/small,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/ert)
+"EN" = (
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"FK" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/poddoor{
+	id = "event_battleship_hangar_starboard"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"Ga" = (
+/obj/structure/window/plasma/reinforced,
+/obj/structure/table/reinforced,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"Gn" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
+	dir = 5
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/fighter2)
+"Gu" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/closet/crate,
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/item/stack/sheet/metal/twenty,
+/obj/item/stack/sheet/glass{
+	amount = 10
+	},
+/obj/item/stack/sheet/mineral/plastitanium{
+	amount = 20
+	},
+/obj/item/storage/box/lights/bulbs,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 20
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/orange/hidden,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/ert)
+"GF" = (
+/obj/structure/girder/displaced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"GQ" = (
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"GX" = (
+/obj/machinery/droneDispenser/preloaded{
+	dispense_type = /obj/structure/fluff/event_battleship/oldshell;
+	name = "damaged artillery shell dispenser";
+	desc = "A modified drone shell dispenser made to dispense artillery shells. Its gunpowder resesrves are empty."
+	},
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"Hb" = (
+/turf/closed/wall/r_wall/syndicate/nosmooth,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
+"Ho" = (
+/obj/machinery/door/airlock/atmos/glass{
+	name = "Atmospherics"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/atmos)
+"Hx" = (
+/obj/machinery/turretid{
+	req_access = list(150);
+	pixel_y = -32
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"HE" = (
+/turf/open/floor/engine/hull/reinforced,
+/area/ruin/space/has_grav/event_battleship/gunbay)
+"HG" = (
+/obj/effect/mob_spawn/human/corpse/nanotrasensoldier,
+/obj/item/gun/energy/laser/captain/brazil{
+	name = "old laser pistol";
+	desc = "A very early model of Nanotrasen laser pistol issued to middle-ranking security officers. While it used to be able to self-recharge, the nuclear core has since run out of fuel."
+	},
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"HM" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/emergency,
+/obj/item/wrench,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/corner/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/red{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"HQ" = (
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/engine)
+"HS" = (
+/obj/machinery/door/airlock/external{
+	name = "Gunnery Airlock"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/gunbay)
+"HY" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/machinery/button/door{
+	id = "caravansyndicate3_bolt_port";
+	name = "External Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_x = -24;
+	pixel_y = 6;
+	req_access_txt = "150";
+	specialfunctions = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"Iq" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Bridge";
+	req_access_txt = "109"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/event_battleship/bridge)
+"Iv" = (
+/obj/machinery/light/broken{
+	dir = 1;
+	pixel_y = -4
+	},
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"Ja" = (
+/obj/machinery/conveyor_switch/oneway{
+	id = "eventbattleship_autoloaders";
+	name = "autoloader control switch";
+	pixel_y = 16
+	},
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"Jg" = (
+/obj/machinery/door/airlock/external/glass{
+	name = "Hangar Access"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"JI" = (
+/obj/machinery/button/door{
+	id = "event_battleship_hangar_starboard";
+	name = "Hangar Doors";
+	pixel_x = 24
+	},
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"JP" = (
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Engineering"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/engine)
+"Kk" = (
+/obj/machinery/door/window/brigdoor{
+	req_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"KV" = (
+/obj/machinery/door/airlock/external{
+	req_access_txt = "150"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"Lv" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/vending/cigarette,
+/obj/machinery/light/dim,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"Lz" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
+	dir = 9
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/fighter2)
+"LA" = (
+/obj/structure/fluff/event_battleship/oldshell,
+/obj/machinery/conveyor{
+	id = "eventbattleship_autoloaders";
+	dir = 4
+	},
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"LP" = (
+/obj/structure/fluff/event_battleship/cannon/bigboy{
+	dir = 4
+	},
+/turf/open/floor/engine/hull/reinforced,
+/area/ruin/space/has_grav/event_battleship/gunbay)
+"LV" = (
+/obj/machinery/atmospherics/components/unary/tank/toxins{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/hatch/yellow{
+	dir = 4
+	},
+/obj/machinery/light/small,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/ert)
+"Mb" = (
+/obj/machinery/door/airlock/hatch{
+	id_tag = "caravansyndicate3_bolt_bridge";
+	name = "Bridge"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/effect/turf_decal/corner/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/neutral,
+/obj/effect/turf_decal/corner/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"MC" = (
+/obj/item/shard,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"MH" = (
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 8;
+	name = "fuel pump"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"MX" = (
+/obj/machinery/light/dim{
+	dir = 4
+	},
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"Ni" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"Nl" = (
+/obj/effect/mob_spawn/human/corpse/syndicatecommando,
+/obj/item/gun/ballistic/automatic/c20r/sc_c20r,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"No" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"NS" = (
+/obj/structure/girder/reinforced,
+/turf/open/floor/plating/airless{
+	icon_state = "platingdmg2"
+	},
+/area/ruin/space/has_grav/event_battleship/ammo)
+"Oq" = (
+/turf/open/floor/plating/airless{
+	icon_state = "platingdmg1"
+	},
+/area/ruin/space/has_grav/event_battleship/ammo)
+"Os" = (
+/obj/machinery/light/dim{
+	dir = 1
+	},
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"Oy" = (
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/engine)
+"OB" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"OG" = (
+/obj/effect/turf_decal/industrial/warning,
+/obj/machinery/vending/cola/random,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"ON" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/firstaid/regular,
+/obj/item/assembly/flash/handheld,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/corner/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/red,
+/obj/effect/turf_decal/corner/red{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"OR" = (
+/obj/effect/turf_decal/corner/red,
+/obj/effect/turf_decal/corner/red{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden,
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"Ph" = (
+/obj/effect/spawner/structure/window/shuttle,
+/obj/machinery/door/poddoor{
+	id = "caravansyndicate3_bridge"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/ert)
+"Pk" = (
+/obj/structure/shuttle/engine/propulsion{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"Pl" = (
+/obj/machinery/light/dim{
+	dir = 8
+	},
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"PF" = (
+/obj/machinery/vending/security/marine,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"PQ" = (
+/obj/item/circuitboard/computer/shuttle/helm,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/event_battleship/bridge)
+"Qj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/corner/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/neutral,
+/obj/effect/turf_decal/corner/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"Qk" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"Qx" = (
+/obj/item/ammo_casing/spent,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"QF" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"Ra" = (
+/obj/structure/fluff/event_battleship/oldplasmashell,
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"Rs" = (
+/mob/living/simple_animal/hostile/syndicate/ranged/smg/space,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"RM" = (
+/obj/structure/fluff/event_battleship/cannon,
+/turf/open/floor/engine/hull/reinforced,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"RQ" = (
+/turf/closed/wall/r_wall/syndicate/nosmooth,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"Sn" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/closet/syndicate{
+	anchored = 1
+	},
+/obj/structure/sign/warning/vacuum{
+	pixel_y = 32
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/clothing/shoes/sneakers/black,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/ert)
+"Ss" = (
+/turf/open/space/basic,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"SX" = (
+/obj/structure/window/plasma/reinforced,
+/obj/structure/shuttle/engine/heater{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"Tr" = (
+/obj/structure/fluff/event_battleship/oldshell,
+/obj/machinery/light/dim,
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"Ts" = (
+/obj/machinery/power/shuttle/engine/fueled/plasma{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/event_battleship/ert)
+"TD" = (
+/obj/machinery/power/apc/syndicate{
+	dir = 8;
+	name = "Syndicate Drop Ship APC";
+	pixel_x = -25
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/structure/table,
+/obj/item/storage/toolbox/emergency,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/ert)
+"Uo" = (
+/obj/effect/mob_spawn/human/bridgeofficer,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/event_battleship/bridge)
+"Us" = (
+/obj/structure/shuttle/engine/propulsion/right{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"Uu" = (
+/obj/machinery/conveyor{
+	id = "eventbattleship_autoloaders";
+	dir = 4
+	},
+/turf/open/floor/engine/hull/reinforced,
+/area/ruin/space/has_grav/event_battleship/gunbay)
+"Uw" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/vending/snack/random,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"UH" = (
+/mob/living/simple_animal/hostile/syndicate/ranged/shotgun/space,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"UR" = (
+/mob/living/simple_animal/hostile/syndicate/ranged/shotgun/space,
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"Vz" = (
+/obj/machinery/airalarm/syndicate{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"VF" = (
+/obj/machinery/light/dim,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"VH" = (
+/obj/effect/spawner/structure/window/shuttle,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/atmos)
+"VI" = (
+/obj/structure/grille/broken,
+/obj/item/shard,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/bridge)
+"VW" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/shuttle/heater{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/event_battleship/ert)
+"Wb" = (
+/obj/item/circuitboard/computer/autopilot,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/event_battleship/bridge)
+"Wl" = (
+/obj/machinery/droneDispenser/preloaded{
+	dispense_type = /obj/structure/fluff/event_battleship/oldshell;
+	name = "damaged artillery shell dispenser";
+	desc = "A modified drone shell dispenser made to dispense artillery shells. Its gunpowder resesrves are empty."
+	},
+/obj/machinery/light/dim{
+	dir = 1
+	},
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"Wt" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"Wv" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"Wx" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/poddoor/preopen{
+	id = "event_battleship_hangar_port"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"Wz" = (
+/obj/effect/turf_decal/corner/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/neutral,
+/obj/effect/turf_decal/corner/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/neutral{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 10
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"WN" = (
+/turf/closed/wall/r_wall/syndicate/nosmooth,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"WO" = (
+/obj/machinery/porta_turret/syndicate{
+	dir = 10
+	},
+/turf/closed/wall/r_wall/syndicate,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"WS" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/syndicate{
+	anchored = 1
+	},
+/obj/item/clothing/under/syndicate,
+/obj/item/clothing/shoes/sneakers/black,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/ert)
+"Xz" = (
+/obj/machinery/computer/security{
+	dir = 8;
+	network = list("event_battleship_fighter2")
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/fighter2)
+"XC" = (
+/obj/structure/chair/comfy/shuttle,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"XY" = (
+/obj/structure/shuttle/engine/propulsion/left{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"Ya" = (
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"YF" = (
+/obj/machinery/button/door{
+	id = "event_battleship_ammo_storage";
+	pixel_x = -24
+	},
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"YT" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/syndicate{
+	anchored = 1
+	},
+/obj/item/clothing/under/syndicate/combat,
+/obj/item/clothing/shoes/jackboots,
+/obj/item/storage/belt/military,
+/obj/item/crowbar/red,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/ert)
+"Zh" = (
+/mob/living/simple_animal/hostile/syndicate/ranged/smg/space,
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"Zt" = (
+/obj/machinery/conveyor{
+	id = "eventbattleship_autoloaders";
+	dir = 4
+	},
+/obj/structure/fluff/event_battleship/oldshell,
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"Zu" = (
+/obj/machinery/door/airlock/vault{
+	req_access_txt = "109"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
+"Zy" = (
+/obj/machinery/computer/crew{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/corner/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/red{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+"Zz" = (
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"ZG" = (
+/obj/structure/fluff/event_battleship/oldplasmashell,
+/obj/machinery/light/dim{
+	dir = 1
+	},
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"ZI" = (
+/obj/effect/turf_decal/corner/red,
+/obj/effect/turf_decal/corner/red{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/event_battleship/ert)
+
+(1,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+dJ
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+dJ
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(2,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+dJ
+dH
+dH
+dH
+dH
+dH
+dH
+dH
+dH
+dH
+dH
+dH
+dH
+dH
+dH
+dH
+dH
+dH
+dH
+dJ
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(3,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+dJ
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+dJ
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(4,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+dJ
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+dJ
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(5,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+dJ
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+dJ
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(6,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+dJ
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+dJ
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(7,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+dZ
+dZ
+dZ
+dZ
+dZ
+dZ
+dZ
+dZ
+dZ
+dJ
+dJ
+dJ
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+dJ
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(8,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+dZ
+jq
+jq
+jq
+jq
+jq
+jq
+jq
+dZ
+HQ
+HQ
+dJ
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+dJ
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(9,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+dZ
+jq
+jq
+jq
+jq
+jq
+jq
+jq
+Ho
+HQ
+HQ
+JP
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+dJ
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(10,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+dZ
+jq
+jq
+jq
+jq
+jq
+jq
+jq
+VH
+HQ
+HQ
+aj
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+dJ
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(11,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+dZ
+jq
+jq
+jq
+jq
+jq
+jq
+jq
+VH
+HQ
+HQ
+aj
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+dJ
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(12,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+dZ
+jq
+jq
+jq
+jq
+jq
+jq
+jq
+Ho
+HQ
+HQ
+JP
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+dJ
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(13,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+dZ
+jq
+jq
+jq
+jq
+jq
+jq
+jq
+dZ
+HQ
+HQ
+dJ
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+Oy
+dJ
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(14,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+RQ
+RQ
+RQ
+RQ
+RQ
+RQ
+RQ
+RQ
+RQ
+UH
+Zz
+RQ
+RQ
+RQ
+RQ
+RQ
+RQ
+RQ
+RQ
+RQ
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(15,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Wx
+sO
+Bk
+sO
+sO
+sO
+sO
+sO
+RQ
+Zz
+Zz
+RQ
+gy
+gy
+gy
+gy
+gy
+on
+gy
+FK
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(16,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Wx
+sO
+sO
+UR
+sO
+sO
+sO
+sO
+Jg
+Zz
+Zz
+Jg
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+FK
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(17,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Wx
+sO
+sO
+sO
+sO
+sO
+sO
+sO
+RQ
+Zz
+VF
+RQ
+gy
+gy
+Rs
+gy
+gy
+gy
+gy
+FK
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(18,1,1) = {"
+hS
+hS
+hS
+hS
+Us
+SX
+pN
+DS
+hS
+hS
+Wx
+sO
+sO
+sO
+Zh
+sO
+sO
+sO
+RQ
+nZ
+Zz
+RQ
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+FK
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(19,1,1) = {"
+hS
+hS
+hS
+hS
+Pk
+SX
+pN
+pN
+WO
+hS
+Wx
+sO
+sO
+sO
+sO
+sO
+sO
+sO
+Jg
+Zz
+Zz
+Jg
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+FK
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(20,1,1) = {"
+hS
+hS
+hS
+hS
+XY
+SX
+pN
+pN
+pN
+DS
+Wx
+sO
+sO
+sO
+sO
+sO
+sO
+sO
+RQ
+Zz
+pY
+RQ
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+FK
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(21,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+pN
+nw
+yl
+pN
+pN
+pN
+pN
+pN
+WO
+sO
+sO
+sO
+RQ
+Zz
+MC
+RQ
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+FK
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(22,1,1) = {"
+hS
+hS
+hS
+Us
+SX
+pN
+pN
+oC
+cz
+PF
+PF
+tY
+ti
+ti
+pN
+pN
+pN
+pN
+WO
+Iv
+Zz
+RQ
+gy
+gy
+gy
+gy
+gy
+GF
+gy
+FK
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(23,1,1) = {"
+hS
+hS
+hS
+Pk
+SX
+Hx
+Ga
+oC
+cz
+cz
+wb
+nE
+nE
+eb
+pP
+oR
+oR
+oR
+pN
+pN
+KV
+pN
+WO
+gy
+gy
+gy
+gy
+gy
+gy
+FK
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(24,1,1) = {"
+hS
+hS
+hS
+Pk
+SX
+Br
+iF
+oC
+AR
+eV
+Wv
+cz
+cz
+cz
+cz
+cz
+cz
+cz
+gf
+cz
+cz
+DL
+pN
+pN
+pN
+jv
+QF
+gy
+gy
+FK
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(25,1,1) = {"
+hS
+hS
+hS
+Pk
+SX
+bL
+Kk
+oC
+oC
+cz
+iu
+No
+No
+OB
+nN
+Ni
+Ni
+Ni
+pN
+pN
+KV
+pN
+qC
+gy
+gy
+gy
+gy
+gy
+gy
+FK
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(26,1,1) = {"
+hS
+hS
+hS
+XY
+SX
+pN
+pN
+oC
+hP
+PF
+PF
+CE
+CU
+CU
+pN
+pN
+pN
+pN
+qC
+Zz
+Zz
+RQ
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+FK
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(27,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+pN
+cL
+lM
+pN
+pN
+pN
+pN
+pN
+qC
+sO
+sO
+sO
+RQ
+Zz
+Zz
+RQ
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+FK
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(28,1,1) = {"
+hS
+hS
+hS
+hS
+Us
+SX
+pN
+pN
+pN
+DS
+Wx
+sO
+sO
+sO
+sO
+sO
+sO
+sO
+RQ
+Zz
+VF
+RQ
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+FK
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(29,1,1) = {"
+hS
+hS
+hS
+hS
+Pk
+SX
+pN
+pN
+qC
+hS
+Wx
+sO
+Lz
+pZ
+pZ
+pZ
+By
+sO
+RQ
+pY
+Zz
+RQ
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+FK
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(30,1,1) = {"
+hS
+hS
+hS
+hS
+XY
+SX
+pN
+DS
+hS
+hS
+Wx
+sO
+sO
+sO
+pZ
+pZ
+oa
+UR
+RQ
+Zz
+Zz
+RQ
+gy
+gy
+gy
+Rs
+gy
+gy
+gy
+FK
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(31,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Wx
+sO
+sO
+eP
+pZ
+Eg
+pZ
+iT
+RQ
+Zz
+Zz
+RQ
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+FK
+rL
+hS
+Ts
+Ts
+Ts
+hS
+rL
+hS
+hS
+hS
+"}
+(32,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Wx
+sO
+dj
+pZ
+lN
+lW
+oj
+sO
+Jg
+Zz
+Zz
+Jg
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+FK
+Bm
+Bm
+VW
+VW
+VW
+Bm
+Bm
+hS
+hS
+hS
+"}
+(33,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Wx
+sO
+sO
+mI
+pZ
+Xz
+pZ
+sO
+RQ
+nZ
+UH
+RQ
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+FK
+Bm
+TD
+Dg
+Gu
+eT
+LV
+Bm
+hS
+hS
+hS
+"}
+(34,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Wx
+sO
+sO
+sO
+pZ
+pZ
+cY
+sO
+RQ
+Zz
+VF
+RQ
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+FK
+Bm
+XC
+xO
+MH
+ZI
+zZ
+Bm
+hS
+hS
+hS
+"}
+(35,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Wx
+sO
+Gn
+pZ
+pZ
+pZ
+ub
+sO
+Jg
+Zz
+Zz
+Jg
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+FK
+Bm
+BT
+Bq
+Wz
+OR
+nL
+Bm
+hS
+hS
+hS
+"}
+(36,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Wx
+sO
+gQ
+sO
+sO
+sO
+sO
+sO
+RQ
+Zz
+Zz
+RQ
+gy
+gy
+gy
+gy
+gy
+JI
+gy
+FK
+Bm
+XC
+Bq
+it
+gh
+CK
+Bm
+hS
+hS
+hS
+"}
+(37,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+RQ
+RQ
+RQ
+RQ
+RQ
+RQ
+RQ
+RQ
+hz
+uy
+uy
+hz
+RQ
+RQ
+RQ
+RQ
+RQ
+RQ
+RQ
+RQ
+Bm
+fr
+YT
+it
+WS
+Ei
+Bm
+hS
+hS
+hS
+"}
+(38,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hz
+Ss
+Ss
+Ss
+Ss
+Ss
+Ss
+Ss
+Ss
+uy
+uy
+Ss
+Ss
+Ss
+Ss
+Ss
+Ss
+Ss
+Ss
+hz
+pD
+Bm
+Bm
+Ab
+Bm
+Bm
+pD
+hS
+hS
+hS
+"}
+(39,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hz
+Ss
+Ss
+Ss
+Ss
+Ss
+Ss
+Ss
+Ss
+uy
+uy
+Ss
+Ss
+Ss
+Ss
+Ss
+Ss
+Ss
+Ss
+hz
+jI
+HY
+kL
+it
+Ya
+nT
+fo
+hS
+hS
+hS
+"}
+(40,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hz
+Ss
+Ss
+Ss
+Ss
+Ss
+Ss
+Ss
+Ss
+uy
+uy
+Ss
+Ss
+Ss
+Ss
+Ss
+Ss
+Ss
+Ss
+hz
+Bm
+Sn
+eE
+Qj
+pm
+cK
+Bm
+hS
+hS
+hS
+"}
+(41,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+Bm
+Bm
+Bm
+Mb
+Bm
+Bm
+Bm
+hS
+hS
+hS
+"}
+(42,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+Bm
+bE
+Vz
+it
+ct
+HM
+Bm
+hS
+hS
+hS
+"}
+(43,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+Ph
+am
+ae
+Wt
+vV
+ON
+Ph
+hS
+hS
+hS
+"}
+(44,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+Ph
+Ph
+ur
+ue
+Zy
+Ph
+Ph
+hS
+hS
+hS
+"}
+(45,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+Ph
+Ph
+Ph
+Ph
+Ph
+hS
+hS
+hS
+hS
+"}
+(46,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(47,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(48,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(49,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(50,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(51,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(52,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(53,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(54,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(55,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(56,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(57,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(58,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(59,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(60,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(61,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(62,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(63,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(64,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hp
+hp
+hp
+hS
+hS
+hS
+hS
+hS
+Ss
+uy
+uy
+Ss
+hS
+hS
+hS
+hS
+hS
+hp
+hp
+hp
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(65,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+sr
+sr
+hz
+hz
+hz
+hz
+hz
+hz
+hz
+uy
+uy
+hz
+hz
+hz
+hz
+hz
+hz
+hz
+sr
+sr
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(66,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+sr
+sr
+hz
+uy
+uy
+uy
+uy
+uy
+uy
+uy
+uy
+uy
+uy
+uy
+uy
+uy
+uy
+hz
+sr
+sr
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(67,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+sr
+wm
+hz
+uy
+uy
+uy
+uy
+uy
+uy
+uy
+uy
+uy
+uy
+uy
+uy
+uy
+uy
+hz
+RM
+sr
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(68,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+sr
+sr
+hz
+uy
+uy
+gc
+gc
+gc
+Iq
+gc
+gc
+Iq
+gc
+gc
+gc
+uy
+uy
+hz
+sr
+sr
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(69,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+sr
+sr
+hz
+uy
+uy
+gc
+tC
+wF
+tC
+PQ
+oB
+tC
+wF
+tC
+gc
+uy
+uy
+hz
+sr
+sr
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(70,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+sr
+wm
+hz
+uy
+uy
+gc
+tC
+Uo
+tC
+hT
+tC
+tC
+Uo
+tC
+gc
+uy
+uy
+hz
+RM
+sr
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(71,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+sr
+sr
+hz
+uy
+uy
+gc
+tC
+tC
+tC
+we
+Wb
+tC
+tC
+tC
+gc
+uy
+uy
+hz
+sr
+sr
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(72,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+sr
+sr
+hz
+uy
+uy
+gc
+tC
+tC
+tC
+tC
+hT
+tC
+tC
+tC
+gc
+uy
+uy
+hz
+sr
+sr
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(73,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+sr
+wm
+hz
+uy
+uy
+gc
+gc
+xs
+xs
+DZ
+VI
+xs
+xs
+gc
+gc
+uy
+uy
+hz
+RM
+sr
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(74,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+sr
+sr
+hz
+uy
+uy
+uy
+uv
+zG
+uy
+uy
+Qx
+uy
+HG
+iL
+uy
+uy
+uy
+hz
+sr
+sr
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(75,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+sr
+sr
+hz
+uy
+uy
+uy
+uy
+HG
+zG
+Qx
+uy
+uy
+zG
+Qx
+uy
+uy
+uy
+hz
+sr
+sr
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(76,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hz
+hz
+hz
+hz
+hz
+hz
+hz
+Nl
+uy
+hz
+hz
+hz
+hz
+hz
+hz
+hz
+Hb
+Hb
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(77,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hz
+uy
+Qx
+hz
+ej
+vP
+ej
+ej
+ej
+vP
+ej
+Hb
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(78,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hz
+Qx
+uy
+hz
+ej
+ej
+ej
+ej
+ej
+ej
+ej
+Hb
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(79,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hz
+uy
+Qx
+hz
+ej
+ej
+ej
+ej
+ej
+ej
+ej
+Hb
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(80,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hz
+uy
+uy
+hz
+ej
+ej
+ej
+ej
+ej
+ej
+ej
+Hb
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(81,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hz
+Qx
+uy
+hz
+ej
+jQ
+ej
+ej
+ej
+jQ
+ej
+Hb
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(82,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+WN
+WN
+WN
+WN
+WN
+WN
+WN
+WN
+hz
+sH
+ai
+hz
+Hb
+Hb
+Hb
+Zu
+Hb
+Hb
+Hb
+Hb
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(83,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+WN
+Ra
+Ra
+Ra
+vz
+vz
+vz
+WN
+OG
+Qk
+sc
+Uw
+Hb
+Hb
+Hb
+Bu
+Hb
+Hb
+Hb
+Hb
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(84,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+WN
+ZG
+Ra
+Ra
+vz
+vz
+Tr
+WN
+aO
+Qk
+dB
+Lv
+Hb
+Hb
+Hb
+Zu
+Hb
+Hb
+Hb
+Hb
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(85,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+WN
+Ra
+Ra
+Ra
+vz
+vz
+vz
+WN
+xr
+Qk
+sc
+cR
+Hb
+Hb
+xE
+ej
+xq
+Hb
+Hb
+Hb
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(86,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+WN
+Ra
+Ra
+Ra
+vz
+vz
+vz
+WN
+iW
+Qk
+sc
+vt
+Hb
+Hb
+cQ
+ej
+rN
+Hb
+Hb
+Hb
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(87,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+WN
+ZG
+Ra
+Ra
+vz
+vz
+Tr
+WN
+WN
+fh
+fh
+Hb
+Hb
+Hb
+oK
+ej
+CH
+Hb
+Hb
+Hb
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(88,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+WN
+Ra
+Ra
+Ra
+vz
+vz
+vz
+WN
+WN
+GQ
+GQ
+Hb
+Hb
+Hb
+Hb
+Hb
+Hb
+Hb
+Hb
+Hb
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(89,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+WN
+uE
+uE
+uE
+uE
+uE
+uE
+WN
+WN
+dn
+dn
+Hb
+Hb
+Hb
+Hb
+Hb
+Hb
+Hb
+Hb
+Hb
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(90,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+WN
+EN
+EN
+EN
+EN
+EN
+EN
+YF
+EN
+EN
+EN
+Pl
+EN
+EN
+EN
+Pl
+EN
+EN
+EN
+WN
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(91,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+WN
+Wl
+EN
+EN
+EN
+EN
+EN
+EN
+EN
+EN
+EN
+EN
+EN
+EN
+EN
+EN
+EN
+EN
+cx
+WN
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(92,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+WN
+GX
+EN
+EN
+EN
+EN
+EN
+EN
+EN
+EN
+Ja
+EN
+EN
+EN
+EN
+EN
+EN
+EN
+Oq
+WN
+hS
+qU
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(93,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+WN
+GX
+EN
+kd
+EN
+EN
+EN
+kd
+EN
+EN
+EN
+EN
+Zt
+EN
+EN
+EN
+kd
+EN
+Oq
+ox
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(94,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+WN
+EN
+EN
+Zt
+EN
+EN
+EN
+kd
+EN
+EN
+EN
+EN
+kd
+EN
+EN
+EN
+kd
+EN
+cT
+NS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(95,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+WN
+EN
+EN
+kd
+EN
+EN
+EN
+kd
+MX
+EN
+EN
+EN
+kd
+EN
+EN
+EN
+kd
+EN
+lc
+WN
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(96,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+WN
+Os
+EN
+Zt
+EN
+EN
+EN
+LA
+WN
+fh
+fh
+WN
+LA
+EN
+EN
+EN
+Zt
+EN
+cx
+WN
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(97,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+WN
+EN
+EN
+kd
+MX
+EN
+EN
+Zt
+WN
+GQ
+GQ
+WN
+kd
+EN
+EN
+MX
+kd
+EN
+EN
+WN
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(98,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+CN
+CN
+CN
+xF
+CN
+CN
+CN
+xF
+CN
+HS
+HS
+CN
+xF
+CN
+CN
+CN
+xF
+CN
+CN
+CN
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(99,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+CN
+HE
+HE
+Uu
+HE
+Av
+HE
+Uu
+HE
+HE
+HE
+HE
+Uu
+HE
+Av
+HE
+Uu
+HE
+HE
+CN
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(100,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+CN
+tO
+HE
+LP
+HE
+tO
+HE
+LP
+HE
+HE
+HE
+HE
+LP
+HE
+tO
+HE
+LP
+HE
+tO
+CN
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(101,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+CN
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+CN
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(102,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+CN
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+CN
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(103,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+CN
+tm
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+sq
+CN
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(104,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+CN
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+CN
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
+(105,1,1) = {"
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+hS
+"}
