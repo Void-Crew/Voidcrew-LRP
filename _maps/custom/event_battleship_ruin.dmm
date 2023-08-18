@@ -603,6 +603,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ruin/space/has_grav/event_battleship/hallway)
+"jc" = (
+/obj/structure/fluff/event_battleship/spentshell,
+/turf/open/space/basic,
+/area/space)
 "jm" = (
 /obj/effect/mob_spawn/human/engineer/rig{
 	brute_damage = 200
@@ -627,6 +631,15 @@
 	icon_state = "platingdmg2"
 	},
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"jA" = (
+/obj/machinery/light/dim,
+/obj/machinery/computer/pod{
+	dir = 1;
+	name = "shell ejector control";
+	id = "event_battleship_spent_eject"
+	},
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
 "jI" = (
 /obj/machinery/door/airlock{
 	name = "Cabin"
@@ -1543,6 +1556,12 @@
 	},
 /turf/open/floor/pod/dark,
 /area/ruin/space/has_grav/event_battleship/fighter1)
+"xi" = (
+/obj/machinery/mass_driver{
+	id = "event_battleship_spent_eject"
+	},
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
 "xq" = (
 /obj/structure/closet/crate/secure/loot{
 	desc = "A rusty crate with the Nanotrasen logo stamped on it, it may be full of valuable equipment!";
@@ -1980,6 +1999,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/airless,
 /area/ruin/space/has_grav/event_battleship/hallway)
+"Eo" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "event_battleship_spent_eject"
+	},
+/obj/machinery/mass_driver{
+	id = "event_battleship_spent_eject"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/ammo)
 "EF" = (
 /obj/item/stack/cable_coil/cut/red,
 /obj/structure/lattice,
@@ -2848,6 +2877,10 @@
 /area/ruin/space/has_grav/event_battleship/fighter1)
 "Ra" = (
 /obj/structure/fluff/event_battleship/oldplasmashell,
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"Rh" = (
+/obj/effect/mob_spawn/drone,
 /turf/open/floor/engine/airless,
 /area/ruin/space/has_grav/event_battleship/ammo)
 "Rs" = (
@@ -7461,7 +7494,7 @@ hS
 qU
 hS
 hS
-hS
+jc
 hS
 aF
 hS
@@ -7549,7 +7582,7 @@ hS
 hS
 hS
 hS
-hS
+jc
 hS
 "}
 (95,1,1) = {"
@@ -7623,7 +7656,7 @@ Ya
 EN
 Zt
 EN
-cx
+jA
 WN
 hS
 Gq
@@ -7652,7 +7685,7 @@ EN
 EN
 kd
 MX
-EN
+Rh
 EN
 Zt
 CN
@@ -7661,12 +7694,12 @@ jP
 CN
 kd
 EN
-EN
+Rh
 MX
 kd
-EN
-EN
-WN
+xi
+xi
+Eo
 hS
 hS
 hS

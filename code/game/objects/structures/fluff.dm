@@ -297,3 +297,10 @@
 	desc = "An old artillery shell formerly used by most Nanotrasen heavy deck gunnery."
 	icon_state = "oldshell"
 	icon = 'icons/misc/deck_gun.dmi'
+
+/obj/structure/fluff/event_battleship/spentshell
+	anchored = FALSE
+	name = "spent shell"
+	desc = "A spent artillery shell."
+	icon_state = "spentshell"
+	icon = 'icons/misc/deck_gun.dmi'
