@@ -1682,7 +1682,9 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/rechargefloor,
-/obj/mecha/combat/marauder/loaded,
+/obj/mecha/combat/marauder/loaded{
+	operation_req_access = 0
+	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/science/robotics)
 "gZ" = (
@@ -2520,12 +2522,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/crew/canteen)
-"jV" = (
-/obj/structure/catwalk/over/plated_catwalk/dark,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/shieldgen,
-/turf/open/floor/plating,
-/area/ship/security/range)
 "jY" = (
 /obj/machinery/door/airlock,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -3977,31 +3973,9 @@
 /turf/open/floor/plasteel/showroomfloor,
 /area/ship/crew/canteen/kitchen)
 "pl" = (
-/obj/structure/toilet{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/vomit/old,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/closet/wall{
-	dir = 4;
-	pixel_x = -28
-	},
-/obj/item/reagent_containers/syringe/contraband/fentanyl{
-	pixel_x = -3;
-	pixel_y = 4
-	},
-/obj/item/reagent_containers/syringe/contraband/methamphetamine,
-/obj/item/reagent_containers/syringe/charcoal{
-	pixel_x = -3
-	},
-/obj/item/reagent_containers/food/drinks/beer{
-	pixel_x = -4
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/plasteel/showroomfloor,
-/area/ship/crew/toilet)
+/obj/structure/sign/warning/radiation,
+/turf/closed/wall/r_wall/syndicate/nosmooth,
+/area/ship/construction)
 "pp" = (
 /obj/machinery/atmospherics/pipe/simple/yellow/visible{
 	dir = 4
@@ -4593,6 +4567,12 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/canteen/kitchen)
+"sc" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/shieldgen,
+/turf/open/floor/plating,
+/area/ship/security/range)
 "se" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -11689,10 +11669,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/canteen/kitchen)
-"UV" = (
-/obj/structure/sign/warning/radiation,
-/turf/closed/wall/r_wall/syndicate/nosmooth,
-/area/ship/construction)
 "UW" = (
 /obj/structure/chair/office{
 	dir = 8;
@@ -14012,7 +13988,7 @@ ju
 WO
 Fj
 kR
-pl
+ll
 kv
 Uu
 sX
@@ -14721,10 +14697,10 @@ Zg
 iW
 rt
 ei
-UV
+pl
 NF
 NF
-UV
+pl
 ei
 dY
 SF
@@ -14883,7 +14859,7 @@ Wj
 ZO
 ei
 rw
-jV
+sc
 er
 Mm
 Mm
@@ -14955,10 +14931,10 @@ Mb
 IP
 rw
 ei
-UV
+pl
 NF
 NF
-UV
+pl
 ei
 rw
 xW
@@ -15195,7 +15171,7 @@ ei
 ei
 VT
 dM
-jV
+sc
 gP
 Mm
 Mm
