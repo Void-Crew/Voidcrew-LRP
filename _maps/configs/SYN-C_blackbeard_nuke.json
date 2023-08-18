@@ -1,0 +1,23 @@
+{
+	"map_name": "Blackbeard-Trident-class Nuclear Weapon Retrieval Vessel",
+	"map_short_name": "Blackbeard-Class Strike Vessel",
+	"roundstart": false,
+	"prefix": "SYN-C",
+	"map_path": "_maps/shuttles/shiptest/voidcrew/blackbeard_nuke.dmm",
+	"map_id": "Nuclear Recovery Blackbeard-Class",
+	"job_slots": {
+		"Syndicate Strike Captain": {
+			"outfit": "/datum/outfit/syndicate_empty/sbc/assault/captain",
+			"slots": 1
+		},
+		"Syndicate Strike Agent":{
+			"outfit": "/datum/outfit/syndicate",
+			"slots": 4
+		},
+		"Medic":{
+			"outfit": "/datum/outfit/syndicate_empty/sbc/med",
+			"slots": 1
+		}
+	},
+	"enabled" : false
+}
