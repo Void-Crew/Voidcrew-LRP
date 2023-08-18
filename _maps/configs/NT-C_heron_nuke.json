@@ -2,10 +2,10 @@
 	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
 	"prefix": "NT-C",
 	"namelists": ["WEAPONS"],
-	"map_name": "Heron-Class Dreadnaught",
-	"map_short_name": "Heron-class",
-	"map_path": "_maps/shuttles/shiptest/heron.dmm",
-	"map_id": "heron",
+	"map_name": "Heron-B-Class Nuclear Transport",
+	"map_short_name": "Nuclear Heron-class",
+	"map_path": "_maps/shuttles/shiptest/heron_nuke.dmm",
+	"map_id": "heron_nuke",
 	"limit": 1,
 	"job_slots": {
 		"Fleet Captain": {
@@ -67,5 +67,5 @@
 		"Janitor": 1,
 		"Assistant": 3
 	},
-	"cost": 1600
+	"enabled": false
 }
