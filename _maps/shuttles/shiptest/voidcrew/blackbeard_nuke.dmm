@@ -329,6 +329,10 @@
 	icon_state = "catwalk_above"
 	},
 /area/ship/hallway/central)
+"fU" = (
+/obj/machinery/suit_storage_unit/syndicate,
+/turf/open/floor/mineral/plastitanium,
+/area/ship/cargo)
 "fX" = (
 /obj/machinery/power/shuttle/engine/fueled/plasma{
 	dir = 4
@@ -353,16 +357,6 @@
 	icon_state = "catwalk_above"
 	},
 /area/ship/hallway/central)
-"gf" = (
-/obj/structure/rack,
-/obj/item/clothing/suit/fire/firefighter,
-/obj/item/clothing/head/hardhat/red,
-/obj/item/extinguisher,
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/ship/engineering)
 "go" = (
 /obj/machinery/light{
 	dir = 4
@@ -579,21 +573,6 @@
 	icon_state = "catwalk_above"
 	},
 /area/ship/bridge)
-"lK" = (
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/machinery/power/port_gen/pacman/uranium,
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating/catwalk_floor{
-	icon_state = "catwalk_above"
-	},
-/area/ship/engineering)
 "lZ" = (
 /obj/machinery/power/shuttle/engine/fueled/plasma{
 	dir = 4
@@ -665,6 +644,21 @@
 	icon_state = "catwalk_above"
 	},
 /area/ship/bridge)
+"nO" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/port_gen/pacman/uranium,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating/catwalk_floor{
+	icon_state = "catwalk_above"
+	},
+/area/ship/engineering)
 "nU" = (
 /obj/machinery/advanced_airlock_controller{
 	pixel_x = 24
@@ -810,15 +804,7 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ship/medical)
 "sC" = (
-/obj/machinery/atmospherics/pipe/simple/orange/visible{
-	dir = 8
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating/catwalk_floor{
-	icon_state = "catwalk_above"
-	},
+/turf/closed/wall/mineral/plastitanium,
 /area/ship/engineering)
 "sV" = (
 /obj/structure/cable/yellow{
@@ -910,8 +896,22 @@
 	icon_state = "catwalk_above"
 	},
 /area/ship/hallway/central)
+"uI" = (
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ship/cargo)
 "vP" = (
-/turf/closed/wall/mineral/plastitanium,
+/obj/machinery/atmospherics/pipe/simple/orange/visible{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating/catwalk_floor{
+	icon_state = "catwalk_above"
+	},
 /area/ship/engineering)
 "vW" = (
 /turf/open/floor/mineral/plastitanium/red{
@@ -996,12 +996,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
-"xr" = (
-/obj/machinery/computer/mech_bay_power_console{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/ship/cargo)
 "xW" = (
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
@@ -1057,6 +1051,12 @@
 "yC" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ship/hallway/central)
+"yL" = (
+/obj/machinery/porta_turret/syndicate{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/ship/cargo)
 "Be" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -1141,10 +1141,6 @@
 	icon_state = "catwalk_above"
 	},
 /area/ship/medical)
-"Co" = (
-/obj/machinery/mech_bay_recharge_port,
-/turf/open/floor/mineral/plastitanium,
-/area/ship/cargo)
 "CP" = (
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
@@ -1247,12 +1243,6 @@
 	icon_state = "catwalk_above"
 	},
 /area/ship/medical)
-"FK" = (
-/obj/machinery/porta_turret/syndicate{
-	dir = 4
-	},
-/turf/closed/wall/mineral/plastitanium,
-/area/ship/hallway/central)
 "Ga" = (
 /obj/effect/decal/cleanable/blood/bubblegum{
 	icon_state = "floor6-old"
@@ -1278,6 +1268,15 @@
 	icon_state = "catwalk_above"
 	},
 /area/ship/crew)
+"Go" = (
+/obj/machinery/power/rtg/advanced,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating/catwalk_floor{
+	icon_state = "catwalk_above"
+	},
+/area/ship/engineering)
 "GK" = (
 /obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
 /obj/machinery/door/poddoor{
@@ -1433,15 +1432,6 @@
 "Kj" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/ship/hallway/fore)
-"KN" = (
-/obj/machinery/power/rtg/advanced,
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/turf/open/floor/plating/catwalk_floor{
-	icon_state = "catwalk_above"
-	},
-/area/ship/engineering)
 "KU" = (
 /obj/machinery/door/airlock/external,
 /obj/structure/catwalk/over/plated_catwalk/dark,
@@ -1555,6 +1545,16 @@
 	icon_state = "catwalk_above"
 	},
 /area/ship/hallway/central)
+"PC" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/fire/firefighter,
+/obj/item/clothing/head/hardhat/red,
+/obj/item/extinguisher,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ship/engineering)
 "PV" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -1616,6 +1616,12 @@
 	icon_state = "catwalk_above"
 	},
 /area/ship/hallway/fore)
+"QB" = (
+/obj/machinery/porta_turret/syndicate{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/ship/hallway/central)
 "QT" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ship/cargo)
@@ -1698,10 +1704,6 @@
 	icon_state = "catwalk_above"
 	},
 /area/ship/engineering)
-"Sv" = (
-/obj/machinery/suit_storage_unit/syndicate,
-/turf/open/floor/mineral/plastitanium,
-/area/ship/cargo)
 "SJ" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -1811,12 +1813,6 @@
 	icon_state = "catwalk_above"
 	},
 /area/ship/hallway/central)
-"UP" = (
-/obj/machinery/porta_turret/syndicate{
-	dir = 4
-	},
-/turf/closed/wall/mineral/plastitanium,
-/area/ship/cargo)
 "Vl" = (
 /turf/open/floor/mineral/plastitanium{
 	icon_state = "plastitanium_dam3"
@@ -1825,6 +1821,10 @@
 "VF" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/ship/crew)
+"VR" = (
+/obj/machinery/mech_bay_recharge_port,
+/turf/open/floor/mineral/plastitanium,
+/area/ship/cargo)
 "VT" = (
 /obj/machinery/light{
 	dir = 4
@@ -1985,13 +1985,13 @@
 TQ
 TQ
 TQ
-vP
+sC
 lZ
 fy
 fX
 fy
 lZ
-vP
+sC
 TQ
 TQ
 TQ
@@ -1999,22 +1999,22 @@ TQ
 (2,1,1) = {"
 TQ
 TQ
-vP
-vP
+sC
+qW
 wX
 RD
 wm
 RD
 wX
-vP
-vP
+qW
+sC
 TQ
 TQ
 "}
 (3,1,1) = {"
 TQ
-vP
-vP
+sC
+qW
 ME
 RJ
 ZW
@@ -2022,14 +2022,14 @@ em
 Uw
 aP
 Mw
-vP
-vP
+qW
+sC
 TQ
 "}
 (4,1,1) = {"
 TQ
-vP
-vP
+sC
+qW
 Nm
 Uu
 hK
@@ -2037,28 +2037,28 @@ on
 kh
 du
 Mw
-vP
-vP
+qW
+sC
 TQ
 "}
 (5,1,1) = {"
 TQ
-vP
+sC
 qW
 bX
 rJ
-lK
+nO
 sY
 dH
-sC
-gf
-qW
 vP
+PC
+qW
+sC
 TQ
 "}
 (6,1,1) = {"
 TQ
-vP
+sC
 qW
 fL
 JC
@@ -2068,28 +2068,28 @@ Os
 dN
 sZ
 qW
-vP
+sC
 TQ
 "}
 (7,1,1) = {"
 TQ
-vP
+sC
 qW
-KN
+Go
 Hb
 xW
 dc
 pV
 Rt
-KN
+Go
 qW
-vP
+sC
 TQ
 "}
 (8,1,1) = {"
 TQ
-vP
-vP
+sC
+sC
 qW
 qW
 qW
@@ -2098,7 +2098,7 @@ qW
 qW
 qW
 qW
-vP
+sC
 TQ
 "}
 (9,1,1) = {"
@@ -2268,7 +2268,7 @@ TQ
 "}
 (20,1,1) = {"
 TQ
-FK
+QB
 yC
 Pi
 Kh
@@ -2278,7 +2278,7 @@ ZO
 Kh
 Pi
 yC
-FK
+QB
 TQ
 "}
 (21,1,1) = {"
@@ -2486,7 +2486,7 @@ CP
 CU
 CP
 Vl
-Co
+VR
 im
 TQ
 TQ
@@ -2516,7 +2516,7 @@ sd
 tn
 rY
 CP
-xr
+uI
 im
 TQ
 TQ
@@ -2546,13 +2546,13 @@ CP
 Ga
 CP
 Ck
-Sv
+fU
 im
 im
 TQ
 "}
 (39,1,1) = {"
-UP
+yL
 QT
 QT
 wu
@@ -2564,5 +2564,5 @@ wu
 wu
 QT
 QT
-UP
+yL
 "}
