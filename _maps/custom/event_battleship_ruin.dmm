@@ -17,15 +17,26 @@
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/event_battleship/engine)
+"al" = (
+/obj/structure/foamedmetal/iron,
+/turf/open/floor/plating/foam,
+/area/space)
 "am" = (
 /obj/item/ammo_casing/spent,
 /turf/open/floor/engine,
 /area/ruin/space/has_grav/event_battleship/hangar)
 "ao" = (
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/effect/mob_spawn/human/commander{
+	brute_damage = 200
+	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/ammo_casing/spent,
-/turf/open/floor/plasteel/patterned/monofloor{
-	dir = 1
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 8
 	},
 /area/ruin/space/has_grav/event_battleship/ert)
 "aA" = (
@@ -51,39 +62,42 @@
 	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/event_battleship/deathsquad)
-"aC" = (
-/obj/machinery/computer/helm,
-/turf/open/floor/pod/dark,
-/area/ruin/space/has_grav/event_battleship/fighter3)
 "aO" = (
 /obj/effect/turf_decal/industrial/warning,
 /obj/machinery/vending/cigarette,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ruin/space/has_grav/event_battleship/hallway)
-"bf" = (
-/obj/machinery/door/airlock/external{
-	name = "Gunnery Airlock"
+"bc" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad")
+	},
+/turf/closed/wall/mineral/titanium,
+/area/ruin/space/has_grav/event_battleship/fighter1)
+"bo" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Fighter Charlie"
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/poddoor{
-	id = "event_battleship_full_lockdown"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/event_battleship/ammo)
-"bs" = (
-/obj/item/stack/cable_coil/cut/red,
-/turf/open/space/basic,
-/area/space)
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/fighter3)
 "bE" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/airless,
 /area/ruin/space/has_grav/event_battleship/hangar)
+"bF" = (
+/obj/item/shard,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
 "bL" = (
 /obj/machinery/light{
 	dir = 4
@@ -101,32 +115,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/event_battleship/deathsquad)
-"bZ" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/thinplating/dark,
+"bS" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/patterned/grid{
-	icon_state = "tiled"
-	},
-/area/ruin/space/has_grav/event_battleship/ert)
-"cc" = (
-/obj/structure/lattice,
-/obj/item/stack/tile/plasteel,
-/turf/open/space/basic,
-/area/space)
-"cp" = (
-/obj/item/ammo_casing/spent,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/footprints{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hallway)
+/obj/machinery/droneDispenser/hivebot,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
 "cs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/poddoor{
@@ -142,6 +135,22 @@
 	icon_state = "platingdmg2"
 	},
 /area/ruin/space/has_grav/event_battleship/medical)
+"cu" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8;
+	name = "tactical chair"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/obj/effect/mob_spawn/human/corpse/nanotrasenassaultsoldier{
+	brute_damage = 200
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/old,
+/mob/living/simple_animal/hostile/hivebot/rapid,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/ert)
 "cx" = (
 /obj/machinery/light/dim,
 /turf/open/floor/engine/airless,
@@ -150,6 +159,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"cE" = (
+/obj/effect/mob_spawn/human/engineer/rig{
+	brute_damage = 200
+	},
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/hangar)
 "cK" = (
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
@@ -203,18 +218,24 @@
 	icon_state = "platingdmg3"
 	},
 /area/ruin/space/has_grav/event_battleship/ammo)
+"cV" = (
+/obj/structure/cable,
+/obj/machinery/power/port_gen/pacman/uranium,
+/turf/open/floor/plating/airless{
+	icon_state = "platingdmg2"
+	},
+/area/ruin/space/has_grav/event_battleship/hangar)
 "cY" = (
 /obj/structure/shuttle/engine/propulsion/burst/left,
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ruin/space/has_grav/event_battleship/fighter2)
-"db" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
+"da" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/hivebot/range,
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
 "dj" = (
 /obj/machinery/porta_turret/syndicate/energy/heavy{
 	faction = list("Deathsquad");
@@ -228,11 +249,6 @@
 	},
 /turf/closed/wall/mineral/titanium,
 /area/ruin/space/has_grav/event_battleship/fighter2)
-"dl" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/hivebot/rapid,
-/turf/open/floor/plasteel/mono/dark,
-/area/ruin/space/has_grav/event_battleship/deathsquad)
 "dn" = (
 /obj/machinery/door/airlock/external{
 	name = "Gunnery Airlock"
@@ -243,31 +259,15 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/event_battleship/ammo)
-"dw" = (
-/obj/effect/turf_decal/industrial/outline/yellow,
-/obj/machinery/atmospherics/pipe/simple/orange/hidden{
-	dir = 9
-	},
-/obj/structure/cable/yellow,
-/obj/machinery/power/port_gen/pacman,
-/obj/effect/turf_decal/industrial/warning{
-	dir = 9
-	},
-/obj/machinery/light,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/tech/grid,
-/area/ruin/space/has_grav/event_battleship/ert)
 "dy" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 1
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
-/obj/effect/turf_decal/siding/thinplating/dark,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/ammo_casing/spent,
-/turf/open/floor/plasteel/patterned/grid{
-	icon_state = "tiled"
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Emergency Power Generator"
 	},
-/area/ruin/space/has_grav/event_battleship/ert)
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/event_battleship/hangar)
 "dB" = (
 /obj/item/ammo_casing/spent,
 /obj/effect/turf_decal/industrial/warning,
@@ -277,6 +277,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/hallway)
+"dC" = (
+/obj/structure/shuttle/engine/propulsion/burst/right,
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/fighter3)
+"dD" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/fighter1)
 "dE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -291,39 +298,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/hallway)
-"dI" = (
-/obj/machinery/computer/autopilot{
-	dir = 4
-	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/has_grav/event_battleship/fighter3)
 "dJ" = (
 /turf/closed/wall/r_wall/syndicate/nosmooth,
 /area/ruin/space/has_grav/event_battleship/engine)
-"dP" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/door/airlock/maintenance_hatch{
-	name = "Emergency Power Generator"
-	},
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/event_battleship/hangar)
+"dV" = (
+/turf/closed/wall/r_wall/syndicate/nosmooth,
+/area/ruin/space/has_grav/event_battleship/ert)
 "dZ" = (
 /turf/closed/wall/r_wall/syndicate/nosmooth,
 /area/ruin/space/has_grav/event_battleship/atmos)
-"ea" = (
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/power/apc/auto_name/south{
-	start_charge = 0
-	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/event_battleship/gunbay)
 "eb" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -336,37 +319,23 @@
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
 "ej" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/event_battleship/deathsquad)
-"ep" = (
-/obj/structure/frame/computer{
-	dir = 1
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/has_grav/event_battleship/fighter1)
-"er" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 4;
-	name = "tactical chair"
-	},
-/obj/structure/railing{
-	dir = 8;
-	layer = 4.1
-	},
-/obj/effect/turf_decal/techfloor{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/mob_spawn/human/corpse/nanotrasenassaultsoldier{
-	brute_damage = 200
-	},
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/ert)
 "eE" = (
 /obj/structure/foamedmetal/iron,
 /turf/open/floor/engine/airless,
 /area/ruin/space/has_grav/event_battleship/ammo)
+"eO" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/droneDispenser/hivebot,
+/turf/open/floor/plasteel/patterned/grid{
+	icon_state = "tiled"
+	},
+/area/ruin/space/has_grav/event_battleship/ert)
 "eP" = (
 /obj/machinery/porta_turret/syndicate/energy/heavy{
 	faction = list("Deathsquad");
@@ -384,28 +353,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
-"eZ" = (
-/obj/structure/shuttle/engine/propulsion/burst/right,
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ruin/space/has_grav/event_battleship/fighter4)
 "fh" = (
 /obj/machinery/door/airlock/external{
 	name = "Gunnery Airlock"
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/event_battleship/ammo)
-"fk" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/plasma,
-/obj/item/ammo_casing/spent,
-/mob/living/simple_animal/hostile/hivebot/rapid,
-/turf/open/floor/plasteel/patterned/monofloor{
-	dir = 1
-	},
-/area/ruin/space/has_grav/event_battleship/ert)
-"fl" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ruin/space/has_grav/event_battleship/fighter3)
 "fo" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -428,36 +381,51 @@
 	},
 /turf/open/floor/plasteel/airless,
 /area/ruin/space/has_grav/event_battleship/hallway)
-"fz" = (
-/obj/structure/frame/computer{
-	dir = 8
+"fs" = (
+/obj/machinery/door/poddoor{
+	id = "heron_subshuttle_bridge"
 	},
-/obj/effect/decal/cleanable/glass,
-/turf/open/floor/pod/dark,
-/area/ruin/space/has_grav/event_battleship/fighter4)
-"fA" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Bridge";
-	req_access_txt = "109"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/event_battleship/bridge)
+/obj/effect/spawner/structure/window/shuttle,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/ert)
 "fD" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/white/airless,
 /area/ruin/space/has_grav/event_battleship/medical)
-"fX" = (
-/obj/machinery/door/airlock/external{
-	name = "Gunnery Airlock"
+"fE" = (
+/obj/machinery/button/door{
+	id = "heron_subshuttle22";
+	name = "Access Shutters";
+	pixel_x = -23;
+	dir = 4
 	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/event_battleship/gunbay)
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/glass{
+	pixel_x = 8;
+	pixel_y = 20
+	},
+/obj/item/ammo_casing/spent,
+/turf/open/floor/plasteel/patterned/monofloor,
+/area/ruin/space/has_grav/event_battleship/ert)
+"fJ" = (
+/obj/item/stack/tile/plasteel,
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"fL" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"fP" = (
+/obj/structure/girder/reinforced,
+/turf/open/floor/plating/airless{
+	icon_state = "platingdmg3"
+	},
+/area/ruin/space/has_grav/event_battleship/hangar)
 "gc" = (
 /turf/closed/wall/r_wall/syndicate/nosmooth,
 /area/ruin/space/has_grav/event_battleship/bridge)
@@ -473,9 +441,27 @@
 	icon_state = "platingdmg1"
 	},
 /area/ruin/space/has_grav/event_battleship/hallway)
+"gw" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Bridge";
+	req_access_txt = "109"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/event_battleship/bridge)
 "gy" = (
 /turf/open/floor/engine,
 /area/ruin/space/has_grav/event_battleship/hangar)
+"gD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light,
+/turf/open/floor/plasteel/patterned/grid{
+	icon_state = "tiled"
+	},
+/area/ruin/space/has_grav/event_battleship/ert)
 "gQ" = (
 /obj/machinery/button/door{
 	id = "event_battleship_hangar_port";
@@ -484,98 +470,36 @@
 	},
 /turf/open/floor/engine/airless,
 /area/ruin/space/has_grav/event_battleship/hangar)
-"gU" = (
-/obj/structure/girder/reinforced,
-/turf/open/floor/plating/airless{
-	icon_state = "platingdmg2"
-	},
-/area/ruin/space/has_grav/event_battleship/hangar)
-"gW" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 4;
-	name = "tactical chair"
-	},
-/obj/structure/railing{
-	dir = 8;
-	layer = 4.1
-	},
-/obj/effect/turf_decal/techfloor{
-	dir = 8
-	},
-/obj/effect/mob_spawn/human/corpse/nanotrasenassaultsoldier{
-	brute_damage = 200
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/ert)
 "hd" = (
 /turf/open/space/basic,
 /area/ruin/space/has_grav/event_battleship/medical)
-"he" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/footprints,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/mob/living/simple_animal/hostile/hivebot/mechanic,
-/turf/open/floor/plasteel/mono/dark,
-/area/ruin/space/has_grav/event_battleship/deathsquad)
-"hi" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/thinplating/dark,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/patterned/grid{
-	icon_state = "tiled"
-	},
-/area/ruin/space/has_grav/event_battleship/ert)
-"hl" = (
-/obj/structure/shuttle/engine/propulsion/burst/right,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/event_battleship/fighter4)
 "hn" = (
-/mob/living/simple_animal/hostile/hivebot/range,
-/obj/structure/cable{
-	icon_state = "4-8"
+/obj/structure/fluff/event_battleship/cannon{
+	dir = 1;
+	pixel_y = 16
 	},
-/turf/open/floor/engine/airless,
-/area/ruin/space/has_grav/event_battleship/ammo)
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/fighter2)
 "hp" = (
 /obj/structure/girder/reinforced,
 /turf/open/floor/plating{
 	icon_state = "platingdmg2"
 	},
 /area/ruin/space/has_grav/event_battleship/hangar)
-"hq" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hallway)
-"hx" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/ammo_casing/spent,
-/turf/open/floor/plasteel/patterned/monofloor,
-/area/ruin/space/has_grav/event_battleship/ert)
-"hy" = (
-/obj/structure/fluff/event_battleship/cannon{
-	pixel_y = 16
-	},
+"hs" = (
+/obj/item/stack/cable_coil/cut/red,
+/obj/structure/lattice,
 /turf/open/space/basic,
 /area/space)
 "hz" = (
 /turf/closed/wall/r_wall/syndicate/nosmooth,
 /area/ruin/space/has_grav/event_battleship/hallway)
-"hH" = (
-/obj/machinery/turretid{
-	pixel_y = 32;
-	pixel_x = 32
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/has_grav/event_battleship/fighter3)
+"hC" = (
+/obj/structure/lattice,
+/obj/item/stack/sheet/mineral/titanium,
+/obj/structure/girder/displaced,
+/turf/open/space/basic,
+/area/space)
 "hP" = (
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -608,16 +532,42 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/event_battleship/bridge)
-"id" = (
-/obj/structure/shuttle/engine/propulsion/burst/left,
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ruin/space/has_grav/event_battleship/fighter3)
-"ir" = (
-/obj/machinery/door/airlock/hatch{
-	name = "Fighter Alpha"
+"hW" = (
+/obj/item/shard,
+/obj/item/stack/cable_coil/cut/red,
+/obj/effect/decal/cleanable/glass,
+/obj/effect/mob_spawn/human/corpse/nanotrasensoldier{
+	brute_damage = 200
+	},
+/obj/machinery/turretid{
+	pixel_y = 32;
+	pixel_x = 32
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/space/has_grav/event_battleship/fighter1)
+/area/ruin/space/has_grav/event_battleship/fighter4)
+"hY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"ia" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/footprints,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/mob/living/simple_animal/hostile/hivebot/mechanic,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
+"ir" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
+	dir = 5
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/fighter3)
 "it" = (
 /turf/closed/wall/r_wall/syndicate/nosmooth,
 /area/ruin/space/has_grav/event_battleship/dorms)
@@ -628,6 +578,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"iw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/plasma,
+/obj/item/ammo_casing/spent,
+/mob/living/simple_animal/hostile/hivebot/rapid,
+/turf/open/floor/plasteel/patterned/monofloor{
+	dir = 1
+	},
+/area/ruin/space/has_grav/event_battleship/ert)
 "iF" = (
 /obj/machinery/computer/helm{
 	dir = 1
@@ -648,6 +607,20 @@
 	icon_state = "platingdmg2"
 	},
 /area/ruin/space/has_grav/event_battleship/hallway)
+"iN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/ammo_casing/spent,
+/turf/open/floor/plasteel/patterned/monofloor{
+	dir = 1
+	},
+/area/ruin/space/has_grav/event_battleship/ert)
+"iQ" = (
+/obj/item/ammo_casing/spent,
+/obj/effect/mob_spawn/human/engineer{
+	brute_damage = 200
+	},
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/event_battleship/hangar)
 "iT" = (
 /obj/effect/mob_spawn/human/corpse/nanotrasensoldier{
 	brute_damage = 200
@@ -661,43 +634,102 @@
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ruin/space/has_grav/event_battleship/hallway)
 "iX" = (
-/obj/structure/fluff/event_battleship/cannon{
-	dir = 1;
-	pixel_y = 16
-	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
+/obj/structure/shuttle/engine/propulsion/burst/right,
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/event_battleship/fighter3)
-"ja" = (
-/obj/machinery/porta_turret/syndicate/energy/heavy{
-	faction = list("Deathsquad");
-	dir = 9
+"iZ" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4;
+	name = "tactical chair"
 	},
-/turf/closed/wall/mineral/titanium,
-/area/ruin/space/has_grav/event_battleship/fighter4)
-"jb" = (
-/obj/item/ammo_casing/spent,
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/mob_spawn/human/corpse/nanotrasenassaultsoldier{
+	brute_damage = 200
+	},
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/ert)
+"jc" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8;
+	name = "tactical chair"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/obj/effect/mob_spawn/human/corpse/nanotrasenassaultsoldier{
+	brute_damage = 200
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/ert)
+"jn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 5
+	},
 /obj/structure/cable{
 	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/hallway)
-"jh" = (
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/event_battleship/hangar)
 "jq" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/event_battleship/atmos)
+"ju" = (
+/obj/machinery/computer/helm,
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/fighter3)
 "jv" = (
 /obj/structure/girder/reinforced,
 /turf/open/floor/plating{
 	icon_state = "platingdmg2"
 	},
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"jy" = (
+/obj/structure/frame/computer{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/fighter4)
+"jz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 5
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"jG" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/hivebot/rapid,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
+"jH" = (
+/obj/structure/shuttle/engine/propulsion/burst/left,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/fighter4)
 "jI" = (
 /obj/machinery/door/airlock{
 	name = "Cabin"
@@ -705,6 +737,23 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/grimy,
 /area/ruin/space/has_grav/event_battleship/dorms)
+"jJ" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/hivebot/mechanic,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"jK" = (
+/obj/machinery/computer/autopilot{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/fighter3)
 "jL" = (
 /turf/open/floor/plating/airless{
 	icon_state = "platingdmg3"
@@ -717,13 +766,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/event_battleship/deathsquad)
-"kc" = (
-/obj/item/ammo_casing/spent,
-/obj/effect/mob_spawn/human/engineer{
-	brute_damage = 200
-	},
-/turf/open/floor/engine,
-/area/ruin/space/has_grav/event_battleship/hangar)
+"jT" = (
+/obj/structure/foamedmetal/iron,
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
 "kd" = (
 /obj/machinery/conveyor{
 	id = "eventbattleship_autoloaders";
@@ -731,30 +777,70 @@
 	},
 /turf/open/floor/engine/airless,
 /area/ruin/space/has_grav/event_battleship/ammo)
-"kF" = (
-/obj/item/stack/sheet/mineral/uranium/fifty,
+"ke" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"kq" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/item/wrench,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/event_battleship/hangar)
+"kt" = (
+/obj/machinery/door/airlock/external{
+	name = "Gunnery Airlock"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/ammo)
 "kL" = (
 /turf/open/floor/plating/airless{
 	icon_state = "platingdmg3"
 	},
 /area/ruin/space/has_grav/event_battleship/security)
+"lb" = (
+/obj/machinery/door/airlock/external{
+	name = "Gunnery Airlock"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/gunbay)
 "lc" = (
 /obj/structure/foamedmetal/iron,
 /turf/open/floor/plating/airless{
 	icon_state = "platingdmg2"
 	},
 /area/ruin/space/has_grav/event_battleship/ammo)
-"lt" = (
-/obj/structure/cable{
-	icon_state = "0-8"
+"li" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden,
+/obj/machinery/button/door{
+	id = "heron_subshuttle11";
+	name = "Access Shutters";
+	pixel_x = -23;
+	dir = 4
 	},
-/obj/machinery/power/smes,
-/turf/open/floor/plating/airless{
-	icon_state = "platingdmg1"
+/obj/effect/decal/cleanable/dirt,
+/obj/item/ammo_casing/spent,
+/obj/item/ammo_casing/spent,
+/turf/open/floor/plasteel/patterned/monofloor{
+	dir = 1
 	},
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/ert)
 "ly" = (
 /turf/open/floor/plasteel/white,
 /area/ruin/space/has_grav/event_battleship/medical)
@@ -770,6 +856,13 @@
 	},
 /turf/open/floor/plasteel/airless,
 /area/ruin/space/has_grav/event_battleship/hallway)
+"lC" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
+	dir = 9
+	},
+/turf/closed/wall/mineral/titanium,
+/area/ruin/space/has_grav/event_battleship/fighter3)
 "lM" = (
 /obj/structure/cable,
 /obj/machinery/power/smes/engineering,
@@ -780,6 +873,11 @@
 /obj/machinery/computer/helm,
 /turf/open/floor/pod/dark,
 /area/ruin/space/has_grav/event_battleship/fighter2)
+"lR" = (
+/obj/effect/turf_decal/steeldecal/steel_decals6,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/event_battleship/ert)
 "lW" = (
 /obj/machinery/turretid{
 	pixel_y = 32;
@@ -787,15 +885,6 @@
 	},
 /turf/open/floor/pod/dark,
 /area/ruin/space/has_grav/event_battleship/fighter2)
-"mk" = (
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/event_battleship/fighter1)
-"mv" = (
-/obj/structure/frame/computer,
-/obj/item/shard,
-/obj/effect/decal/cleanable/glass,
-/turf/open/floor/pod/dark,
-/area/ruin/space/has_grav/event_battleship/fighter4)
 "mz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -803,6 +892,16 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/event_battleship/engine)
+"mA" = (
+/obj/structure/shuttle/engine/propulsion{
+	dir = 1;
+	anchored = 0
+	},
+/turf/open/space/basic,
+/area/space)
+"mG" = (
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/fighter1)
 "mI" = (
 /obj/machinery/porta_turret/syndicate/energy/heavy{
 	faction = list("Deathsquad");
@@ -810,6 +909,13 @@
 	},
 /turf/closed/wall/mineral/titanium,
 /area/ruin/space/has_grav/event_battleship/fighter2)
+"mK" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
+	dir = 9
+	},
+/turf/closed/wall/mineral/titanium,
+/area/ruin/space/has_grav/event_battleship/fighter4)
 "mQ" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -817,16 +923,35 @@
 /turf/open/floor/plasteel/dark/airless,
 /area/ruin/space/has_grav/event_battleship/security)
 "na" = (
-/obj/effect/turf_decal/steeldecal/steel_decals6,
+/obj/structure/fluff/event_battleship/cannon{
+	dir = 1;
+	pixel_y = 16
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/fighter3)
+"nm" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4;
+	name = "tactical chair"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/turf_decal/steeldecal/steel_decals10,
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 1;
+	pixel_y = -16
+	},
+/obj/effect/mob_spawn/human/bridgeofficer{
+	brute_damage = 200
+	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/old,
+/obj/machinery/turretid{
+	pixel_y = 32
+	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/event_battleship/ert)
-"nk" = (
-/obj/machinery/porta_turret/syndicate/energy/heavy{
-	faction = list("Deathsquad")
-	},
-/turf/closed/wall/mineral/titanium,
-/area/ruin/space/has_grav/event_battleship/fighter1)
 "nw" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -881,6 +1006,31 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"nP" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer1{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 8;
+	name = "engine fuel pump"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/steeldecal/steel_decals10{
+	dir = 4
+	},
+/obj/effect/turf_decal/steeldecal/steel_decals10,
+/obj/machinery/door/airlock/grunge,
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/event_battleship/ert)
 "nT" = (
 /obj/machinery/power/apc/auto_name/east{
 	start_charge = 0
@@ -899,24 +1049,6 @@
 /obj/structure/shuttle/engine/propulsion/burst/right,
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ruin/space/has_grav/event_battleship/fighter2)
-"oh" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 4;
-	name = "tactical chair"
-	},
-/obj/effect/turf_decal/techfloor,
-/obj/effect/turf_decal/steeldecal/steel_decals10,
-/obj/effect/turf_decal/techfloor/corner{
-	dir = 8;
-	pixel_y = 16
-	},
-/obj/effect/mob_spawn/human/bridgeofficer{
-	brute_damage = 200
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plasteel/tech/grid,
-/area/ruin/space/has_grav/event_battleship/ert)
 "oj" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Fighter Beta"
@@ -932,9 +1064,64 @@
 	},
 /turf/open/floor/engine,
 /area/ruin/space/has_grav/event_battleship/hangar)
+"oq" = (
+/obj/item/stack/tile/plasteel,
+/turf/open/space/basic,
+/area/space)
+"ov" = (
+/obj/machinery/atmospherics/pipe/layer_manifold,
+/obj/machinery/power/apc/auto_name/west{
+	start_charge = 0
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/camera{
+	dir = 5
+	},
+/obj/item/ammo_casing/spent,
+/obj/item/ammo_casing/spent,
+/turf/open/floor/plasteel/patterned/monofloor,
+/area/ruin/space/has_grav/event_battleship/ert)
+"ow" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer1{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 9
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/effect/mob_spawn/human/corpse/syndicatecommando{
+	burn_damage = 200
+	},
+/obj/item/gun/ballistic/automatic/c20r/sc_c20r,
+/obj/item/ammo_casing/spent,
+/turf/open/floor/plasteel/patterned/grid{
+	icon_state = "tiled"
+	},
+/area/ruin/space/has_grav/event_battleship/ert)
 "ox" = (
 /turf/open/space/basic,
 /area/ruin/space/has_grav/event_battleship/ammo)
+"oA" = (
+/obj/machinery/computer/crew/syndie{
+	dir = 8
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 5
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/event_battleship/ert)
 "oB" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/decal/cleanable/dirt,
@@ -951,9 +1138,12 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
 "oI" = (
-/obj/structure/foamedmetal/iron,
-/turf/open/floor/plating/foam,
-/area/space)
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
 "oK" = (
 /obj/item/gun/energy/xray,
 /obj/item/gun/energy/xray,
@@ -965,6 +1155,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/event_battleship/deathsquad)
+"oQ" = (
+/obj/structure/shuttle/engine/propulsion/burst/left,
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/fighter4)
 "oR" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
@@ -973,25 +1167,33 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
 "oS" = (
-/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+/obj/structure/girder/reinforced,
+/turf/open/floor/plating/airless{
+	icon_state = "platingdmg2"
+	},
+/area/ruin/space/has_grav/event_battleship/hangar)
+"ph" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
 	dir = 10
 	},
-/obj/machinery/power/smes/engineering{
-	charge = 0
+/turf/closed/wall/r_wall/syndicate/nosmooth,
+/area/ruin/space/has_grav/event_battleship/ert)
+"pl" = (
+/obj/machinery/atmospherics/components/unary/tank/toxins{
+	dir = 4;
+	piping_layer = 1
 	},
 /obj/structure/cable{
-	icon_state = "0-10"
+	icon_state = "4-5"
 	},
-/obj/effect/turf_decal/industrial/warning{
-	dir = 10
+/obj/effect/turf_decal/steeldecal/steel_decals3,
+/obj/effect/turf_decal/steeldecal/steel_decals3{
+	dir = 6
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/event_battleship/ert)
-"ph" = (
-/obj/structure/shuttle/engine/propulsion/burst/left,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/event_battleship/fighter4)
 "pm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/apc/auto_name/east{
@@ -1002,6 +1204,23 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/event_battleship/atmos)
+"ps" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/dorms)
+"pz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/obj/machinery/photocopier/faxmachine,
+/obj/item/paper{
+	name = "paper - fax from the Chief Engineer";
+	info = "In response to you lowering my wage over the damage to Fighter Alpha, I hereby declare that I am lowering the coolant to the supermatter reactor, and implore you to reconsider."
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/event_battleship/bridge)
 "pA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -1016,15 +1235,6 @@
 	icon_state = "platingdmg2"
 	},
 /area/ruin/space/has_grav/event_battleship/security)
-"pE" = (
-/obj/machinery/door/airlock/external{
-	name = "Gunnery Airlock"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/event_battleship/ammo)
 "pN" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
@@ -1053,13 +1263,6 @@
 	icon_state = "platingdmg2"
 	},
 /area/ruin/space/has_grav/event_battleship/engine)
-"pX" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light,
-/turf/open/floor/plasteel/patterned/grid{
-	icon_state = "tiled"
-	},
-/area/ruin/space/has_grav/event_battleship/ert)
 "pY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -1081,13 +1284,6 @@
 	icon_state = "platingdmg1"
 	},
 /area/ruin/space/has_grav/event_battleship/medical)
-"ql" = (
-/obj/machinery/porta_turret/syndicate/energy/heavy{
-	faction = list("Deathsquad");
-	dir = 10
-	},
-/turf/closed/wall/mineral/titanium,
-/area/ruin/space/has_grav/event_battleship/fighter1)
 "qp" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1096,6 +1292,24 @@
 	icon_state = "platingdmg3"
 	},
 /area/ruin/space/has_grav/event_battleship/hangar)
+"qt" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4;
+	name = "tactical chair"
+	},
+/obj/effect/turf_decal/techfloor,
+/obj/effect/turf_decal/steeldecal/steel_decals10,
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 8;
+	pixel_y = 16
+	},
+/obj/effect/mob_spawn/human/bridgeofficer{
+	brute_damage = 200
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/event_battleship/ert)
 "qC" = (
 /obj/machinery/porta_turret/syndicate{
 	dir = 6
@@ -1132,22 +1346,21 @@
 /obj/structure/girder/displaced,
 /turf/open/space/basic,
 /area/space)
-"rb" = (
-/obj/structure/foamedmetal/iron,
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/event_battleship/crashed_syndies)
-"rd" = (
-/obj/effect/mob_spawn/human/engineer/rig{
-	brute_damage = 200
-	},
-/turf/open/floor/engine/airless,
-/area/ruin/space/has_grav/event_battleship/hangar)
 "re" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel/dark/airless,
 /area/ruin/space/has_grav/event_battleship/security)
+"rh" = (
+/obj/structure/frame/computer{
+	dir = 4
+	},
+/obj/item/shard,
+/obj/item/stack/cable_coil/cut/red,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/fighter4)
 "rl" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Infirmary"
@@ -1163,28 +1376,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
-"rE" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/patterned/grid{
-	icon_state = "tiled"
-	},
-/area/ruin/space/has_grav/event_battleship/ert)
-"rF" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/blood/footprints{
-	dir = 5
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hallway)
 "rL" = (
 /obj/machinery/computer/card{
 	dir = 8
@@ -1204,32 +1395,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/event_battleship/deathsquad)
-"rO" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 8;
-	name = "tactical chair"
-	},
-/obj/effect/turf_decal/techfloor{
-	dir = 4
-	},
-/obj/effect/mob_spawn/human/corpse/nanotrasenassaultsoldier{
-	brute_damage = 200
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/ert)
 "rP" = (
 /obj/machinery/vending/security,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/event_battleship/deathsquad)
-"rT" = (
-/obj/machinery/porta_turret/syndicate/energy/heavy{
-	faction = list("Deathsquad");
-	dir = 5
-	},
-/turf/closed/wall/r_wall/syndicate/nosmooth,
-/area/ruin/space/has_grav/event_battleship/ert)
 "rU" = (
 /obj/machinery/computer/cargo/express{
 	dir = 8
@@ -1237,13 +1407,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/event_battleship/bridge)
-"rY" = (
-/obj/structure/fluff/event_battleship/cannon{
-	dir = 1;
-	pixel_y = -16
+"rV" = (
+/obj/machinery/computer/security{
+	dir = 8;
+	network = list("event_battleship_fighter3")
 	},
-/turf/open/space/basic,
-/area/space)
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/fighter3)
 "sc" = (
 /obj/effect/turf_decal/industrial/warning,
 /obj/effect/decal/cleanable/dirt,
@@ -1252,6 +1425,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/hallway)
+"sk" = (
+/obj/structure/shuttle/engine/propulsion/right{
+	dir = 1
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/fighter1)
 "sq" = (
 /obj/machinery/light/dim,
 /turf/open/floor/engine/hull/reinforced,
@@ -1259,6 +1438,13 @@
 "sr" = (
 /turf/open/floor/engine/hull/reinforced,
 /area/ruin/space/has_grav/event_battleship/hallway)
+"su" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
+	dir = 10
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/fighter1)
 "sH" = (
 /obj/effect/turf_decal/industrial/warning/corner{
 	dir = 4
@@ -1273,12 +1459,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/hallway)
-"sJ" = (
-/obj/item/stack/tile/plasteel,
-/turf/open/space/basic,
-/area/space)
 "sO" = (
 /turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"th" = (
+/turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/event_battleship/hangar)
 "ti" = (
 /obj/machinery/power/rtg/advanced,
@@ -1295,32 +1480,22 @@
 	},
 /turf/open/floor/engine/hull/reinforced,
 /area/ruin/space/has_grav/event_battleship/gunbay)
-"tn" = (
-/obj/structure/shuttle/engine/propulsion/right{
-	dir = 1
-	},
+"tu" = (
+/obj/structure/shuttle/engine/propulsion/burst/left,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/event_battleship/fighter1)
-"tp" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/hivebot/range,
-/turf/open/floor/plasteel/patterned/monofloor,
-/area/ruin/space/has_grav/event_battleship/ert)
-"tt" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/footprints{
-	dir = 1
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hallway)
+/area/ruin/space/has_grav/event_battleship/fighter3)
 "tC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/reinforced,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/event_battleship/bridge)
+"tN" = (
+/obj/structure/shuttle/engine/propulsion/left{
+	dir = 1;
+	anchored = 0
+	},
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/event_battleship/hangar)
 "tO" = (
 /obj/structure/fluff/event_battleship/cannon{
 	dir = 4
@@ -1347,15 +1522,18 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ruin/space/has_grav/event_battleship/medical)
+"ug" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/decal/cleanable/blood/footprints,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
 "ui" = (
-/obj/structure/lattice,
-/obj/item/stack/rods,
-/turf/open/space/basic,
-/area/space)
-"uq" = (
-/obj/machinery/turretid{
-	pixel_x = -32;
-	pixel_y = -32
+/obj/structure/frame/computer{
+	dir = 1
 	},
 /turf/open/floor/pod/dark,
 /area/ruin/space/has_grav/event_battleship/fighter1)
@@ -1366,6 +1544,19 @@
 	},
 /turf/open/floor/engine/hull/reinforced,
 /area/ruin/space/has_grav/event_battleship/gunbay)
+"uu" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
+	dir = 1
+	},
+/obj/machinery/camera/all{
+	network = list("event_battleship_fighter3");
+	dir = 1;
+	pixel_y = 32;
+	pixel_x = 12
+	},
+/turf/closed/wall/mineral/titanium,
+/area/ruin/space/has_grav/event_battleship/fighter3)
 "uv" = (
 /obj/item/ammo_casing/spent,
 /obj/machinery/light/dim{
@@ -1374,6 +1565,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/hallway)
+"ux" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/patterned/grid{
+	icon_state = "tiled"
+	},
+/area/ruin/space/has_grav/event_battleship/ert)
 "uy" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1399,9 +1600,31 @@
 	},
 /turf/open/floor/engine/airless,
 /area/ruin/space/has_grav/event_battleship/ammo)
-"uJ" = (
+"uH" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
+	dir = 6
+	},
+/turf/closed/wall/r_wall/syndicate/nosmooth,
+/area/ruin/space/has_grav/event_battleship/ert)
+"uM" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ruin/space/has_grav/event_battleship/fighter4)
+"uO" = (
+/obj/effect/turf_decal/industrial/traffic{
+	dir = 8
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "heron_subshuttle11";
+	name = "Blast Shutters"
+	},
+/obj/machinery/atmospherics/components/binary/valve{
+	dir = 1;
+	name = "Shuttle Fuel Valve"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/space/has_grav/event_battleship/ert)
 "uV" = (
 /obj/machinery/door/airlock/atmos/glass{
 	name = "Atmospherics"
@@ -1411,6 +1634,21 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/event_battleship/atmos)
+"va" = (
+/obj/machinery/turretid{
+	pixel_y = 32;
+	pixel_x = 32
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/fighter3)
+"vh" = (
+/obj/machinery/atmospherics/components/unary/shuttle/heater{
+	dir = 4
+	},
+/obj/effect/turf_decal/techfloor/orange,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/event_battleship/ert)
 "vl" = (
 /obj/item/wallframe/button{
 	name = "shattered button";
@@ -1419,6 +1657,13 @@
 	pixel_y = 6
 	},
 /obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
+"vm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/event_battleship/deathsquad)
 "vo" = (
@@ -1435,23 +1680,30 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ruin/space/has_grav/event_battleship/hallway)
+"vy" = (
+/obj/structure/fluff/event_battleship/cannon{
+	dir = 1;
+	pixel_y = -16
+	},
+/turf/open/space/basic,
+/area/space)
 "vz" = (
 /obj/structure/fluff/event_battleship/oldshell,
 /turf/open/floor/engine/airless,
 /area/ruin/space/has_grav/event_battleship/ammo)
-"vI" = (
-/obj/machinery/computer/crew/syndie{
+"vC" = (
+/obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
-/obj/effect/turf_decal/techfloor{
-	dir = 5
-	},
-/obj/machinery/light{
-	dir = 1
-	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/tech/grid,
-/area/ruin/space/has_grav/event_battleship/ert)
+/mob/living/simple_animal/hostile/hivebot/range,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"vK" = (
+/obj/structure/lattice,
+/obj/item/stack/rods,
+/turf/open/space/basic,
+/area/space)
 "vP" = (
 /obj/machinery/light/dim{
 	dir = 8
@@ -1459,27 +1711,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/event_battleship/deathsquad)
-"vQ" = (
-/obj/structure/shuttle/engine/propulsion/burst/right,
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ruin/space/has_grav/event_battleship/fighter3)
+"vT" = (
+/obj/structure/girder/displaced,
+/obj/item/stack/sheet/mineral/titanium,
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/ruin/space/has_grav/event_battleship/fighter4)
 "vV" = (
 /obj/structure/railing,
 /turf/open/floor/engine/hull/reinforced,
 /area/ruin/space/has_grav/event_battleship/gunbay)
-"vX" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/footprints{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hallway)
 "wb" = (
 /obj/item/ammo_casing/spent,
 /obj/effect/decal/cleanable/dirt,
@@ -1493,23 +1735,26 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/event_battleship/bridge)
-"wk" = (
-/obj/machinery/porta_turret/syndicate/energy/heavy{
-	faction = list("Deathsquad");
-	dir = 10
-	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ruin/space/has_grav/event_battleship/fighter1)
 "wm" = (
 /obj/structure/fluff/event_battleship/cannon{
 	dir = 1
 	},
 /turf/open/floor/engine/hull/reinforced,
 /area/ruin/space/has_grav/event_battleship/hallway)
-"wD" = (
-/obj/structure/shuttle/engine/propulsion/burst/left,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/event_battleship/fighter3)
+"wu" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8;
+	name = "tactical chair"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/obj/effect/mob_spawn/human/corpse/nanotrasenassaultsoldier{
+	brute_damage = 200
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/ert)
 "wF" = (
 /obj/machinery/light/dim{
 	dir = 8
@@ -1517,25 +1762,48 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/event_battleship/bridge)
-"xi" = (
-/obj/item/ammo_casing/spent,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/footprints{
-	dir = 1
+"wS" = (
+/obj/effect/mob_spawn/human/corpse/nanotrasensoldier{
+	brute_damage = 200
 	},
+/obj/item/gun/energy/laser/captain/brazil{
+	name = "old laser pistol";
+	desc = "A very early model of Nanotrasen laser pistol issued to middle-ranking security officers. While it used to be able to self-recharge, the nuclear core has since run out of fuel."
+	},
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/hallway)
-"xj" = (
-/obj/item/stack/cable_coil/cut/red,
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/space)
-"xl" = (
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/event_battleship/hangar)
+"xh" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/patterned/grid{
+	icon_state = "tiled"
+	},
+/area/ruin/space/has_grav/event_battleship/ert)
+"xi" = (
+/obj/item/ammo_casing/spent,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/footprints,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"xp" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Fighter Alpha"
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/fighter1)
 "xq" = (
 /obj/structure/closet/crate/secure/loot{
 	desc = "A rusty crate with the Nanotrasen logo stamped on it, it may be full of valuable equipment!";
@@ -1582,10 +1850,20 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/event_battleship/gunbay)
+"xH" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc/auto_name/south{
+	start_charge = 0
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/gunbay)
 "xI" = (
 /obj/structure/closet/firecloset/full,
 /obj/item/clothing/suit/space/orange,
 /obj/item/clothing/head/helmet/space/orange,
+/obj/item/storage/toolbox/emergency/old,
 /turf/open/floor/plasteel/white,
 /area/ruin/space/has_grav/event_battleship/medical)
 "xO" = (
@@ -1598,13 +1876,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/dorms)
-"yi" = (
-/obj/machinery/porta_turret/syndicate/energy/heavy{
-	faction = list("Deathsquad");
-	dir = 5
-	},
-/turf/closed/wall/mineral/titanium,
-/area/ruin/space/has_grav/event_battleship/fighter3)
+"ye" = (
+/obj/item/stack/sheet/mineral/uranium/fifty,
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/event_battleship/hangar)
 "yl" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/west{
@@ -1614,25 +1889,6 @@
 /mob/living/simple_animal/hostile/hivebot/rapid,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
-"yn" = (
-/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer1{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/manifold/orange/hidden{
-	dir = 8
-	},
-/obj/machinery/power/terminal{
-	dir = 1
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "0-2"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/tech/grid,
-/area/ruin/space/has_grav/event_battleship/ert)
 "yp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/radiation{
@@ -1640,13 +1896,16 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/event_battleship/engine)
-"yB" = (
-/obj/structure/shuttle/engine/propulsion/left{
-	dir = 1;
-	anchored = 0
+"yE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 1
 	},
-/turf/open/floor/engine,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
 "yU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -1659,50 +1918,20 @@
 	icon_state = "platingdmg2"
 	},
 /area/ruin/space/has_grav/event_battleship/hallway)
-"yX" = (
-/obj/effect/turf_decal/industrial/traffic{
-	dir = 4
-	},
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "heron_subshuttle11";
-	name = "Blast Shutters"
-	},
-/obj/structure/fans/tiny,
-/obj/item/ammo_casing/spent,
-/turf/open/floor/plasteel/patterned/ridged,
-/area/ruin/space/has_grav/event_battleship/ert)
-"ze" = (
+"zh" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
-	icon_state = "4-8"
+	icon_state = "1-4"
 	},
-/turf/open/floor/engine/airless,
-/area/ruin/space/has_grav/event_battleship/ammo)
-"zo" = (
-/obj/effect/turf_decal/industrial/traffic{
-	dir = 4
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"zz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "heron_subshuttle22";
-	name = "Blast Shutters"
-	},
-/obj/structure/fans/tiny,
-/turf/open/floor/plasteel/patterned/ridged,
-/area/ruin/space/has_grav/event_battleship/ert)
-"zA" = (
-/obj/effect/turf_decal/industrial/traffic{
-	dir = 8
-	},
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "heron_subshuttle11";
-	name = "Blast Shutters"
-	},
-/obj/machinery/atmospherics/components/binary/valve{
-	dir = 1;
-	name = "Shuttle Fuel Valve"
-	},
-/obj/structure/fans/tiny,
-/turf/open/floor/plasteel/patterned/ridged,
-/area/ruin/space/has_grav/event_battleship/ert)
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
 "zG" = (
 /obj/item/shard,
 /obj/effect/decal/cleanable/dirt,
@@ -1715,17 +1944,6 @@
 	},
 /turf/open/floor/engine/hull/reinforced,
 /area/ruin/space/has_grav/event_battleship/gunbay)
-"zQ" = (
-/obj/machinery/porta_turret/syndicate/energy/heavy{
-	faction = list("Deathsquad");
-	dir = 10
-	},
-/turf/closed/wall/r_wall/syndicate/nosmooth,
-/area/ruin/space/has_grav/event_battleship/ert)
-"zV" = (
-/obj/structure/shuttle/engine/propulsion/burst/left,
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ruin/space/has_grav/event_battleship/fighter4)
 "zZ" = (
 /obj/item/bedsheet/nanotrasen,
 /obj/structure/bed,
@@ -1741,34 +1959,55 @@
 	icon_state = "platingdmg2"
 	},
 /area/ruin/space/has_grav/event_battleship/security)
-"Ao" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 8
+"Ag" = (
+/obj/machinery/light/dim{
+	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/hivebot/range,
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/event_battleship/crashed_syndies)
-"As" = (
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
+/obj/machinery/droneDispenser/hivebot,
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"An" = (
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
-/obj/effect/mob_spawn/human/commander{
-	brute_damage = 200
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plasteel/stairs{
-	icon = 'icons/obj/stairs.dmi';
-	dir = 8
-	},
-/area/ruin/space/has_grav/event_battleship/ert)
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
 "Av" = (
 /obj/machinery/light/dim{
 	dir = 8
 	},
 /turf/open/floor/engine/hull/reinforced,
 /area/ruin/space/has_grav/event_battleship/gunbay)
+"AA" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 10
+	},
+/obj/machinery/power/smes/engineering{
+	charge = 0
+	},
+/obj/structure/cable{
+	icon_state = "0-10"
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/event_battleship/ert)
+"AB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/event_battleship/ert)
+"AE" = (
+/mob/living/simple_animal/hostile/hivebot/range,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
 "AN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/radioactive/waste,
@@ -1793,6 +2032,16 @@
 	},
 /turf/open/floor/engine/airless,
 /area/ruin/space/has_grav/event_battleship/hangar)
+"Bl" = (
+/obj/machinery/computer/security{
+	dir = 8
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/event_battleship/ert)
 "Bm" = (
 /turf/closed/wall/r_wall/syndicate/nosmooth,
 /area/ruin/space/has_grav/event_battleship/security)
@@ -1812,19 +2061,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/event_battleship/deathsquad)
+"Bx" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
+	dir = 5
+	},
+/turf/closed/wall/mineral/titanium,
+/area/ruin/space/has_grav/event_battleship/fighter3)
 "By" = (
 /obj/structure/shuttle/engine/propulsion/burst/left,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/event_battleship/fighter2)
-"BM" = (
-/obj/structure/frame/computer{
-	dir = 4
-	},
-/obj/item/shard,
-/obj/item/stack/cable_coil/cut/red,
-/obj/effect/decal/cleanable/glass,
-/turf/open/floor/pod/dark,
-/area/ruin/space/has_grav/event_battleship/fighter4)
 "BT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -1842,30 +2089,18 @@
 	icon_state = "platingdmg3"
 	},
 /area/ruin/space/has_grav/event_battleship/engine)
-"BY" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/old,
-/mob/living/simple_animal/hostile/hivebot/rapid,
-/turf/open/floor/plasteel/mono/dark,
-/area/ruin/space/has_grav/event_battleship/deathsquad)
 "Ce" = (
 /obj/effect/mob_spawn/human/corpse/syndicatecommando,
 /obj/item/gun/ballistic/automatic/c20r/sc_c20r,
 /turf/open/floor/engine,
 /area/ruin/space/has_grav/event_battleship/hangar)
-"Cg" = (
-/obj/structure/shuttle/engine/propulsion/right{
-	dir = 1
+"Cl" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
+	dir = 5
 	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ruin/space/has_grav/event_battleship/fighter1)
-"CD" = (
-/obj/structure/foamedmetal/iron,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/engine/airless,
-/area/ruin/space/has_grav/event_battleship/ammo)
+/turf/closed/wall/r_wall/syndicate/nosmooth,
+/area/ruin/space/has_grav/event_battleship/ert)
 "CE" = (
 /obj/machinery/power/rtg/advanced,
 /obj/structure/cable{
@@ -1887,6 +2122,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/event_battleship/deathsquad)
+"CI" = (
+/obj/structure/lattice,
+/obj/item/stack/sheet/mineral/titanium,
+/turf/open/space/basic,
+/area/space)
 "CK" = (
 /turf/closed/wall/r_wall/syndicate/nosmooth,
 /area/ruin/space/has_grav/event_battleship/medical)
@@ -1902,65 +2142,27 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
-"CX" = (
-/mob/living/simple_animal/hostile/carp/megacarp,
-/turf/open/space/basic,
-/area/space)
+"Da" = (
+/obj/machinery/door/airlock/external{
+	name = "Gunnery Airlock"
+	},
+/obj/structure/fans/tiny,
+/obj/machinery/door/poddoor{
+	id = "event_battleship_full_lockdown"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/ammo)
 "Dg" = (
 /obj/item/stack/rods,
 /turf/open/space/basic,
 /area/space)
 "Dm" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/airless,
-/area/ruin/space/has_grav/event_battleship/hangar)
-"Dr" = (
-/obj/machinery/computer/security{
-	dir = 8;
-	network = list("event_battleship_fighter3")
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/has_grav/event_battleship/fighter3)
-"Ds" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/footprints{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hallway)
-"Dt" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 8;
-	name = "tactical chair"
-	},
-/obj/effect/turf_decal/techfloor{
-	dir = 4
-	},
-/obj/effect/mob_spawn/human/corpse/nanotrasenassaultsoldier{
-	brute_damage = 200
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/ert)
-"DJ" = (
-/obj/machinery/computer/helm{
-	dir = 8
-	},
-/obj/effect/turf_decal/techfloor{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/tech/grid,
-/area/ruin/space/has_grav/event_battleship/ert)
+/obj/item/storage/toolbox/mechanical/old,
+/turf/open/space/basic,
+/area/space)
 "DL" = (
 /obj/machinery/light,
 /obj/effect/decal/cleanable/dirt,
@@ -1976,22 +2178,32 @@
 "DS" = (
 /turf/closed/wall/r_wall/syndicate,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
-"DU" = (
-/obj/machinery/porta_turret/syndicate/energy/heavy{
-	faction = list("Deathsquad");
-	dir = 5
+"DV" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4;
+	name = "tactical chair"
+	},
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/obj/effect/mob_spawn/human/corpse/nanotrasenassaultsoldier{
+	brute_damage = 200
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/ert)
+"DY" = (
+/obj/structure/fluff/event_battleship/cannon{
+	dir = 1;
+	pixel_y = 16
 	},
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ruin/space/has_grav/event_battleship/fighter3)
-"DX" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/turf/open/floor/plasteel/airless,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/fighter4)
 "DZ" = (
 /obj/structure/grille/broken,
 /obj/effect/decal/cleanable/glass,
@@ -2014,13 +2226,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/airless,
 /area/ruin/space/has_grav/event_battleship/hallway)
-"Eu" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ruin/space/has_grav/event_battleship/fighter1)
-"EL" = (
-/obj/structure/shuttle/engine/propulsion/burst/right,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/event_battleship/fighter3)
+"Eo" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/ammo_casing/spent,
+/turf/open/floor/plasteel/patterned/grid{
+	icon_state = "tiled"
+	},
+/area/ruin/space/has_grav/event_battleship/ert)
 "EM" = (
 /obj/item/crowbar,
 /turf/open/floor/plasteel/white,
@@ -2044,19 +2260,38 @@
 	},
 /turf/open/floor/plasteel/white/airless,
 /area/ruin/space/has_grav/event_battleship/medical)
-"FD" = (
+"Fe" = (
+/obj/effect/turf_decal/industrial/traffic{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "heron_subshuttle11";
+	name = "Blast Shutters"
+	},
+/obj/structure/fans/tiny,
+/obj/item/ammo_casing/spent,
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/space/has_grav/event_battleship/ert)
+"Fl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/footprints{
-	dir = 5
+	dir = 4
 	},
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
 /obj/structure/cable{
-	icon_state = "1-2"
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/hallway)
+"Ft" = (
+/obj/structure/foamedmetal/iron,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
 "FK" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/poddoor{
@@ -2070,16 +2305,25 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
-"Gg" = (
+"Gd" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/table/reinforced,
-/obj/machinery/photocopier/faxmachine,
-/obj/item/paper{
-	name = "paper - fax from the Chief Engineer";
-	info = "In response to you lowering my wage over the damage to Fighter Alpha, I hereby declare that I am lowering the coolant to the supermatter reactor, and implore you to reconsider."
+/obj/effect/decal/cleanable/blood/footprints,
+/obj/item/stack/cable_coil/cut/red,
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
 	},
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/event_battleship/bridge)
+/area/ruin/space/has_grav/event_battleship/deathsquad)
+"Gg" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
+	dir = 10
+	},
+/turf/closed/wall/mineral/titanium,
+/area/ruin/space/has_grav/event_battleship/fighter1)
+"Gl" = (
+/mob/living/simple_animal/hostile/carp,
+/turf/open/space/basic,
+/area/space)
 "Gn" = (
 /obj/machinery/porta_turret/syndicate/energy/heavy{
 	faction = list("Deathsquad");
@@ -2091,28 +2335,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/hangar)
-"GB" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 4;
-	name = "tactical chair"
-	},
-/obj/effect/turf_decal/techfloor{
+"Gz" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
 	},
-/obj/effect/turf_decal/steeldecal/steel_decals10,
-/obj/effect/turf_decal/techfloor/corner{
-	dir = 1;
-	pixel_y = -16
-	},
-/obj/effect/mob_spawn/human/bridgeofficer{
-	brute_damage = 200
-	},
+/obj/effect/turf_decal/siding/thinplating/dark,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/old,
-/obj/machinery/turretid{
-	pixel_y = 32
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/patterned/grid{
+	icon_state = "tiled"
 	},
-/turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/event_battleship/ert)
 "GF" = (
 /obj/structure/girder/displaced,
@@ -2140,28 +2372,9 @@
 	},
 /turf/open/floor/engine/airless,
 /area/ruin/space/has_grav/event_battleship/ammo)
-"GY" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 8;
-	name = "tactical chair"
-	},
-/obj/effect/turf_decal/techfloor{
-	dir = 4
-	},
-/obj/effect/mob_spawn/human/corpse/nanotrasenassaultsoldier{
-	brute_damage = 200
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/old,
-/mob/living/simple_animal/hostile/hivebot/rapid,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/ert)
 "Hb" = (
 /turf/closed/wall/r_wall/syndicate/nosmooth,
 /area/ruin/space/has_grav/event_battleship/deathsquad)
-"Hf" = (
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/event_battleship/gunbay)
 "Ho" = (
 /obj/structure/lattice,
 /turf/open/space/basic,
@@ -2186,15 +2399,6 @@
 	icon_state = "platingdmg1"
 	},
 /area/ruin/space/has_grav/event_battleship/medical)
-"Hz" = (
-/obj/machinery/door/airlock/external{
-	name = "Gunnery Airlock"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/event_battleship/gunbay)
 "HE" = (
 /turf/open/floor/engine/hull/reinforced,
 /area/ruin/space/has_grav/event_battleship/gunbay)
@@ -2217,14 +2421,6 @@
 	},
 /turf/open/floor/plasteel/airless,
 /area/ruin/space/has_grav/event_battleship/engine)
-"HP" = (
-/obj/machinery/atmospherics/components/unary/shuttle/heater{
-	dir = 4
-	},
-/obj/effect/turf_decal/techfloor/orange,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/tech,
-/area/ruin/space/has_grav/event_battleship/ert)
 "HQ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/airless,
@@ -2239,41 +2435,9 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/event_battleship/gunbay)
-"HV" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 8;
-	name = "tactical chair"
-	},
-/obj/effect/turf_decal/techfloor{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/vending/wallmed{
-	pixel_y = -28
-	},
-/obj/effect/mob_spawn/human/corpse/nanotrasenassaultsoldier{
-	brute_damage = 200
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/ert)
 "HY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/dim,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hallway)
-"HZ" = (
-/obj/effect/mob_spawn/human/corpse/nanotrasensoldier{
-	brute_damage = 200
-	},
-/obj/item/gun/energy/laser/captain/brazil{
-	name = "old laser pistol";
-	desc = "A very early model of Nanotrasen laser pistol issued to middle-ranking security officers. While it used to be able to self-recharge, the nuclear core has since run out of fuel."
-	},
-/obj/effect/decal/cleanable/blood/old,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/hallway)
 "Ia" = (
@@ -2292,14 +2456,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/event_battleship/bridge)
-"It" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/hivebot/range,
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/event_battleship/crashed_syndies)
 "Iv" = (
 /obj/machinery/light/broken{
 	dir = 1;
@@ -2309,11 +2465,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/hangar)
-"IH" = (
+"IP" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plasteel/mono/dark,
-/area/ruin/space/has_grav/event_battleship/deathsquad)
+/mob/living/simple_animal/hostile/hivebot/range,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
 "IS" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/airless,
@@ -2336,20 +2495,13 @@
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/event_battleship/hangar)
-"Ji" = (
+"JG" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/table/reinforced{
-	color = "#c1b6a5"
+/obj/structure/cable{
+	icon_state = "1-8"
 	},
-/turf/open/floor/plasteel/tech/grid,
-/area/ruin/space/has_grav/event_battleship/ert)
-"Jz" = (
-/obj/structure/fluff/event_battleship/cannon{
-	dir = 1;
-	pixel_y = 16
-	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ruin/space/has_grav/event_battleship/fighter2)
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/event_battleship/bridge)
 "JI" = (
 /obj/machinery/button/door{
 	id = "event_battleship_hangar_starboard";
@@ -2358,15 +2510,6 @@
 	},
 /turf/open/floor/engine,
 /area/ruin/space/has_grav/event_battleship/hangar)
-"JM" = (
-/obj/structure/frame/computer{
-	dir = 8
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/has_grav/event_battleship/fighter1)
 "JP" = (
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Engineering"
@@ -2376,42 +2519,34 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/event_battleship/engine)
-"JQ" = (
-/obj/structure/frame/computer{
-	dir = 4
-	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/has_grav/event_battleship/fighter1)
-"JV" = (
-/obj/machinery/door/poddoor{
-	id = "heron_subshuttle_bridge"
-	},
-/obj/effect/spawner/structure/window/shuttle,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/event_battleship/ert)
-"JX" = (
-/obj/machinery/atmospherics/components/unary/shuttle/heater{
-	dir = 4
-	},
-/obj/effect/turf_decal/techfloor/orange{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/tech,
-/area/ruin/space/has_grav/event_battleship/ert)
 "Kk" = (
-/turf/closed/wall/r_wall/syndicate/nosmooth,
-/area/ruin/space/has_grav/event_battleship/ert)
-"Kp" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	icon_state = "4-8"
+/obj/structure/lattice,
+/obj/item/stack/tile/plasteel,
+/turf/open/space/basic,
+/area/space)
+"Ko" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8;
+	name = "tactical chair"
 	},
-/turf/open/floor/plasteel/mono/dark,
-/area/ruin/space/has_grav/event_battleship/deathsquad)
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/wallmed{
+	pixel_y = -28
+	},
+/obj/effect/mob_spawn/human/corpse/nanotrasenassaultsoldier{
+	brute_damage = 200
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/ert)
+"Ks" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/airless,
+/area/ruin/space/has_grav/event_battleship/hangar)
 "Kx" = (
 /obj/machinery/door/airlock/security{
 	name = "Security"
@@ -2425,50 +2560,14 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/dark/airless,
 /area/ruin/space/has_grav/event_battleship/security)
-"KF" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 4;
-	name = "tactical chair"
-	},
-/obj/structure/railing{
-	dir = 8;
-	layer = 4.1
-	},
-/obj/effect/turf_decal/techfloor{
-	dir = 8
-	},
-/obj/effect/mob_spawn/human/corpse/nanotrasenassaultsoldier{
-	brute_damage = 200
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/ert)
 "KQ" = (
 /obj/item/shard,
-/obj/item/stack/cable_coil/cut/red,
-/obj/effect/decal/cleanable/glass,
-/obj/effect/mob_spawn/human/corpse/nanotrasensoldier{
-	brute_damage = 200
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
-/obj/machinery/turretid{
-	pixel_y = 32;
-	pixel_x = 32
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/has_grav/event_battleship/fighter4)
-"KU" = (
-/obj/effect/turf_decal/industrial/traffic{
-	dir = 8
-	},
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "heron_subshuttle22";
-	name = "Blast Shutters"
-	},
-/obj/structure/fans/tiny,
-/mob/living/simple_animal/hostile/hivebot/range,
-/turf/open/floor/plasteel/patterned/ridged,
-/area/ruin/space/has_grav/event_battleship/ert)
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
 "KV" = (
 /obj/machinery/door/airlock/external{
 	req_access_txt = "150"
@@ -2477,13 +2576,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
-"Lj" = (
-/obj/item/ammo_casing/spent,
-/mob/living/simple_animal/hostile/hivebot/mechanic,
-/turf/open/floor/plasteel/patterned/monofloor{
-	dir = 1
-	},
-/area/ruin/space/has_grav/event_battleship/ert)
 "Lv" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
@@ -2493,6 +2585,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ruin/space/has_grav/event_battleship/hallway)
+"Lw" = (
+/obj/structure/frame/computer{
+	dir = 8
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/fighter1)
 "Lz" = (
 /obj/machinery/porta_turret/syndicate/energy/heavy{
 	faction = list("Deathsquad");
@@ -2508,16 +2609,44 @@
 	},
 /turf/open/floor/engine/airless,
 /area/ruin/space/has_grav/event_battleship/ammo)
+"LG" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
+	dir = 9
+	},
+/turf/closed/wall/r_wall/syndicate/nosmooth,
+/area/ruin/space/has_grav/event_battleship/ert)
 "LO" = (
-/obj/item/stack/sheet/mineral/titanium,
-/turf/open/space/basic,
-/area/space)
+/obj/effect/turf_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 9
+	},
+/obj/structure/cable/yellow,
+/obj/machinery/power/port_gen/pacman,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 9
+	},
+/obj/machinery/light,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/event_battleship/ert)
 "LP" = (
 /obj/structure/fluff/event_battleship/cannon/bigboy{
 	dir = 4
 	},
 /turf/open/floor/engine/hull/reinforced,
 /area/ruin/space/has_grav/event_battleship/gunbay)
+"LU" = (
+/obj/item/ammo_casing/spent,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
 "LV" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2529,13 +2658,15 @@
 	icon_state = "platingdmg3"
 	},
 /area/ruin/space/has_grav/event_battleship/hallway)
-"LW" = (
-/obj/machinery/porta_turret/syndicate/energy/heavy{
-	faction = list("Deathsquad");
-	dir = 9
+"LY" = (
+/obj/structure/cable{
+	icon_state = "0-8"
 	},
-/turf/closed/wall/mineral/titanium,
-/area/ruin/space/has_grav/event_battleship/fighter3)
+/obj/machinery/power/smes,
+/turf/open/floor/plating/airless{
+	icon_state = "platingdmg1"
+	},
+/area/ruin/space/has_grav/event_battleship/hangar)
 "Mb" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/dim{
@@ -2543,28 +2674,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/hallway)
-"Mj" = (
-/obj/item/stack/tile/plasteel,
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/space)
-"Mm" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/footprints{
-	dir = 5
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hallway)
-"My" = (
-/obj/structure/shuttle/engine/heater{
-	dir = 1;
-	anchored = 0
-	},
-/turf/open/space/basic,
-/area/space)
 "MC" = (
 /obj/item/shard,
 /obj/effect/decal/cleanable/dirt,
@@ -2573,12 +2682,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/hangar)
-"MG" = (
-/obj/machinery/door/airlock/hatch{
-	name = "Fighter Delta"
-	},
-/turf/open/floor/pod/dark,
-/area/ruin/space/has_grav/event_battleship/fighter4)
 "MH" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2591,6 +2694,16 @@
 	},
 /turf/open/floor/engine/airless,
 /area/ruin/space/has_grav/event_battleship/ammo)
+"Ne" = (
+/obj/machinery/atmospherics/components/unary/shuttle/heater{
+	dir = 4
+	},
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/event_battleship/ert)
 "Ni" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
@@ -2621,39 +2734,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
-"NK" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/thinplating/dark,
-/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer1{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/orange/hidden{
-	dir = 9
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/effect/mob_spawn/human/corpse/syndicatecommando{
-	burn_damage = 200
-	},
-/obj/item/gun/ballistic/automatic/c20r/sc_c20r,
-/obj/item/ammo_casing/spent,
-/turf/open/floor/plasteel/patterned/grid{
-	icon_state = "tiled"
-	},
-/area/ruin/space/has_grav/event_battleship/ert)
-"NO" = (
-/obj/machinery/light/small{
+"NA" = (
+/obj/machinery/computer/helm{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	icon_state = "1-2"
+/obj/effect/turf_decal/techfloor{
+	dir = 4
 	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/dorms)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/event_battleship/ert)
 "NR" = (
 /turf/open/floor/plating/airless{
 	icon_state = "platingdmg2"
@@ -2665,32 +2755,18 @@
 	icon_state = "platingdmg2"
 	},
 /area/ruin/space/has_grav/event_battleship/ammo)
-"NT" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/footprints,
-/obj/item/stack/cable_coil/cut/red,
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
-	},
-/area/ruin/space/has_grav/event_battleship/deathsquad)
 "Ob" = (
-/obj/machinery/power/shuttle/engine/fueled/plasma{
+/obj/structure/shuttle/engine/propulsion/burst/right,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/fighter4)
+"Oh" = (
+/obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
-/obj/machinery/door/poddoor{
-	id = "heron_subshuttle_engines";
-	name = "Thruster Blast Door"
-	},
-/obj/structure/window/plasma/reinforced/spawner/east,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/event_battleship/ert)
-"Oi" = (
-/obj/structure/fluff/event_battleship/cannon{
-	dir = 1;
-	pixel_y = 16
-	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ruin/space/has_grav/event_battleship/fighter4)
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/hivebot/range,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
 "On" = (
 /obj/effect/mob_spawn/human/corpse/syndicatecommando,
 /obj/item/gun/ballistic/automatic/c20r/sc_c20r,
@@ -2713,6 +2789,12 @@
 	},
 /turf/open/floor/engine/airless,
 /area/ruin/space/has_grav/event_battleship/ammo)
+"Ot" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/old,
+/mob/living/simple_animal/hostile/hivebot/rapid,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
 "Oy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -2733,11 +2815,6 @@
 /mob/living/simple_animal/hostile/hivebot/strong,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
-"OC" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/droneDispenser/hivebot,
-/turf/open/floor/plasteel/mono/dark,
-/area/ruin/space/has_grav/event_battleship/deathsquad)
 "OG" = (
 /obj/effect/turf_decal/industrial/warning,
 /obj/machinery/vending/cola/random,
@@ -2750,35 +2827,23 @@
 	},
 /turf/open/floor/engine/hull/reinforced,
 /area/ruin/space/has_grav/event_battleship/gunbay)
+"OP" = (
+/obj/effect/turf_decal/industrial/traffic{
+	dir = 8
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "heron_subshuttle22";
+	name = "Blast Shutters"
+	},
+/obj/structure/fans/tiny,
+/mob/living/simple_animal/hostile/hivebot/range,
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/space/has_grav/event_battleship/ert)
 "OR" = (
 /turf/open/floor/plating/airless{
 	icon_state = "platingdmg1"
 	},
 /area/ruin/space/has_grav/event_battleship/security)
-"OW" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/power/apc/auto_name/south{
-	start_charge = 0
-	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/event_battleship/ammo)
-"Pc" = (
-/obj/structure/lattice,
-/obj/item/stack/sheet/mineral/titanium,
-/turf/open/space/basic,
-/area/space)
-"Pf" = (
-/obj/machinery/porta_turret/syndicate/energy/heavy{
-	faction = list("Deathsquad");
-	dir = 6
-	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ruin/space/has_grav/event_battleship/fighter1)
 "Ph" = (
 /obj/effect/mob_spawn/human/corpse/syndicatecommando,
 /obj/effect/decal/cleanable/dirt,
@@ -2796,6 +2861,17 @@
 	},
 /turf/open/floor/engine/airless,
 /area/ruin/space/has_grav/event_battleship/ammo)
+"PC" = (
+/obj/effect/turf_decal/industrial/traffic{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "heron_subshuttle22";
+	name = "Blast Shutters"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/space/has_grav/event_battleship/ert)
 "PF" = (
 /obj/machinery/vending/security/marine,
 /obj/effect/decal/cleanable/dirt,
@@ -2808,12 +2884,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/event_battleship/bridge)
-"PN" = (
-/obj/structure/girder/reinforced,
-/turf/open/floor/plating/airless{
-	icon_state = "platingdmg3"
+"PP" = (
+/obj/structure/shuttle/engine/propulsion/left{
+	dir = 1
 	},
-/area/ruin/space/has_grav/event_battleship/hangar)
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/fighter1)
 "PQ" = (
 /obj/item/circuitboard/computer/shuttle/helm,
 /obj/effect/decal/cleanable/dirt,
@@ -2825,20 +2901,100 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/event_battleship/bridge)
-"PW" = (
-/obj/machinery/porta_turret/syndicate/energy/heavy{
-	faction = list("Deathsquad");
+"PV" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer1{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/orange/hidden{
+	dir = 8
+	},
+/obj/machinery/power/terminal{
 	dir = 1
 	},
-/obj/machinery/camera/all{
-	network = list("event_battleship_fighter3");
-	dir = 1;
-	pixel_y = 32;
-	pixel_x = 12
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
-/turf/closed/wall/mineral/titanium,
-/area/ruin/space/has_grav/event_battleship/fighter3)
-"Qf" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/event_battleship/ert)
+"Qb" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/hivebot/rapid,
+/turf/open/floor/plasteel/patterned/grid{
+	icon_state = "tiled"
+	},
+/area/ruin/space/has_grav/event_battleship/ert)
+"Qj" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/plasteel/white/airless,
+/area/ruin/space/has_grav/event_battleship/medical)
+"Qk" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"Ql" = (
+/obj/item/ammo_casing/spent,
+/mob/living/simple_animal/hostile/hivebot/mechanic,
+/turf/open/floor/plasteel/patterned/monofloor{
+	dir = 1
+	},
+/area/ruin/space/has_grav/event_battleship/ert)
+"Qx" = (
+/obj/item/ammo_casing/spent,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"QF" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"Ra" = (
+/obj/structure/fluff/event_battleship/oldplasmashell,
+/turf/open/floor/engine/airless,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"Ro" = (
+/obj/item/stack/cable_coil/cut/red,
+/turf/open/space/basic,
+/area/space)
+"Rs" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/airless{
+	icon_state = "platingdmg1"
+	},
+/area/ruin/space/has_grav/event_battleship/engine)
+"Ru" = (
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/gunbay)
+"RM" = (
+/obj/structure/fluff/event_battleship/cannon,
+/turf/open/floor/engine/hull/reinforced,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"RQ" = (
+/turf/closed/wall/r_wall/syndicate/nosmooth,
+/area/ruin/space/has_grav/event_battleship/hangar)
+"RT" = (
+/obj/effect/mob_spawn/human/lost/centcom{
+	dir = 1;
+	desc = "A sleeper designed to put its occupant into cryogenic stasis during dire emergencies.";
+	short_desc = "You are the CentCom Liasion to the NT-C Vanguard.";
+	important_info = "Try to escape alive to a Nanotrasen ship to get a report home.";
+	flavour_text = "You were the liasion to the NT-C Vanguard as a Syndicate boarding ship slammed into the hangar. You ran into emergency cryogenics and managed to survive... You don't think that was your best idea.";
+	random = 0
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/medical)
+"RX" = (
 /obj/structure/table/reinforced{
 	color = "#c1b6a5"
 	},
@@ -2863,123 +3019,30 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/event_battleship/ert)
-"Qg" = (
+"RZ" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/dorms)
-"Qi" = (
-/obj/machinery/atmospherics/components/unary/tank/toxins{
-	dir = 4;
-	piping_layer = 1
-	},
-/obj/structure/cable{
-	icon_state = "4-5"
-	},
-/obj/effect/turf_decal/steeldecal/steel_decals3,
-/obj/effect/turf_decal/steeldecal/steel_decals3{
-	dir = 6
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/tech,
-/area/ruin/space/has_grav/event_battleship/ert)
-"Qj" = (
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plasteel/white/airless,
-/area/ruin/space/has_grav/event_battleship/medical)
-"Qk" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hallway)
-"Qm" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hallway)
-"Qx" = (
-/obj/item/ammo_casing/spent,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hallway)
-"QC" = (
-/obj/machinery/button/door{
-	id = "heron_subshuttle22";
-	name = "Access Shutters";
-	pixel_x = -23;
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/glass{
-	pixel_x = 8;
-	pixel_y = 20
-	},
-/obj/item/ammo_casing/spent,
-/turf/open/floor/plasteel/patterned/monofloor,
-/area/ruin/space/has_grav/event_battleship/ert)
-"QF" = (
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
-/area/ruin/space/has_grav/event_battleship/crashed_syndies)
-"Ra" = (
-/obj/structure/fluff/event_battleship/oldplasmashell,
-/turf/open/floor/engine/airless,
-/area/ruin/space/has_grav/event_battleship/ammo)
-"Rs" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/airless{
-	icon_state = "platingdmg1"
-	},
-/area/ruin/space/has_grav/event_battleship/engine)
-"RC" = (
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/machinery/power/terminal{
-	dir = 1
-	},
-/obj/item/wrench,
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/event_battleship/hangar)
-"RH" = (
+"Sb" = (
 /obj/machinery/porta_turret/syndicate/energy/heavy{
 	faction = list("Deathsquad");
 	dir = 6
 	},
-/turf/closed/wall/r_wall/syndicate/nosmooth,
-/area/ruin/space/has_grav/event_battleship/ert)
-"RM" = (
-/obj/structure/fluff/event_battleship/cannon,
-/turf/open/floor/engine/hull/reinforced,
-/area/ruin/space/has_grav/event_battleship/hallway)
-"RQ" = (
-/turf/closed/wall/r_wall/syndicate/nosmooth,
-/area/ruin/space/has_grav/event_battleship/hangar)
-"RT" = (
-/obj/effect/mob_spawn/human/lost/centcom{
-	dir = 1;
-	desc = "A sleeper designed to put its occupant into cryogenic stasis during dire emergencies.";
-	short_desc = "You are the CentCom Liasion to the NT-C Vanguard.";
-	important_info = "Try to escape alive to a Nanotrasen ship to get a report home.";
-	flavour_text = "You were the liasion to the NT-C Vanguard as a Syndicate boarding ship slammed into the hangar. You ran into emergency cryogenics and managed to survive... You don't think that was your best idea.";
-	random = 0
+/turf/closed/wall/mineral/titanium,
+/area/ruin/space/has_grav/event_battleship/fighter1)
+"Sc" = (
+/obj/machinery/turretid{
+	pixel_x = -32;
+	pixel_y = -32
 	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/event_battleship/medical)
-"RV" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hallway)
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/fighter1)
 "Sn" = (
 /obj/item/ammo_casing/spent,
 /obj/effect/decal/cleanable/dirt,
@@ -3019,21 +3082,6 @@
 	},
 /turf/open/floor/plasteel/dark/airless,
 /area/ruin/space/has_grav/event_battleship/security)
-"Sz" = (
-/obj/item/ammo_casing/spent,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/footprints,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hallway)
 "SB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/apc/auto_name/west{
@@ -3044,29 +3092,19 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/dorms)
-"SL" = (
-/obj/machinery/atmospherics/pipe/layer_manifold,
-/obj/machinery/power/apc/auto_name/west{
-	start_charge = 0
-	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/machinery/camera{
-	dir = 5
-	},
-/obj/item/ammo_casing/spent,
-/obj/item/ammo_casing/spent,
-/turf/open/floor/plasteel/patterned/monofloor,
-/area/ruin/space/has_grav/event_battleship/ert)
-"ST" = (
+"SG" = (
+/obj/structure/frame/computer,
 /obj/item/shard,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	icon_state = "1-2"
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/fighter4)
+"SM" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
+	dir = 6
 	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hallway)
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/fighter1)
 "SX" = (
 /obj/structure/window/plasma/reinforced,
 /obj/structure/shuttle/engine/heater{
@@ -3074,6 +3112,14 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"Tf" = (
+/obj/item/ammo_casing/spent,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
 "Tr" = (
 /obj/structure/fluff/event_battleship/oldshell,
 /obj/machinery/light/dim,
@@ -3088,38 +3134,26 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/grimy,
 /area/ruin/space/has_grav/event_battleship/dorms)
-"Tx" = (
+"TD" = (
+/turf/open/floor/plasteel/white/airless,
+/area/ruin/space/has_grav/event_battleship/medical)
+"TG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/event_battleship/bridge)
-"TD" = (
-/turf/open/floor/plasteel/white/airless,
-/area/ruin/space/has_grav/event_battleship/medical)
-"TH" = (
-/obj/machinery/atmospherics/pipe/simple/orange/hidden,
-/obj/machinery/button/door{
-	id = "heron_subshuttle11";
-	name = "Access Shutters";
-	pixel_x = -23;
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/item/ammo_casing/spent,
-/obj/item/ammo_casing/spent,
-/turf/open/floor/plasteel/patterned/monofloor{
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
+"TN" = (
+/obj/structure/shuttle/engine/propulsion/burst/left,
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/fighter3)
+"Uf" = (
+/obj/structure/shuttle/engine/propulsion/right{
 	dir = 1
 	},
-/area/ruin/space/has_grav/event_battleship/ert)
-"TR" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hallway)
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/fighter1)
 "Uj" = (
 /obj/machinery/computer/crew{
 	dir = 8
@@ -3144,6 +3178,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/event_battleship/bridge)
+"Uq" = (
+/obj/structure/shuttle/engine/heater{
+	dir = 1;
+	anchored = 0
+	},
+/turf/open/space/basic,
+/area/space)
 "Us" = (
 /obj/structure/shuttle/engine/propulsion/right{
 	dir = 1
@@ -3165,22 +3206,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ruin/space/has_grav/event_battleship/hallway)
-"Uz" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/old,
-/obj/effect/decal/cleanable/blood/footprints,
-/obj/structure/cable{
-	icon_state = "1-2"
+"Ux" = (
+/obj/structure/fluff/event_battleship/cannon{
+	pixel_y = 16
 	},
-/turf/open/floor/plasteel/mono/dark,
-/area/ruin/space/has_grav/event_battleship/deathsquad)
+/turf/open/space/basic,
+/area/space)
 "UG" = (
-/obj/machinery/porta_turret/syndicate/energy/heavy{
-	faction = list("Deathsquad");
-	dir = 9
-	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ruin/space/has_grav/event_battleship/fighter3)
+/mob/living/simple_animal/hostile/carp/megacarp,
+/turf/open/space/basic,
+/area/space)
 "UH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/poddoor{
@@ -3188,38 +3223,14 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/hangar)
-"UI" = (
-/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer1{
-	dir = 8
-	},
-/obj/machinery/atmospherics/components/binary/pump{
-	dir = 8;
-	name = "engine fuel pump"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/effect/turf_decal/steeldecal/steel_decals10{
-	dir = 4
-	},
-/obj/effect/turf_decal/steeldecal/steel_decals10,
-/obj/machinery/door/airlock/grunge,
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
+"UJ" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/fighter3)
+"UM" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/tech/grid,
+/mob/living/simple_animal/hostile/hivebot/range,
+/turf/open/floor/plasteel/patterned/monofloor,
 /area/ruin/space/has_grav/event_battleship/ert)
-"UQ" = (
-/obj/machinery/porta_turret/syndicate/energy/heavy{
-	faction = list("Deathsquad");
-	dir = 6
-	},
-/turf/closed/wall/mineral/titanium,
-/area/ruin/space/has_grav/event_battleship/fighter1)
 "UR" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/poddoor{
@@ -3227,27 +3238,17 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/event_battleship/medical)
-"Va" = (
-/obj/structure/shuttle/engine/propulsion/left{
-	dir = 1
+"Vc" = (
+/obj/machinery/door/airlock/external{
+	name = "Gunnery Airlock"
 	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ruin/space/has_grav/event_battleship/fighter1)
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/gunbay)
 "Ve" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
-"Vi" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/droneDispenser/hivebot,
-/turf/open/floor/plasteel/patterned/grid{
-	icon_state = "tiled"
-	},
-/area/ruin/space/has_grav/event_battleship/ert)
 "Vj" = (
 /obj/structure/lattice,
 /obj/effect/radiation{
@@ -3255,6 +3256,17 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"Vs" = (
+/obj/machinery/power/shuttle/engine/fueled/plasma{
+	dir = 4
+	},
+/obj/machinery/door/poddoor{
+	id = "heron_subshuttle_engines";
+	name = "Thruster Blast Door"
+	},
+/obj/structure/window/plasma/reinforced/spawner/east,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/ert)
 "Vx" = (
 /obj/structure/railing{
 	dir = 6;
@@ -3270,13 +3282,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/hangar)
-"VB" = (
-/obj/machinery/door/airlock/hatch{
-	name = "Fighter Charlie"
-	},
-/obj/structure/fans/tiny,
-/turf/open/floor/pod/dark,
-/area/ruin/space/has_grav/event_battleship/fighter3)
 "VF" = (
 /obj/machinery/light/dim,
 /obj/item/ammo_casing/spent,
@@ -3311,13 +3316,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/event_battleship/deathsquad)
-"Wa" = (
-/obj/structure/girder/displaced,
-/obj/item/stack/sheet/mineral/titanium,
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
-	},
-/area/ruin/space/has_grav/event_battleship/fighter4)
 "Wb" = (
 /obj/item/circuitboard/computer/autopilot,
 /obj/effect/decal/cleanable/dirt,
@@ -3339,13 +3337,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/event_battleship/deathsquad)
-"Wu" = (
-/obj/structure/shuttle/engine/propulsion{
-	dir = 1;
-	anchored = 0
-	},
-/turf/open/space/basic,
-/area/space)
 "Wv" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -3370,6 +3361,15 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ruin/space/has_grav/event_battleship/medical)
+"WE" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/airless,
+/area/ruin/space/has_grav/event_battleship/hangar)
 "WN" = (
 /turf/closed/wall/r_wall/syndicate/nosmooth,
 /area/ruin/space/has_grav/event_battleship/ammo)
@@ -3379,14 +3379,35 @@
 	},
 /turf/closed/wall/r_wall/syndicate,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"WR" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
+	dir = 9
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/fighter3)
 "WS" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/event_battleship/bridge)
+"WU" = (
+/obj/structure/shuttle/engine/propulsion/burst/right,
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/fighter4)
 "Xu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/poddoor{
 	id = "event_battleship_full_lockdown"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hallway)
+"Xv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 5
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/hallway)
@@ -3416,28 +3437,10 @@
 	},
 /turf/open/floor/plasteel/airless,
 /area/ruin/space/has_grav/event_battleship/engine)
-"XM" = (
-/mob/living/simple_animal/hostile/carp,
-/turf/open/space/basic,
-/area/space)
 "XN" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/event_battleship/engine)
-"XO" = (
-/obj/machinery/light/dim{
-	dir = 4
-	},
-/obj/machinery/droneDispenser/hivebot,
-/turf/open/floor/engine/airless,
-/area/ruin/space/has_grav/event_battleship/ammo)
-"XW" = (
-/obj/machinery/porta_turret/syndicate/energy/heavy{
-	faction = list("Deathsquad");
-	dir = 9
-	},
-/turf/closed/wall/r_wall/syndicate/nosmooth,
-/area/ruin/space/has_grav/event_battleship/ert)
 "XY" = (
 /obj/structure/shuttle/engine/propulsion/left{
 	dir = 1
@@ -3448,30 +3451,15 @@
 /mob/living/simple_animal/hostile/hivebot/range,
 /turf/open/floor/engine/airless,
 /area/ruin/space/has_grav/event_battleship/ammo)
-"Yt" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/thinplating/dark,
+"Yh" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/hivebot/rapid,
-/turf/open/floor/plasteel/patterned/grid{
-	icon_state = "tiled"
-	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
+"Yl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/ammo_casing/spent,
+/turf/open/floor/plasteel/patterned/monofloor,
 /area/ruin/space/has_grav/event_battleship/ert)
-"Yz" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hallway)
-"YB" = (
-/obj/structure/lattice,
-/obj/item/stack/sheet/mineral/titanium,
-/obj/structure/girder/displaced,
-/turf/open/space/basic,
-/area/space)
 "YF" = (
 /obj/machinery/button/door{
 	id = "event_battleship_ammo_storage";
@@ -3479,6 +3467,12 @@
 	},
 /turf/open/floor/engine/airless,
 /area/ruin/space/has_grav/event_battleship/ammo)
+"YH" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Fighter Delta"
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/fighter4)
 "YJ" = (
 /mob/living/simple_animal/hostile/hivebot/mechanic,
 /turf/open/floor/engine/airless,
@@ -3493,16 +3487,6 @@
 "YT" = (
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/event_battleship/security)
-"YX" = (
-/obj/machinery/computer/security{
-	dir = 8
-	},
-/obj/effect/turf_decal/techfloor{
-	dir = 6
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/tech/grid,
-/area/ruin/space/has_grav/event_battleship/ert)
 "Zg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/dim{
@@ -3514,13 +3498,6 @@
 /obj/item/ammo_casing/spent,
 /turf/open/floor/engine/airless,
 /area/ruin/space/has_grav/event_battleship/hangar)
-"Zj" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/turf/open/floor/plasteel/mono/dark,
-/area/ruin/space/has_grav/event_battleship/deathsquad)
 "Zl" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -3529,12 +3506,9 @@
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/dorms)
 "Zn" = (
-/obj/structure/cable,
-/obj/machinery/power/port_gen/pacman/uranium,
-/turf/open/floor/plating/airless{
-	icon_state = "platingdmg2"
-	},
-/area/ruin/space/has_grav/event_battleship/hangar)
+/obj/item/stack/sheet/mineral/titanium,
+/turf/open/space/basic,
+/area/space)
 "Zt" = (
 /obj/machinery/conveyor{
 	id = "eventbattleship_autoloaders";
@@ -3554,6 +3528,24 @@
 	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/event_battleship/deathsquad)
+"Zx" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4;
+	name = "tactical chair"
+	},
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/obj/effect/mob_spawn/human/corpse/nanotrasenassaultsoldier{
+	brute_damage = 200
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/ert)
 "Zy" = (
 /turf/open/floor/plating/airless{
 	icon_state = "platingdmg3"
@@ -3566,14 +3558,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/hangar)
-"ZC" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/hivebot/mechanic,
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/event_battleship/crashed_syndies)
 "ZG" = (
 /obj/structure/fluff/event_battleship/oldplasmashell,
 /obj/machinery/light/dim{
@@ -3587,17 +3571,38 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/hangar)
-"ZR" = (
-/obj/item/shard,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/footprints{
-	dir = 1
+"ZM" = (
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /obj/structure/cable{
-	icon_state = "1-2"
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc/auto_name/south{
+	start_charge = 0
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/event_battleship/ammo)
+"ZS" = (
+/obj/item/ammo_casing/spent,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/event_battleship/hallway)
+"ZV" = (
+/obj/structure/frame/computer{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/space/has_grav/event_battleship/fighter1)
 
 (1,1,1) = {"
 hS
@@ -3717,7 +3722,7 @@ hS
 hS
 hS
 hS
-XM
+Gl
 hS
 hS
 hS
@@ -3847,7 +3852,7 @@ hS
 hS
 hS
 hS
-CX
+UG
 hS
 hS
 "}
@@ -3882,7 +3887,7 @@ hS
 hS
 hS
 hS
-hS
+Dm
 hS
 hS
 hS
@@ -3929,7 +3934,7 @@ hS
 hS
 hS
 hS
-XM
+Gl
 hS
 hS
 hS
@@ -3968,7 +3973,7 @@ hS
 hS
 hS
 hS
-XM
+Gl
 hS
 hS
 hS
@@ -4058,7 +4063,7 @@ hS
 hS
 hS
 hS
-XM
+Gl
 hS
 "}
 (12,1,1) = {"
@@ -4139,7 +4144,7 @@ hS
 hS
 hS
 hS
-XM
+Gl
 hS
 hS
 hS
@@ -4525,13 +4530,13 @@ hS
 "}
 (23,1,1) = {"
 hS
-My
+Uq
 hS
 Pk
 SX
 Hx
 Ga
-ZC
+jJ
 cz
 rn
 AR
@@ -4540,7 +4545,7 @@ nE
 eb
 pP
 oR
-It
+Oh
 oR
 pN
 pN
@@ -4611,12 +4616,12 @@ hS
 hS
 hS
 hS
-rb
-rb
+jT
+jT
 bL
 cz
 oC
-db
+IP
 cz
 iu
 No
@@ -4624,7 +4629,7 @@ No
 OB
 nN
 Ni
-Ao
+vC
 Ni
 pN
 pN
@@ -4716,7 +4721,7 @@ Zz
 RQ
 gy
 gy
-kc
+iQ
 gy
 gy
 gy
@@ -4735,7 +4740,7 @@ hS
 "}
 (28,1,1) = {"
 hS
-Wu
+mA
 hS
 hS
 Us
@@ -4746,7 +4751,7 @@ pN
 DS
 Wx
 sO
-rd
+cE
 sO
 sO
 sO
@@ -4799,11 +4804,11 @@ wb
 Zz
 RQ
 gy
-tn
-Eu
-Eu
-Eu
-wk
+Uf
+dD
+dD
+dD
+su
 gy
 FK
 hS
@@ -4832,7 +4837,7 @@ Wx
 sO
 sO
 sO
-Jz
+hn
 pZ
 oa
 sO
@@ -4841,9 +4846,9 @@ Gu
 Zz
 RQ
 gy
-Va
-Eu
-Eu
+PP
+dD
+dD
 gy
 gy
 gy
@@ -4883,10 +4888,10 @@ Gu
 Sn
 RQ
 gy
-Eu
-JQ
-Eu
-ql
+dD
+ZV
+dD
+Gg
 gy
 am
 FK
@@ -4894,11 +4899,11 @@ hS
 hS
 hS
 hS
-UG
-fl
-fl
-fl
-wD
+WR
+UJ
+UJ
+UJ
+tu
 hS
 "}
 (32,1,1) = {"
@@ -4925,11 +4930,11 @@ Gu
 Zz
 Jg
 gy
-ir
-uq
-ep
-Eu
-nk
+xp
+Sc
+ui
+dD
+bc
 gy
 FK
 hS
@@ -4938,9 +4943,9 @@ hS
 hS
 hS
 hS
-iX
-fl
-vQ
+na
+UJ
+dC
 hS
 "}
 (33,1,1) = {"
@@ -4967,10 +4972,10 @@ nZ
 Zz
 RQ
 gy
-Eu
-JM
-Eu
-UQ
+dD
+Lw
+dD
+Sb
 gy
 gy
 FK
@@ -4979,10 +4984,10 @@ hS
 hS
 hS
 hS
-LW
-fl
-dI
-fl
+lC
+UJ
+jK
+UJ
 hS
 "}
 (34,1,1) = {"
@@ -5000,7 +5005,7 @@ Wx
 sO
 sO
 sO
-Jz
+hn
 pZ
 cY
 sO
@@ -5009,9 +5014,9 @@ Gu
 Vz
 RQ
 gy
-Cg
-Eu
-Eu
+sk
+dD
+dD
 gy
 gy
 gy
@@ -5020,11 +5025,11 @@ hS
 hS
 hS
 hS
-PW
-fl
-aC
-hH
-VB
+uu
+UJ
+ju
+va
+bo
 hS
 "}
 (35,1,1) = {"
@@ -5051,11 +5056,11 @@ Gu
 Zz
 Jg
 gy
-mk
-Eu
-Eu
-Eu
-Pf
+mG
+dD
+dD
+dD
+SM
 gy
 FK
 hS
@@ -5063,10 +5068,10 @@ hS
 hS
 hS
 hS
-yi
-fl
-Dr
-fl
+Bx
+UJ
+rV
+UJ
 hS
 "}
 (36,1,1) = {"
@@ -5093,7 +5098,7 @@ Gu
 Zz
 RQ
 gy
-yB
+tN
 gy
 gy
 gy
@@ -5106,9 +5111,9 @@ hS
 hS
 hS
 hS
-iX
-fl
-id
+na
+UJ
+TN
 hS
 "}
 (37,1,1) = {"
@@ -5121,7 +5126,7 @@ hS
 hS
 hS
 hS
-rY
+vy
 RQ
 RQ
 RQ
@@ -5142,15 +5147,15 @@ RQ
 RQ
 RQ
 RQ
-hy
+Ux
 hS
 hS
 hS
-DU
-fl
-fl
-fl
-EL
+ir
+UJ
+UJ
+UJ
+iX
 hS
 "}
 (38,1,1) = {"
@@ -5174,15 +5179,15 @@ Ss
 Ss
 Ss
 Ss
-DX
-Dm
-Dm
-Dm
-Dm
-dP
-jh
-xl
-kF
+WE
+Ks
+Ks
+Ks
+Ks
+dy
+fL
+th
+ye
 RQ
 hS
 hS
@@ -5200,7 +5205,7 @@ hS
 hS
 hS
 hS
-LO
+Zn
 hS
 hS
 hS
@@ -5222,13 +5227,13 @@ Ss
 Ss
 Ss
 RQ
-lt
-RC
-Zn
+LY
+kq
+cV
 RQ
 hS
 hS
-LO
+Zn
 hS
 hS
 hS
@@ -5259,14 +5264,14 @@ Ho
 hS
 hS
 qp
-PN
+fP
 NR
 NR
 NR
 RQ
 RQ
 RQ
-gU
+oS
 RQ
 hS
 hS
@@ -5337,16 +5342,16 @@ hS
 hS
 hS
 hS
-bs
+Ro
 hS
 Ho
 hS
 hS
 qU
 hS
-cc
+Kk
 hS
-sJ
+oq
 hS
 hS
 hS
@@ -5375,17 +5380,17 @@ hS
 hS
 hS
 Dg
-Pc
+CI
 hS
 hS
 hS
 hS
 Dg
 Ho
-sJ
+oq
 hS
 hS
-bs
+Ro
 hS
 hS
 hS
@@ -5417,7 +5422,7 @@ hS
 hS
 hS
 hS
-Pc
+CI
 hS
 hS
 hS
@@ -5429,7 +5434,7 @@ hS
 hS
 hS
 Ho
-sJ
+oq
 hS
 Ho
 hS
@@ -5437,7 +5442,7 @@ hS
 hS
 hS
 hS
-bs
+Ro
 hS
 hS
 hS
@@ -5468,10 +5473,10 @@ hS
 Ho
 hS
 hS
-LO
+Zn
 hS
 hS
-LO
+Zn
 hS
 hS
 hS
@@ -5501,25 +5506,25 @@ hS
 hS
 hS
 qU
-ui
+vK
 hS
 hS
 hS
 hS
 hS
 hS
-sJ
+oq
 hS
 Bq
 hS
 hS
 hS
-sJ
+oq
 hS
-bs
+Ro
 hS
 hS
-LO
+Zn
 hS
 hS
 hS
@@ -5536,7 +5541,7 @@ hS
 hS
 hS
 hS
-LO
+Zn
 hS
 hS
 hS
@@ -5589,20 +5594,20 @@ hS
 hS
 hS
 hS
-LO
+Zn
 hS
 hS
 hS
 hS
 hS
-LO
+Zn
 hS
 hS
 hS
 hS
 hS
 hS
-cc
+Kk
 hS
 hS
 hS
@@ -5632,7 +5637,7 @@ hS
 hS
 hS
 hS
-bs
+Ro
 hS
 hS
 hS
@@ -5715,16 +5720,16 @@ Ho
 hS
 hS
 hS
-sJ
-LO
+oq
+Zn
 Ho
-bs
+Ro
 Dg
 Dg
 hS
 hS
 hS
-Mj
+fJ
 hS
 hS
 hS
@@ -5736,7 +5741,7 @@ hS
 hS
 hS
 hS
-LO
+Zn
 hS
 hS
 hS
@@ -5752,7 +5757,7 @@ Ho
 hS
 hS
 hS
-LO
+Zn
 Ho
 hS
 hS
@@ -5834,7 +5839,7 @@ hS
 hS
 hS
 hS
-LO
+Zn
 hS
 hS
 Ho
@@ -5850,11 +5855,11 @@ hS
 hS
 Ho
 hS
-sJ
+oq
 Dg
 Ho
 hS
-YB
+hC
 hS
 hS
 hS
@@ -5886,16 +5891,16 @@ hS
 hS
 hS
 Ho
-sJ
+oq
 Ho
-xj
+hs
 hS
 Ho
 hS
 hS
 pD
 Ho
-bs
+Ro
 Ho
 hS
 hS
@@ -5943,7 +5948,7 @@ hS
 hS
 hS
 hS
-LO
+Zn
 hS
 hS
 hS
@@ -6038,7 +6043,7 @@ hS
 (59,1,1) = {"
 hS
 hS
-LO
+Zn
 hS
 hS
 hS
@@ -6168,7 +6173,7 @@ hS
 hS
 hS
 hS
-LO
+Zn
 hS
 hS
 hS
@@ -6237,11 +6242,11 @@ Ab
 hS
 hS
 hS
-XW
-Ob
-Kk
-Ob
-zQ
+LG
+Vs
+dV
+Vs
+ph
 hS
 hS
 "}
@@ -6279,11 +6284,11 @@ Bm
 hS
 hS
 hS
-Kk
-JX
-Qi
-HP
-Kk
+dV
+Ne
+pl
+vh
+dV
 hS
 hS
 "}
@@ -6320,13 +6325,13 @@ sr
 sr
 hS
 hS
-XW
-Kk
-oS
-yn
-dw
-Kk
-zQ
+LG
+dV
+AA
+PV
+LO
+dV
+ph
 hS
 "}
 (66,1,1) = {"
@@ -6343,33 +6348,33 @@ hS
 sr
 sr
 hz
-Yz
-Qm
-Qm
-Qm
-Qm
-Qm
-Qm
-rF
-FD
-Mm
-Mm
-Mm
-Mm
-hq
+oI
+zz
+zz
+zz
+zz
+zz
+zz
+jz
+jn
+Xv
+Xv
+Xv
+Xv
+zh
 hz
 sr
 sr
 hS
-oI
-Kk
-Kk
-Kk
-UI
-Kk
-Kk
-Kk
-oI
+al
+dV
+dV
+dV
+nP
+dV
+dV
+dV
+al
 "}
 (67,1,1) = {"
 hS
@@ -6398,20 +6403,20 @@ dH
 Zg
 dH
 dH
-Ds
+ke
 hz
 RM
 sr
 hS
-oI
-zA
-TH
-SL
-NK
-Lj
-QC
-KU
-oI
+al
+uO
+li
+ov
+ow
+Ql
+fE
+OP
+al
 "}
 (68,1,1) = {"
 hS
@@ -6435,25 +6440,25 @@ gc
 Iq
 gc
 gc
-fA
+gw
 gc
 gc
 gc
 dH
-Ds
+ke
 hz
 sr
 sr
 hS
-oI
-yX
-fk
-hx
-dy
-ao
-tp
-zo
-oI
+al
+Fe
+iw
+Yl
+Eo
+iN
+UM
+PC
+al
 "}
 (69,1,1) = {"
 hS
@@ -6477,25 +6482,25 @@ wF
 WS
 PQ
 oB
-Tx
+JG
 wF
-Gg
+pz
 gc
 dH
-Ds
+ke
 hz
 sr
 sr
 hS
-oI
-Kk
-gW
-er
-hi
-KF
-gW
-Kk
-oI
+al
+dV
+Zx
+iZ
+Gz
+DV
+Zx
+dV
+al
 "}
 (70,1,1) = {"
 hS
@@ -6524,19 +6529,19 @@ Uo
 aA
 gc
 dH
-Ds
+ke
 hz
 RM
 sr
 hS
 hS
-Kk
-Vi
-rE
-Yt
-rE
-pX
-Kk
+dV
+eO
+xh
+Qb
+xh
+gD
+dV
 hS
 "}
 (71,1,1) = {"
@@ -6566,19 +6571,19 @@ WS
 tC
 gc
 Mb
-Ds
+ke
 hz
 sr
 sr
 hS
 hS
-Kk
-GY
-Dt
-bZ
-rO
-HV
-Kk
+dV
+cu
+jc
+ux
+wu
+Ko
+dV
 hS
 "}
 (72,1,1) = {"
@@ -6608,19 +6613,19 @@ rU
 tC
 gc
 dH
-Ds
+ke
 hz
 sr
 sr
 hS
 hS
-Kk
-Kk
-Kk
-As
-Kk
-Kk
-Kk
+dV
+dV
+dV
+ao
+dV
+dV
+dV
 hS
 "}
 (73,1,1) = {"
@@ -6650,19 +6655,19 @@ xs
 gc
 gc
 dH
-Ds
+ke
 hz
 RM
 sr
 hS
 hS
-JV
-Ji
-GB
-na
-oh
-Qf
-JV
+fs
+AB
+nm
+lR
+qt
+RX
+fs
 hS
 "}
 (74,1,1) = {"
@@ -6692,19 +6697,19 @@ HG
 iL
 dH
 dH
-Ds
+ke
 hz
 sr
 sr
 hS
 hS
-rT
-Kk
-vI
-DJ
-YX
-Kk
-RH
+Cl
+dV
+oA
+NA
+Bl
+dV
+uH
 hS
 "}
 (75,1,1) = {"
@@ -6721,31 +6726,31 @@ hS
 sr
 sr
 hz
-TR
-Qm
-Qm
-Qm
-HZ
-ST
-jb
-Yz
-tt
-ZR
-xi
-tt
-tt
-RV
+hY
+zz
+zz
+zz
+wS
+KQ
+Tf
+oI
+yE
+bF
+LU
+yE
+yE
+da
 hz
 sr
 sr
 hS
 hS
 hS
-rT
-JV
-JV
-JV
-RH
+Cl
+fs
+fs
+fs
+uH
 hS
 hS
 "}
@@ -6770,7 +6775,7 @@ it
 it
 it
 Nl
-vX
+Fl
 hz
 hz
 hz
@@ -6812,13 +6817,13 @@ it
 zZ
 it
 dH
-cp
+ZS
 hz
 cK
 qI
 VW
 aB
-ej
+Yh
 vP
 Wt
 Hb
@@ -6854,14 +6859,14 @@ it
 jI
 it
 Qx
-Ds
+ke
 hz
-BY
-ej
-ej
-Kp
-dl
-ej
+Ot
+Yh
+Yh
+vm
+jG
+Yh
 Wt
 Hb
 hS
@@ -6891,24 +6896,24 @@ AT
 Zl
 AT
 SB
-Qg
-NO
-Qg
+ps
+RZ
+ps
 xO
-Qm
-Sz
+zz
+xi
 qQ
-NT
-Uz
-he
-Zj
-ej
-ej
+Gd
+ug
+ia
+TG
+Yh
+Yh
 rP
 Hb
 hS
 hS
-LO
+Zn
 hS
 hS
 hS
@@ -6940,12 +6945,12 @@ it
 St
 sI
 hz
-OC
-dl
-ej
+bS
+jG
+Yh
 DO
-IH
-dl
+ej
+jG
 Wt
 Hb
 hS
@@ -6953,7 +6958,7 @@ hS
 hS
 hS
 hS
-LO
+Zn
 hS
 qU
 hS
@@ -6985,7 +6990,7 @@ hz
 cK
 bM
 VW
-ej
+Yh
 vl
 jQ
 Wt
@@ -7030,10 +7035,10 @@ Hb
 Zu
 Hb
 Hb
-Wa
-uJ
-uJ
-ph
+vT
+uM
+uM
+jH
 hS
 hS
 hS
@@ -7073,9 +7078,9 @@ Bu
 Hb
 Hb
 Hb
-Oi
-uJ
-eZ
+DY
+uM
+WU
 hS
 hS
 hS
@@ -7092,7 +7097,7 @@ hS
 hS
 hS
 hS
-XM
+Gl
 hS
 hS
 hS
@@ -7114,17 +7119,17 @@ Hb
 Zu
 Hb
 Hb
-ja
-uJ
-BM
-uJ
+mK
+uM
+rh
+uM
 hS
 hS
 hS
 hS
 hS
 hS
-LO
+Zn
 hS
 "}
 (85,1,1) = {"
@@ -7153,13 +7158,13 @@ cR
 Hb
 Hb
 xE
-ej
+Yh
 xq
 Hb
-uJ
-mv
-KQ
-MG
+uM
+SG
+hW
+YH
 hS
 hS
 hS
@@ -7172,7 +7177,7 @@ hS
 (86,1,1) = {"
 hS
 hS
-XM
+Gl
 hS
 hS
 hS
@@ -7195,13 +7200,13 @@ vt
 Hb
 Hb
 cQ
-ej
+Yh
 rN
 Hb
-Wa
-uJ
-fz
-uJ
+vT
+uM
+jy
+uM
 hS
 hS
 hS
@@ -7216,7 +7221,7 @@ hS
 hS
 hS
 hS
-XM
+Gl
 hS
 hS
 hS
@@ -7232,18 +7237,18 @@ Tr
 WN
 WN
 fh
-pE
+kt
 Hb
 Hb
 Hb
 oK
-ej
+Yh
 CH
 Hb
 Hb
-uJ
-uJ
-zV
+uM
+uM
+oQ
 hS
 hS
 hS
@@ -7274,18 +7279,18 @@ vz
 WN
 WN
 GQ
-OW
+ZM
 Hb
 Hb
 Hb
 Hb
 Hb
 Hb
-Wa
-uJ
-uJ
-uJ
-hl
+vT
+uM
+uM
+uM
+Ob
 hS
 hS
 hS
@@ -7316,7 +7321,7 @@ uE
 WN
 WN
 dn
-bf
+Da
 Hb
 Hb
 Hb
@@ -7330,7 +7335,7 @@ hS
 hS
 hS
 hS
-LO
+Zn
 hS
 hS
 hS
@@ -7340,7 +7345,7 @@ hS
 (90,1,1) = {"
 hS
 hS
-XM
+Gl
 hS
 hS
 hS
@@ -7358,7 +7363,7 @@ EN
 YF
 eE
 eE
-CD
+Ft
 YM
 EN
 EN
@@ -7387,7 +7392,7 @@ hS
 hS
 hS
 hS
-XM
+Gl
 hS
 hS
 WN
@@ -7400,7 +7405,7 @@ EN
 Ya
 EN
 EN
-ze
+An
 EN
 EN
 EN
@@ -7458,7 +7463,7 @@ hS
 hS
 hS
 hS
-XM
+Gl
 hS
 hS
 hS
@@ -7468,7 +7473,7 @@ hS
 hS
 hS
 hS
-CX
+UG
 hS
 hS
 hS
@@ -7484,7 +7489,7 @@ EN
 kd
 EN
 EN
-ze
+An
 EN
 Zt
 EN
@@ -7499,7 +7504,7 @@ hS
 hS
 hS
 hS
-LO
+Zn
 hS
 hS
 hS
@@ -7526,7 +7531,7 @@ EN
 kd
 EN
 EN
-ze
+An
 EN
 kd
 EN
@@ -7549,7 +7554,7 @@ hS
 "}
 (95,1,1) = {"
 hS
-XM
+Gl
 hS
 hS
 hS
@@ -7566,9 +7571,9 @@ EN
 EN
 EN
 kd
-XO
+Ag
 EN
-hn
+AE
 EN
 kd
 EN
@@ -7581,7 +7586,7 @@ WN
 hS
 hS
 hS
-XM
+Gl
 hS
 hS
 hS
@@ -7609,8 +7614,8 @@ EN
 EN
 LA
 CN
-fX
-Hz
+Vc
+lb
 CN
 LA
 EN
@@ -7621,7 +7626,7 @@ EN
 cx
 WN
 hS
-LO
+Zn
 hS
 hS
 hS
@@ -7651,8 +7656,8 @@ EN
 EN
 Zt
 CN
-Hf
-ea
+Ru
+xH
 CN
 kd
 EN
@@ -7678,7 +7683,7 @@ hS
 hS
 hS
 hS
-XM
+Gl
 hS
 hS
 hS
@@ -7708,11 +7713,11 @@ hS
 hS
 hS
 hS
-CX
+UG
 hS
 hS
 hS
-XM
+Gl
 hS
 "}
 (99,1,1) = {"
@@ -7725,7 +7730,7 @@ hS
 hS
 hS
 hS
-rY
+vy
 CN
 HE
 ON
@@ -7746,7 +7751,7 @@ Uu
 vV
 HE
 CN
-hy
+Ux
 hS
 hS
 hS
@@ -7789,7 +7794,7 @@ vV
 tO
 CN
 hS
-XM
+Gl
 hS
 hS
 hS
@@ -7807,7 +7812,7 @@ hS
 hS
 hS
 hS
-XM
+Gl
 hS
 hS
 CN
@@ -7877,7 +7882,7 @@ hS
 hS
 hS
 hS
-XM
+Gl
 hS
 hS
 hS
@@ -8001,7 +8006,7 @@ hS
 hS
 hS
 hS
-XM
+Gl
 hS
 hS
 hS
