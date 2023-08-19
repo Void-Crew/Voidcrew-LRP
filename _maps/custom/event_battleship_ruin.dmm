@@ -631,6 +631,14 @@
 	icon_state = "platingdmg2"
 	},
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"jG" = (
+/obj/machinery/light/small,
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad");
+	dir = 1
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
 "jI" = (
 /obj/machinery/door/airlock{
 	name = "Cabin"
@@ -705,6 +713,7 @@
 	},
 /obj/machinery/light,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/stack/sheet/mineral/plasma/twenty,
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/event_battleship/ert)
 "kX" = (
@@ -1260,7 +1269,9 @@
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/event_battleship/deathsquad)
 "rP" = (
-/obj/machinery/vending/security,
+/obj/machinery/vending/security{
+	all_items_free = 1
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/event_battleship/deathsquad)
@@ -1865,8 +1876,9 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
 "Bu" = (
-/obj/machinery/light/small,
-/obj/effect/decal/cleanable/dirt,
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("Deathsquad")
+	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/event_battleship/deathsquad)
 "By" = (
@@ -2606,6 +2618,20 @@
 	},
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ruin/space/has_grav/event_battleship/fighter3)
+"MW" = (
+/obj/machinery/door/airlock/vault{
+	req_access_txt = "109"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/poddoor{
+	id = "event_battleship_full_lockdown"
+	},
+/obj/effect/mine/sound/bwoink{
+	invisibility = 25
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/event_battleship/deathsquad)
 "MX" = (
 /obj/machinery/light/dim{
 	dir = 4
@@ -2756,7 +2782,9 @@
 /turf/open/floor/engine/airless,
 /area/ruin/space/has_grav/event_battleship/ammo)
 "PF" = (
-/obj/machinery/vending/security/marine,
+/obj/machinery/vending/security/marine{
+	all_items_free = 1
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
@@ -3277,7 +3305,8 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/vending/wallmed{
-	pixel_y = -28
+	pixel_y = -28;
+	all_items_free = 1
 	},
 /obj/effect/mob_spawn/human/corpse/nanotrasenassaultsoldier{
 	brute_damage = 200
@@ -3346,7 +3375,9 @@
 /turf/open/floor/engine/airless,
 /area/ruin/space/has_grav/event_battleship/ammo)
 "Wt" = (
-/obj/machinery/vending/security/marine/solgov,
+/obj/machinery/vending/security/marine/solgov{
+	all_items_free = 1
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/event_battleship/deathsquad)
@@ -7114,9 +7145,9 @@ sc
 Uw
 Hb
 Hb
-Hb
 Bu
-Hb
+ej
+jG
 Hb
 Hb
 Mz
@@ -7157,7 +7188,7 @@ Lv
 Hb
 Hb
 Hb
-Zu
+MW
 Hb
 Hb
 he
