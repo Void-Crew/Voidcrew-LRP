@@ -11020,9 +11020,8 @@
 /turf/open/floor/plasteel,
 /area/centcom/control)
 "aUJ" = (
-/obj/structure/table/wood/fancy/red_gold,
-/obj/structure/window/reinforced/spawner/east,
-/obj/item/flashlight/lamp,
+/obj/machinery/microwave,
+/obj/structure/table/wood/reinforced,
 /turf/open/floor/wood,
 /area/centcom/ferry)
 "aUK" = (
@@ -12476,7 +12475,7 @@
 /turf/open/floor/plasteel,
 /area/centcom/control)
 "aXW" = (
-/turf/open/floor/carpet/executive,
+/turf/open/floor/carpet/green,
 /area/centcom/ferry)
 "aXX" = (
 /obj/machinery/door/poddoor/shutters{
@@ -12855,7 +12854,10 @@
 /turf/open/floor/grass,
 /area/centcom/holding)
 "aYO" = (
-/turf/open/floor/carpet/green,
+/obj/structure/table/wood/fancy/red_gold,
+/obj/structure/window/reinforced/spawner/east,
+/obj/item/flashlight/lamp,
+/turf/open/floor/wood,
 /area/centcom/ferry)
 "aYP" = (
 /obj/machinery/door/airlock/external,
@@ -13368,10 +13370,6 @@
 /obj/effect/turf_decal/corner/green,
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/firingrange)
-"bot" = (
-/obj/machinery/light,
-/turf/open/floor/carpet/green,
-/area/centcom/ferry)
 "brS" = (
 /obj/structure/mineral_door/wood{
 	name = "King Doogan's Bar"
@@ -13489,6 +13487,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
+"bQu" = (
+/obj/structure/chair/sofa/right{
+	name = "sofa"
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "cdq" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 6
@@ -13530,6 +13534,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
+"cny" = (
+/obj/machinery/door/window/brigdoor/eastleft{
+	req_access_txt = "109"
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "cqb" = (
 /obj/machinery/vending/security,
 /obj/effect/turf_decal/industrial/warning{
@@ -13631,6 +13641,10 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/kobayashi)
+"cHX" = (
+/obj/structure/filingcabinet,
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "cLv" = (
 /obj/machinery/atmospherics/components/binary/valve{
 	name = "Termination Valve";
@@ -13666,6 +13680,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supply)
+"cME" = (
+/obj/structure/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/carpet/blue,
+/area/centcom/ferry)
 "cQg" = (
 /obj/effect/turf_decal/corner/green,
 /obj/effect/turf_decal/corner/green{
@@ -13673,13 +13693,6 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/basketball)
-"cRo" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Kiameed's Office";
-	req_access_txt = "109"
-	},
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "cVp" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/blood,
@@ -13771,10 +13784,20 @@
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
 "dlD" = (
-/obj/structure/chair/office/light{
-	dir = 4
+/obj/machinery/door/airlock/centcom{
+	name = "Kiameed's Office";
+	req_access_txt = "109"
 	},
-/turf/open/floor/carpet/royalblack,
+/turf/open/floor/wood,
+/area/centcom/ferry)
+"dlQ" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/chair/sofa/left{
+	name = "sofa"
+	},
+/turf/open/floor/wood,
 /area/centcom/ferry)
 "dmj" = (
 /obj/machinery/computer/security/mining{
@@ -13809,10 +13832,21 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supply)
+"dpI" = (
+/obj/structure/table/wood/reinforced,
+/obj/machinery/button/door{
+	id = "centcom_addustoffice_torture_windows";
+	name = "Processing Area Window Cover"
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "dvo" = (
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/plasteel/dark,
 /area/ctf)
+"dxb" = (
+/turf/open/floor/carpet/executive,
+/area/centcom/ferry)
 "dEk" = (
 /obj/item/wrench,
 /obj/item/restraints/handcuffs,
@@ -13868,6 +13902,12 @@
 /obj/effect/turf_decal/industrial/hatch/yellow,
 /turf/open/floor/plasteel,
 /area/centcom/supply)
+"dVl" = (
+/obj/structure/chair/office/light{
+	dir = 4
+	},
+/turf/open/floor/carpet/royalblack,
+/area/centcom/ferry)
 "dVx" = (
 /obj/effect/turf_decal/industrial/loading{
 	dir = 4
@@ -13922,11 +13962,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supply)
-"efS" = (
-/obj/structure/table/wood/fancy/red_gold,
-/obj/machinery/photocopier/faxmachine/longrange,
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "egU" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /mob/living/simple_animal/bot/honkbot{
@@ -13990,6 +14025,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
+"elN" = (
+/obj/machinery/computer/communications{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "emQ" = (
 /obj/structure/table/wood,
 /obj/item/storage/photo_album,
@@ -14140,6 +14181,16 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
+"eBe" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/bed/dogbed{
+	name = "lizard bed"
+	},
+/mob/living/simple_animal/hostile/lizard/space,
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "eDD" = (
 /obj/structure/bed,
 /obj/item/bedsheet/random,
@@ -14172,15 +14223,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
-"eMq" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/structure/chair/sofa/left{
-	name = "sofa"
-	},
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "eMu" = (
 /obj/machinery/light{
 	dir = 4
@@ -14228,11 +14270,11 @@
 "eXg" = (
 /turf/closed/indestructible/fakeglass,
 /area/centcom/ferry)
-"eYb" = (
-/obj/structure/chair/sofa{
-	name = "sofa"
+"fbn" = (
+/obj/machinery/light{
+	dir = 1
 	},
-/turf/open/floor/wood,
+/turf/open/floor/carpet/green,
 /area/centcom/ferry)
 "fbD" = (
 /obj/effect/turf_decal/corner/red{
@@ -14306,6 +14348,11 @@
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/circuit/red,
 /area/ctf)
+"fsQ" = (
+/obj/structure/rack,
+/obj/item/clothing/head/centhat,
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "fvB" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
@@ -14448,11 +14495,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
-"gbZ" = (
-/obj/machinery/recharger,
-/obj/structure/table/wood/reinforced,
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "gfi" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/industrial/warning{
@@ -14514,6 +14556,11 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/supply)
+"gpI" = (
+/obj/item/storage/box/donkpockets/donkpocketpizza,
+/obj/structure/table/wood/reinforced,
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "gsz" = (
 /obj/effect/turf_decal/corner/green{
 	dir = 1
@@ -14523,12 +14570,6 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/firingrange)
-"gwK" = (
-/obj/machinery/door/window/brigdoor/eastleft{
-	req_access_txt = "109"
-	},
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "gya" = (
 /obj/structure/fans/tiny,
 /obj/effect/turf_decal/corner/neutral{
@@ -14623,15 +14664,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
-"gTY" = (
-/obj/structure/table/wood/reinforced,
-/mob/living/simple_animal/pet/cat/space{
-	name = "deathsquad cat";
-	desc = "HOLY SHIT THIS KITTY'S PART OF THE DEATHSQUAD";
-	health = 600
-	},
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "gUn" = (
 /obj/effect/turf_decal/corner/red{
 	dir = 1
@@ -14885,18 +14917,11 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/dodgeball)
-"hKH" = (
-/obj/structure/chair/comfy{
-	dir = 4
+"hLP" = (
+/obj/machinery/computer/card/centcom{
+	dir = 1
 	},
-/turf/open/floor/carpet/blue,
-/area/centcom/ferry)
-"hMn" = (
-/obj/structure/table/wood/reinforced,
-/obj/machinery/button/door{
-	id = "centcom_addustoffice_torture_windows";
-	name = "Processing Area Window Cover"
-	},
+/obj/machinery/light,
 /turf/open/floor/wood,
 /area/centcom/ferry)
 "hNs" = (
@@ -15019,12 +15044,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/ferry)
-"iuy" = (
-/obj/machinery/computer/communications{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "iwk" = (
 /obj/effect/turf_decal/corner/green{
 	dir = 4
@@ -15040,10 +15059,6 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/turf/open/floor/wood,
-/area/centcom/ferry)
-"izR" = (
-/obj/structure/table/wood/reinforced,
 /turf/open/floor/wood,
 /area/centcom/ferry)
 "izV" = (
@@ -15198,12 +15213,6 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/ferry)
-"jce" = (
-/obj/structure/chair/office{
-	dir = 4
-	},
-/turf/open/floor/carpet/green,
-/area/centcom/ferry)
 "jdR" = (
 /obj/machinery/door/airlock/external{
 	name = "Supply Shuttle";
@@ -15314,6 +15323,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
+"jMV" = (
+/obj/structure/table/wood/reinforced,
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "jOe" = (
 /obj/effect/turf_decal/corner/red,
 /turf/open/floor/plasteel/dark,
@@ -15380,6 +15393,14 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
+"jWj" = (
+/obj/structure/table/wood/fancy/red_gold,
+/obj/structure/window/reinforced/spawner/east,
+/obj/machinery/computer/secure_data/laptop{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "keF" = (
 /obj/structure/table/wood,
 /obj/item/storage/box/donkpockets,
@@ -15428,6 +15449,15 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
+"knZ" = (
+/obj/structure/table/wood/fancy/red_gold,
+/obj/machinery/photocopier/faxmachine/longrange,
+/turf/open/floor/wood,
+/area/centcom/ferry)
+"kuJ" = (
+/obj/machinery/light,
+/turf/open/floor/carpet/green,
+/area/centcom/ferry)
 "kvz" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/donut_box,
@@ -15689,6 +15719,31 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/basketball)
+"lik" = (
+/obj/structure/closet/secure_closet/ertCom{
+	populate = 0;
+	name = "special operations officer's locker";
+	desc = "A storage unit containing equipment for a Special Operations Officer."
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/item/clothing/suit/space/officer,
+/obj/item/clothing/head/helmet/space/beret,
+/obj/item/clothing/under/rank/centcom/commander,
+/obj/item/clothing/shoes/combat/swat,
+/obj/item/storage/backpack/satchel/leather,
+/obj/item/tank/internals/oxygen,
+/obj/item/gun/energy/pulse/pistol/m1911{
+	cell_type = "/obj/item/stock_parts/cell/pulse/pistol";
+	desc = "A compact pulse core in a classic handgun frame for Nanotrasen officers. It's not the size of the gun, it's the size of the hole it puts through people. This one has finite ammo capacity.";
+	name = "old M1911-P"
+	},
+/obj/item/reagent_containers/food/snacks/store/cheesewheel,
+/obj/item/storage/belt/sabre,
+/obj/item/melee/transforming/energy/sword,
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "lky" = (
 /obj/effect/holodeck_effect/mobspawner/pet,
 /obj/effect/turf_decal/corner/red,
@@ -15950,12 +16005,6 @@
 	},
 /turf/open/floor/circuit,
 /area/ctf)
-"mjM" = (
-/obj/machinery/light,
-/obj/item/storage/box/donkpockets/donkpocketgondola,
-/obj/structure/table/wood/reinforced,
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "mnr" = (
 /obj/effect/turf_decal/corner/red{
 	dir = 1
@@ -15968,6 +16017,12 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/basketball)
+"moG" = (
+/obj/machinery/light,
+/obj/item/storage/box/donkpockets/donkpocketgondola,
+/obj/structure/table/wood/reinforced,
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "mrO" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
@@ -16250,6 +16305,12 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood,
 /area/centcom/ferry)
+"obi" = (
+/obj/structure/table/wood/fancy/red_gold,
+/obj/structure/window/reinforced/spawner/east,
+/obj/item/folder/documents,
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "odb" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
@@ -16389,10 +16450,6 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/court)
-"oKu" = (
-/obj/structure/filingcabinet,
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "oMa" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4
@@ -16537,11 +16594,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
-"pgD" = (
-/obj/structure/rack,
-/obj/item/clothing/head/centhat,
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "pkc" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
@@ -16565,11 +16617,14 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/ferry)
-"pmI" = (
-/obj/machinery/door/poddoor/shutters{
-	id = "centcom_addustoffice_torture_windows"
+"pmL" = (
+/obj/structure/table/wood/reinforced,
+/mob/living/simple_animal/pet/cat/space{
+	name = "deathsquad cat";
+	desc = "HOLY SHIT THIS KITTY'S PART OF THE DEATHSQUAD";
+	health = 600
 	},
-/turf/closed/indestructible/fakeglass,
+/turf/open/floor/wood,
 /area/centcom/ferry)
 "ppK" = (
 /obj/effect/turf_decal/corner/brown,
@@ -16600,6 +16655,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
+"pqB" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/carpet/green,
+/area/centcom/ferry)
 "ptS" = (
 /obj/effect/turf_decal/corner/blue{
 	dir = 1
@@ -16642,16 +16703,6 @@
 /obj/effect/turf_decal/industrial/hatch/yellow,
 /turf/open/floor/plasteel,
 /area/tdome/arena_source)
-"pwe" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/structure/bed/dogbed{
-	name = "lizard bed"
-	},
-/mob/living/simple_animal/hostile/lizard/space,
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "pwQ" = (
 /obj/effect/turf_decal/industrial/warning,
 /obj/effect/decal/cleanable/dirt,
@@ -16713,6 +16764,9 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/evac)
+"pFh" = (
+/turf/open/floor/carpet/blue,
+/area/centcom/ferry)
 "pFH" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table/reinforced,
@@ -16731,6 +16785,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supply)
+"pNO" = (
+/obj/structure/chair/comfy{
+	dir = 8
+	},
+/turf/open/floor/carpet/blue,
+/area/centcom/ferry)
 "pOL" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 9
@@ -16754,11 +16814,6 @@
 /area/holodeck/rec_center/kobayashi)
 "pSq" = (
 /obj/structure/filingcabinet/filingcabinet,
-/turf/open/floor/wood,
-/area/centcom/ferry)
-"pUi" = (
-/obj/machinery/microwave,
-/obj/structure/table/wood/reinforced,
 /turf/open/floor/wood,
 /area/centcom/ferry)
 "pWB" = (
@@ -16839,13 +16894,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
-"qoA" = (
-/obj/machinery/computer/card/centcom{
-	dir = 1
-	},
-/obj/machinery/light,
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "qpz" = (
 /obj/machinery/conveyor_switch/oneway{
 	dir = 8;
@@ -16947,10 +16995,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
-"qyt" = (
-/obj/structure/chair/comfy,
-/turf/open/floor/carpet/blue,
-/area/centcom/ferry)
 "qyB" = (
 /obj/structure/grille/indestructable{
 	desc = "A not-so-flimsy framework of metal rods."
@@ -17065,6 +17109,11 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
+"qRy" = (
+/obj/machinery/recharger,
+/obj/structure/table/wood/reinforced,
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "qVR" = (
 /obj/structure/chair/office{
 	dir = 8
@@ -17080,6 +17129,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supply)
+"qZe" = (
+/obj/structure/chair/comfy,
+/turf/open/floor/carpet/blue,
+/area/centcom/ferry)
 "rcn" = (
 /obj/structure/filingcabinet/filingcabinet,
 /obj/effect/turf_decal/corner/neutral{
@@ -17160,29 +17213,6 @@
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/plasteel,
 /area/centcom/supply)
-"rly" = (
-/obj/structure/closet/secure_closet/ertCom{
-	populate = 0;
-	name = "special operations officer's locker";
-	desc = "A storage unit containing equipment for a Special Operations Officer."
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/item/clothing/suit/space/officer,
-/obj/item/clothing/head/helmet/space/beret,
-/obj/item/clothing/under/rank/centcom/commander,
-/obj/item/clothing/shoes/combat/swat,
-/obj/item/storage/backpack/satchel/leather,
-/obj/item/tank/internals/oxygen,
-/obj/item/gun/energy/pulse/pistol/m1911{
-	cell_type = "/obj/item/stock_parts/cell/pulse/pistol";
-	desc = "A compact pulse core in a classic handgun frame for Nanotrasen officers. It's not the size of the gun, it's the size of the hole it puts through people. This one has finite ammo capacity.";
-	name = "old M1911-P"
-	},
-/obj/item/reagent_containers/food/snacks/store/cheesewheel,
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "rrw" = (
 /obj/effect/turf_decal/corner/green{
 	dir = 8
@@ -17650,6 +17680,14 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/supply)
+"toz" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Addust's Office";
+	req_access_txt = "109";
+	desc = "It opens and closes. You think his office is out here to watch people burn. Or because he's just an eventmin."
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "tqJ" = (
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/circuit/green/off,
@@ -17985,14 +18023,6 @@
 	},
 /turf/open/floor/plating/beach/sand,
 /area/centcom/ferry)
-"uMi" = (
-/obj/structure/table/wood/fancy/red_gold,
-/obj/structure/window/reinforced/spawner/east,
-/obj/item/paper_bin,
-/obj/item/stamp/centcom,
-/obj/item/pen,
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "uPr" = (
 /obj/machinery/light{
 	dir = 8
@@ -18051,11 +18081,6 @@
 	},
 /turf/open/floor/circuit,
 /area/ctf)
-"vgC" = (
-/obj/item/storage/box/donkpockets/donkpocketpizza,
-/obj/structure/table/wood/reinforced,
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "vjg" = (
 /obj/effect/turf_decal/industrial/warning/corner{
 	dir = 1
@@ -18196,8 +18221,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
-"vSA" = (
-/turf/open/floor/carpet/blue,
+"vRB" = (
+/obj/structure/table/wood/fancy/red_gold,
+/obj/structure/window/reinforced/spawner/east,
+/obj/item/paper_bin,
+/obj/item/stamp/centcom,
+/obj/item/pen,
+/turf/open/floor/wood,
 /area/centcom/ferry)
 "vTH" = (
 /obj/effect/turf_decal/industrial/warning{
@@ -18212,6 +18242,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
+"vUM" = (
+/obj/structure/chair/sofa{
+	name = "sofa"
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "vVG" = (
 /obj/effect/turf_decal/corner/brown,
 /obj/effect/turf_decal/corner/brown{
@@ -18222,14 +18258,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supply)
-"waS" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Addust's Office";
-	req_access_txt = "109";
-	desc = "It opens and closes. You think his office is out here to watch people burn. Or because he's just an eventmin."
-	},
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "wbx" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/item/weldingtool/experimental,
@@ -18261,20 +18289,6 @@
 	},
 /turf/open/floor/circuit/red,
 /area/ctf)
-"wox" = (
-/obj/structure/table/wood/fancy/red_gold,
-/obj/structure/window/reinforced/spawner/east,
-/obj/machinery/computer/secure_data/laptop{
-	dir = 8
-	},
-/turf/open/floor/wood,
-/area/centcom/ferry)
-"wpm" = (
-/obj/structure/table/wood/fancy/red_gold,
-/obj/structure/window/reinforced/spawner/east,
-/obj/item/folder/documents,
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "wsh" = (
 /obj/machinery/keycard_auth{
 	pixel_y = -24
@@ -18295,6 +18309,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/supply)
+"wta" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "centcom_addustoffice_torture_windows"
+	},
+/turf/closed/indestructible/fakeglass,
+/area/centcom/ferry)
 "wxe" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/igniter/on,
@@ -18454,12 +18474,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
-"xmt" = (
-/obj/structure/chair/comfy{
-	dir = 8
-	},
-/turf/open/floor/carpet/blue,
-/area/centcom/ferry)
 "xnb" = (
 /obj/structure/filingcabinet/medical,
 /obj/effect/turf_decal/corner/neutral{
@@ -18474,12 +18488,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
-"xor" = (
-/obj/structure/chair/sofa/right{
-	name = "sofa"
-	},
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "xpf" = (
 /obj/structure/table/reinforced,
 /obj/item/restraints/handcuffs/cable/zipties,
@@ -18680,12 +18688,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/supply)
-"xNO" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/carpet/green,
-/area/centcom/ferry)
 "xOa" = (
 /obj/structure/chair/comfy/black{
 	dir = 1
@@ -53339,12 +53341,12 @@ aaa
 aaa
 aaa
 amD
-efS
+knZ
 apL
 apL
 apL
 apL
-oKu
+cHX
 amD
 pSq
 aoB
@@ -53596,12 +53598,12 @@ aaa
 aaa
 aaa
 amD
-pwe
+eBe
 apL
 apL
 apL
 apL
-qoA
+hLP
 amD
 gfw
 aoB
@@ -53855,10 +53857,10 @@ aaa
 amD
 aoB
 apL
-dlD
+dVl
 apL
 apL
-iuy
+elN
 amD
 ste
 fTa
@@ -54110,11 +54112,11 @@ aaa
 aaa
 aaa
 amD
-gwK
-uMi
-wox
-wpm
-aUJ
+cny
+vRB
+jWj
+obi
+aYO
 amD
 amD
 amD
@@ -54345,7 +54347,7 @@ qyB
 amD
 amD
 amD
-rly
+lik
 amD
 amD
 amD
@@ -54600,35 +54602,35 @@ lrm
 uhj
 gZa
 amD
-xNO
-aYO
-aYO
-aYO
-aYO
-amD
-aoB
-aoB
-aoB
-aoB
-aoB
-amD
-aoB
-aoB
-aoB
-aoB
-aoB
-amD
-aoB
-aoB
-aoB
-aoB
-aoB
-amD
-xor
+fbn
 aXW
 aXW
 aXW
-pUi
+aXW
+amD
+aoB
+aoB
+aoB
+aoB
+aoB
+amD
+aoB
+aoB
+aoB
+aoB
+aoB
+amD
+aoB
+aoB
+aoB
+aoB
+aoB
+amD
+bQu
+dxb
+dxb
+dxb
+aUJ
 amD
 apc
 apc
@@ -54856,12 +54858,12 @@ hRp
 sbl
 qKe
 gZa
-pmI
-aYO
-gbZ
-jce
-gTY
-aYO
+wta
+aXW
+qRy
+pqB
+pmL
+aXW
 amD
 ufv
 aoB
@@ -54881,11 +54883,11 @@ aoB
 aoB
 aoB
 amD
-eYb
-aXW
-aXW
-aXW
-vgC
+vUM
+dxb
+dxb
+dxb
+gpI
 amD
 apc
 apc
@@ -55113,12 +55115,12 @@ plu
 heO
 ctZ
 gZa
-pmI
-aYO
-hMn
-izR
-izR
-aYO
+wta
+aXW
+dpI
+jMV
+jMV
+aXW
 amD
 aoB
 aoB
@@ -55138,11 +55140,11 @@ aoB
 aoB
 xIF
 amD
-eMq
-aXW
-aXW
-aXW
-mjM
+dlQ
+dxb
+dxb
+dxb
+moG
 amD
 apc
 apc
@@ -55371,11 +55373,11 @@ kRQ
 xyq
 gZa
 amD
-aYO
-aYO
-aYO
-aYO
-bot
+aXW
+aXW
+aXW
+aXW
+kuJ
 amD
 aoB
 aoB
@@ -55396,7 +55398,7 @@ aoB
 aoB
 amD
 rdq
-pgD
+fsQ
 aoB
 aoB
 rdq
@@ -55630,7 +55632,7 @@ tmm
 amD
 amD
 eXg
-waS
+toz
 eXg
 amD
 amD
@@ -55654,7 +55656,7 @@ amD
 amD
 amD
 eXg
-cRo
+dlD
 eXg
 amD
 amD
@@ -57207,9 +57209,9 @@ aaa
 aaa
 aoe
 aoB
-vSA
-hKH
-vSA
+pFh
+cME
+pFh
 aoB
 ank
 arx
@@ -57464,7 +57466,7 @@ aaa
 aaa
 amD
 aoB
-qyt
+qZe
 cuj
 aSV
 aoB
@@ -57721,7 +57723,7 @@ aaa
 aaa
 amD
 ufv
-qyt
+qZe
 cuj
 aSV
 xIF
@@ -57978,7 +57980,7 @@ ajE
 aiF
 amD
 aoB
-qyt
+qZe
 cuj
 aSV
 aoB
@@ -58235,9 +58237,9 @@ dmj
 vMl
 amD
 aoB
-vSA
-xmt
-vSA
+pFh
+pNO
+pFh
 xIF
 aqR
 hlA
