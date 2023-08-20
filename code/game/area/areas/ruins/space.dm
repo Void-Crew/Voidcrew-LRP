@@ -439,6 +439,9 @@
 /area/ruin/space/has_grav/event_battleship/security
 	name = "NT-C Vanguard Security"
 
+/area/ruin/space/has_grav/event_battleship/hangar_control
+	name = "NT-C Vanguard Hangar Control"
+
 /area/ruin/space/has_grav/event_battleship/ert
 	name = "Nanotrasen Response Vessel"
 
@@ -455,4 +458,4 @@
 	name = "Nanotrasen Escort Fighter Charlie"
 
 /area/ruin/space/has_grav/event_battleship/fighter4
-	name = "Nanotrasen Escort Fighter Delta"
+	name = "Nanotrasen Escort Dropship"

@@ -244,7 +244,7 @@
 /obj/structure/chair/office/light,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "bV" = (
 /obj/item/clipboard,
 /obj/item/reagent_containers/hypospray/medipen,
@@ -441,7 +441,7 @@
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "cY" = (
 /obj/machinery/door/airlock/atmos/glass{
 	name = "Main Atmospherics"
@@ -844,6 +844,9 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/event_battleship/medical)
+"fJ" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "fK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/ammo_casing/spent,
@@ -1074,7 +1077,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "hp" = (
 /obj/structure/sign/warning/vacuum/external,
 /turf/closed/wall/r_wall/syndicate,
@@ -1400,7 +1403,7 @@
 	icon_state = "0-2"
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "jC" = (
 /obj/effect/turf_decal/corner/red,
 /obj/effect/turf_decal/corner/red{
@@ -1966,6 +1969,9 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/event_battleship/medical)
+"nz" = (
+/turf/closed/wall/mineral/titanium,
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "nA" = (
 /obj/structure/girder,
 /turf/open/floor/plating/airless,
@@ -2644,7 +2650,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "qY" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 5
@@ -3614,7 +3620,7 @@
 	icon_state = "1-4"
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "wZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
@@ -3717,7 +3723,7 @@
 	name = "Hangar"
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "xD" = (
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -4473,7 +4479,7 @@
 	name = "Broken Computer"
 	},
 /turf/open/floor/plasteel/tech,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "CJ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
@@ -5141,7 +5147,7 @@
 /obj/item/shard,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "GT" = (
 /obj/structure/table/reinforced,
 /obj/item/crowbar/red,
@@ -5227,7 +5233,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/engine)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "Hx" = (
 /obj/effect/decal/cleanable/glass,
 /obj/structure/frame/computer,
@@ -6468,7 +6474,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "Oy" = (
 /obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
 /turf/open/floor/plating,
@@ -6542,7 +6548,7 @@
 	name = "Hangar Control"
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/engine)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "OY" = (
 /obj/machinery/power/smes/shuttle,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -6915,6 +6921,9 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"Rc" = (
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "Rd" = (
 /obj/structure/filingcabinet,
 /obj/effect/decal/cleanable/dirt,
@@ -6942,6 +6951,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/event_battleship/crashed_syndies)
+"Rk" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "Rm" = (
 /mob/living/simple_animal/hostile/zombie{
 	icon_living = "nanotrasen";
@@ -6994,7 +7007,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "RB" = (
 /obj/machinery/camera/xray{
 	c_tag = "External View";
@@ -7111,7 +7124,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "Sk" = (
 /obj/effect/turf_decal/corner/green,
 /obj/effect/turf_decal/corner/green{
@@ -7176,7 +7189,7 @@
 "Su" = (
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "Sw" = (
 /obj/machinery/computer{
 	desc = "A computer long since rendered non-functional due to lack of maintenance. Spitting out error messages.";
@@ -7185,7 +7198,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "SB" = (
 /obj/effect/turf_decal/corner/red,
 /obj/effect/turf_decal/corner/red{
@@ -7220,7 +7233,7 @@
 /obj/structure/reagent_dispensers/fueltank,
 /obj/item/weldingtool/hugetank,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "SQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/corner/blue,
@@ -7836,7 +7849,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/tech,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "WJ" = (
 /obj/structure/grille/broken,
 /obj/item/shard,
@@ -7967,7 +7980,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "Xo" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/firstaid/regular,
@@ -8143,7 +8156,7 @@
 /obj/item/areaeditor/shuttle,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "Yq" = (
 /obj/item/clipboard{
 	pixel_x = 4;
@@ -8426,7 +8439,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/event_battleship/hangar)
+/area/ruin/space/has_grav/event_battleship/hangar_control)
 "ZI" = (
 /obj/effect/turf_decal/industrial/outline/yellow,
 /obj/machinery/computer/secure_data/syndie{
@@ -10821,13 +10834,13 @@ zD
 zD
 zD
 xC
-Gu
-Gu
-Gu
+Rk
+Rk
+Rk
 Sh
-lN
-Gu
-Gu
+Rc
+Rk
+Rk
 xC
 zD
 zD
@@ -10864,15 +10877,15 @@ Fi
 pR
 Ic
 zD
-pD
+nz
 SM
 jx
 qW
 wX
-Gu
+Rk
 Yl
 cV
-pD
+nz
 zD
 hG
 EF
@@ -10908,15 +10921,15 @@ uy
 uy
 uy
 uy
-uy
-uy
-ct
+nz
+nz
+fJ
 OV
 Hu
 OV
-ct
-uy
-uy
+fJ
+nz
+nz
 uy
 uy
 uy
