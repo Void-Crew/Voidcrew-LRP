@@ -66,7 +66,7 @@
 /area/ship/security/armory)
 "aj" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/cargo)
+/area/ship/medical)
 "al" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/computer/communications{
@@ -147,7 +147,7 @@
 	},
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
-/area/ship/cargo)
+/area/ship/medical)
 "au" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/door/firedoor/border_only{
@@ -273,7 +273,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/ship/crew/cryo)
+/area/ship/cargo)
 "aI" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -302,6 +302,11 @@
 "aK" = (
 /obj/machinery/power/shuttle/engine/fueled/plasma{
 	dir = 1
+	},
+/obj/docking_port/mobile{
+	dwidth = 11;
+	width = 17;
+	height = 16
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
@@ -368,7 +373,7 @@
 /area/ship/bridge)
 "aQ" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/medical)
+/area/ship/cargo)
 "aR" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/engineering/engine)
@@ -736,11 +741,6 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/fans/tiny,
-/obj/docking_port/mobile{
-	dwidth = 11;
-	width = 17;
-	height = 16
-	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "df" = (
@@ -811,7 +811,7 @@
 "et" = (
 /obj/structure/grille,
 /turf/open/floor/plating/airless,
-/area/ship/medical)
+/area/ship/cargo)
 "eu" = (
 /obj/structure/girder,
 /obj/item/stack/rods{
@@ -857,9 +857,19 @@
 /obj/structure/table/optable,
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
+"fP" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "piratebridge"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/effect/spawner/structure/window/shuttle,
+/turf/open/floor/plating,
+/area/ship/bridge)
 "fW" = (
 /turf/closed/wall/mineral/titanium,
-/area/ship/medical)
+/area/ship/cargo)
 "fY" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 1
@@ -869,34 +879,6 @@
 	},
 /turf/open/floor/pod/dark,
 /area/ship/security/armory)
-"gj" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/door/airlock/medical/glass{
-	name = "Medical Bay"
-	},
-/turf/open/floor/plasteel/white,
-/area/ship/security/armory)
-"gI" = (
-/obj/machinery/cryopod,
-/obj/structure/sign/poster/contraband/random{
-	pixel_x = 32
-	},
-/obj/machinery/power/terminal,
-/obj/structure/cable,
-/turf/open/floor/plasteel/dark,
-/area/ship/crew/cryo)
 "gY" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -910,13 +892,6 @@
 	},
 /turf/open/floor/pod/dark,
 /area/ship/security/armory)
-"iQ" = (
-/obj/structure/fans/tiny,
-/obj/machinery/door/poddoor{
-	id = "collins_cargo"
-	},
-/turf/open/floor/plating,
-/area/ship/cargo)
 "km" = (
 /obj/machinery/atmospherics/components/unary/tank/air,
 /obj/machinery/firealarm{
@@ -925,23 +900,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
-"ln" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "piratebridge"
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
-/obj/effect/spawner/structure/window/shuttle,
-/turf/open/floor/plating,
-/area/ship/bridge)
-"lJ" = (
-/obj/structure/grille,
-/turf/open/floor/plating/airless,
-/area/ship/cargo)
 "mD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/computer/operating,
+/turf/open/floor/plasteel/white,
+/area/ship/medical)
+"mO" = (
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
 "mU" = (
@@ -970,16 +937,23 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
-"oI" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
+"ny" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/medical)
+"tS" = (
+/obj/structure/window/reinforced{
+	dir = 1;
+	pixel_y = 1
+	},
+/obj/structure/frame/computer{
+	anchored = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /turf/open/floor/pod/dark,
-/area/ship/security/armory)
+/area/ship/medical)
 "vB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/recharger,
@@ -989,13 +963,7 @@
 "wf" = (
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
-"wP" = (
-/turf/open/floor/plasteel,
-/area/ship/cargo)
-"wR" = (
-/turf/closed/wall/mineral/titanium,
-/area/ship/cargo)
-"yi" = (
+"wH" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -1014,26 +982,12 @@
 	},
 /turf/open/floor/pod/dark,
 /area/ship/security/armory)
-"yU" = (
-/obj/machinery/power/smes/shuttle/precharged{
-	dir = 1
-	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/structure/window/plasma/reinforced/spawner,
-/obj/machinery/door/window/eastright{
-	dir = 1;
-	name = "Engine Access"
-	},
-/turf/open/floor/plating,
+"wP" = (
+/turf/open/floor/plasteel,
 /area/ship/cargo)
-"zm" = (
-/obj/machinery/power/smes/shuttle/precharged{
+"wR" = (
+/obj/machinery/atmospherics/components/unary/shuttle/heater{
 	dir = 1
-	},
-/obj/structure/cable{
-	icon_state = "0-2"
 	},
 /obj/structure/window/plasma/reinforced/spawner,
 /obj/machinery/door/window/eastright{
@@ -1042,6 +996,32 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
+"ya" = (
+/turf/closed/wall/mineral/titanium,
+/area/ship/medical)
+"yi" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/medical/glass{
+	name = "Medical Bay"
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/security/armory)
+"yB" = (
+/obj/structure/grille,
+/turf/open/floor/plating/airless,
+/area/ship/medical)
 "zw" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/effect/decal/cleanable/dirt,
@@ -1057,16 +1037,71 @@
 	},
 /turf/open/floor/wood,
 /area/ship/cargo)
-"Be" = (
+"Cb" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/tank/toxins,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"CG" = (
+/obj/machinery/cryopod,
+/obj/structure/sign/poster/contraband/random{
+	pixel_x = 32
+	},
+/obj/machinery/power/terminal,
+/obj/structure/cable,
+/turf/open/floor/plasteel/dark,
+/area/ship/crew/cryo)
+"Gk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/autolathe,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"Jl" = (
+/obj/machinery/power/smes/shuttle/precharged{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/window/plasma/reinforced/spawner,
+/obj/machinery/door/window/eastright{
+	dir = 1;
+	name = "Engine Access"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"JT" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/apc/auto_name/west,
+/obj/structure/cable,
+/obj/machinery/suit_storage_unit/ert/security,
+/turf/open/floor/pod/light,
+/area/ship/security/armory)
+"JX" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/crew/cryo)
-"Db" = (
-/obj/machinery/light{
-	dir = 4
+"KC" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/poddoor{
+	id = "collins_cargo"
 	},
-/turf/open/floor/plasteel/white,
-/area/ship/medical)
-"DU" = (
+/turf/open/floor/plating,
+/area/ship/cargo)
+"NP" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ship/crew/cryo)
+"Oe" = (
+/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel,
+/area/ship/cargo)
+"Of" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "piratebridge"
 	},
@@ -1075,47 +1110,17 @@
 	},
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
-/area/ship/medical)
-"Gk" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/autolathe,
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
-"Gu" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 1
-	},
-/obj/structure/cable,
-/turf/open/floor/plating,
 /area/ship/cargo)
-"IU" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 8
+"Ow" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
 	},
-/turf/open/floor/plasteel/white,
-/area/ship/medical)
-"JT" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/apc/auto_name/west,
-/obj/structure/cable,
-/obj/machinery/suit_storage_unit/ert/security,
-/turf/open/floor/pod/light,
-/area/ship/security/armory)
-"Ka" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/components/unary/tank/toxins,
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
-"MM" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/bridge)
-"Oe" = (
-/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
 /obj/structure/cable{
-	icon_state = "2-4"
+	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel,
-/area/ship/cargo)
+/turf/open/floor/pod/dark,
+/area/ship/security/armory)
 "OD" = (
 /obj/machinery/airalarm/all_access{
 	pixel_y = 24
@@ -1140,6 +1145,20 @@
 	},
 /turf/open/floor/plasteel,
 /area/ship/cargo)
+"Qk" = (
+/obj/machinery/power/smes/shuttle/precharged{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/window/plasma/reinforced/spawner,
+/obj/machinery/door/window/eastright{
+	dir = 1;
+	name = "Engine Access"
+	},
+/turf/open/floor/plating,
+/area/ship/cargo)
 "RY" = (
 /obj/machinery/airalarm/all_access{
 	pixel_y = 24
@@ -1153,20 +1172,12 @@
 	},
 /turf/open/floor/wood,
 /area/ship/cargo)
-"Su" = (
+"TS" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/security/armory)
-"Tz" = (
-/obj/structure/window/reinforced{
-	dir = 1;
-	pixel_y = 1
-	},
-/obj/structure/frame/computer{
-	anchored = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/pod/dark,
-/area/ship/medical)
+"TX" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/bridge)
 "Ur" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/apc/auto_name/west,
@@ -1195,31 +1206,20 @@
 	},
 /turf/open/floor/plasteel,
 /area/ship/cargo)
-"Zw" = (
-/obj/machinery/atmospherics/components/unary/shuttle/heater{
-	dir = 1
-	},
-/obj/structure/window/plasma/reinforced/spawner,
-/obj/machinery/door/window/eastright{
-	dir = 1;
-	name = "Engine Access"
-	},
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
 
 (1,1,1) = {"
 af
 af
 af
-wR
-aj
-aj
-aj
-iQ
-iQ
-iQ
-aj
-wR
+fW
+aQ
+aQ
+aQ
+KC
+KC
+KC
+aQ
+fW
 af
 af
 af
@@ -1227,7 +1227,7 @@ af
 "}
 (2,1,1) = {"
 af
-lJ
+et
 eu
 ex
 eA
@@ -1236,29 +1236,29 @@ ap
 aw
 wP
 bF
-aj
-aj
-aj
-wR
+aQ
+aQ
+aQ
+fW
 af
 af
 "}
 (3,1,1) = {"
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+aQ
+aQ
+aQ
+aQ
+aQ
+aQ
+aQ
 ax
 aq
 Yj
-aj
+aQ
 RY
 aM
-yU
-Gu
+Qk
+aH
 af
 "}
 (4,1,1) = {"
@@ -1268,15 +1268,15 @@ af
 af
 af
 af
-at
+Of
 ay
 Oe
 OL
 zw
 dy
 br
-yU
-Gu
+Qk
+aH
 af
 "}
 (5,1,1) = {"
@@ -1286,7 +1286,7 @@ af
 af
 af
 af
-aj
+aQ
 az
 bx
 bH
@@ -1303,11 +1303,11 @@ af
 af
 as
 aP
-MM
-MM
-Su
-yi
-Su
+TX
+TX
+TS
+wH
+TS
 ah
 Gk
 aD
@@ -1322,7 +1322,7 @@ as
 aE
 aC
 aW
-MM
+TX
 bg
 gY
 JT
@@ -1336,11 +1336,11 @@ ah
 (8,1,1) = {"
 af
 af
-ln
+fP
 ab
 ae
 bf
-MM
+TX
 bl
 fY
 ai
@@ -1348,13 +1348,13 @@ aU
 be
 aD
 aG
-zm
+Jl
 er
 "}
 (9,1,1) = {"
 af
 af
-ln
+fP
 ac
 ag
 am
@@ -1366,25 +1366,25 @@ mU
 aL
 bP
 bX
-Zw
+wR
 aK
 "}
 (10,1,1) = {"
 af
 af
-ln
+fP
 ad
 ae
 an
-MM
+TX
 WJ
-oI
+Ow
 bI
 ah
 bO
 bQ
 bk
-zm
+Jl
 er
 "}
 (11,1,1) = {"
@@ -1394,7 +1394,7 @@ aA
 aE
 al
 aB
-MM
+TX
 ek
 bA
 vB
@@ -1411,13 +1411,13 @@ af
 af
 aA
 aT
-MM
-MM
-Su
-gj
-Su
+TX
+TX
+TS
+yi
+TS
 ah
-Ka
+Cb
 aS
 bZ
 bo
@@ -1430,7 +1430,7 @@ af
 af
 af
 af
-aQ
+aj
 mD
 bB
 Ur
@@ -1448,7 +1448,7 @@ af
 af
 af
 af
-DU
+at
 eE
 bC
 bJ
@@ -1456,41 +1456,41 @@ bM
 dU
 aV
 ep
-aH
+NP
 af
 "}
 (15,1,1) = {"
-aQ
-aQ
-aQ
-aQ
-aQ
-aQ
-aQ
+aj
+aj
+aj
+aj
+aj
+aj
+aj
 bu
-IU
+ny
 wf
-Be
+JX
 OD
-gI
+CG
 ep
-aH
+NP
 af
 "}
 (16,1,1) = {"
 af
-et
+yB
 ew
 ez
-Tz
+tS
 ao
 av
 bv
-Db
+mO
 bK
-Be
-Be
-Be
+JX
+JX
+JX
 df
 af
 af
@@ -1499,14 +1499,14 @@ af
 af
 af
 af
-fW
-aQ
-aQ
-aQ
-aQ
-aQ
-aQ
-Be
+ya
+aj
+aj
+aj
+aj
+aj
+aj
+JX
 df
 af
 af
