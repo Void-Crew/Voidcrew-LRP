@@ -13526,6 +13526,10 @@
 /obj/effect/turf_decal/corner/neutral,
 /turf/open/floor/plasteel,
 /area/centcom/ferry)
+"ccG" = (
+/obj/effect/mob_spawn/human/corpse/assistant,
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "cdq" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 6
@@ -13541,6 +13545,15 @@
 	},
 /turf/closed/indestructible/fakeglass,
 /area/centcom/ferry)
+"cgH" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Auxilliary Announcement Closet";
+	req_access_txt = "109";
+	id_tag = "centcom_intern_lock"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "cjQ" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
@@ -13567,12 +13580,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
-"clT" = (
-/obj/structure/table/reinforced,
-/obj/machinery/light,
-/obj/machinery/recharger,
-/turf/open/floor/plasteel/dark,
-/area/centcom/control)
 "cqb" = (
 /obj/machinery/vending/security,
 /obj/effect/turf_decal/industrial/warning{
@@ -13794,6 +13801,12 @@
 	dir = 1
 	},
 /area/centcom/exterior)
+"daw" = (
+/obj/machinery/computer/camera_advanced{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "dbb" = (
 /obj/structure/window{
 	dir = 1
@@ -14302,6 +14315,12 @@
 "eXg" = (
 /turf/closed/indestructible/fakeglass,
 /area/centcom/ferry)
+"faO" = (
+/obj/structure/bed,
+/obj/item/bedsheet/centcom,
+/obj/structure/curtain/cloth,
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "fbD" = (
 /obj/effect/turf_decal/corner/red{
 	dir = 1
@@ -14712,6 +14731,10 @@
 /obj/item/melee/transforming/energy/sword,
 /obj/item/clothing/glasses/hud/security/sunglasses/eyepatch,
 /obj/item/radio/headset/headset_cent/alt,
+/obj/item/grenade/c4{
+	name = "serious putty";
+	desc = "Hang on, this is just C4!"
+	},
 /turf/open/floor/carpet/green,
 /area/centcom/ferry)
 "gIV" = (
@@ -15111,6 +15134,17 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/ferry)
+"ikp" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/obj/item/reagent_containers/food/snacks/rationpack,
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "inF" = (
 /obj/machinery/power/apc{
 	dir = 8;
@@ -15143,6 +15177,13 @@
 /obj/structure/table/wood/reinforced,
 /turf/open/floor/wood,
 /area/centcom/ferry)
+"itM" = (
+/obj/machinery/computer/communications,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "iwk" = (
 /obj/effect/turf_decal/corner/green{
 	dir = 4
@@ -15617,6 +15658,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/prison)
+"kBZ" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "kDm" = (
 /obj/structure/noticeboard{
 	dir = 8;
@@ -16300,9 +16345,6 @@
 /obj/machinery/recharger,
 /turf/open/floor/wood,
 /area/centcom/ferry)
-"njH" = (
-/turf/open/floor/plasteel/dark,
-/area/centcom/control)
 "nlD" = (
 /obj/structure/filingcabinet/filingcabinet,
 /obj/effect/turf_decal/corner/neutral{
@@ -16317,6 +16359,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/supply)
+"nmb" = (
+/obj/structure/table/reinforced,
+/obj/machinery/light,
+/obj/machinery/recharger,
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "nmE" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Addust's Office";
@@ -16402,12 +16450,6 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
-"nJG" = (
-/obj/structure/bed,
-/obj/item/bedsheet/centcom,
-/obj/structure/curtain/cloth,
-/turf/open/floor/plasteel/dark,
 /area/centcom/control)
 "nNo" = (
 /obj/structure/table/wood,
@@ -16515,13 +16557,6 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
-"oyP" = (
-/obj/machinery/computer/communications,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
 /area/centcom/control)
 "oBc" = (
 /obj/structure/chair/office,
@@ -16970,17 +17005,6 @@
 	},
 /turf/open/floor/circuit,
 /area/ctf)
-"qgS" = (
-/obj/structure/table/reinforced,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/obj/item/reagent_containers/food/snacks/rationpack,
-/turf/open/floor/plasteel/dark,
-/area/centcom/control)
 "qha" = (
 /obj/structure/table,
 /obj/item/paper_bin,
@@ -17377,6 +17401,9 @@
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/plasteel,
 /area/centcom/supply)
+"roZ" = (
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "rrw" = (
 /obj/effect/turf_decal/corner/green{
 	dir = 8
@@ -17600,11 +17627,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
-"spe" = (
-/obj/structure/table/reinforced,
-/obj/machinery/light_switch,
-/turf/open/floor/plasteel/dark,
-/area/centcom/control)
 "srJ" = (
 /obj/effect/turf_decal/corner/red{
 	dir = 1
@@ -17911,10 +17933,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/supply)
-"tqk" = (
-/obj/structure/reagent_dispensers/water_cooler,
-/turf/open/floor/plasteel/dark,
-/area/centcom/control)
 "tqJ" = (
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/circuit/green/off,
@@ -18165,10 +18183,6 @@
 /obj/item/bikehorn,
 /turf/open/floor/plating/rust,
 /area/centcom/ferry)
-"ukw" = (
-/obj/effect/mob_spawn/human/corpse/assistant,
-/turf/open/floor/plasteel/dark,
-/area/centcom/control)
 "ukC" = (
 /obj/machinery/computer/helm,
 /obj/effect/turf_decal/corner/bar,
@@ -18586,10 +18600,9 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/supply)
-"wsu" = (
-/obj/machinery/computer/camera_advanced{
-	dir = 1
-	},
+"wtz" = (
+/obj/structure/table/reinforced,
+/obj/machinery/light_switch,
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
 "wxe" = (
@@ -19009,15 +19022,6 @@
 /obj/structure/table/wood/reinforced,
 /turf/open/floor/wood,
 /area/centcom/ferry)
-"xQk" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Auxilliary Announcement Closet";
-	req_access_txt = "109";
-	id_tag = "centcom_intern_lock"
-	},
-/obj/effect/mapping_helpers/airlock/locked,
-/turf/open/floor/plasteel/dark,
-/area/centcom/control)
 "xSI" = (
 /obj/effect/turf_decal/industrial/warning/cee,
 /obj/machinery/conveyor/inverted{
@@ -63698,10 +63702,10 @@ oSc
 oSc
 oSc
 aio
-nJG
-njH
-njH
-xQk
+faO
+roZ
+roZ
+cgH
 aUr
 awe
 aYD
@@ -63955,9 +63959,9 @@ amk
 aZp
 aiu
 aio
-spe
-njH
-clT
+wtz
+roZ
+nmb
 aio
 aOn
 aUr
@@ -64212,9 +64216,9 @@ otZ
 otZ
 ulu
 aio
-oyP
-ukw
-wsu
+itM
+ccG
+daw
 aio
 atP
 aZB
@@ -64469,9 +64473,9 @@ sFM
 fTB
 lMB
 aio
-tqk
-njH
-qgS
+kBZ
+roZ
+ikp
 aio
 aio
 aNQ
