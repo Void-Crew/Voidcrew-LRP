@@ -145,8 +145,8 @@
 /obj/effect/mob_spawn/human/lavaland_syndicate/comms
 	name = "Syndicate Comms Agent"
 	short_desc = "You are a syndicate comms agent, employed in a top secret research facility developing biological weapons."
-	flavour_text = "Unfortunately, your hated enemy, Nanotrasen, has begun mining in this sector. Monitor enemy activity as best you can, and try to keep a low profile. Use the communication equipment to provide support to any field agents, and sow disinformation to throw Nanotrasen off your trail. Do not let the base fall into enemy hands!"
-	important_info = "DO NOT abandon the base."
+	flavour_text = "Your base was once on a Nanotrasen mining planet, now long abandoned. Another ship has drawn near and accidentally reactivated the cryogenic systems - do not let the base fall into enemy hands!"
+	important_info = "Your faction is SYN-C. Protect and maintain the base. Do not abandon it."
 	outfit = /datum/outfit/lavaland_syndicate/comms
 
 
@@ -155,16 +155,21 @@
 	notify_ghosts("A lavaland syndicate comms agent is now available", flashwindow = FALSE, notify_suiciders = FALSE)
 
 /obj/effect/mob_spawn/human/lavaland_syndicate/comms/space
-	short_desc = "You are a syndicate agent, assigned to a small listening post station situated near your hated enemy's top secret research facility: Space Station 13."
-	flavour_text = "Monitor enemy activity as best you can, and try to keep a low profile. Monitor enemy activity as best you can, and try to keep a low profile. Use the communication equipment to provide support to any field agents, and sow disinformation to throw Nanotrasen off your trail. Do not let the base fall into enemy hands!"
-	important_info = "DO NOT abandon the base."
+	short_desc = "You are a syndicate agent, assigned to a small listening post formerly situated near your hated enemy's most important research station: Space Station 13."
+	flavour_text = "The station of your enemies has been wiped out long ago, and as such you are expected to maintain the base and monitor communications nearby. An allied freighter crashed into the asteroid after SS13 was destroyed - maybe you could make use of what's onboard."
+	important_info = "Your faction is SYN-C. Protect and maintain your base, and do not abandon it."
 
 /datum/outfit/lavaland_syndicate/comms
 	name = "Lavaland Syndicate Comms Agent"
 	r_hand = /obj/item/melee/transforming/energy/sword/saber
 	mask = /obj/item/clothing/mask/chameleon/gps
 	suit = /obj/item/clothing/suit/armor/vest
+	l_hand = /obj/item/gun_voucher/syndicate
 
 /obj/item/clothing/mask/chameleon/gps/Initialize()
 	. = ..()
 	AddComponent(/datum/component/gps, "Encrypted Signal")
+
+/obj/effect/mob_spawn/human/lavaland_syndicate/comms/space/Initialize(mapload)
+	. = ..()
+	notify_ghosts("A listening post syndicate comms agent is now available", flashwindow = FALSE, notify_suiciders = FALSE)

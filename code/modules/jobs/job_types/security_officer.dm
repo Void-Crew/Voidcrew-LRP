@@ -121,7 +121,6 @@ GLOBAL_LIST_INIT(available_depts, list(SEC_DEPT_ENGINEERING, SEC_DEPT_MEDICAL, S
 
 //Shiptest outfits begin
 
-//Shiptest outfits end
 
 /obj/item/radio/headset/headset_sec/alt/department/Initialize()
 	. = ..()
@@ -144,3 +143,57 @@ GLOBAL_LIST_INIT(available_depts, list(SEC_DEPT_ENGINEERING, SEC_DEPT_MEDICAL, S
 /obj/item/radio/headset/headset_sec/alt/department/sci
 	keyslot = new /obj/item/encryptionkey/headset_sec
 	keyslot2 = new /obj/item/encryptionkey/headset_sci
+
+/datum/outfit/job/security/nanotrasen
+	name = "Security Officer (Nanotrasen)"
+
+	uniform = /obj/item/clothing/under/rank/security/officer
+	alt_uniform = null
+	backpack_contents = list(/obj/item/radio, /obj/item/flashlight/seclite, /obj/item/gun_voucher)
+
+/datum/outfit/job/security/nanotrasen/ert
+	name = "QRF Officer (Nanotrasen)"
+
+	uniform = /obj/item/clothing/under/rank/security/officer
+	head = null
+	backpack = /obj/item/storage/backpack/ert/security
+	belt = /obj/item/storage/belt/military
+	id = /obj/item/card/id/ert/security
+	r_pocket = /obj/item/kitchen/knife/combat/survival
+	backpack_contents = list(/obj/item/radio, /obj/item/flashlight/seclite)
+
+/datum/outfit/job/security/nanotrasen/ert/engi
+	name = "QRF Engineering Officer (Nanotrasen)"
+
+	uniform = /obj/item/clothing/under/rank/engineering/engineer/hazard
+	head = null
+	backpack = /obj/item/storage/backpack/ert/engineer
+	belt = /obj/item/storage/belt/utility/full
+	id = /obj/item/card/id/ert/security
+	r_pocket = /obj/item/kitchen/knife/combat/survival
+	backpack_contents = list(/obj/item/radio, /obj/item/flashlight/seclite)
+	accessory = /obj/item/clothing/accessory/armband/engine
+	glasses = /obj/item/clothing/glasses/hud/diagnostic/sunglasses
+
+/datum/outfit/job/security/nanotrasen/ert/med
+	name = "QRF Medical Officer (Nanotrasen)"
+
+	uniform = /obj/item/clothing/under/rank/security/officer
+	head = /obj/item/clothing/head/beret/med
+	backpack = /obj/item/storage/backpack/ert/medical
+	belt = /obj/item/storage/belt/medical/webbing/paramedic
+	id = /obj/item/card/id/ert/security
+	r_pocket = /obj/item/kitchen/knife/combat/survival
+	backpack_contents = list(/obj/item/radio, /obj/item/flashlight/seclite)
+	accessory = /obj/item/clothing/accessory/armband/med
+	glasses = /obj/item/clothing/glasses/hud/health/night
+
+/datum/outfit/job/security/nanotrasen/mech_pilot
+	name = "Mech Pilot (Nanotrasen)"
+
+	uniform = /obj/item/clothing/under/rank/security/old
+	head = /obj/item/clothing/head/beret/sec/officer
+	suit = /obj/item/clothing/suit/armor/bulletproof
+	backpack_contents = list(/obj/item/radio, /obj/item/flashlight/seclite)
+
+//Shiptest outfits end
