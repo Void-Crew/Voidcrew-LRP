@@ -8026,7 +8026,8 @@
 	id = "centcom_intern_lock";
 	pixel_y = 24;
 	pixel_x = -6;
-	name = "Announcement Closet Lock"
+	name = "Announcement Closet Lock";
+	specialfunctions = 4
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
@@ -14445,7 +14446,6 @@
 /area/centcom/exterior)
 "fAQ" = (
 /obj/structure/table/reinforced,
-/obj/machinery/light_switch,
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
 "fBW" = (
@@ -14646,6 +14646,14 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/firingrange)
+"gtB" = (
+/obj/machinery/door/airlock/external,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/warning,
+/turf/open/floor/plasteel,
+/area/centcom/ferry)
 "gya" = (
 /obj/structure/fans/tiny,
 /obj/effect/turf_decal/corner/neutral{
@@ -14739,6 +14747,8 @@
 	name = "serious putty";
 	desc = "Hang on, this is just C4!"
 	},
+/obj/item/storage/box/survival/engineer/radio,
+/obj/item/storage/firstaid/tactical,
 /turf/open/floor/carpet/green,
 /area/centcom/ferry)
 "gIV" = (
@@ -16462,6 +16472,22 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
+"nRN" = (
+/obj/effect/turf_decal/corner/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/neutral,
+/obj/effect/turf_decal/corner/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/neutral{
+	dir = 8
+	},
+/obj/machinery/light_switch{
+	pixel_y = -23
+	},
+/turf/open/floor/plasteel,
+/area/centcom/control)
 "nUY" = (
 /obj/effect/turf_decal/industrial/warning/corner{
 	dir = 8
@@ -17109,6 +17135,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/tdome/arena_source)
+"qsY" = (
+/obj/structure/catwalk/over,
+/turf/open/water/beach/deep,
+/area/centcom/exterior)
 "qtj" = (
 /obj/effect/turf_decal/corner/green{
 	dir = 8
@@ -17183,6 +17213,19 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
+"qBU" = (
+/obj/effect/turf_decal/corner/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/brown,
+/obj/effect/turf_decal/corner/brown{
+	dir = 8
+	},
+/obj/machinery/light_switch{
+	pixel_y = -23
+	},
+/turf/open/floor/plasteel,
+/area/centcom/supply)
 "qEK" = (
 /obj/effect/turf_decal/corner/green,
 /turf/open/floor/plasteel,
@@ -53953,14 +53996,14 @@ aVf
 aZm
 aVf
 aPC
-amD
-awk
-awk
-awk
-awk
-awk
-awk
-awk
+gtB
+qsY
+qsY
+qsY
+qsY
+qsY
+qsY
+qsY
 awk
 awk
 awk
@@ -54217,7 +54260,7 @@ atd
 aoe
 ata
 amD
-awk
+qsY
 awk
 awk
 awk
@@ -54474,7 +54517,7 @@ aRy
 aRy
 aVM
 aoe
-awk
+qsY
 awk
 awk
 awk
@@ -54731,7 +54774,7 @@ aWI
 aWI
 aFC
 aoe
-awk
+qsY
 awk
 awk
 awk
@@ -54988,8 +55031,8 @@ aXc
 aXc
 awW
 aoe
-awk
-awk
+qsY
+qsY
 awk
 awk
 awk
@@ -55246,7 +55289,7 @@ aoe
 atc
 amD
 amD
-awk
+qsY
 awk
 awk
 awk
@@ -55503,7 +55546,7 @@ awj
 aVs
 aVG
 amD
-awk
+qsY
 awk
 awk
 awk
@@ -55760,7 +55803,7 @@ apg
 apg
 aUF
 amD
-awk
+qsY
 awk
 awk
 awk
@@ -56017,7 +56060,7 @@ aBv
 apg
 aUQ
 aqR
-awk
+qsY
 awk
 awk
 awk
@@ -56274,7 +56317,7 @@ arZ
 apg
 aUi
 anT
-awk
+qsY
 awk
 awk
 awk
@@ -56531,7 +56574,7 @@ aUz
 azA
 azC
 anU
-awk
+qsY
 awk
 awk
 awk
@@ -56732,18 +56775,18 @@ aoB
 aoB
 uJC
 aoB
+uJC
+aoB
+aoB
+ffh
+aoB
 aoB
 uJC
 aoB
 aoB
+ffh
 uJC
 aoB
-aoB
-uJC
-aoB
-aoB
-aoB
-uJC
 aoB
 aoB
 aoB
@@ -56788,7 +56831,7 @@ aTW
 aVg
 aNg
 amD
-awk
+qsY
 awk
 awk
 awk
@@ -56992,18 +57035,18 @@ amD
 amD
 amD
 amD
+aoY
 amD
 amD
 amD
 amD
 amD
+aoY
 amD
 amD
 amD
 amD
-aoe
-aoe
-aoe
+amD
 amD
 aoe
 aoe
@@ -57045,7 +57088,7 @@ aML
 azW
 aWZ
 amD
-awk
+qsY
 awk
 awk
 awk
@@ -57246,19 +57289,19 @@ unF
 afZ
 aXT
 aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-wQe
-wQe
+amD
+aoB
+aoB
+aoB
+aoB
+aoB
+amD
+aoB
+aoB
+aoB
+aoB
+aoB
+amD
 wQe
 wQe
 wQe
@@ -57302,7 +57345,7 @@ aZb
 aWB
 aMk
 amD
-awk
+qsY
 awk
 awk
 awk
@@ -57503,19 +57546,19 @@ elx
 afZ
 aXT
 aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-wQe
-wQe
+amD
+ufv
+aoB
+aoB
+aoB
+aoB
+amD
+ufv
+aoB
+aoB
+aoB
+aoB
+amD
 wQe
 wQe
 wQe
@@ -57559,7 +57602,7 @@ aAh
 aVR
 aWL
 amD
-awk
+qsY
 awk
 awk
 awk
@@ -57760,19 +57803,19 @@ elx
 afZ
 aXT
 aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-wQe
-wQe
+amD
+aoB
+aoB
+aoB
+aoB
+xIF
+amD
+aoB
+aoB
+aoB
+aoB
+xIF
+amD
 wQe
 wQe
 wQe
@@ -57816,7 +57859,7 @@ awi
 aBt
 aWH
 amD
-awk
+qsY
 awk
 awk
 awk
@@ -58017,19 +58060,19 @@ elx
 afZ
 aXT
 aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-wQe
-wQe
+amD
+aoB
+aoB
+aoB
+aoB
+aoB
+amD
+aoB
+aoB
+aoB
+aoB
+aoB
+amD
 wQe
 wQe
 wQe
@@ -58073,7 +58116,7 @@ aVg
 azA
 ana
 amD
-awk
+qsY
 awk
 awk
 awk
@@ -58274,19 +58317,19 @@ elx
 afZ
 aXT
 aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-aXT
-wQe
+amD
+amD
+amD
+amD
+amD
+amD
+amD
+amD
+amD
+amD
+amD
+amD
+amD
 wQe
 wQe
 wQe
@@ -58330,7 +58373,7 @@ aYc
 arz
 anU
 amD
-awk
+qsY
 awk
 awk
 awk
@@ -58543,7 +58586,7 @@ aXT
 aXT
 aXT
 aXT
-wQe
+aiF
 wQe
 wQe
 wQe
@@ -58587,7 +58630,7 @@ aVg
 aXY
 aXv
 amD
-awk
+qsY
 awk
 awk
 awk
@@ -58844,7 +58887,7 @@ aVg
 aVg
 aXQ
 amD
-awk
+qsY
 awk
 awk
 awk
@@ -59101,10 +59144,10 @@ aDK
 aVg
 aRs
 amD
-awk
-awk
-awk
-awk
+qsY
+qsY
+qsY
+qsY
 aYP
 aub
 aYP
@@ -59358,7 +59401,7 @@ aTp
 aVg
 ayO
 amD
-awk
+qsY
 awk
 awk
 awk
@@ -59615,7 +59658,7 @@ aVg
 aVg
 aNV
 anT
-awk
+qsY
 awk
 awk
 awk
@@ -59872,7 +59915,7 @@ aXJ
 aCU
 aAE
 amD
-awk
+qsY
 awk
 awk
 awk
@@ -60617,7 +60660,7 @@ aiF
 leU
 oXl
 oXl
-lBh
+qBU
 aiF
 gLF
 vLQ
@@ -62941,7 +62984,7 @@ ain
 aio
 ain
 aUr
-awe
+nRN
 aio
 aWu
 aop
@@ -74746,7 +74789,7 @@ aXT
 aXT
 fzh
 fzh
-vyH
+fzh
 vyH
 vyH
 vyH
@@ -75003,7 +75046,7 @@ aXT
 aXT
 fzh
 fzh
-vyH
+fzh
 vyH
 vyH
 vyH
@@ -75260,7 +75303,7 @@ aXT
 aXT
 fzh
 fzh
-vyH
+fzh
 vyH
 vyH
 vyH
