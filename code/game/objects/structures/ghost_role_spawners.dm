@@ -676,7 +676,7 @@
 
 /obj/effect/mob_spawn/human/oldcap
 	name = "old cryogenics pod"
-	desc = "A humming cryo pod. You can barely recognise a science uniform underneath the built up ice. The machine is attempting to wake up its occupant."
+	desc = "A humming cryo pod. You can barely recognise a command uniform underneath the built up ice. The machine is attempting to wake up its occupant."
 	mob_name = "a captain"
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper"
@@ -749,14 +749,14 @@
 //Forgotten syndicate ship
 
 /obj/effect/mob_spawn/human/syndicatespace
-	name = "Syndicate Ship Crew Member"
+	name = "dusty sleeper"
 	roundstart = FALSE
 	death = FALSE
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper_s"
-	short_desc = "You are a syndicate operative on old ship, stuck in hostile space."
-	flavour_text = "Your ship docks after a long time somewhere in hostile space, reporting a malfunction. You are stuck here, with Nanotrasen station nearby. Fix the ship, find a way to power it and follow your captain's orders."
-	important_info = "Obey orders given by your captain. DO NOT let the ship fall into enemy hands."
+	short_desc = "You are a Cybersun crewmember, stuck adrift."
+	flavour_text = "You climb out of your old cryosleeper, coughing as dust hits your mouth. Then, you realise: the lights are off. Power's out. Shit."
+	important_info = "Your faction is SYN-C. You are to obey your ship's Captain. Glory to the Syndicate!"
 	outfit = /datum/outfit/syndicatespace/syndicrew
 	assignedrole = "Cybersun Crewmember"
 
@@ -773,19 +773,19 @@
 	new_spawn.grant_language(/datum/language/codespeak, TRUE, TRUE, LANGUAGE_MIND)
 
 /obj/effect/mob_spawn/human/syndicatespace/captain
-	name = "Syndicate Ship Captain"
+	name = "dusty regal sleeper"
 	roundstart = FALSE
 	death = FALSE
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper_s"
-	short_desc = "You are the captain of an old ship, stuck in hostile space."
-	flavour_text = "Your ship docks after a long time somewhere in hostile space, reporting a malfunction. You are stuck here, with Nanotrasen station nearby. Command your crew and turn your ship into the most protected fortress."
-	important_info = "Protect the ship and secret documents in your backpack with your own life. DO NOT let the ship fall into enemy hands."
+	short_desc = "You are the captain of the SYN-C Hellfire, otherwise known as the SCSBC-12: the pride of Cybersun."
+	flavour_text = "You climb out of your sleeper, hearing the echoes of alarms that once screamed. The lights are off, and you hear... mushy noises outside. Shit."
+	important_info = "Your faction is SYN-C. You are the ship's highest-ranking officer: protect the documents on you with your life! If Nanotrasen stumbles upon you, defend your ship!"
 	outfit = /datum/outfit/syndicatespace/syndicaptain
 	assignedrole = "Cybersun Captain"
 
 /obj/effect/mob_spawn/human/syndicatespace/syndicaptain/Initialize(mapload)
-	notify_ghosts("A stranded syndicate ship has spawned", flashwindow = FALSE, notify_suiciders = FALSE)
+	notify_ghosts("The SYN-C Hellfire awakens once more!", flashwindow = FALSE, notify_suiciders = FALSE)
 	. = ..()
 	var/policy = get_policy(ROLE_SYNDICATE_CYBERSUN_CAPTAIN)
 	if(policy)
@@ -811,6 +811,7 @@
 	r_pocket = /obj/item/kitchen/knife/combat/survival
 	belt = /obj/item/storage/belt/military/assault
 	id = /obj/item/card/id/syndicate_command/crew_id
+	backpack_contents = list(/obj/item/storage/box/survival/syndie, /obj/item/gun_voucher/syndicate)
 	implants = list(/obj/item/implant/weapons_auth)
 
 /datum/outfit/syndicatespace/syndicaptain
@@ -828,7 +829,7 @@
 	r_pocket = /obj/item/kitchen/knife/combat/survival
 	belt = /obj/item/storage/belt/military/assault
 	id = /obj/item/card/id/syndicate_command/captain_id
-	backpack_contents = list(/obj/item/documents/syndicate/red, /obj/item/paper/fluff/ruins/forgottenship/password)
+	backpack_contents = list(/obj/item/storage/box/survival/syndie, /obj/item/documents/syndicate/red, /obj/item/paper/fluff/ruins/forgottenship/password, /obj/item/gun_voucher/syndicate)
 	implants = list(/obj/item/implant/weapons_auth)
 
 //ashdrake lair ghost roles

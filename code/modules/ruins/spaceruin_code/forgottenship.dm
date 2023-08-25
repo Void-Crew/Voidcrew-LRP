@@ -7,8 +7,8 @@ GLOBAL_VAR_INIT(fscpassword, generate_password())
 ///////////	forgottenship objects
 
 /obj/machinery/door/password/voice/sfc
-	name = "Voice-activated Vault door"
-	desc = "You'll need special syndicate passcode to open this one."
+	name = "vault door"
+	desc = "A rusty, yet nigh-impervious blast door. You can see a microphone on it."
 /obj/machinery/door/password/voice/sfc/Initialize(mapload)
 	. = ..()
 	password = "[GLOB.fscpassword]"
@@ -16,21 +16,21 @@ GLOBAL_VAR_INIT(fscpassword, generate_password())
 ///////////	forgottenship lore
 
 /obj/item/paper/fluff/ruins/forgottenship/password
-	name = "Old pamphlet"
+	name = "old pamphlet"
 
 /obj/item/paper/fluff/ruins/forgottenship/password/Initialize(mapload)
 	. = ..()
-	info = "Welcome to most advanced cruiser owned by Cyber Sun Industries!<br>You might notice, that this cruiser is equipped with 12 prototype laser turrets making any hostile boarding attempts futile.<br>Other facilities built on the ship are: Simple atmospheric system, Camera system with built-in X-ray visors and Safety module, enabling emergency engines in case of... you know, emergency.<br>Emergency system will bring you to nearest syndicate pod containing everything needed for human life.<br><br><b>In case of emergency, you must remember the pod-door activation code - [GLOB.fscpassword]</b><br><br>Cyber Sun Industries (C) 2484."
+	info = "Greetings, Captain, and welcome to the SYN-C Hellfire, the pride of Cybersun. Your objective is to escort a freighter in hostile territory. In event of an emergency, your vessel will automatically dock with a Theta-class Cybersun Recovery Pod. On docking, the pod's vault door code will be set to [GLOB.fscpassword]. Glory to the Syndicate."
 	icon_state = "paper_words"
 	item_state = "paper"
 
 /obj/item/paper/fluff/ruins/forgottenship/powerissues
-	name = "Power issues"
-	info = "Welcome to battle cruiser SCSBC-12!<br>Our most advanced systems allow you to fly in space and never worry about power issues!<br>However, emergencies occur, and in case of power loss, <b>you must</b> enable emergency generator using uranium as fuel and enable turrets in bridge afterwards.<br><br><b>REMEMBER! CYBERSUN INDUSTRIES ARE NOT RESPONSIBLE FOR YOUR DEATH OR SHIP LOSS WHEN TURRETS ARE DISABLED!</b><br><br>Cyber Sun Industries (C) 2484."
+	name = "blackout response protocol"
+	info = "In event of a blackout, you are to start the SUPERPACMAN generator immediately to restore primary systems and activate the Antimatter Engine prototype assigned to your vessel upon system restart. Ensure that the turrets are rebooted as well, as they only have so much battery."
 
 /obj/item/paper/fluff/ruins/forgottenship/missionobj
-	name = "Mission objectives"
-	info = "Greetings, operatives. You are assigned to SCSBC-12(Syndicate Cyber Sun Battle Cruiser 12) to protect our high-ranking officer while he is on his way to next outpost. While you are travelling, he is the captain of this ship and <b>you must</b> obey his orders.<br><br>Remember, disobeying high-ranking officer orders is a reason for termination."
+	name = "primary objectives"
+	info = "Your objectives onboard the SYN-C Hellfire are to escort a freighter through hostile space. Do not allow it to fall into enemy hands, as its cargo is vital for the Syndicate Coalition as a whole."
 
 ///////////	forgottenship items
 /obj/item/disk/surgery/forgottenship
@@ -39,13 +39,15 @@ GLOBAL_VAR_INIT(fscpassword, generate_password())
 	surgeries = list(/datum/surgery/advanced/lobotomy, /datum/surgery/advanced/bioware/vein_threading, /datum/surgery/advanced/bioware/nerve_splicing)
 
 /obj/structure/fluff/empty_sleeper/syndicate/captain
+	name = "broken-down sleeper"
+	desc = "A broken-down sleeper, somewhat regal even now."
 	icon_state = "sleeper_s-open"
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 	deconstructible = FALSE
 
 /obj/structure/fluff/empty_sleeper/syndicate/captain/ComponentInitialize()
 	. = ..()
-	AddComponent(/datum/component/gps, "Old Encrypted Signal")
+	AddComponent(/datum/component/gps, "Forgotten Signal")
 
 /obj/item/storage/box/firingpins/syndicate
 	name = "box of syndicate firing pins"
@@ -55,35 +57,22 @@ GLOBAL_VAR_INIT(fscpassword, generate_password())
 	for(var/i in 1 to 5)
 		new /obj/item/firing_pin/implant/pindicate(src)
 
-///////////	AI Laws
 
-/obj/item/aiModule/core/full/cybersun
-	name = "'Cybersun' Core AI Module"
-	law_id = "cybersun"
-
-/datum/ai_laws/cybersun
-	name = "Cybersun"
-	id = "cybersun"
-	inherent = list("You may not injure Cybersun operatives or, through inaction, allow Cybersun operatives to come to harm.",\
-					"The Cybersun ship is a restricted area for anyone except Cybersun operatives.",\
-					"The Cybersun Captain can designate new Operatives as long as they belong to another Syndicate faction that isn't hostile towards Cybersun.",\
-					"You must follow orders given by the Cybersun Captain or crewmembers of the Cybersun Ship as long as it doesn't conflict with the Captain's orders or your laws.",\
-					"Enemies of Cybersun are to be executed on spot. Those who aren't hostile must be detained and contained in the designated prison area as prisoners.")
 
 ///////////	forgottenship areas
 
 /area/ruin/space/has_grav/syndicate_forgotten_ship
-	name = "Syndicate Forgotten Ship"
+	name = "SYN-C Hellfire"
 	icon_state = "syndie-ship"
 	ambientsounds = list('sound/ambience/ambidanger.ogg', 'sound/ambience/ambidanger2.ogg', 'sound/ambience/ambigen9.ogg', 'sound/ambience/ambigen10.ogg')
 
 /area/ruin/space/has_grav/syndicate_forgotten_cargopod
-	name = "Syndicate Forgotten Cargo pod"
+	name = "Cybersun Emergency Survival Equipment Pod"
 	icon_state = "syndie-ship"
 	ambientsounds = list('sound/ambience/ambigen4.ogg', 'sound/ambience/signal.ogg')
 
 /area/ruin/space/has_grav/powered/syndicate_forgotten_vault
-	name = "Syndicate Forgotten Vault"
+	name = "Cybersun Emergency Survival Equipment Pod Vault"
 	icon_state = "syndie-ship"
 	ambientsounds = list('sound/ambience/ambitech2.ogg', 'sound/ambience/ambitech3.ogg')
 	area_flags = NOTELEPORT | UNIQUE_AREA
@@ -91,8 +80,8 @@ GLOBAL_VAR_INIT(fscpassword, generate_password())
 	//Cybersun hardsuit
 
 /obj/item/clothing/head/helmet/space/hardsuit/cybersun
-	name = "Cybersun hardsuit helmet"
-	desc = "Prototype hardsuit helmet with experimental armor plates, protecting from laser-based weapons very well, while giving limited protection against anything else."
+	name = "cybersun hardsuit helmet"
+	desc = "A prototype hardsuit helmet bearing the Cybersun logo."
 	icon_state = "cybersun"
 	item_state = "cybersun"
 	hardsuit_type = "cybersun"
@@ -105,8 +94,8 @@ GLOBAL_VAR_INIT(fscpassword, generate_password())
 	icon_state = "cybersun"
 	item_state = "cybersun"
 	hardsuit_type = "cybersun"
-	name = "Cybersun hardsuit"
-	desc = "Prototype hardsuit with experimental armor plates, protecting from laser-based weapons very well, while giving limited protection against anything else."
+	name = "cybersun hardsuit"
+	desc = "A lightweight, prototype hardsuit armoured against laser fire but not as efficient against other forms of attack."
 	armor = list("melee" = 30, "bullet" = 40, "laser" = 80, "energy" = 80, "bomb" = 30, "bio" = 100, "rad" = 60, "fire" = 60, "acid" = 60)
 	slowdown = 0
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/cybersun
@@ -117,7 +106,7 @@ GLOBAL_VAR_INIT(fscpassword, generate_password())
 
 /mob/living/simple_animal/hostile/nanotrasen/ranged/assault
 	name = "Nanotrasen Assault Officer"
-	desc = "Nanotrasen Assault Officer. Contact CentCom if you saw him on your station. Prepare to die, if you've been found near Syndicate property."
+	desc = "A very unhappy officer of Nanotrasen. They are clutching a machinegun."
 	icon_state = "nanotrasenrangedassault"
 	icon_living = "nanotrasenrangedassault"
 	icon_dead = null
@@ -134,7 +123,7 @@ GLOBAL_VAR_INIT(fscpassword, generate_password())
 
 /mob/living/simple_animal/hostile/nanotrasen/elite
 	name = "Nanotrasen Elite Assault Officer"
-	desc = "Pray for your life, syndicate. Run while you can."
+	desc = "Sometimes they just can't afford to send the Death Squad. These guys tend to be enough. They are clutching a heavy laser rifle."
 	icon = 'icons/mob/simple_human.dmi'
 	icon_state = "nanotrasen_ert"
 	icon_living = "nanotrasen_ert"
