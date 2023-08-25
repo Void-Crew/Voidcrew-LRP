@@ -75,3 +75,11 @@
 					/datum/material/glass = 2500)
 	build_path = /obj/item/bio_scanner
 	category = list("initial","Tools")
+
+/datum/design/control
+	name = "Blast Door Controller"
+	id = "blast"
+	build_type = AUTOLATHE
+	materials = list(/datum/material/iron = 100, /datum/material/glass = 50)
+	build_path = /obj/item/assembly/control
+	category = list("initial","Misc")

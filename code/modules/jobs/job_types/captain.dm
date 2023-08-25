@@ -57,3 +57,11 @@
 	mask = /obj/item/clothing/mask/gas/atmos/captain
 	suit = /obj/item/clothing/suit/space/hardsuit/swat/captain
 	suit_store = /obj/item/tank/internals/oxygen
+
+/datum/outfit/job/captain/nt/heron
+	name = "Captain (Nanotrasen Fleet Captain)"
+
+	uniform = /obj/item/clothing/under/rank/centcom/officer
+	head = /obj/item/clothing/head/centhat
+	suit = /obj/item/clothing/suit/armor/bulletproof
+	ears = /obj/item/radio/headset/headset_cent/commander

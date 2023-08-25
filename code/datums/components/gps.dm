@@ -109,6 +109,8 @@ GLOBAL_LIST_EMPTY(GPS_list)
 
 	var/turf/curr = get_turf(parent)
 	var/datum/virtual_level/vlevel = curr.get_virtual_level()
+	if(!vlevel) //You probably shouldn't be here...
+		return data
 	var/datum/map_zone/mapzone = vlevel.parent_map_zone
 	var/list/coords = vlevel.get_relative_coords(curr)
 	data["currentArea"] = "[get_area_name(curr, TRUE)]"
@@ -117,15 +119,16 @@ GLOBAL_LIST_EMPTY(GPS_list)
 	var/list/signals = list()
 	data["signals"] = list()
 
-	for(var/gps in GLOB.GPS_list)
-		var/datum/component/gps/G = gps
+	for(var/datum/component/gps/G as anything in GLOB.GPS_list)
 		if(G.emped || !G.tracking || G == src)
 			continue
 		var/turf/pos = get_turf(G.parent)
-		if(!pos || !global_mode && pos.virtual_z() != curr.virtual_z())
+		if(!pos || !global_mode && pos.virtual_z != curr.virtual_z)
 			continue
 		var/list/signal = list()
 		var/datum/virtual_level/other_vlevel = pos.get_virtual_level()
+		if(!other_vlevel)
+			continue
 		var/datum/map_zone/other_mapzone = other_vlevel.parent_map_zone
 		var/list/other_coords = other_vlevel.get_relative_coords(pos)
 		signal["entrytag"] = G.gpstag //Name or 'tag' of the GPS

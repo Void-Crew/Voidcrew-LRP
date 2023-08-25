@@ -1,0 +1,29 @@
+{
+	"map_name": "Talos-class Salvage Cruiser",
+	"map_short_name": "Talos",
+	"prefix": "NEU",
+	"map_path": "_maps/shuttles/shiptest/talos.dmm",
+	"map_id": "talos",
+	"job_slots": {
+		"Captain": {
+			"outfit": "/datum/outfit/job/captain",
+			"officer": true,
+			"slots": 1
+		},
+		"First Officer": {
+			"outfit": "/datum/outfit/job/head_of_personnel",
+			"officer": true,
+			"slots": 1
+		},
+		"Scientist": 1,
+		"Chief Engineer": 1,
+		"Medical Doctor": 1,
+		"Shaft Miner": 3,
+		"Ship Engineer": {
+			"outfit": "/datum/outfit/job/engineer",
+			"slots": 2
+		},
+		"Assistant": 4
+	},
+	"cost": 950
+}

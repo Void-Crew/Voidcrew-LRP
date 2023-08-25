@@ -67,13 +67,14 @@ fi
 # update auxmos
 if [ ! -d "auxmos" ]; then
 	echo "Cloning auxmos..."
-	git clone https://github.com/Putnam3145/auxmos
+	git clone "$AUXMOS_REPO"
 	cd auxmos
 	~/.cargo/bin/rustup target add i686-unknown-linux-gnu
 	cd ..
 else
 	echo "Fetching auxmos..."
 	cd auxmos
+	git remote set-url origin "$AUXMOS_REPO"
 	git fetch
 	~/.cargo/bin/rustup target add i686-unknown-linux-gnu
 	cd ..
@@ -89,7 +90,7 @@ cd ..
 echo "Deploying auxmos..."
 cd auxmos
 git checkout "$AUXMOS_VERSION"
-env PKG_CONFIG_ALLOW_CROSS=1 RUSTFLAGS="-C target-cpu=native" ~/.cargo/bin/cargo build --release --target=i686-unknown-linux-gnu --features "all_reaction_hooks"
+env PKG_CONFIG_ALLOW_CROSS=1 RUSTFLAGS="-C target-cpu=native" ~/.cargo/bin/cargo rustc --release --target=i686-unknown-linux-gnu --features "all_reaction_hooks,katmos" -- -C target_cpu=native
 mv target/i686-unknown-linux-gnu/release/libauxmos.so "$1/libauxmos.so"
 cd ..
 

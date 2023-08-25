@@ -306,7 +306,7 @@
 /turf/open/floor/mineral/titanium,
 /area/ship/hallway/central)
 "dT" = (
-/obj/structure/table/wood/bar,
+/obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/storage/crayons,
 /turf/open/floor/wood,
@@ -635,7 +635,9 @@
 	dir = 1
 	},
 /obj/machinery/door/window/brigdoor,
-/obj/machinery/rnd/server,
+/obj/machinery/rnd/server{
+	desc = "A cardboard box with some LED lights. A small note taped to the side reads 'A computer system running a deep neural network that processes arbitrary information to produce data useable in the development of new technologies. In layman's terms, it makes research points.' I wonder who wrote that?"
+	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/science/ai_chamber)
 "if" = (
@@ -732,7 +734,7 @@
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/cargo)
 "iX" = (
-/obj/structure/table/wood/bar,
+/obj/structure/table/wood,
 /turf/open/floor/wood,
 /area/ship/hallway/port)
 "jd" = (
@@ -965,7 +967,7 @@
 /turf/open/floor/plasteel/patterned,
 /area/ship/security/armory)
 "mo" = (
-/obj/structure/table/wood/bar,
+/obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/reagent_containers/food/condiment/saltshaker,
 /obj/item/reagent_containers/food/condiment/peppermill{
@@ -982,7 +984,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
-/obj/structure/table/wood/bar,
+/obj/structure/table/wood,
 /obj/machinery/microwave,
 /turf/open/floor/wood/ebony,
 /area/ship/crew/canteen)
@@ -1298,7 +1300,7 @@
 /turf/open/floor/plating,
 /area/ship/hallway/central)
 "qy" = (
-/obj/structure/table/wood/bar,
+/obj/structure/table/wood,
 /obj/item/trash/plate,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -1607,7 +1609,7 @@
 /turf/open/floor/mineral/titanium/tiled/blue,
 /area/ship/medical)
 "vv" = (
-/obj/structure/table/wood/bar,
+/obj/structure/table/wood,
 /obj/machinery/chem_dispenser/drinks{
 	dir = 4
 	},
@@ -1888,7 +1890,7 @@
 /turf/open/floor/plasteel/patterned,
 /area/ship/hallway/central)
 "xX" = (
-/obj/structure/table/wood/bar,
+/obj/structure/table/wood,
 /obj/item/reagent_containers/food/condiment/saltshaker,
 /obj/item/reagent_containers/food/condiment/peppermill{
 	pixel_x = 5
@@ -1959,7 +1961,7 @@
 /turf/open/space/basic,
 /area/template_noop)
 "yQ" = (
-/obj/structure/table/wood/bar,
+/obj/structure/table/wood,
 /obj/item/reagent_containers/food/condiment/saltshaker,
 /obj/item/reagent_containers/food/condiment/peppermill{
 	pixel_x = 5
@@ -3071,7 +3073,7 @@
 /turf/open/floor/carpet/green,
 /area/ship/bridge)
 "Ng" = (
-/obj/structure/table/wood/bar,
+/obj/structure/table/wood,
 /obj/machinery/reagentgrinder,
 /turf/open/floor/wood,
 /area/ship/hallway/port)
@@ -3158,7 +3160,7 @@
 /turf/open/floor/plasteel/grimy,
 /area/ship/crew/dorm)
 "Oa" = (
-/obj/structure/table/wood/bar,
+/obj/structure/table/wood,
 /obj/item/candle{
 	pixel_x = -5
 	},
@@ -3272,6 +3274,8 @@
 /obj/item/clothing/suit/hooded/ablative,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/corner_techfloor_gray/diagonal,
+/obj/item/gun_voucher,
+/obj/item/gun_voucher,
 /turf/open/floor/plasteel/patterned,
 /area/ship/security/armory)
 "OC" = (
@@ -3708,7 +3712,7 @@
 /obj/machinery/firealarm{
 	pixel_y = 25
 	},
-/obj/structure/table/wood/bar,
+/obj/structure/table/wood,
 /obj/item/crowbar,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/ebony,
@@ -3779,7 +3783,7 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/hallway/central)
 "VA" = (
-/obj/structure/table/wood/bar,
+/obj/structure/table/wood,
 /obj/machinery/chem_dispenser/drinks/beer{
 	dir = 4
 	},

@@ -17,6 +17,8 @@
 	var/allow_ai_retrieve = FALSE
 	var/list/initial_contents
 	var/visible_contents = TRUE
+	///Whether the fridge can be unanchored without having to deconstruct it. Default = TRUE
+	var/can_unanchor = TRUE
 
 /obj/machinery/smartfridge/Initialize()
 	. = ..()
@@ -42,7 +44,7 @@
 /obj/machinery/smartfridge/update_icon_state()
 	SSvis_overlays.remove_vis_overlay(src, managed_vis_overlays)
 	if(!machine_stat)
-		SSvis_overlays.add_vis_overlay(src, icon, "smartfridge-light-mask", EMISSIVE_LAYER, EMISSIVE_PLANE, dir, alpha)
+		SSvis_overlays.add_vis_overlay(src, icon, "[initial(icon_state)]-light-mask", EMISSIVE_LAYER, EMISSIVE_PLANE, dir, alpha)
 		if (visible_contents)
 			switch(contents.len)
 				if(0)
@@ -65,6 +67,9 @@
 ********************/
 
 /obj/machinery/smartfridge/attackby(obj/item/O, mob/user, params)
+	if(user.a_intent == INTENT_HARM)
+		return ..()
+
 	if(default_deconstruction_screwdriver(user, icon_state, icon_state, O))
 		cut_overlays()
 		if(panel_open)
@@ -75,15 +80,21 @@
 	if(default_pry_open(O))
 		return
 
-	if(default_unfasten_wrench(user, O))
-		power_change()
-		return
+	if(O.tool_behaviour == TOOL_WRENCH)
+		if(can_unanchor)
+			default_unfasten_wrench(user, O)
+			power_change()
+			return
+		else
+			to_chat(user, "<span class='warning'>This machine is firmly bolted to the ground and cannot be unanchored!</span>")
 
 	if(default_deconstruction_crowbar(O))
 		updateUsrDialog()
 		return
 
 	if(!machine_stat)
+		if(panel_open)
+			return FALSE
 
 		if(contents.len >= max_n_of_items)
 			to_chat(user, "<span class='warning'>\The [src] is full!</span>")
@@ -126,12 +137,11 @@
 				to_chat(user, "<span class='warning'>There is nothing in [O] to put in [src]!</span>")
 				return FALSE
 
-	if(user.a_intent != INTENT_HARM)
+
 		to_chat(user, "<span class='warning'>\The [src] smartly refuses [O].</span>")
 		updateUsrDialog()
 		return FALSE
-	else
-		return ..()
+
 
 
 
@@ -173,8 +183,7 @@
 	. = list()
 
 	var/listofitems = list()
-	for (var/I in src)
-		var/atom/movable/O = I
+	for (var/atom/movable/O as anything in src)
 		if (!QDELETED(O))
 			var/md5name = md5(O.name)				// This needs to happen because of a bug in a TGUI component, https://github.com/ractivejs/ractive/issues/744
 			if (listofitems[md5name])				// which is fixed in a version we cannot use due to ie8 incompatibility
@@ -507,3 +516,24 @@
 		return TRUE
 	else
 		return FALSE
+
+// Generic storage compartment, accepts any and all items, but less storage
+// + no bonuses like organ healing and can't be moved without deconstructing it;
+// perfect for storing literally anything so it won't litter your loot monkey ship
+/obj/machinery/smartfridge/compstorage
+	name = "storage compartment"
+	desc = "A bluespace-powered compartment for storing any and all kinds of items one would happen to find in the vastness of outer space."
+	icon_state = "storagecomp"
+	max_n_of_items = 150
+	circuit = /obj/item/circuitboard/machine/smartfridge/compstorage
+	can_unanchor = FALSE
+
+/obj/machinery/smartfridge/compstorage/accept_check(obj/item/inserted_item)
+	if(istype(inserted_item, /obj/item/storage/backpack)) //it's too smart to allow you to minmax the storage with backpacks. boxes and other things are fine though
+		return FALSE
+	else
+		return TRUE
+
+/obj/machinery/smartfridge/compstorage/RefreshParts()
+	for(var/obj/item/stock_parts/matter_bin/new_bin in component_parts)
+		max_n_of_items = 150 * new_bin.rating

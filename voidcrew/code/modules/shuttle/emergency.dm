@@ -89,7 +89,7 @@
 
 /obj/item/stock_parts/cell/emproof/disposable/Initialize(mapload, override_maxcharge)
 	. = ..()
-	maxcharge = 0
+	maxcharge = 1
 
 /obj/item/stock_parts/cell/emproof/disposable/percent()
 	return 100

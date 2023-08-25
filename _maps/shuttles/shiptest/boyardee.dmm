@@ -304,10 +304,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/corner/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/blue{
-	dir = 8
+	dir = 9
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/bridge)
@@ -516,13 +513,10 @@
 /area/ship/crew/canteen)
 "kS" = (
 /obj/structure/chair/stool/bar,
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 8
-	},
 /obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/corner/neutral{
+	dir = 9
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/canteen)
 "lg" = (
@@ -572,12 +566,6 @@
 	department = "Cockpit";
 	pixel_y = 30
 	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
 /obj/machinery/button/door{
 	id = "windowlockdown";
 	name = "Window Lockdown";
@@ -594,6 +582,9 @@
 	id = "bridgelockdown";
 	name = "Bridge Lockdown";
 	pixel_y = -5
+	},
+/obj/effect/turf_decal/corner/neutral{
+	dir = 9
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/bridge)
@@ -748,14 +739,10 @@
 "nP" = (
 /obj/structure/tank_dispenser/oxygen,
 /obj/machinery/light,
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral,
 /obj/effect/turf_decal/box,
+/obj/effect/turf_decal/corner/neutral/three_quarters{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/cargo)
 "of" = (
@@ -798,10 +785,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/corner/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
+	dir = 9
 	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/bridge)
@@ -961,10 +945,7 @@
 "sp" = (
 /obj/structure/chair/stool/bar,
 /obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
+	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/canteen)
@@ -1000,10 +981,7 @@
 	pixel_y = -24
 	},
 /obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
+	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/hydroponics)
@@ -1027,14 +1005,11 @@
 /turf/open/floor/carpet/nanoweave,
 /area/ship/crew)
 "tP" = (
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
-	},
 /obj/effect/turf_decal/box,
 /obj/machinery/suit_storage_unit/standard_unit,
+/obj/effect/turf_decal/corner/neutral{
+	dir = 5
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/cargo)
 "tR" = (
@@ -1272,12 +1247,9 @@
 /obj/item/plant_analyzer,
 /obj/item/plant_analyzer,
 /obj/item/plant_analyzer,
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
 /obj/effect/turf_decal/box,
 /obj/effect/turf_decal/corner/neutral{
-	dir = 4
+	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/hydroponics)
@@ -1375,14 +1347,11 @@
 "Ar" = (
 /obj/machinery/hydroponics/constructable,
 /obj/machinery/light,
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
-	},
 /obj/item/radio/intercom{
 	pixel_y = -28
+	},
+/obj/effect/turf_decal/corner/neutral{
+	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/hydroponics)
@@ -1411,13 +1380,10 @@
 /obj/machinery/computer/helm{
 	dir = 8
 	},
-/obj/effect/turf_decal/corner/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/blue{
-	dir = 8
-	},
 /obj/item/paicard,
+/obj/effect/turf_decal/corner/blue{
+	dir = 9
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/bridge)
 "AT" = (
@@ -1626,12 +1592,6 @@
 /area/ship/cargo)
 "DF" = (
 /obj/structure/chair/stool/bar,
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
 	},
@@ -1639,6 +1599,9 @@
 	dir = 8
 	},
 /obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/corner/neutral{
+	dir = 9
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/canteen)
 "DG" = (
@@ -1723,23 +1686,17 @@
 /turf/open/floor/plating,
 /area/ship/crew/canteen)
 "EF" = (
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
-	},
 /obj/effect/turf_decal/box,
 /obj/machinery/suit_storage_unit/independent/mining/eva,
+/obj/effect/turf_decal/corner/neutral{
+	dir = 5
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/cargo)
 "EH" = (
 /obj/machinery/hydroponics/constructable,
 /obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
+	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/hydroponics)
@@ -1998,13 +1955,10 @@
 /obj/machinery/firealarm{
 	pixel_y = -28
 	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
-	},
 /obj/machinery/power/apc/auto_name/west,
+/obj/effect/turf_decal/corner/neutral{
+	dir = 5
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/hydroponics)
 "Jj" = (
@@ -2017,12 +1971,6 @@
 /area/ship/crew/canteen)
 "Jw" = (
 /obj/structure/cable,
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
-	},
 /obj/item/storage/bag/ore,
 /obj/item/storage/bag/ore,
 /obj/item/pickaxe/silver,
@@ -2045,6 +1993,9 @@
 	pixel_x = -26
 	},
 /obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/corner/neutral{
+	dir = 5
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/cargo)
 "JF" = (
@@ -2129,18 +2080,15 @@
 /turf/open/floor/plasteel/mono/white,
 /area/ship/bridge)
 "LX" = (
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 8
-	},
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
 /obj/structure/sign/warning/vacuum{
 	pixel_y = -32
+	},
+/obj/effect/turf_decal/corner/neutral{
+	dir = 9
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/canteen)
@@ -2240,10 +2188,7 @@
 "Ng" = (
 /obj/machinery/vending/wardrobe/bar_wardrobe,
 /obj/effect/turf_decal/corner/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
+	dir = 9
 	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/bridge)
@@ -2298,10 +2243,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/corner/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/blue{
-	dir = 8
+	dir = 9
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/bridge)
@@ -2766,16 +2708,10 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/hydroponics)
 "WH" = (
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral{
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/corner/neutral/three_quarters{
 	dir = 4
 	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 8
-	},
-/obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/canteen)
 "WP" = (

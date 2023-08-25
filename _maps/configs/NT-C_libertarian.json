@@ -2,22 +2,22 @@
 	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
 	"prefix": "NT-C",
 	"namelists": ["GENERAL", "BRITISH_NAVY", "MERCANTILE", "SPACE"],
-	"map_name": "Indisputable-class Secure Transport",
-	"map_short_name": "Indisputable-class",
-	"map_path": "_maps/shuttles/shiptest/voidcrew/nanotrasen_clipper.dmm",
-	"limit": 2,
+	"map_name": "Libertarian-class Scout Vessel",
+	"map_short_name": "Libertarian-class",
+	"map_path": "_maps/shuttles/shiptest/voidcrew/libertarian.dmm",
+	"limit": 4,
 	"job_slots": {
 		"Captain": {
 			"outfit": "/datum/outfit/job/captain/nt",
 			"officer": true,
 			"slots": 1
 		},
-		"First Mate": {
-			"outfit": "/datum/outfit/job/head_of_personnel/nt",
+		"SolGov Representative": {
+			"outfit": "/datum/outfit/job/head_of_personnel/solgov",
 			"officer": true,
 			"slots": 1
 		},
-		"Cargo Technician": {
+		"Deckhand": {
 			"outfit": "/datum/outfit/job/cargo_tech",
 			"slots": 2
 		},
@@ -27,12 +27,13 @@
 		},
 		"Security Officer": {
 			"outfit": "/datum/outfit/job/security",
-			"slots": 5
+			"slots": 3
 		},
 		"Paramedic": {
 			"outfit": "/datum/outfit/job/paramedic",
-			"slots": 2
+			"slots": 1
 		}
 	},
-	"cost": 750
+	"cost": 420
 }
+

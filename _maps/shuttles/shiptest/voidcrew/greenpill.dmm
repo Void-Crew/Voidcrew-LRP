@@ -276,6 +276,7 @@
 	dir = 4;
 	pixel_x = -28
 	},
+/obj/item/book/granter/spell/blind,
 /turf/open/floor/carpet/purple,
 /area/ship/bridge)
 "uC" = (
@@ -657,6 +658,18 @@
 	righthand_file = 'icons/mob/inhands/items_righthand.dmi';
 	lefthand_file = 'icons/mob/inhands/items_lefthand.dmi';
 	fire_sound = 'sound/magic/wand_teleport.ogg'
+	},
+/obj/item/gun/energy/laser/hitscanpistol{
+	icon_state = "deathwand";
+	icon = 'icons/obj/guns/magic.dmi';
+	desc = "A wand used by Wizards who specialize in offensive magic";
+	pixel_x = -5;
+	name = "wand of beams";
+	item_state = "wand";
+	righthand_file = 'icons/mob/inhands/items_righthand.dmi';
+	lefthand_file = 'icons/mob/inhands/items_lefthand.dmi';
+	fire_sound = 'sound/magic/wandodeath.ogg';
+	pixel_y = -4
 	},
 /turf/open/floor/carpet/purple,
 /area/ship/bridge)
