@@ -3305,14 +3305,6 @@
 /obj/structure/dresser,
 /turf/open/floor/holofloor/carpet,
 /area/holodeck/rec_center/photobooth)
-"atm" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/water/beach/deep{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/tdome/tdomeadmin)
 "atv" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/shaker,
@@ -13521,15 +13513,6 @@
 /obj/item/bikehorn,
 /turf/open/floor/wood,
 /area/centcom/ferry)
-"bym" = (
-/obj/structure/catwalk/over,
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/water/beach/deep{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/tdome/tdomeadmin)
 "bDH" = (
 /obj/structure/chair/comfy/brown{
 	dir = 1
@@ -13597,10 +13580,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
-"bPF" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
-/area/centcom/supplypod)
 "bUu" = (
 /obj/structure/chair/sofa{
 	name = "sofa"
@@ -13824,6 +13803,15 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/basketball)
+"cUi" = (
+/obj/vehicle/ridden/lavaboat/dragon{
+	desc = "A finely-built wooden boat. Why not just use a metal one?";
+	name = "overly fanciful boat"
+	},
+/turf/open/water/beach/deep{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/centcom/exterior)
 "cVp" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/blood,
@@ -14672,6 +14660,15 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
+"fCT" = (
+/obj/structure/catwalk/over,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/water/beach/deep{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/tdome/tdomeadmin)
 "fGD" = (
 /obj/machinery/light,
 /obj/structure/table/reinforced,
@@ -14779,10 +14776,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
-"gbV" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/centcom/supplypod)
 "gfi" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/industrial/warning{
@@ -14859,16 +14852,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/supply)
-"grn" = (
-/obj/vehicle/ridden/lavaboat/dragon{
-	desc = "A finely-built wooden boat. Why not just use a metal one?";
-	name = "overly fanciful boat";
-	dir = 4
-	},
-/turf/open/water/beach/deep{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/tdome/tdomeadmin)
 "gsz" = (
 /obj/effect/turf_decal/corner/green{
 	dir = 1
@@ -14878,23 +14861,6 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/firingrange)
-"gur" = (
-/obj/effect/turf_decal/corner/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/corner/neutral,
-/obj/effect/turf_decal/corner/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/corner/neutral{
-	dir = 8
-	},
-/obj/machinery/door/airlock/centcom{
-	name = "Thunderdome Administration";
-	req_access_txt = "102"
-	},
-/turf/open/floor/plasteel/dark,
-/area/tdome/tdomeadmin)
 "gya" = (
 /obj/structure/fans/tiny,
 /obj/effect/turf_decal/corner/neutral{
@@ -14948,6 +14914,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supply)
+"gGh" = (
+/obj/machinery/light,
+/turf/open/water/beach/deep{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/tdome/tdomeadmin)
 "gGK" = (
 /obj/effect/overlay/palmtree_r,
 /turf/open/floor/plating/beach/sand,
@@ -15359,12 +15331,6 @@
 	},
 /turf/open/floor/circuit/red,
 /area/ctf)
-"hUt" = (
-/obj/machinery/light,
-/turf/open/water/beach/deep{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/tdome/tdomeadmin)
 "hXx" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 5
@@ -15438,6 +15404,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/ferry)
+"iow" = (
+/turf/open/water/beach/deep{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/tdome/tdomeadmin)
 "iqJ" = (
 /obj/machinery/microwave,
 /obj/structure/table/wood/reinforced,
@@ -15842,15 +15813,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
-"kai" = (
-/obj/vehicle/ridden/lavaboat/dragon{
-	desc = "A finely-built wooden boat. Why not just use a metal one?";
-	name = "overly fanciful boat"
-	},
-/turf/open/water/beach/deep{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/centcom/exterior)
 "keF" = (
 /obj/structure/table/wood,
 /obj/item/storage/box/donkpockets,
@@ -16153,6 +16115,14 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/court)
+"ldw" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/water/beach/deep{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/tdome/tdomeadmin)
 "ldH" = (
 /obj/structure/chair/office{
 	dir = 8
@@ -16537,10 +16507,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supply)
-"mCd" = (
-/obj/machinery/door/poddoor/shutters/preopen,
-/turf/closed/indestructible/fakeglass,
-/area/centcom/ferry)
 "mEV" = (
 /obj/structure/table/reinforced,
 /obj/item/folder/yellow,
@@ -16567,6 +16533,10 @@
 	luminosity = 2
 	},
 /area/ctf)
+"mIR" = (
+/obj/machinery/door/poddoor/shutters/preopen,
+/turf/closed/indestructible/fakeglass,
+/area/centcom/ferry)
 "mJb" = (
 /obj/structure/holohoop{
 	dir = 1;
@@ -17122,6 +17092,15 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
+"pfW" = (
+/obj/structure/catwalk/over,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/water/beach/deep{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/tdome/tdomeadmin)
 "pkc" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
@@ -17186,6 +17165,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
+"ptN" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/centcom/supplypod)
 "ptS" = (
 /obj/effect/turf_decal/corner/blue{
 	dir = 1
@@ -17415,6 +17398,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
+"qmv" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/centcom/supplypod)
 "qnm" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
@@ -17582,6 +17569,12 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/ferry)
+"qIp" = (
+/obj/structure/catwalk/over,
+/turf/open/water/beach/deep{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/tdome/tdomeadmin)
 "qJe" = (
 /obj/effect/turf_decal/corner/green{
 	dir = 8
@@ -17797,13 +17790,6 @@
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/plasteel,
 /area/centcom/supply)
-"rqT" = (
-/obj/structure/catwalk/over,
-/obj/machinery/light,
-/turf/open/water/beach/deep{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/tdome/tdomeadmin)
 "rrw" = (
 /obj/effect/turf_decal/corner/green{
 	dir = 8
@@ -17970,15 +17956,6 @@
 /obj/effect/turf_decal/corner/green,
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/dodgeball)
-"rZN" = (
-/obj/structure/catwalk/over,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/water/beach/deep{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/tdome/tdomeadmin)
 "sbl" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/grille/indestructable{
@@ -18158,6 +18135,16 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
+"sDC" = (
+/obj/vehicle/ridden/lavaboat/dragon{
+	desc = "A finely-built wooden boat. Why not just use a metal one?";
+	name = "overly fanciful boat";
+	dir = 4
+	},
+/turf/open/water/beach/deep{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/tdome/tdomeadmin)
 "sEY" = (
 /obj/structure/table/reinforced,
 /obj/item/clipboard,
@@ -18229,6 +18216,23 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
+"sSK" = (
+/obj/effect/turf_decal/corner/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/neutral,
+/obj/effect/turf_decal/corner/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/neutral{
+	dir = 8
+	},
+/obj/machinery/door/airlock/centcom{
+	name = "Thunderdome Administration";
+	req_access_txt = "102"
+	},
+/turf/open/floor/plasteel/dark,
+/area/tdome/tdomeadmin)
 "sUw" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -18671,6 +18675,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
+"ulT" = (
+/obj/structure/catwalk/over,
+/obj/machinery/light,
+/turf/open/water/beach/deep{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/tdome/tdomeadmin)
 "unF" = (
 /obj/effect/turf_decal/corner/blue{
 	dir = 1
@@ -18872,12 +18883,6 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/firingrange)
-"vop" = (
-/obj/structure/catwalk/over,
-/turf/open/water/beach/deep{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/tdome/tdomeadmin)
 "vpf" = (
 /obj/structure/closet/secure_closet/security,
 /obj/item/storage/belt/security/full,
@@ -18936,11 +18941,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
-"vBk" = (
-/turf/open/water/beach/deep{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/tdome/tdomeadmin)
 "vCx" = (
 /obj/machinery/computer/security/mining{
 	dir = 8
@@ -19050,6 +19050,10 @@
 	},
 /obj/item/implanter/storage{
 	icon_state = "implanter1"
+	},
+/obj/item/card/id/centcom{
+	registered_name = "Zec Minus";
+	assignment = "Phoon's Pet"
 	},
 /turf/open/floor/mineral/abductor,
 /area/centcom/ferry)
@@ -55278,7 +55282,7 @@ amD
 amD
 apI
 apI
-mCd
+mIR
 amD
 amD
 amD
@@ -55587,13 +55591,13 @@ awW
 aoe
 apc
 apc
-kai
+cUi
 awk
 apc
-kai
+cUi
 awk
 apc
-kai
+cUi
 awk
 awk
 awk
@@ -55844,13 +55848,13 @@ atc
 amD
 amD
 apc
-kai
+cUi
 awk
 apc
-kai
+cUi
 awk
 apc
-kai
+cUi
 awk
 awk
 awk
@@ -56358,13 +56362,13 @@ apg
 aUF
 amD
 apc
-kai
+cUi
 awk
 apc
-kai
+cUi
 awk
 apc
-kai
+cUi
 awk
 awk
 awk
@@ -56563,7 +56567,7 @@ amD
 amD
 apI
 wfT
-mCd
+mIR
 amD
 amD
 amD
@@ -56615,13 +56619,13 @@ apg
 aUQ
 aqR
 apc
-kai
+cUi
 awk
 apc
-kai
+cUi
 awk
 apc
-kai
+cUi
 awk
 awk
 awk
@@ -67437,7 +67441,7 @@ ayh
 aQx
 aQx
 aIv
-gur
+sSK
 aIv
 aaa
 aaa
@@ -68716,11 +68720,11 @@ aNE
 aNE
 aNE
 aYn
-vop
-vop
-vop
-bym
-vop
+qIp
+qIp
+qIp
+fCT
+qIp
 aIv
 aQa
 aIv
@@ -68973,13 +68977,13 @@ aNE
 aNE
 aNE
 aYn
-vop
-vop
-vop
-vop
-vop
-vop
-vop
+qIp
+qIp
+qIp
+qIp
+qIp
+qIp
+qIp
 aIv
 aaa
 aaa
@@ -69230,13 +69234,13 @@ aNE
 aNE
 aNE
 aXK
-vop
-vop
-vop
-vop
-vop
-vop
-vop
+qIp
+qIp
+qIp
+qIp
+qIp
+qIp
+qIp
 aIv
 aaa
 aaa
@@ -69487,13 +69491,13 @@ aNE
 aNE
 aNE
 aXK
-vop
-vop
-vop
-vop
-vop
-vop
-vop
+qIp
+qIp
+qIp
+qIp
+qIp
+qIp
+qIp
 aIv
 aaa
 aaa
@@ -69744,13 +69748,13 @@ aNE
 aNE
 aNE
 aYn
-vop
-grn
-vop
-grn
-vop
-grn
-vop
+qIp
+sDC
+qIp
+sDC
+qIp
+sDC
+qIp
 aIv
 aaa
 aaa
@@ -70001,13 +70005,13 @@ aNE
 aNE
 aNE
 aYn
-rZN
-vBk
-vop
-vBk
-vop
-vBk
-rqT
+pfW
+iow
+qIp
+iow
+qIp
+iow
+ulT
 aIv
 aaa
 aaa
@@ -70258,13 +70262,13 @@ aNE
 aNE
 aNE
 aYn
-vBk
-vBk
-vBk
-vBk
-vBk
-vBk
-vBk
+iow
+iow
+iow
+iow
+iow
+iow
+iow
 aIv
 aaa
 aaa
@@ -70515,13 +70519,13 @@ aNE
 aNE
 aNE
 aYn
-vBk
-vBk
-vBk
-vBk
-vBk
-vBk
-vBk
+iow
+iow
+iow
+iow
+iow
+iow
+iow
 aIv
 aaa
 aaa
@@ -70772,13 +70776,13 @@ aNE
 aNE
 aNE
 aXK
-vBk
-vBk
-vBk
-vBk
-vBk
-vBk
-vBk
+iow
+iow
+iow
+iow
+iow
+iow
+iow
 aIv
 aaa
 aaa
@@ -71029,13 +71033,13 @@ aNE
 aNE
 aNE
 aXK
-vBk
-vBk
-vBk
-vBk
-vBk
-vBk
-vBk
+iow
+iow
+iow
+iow
+iow
+iow
+iow
 aIv
 aaa
 aaa
@@ -71263,7 +71267,7 @@ aqV
 aCd
 aqx
 aMI
-bPF
+ptN
 aYn
 aRv
 aSi
@@ -71286,13 +71290,13 @@ aNE
 aNE
 aNE
 aYn
-vBk
-vBk
-vBk
-vBk
-vBk
-vBk
-vBk
+iow
+iow
+iow
+iow
+iow
+iow
+iow
 aIv
 aaa
 aaa
@@ -71520,7 +71524,7 @@ aqx
 aqy
 aqx
 aOD
-bPF
+ptN
 aYn
 aRv
 aSi
@@ -71543,13 +71547,13 @@ aNE
 aNE
 aNE
 aYn
-atm
-vBk
-vBk
-vBk
-vBk
-vBk
-hUt
+ldw
+iow
+iow
+iow
+iow
+iow
+gGh
 aIv
 aaa
 aaa
@@ -71777,7 +71781,7 @@ aqx
 aqz
 aqx
 asa
-bPF
+ptN
 aYn
 aRv
 aRv
@@ -71800,13 +71804,13 @@ aNE
 aNE
 aNE
 aYn
-vBk
-vBk
-vBk
-vBk
-vBk
-vBk
-vBk
+iow
+iow
+iow
+iow
+iow
+iow
+iow
 aIv
 aaa
 aaa
@@ -72034,7 +72038,7 @@ aqx
 aqy
 aqx
 aTj
-gbV
+qmv
 aYn
 aGa
 aGa
@@ -72057,13 +72061,13 @@ aNE
 aNE
 aNE
 aYn
-vBk
-vBk
-vBk
-vBk
-vBk
-vBk
-vBk
+iow
+iow
+iow
+iow
+iow
+iow
+iow
 aIv
 aaa
 aaa
@@ -72314,13 +72318,13 @@ aXK
 aXK
 aYn
 aYn
-vBk
-vBk
-vBk
-vBk
-vBk
-vBk
-vBk
+iow
+iow
+iow
+iow
+iow
+iow
+iow
 aIv
 aaa
 aaa
