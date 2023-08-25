@@ -251,6 +251,12 @@
 	icon_state = "1-4"
 	},
 /obj/machinery/light,
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer{
+	dir = 1;
+	min_temperature = 1;
+	target_temperature = 1;
+	piping_layer = 2
+	},
 /turf/open/floor/plating,
 /area/ship/bridge)
 
