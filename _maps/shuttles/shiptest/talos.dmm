@@ -1608,6 +1608,9 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
+/obj/machinery/telecomms/hub/preset{
+	network = "irmg_commnet"
+	},
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/ship/engineering/communications)
 "lt" = (
@@ -2101,7 +2104,7 @@
 /area/ship/bridge)
 "oU" = (
 /obj/machinery/atmospherics/pipe/simple{
-	dir = 9
+	dir = 4
 	},
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
@@ -2224,7 +2227,7 @@
 /area/ship/engineering/engine)
 "pX" = (
 /obj/machinery/atmospherics/pipe/simple{
-	dir = 9
+	dir = 4
 	},
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
@@ -6005,7 +6008,7 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple{
-	dir = 9
+	dir = 4
 	},
 /obj/effect/turf_decal/atmos/mix{
 	dir = 8
