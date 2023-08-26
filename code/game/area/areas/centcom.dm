@@ -10,6 +10,11 @@
 	area_flags = VALID_TERRITORY | UNIQUE_AREA | NOTELEPORT
 	flags_1 = NONE
 
+/area/centcom/exterior
+	name = "CentCom Exterior"
+	dynamic_lighting = DYNAMIC_LIGHTING_DISABLED
+	outdoors = TRUE
+
 /area/centcom/control
 	name = "CentCom Docks"
 
