@@ -43,6 +43,15 @@
 /obj/structure/sign/poster/official/moth/supermatter,
 /turf/closed/wall/mineral/plastitanium,
 /area/ship/bridge)
+"m" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
 "p" = (
 /obj/machinery/power/smes/shuttle/precharged{
 	dir = 8
@@ -169,6 +178,10 @@
 /area/ship/bridge)
 "O" = (
 /obj/machinery/autolathe,
+/obj/machinery/power/apc/auto_name/west,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
 /turf/open/floor/plating,
 /area/ship/bridge)
 "P" = (
@@ -243,7 +256,7 @@ i
 A
 X
 X
-X
+m
 S
 J
 z
