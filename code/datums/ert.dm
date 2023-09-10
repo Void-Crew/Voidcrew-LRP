@@ -31,7 +31,7 @@
 	roles = list(/datum/antagonist/ert/deathsquad)
 	leader_role = /datum/antagonist/ert/deathsquad/leader
 	rename_team = "Deathsquad"
-	code = "Delta"
+	code = "Epsilon"
 	mission = "Leave no witnesses."
 	polldesc = "an elite Nanotrasen Strike Team"
 
@@ -80,3 +80,10 @@
 	mission = "Create entertainment for the crew."
 	polldesc = "a Code Rainbow Nanotrasen Emergency Response Party"
 	code = "Rainbow"
+
+/datum/ert/specops
+	leader_role = /datum/antagonist/ert/specops
+	roles = list(/datum/antagonist/ert/specops)
+	code = "Gamma"
+	mission = "Protect Nanotrasen's interests in the Frontier."
+	polldesc = "a Code Gamma Nanotrasen Special Operations regiment"
