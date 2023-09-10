@@ -1,0 +1,20 @@
+{
+    "map_name": "Clam-class water invader",
+    "prefix": "SYN-C",
+    "map_short_name": "Clam-class",
+    "map_path": "_maps/shuttles/shiptest/voidcrew/shell.dmm",
+    "map_id": "shell",
+    "job_slots": {
+        "Syndicate Captain": {
+            "outfit": "/datum/outfit/syndicate_empty/sbc/assault/captain",
+            "officer": true,
+            "slots": 1
+        },
+        "Syndicate Marine":{
+            "outfit": "/datum/outfit/syndicate_empty/sbc/assault",
+            "slots": 2
+        }
+
+    },
+    "cost": 300
+}
