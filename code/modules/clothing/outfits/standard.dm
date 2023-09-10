@@ -8,18 +8,22 @@
 /datum/outfit/centcom/spec_ops
 	name = "Special Ops Officer"
 
-	uniform = /obj/item/clothing/under/syndicate
+	uniform = /obj/item/clothing/under/rank/centcom/commander
 	suit = /obj/item/clothing/suit/space/officer
 	shoes = /obj/item/clothing/shoes/combat/swat
 	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
-	glasses = /obj/item/clothing/glasses/thermal/eyepatch
+	glasses = /obj/item/clothing/glasses/hud/security/sunglasses/eyepatch
 	ears = /obj/item/radio/headset/headset_cent/commander
 	mask = /obj/item/clothing/mask/cigarette/cigar/havana
 	head = /obj/item/clothing/head/helmet/space/beret
-	belt = /obj/item/gun/energy/pulse/pistol/m1911
-	r_pocket = /obj/item/lighter
+	r_pocket = /obj/item/flashlight/seclite
+	l_pocket = /obj/item/melee/transforming/energy/sword/saber/pirate/blue
 	back = /obj/item/storage/backpack/satchel/leather
 	id = /obj/item/card/id/centcom
+	backpack_contents = list(/obj/item/storage/box/survival/engineer=1,\
+		/obj/item/melee/baton/loaded=1,\
+		/obj/item/gun/energy/pulse/pistol/m1911=1,\
+		/obj/item/storage/firstaid/tactical=1)
 
 /datum/outfit/centcom/spec_ops/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	if(visualsOnly)
