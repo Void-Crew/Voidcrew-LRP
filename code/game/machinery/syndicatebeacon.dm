@@ -153,3 +153,24 @@
 /obj/item/sbeacondrop/constructshell
 	desc = "A label on it reads: <i>Warning: Activating this device will send a Nar'sian construct shell to your location</i>."
 	droptype = /obj/structure/constructshell
+
+/obj/item/sbeacondrop/atmospherics
+	name = "atmospherics equipment teleporter"
+	icon_state = "atmos_tele"
+	desc = "A label on it reads: <i>Warning: Activating this device will send generic atmospherics machinery to your location.</i>."
+	droptype = /obj/machinery/atmospherics
+
+/obj/item/sbeacondrop/atmospherics/nitrogen_miner
+	name = "nitrogen gas miner teleporter"
+	desc = "A label on it reads: <i>Warning: Activating this device will send a nitrogen gas miner to your location.</i>."
+	droptype = /obj/machinery/atmospherics/miner/nitrogen
+
+/obj/item/sbeacondrop/atmospherics/oxygen_miner
+	name = "oxygen gas miner teleporter"
+	desc = "A label on it reads: <i>Warning: Activating this device will send an oxygen gas miner to your location.</i>."
+	droptype = /obj/machinery/atmospherics/miner/oxygen
+
+/obj/item/sbeacondrop/atmospherics/plasma_miner
+	name = "plasma gas miner teleporter"
+	desc = "A label on it reads: <i>Warning: Activating this device will send a plasma gas miner to your location.</i>."
+	droptype = /obj/machinery/atmospherics/miner/toxins //holy fucking shit dont grief with this you assholes

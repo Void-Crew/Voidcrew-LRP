@@ -1,0 +1,38 @@
+{	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
+	"prefix": "SYN-C",
+	"namelists": ["GENERAL", "NATURAL_AGGRESSIVE", "BEASTS", "WEAPONS"],
+	"map_name": "Syndicate Vessel Assembly Pod",
+	"map_short_name": "Vessel Assembly Pod",
+	"map_path": "_maps/shuttles/shiptest/voidcrew/syndicate_custom.dmm",
+	"map_id": "syndicate_custom",
+	"roundstart": false,
+	"job_slots": {
+		"Captain": {
+			"outfit": "/datum/outfit/job/captain/syndicate/gorlex",
+			"officer": true,
+			"slots": 1
+		},
+		"Lead Engineer": {
+			"outfit": "/datum/outfit/job/ce/syndicate/gorlex",
+			"officer": true,
+			"slots": 1
+		},
+		"Mechanic": {
+			"outfit": "/datum/outfit/job/engineer/syndicate/gorlex",
+			"slots": 2
+		},
+		"Salvager": {
+			"outfit": "/datum/outfit/job/miner/syndicate",
+			"slots": 2
+		},
+		"Junior Agent": {
+			"outfit": "/datum/outfit/job/assistant/syndicate/gorlex",
+			"slots": 2
+		},
+		"Operative":{
+			"outfit": "/datum/outfit/syndicate_empty/sbc/assault",
+			"slots": 2
+		}
+	},
+	"cost": 750
+}

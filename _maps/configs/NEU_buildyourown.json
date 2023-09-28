@@ -1,0 +1,26 @@
+{
+	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
+	"namelists": ["GENERAL", "NATURAL", "BEASTS", "ENGINEERING"],
+	"map_name": "BYO-class Build Your Own Shuttle",
+	"prefix": "NEU",
+	"map_short_name": "BYO-class",
+	"map_path": "_maps/shuttles/shiptest/voidcrew/neu_custom.dmm",
+	"map_id": "neu_custom",
+	"roundstart": false,
+	"job_slots": {
+		"Captain": {
+			"outfit": "/datum/outfit/job/ce",
+			"officer": true,
+			"slots": 1
+		},
+		"Ship Engineer": {
+			"outfit": "/datum/outfit/job/engineer",
+			"slots": 3
+		},
+		"Atmospheric Technician": {
+			"outfit": "/datum/outfit/job/atmos",
+			"slots": 2
+		}
+	},
+	"cost": 750
+}
