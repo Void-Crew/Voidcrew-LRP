@@ -1,0 +1,286 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced,
+/obj/machinery/power/smes/shuttle/precharged{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"e" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden,
+/obj/machinery/power/terminal,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/machinery/airalarm/all_access{
+	dir = 4;
+	pixel_x = -25;
+	pixel_y = -32
+	},
+/obj/machinery/computer/helm{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"i" = (
+/obj/structure/window/plasma/reinforced,
+/obj/structure/window/plasma/reinforced{
+	dir = 1
+	},
+/obj/structure/window/plasma/reinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
+/turf/open/floor/engine,
+/area/ship/bridge)
+"o" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 5
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 6
+	},
+/obj/machinery/power/rad_collector/anchored,
+/obj/item/tank/internals/plasma/full,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/turf/open/floor/plating,
+/area/ship/bridge)
+"q" = (
+/obj/structure/window/plasma/reinforced,
+/obj/structure/window/plasma/reinforced{
+	dir = 1
+	},
+/obj/structure/window/plasma/reinforced{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
+/turf/open/floor/engine,
+/area/ship/bridge)
+"v" = (
+/obj/machinery/atmospherics/components/unary/passive_vent{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/external)
+"w" = (
+/turf/closed/wall,
+/area/ship/bridge)
+"A" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden,
+/obj/machinery/power/smes/shuttle/precharged{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"B" = (
+/obj/structure/window/plasma/reinforced,
+/obj/structure/window/plasma/reinforced{
+	dir = 1
+	},
+/obj/machinery/power/supermatter_crystal/shard,
+/obj/machinery/atmospherics/components/unary/vent_pump/high_volume/on,
+/obj/docking_port/mobile{
+	can_move_docking_ports = 1;
+	launch_status = 0;
+	dir = 2
+	},
+/turf/open/floor/engine,
+/area/ship/bridge)
+"D" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ship/bridge)
+"E" = (
+/obj/machinery/door/window/southleft{
+	dir = 8
+	},
+/obj/structure/fans/tiny,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/orange/hidden{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"F" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden,
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/stack/sheet/metal/ten,
+/obj/item/stack/sheet/glass{
+	amount = 10
+	},
+/obj/structure/rack,
+/obj/item/areaeditor/shuttle,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/clothing/head/radiation,
+/obj/item/clothing/head/radiation,
+/obj/item/clothing/head/radiation,
+/obj/item/clothing/suit/radiation,
+/obj/item/clothing/suit/radiation,
+/obj/item/clothing/suit/radiation,
+/obj/item/clothing/glasses/meson,
+/obj/item/clothing/glasses/meson,
+/obj/item/clothing/glasses/meson,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"I" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 9
+	},
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ship/bridge)
+"L" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/n2{
+	dir = 8
+	},
+/obj/machinery/power/emitter/welded{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"M" = (
+/obj/machinery/atmospherics/pipe/layer_manifold,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/components/unary/portables_connector{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"N" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 5
+	},
+/obj/machinery/power/terminal,
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/machinery/autolathe,
+/turf/open/floor/plating,
+/area/ship/bridge)
+"T" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 10
+	},
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"X" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 9
+	},
+/obj/machinery/power/apc/auto_name/south{
+	pixel_y = -25;
+	pixel_x = null
+	},
+/obj/machinery/cryopod,
+/obj/machinery/computer/cryopod{
+	pixel_y = -32
+	},
+/obj/structure/cable/yellow,
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/machinery/light,
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer{
+	dir = 1;
+	min_temperature = 1;
+	target_temperature = 1;
+	piping_layer = 2
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+
+(1,1,1) = {"
+q
+o
+E
+N
+a
+D
+"}
+(2,1,1) = {"
+B
+L
+M
+X
+w
+v
+"}
+(3,1,1) = {"
+i
+T
+F
+e
+A
+I
+"}
