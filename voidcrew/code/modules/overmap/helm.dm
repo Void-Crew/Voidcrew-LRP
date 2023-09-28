@@ -103,7 +103,7 @@
 		return TRUE
 
 /obj/machinery/computer/helm/ui_interact(mob/user, datum/tgui/ui)
-	if(current_ship.is_player_in_crew(user) || isAdminGhostAI(user))
+	if(current_ship.is_player_in_crew(user) || isAdminGhostAI(user) || current_ship.unlocked_helm)
 		if(jump_state != JUMP_STATE_OFF)
 			say("Bluespace Jump in progress. Controls suspended.")
 			return
