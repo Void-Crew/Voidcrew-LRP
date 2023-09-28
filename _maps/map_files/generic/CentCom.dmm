@@ -5529,6 +5529,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/ferry)
+"aDM" = (
+/obj/structure/chair/wood/wings{
+	dir = 4
+	},
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "aDO" = (
 /obj/structure/table/wood,
 /obj/item/dice/d20,
@@ -13454,6 +13460,12 @@
 /obj/effect/turf_decal/corner/green,
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/firingrange)
+"beJ" = (
+/obj/structure/chair/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "brS" = (
 /obj/structure/mineral_door/wood{
 	name = "King Doogan's Bar"
@@ -13476,6 +13488,11 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel,
 /area/centcom/supply)
+"bub" = (
+/obj/machinery/light,
+/obj/structure/table/wood/fancy/purple,
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "bus" = (
 /obj/effect/turf_decal/corner/neutral{
 	dir = 1
@@ -14396,19 +14413,19 @@
 	},
 /obj/item/defibrillator/compact/combat/loaded,
 /obj/item/reagent_containers/hypospray/combat{
-	list_reagents = list(/datum/reagent/medicine/epinephrine = 30, /datum/reagent/medicine/omnizine = 30, /datum/reagent/medicine/leporazine = 15, /datum/reagent/medicine/atropine = 15)
+	list_reagents = list(/datum/reagent/medicine/epinephrine=30,/datum/reagent/medicine/omnizine=30,/datum/reagent/medicine/leporazine=15,/datum/reagent/medicine/atropine=15)
 	},
 /obj/item/reagent_containers/pill/patch/styptic{
-	list_reagents = list(/datum/reagent/medicine/styptic_powder = 20)
+	list_reagents = list(/datum/reagent/medicine/styptic_powder=20)
 	},
 /obj/item/reagent_containers/pill/patch/styptic{
-	list_reagents = list(/datum/reagent/medicine/styptic_powder = 20)
+	list_reagents = list(/datum/reagent/medicine/styptic_powder=20)
 	},
 /obj/item/reagent_containers/pill/patch/silver_sulf{
-	list_reagents = list(/datum/reagent/medicine/silver_sulfadiazine = 20)
+	list_reagents = list(/datum/reagent/medicine/silver_sulfadiazine=20)
 	},
 /obj/item/reagent_containers/pill/patch/silver_sulf{
-	list_reagents = list(/datum/reagent/medicine/silver_sulfadiazine = 20)
+	list_reagents = list(/datum/reagent/medicine/silver_sulfadiazine=20)
 	},
 /obj/item/clothing/glasses/hud/health/night,
 /obj/item/scalpel/alien,
@@ -14626,6 +14643,13 @@
 /obj/machinery/computer,
 /turf/open/floor/plasteel,
 /area/centcom/ferry)
+"fyQ" = (
+/mob/living/simple_animal/crab/kreb{
+	desc = "This crab used to be a powergaming shitburger, he is now a crab.";
+	name = "Mr Korol"
+	},
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "fyS" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/handcuffs,
@@ -14719,6 +14743,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/syndicate_mothership/control)
+"fPJ" = (
+/obj/structure/chair/sofa/left{
+	name = "sofa";
+	dir = 8
+	},
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "fSX" = (
 /obj/structure/window,
 /obj/item/toy/beach_ball/holoball/dodgeball,
@@ -15747,6 +15778,77 @@
 /obj/item/clothing/head/centhat,
 /turf/open/floor/wood,
 /area/centcom/ferry)
+"jJA" = (
+/obj/structure/table/wood/fancy/purple,
+/obj/item/reagent_containers/food/snacks/no_raisin/healthy{
+	desc = "Magical raisins, the best in all of spess.";
+	name = "magic raisins";
+	pixel_y = 10;
+	pixel_x = 5
+	},
+/obj/item/reagent_containers/food/snacks/no_raisin/healthy{
+	desc = "Magical raisins, the best in all of spess.";
+	name = "magic raisins";
+	pixel_x = 10
+	},
+/obj/item/reagent_containers/food/snacks/no_raisin/healthy{
+	desc = "Magical raisins, the best in all of spess.";
+	name = "magic raisins";
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/food/snacks/no_raisin/healthy{
+	desc = "Magical raisins, the best in all of spess.";
+	name = "magic raisins";
+	pixel_x = 10
+	},
+/obj/item/reagent_containers/food/snacks/no_raisin/healthy{
+	desc = "Magical raisins, the best in all of spess.";
+	name = "magic raisins";
+	pixel_x = 5
+	},
+/obj/item/reagent_containers/food/snacks/no_raisin/healthy{
+	desc = "Magical raisins, the best in all of spess.";
+	name = "magic raisins";
+	pixel_x = -5
+	},
+/obj/item/reagent_containers/food/snacks/no_raisin/healthy{
+	desc = "Magical raisins, the best in all of spess.";
+	name = "magic raisins";
+	pixel_y = 10;
+	pixel_x = 5
+	},
+/obj/item/reagent_containers/food/snacks/no_raisin/healthy{
+	desc = "Magical raisins, the best in all of spess.";
+	name = "magic raisins";
+	pixel_x = 5
+	},
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
+"jLI" = (
+/obj/structure/showcase{
+	desc = "The frozen body of a legendary wizard who once terrorized /tg/ using various nefarious spells and schemes.  He pioneered the effective use of the Rod Form spell.  May he rest forever, Rodney.";
+	icon = 'icons/mob/mob.dmi';
+	icon_state = "nim";
+	name = "Rodney XIII"
+	},
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
+"jNv" = (
+/obj/item/storage/cans/sixbeer,
+/obj/item/reagent_containers/food/drinks/beer,
+/obj/item/reagent_containers/food/drinks/beer,
+/obj/item/reagent_containers/food/drinks/beer,
+/obj/item/reagent_containers/food/drinks/beer,
+/obj/item/reagent_containers/food/drinks/beer,
+/obj/item/reagent_containers/food/drinks/beer,
+/obj/structure/fluff/beach_umbrella{
+	layer = 4.1
+	},
+/obj/item/reagent_containers/food/drinks/bottle/lizardwine,
+/obj/item/reagent_containers/food/drinks/bottle/lizardwine,
+/obj/item/pizzabox/meat,
+/turf/open/floor/plating/beach/sand,
+/area/centcom/exterior)
 "jOe" = (
 /obj/effect/turf_decal/corner/red,
 /turf/open/floor/plasteel/dark,
@@ -15813,6 +15915,14 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
+"jXU" = (
+/obj/machinery/door/poddoor/shutters/indestructible/preopen{
+	id = 69421
+	},
+/turf/closed/indestructible/fakeglass{
+	color = "#008000"
+	},
+/area/centcom/ferry)
 "keF" = (
 /obj/structure/table/wood,
 /obj/item/storage/box/donkpockets,
@@ -15875,6 +15985,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
+"kph" = (
+/obj/structure/chair/sofa/corner{
+	name = "sofa"
+	},
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "kvz" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/donut_box,
@@ -16451,6 +16567,16 @@
 	},
 /turf/open/floor/circuit,
 /area/ctf)
+"mli" = (
+/obj/structure/displaycase/noalert,
+/obj/item/gun/magic/wand/death/debug,
+/obj/machinery/button{
+	pixel_x = -24;
+	pixel_y = -8;
+	id = 69421
+	},
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "mnr" = (
 /obj/effect/turf_decal/corner/red{
 	dir = 1
@@ -16609,6 +16735,9 @@
 "nai" = (
 /turf/open/floor/carpet/green,
 /area/centcom/ferry)
+"nbT" = (
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "ncR" = (
 /obj/machinery/door/poddoor{
 	id = "XCCQMLoaddoor2";
@@ -16679,6 +16808,17 @@
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/plasteel,
 /area/centcom/control)
+"npZ" = (
+/obj/structure/table/wood/fancy/purple,
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
+"nqp" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/computer/arcade/amputation,
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "nsz" = (
 /obj/item/paper/fluff/stations/centcom/disk_memo,
 /obj/structure/noticeboard{
@@ -16751,6 +16891,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
+"nNd" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Donk's Office";
+	req_access_txt = "109"
+	},
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "nNo" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/glass/rag{
@@ -16909,6 +17056,12 @@
 /obj/structure/window/plasma/reinforced/spawner,
 /turf/open/floor/engine/plasma,
 /area/centcom/ferry)
+"oFl" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "oGl" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/centcom{
@@ -16957,6 +17110,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ctf)
+"oNP" = (
+/obj/machinery/jukebox,
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "oQu" = (
 /obj/structure/bookcase/random,
 /obj/structure/noticeboard{
@@ -17165,6 +17322,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
+"ptC" = (
+/obj/machinery/light,
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "ptN" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
@@ -17349,6 +17510,27 @@
 	},
 /turf/open/floor/circuit,
 /area/ctf)
+"qgP" = (
+/obj/structure/table/wood/fancy/purple,
+/obj/item/reagent_containers/food/snacks/donkpocket/warm/gondola{
+	pixel_x = 2
+	},
+/obj/item/reagent_containers/food/snacks/donkpocket/warm/gondola{
+	pixel_x = -2
+	},
+/obj/item/reagent_containers/food/snacks/donkpocket/warm/gondola{
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/food/snacks/donkpocket/warm/gondola{
+	pixel_x = -2;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/food/snacks/donkpocket/warm/gondola{
+	pixel_x = 5;
+	pixel_y = 7
+	},
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "qha" = (
 /obj/structure/table,
 /obj/item/paper_bin{
@@ -17834,6 +18016,10 @@
 /obj/effect/turf_decal/corner/green,
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/firingrange)
+"rzI" = (
+/obj/machinery/door/airlock/wood/glass,
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "rAl" = (
 /obj/structure/table/wood/reinforced,
 /obj/machinery/button/door{
@@ -17942,6 +18128,16 @@
 	},
 /turf/open/floor/plating/grass/lit,
 /area/centcom/exterior)
+"rUu" = (
+/obj/structure/table/wood/fancy/purple,
+/obj/item/pen/fountain{
+	layer = 5
+	},
+/obj/item/paper_bin{
+	layer = 4
+	},
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "rUZ" = (
 /obj/effect/turf_decal/corner/brown,
 /obj/effect/turf_decal/corner/brown{
@@ -18354,6 +18550,10 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/tech/grid,
 /area/centcom/ferry)
+"tiQ" = (
+/obj/structure/chair/sofa/right,
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "tjO" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 6
@@ -18661,6 +18861,61 @@
 	},
 /turf/open/floor/plasteel,
 /area/syndicate_mothership/control)
+"ukJ" = (
+/obj/structure/closet/cabinet,
+/obj/item/clothing/suit/space/hardsuit/wizard{
+	armor = list("melee"=100,"bullet"=100,"laser"=100,"energy"=100,"bomb"=100,"bio"=100,"rad"=100,"fire"=100,"acid"=100);
+	color = "#008000";
+	jetpack = /obj/item/tank/jetpack/suit;
+	ricochet_chance_mod = 100;
+	ricochet_damage_mod = 2;
+	slowdown = 0;
+	strip_delay = 0;
+	name = "Donk's gem-encrusted hardsuit";
+	layer = 4
+	},
+/obj/item/clothing/gloves/combat/wizard{
+	color = "#008000";
+	armor = list("melee"=100,"bullet"=100,"laser"=100,"energy"=100,"bomb"=100,"bio"=100,"rad"=100,"fire"=100,"acid"=100);
+	layer = 4
+	},
+/obj/item/storage/backpack/holding{
+	icon_state = "ert_janitor";
+	pixel_x = -5;
+	pixel_y = 5;
+	layer = 4;
+	color = "#008000"
+	},
+/obj/item/tank/internals/oxygen{
+	layer = 4
+	},
+/obj/item/clothing/glasses/hud/security/night{
+	icon_state = "trickblindfold";
+	name = "enchanted blindfold";
+	desc = "An enchantment provides an advanced heads-up display that provides ID data and vision in complete darkness.";
+	layer = 4
+	},
+/obj/item/clothing/under/misc/adminsuit{
+	icon_state = "lightpurple";
+	icon = 'icons/obj/clothing/under/color.dmi';
+	name = "Donk's Jumpsuit";
+	layer = 4
+	},
+/obj/item/clothing/mask/breath{
+	layer = 4
+	},
+/obj/item/spellbook,
+/obj/item/spellbook,
+/obj/item/spellbook,
+/obj/item/spellbook,
+/obj/item/spellbook,
+/obj/item/dnainjector/telemut,
+/obj/item/clothing/suit/straight_jacket,
+/obj/item/clothing/suit/straight_jacket,
+/obj/item/restraints/legcuffs/bola/tactical,
+/obj/item/restraints/legcuffs/bola/tactical,
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "ukR" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table/reinforced,
@@ -18854,6 +19109,15 @@
 	},
 /turf/open/floor/circuit,
 /area/ctf)
+"vgM" = (
+/obj/structure/chair/plastic{
+	dir = 8
+	},
+/obj/structure/fluff/beach_umbrella{
+	layer = 4.1
+	},
+/turf/open/floor/plating/beach/sand,
+/area/centcom/exterior)
 "vjg" = (
 /obj/effect/turf_decal/industrial/warning/corner{
 	dir = 1
@@ -19546,6 +19810,12 @@
 /obj/machinery/light,
 /turf/open/floor/wood,
 /area/centcom/ferry)
+"xIW" = (
+/obj/structure/chair/sofa{
+	name = "sofa"
+	},
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "xLl" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced{
@@ -19614,6 +19884,32 @@
 /obj/item/storage/box/donkpockets/donkpocketgondola,
 /obj/structure/table/wood/reinforced,
 /turf/open/floor/wood,
+/area/centcom/ferry)
+"xQQ" = (
+/obj/machinery/power/emitter/welded{
+	dir = 1;
+	pixel_x = 5;
+	name = "Cool Statue";
+	desc = "A perfectly normal and safe statue of nothing in particular. No reason to be worried at all.";
+	fire_delay = 1;
+	anchored = 1
+	},
+/obj/machinery/power/emitter/welded{
+	dir = 1;
+	pixel_x = -5;
+	name = "Cool Statue";
+	desc = "A perfectly normal and safe statue of nothing in particular. No reason to be worried at all.";
+	anchored = 1;
+	fire_delay = 1
+	},
+/obj/machinery/power/emitter/welded{
+	dir = 1;
+	name = "Cool Statue";
+	desc = "A perfectly normal and safe statue of nothing in particular. No reason to be worried at all.";
+	anchored = 1;
+	fire_delay = 1
+	},
+/turf/open/floor/wood/yew,
 /area/centcom/ferry)
 "xSI" = (
 /obj/effect/turf_decal/industrial/warning/cee,
@@ -52972,8 +53268,8 @@ wQe
 wQe
 fzh
 fzh
-fzh
-fzh
+jNv
+vgM
 fzh
 fzh
 fzh
@@ -53999,12 +54295,12 @@ wQe
 wQe
 wQe
 wQe
-wQe
-wQe
-wQe
-wQe
-wQe
-wQe
+amD
+amD
+jXU
+rzI
+jXU
+jXU
 amD
 amD
 eXg
@@ -54256,12 +54552,12 @@ wQe
 wQe
 wQe
 wQe
-wQe
-wQe
-wQe
-wQe
-wQe
-wQe
+amD
+mli
+nbT
+nbT
+nbT
+nbT
 amD
 loH
 aoB
@@ -54513,12 +54809,12 @@ wQe
 wQe
 wQe
 wQe
-wQe
-wQe
-wQe
-wQe
-wQe
-wQe
+jXU
+nbT
+nbT
+aDM
+npZ
+ukJ
 amD
 cGY
 vwb
@@ -54770,12 +55066,12 @@ wQe
 wQe
 wQe
 wQe
-wQe
-wQe
-wQe
-wQe
-wQe
-wQe
+amD
+oFl
+qgP
+npZ
+rUu
+bub
 amD
 aoB
 vwb
@@ -55027,12 +55323,12 @@ wQe
 wQe
 wQe
 wQe
-wQe
-wQe
-wQe
-wQe
-wQe
-wQe
+amD
+nbT
+nbT
+beJ
+nbT
+xQQ
 amD
 aoB
 eGD
@@ -55285,11 +55581,11 @@ apI
 mIR
 amD
 amD
-amD
-amD
-amD
-amD
-amD
+tiQ
+nbT
+fyQ
+nbT
+jJA
 amD
 aoB
 aoB
@@ -55542,11 +55838,11 @@ apL
 hnk
 hcj
 amD
-aoB
-aoB
-aoB
-aoB
-aoB
+xIW
+nbT
+vwb
+nbT
+jJA
 amD
 qFO
 aMc
@@ -55799,11 +56095,11 @@ apL
 hnk
 vPF
 amD
-ufv
-aoB
-aoB
-aoB
-aoB
+kph
+fPJ
+nbT
+nbT
+jJA
 amD
 giz
 aMc
@@ -56056,11 +56352,11 @@ apL
 hnk
 eLg
 amD
-aoB
-aoB
-aoB
-aoB
-xIF
+nqp
+nbT
+vwb
+nbT
+ptC
 amD
 mTW
 aMc
@@ -56313,11 +56609,11 @@ apL
 hnk
 usq
 amD
-aoB
-aoB
-aoB
-aoB
-aoB
+oNP
+nbT
+nbT
+nbT
+jLI
 amD
 aoB
 aoB
@@ -56572,7 +56868,7 @@ amD
 amD
 amD
 amD
-aoY
+nNd
 amD
 amD
 amD
