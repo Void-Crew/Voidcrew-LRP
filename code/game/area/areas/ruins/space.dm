@@ -401,3 +401,61 @@
 /area/ruin/space/has_grav/radship/Hallway
 	name = "Hallway"
 	icon_state = "away"
+
+
+/area/ruin/space/has_grav/event_battleship
+	name = "NT-C Vanguard"
+
+/area/ruin/space/has_grav/event_battleship/bridge
+	name = "NT-C Vanguard Bridge"
+
+/area/ruin/space/has_grav/event_battleship/hallway
+	name = "NT-C Vanguard Central Hallway"
+
+/area/ruin/space/has_grav/event_battleship/gunbay
+	name = "NT-C Vanguard Gunnery"
+
+/area/ruin/space/has_grav/event_battleship/engine
+	name = "NT-C Vanguard Engineering"
+
+/area/ruin/space/has_grav/event_battleship/hangar
+	name = "NT-C Vanguard Hangar"
+
+/area/ruin/space/has_grav/event_battleship/ammo
+	name = "NT-C Vanguard Ammunition Racks"
+
+/area/ruin/space/has_grav/event_battleship/deathsquad
+	name = "NT-C Vanguard Special Operations Prep Room"
+
+/area/ruin/space/has_grav/event_battleship/dorms
+	name = "NT-C Vanguard Crew Quarters"
+
+/area/ruin/space/has_grav/event_battleship/atmos
+	name = "NT-C Vanguard Atmospherics"
+
+/area/ruin/space/has_grav/event_battleship/medical
+	name = "NT-C Vanguard Medical"
+
+/area/ruin/space/has_grav/event_battleship/security
+	name = "NT-C Vanguard Security"
+
+/area/ruin/space/has_grav/event_battleship/hangar_control
+	name = "NT-C Vanguard Hangar Control"
+
+/area/ruin/space/has_grav/event_battleship/ert
+	name = "Nanotrasen Response Vessel"
+
+/area/ruin/space/has_grav/event_battleship/crashed_syndies
+	name = "SYN-C Cuban Pete"
+
+/area/ruin/space/has_grav/event_battleship/fighter1
+	name = "Nanotrasen Escort Fighter Alpha"
+
+/area/ruin/space/has_grav/event_battleship/fighter2
+	name = "Nanotrasen Escort Fighter Beta"
+
+/area/ruin/space/has_grav/event_battleship/fighter3
+	name = "Nanotrasen Escort Fighter Charlie"
+
+/area/ruin/space/has_grav/event_battleship/fighter4
+	name = "Nanotrasen Escort Dropship"
