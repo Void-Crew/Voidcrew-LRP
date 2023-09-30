@@ -263,3 +263,44 @@
 
 /obj/structure/fluff/hedge/opaque //useful for mazes and such
 	opacity = TRUE
+
+/obj/structure/fluff/event_battleship
+	name = "generic naval equipment"
+	desc = "sir what the fuck are you doing here"
+	density = TRUE
+	icon = 'icons/misc/deck_gun.dmi'
+
+/obj/structure/fluff/event_battleship/cannon
+	name = "flak cannon"
+	desc = "A Nanotrasen-made flak cannon used to repel enemy vessels. This model has fallen out of use, and appears nonfunctional."
+	icon_state = "e"
+	icon = 'icons/misc/deck_gun.dmi'
+
+/obj/structure/fluff/event_battleship/cannon/bigboy
+	name = "heavy cannon"
+	desc = "An old deck turret used to cripple enemy ships from a long range. This model has fallen out of use, and appears nonfunctional."
+	icon_state = "deck_turret_dual"
+	icon = 'icons/misc/deck_turret.dmi'
+	pixel_x = -32
+	pixel_y = -44
+
+/obj/structure/fluff/event_battleship/oldplasmashell
+	anchored = FALSE
+	name = "old shell"
+	desc = "An old plasma-based hull-penetrating shell designed to start plasma fires. It appears to have leaked out all its contents, thankfully."
+	icon_state = "spicypowder"
+	icon = 'icons/misc/deck_gun.dmi'
+
+/obj/structure/fluff/event_battleship/oldshell
+	anchored = FALSE
+	name = "old shell"
+	desc = "An old artillery shell formerly used by most Nanotrasen heavy deck gunnery."
+	icon_state = "oldshell"
+	icon = 'icons/misc/deck_gun.dmi'
+
+/obj/structure/fluff/event_battleship/spentshell
+	anchored = FALSE
+	name = "spent shell"
+	desc = "A spent artillery shell."
+	icon_state = "spentshell"
+	icon = 'icons/misc/deck_gun.dmi'
