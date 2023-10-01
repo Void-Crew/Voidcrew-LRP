@@ -1,14 +1,20 @@
 /obj/item/clothing/suit/armor/vest/lieutenant
 	name = "lieutenant's armor"
-	desc = "An armored vest with the lieutenant's insignia imprinted on it."
-	icon_state = "blueshield"
-	item_state = "blueshield"
+	desc = "An armored vest with the Lieutenant's insignia imprinted on it."
+	icon_state = "armor_alt_lieutenant"
+	item_state = "armor"
 
 /obj/item/clothing/suit/armor/vest/hop
-	name = "head of personnel's parade jacket"
+	name = "head of personnel's coat"
 	desc = "For when an armoured vest isn't fashionable enough."
-	icon_state = "hopformal"
-	item_state = "capspacesuit"
+	icon_state = "hopcoat"
+	item_state = "w_suit"
+
+/obj/item/clothing/suit/armor/vest/hop/nt
+	name = "head of personnel's coat"
+	desc = "For when an armoured vest isn't fashionable enough."
+	icon_state = "hopcoat_nt"
+	item_state = "b_suit"
 
 /obj/item/clothing/suit/armor/vest/syndie
 	name = "\improper Syndicate plate carrier"

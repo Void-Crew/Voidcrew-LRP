@@ -30,6 +30,42 @@
 	flags_inv = HIDEJUMPSUIT
 	allowed = list(/obj/item/disk, /obj/item/stamp, /obj/item/reagent_containers/food/drinks/flask, /obj/item/melee, /obj/item/storage/lockbox/medal, /obj/item/assembly/flash/handheld, /obj/item/storage/box/matches, /obj/item/lighter, /obj/item/clothing/mask/cigarette, /obj/item/storage/fancy/cigarettes, /obj/item/tank/internals/emergency_oxygen, /obj/item/tank/internals/plasmaman)
 
+/obj/item/clothing/suit/capcoat/nt
+	name = "captain's coat"
+	desc = "A snug blue formal coat, usually if you want to look good instead of protection."
+	icon_state = "capcoat"
+	item_state = "b_suit"
+	body_parts_covered = CHEST|GROIN|ARMS
+
+/obj/item/clothing/suit/capcoat
+	name = "captain's coat"
+	desc = "A snug white coat, usually if you want to look good instead of protection."
+	icon_state = "comcoat"
+	item_state = "capspacesuit"
+	body_parts_covered = CHEST|GROIN|ARMS
+
+/obj/item/clothing/suit/cap_formal
+	name = "captain's parade jacket"
+	desc = "For when an armoured vest isn't fashionable enough."
+	icon_state = "comformal"
+	item_state = "w_suit"
+	body_parts_covered = CHEST|GROIN|ARMS
+
+/obj/item/clothing/suit/cap_formal/nt
+	name = "captain's parade jacket"
+	desc = "For when an armoured vest isn't fashionable enough."
+	icon_state = "capformal"
+	item_state = "capspacesuit"
+	body_parts_covered = CHEST|GROIN|ARMS
+
+/obj/item/clothing/suit/centcom_formal
+	name = "CentCom formal jacket"
+	desc = "A luxurious green jacket with designs made of gold demonstrating that this individual is of high authority."
+	icon_state = "centcom_formal"
+	item_state = "centcom"
+	body_parts_covered = CHEST|GROIN|ARMS
+	armor = list("melee" = 80, "bullet" = 80, "laser" = 50, "energy" = 50, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 90, "acid" = 90)
+
 //Chef
 /obj/item/clothing/suit/toggle/chef
 	name = "chef's apron"

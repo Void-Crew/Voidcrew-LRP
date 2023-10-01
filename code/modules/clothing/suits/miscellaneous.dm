@@ -573,6 +573,81 @@
 	icon_state = "winterhood_captain"
 	armor = list("melee" = 30, "bullet" = 30, "laser" = 35, "energy" = 40, "bomb" = 25, "bio" = 25, "rad" = 10, "fire" = 15, "acid" = 50)
 
+/obj/item/clothing/suit/hooded/wintercoat/command
+	name = "captain's winter coat"
+	icon_state = "coatcommand"
+	item_state = "coatcommand"
+	armor = list("melee" = 30, "bullet" = 30, "laser" = 35, "energy" = 40, "bomb" = 25, "bio" = 25, "rad" = 10, "fire" = 15, "acid" = 50)
+	hoodtype = /obj/item/clothing/head/hooded/winterhood/command
+
+/obj/item/clothing/suit/hooded/wintercoat/command/Initialize()
+	. = ..()
+	allowed = GLOB.security_wintercoat_allowed
+
+/obj/item/clothing/head/hooded/winterhood/command
+	icon_state = "winterhood_command"
+	armor = list("melee" = 30, "bullet" = 30, "laser" = 35, "energy" = 40, "bomb" = 25, "bio" = 25, "rad" = 10, "fire" = 15, "acid" = 50)
+
+/obj/item/clothing/suit/hooded/wintercoat/hop
+	name = "head of personnel's winter coat"
+	icon_state = "coathop"
+	item_state = "coathop"
+	armor = list("melee" = 30, "bullet" = 30, "laser" = 35, "energy" = 40, "bomb" = 25, "bio" = 25, "rad" = 10, "fire" = 15, "acid" = 50)
+	hoodtype = /obj/item/clothing/head/hooded/winterhood/hop
+
+/obj/item/clothing/suit/hooded/wintercoat/hop/Initialize()
+	. = ..()
+	allowed = GLOB.security_wintercoat_allowed
+
+/obj/item/clothing/head/hooded/winterhood/hop
+	icon_state = "winterhood_hop"
+	armor = list("melee" = 30, "bullet" = 30, "laser" = 35, "energy" = 40, "bomb" = 25, "bio" = 25, "rad" = 10, "fire" = 15, "acid" = 50)
+
+/obj/item/clothing/suit/hooded/wintercoat/comhop
+	name = "head of personnel's winter coat"
+	icon_state = "coatcomhop"
+	item_state = "coatcomhop"
+	armor = list("melee" = 30, "bullet" = 30, "laser" = 35, "energy" = 40, "bomb" = 25, "bio" = 25, "rad" = 10, "fire" = 15, "acid" = 50)
+	hoodtype = /obj/item/clothing/head/hooded/winterhood/comhop
+
+/obj/item/clothing/suit/hooded/wintercoat/comhop/Initialize()
+	. = ..()
+	allowed = GLOB.security_wintercoat_allowed
+
+/obj/item/clothing/head/hooded/winterhood/comhop
+	icon_state = "winterhood_com"
+	armor = list("melee" = 30, "bullet" = 30, "laser" = 35, "energy" = 40, "bomb" = 25, "bio" = 25, "rad" = 10, "fire" = 15, "acid" = 50)
+
+/obj/item/clothing/suit/hooded/wintercoat/lt
+	name = "lieutenant's winter coat"
+	icon_state = "coatlt"
+	item_state = "coatlt"
+	armor = list("melee" = 30, "bullet" = 30, "laser" = 35, "energy" = 40, "bomb" = 25, "bio" = 25, "rad" = 10, "fire" = 15, "acid" = 50)
+	hoodtype = /obj/item/clothing/head/hooded/winterhood/hop
+
+/obj/item/clothing/suit/hooded/wintercoat/lt/Initialize()
+	. = ..()
+	allowed = GLOB.security_wintercoat_allowed
+
+/obj/item/clothing/head/hooded/winterhood/lt
+	icon_state = "winterhood_hop"
+	armor = list("melee" = 30, "bullet" = 30, "laser" = 35, "energy" = 40, "bomb" = 25, "bio" = 25, "rad" = 10, "fire" = 15, "acid" = 50)
+
+/obj/item/clothing/suit/hooded/wintercoat/comlt
+	name = "lieutenant's winter coat"
+	icon_state = "coatcomlt"
+	item_state = "coatcomlt"
+	armor = list("melee" = 30, "bullet" = 30, "laser" = 35, "energy" = 40, "bomb" = 25, "bio" = 25, "rad" = 10, "fire" = 15, "acid" = 50)
+	hoodtype = /obj/item/clothing/head/hooded/winterhood/comlt
+
+/obj/item/clothing/suit/hooded/wintercoat/comlt/Initialize()
+	. = ..()
+	allowed = GLOB.security_wintercoat_allowed
+
+/obj/item/clothing/head/hooded/winterhood/comlt
+	icon_state = "winterhood_com"
+	armor = list("melee" = 30, "bullet" = 30, "laser" = 35, "energy" = 40, "bomb" = 25, "bio" = 25, "rad" = 10, "fire" = 15, "acid" = 50)
+
 /obj/item/clothing/suit/hooded/wintercoat/security
 	name = "security winter coat"
 	icon_state = "coatsecurity"

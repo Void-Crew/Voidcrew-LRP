@@ -27,8 +27,18 @@
 //Captain
 /obj/item/clothing/head/caphat
 	name = "captain's peaked cap"
-	desc = "It's good being the king."
-	icon_state = "captain"
+	desc = "A luxurious white formal peaked cap."
+	icon_state = "caphat"
+	item_state = "that"
+	flags_inv = 0
+	armor = list("melee" = 25, "bullet" = 15, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
+	strip_delay = 60
+	dog_fashion = /datum/dog_fashion/head/captain
+
+/obj/item/clothing/head/caphat/nt
+	name = "captain's peaked cap"
+	desc = "A luxurious blue formal peaked cap."
+	icon_state = "caphat_nt"
 	item_state = "that"
 	flags_inv = 0
 	armor = list("melee" = 25, "bullet" = 15, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
@@ -43,6 +53,15 @@
 
 	dog_fashion = null
 
+/obj/item/clothing/head/hats/centcom_cap
+	name = "CentCom commander cap"
+	icon_state = "centcom_cap"
+	desc = "Worn by the finest of CentCom commanders. Inside the lining of the cap, lies two faint initials."
+	inhand_icon_state = "that"
+	flags_inv = 0
+	armor_type = /datum/armor/hats_centcom_cap
+	strip_delay = (8 SECONDS)
+	armor = list("melee" = 30, "bullet" = 15, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
 
 //Head of Personnel
 /obj/item/clothing/head/hopcap
@@ -53,7 +72,25 @@
 	dog_fashion = /datum/dog_fashion/head/head_of_personnel
 
 /obj/item/clothing/head/hopcap/nt
+	name = "head of personnel's cap"
 	icon_state = "hopcap_nt"
+	desc = "The symbol of true bureaucratic micromanagement."
+	armor = list("melee" = 25, "bullet" = 15, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
+	dog_fashion = /datum/dog_fashion/head/head_of_personnel
+
+//Lieutenant
+/obj/item/clothing/head/ltcap
+	name = "lieutenant's cap"
+	icon_state = "ltcap"
+	desc = "The symbol of a lesser power."
+	armor = list("melee" = 15, "bullet" = 5, "laser" = 15, "energy" = 15, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
+	dog_fashion = /datum/dog_fashion/head/head_of_personnel
+
+/obj/item/clothing/head/ltcap/nt
+	name = "lieutenant's cap"
+	icon_state = "ltcap_nt"
+	desc = "The symbol of a lesser power."
+	armor = list("melee" = 15, "bullet" = 5, "laser" = 15, "energy" = 15, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
 	dog_fashion = /datum/dog_fashion/head/head_of_personnel
 
 //Chaplain

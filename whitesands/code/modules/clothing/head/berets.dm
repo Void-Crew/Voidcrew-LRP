@@ -165,27 +165,42 @@
 //Command
 /obj/item/clothing/head/beret/captain
 	name = "captain beret"
-	desc = "A lovely blue Captain beret with a gold and white insignia. Truly fit for only the finest officers."
+	desc = "A lovely white Captain beret with a gold insignia. Truly fit for only the finest officers."
 	icon_state = "beret_captain"
-	armor = list("melee" = 25, "bullet" = 15, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
+	armor = list("melee" = 40, "bullet" = 20, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 5, "rad" = 5, "fire" = 50, "acid" = 50)
 	strip_delay = 90
 
 /obj/item/clothing/head/beret/hop
 	name = "head of personnel beret"
-	desc = "A lovely blue Head of Personnel's beret with a silver and white insignia. It smells faintly of paper and dogs."
+	desc = "A lovely white Head of Personnel's beret with a red insignia. It smells faintly of paper and dogs."
 	icon_state = "beret_hop"
 	armor = list("melee" = 25, "bullet" = 15, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
 	strip_delay = 90
 
 /obj/item/clothing/head/beret/command
-	name = "command beret"
-	desc = "A modest blue command beret with a silver rank insignia. Smells of power and the sweat of assistants."
+	name = "bridge staff beret"
+	desc = "A modest white command beret with no rank insignia. Smells of imaginary power and the sweat of assistants."
 	icon_state = "beret_com"
 	armor = list("melee" = 10, "bullet" = 5, "laser" = 10, "energy" = 15, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
 	strip_delay = 90
 
 /obj/item/clothing/head/beret/lt
 	name = "officer beret"
-	desc = "A showy lieutenants's beret. Smells of spilled coffee and crushed dreams."
-	icon_state = "beret_com"
-	armor = list("melee" = 40, "bullet" = 20, "laser" = 10, "energy" = 10, "rad" = 10, "bio" = 5, "rad" = 5, "fire" = 5, "rad" = 30)
+	desc = "A showy white Lieutenants's beret. Smells of spilled coffee and crushed dreams."
+	icon_state = "beret_lt"
+	armor = list("melee" = 10, "bullet" = 5, "laser" = 10, "energy" = 15, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
+	strip_delay = 90
+
+/obj/item/clothing/head/beret/captain
+	name = "captain beret"
+	desc = "A lovely white Captain beret with a gold insignia. Truly fit for only the finest officers."
+	icon_state = "beret_captain"
+	armor = list("melee" = 40, "bullet" = 20, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 5, "rad" = 5, "fire" = 50, "acid" = 50)
+	strip_delay = 90
+
+/obj/item/clothing/head/beret/centcom_formal
+	name = "CentCom Formal Beret"
+	desc = "Sometimes, a compromise between fashion and defense needs to be made. Thanks to Nanotrasen's most recent nano-fabric durability enhancements, this time, it's not the case."
+	icon_state = "beret_cent"
+	armor = list("melee" = 80, "bullet" = 80, "laser" = 50, "energy" = 50, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 90)
+	strip_delay = 10 SECONDS
