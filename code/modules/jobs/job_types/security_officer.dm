@@ -197,3 +197,12 @@ GLOBAL_LIST_INIT(available_depts, list(SEC_DEPT_ENGINEERING, SEC_DEPT_MEDICAL, S
 	backpack_contents = list(/obj/item/radio, /obj/item/flashlight/seclite)
 
 //Shiptest outfits end
+
+/datum/outfit/job/security/soviet
+	name = "Soviet Soldier"
+
+	uniform = /obj/item/clothing/under/costume/soviet
+	head = /obj/item/clothing/head/ushanka
+	l_pocket = /obj/item/reagent_containers/food/drinks/bottle/vodka
+	r_pocket = /obj/item/flashlight/seclite
+	backpack_contents = list(/obj/item/melee/baton/loaded=1) //VC edit - fuck your security rearming. glory to the soviet union
