@@ -57,9 +57,6 @@
 	name = "CentCom commander cap"
 	icon_state = "centcom_cap"
 	desc = "Worn by the finest of CentCom commanders. Inside the lining of the cap, lies two faint initials."
-	inhand_icon_state = "that"
-	flags_inv = 0
-	armor_type = /datum/armor/hats_centcom_cap
 	strip_delay = (8 SECONDS)
 	armor = list("melee" = 30, "bullet" = 15, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
 
