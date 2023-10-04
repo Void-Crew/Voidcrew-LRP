@@ -1,8 +1,7 @@
 /datum/outfit/job/captain/nt
 	name = "Captain (Nanotrasen)"
 
-	uniform = /obj/item/clothing/under/rank/command/captain/nt
-	alt_uniform = /obj/item/clothing/under/rank/command/captain/nt/alt
+	uniform = /obj/item/clothing/under/rank/command/nt/captain
 	shoes = /obj/item/clothing/shoes/laceup
 	head = /obj/item/clothing/head/caphat/nt
 

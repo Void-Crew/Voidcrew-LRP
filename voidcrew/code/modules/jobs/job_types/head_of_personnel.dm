@@ -1,6 +1,6 @@
 /datum/outfit/job/head_of_personnel/nt
 	name = "First Officer (Nanotrasen)"
-	uniform = /obj/item/clothing/under/rank/command/head_of_personnel/nt
+	uniform = /obj/item/clothing/under/rank/command/nt/head_of_personnel
 	alt_uniform = null
 	alt_suit = null
 	shoes = /obj/item/clothing/shoes/laceup

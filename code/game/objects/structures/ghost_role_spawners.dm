@@ -690,7 +690,7 @@
 	your eyes, everything seems rusted and broken, a dark feeling swells in your gut as you climb out of your pod."
 	important_info = "Command your fellow survivors and do not abandon them."
 	head = /obj/item/clothing/head/caphat/nt
-	uniform = /obj/item/clothing/under/rank/command/captain/nt
+	uniform = /obj/item/clothing/under/rank/command/nt/captain
 	suit = /obj/item/clothing/suit/armor/vest/capcarapace
 	shoes = /obj/item/clothing/shoes/jackboots
 	id = /obj/item/card/id/away/old/cap
