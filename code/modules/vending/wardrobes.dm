@@ -229,8 +229,6 @@
 					/obj/item/clothing/head/beret/service = 1, //WS edit - berets
 					/obj/item/clothing/accessory/pocketprotector = 2,
 					/obj/item/clothing/under/rank/civilian/curator/skirt = 2,
-					/obj/item/clothing/under/rank/command/captain/suit/skirt = 2,
-					/obj/item/clothing/under/rank/command/head_of_personnel/suit/skirt = 2,
 					/obj/item/storage/backpack/satchel/explorer = 1,
 					/obj/item/clothing/glasses/regular = 2,
 					/obj/item/clothing/glasses/regular/jamjar = 1,
