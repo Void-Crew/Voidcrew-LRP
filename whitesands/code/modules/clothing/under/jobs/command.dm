@@ -1,7 +1,3 @@
-/obj/item/clothing/under/rank/command/captain/suit
-	armor = list("melee" = 10, "bullet" = 5, "laser" = 5,"energy" = 5, "bomb" = 10, "bio" = 10, "rad" = 5, "fire" = 75, "acid" = 50)
-
-
 /obj/item/clothing/under/rank/command/bridgestaff
 	name = "bridge staff uniform"
 	desc = "It's a bland white formal shirt on some brown formal trousers."
