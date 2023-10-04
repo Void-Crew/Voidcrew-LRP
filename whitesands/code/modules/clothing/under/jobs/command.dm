@@ -58,15 +58,6 @@
 	fitted = FEMALE_UNIFORM_TOP
 	armor = list("melee" = 10, "bullet" = 5, "laser" = 5,"energy" = 5, "bomb" = 5, "bio" = 10, "rad" = 5, "fire" = 40, "acid" = 40)
 
-/obj/item/clothing/under/rank/command/captain/suit/skirt
-	name = "green suitskirt"
-	desc = "A green suitskirt and yellow necktie. Exemplifies authority."
-	icon_state = "green_suit_skirt"
-	item_state = "dg_suit"
-	body_parts_covered = CHEST|GROIN|ARMS
-	can_adjust = FALSE
-	fitted = FEMALE_UNIFORM_TOP
-
 /obj/item/clothing/under/rank/command/captain/parade
 	name = "captain's parade uniform"
 	desc = "A captain's luxury-wear, for special occasions."
@@ -115,23 +106,6 @@
 	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 	armor = list("melee" = 10, "bullet" = 5, "laser" = 5,"energy" = 5, "bomb" = 5, "bio" = 10, "rad" = 5, "fire" = 40, "acid" = 40)
-
-/obj/item/clothing/under/rank/command/head_of_personnel/suit
-	name = "head of personnel's suit"
-	desc = "A teal suit and yellow necktie. An authoritative yet tacky ensemble."
-	icon_state = "teal_suit"
-	item_state = "g_suit"
-	can_adjust = FALSE
-
-/obj/item/clothing/under/rank/command/head_of_personnel/suit/skirt
-	name = "teal suitskirt"
-	desc = "A teal suitskirt and yellow necktie. An authoritative yet tacky ensemble."
-	icon_state = "teal_suit_skirt"
-	item_state = "g_suit"
-	body_parts_covered = CHEST|GROIN|ARMS
-	can_adjust = FALSE
-	fitted = FEMALE_UNIFORM_TOP
-	supports_variations = DIGITIGRADE_VARIATION_NO_NEW_ICON
 
 /obj/item/clothing/under/rank/command/nt/captain
 	name = "captain uniform"
