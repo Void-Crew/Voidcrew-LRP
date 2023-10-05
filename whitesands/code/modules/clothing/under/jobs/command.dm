@@ -1,3 +1,16 @@
+/obj/item/clothing/under/rank/command/captain/suit
+	armor = list("melee" = 10, "bullet" = 5, "laser" = 5,"energy" = 5, "bomb" = 10, "bio" = 10, "rad" = 5, "fire" = 75, "acid" = 50)
+
+
+/obj/item/clothing/under/rank/command/test
+	desc = "A standard command jumpsuit."
+	name = "command jumpsuit"
+	icon = 'icons/obj/clothing/under/command.dmi'
+	mob_overlay_icon = 'icons/mob/clothing/under/command.dmi'
+	icon_state = "cmd"
+	item_state = "w_suit"
+	armor = list("melee" = 10, "bullet" = 5, "laser" = 5,"energy" = 5, "bomb" = 10, "bio" = 10, "rad" = 5, "fire" = 75, "acid" = 50)
+
 /obj/item/clothing/under/rank/command/bridgestaff
 	name = "bridge staff uniform"
 	desc = "It's a bland white formal shirt on some brown formal trousers."
@@ -49,7 +62,7 @@
 /obj/item/clothing/under/rank/command/captain/skirt
 	name = "captain uniform"
 	desc = "It's a white button-up shirt with gold markings on the wrists, and shoulders above a brown and gold skirt. It demonstrates the rank of \"Captain\" on it."
-	icon_state = "captain"
+	icon_state = "captain_skirt"
 	item_state = "w_suit"
 	random_sensor = FALSE
 	sensor_mode = SENSOR_COORDS

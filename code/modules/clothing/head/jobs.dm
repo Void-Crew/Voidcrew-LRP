@@ -25,21 +25,21 @@
 	return(FIRELOSS)
 
 //Captain
-/obj/item/clothing/head/caphat
+/obj/item/clothing/head/captainhat
 	name = "captain's peaked cap"
 	desc = "A luxurious white formal peaked cap."
-	icon_state = "caphat"
-	item_state = "that"
+	icon_state = "capcap"
+	icon_state = "capcap"
 	flags_inv = 0
 	armor = list("melee" = 25, "bullet" = 15, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
 	strip_delay = 60
 	dog_fashion = /datum/dog_fashion/head/captain
 
-/obj/item/clothing/head/caphat/nt
+/obj/item/clothing/head/captaincap/nt
 	name = "captain's peaked cap"
 	desc = "A luxurious blue formal peaked cap."
-	icon_state = "caphat_nt"
-	item_state = "that"
+	icon_state = "capcap_nt"
+	icon_state = "capcap_nt"
 	flags_inv = 0
 	armor = list("melee" = 25, "bullet" = 15, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
 	strip_delay = 60
@@ -56,6 +56,7 @@
 /obj/item/clothing/head/hats/centcom_cap
 	name = "CentCom commander cap"
 	icon_state = "centcom_cap"
+	item_state = "centcom_cap"
 	desc = "Worn by the finest of CentCom commanders. Inside the lining of the cap, lies two faint initials."
 	strip_delay = 130
 	armor = list("melee" = 30, "bullet" = 15, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)

@@ -1,9 +1,9 @@
 
 /obj/item/clothing/head/centhat
-	name = "\improper CentCom hat"
-	icon_state = "centcom"
+	name = "CentCom hat"
+	icon_state = "centhat"
+	item_state = "centhat"
 	desc = "It's good to be emperor."
-	item_state = "that"
 	flags_inv = 0
 	armor = list("melee" = 30, "bullet" = 15, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
 	strip_delay = 80
