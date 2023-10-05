@@ -4743,10 +4743,6 @@
 /turf/open/floor/plasteel,
 /area/ship/cargo)
 "GL" = (
-/obj/machinery/door/airlock/vault{
-	req_access = list(1);
-	name = "Armoury"
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -4758,6 +4754,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/door/airlock/security{
+	name = "Armoury"
+	},
 /turf/open/floor/plasteel,
 /area/ship/security/armory)
 "GM" = (
