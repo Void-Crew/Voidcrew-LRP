@@ -19,42 +19,42 @@ export const searchDesigns = (designs, searchText = '') => {
 };
 
 const MaxMultiplier = (materials, design) => {
-  let maxmulti    = [];
+  let maxmulti = [];
   let currentmult = 1;
-  let disabled    = false;
-  let tooltip     = "";
+  let disabled = false;
+  let tooltip = "";
   for (let i = 0; i < 4; i++) {
     tooltip = "";
     for (const [key, value] of Object.entries(design["materials"])) {
-      if(tooltip != "") tooltip = tooltip + "   ";
+      if (tooltip !== "") tooltip = tooltip + "   ";
       tooltip = tooltip + (value*currentmult) + " " + key + " cm³";
     }
-    
+
     for (const [key, value] of Object.entries(materials)) {
       if (value < design["materials"][key]*currentmult) {
         disabled = true;
       }
     }
-    maxmulti.push({"count" : currentmult, "disabled" : disabled, "tooltip" : tooltip });
-    if(currentmult == 1) { currentmult = 5 }
+    maxmulti.push({ "count": currentmult, "disabled": disabled, "tooltip": tooltip });
+    if (currentmult === 1) { currentmult = 5; }
     else currentmult += 10;
   }
   return maxmulti;
 };
 
-const ColorCodeCategory = (category) => {
+const ColorCodeCategory = category => {
   let color = "#ffffff";
-  
-  if(category.includes("hacked")) {
+
+  if (category.includes("hacked")) {
     color = "#c9b971";
   }
-  
-  if(category.includes("emagged")) {
+
+  if (category.includes("emagged")) {
     color = "#963a46";
   }
-  
+
   return color;
-}
+};
 
 export const Autolathe = (props, context) => {
   const [
@@ -100,10 +100,10 @@ export const Autolathe = (props, context) => {
                 onInput={(e, value) => setSearchText(value)}
                 ml={2}
                 mr={5} />
-                <Button
-            icon="eject"
-            content="Eject Materials"
-            onClick={() => act('eject_mats')} />
+              <Button
+                icon="eject"
+                content="Eject Materials"
+                onClick={() => act('eject_mats')} />
             </Box>
           )}>
           <Grid>
@@ -209,33 +209,29 @@ export const Autolathe = (props, context) => {
                     {GetMapArr(searchText.length, data.designs).map(design => (
                       <Table.Row key={design.id}>
                         <Table.Cell>
-                            <span className={classes(['design32x32', design.id])} style={{ 'vertical-align': 'middle', }} />{' '}
-                            <font color={ColorCodeCategory(design.category)}>
-                            <b>
-                            {design.name}
-                            </b>
-                            </font>
+                          <span className={classes(['design32x32', design.id])} style={{ 'vertical-align': 'middle' }} />{' '}
+                          <font color={ColorCodeCategory(design.category)}>
+                            <b>{design.name}</b>
+                          </font>
                         </Table.Cell>
                         <Table.Cell width="150px">
-                            {MaxMultiplier(data.stored_materials, design)
-                              .map(max => (
-                                <Button
-                                  inline
-                                  tooltip={max.tooltip}
-                                  tooltipPosition="bottom"
-                                  key={max.count}
-                                  disabled={max.disabled}
-                                  content={max.count + "x"}
-                                  onClick={() => act('make', {
-                                    item_id: design.id,
-                                    multiplier: max.count,
-                                  })}
-                                />
-                              ))}
-                              
-        </Table.Cell>
-</Table.Row>
-
+                          {MaxMultiplier(data.stored_materials, design)
+                            .map(max => (
+                              <Button
+                                inline
+                                tooltip={max.tooltip}
+                                tooltipPosition="bottom"
+                                key={max.count}
+                                disabled={max.disabled}
+                                content={max.count + "x"}
+                                onClick={() => act('make', {
+                                  item_id: design.id,
+                                  multiplier: max.count,
+                                })}
+                              />
+                            ))}
+                        </Table.Cell>
+                      </Table.Row>
                     ))}
                   </Table>
                 </div>
