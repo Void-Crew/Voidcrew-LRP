@@ -20,3 +20,20 @@
 	ME = new /obj/item/mecha_parts/mecha_equipment/tesla_energy_relay(src)
 	ME.attach(src)
 	max_ammo()
+
+/obj/mecha/combat/five_stars/mechturn(direction)
+	if(prob(80))
+		crush_floor()
+	return ..()
+
+/obj/mecha/combat/five_stars/domove(direction)
+	. = ..()
+	if (.)
+		if(prob(30))
+			crush_floor()
+
+/obj/mecha/combat/five_stars/proc/crush_floor() //DID I MENTION THE TANK IS A TANK (shouldnt cause hull breaches)
+	var/turf/open/floor/tile = get_turf(src)
+	if(!istype(tile, /turf/open/floor))
+		return
+	tile.crush()
