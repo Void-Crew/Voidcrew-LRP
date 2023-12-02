@@ -328,6 +328,15 @@
 	harmful = TRUE
 	ammo_type = "lmg"
 
+/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/lmg/hull
+	name = "hull-mounted light machinegun"
+	desc = "A tank's machinegun, used to suppress infantry without wasting 76mm ammunition."
+	projectiles = 200
+	projectiles_cache = 200
+	projectiles_cache_max = 1200
+	projectile_delay = 1
+	projectiles_per_shot = 2
+
 /obj/item/mecha_parts/mecha_equipment/weapon/ballistic/missile_rack
 	name = "\improper SRM-8 missile rack"
 	desc = "A weapon for combat exosuits. Launches light explosive missiles."
@@ -343,7 +352,10 @@
 	ammo_type = "missiles_he"
 
 /obj/item/mecha_parts/mecha_equipment/weapon/ballistic/missile_rack/spacecops
-	projectiles = 420
+	name = "76mm cannon"
+	desc = "The 76mm cannon of the infamous FV-101 tank."
+	icon_state = "mecha_carbine"
+	projectiles = 20
 
 /obj/item/mecha_parts/mecha_equipment/weapon/ballistic/missile_rack/breaching
 	name = "\improper BRM-6 missile rack"
