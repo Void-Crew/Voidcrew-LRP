@@ -5,7 +5,7 @@
 	icon_state = "five_stars"
 	armor = list("melee" = 95, "bullet" = 45, "laser" = 30, "energy" = 30, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 100, "acid" = 100)
 	exit_delay = 40
-	step_in = 4
+	step_in = 2 //almost as fast as a ripley
 	dir_in = 1 //Facing North.
 	max_integrity = 400
 	pixel_x = -32
