@@ -1,193 +1,9 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"ae" = (
-/turf/closed/wall/r_wall/rust,
+"ac" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
 /area/ship/security)
-"ao" = (
-/obj/machinery/computer/secure_data{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"aE" = (
-/turf/closed/wall,
-/area/ship/hallway/fore)
-"aM" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/carpet/executive,
-/area/ship/crew/office)
-"bj" = (
-/obj/structure/table/reinforced,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/photocopier/faxmachine/longrange,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"bq" = (
-/turf/template_noop,
-/area/ship/engineering/engine)
-"br" = (
-/obj/effect/turf_decal/trimline/blue/arrow_ccw{
-	dir = 1
-	},
-/obj/effect/turf_decal/floordetail/edgedrain,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"bu" = (
-/obj/effect/turf_decal/trimline/blue/corner{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"bx" = (
-/obj/structure/bed,
-/obj/item/bedsheet,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
-/area/ship/security/prison)
-"bA" = (
-/obj/structure/filingcabinet/medical,
-/obj/effect/turf_decal/trimline/blue/end,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/crew/law_office)
-"bR" = (
-/obj/machinery/door/airlock/command{
-	name = "Captain's Quarters";
-	req_access_txt = "20"
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/carpet/executive,
-/area/ship/crew/office)
-"cd" = (
-/obj/structure/window/plasma/reinforced/spawner/west,
-/turf/open/floor/engine/plasma,
-/area/ship/engineering/atmospherics)
-"ce" = (
-/obj/machinery/computer/crew,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"cU" = (
-/turf/closed/wall/r_wall,
-/area/ship/security/prison)
-"de" = (
-/obj/machinery/door/airlock/vault{
-	req_access_txt = "53"
-	},
-/obj/effect/mapping_helpers/airlock/locked,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/ship/storage)
-"dh" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/machinery/door/window/brigdoor/eastleft{
-	req_access_txt = "57"
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood{
-	icon_state = "wood-broken5"
-	},
-/area/ship/crew/law_office)
-"dl" = (
-/obj/machinery/door_timer{
-	id = "dreadnought1"
-	},
-/turf/closed/wall/r_wall/rust,
-/area/ship/security/prison)
-"do" = (
-/obj/structure/bed/dogbed/ian,
-/mob/living/simple_animal/pet/dog/corgi/Ian{
-	desc = "It's the HoP's beloved corgi. How has he survived this long?"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
-/area/ship/crew/law_office)
-"dt" = (
-/turf/template_noop,
-/area/ship/engineering)
-"dG" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood{
-	icon_state = "wood-broken4"
-	},
-/area/ship/crew/office)
-"dJ" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"ea" = (
-/obj/effect/turf_decal/number/one,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
-/area/ship/security/prison)
-"ex" = (
-/turf/template_noop,
-/area/ship/engineering/atmospherics)
-"eG" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
-/area/ship/storage)
-"eI" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ship/hallway/fore)
-"eM" = (
-/obj/machinery/door/window/brigdoor/security/cell/northright{
-	id = "dreadnought1"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/ship/security/prison)
-"fv" = (
-/obj/structure/bed,
-/obj/item/bedsheet/ian,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/carpet/executive,
-/area/ship/crew/law_office)
-"fA" = (
+"ak" = (
 /obj/effect/turf_decal/ntlogo{
 	dir = 1
 	},
@@ -199,110 +15,95 @@
 	icon_state = "steel_ridged"
 	},
 /area/ship/bridge)
-"fD" = (
-/obj/machinery/light{
-	dir = 8;
-	light_color = "#e8eaff"
+"aE" = (
+/obj/effect/turf_decal/trimline/blue/arrow_ccw{
+	dir = 1
 	},
-/obj/effect/turf_decal/trimline/blue/line{
-	dir = 8
-	},
+/obj/effect/turf_decal/floordetail/edgedrain,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark{
 	icon_state = "steel_ridged"
 	},
 /area/ship/bridge)
-"fK" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/window/brigdoor/eastleft{
-	req_access_txt = "57"
+"aK" = (
+/obj/structure/window/reinforced/spawner/north,
+/obj/structure/closet/secure_closet/brig{
+	id = "dreadnought2"
 	},
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/firedoor/border_only{
-	dir = 4
+	dir = 1
 	},
-/turf/open/floor/wood,
-/area/ship/crew/law_office)
-"gd" = (
-/obj/effect/turf_decal/number/two,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
 /area/ship/security/prison)
-"gh" = (
-/turf/closed/wall/r_wall,
-/area/ship/security)
-"gp" = (
-/obj/structure/table/reinforced,
-/obj/machinery/recharger,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"gM" = (
-/turf/closed/wall,
-/area/ship/cargo)
-"hi" = (
-/turf/closed/wall/r_wall/rust,
-/area/ship/cargo)
-"hC" = (
+"aT" = (
 /obj/structure/cable{
-	icon_state = "2-8"
+	icon_state = "0-2"
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/ship/maintenance/fore)
-"hF" = (
-/obj/machinery/door/airlock/command{
-	name = "Captain's Quarters";
-	req_access_txt = "20"
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/blue/corner{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
-/area/ship/crew/office)
-"il" = (
+/obj/machinery/power/apc/auto_name/east,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
-/area/ship/security/armory)
-"im" = (
+/area/ship/storage)
+"aY" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood,
-/obj/item/paper_bin,
-/obj/item/pen,
-/obj/item/stamp/head_of_personnel,
-/turf/open/floor/wood,
-/area/ship/crew/law_office)
-"is" = (
-/obj/machinery/computer/communications,
-/obj/machinery/light/small{
+/obj/effect/turf_decal/ntlogo{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"by" = (
+/obj/effect/turf_decal/trimline/blue/line,
+/obj/effect/turf_decal/floordetail/edgedrain{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
-/area/ship/crew/office)
-"iI" = (
-/obj/structure/fluff/event_battleship/cannon,
-/turf/open/floor/engine/hull/reinforced,
-/area/ship/external)
-"iT" = (
-/obj/effect/turf_decal/ntlogo,
-/obj/effect/turf_decal/trimline/blue/corner{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark{
 	icon_state = "steel_ridged"
 	},
 /area/ship/bridge)
-"jr" = (
+"bE" = (
+/obj/structure/closet/secure_closet/captains,
+/obj/item/stock_parts/cell/gun,
+/obj/item/stock_parts/cell/gun,
+/obj/item/clothing/under/rank/centcom/commander,
+/obj/item/clothing/head/centhat,
+/obj/item/clothing/suit/armor/vest/capcarapace/alt,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/gun/ballistic/automatic/pistol/commander,
+/obj/item/ammo_box/magazine/co9mm,
+/obj/item/ammo_box/magazine/co9mm,
+/turf/open/floor/carpet/executive,
+/area/ship/crew/office)
+"cn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ship/cargo)
+"co" = (
+/obj/effect/spawner/structure/window/reinforced/shutters,
+/turf/open/floor/plating,
+/area/ship/cargo/office)
+"cC" = (
+/obj/machinery/button/door{
+	id = "dreadnought_emergency_armoury";
+	name = "Emergency Armoury";
+	req_access_txt = "3";
+	pixel_y = -24
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ship/hallway/fore)
+"cD" = (
+/turf/closed/wall,
+/area/ship/maintenance/fore)
+"cE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/plasteel,
+/area/ship/hallway/fore)
+"cX" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
@@ -316,46 +117,160 @@
 	icon_state = "steel_ridged"
 	},
 /area/ship/bridge)
-"jX" = (
-/mob/living/simple_animal/pet/cat{
-	name = "Jones";
-	desc = "A cranky old cat. How's it still alive?"
+"da" = (
+/obj/machinery/computer/helm{
+	dir = 8
 	},
-/obj/structure/closet/cardboard{
-	name = "cat house";
-	desc = "...that's just a cardboard box."
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
 	},
-/obj/item/reagent_containers/food/snacks/meat/bacon,
-/obj/item/reagent_containers/food/snacks/meat/bacon,
-/obj/item/reagent_containers/food/snacks/meat/bacon,
-/obj/item/reagent_containers/food/snacks/meat/bacon,
-/obj/item/reagent_containers/food/drinks/waterbottle/large,
-/obj/item/reagent_containers/food/drinks/waterbottle/large,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
+/area/ship/bridge)
+"dm" = (
+/obj/structure/cable,
+/obj/machinery/power/smes,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/rust,
+/area/ship/maintenance/fore)
+"do" = (
+/obj/structure/displaycase/captain{
+	req_access = null;
+	req_access_txt = "20"
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ship/crew/office)
-"ke" = (
+"ea" = (
+/obj/effect/turf_decal/trimline/blue/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/floordetail/edgedrain,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"ek" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/ntlogo{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"fa" = (
 /turf/template_noop,
-/area/ship/engineering/electrical)
-"kv" = (
-/obj/machinery/suit_storage_unit/inherit,
-/obj/item/tank/jetpack/oxygen/captain,
-/obj/item/clothing/mask/gas/atmos/captain,
-/obj/item/clothing/suit/space/hardsuit/shielded{
-	desc = "A hardsuit used by Nanotrasen Special Operations, equipped with energy shielding. This one is old and clearly in need of maintenance.";
-	max_charges = 2;
-	current_charges = 2;
-	recharge_delay = 250
+/area/ship/hallway/starboard)
+"fe" = (
+/obj/machinery/light,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ship/hallway/fore)
+"fr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/ntlogo,
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"fz" = (
+/turf/template_noop,
+/area/ship/science)
+"fC" = (
+/obj/effect/turf_decal/trimline/blue/corner{
+	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"fH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/secure_closet{
+	icon_state = "armory";
+	name = "ammunition locker";
+	req_access_txt = "66"
+	},
+/obj/item/ammo_box/magazine/co9mm,
+/obj/item/ammo_box/magazine/co9mm,
+/obj/item/ammo_box/magazine/co9mm,
+/obj/item/ammo_box/magazine/co9mm,
+/obj/item/ammo_box/c9mm,
+/obj/item/ammo_box/c9mm,
+/obj/item/ammo_box/c9mm,
+/obj/item/ammo_box/c9mm,
+/obj/item/ammo_box/magazine/co9mm,
+/obj/item/ammo_box/magazine/co9mm,
+/obj/item/ammo_box/magazine/smgm9mm,
+/obj/item/ammo_box/magazine/smgm9mm,
+/obj/item/ammo_box/magazine/smgm9mm,
+/obj/item/ammo_box/magazine/smgm9mm,
+/obj/item/ammo_box/magazine/smgm9mm,
+/turf/open/floor/plasteel/dark,
+/area/ship/hallway/fore)
+"fT" = (
+/turf/closed/wall/r_wall,
+/area/ship/crew/law_office)
+"fU" = (
+/obj/machinery/door/airlock/security/glass{
+	req_one_access_txt = "1";
+	name = "Security"
+	},
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/ship/security)
+"fZ" = (
+/obj/effect/spawner/structure/window/reinforced/shutters,
+/turf/open/floor/plating,
+/area/ship/crew/law_office)
+"gz" = (
+/turf/closed/wall/r_wall,
+/area/ship/hallway/port)
+"gP" = (
+/turf/closed/wall/r_wall/rust,
+/area/ship/hallway/aft)
+"hj" = (
+/obj/machinery/computer/secure_data{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"hA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ship/cargo)
+"hE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning/corner,
+/turf/open/floor/plasteel,
+/area/ship/cargo)
+"im" = (
+/obj/structure/bed,
+/obj/item/bedsheet,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/ship/security/prison)
+"iL" = (
+/obj/structure/bed,
+/obj/item/bedsheet/centcom,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/executive,
 /area/ship/crew/office)
-"kE" = (
+"jp" = (
 /obj/machinery/door/airlock/command/glass{
 	req_access_txt = "19";
 	name = "Bridge"
@@ -377,19 +292,7 @@
 	icon_state = "steel_ridged"
 	},
 /area/ship/bridge)
-"kH" = (
-/turf/template_noop,
-/area/ship/science)
-"kU" = (
-/obj/machinery/computer/monitor/secret{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"kZ" = (
+"ju" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/eastleft{
 	req_access_txt = "20"
@@ -405,649 +308,23 @@
 	icon_state = "wood-broken5"
 	},
 /area/ship/crew/office)
-"lC" = (
-/obj/effect/turf_decal/trimline/blue/line,
-/obj/effect/turf_decal/floordetail/edgedrain{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"lD" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/ntlogo{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/ship/hallway/central)
-"lG" = (
-/obj/effect/turf_decal/trimline/blue/corner{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"lK" = (
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/power/terminal{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/rust,
-/area/ship/maintenance/fore)
-"lM" = (
-/turf/closed/wall/r_wall/rust,
-/area/ship/maintenance/fore)
-"ml" = (
-/turf/closed/wall/r_wall,
-/area/ship/crew/law_office)
-"nh" = (
-/turf/template_noop,
-/area/ship/crew/canteen)
-"nn" = (
-/obj/structure/displaycase/captain{
-	req_access = null;
-	req_access_txt = "20"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
-/area/ship/crew/office)
-"nJ" = (
-/obj/structure/table/reinforced,
-/obj/item/phone{
-	desc = "Supposedly a direct line to Nanotrasen Central Command. It's not even plugged in.";
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/item/paper_bin{
-	pixel_x = 16
-	},
-/obj/item/pen{
-	pixel_x = 16
-	},
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"nN" = (
-/obj/effect/turf_decal/trimline/blue/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/floordetail/edgedrain,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"nO" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/ntlogo,
-/turf/open/floor/plasteel,
-/area/ship/hallway/central)
-"nP" = (
-/turf/template_noop,
-/area/ship/hallway/starboard)
-"od" = (
-/obj/effect/turf_decal/trimline/blue/line{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"og" = (
-/obj/machinery/light,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ship/hallway/fore)
-"ow" = (
-/obj/effect/spawner/structure/window/reinforced/shutters,
-/obj/machinery/door/poddoor/shutters{
-	id = "dreadnought_bridge_windows"
-	},
-/turf/open/floor/plating,
-/area/ship/bridge)
-"oz" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood,
-/obj/machinery/photocopier/faxmachine/longrange,
-/turf/open/floor/wood,
-/area/ship/crew/law_office)
-"oB" = (
-/obj/structure/fluff/event_battleship/cannon/bigboy{
-	dir = 8
-	},
-/turf/open/floor/engine/hull/reinforced,
-/area/ship/external)
-"oS" = (
-/obj/effect/turf_decal/ntlogo{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"pR" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/turf_decal/industrial/warning,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor/border_only,
-/turf/open/floor/plasteel/dark,
-/area/ship/storage)
-"pU" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/ntlogo{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/ship/hallway/central)
-"qw" = (
-/turf/closed/wall/r_wall,
-/area/ship/hallway/fore)
-"qz" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood,
-/obj/machinery/recharger,
-/turf/open/floor/wood,
-/area/ship/crew/law_office)
-"qK" = (
-/obj/machinery/light_switch{
-	pixel_y = 25;
-	pixel_x = 25
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
-/area/ship/crew/office)
-"ro" = (
-/turf/closed/wall/r_wall/rust,
-/area/ship/security/armory)
-"rW" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light{
-	dir = 8;
-	light_color = "#e8eaff"
-	},
-/turf/open/floor/wood,
-/area/ship/crew/law_office)
-"rZ" = (
-/turf/closed/wall/r_wall/rust,
-/area/ship/crew/office)
-"sg" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
-/area/ship/security)
-"st" = (
-/turf/template_noop,
-/area/ship/medical/surgery)
-"sE" = (
-/obj/machinery/door/airlock/vault{
-	req_access_txt = "3";
-	name = "Armoury"
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
-/area/ship/security/armory)
-"te" = (
-/obj/machinery/door/airlock/command/glass{
-	req_access_txt = "19";
-	name = "Bridge"
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/blue/line,
-/obj/effect/turf_decal/floordetail/edgedrain{
-	dir = 9
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"ty" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/ntlogo{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/ship/hallway/central)
-"tA" = (
-/obj/structure/table/reinforced,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/button/door{
-	id = "dreadnought_lockdown";
-	name = "Lockdown Control";
-	pixel_y = 4;
-	req_access_txt = "19"
-	},
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"tC" = (
-/turf/closed/wall/r_wall,
-/area/ship/engineering/engine)
-"tO" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
-/area/ship/security/prison)
-"tQ" = (
-/obj/effect/spawner/structure/window/reinforced/shutters,
-/turf/open/floor/plating,
-/area/ship/security)
-"ug" = (
-/turf/open/floor/engine/o2,
-/area/ship/engineering/atmospherics)
-"uo" = (
-/obj/machinery/power/port_gen/pacman/uranium{
-	name = "emergency generator"
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/rust,
-/area/ship/maintenance/fore)
-"us" = (
-/turf/closed/wall/r_wall,
-/area/ship/hallway/port)
-"uL" = (
-/obj/machinery/computer/security,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"vA" = (
-/obj/structure/window/plasma/reinforced/spawner/north,
+"kg" = (
 /turf/open/floor/engine/n2,
 /area/ship/engineering/atmospherics)
-"vE" = (
-/obj/machinery/button/door{
-	id = "dreadnought_emergency_armoury";
-	name = "Emergency Armoury";
-	req_access_txt = "3";
-	pixel_y = -24
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ship/hallway/fore)
-"vG" = (
-/obj/machinery/light,
-/obj/effect/turf_decal/trimline/blue/arrow_ccw,
-/obj/effect/turf_decal/floordetail/edgedrain{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"vH" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/firecloset{
-	anchored = 1
-	},
-/turf/open/floor/plasteel,
-/area/ship/hallway/fore)
-"vM" = (
-/obj/structure/window/plasma/reinforced/spawner,
-/obj/structure/window/plasma/reinforced/spawner/west,
-/turf/open/floor/engine/plasma,
-/area/ship/engineering/atmospherics)
-"vR" = (
-/obj/machinery/door/airlock/command/glass{
-	req_access_txt = "57";
-	name = "Lieutenant's Office"
-	},
-/obj/effect/turf_decal/trimline/blue/corner,
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
-/area/ship/crew/law_office)
-"we" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/emcloset/anchored,
-/turf/open/floor/plasteel,
-/area/ship/hallway/fore)
-"wg" = (
-/obj/structure/filingcabinet,
-/obj/effect/turf_decal/trimline/neutral/end,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/crew/law_office)
-"wh" = (
-/turf/template_noop,
-/area/ship/crew/janitor)
-"wj" = (
-/turf/closed/wall/r_wall,
-/area/ship/hallway/aft)
-"wD" = (
-/obj/effect/spawner/structure/window/reinforced/shutters,
-/turf/open/floor/plating,
-/area/ship/crew/office)
-"xk" = (
-/turf/closed/wall,
-/area/ship/maintenance/fore)
-"xA" = (
-/turf/template_noop,
-/area/ship/hallway/port)
-"xB" = (
-/obj/structure/cable,
-/obj/machinery/power/smes,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/rust,
-/area/ship/maintenance/fore)
-"zj" = (
-/obj/structure/filingcabinet/security,
-/obj/effect/turf_decal/trimline/bar/end,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/crew/law_office)
-"zo" = (
-/obj/machinery/door/airlock/command/glass{
-	req_access_txt = "57";
-	name = "Lieutenant's Quarters"
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/carpet/executive,
-/area/ship/crew/law_office)
-"zD" = (
-/turf/template_noop,
-/area/ship/medical)
-"zH" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
-/area/ship/crew/law_office)
-"zJ" = (
-/obj/structure/closet/secure_closet/captains,
-/obj/item/stock_parts/cell/gun,
-/obj/item/stock_parts/cell/gun,
-/obj/item/clothing/under/rank/centcom/commander,
-/obj/item/clothing/head/centhat,
-/obj/item/clothing/suit/armor/vest/capcarapace/alt,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/gun/ballistic/automatic/pistol/commander,
-/obj/item/ammo_box/magazine/co9mm,
-/obj/item/ammo_box/magazine/co9mm,
-/turf/open/floor/carpet/executive,
-/area/ship/crew/office)
-"zY" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/poddoor{
-	id = "dreadnought_lockdown";
-	name = "Lockdown Door"
-	},
-/turf/open/floor/plasteel,
-/area/ship/hallway/central)
-"Ae" = (
-/turf/open/floor/engine/hull/reinforced,
-/area/ship/external)
-"An" = (
-/obj/structure/window/reinforced/spawner/north,
-/obj/structure/closet/secure_closet/brig{
-	id = "dreadnought1"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/ship/security/prison)
-"Aw" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/door/airlock/maintenance_hatch,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/ship/maintenance/fore)
-"AK" = (
-/obj/machinery/door/poddoor/shutters{
-	id = "dreadnought_emergency_armoury"
-	},
-/obj/structure/window/reinforced/spawner/north,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/ship/hallway/fore)
-"AS" = (
-/obj/machinery/door/airlock/command/glass{
-	req_access_txt = "19";
-	name = "Bridge"
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/blue/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/floordetail/edgedrain{
-	dir = 10
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"Ba" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/modular_computer/console/preset/id,
-/obj/item/paper{
-	name = "paper - note from command";
-	info = "Due to this ship's nature as a flagship, it has been provided additional weapons in the emergency armoury to counter boarding attacks and to perform them. Crew can access this armoury if they have access code 66 (Weapons Permit) and if the shutters (which are under armoury access) are opened. DO NOT give weapons permit access to anyone you wouldn't trust with a gun in an emergency."
-	},
-/turf/open/floor/wood,
-/area/ship/crew/law_office)
-"Bf" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/door/airlock/maintenance_hatch,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/rust,
-/area/ship/maintenance/fore)
-"Cj" = (
-/obj/machinery/power/terminal{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
-/area/ship/storage)
-"Cu" = (
-/turf/closed/wall/r_wall,
-/area/ship/security/armory)
-"CB" = (
-/obj/machinery/computer/med_data{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"CT" = (
-/turf/template_noop,
-/area/ship/crew/hydroponics)
-"DB" = (
-/obj/machinery/door/poddoor/shutters{
-	id = "dreadnought_emergency_armoury"
-	},
-/obj/machinery/door/window/brigdoor/northright{
-	req_access_txt = "66"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/ship/hallway/fore)
-"DJ" = (
-/obj/structure/safe,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel{
-	icon_state = "steel_ridged"
-	},
-/area/ship/storage)
-"DR" = (
-/obj/machinery/door/poddoor{
-	id = "dreadnought_lockdown";
-	name = "Lockdown Door"
-	},
-/turf/template_noop,
-/area/ship/hallway/aft)
-"Ee" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ship/hallway/fore)
-"Eq" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/ship/maintenance/fore)
-"Es" = (
-/obj/machinery/computer/helm{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"EI" = (
-/obj/structure/table/wood,
-/obj/item/storage/lockbox/medal,
-/obj/item/coin/adamantine{
-	pixel_x = -4;
-	pixel_y = 4
-	},
-/obj/item/hand_tele,
-/obj/item/melee/chainofcommand,
-/obj/machinery/light/small{
-	dir = 4
+"kz" = (
+/obj/machinery/suit_storage_unit/inherit,
+/obj/item/tank/jetpack/oxygen/captain,
+/obj/item/clothing/mask/gas/atmos/captain,
+/obj/item/clothing/suit/space/hardsuit/shielded{
+	desc = "A hardsuit used by Nanotrasen Special Operations, equipped with energy shielding. This one is old and clearly in need of maintenance.";
+	max_charges = 2;
+	current_charges = 2;
+	recharge_delay = 250
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ship/crew/office)
-"ET" = (
-/turf/closed/wall/r_wall/rust,
-/area/ship/crew/law_office)
-"Fd" = (
-/obj/effect/turf_decal/ntlogo{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"FB" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/rust,
-/area/ship/maintenance/fore)
-"FD" = (
-/turf/template_noop,
-/area/ship/cargo)
-"Gd" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/machinery/power/apc/auto_name/east{
-	start_charge = 0
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/ship/maintenance/fore)
-"Gn" = (
-/turf/closed/wall/r_wall,
-/area/ship/crew/office)
-"Gx" = (
-/turf/template_noop,
-/area/template_noop)
-"Gz" = (
-/turf/closed/wall,
-/area/ship/cargo/office)
-"GR" = (
-/turf/template_noop,
-/area/ship/crew)
-"Hm" = (
-/turf/template_noop,
-/area/ship/engineering/communications)
-"HA" = (
-/obj/machinery/door_timer{
-	id = "dreadnought2"
-	},
-/turf/closed/wall/r_wall/rust,
-/area/ship/security/prison)
-"HN" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light_switch{
-	pixel_y = 25;
-	pixel_x = 25
-	},
-/turf/open/floor/wood,
-/area/ship/crew/law_office)
-"HP" = (
-/turf/open/floor/engine/n2,
-/area/ship/engineering/atmospherics)
-"HS" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light,
-/obj/structure/guncase,
-/obj/item/gun/ballistic/automatic/pistol/commander/no_mag,
-/obj/item/gun/ballistic/automatic/pistol/commander/no_mag,
-/obj/item/gun/ballistic/automatic/vector,
-/turf/open/floor/plasteel/dark,
-/area/ship/hallway/fore)
-"Iq" = (
+"kH" = (
 /obj/machinery/door/airlock/command{
 	name = "Captain's Office";
 	req_access_txt = "20"
@@ -1063,22 +340,99 @@
 	icon_state = "wood-broken5"
 	},
 /area/ship/crew/office)
-"It" = (
+"kQ" = (
+/obj/structure/window/plasma/reinforced/spawner/north,
+/turf/open/floor/engine/n2,
+/area/ship/engineering/atmospherics)
+"lm" = (
 /turf/template_noop,
-/area/ship/hallway/aft)
-"Iv" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/window/brigdoor{
-	req_access_txt = "1"
+/area/ship/engineering/communications)
+"lp" = (
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor/border_only,
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
 /turf/open/floor/plasteel/dark,
-/area/ship/security)
-"IR" = (
+/area/ship/storage)
+"lO" = (
+/obj/docking_port/mobile{
+	dir = 4;
+	launch_status = 0;
+	port_direction = 2
+	},
+/turf/template_noop,
+/area/ship/engineering)
+"mb" = (
+/turf/template_noop,
+/area/ship/engineering/engine)
+"mv" = (
+/obj/structure/window/plasma/reinforced/spawner/west,
+/turf/open/floor/engine/plasma,
+/area/ship/engineering/atmospherics)
+"mB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning/corner,
+/obj/effect/turf_decal/industrial/warning/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ship/cargo)
+"mR" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ship/cargo/office)
+"mT" = (
+/obj/effect/turf_decal/ntlogo{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"nl" = (
+/obj/structure/filingcabinet/security,
+/obj/effect/turf_decal/trimline/bar/end,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/crew/law_office)
+"nn" = (
+/turf/closed/wall/r_wall,
+/area/ship/hallway/fore)
+"ny" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ship/maintenance/fore)
+"oa" = (
+/obj/structure/fluff/event_battleship/cannon/bigboy{
+	dir = 4
+	},
+/turf/open/floor/engine/hull/reinforced,
+/area/ship/external)
+"oi" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ship/maintenance/fore)
+"pb" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/ship/crew/office)
+"pd" = (
+/obj/machinery/door_timer{
+	id = "dreadnought1"
+	},
+/turf/closed/wall/r_wall/rust,
+/area/ship/security/prison)
+"pl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/syndicate{
 	name = "spacesuit closet";
@@ -1114,104 +468,72 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/fore)
-"Je" = (
-/turf/closed/wall/r_wall,
-/area/ship/hallway/starboard)
-"Jt" = (
-/obj/machinery/computer/crew{
-	dir = 1
-	},
+"pK" = (
+/turf/closed/wall/r_wall/rust,
+/area/ship/cargo)
+"pZ" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#e8eaff"
 	},
-/area/ship/bridge)
-"JI" = (
-/obj/machinery/door/airlock/security/glass{
-	req_one_access_txt = "1";
-	name = "Security"
+/turf/open/floor/wood,
+/area/ship/crew/law_office)
+"qk" = (
+/turf/closed/wall,
+/area/ship/cargo/office)
+"qx" = (
+/obj/machinery/door/airlock/command/glass{
+	req_access_txt = "19";
+	name = "Bridge"
 	},
-/obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
-/area/ship/security)
-"JL" = (
-/obj/structure/bed,
-/obj/item/bedsheet/centcom,
-/obj/machinery/light/small{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/carpet/executive,
-/area/ship/crew/office)
-"KE" = (
-/obj/machinery/computer/station_alert{
+/obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark{
-	icon_state = "steel_ridged"
-	},
-/area/ship/bridge)
-"KY" = (
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/machinery/power/apc/auto_name/east,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
-/area/ship/storage)
-"Lq" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
-/area/ship/storage)
-"LK" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 4
+/obj/effect/turf_decal/trimline/blue/line,
+/obj/effect/turf_decal/floordetail/edgedrain{
+	dir = 9
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark{
 	icon_state = "steel_ridged"
 	},
 /area/ship/bridge)
-"LS" = (
-/turf/template_noop,
-/area/ship/cargo/office)
-"LW" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
+"qP" = (
+/obj/structure/cable{
+	icon_state = "2-8"
 	},
-/turf/open/floor/plasteel/dark,
-/area/ship/security/prison)
-"MP" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ship/maintenance/fore)
+"ru" = (
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark{
 	icon_state = "steel_ridged"
 	},
 /area/ship/bridge)
-"MZ" = (
+"rG" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/office{
+/obj/machinery/computer/selling_pad_control{
 	dir = 8
 	},
-/turf/open/floor/wood,
-/area/ship/crew/law_office)
-"Nh" = (
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
+/turf/open/floor/plasteel,
+/area/ship/cargo)
+"rI" = (
+/turf/open/floor/engine/hull/reinforced,
+/area/ship/external)
+"ss" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/ship/maintenance/fore)
-"NE" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ship/cargo)
+"su" = (
 /obj/structure/table/reinforced,
 /obj/item/gps{
 	gpstag = "NT_01"
@@ -1221,60 +543,72 @@
 	icon_state = "steel_ridged"
 	},
 /area/ship/bridge)
-"NR" = (
-/obj/machinery/power/smes/engineering,
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel{
-	icon_state = "steel_ridged"
-	},
-/area/ship/storage)
-"On" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/carpet/executive,
-/area/ship/crew/law_office)
-"Ox" = (
+"sv" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/ship/hallway/central)
-"OK" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
-/area/ship/crew/office)
-"Pe" = (
-/obj/structure/fluff/event_battleship/cannon{
-	dir = 1
-	},
-/turf/open/floor/engine/hull/reinforced,
-/area/ship/external)
-"Pn" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/secure_closet{
-	icon_state = "armory";
-	name = "ammunition locker";
-	req_access_txt = "66"
-	},
-/obj/item/ammo_box/magazine/co9mm,
-/obj/item/ammo_box/magazine/co9mm,
-/obj/item/ammo_box/magazine/co9mm,
-/obj/item/ammo_box/magazine/co9mm,
-/obj/item/ammo_box/c9mm,
-/obj/item/ammo_box/c9mm,
-/obj/item/ammo_box/c9mm,
-/obj/item/ammo_box/c9mm,
-/obj/item/ammo_box/magazine/co9mm,
-/obj/item/ammo_box/magazine/co9mm,
-/obj/item/ammo_box/magazine/smgm9mm,
-/obj/item/ammo_box/magazine/smgm9mm,
-/obj/item/ammo_box/magazine/smgm9mm,
-/obj/item/ammo_box/magazine/smgm9mm,
-/obj/item/ammo_box/magazine/smgm9mm,
-/turf/open/floor/plasteel/dark,
 /area/ship/hallway/fore)
-"Pp" = (
-/turf/closed/wall/rust,
+"sA" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/rust,
 /area/ship/maintenance/fore)
-"QT" = (
+"sB" = (
+/turf/template_noop,
+/area/ship/engineering/electrical)
+"td" = (
+/turf/template_noop,
+/area/ship/hallway/aft)
+"th" = (
+/turf/template_noop,
+/area/template_noop)
+"tv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/poddoor{
+	id = "dreadnought_lockdown";
+	name = "Lockdown Door"
+	},
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"tD" = (
+/obj/machinery/door/airlock/command{
+	name = "Captain's Quarters";
+	req_access_txt = "20"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/executive,
+/area/ship/crew/office)
+"tV" = (
+/obj/effect/turf_decal/ntlogo,
+/obj/effect/turf_decal/trimline/blue/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"uf" = (
+/turf/closed/wall/r_wall/rust,
+/area/ship/crew/law_office)
+"um" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/ship/security/armory)
+"uB" = (
+/obj/effect/turf_decal/number/two,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/ship/security/prison)
+"vs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/modular_computer/console/preset/command,
 /obj/machinery/light/small{
@@ -1286,21 +620,532 @@
 	},
 /turf/open/floor/wood,
 /area/ship/crew/law_office)
-"Rm" = (
-/obj/structure/chair/office{
+"vA" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ship/hallway/fore)
+"vI" = (
+/turf/template_noop,
+/area/ship/crew/hydroponics)
+"vJ" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/rust,
+/area/ship/maintenance/fore)
+"vW" = (
+/turf/open/floor/engine/o2,
+/area/ship/engineering/atmospherics)
+"wb" = (
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#e8eaff"
+	},
+/obj/effect/turf_decal/trimline/blue/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"wN" = (
+/obj/machinery/door/airlock/command/glass{
+	req_access_txt = "57";
+	name = "Lieutenant's Office"
+	},
+/obj/effect/turf_decal/trimline/blue/corner,
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
+/area/ship/crew/law_office)
+"wS" = (
+/obj/effect/turf_decal/trimline/blue/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"wT" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stamp/captain{
+	pixel_x = -8;
+	pixel_y = 12
+	},
+/obj/item/stamp/centcom,
+/turf/open/floor/wood,
 /area/ship/crew/office)
-"Ru" = (
+"wZ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/ship/security/prison)
+"xa" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ship/cargo)
+"xm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/security/prison)
+"xn" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/executive,
+/area/ship/crew/law_office)
+"xr" = (
+/obj/effect/turf_decal/number/one,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/ship/security/prison)
+"xu" = (
+/obj/machinery/light_switch{
+	pixel_y = 25;
+	pixel_x = 25
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/ship/crew/office)
+"xW" = (
+/turf/closed/wall/r_wall,
+/area/ship/hallway/aft)
+"yi" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "dreadnought_emergency_armoury"
+	},
+/obj/structure/window/reinforced/spawner/north,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/hallway/fore)
+"yn" = (
+/obj/structure/table/reinforced,
+/obj/item/phone{
+	desc = "Supposedly a direct line to Nanotrasen Central Command. It's not even plugged in.";
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/paper_bin{
+	pixel_x = 16
+	},
+/obj/item/pen{
+	pixel_x = 16
+	},
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"yr" = (
+/obj/machinery/computer/station_alert{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"yu" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ship/cargo)
+"yx" = (
+/obj/machinery/door/airlock/command/glass{
+	req_access_txt = "19";
+	name = "Bridge"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/blue/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/floordetail/edgedrain{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"yI" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"yR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/item/stamp/head_of_personnel,
+/turf/open/floor/wood,
+/area/ship/crew/law_office)
+"yT" = (
+/turf/closed/wall/rust,
+/area/ship/cargo)
+"yU" = (
 /obj/effect/spawner/structure/window/reinforced/shutters,
 /turf/open/floor/plating,
+/area/ship/security)
+"zg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/wood,
 /area/ship/crew/law_office)
-"Sb" = (
+"zD" = (
+/turf/open/floor/engine/plasma,
+/area/ship/engineering/atmospherics)
+"zJ" = (
+/obj/structure/table/wood,
+/obj/item/storage/lockbox/medal,
+/obj/item/coin/adamantine{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/item/hand_tele,
+/obj/item/melee/chainofcommand,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/ship/crew/office)
+"zY" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel{
+	icon_state = "steel_ridged"
+	},
+/area/ship/storage)
+"Aa" = (
+/obj/machinery/door/airlock/command/glass{
+	req_access_txt = "57";
+	name = "Lieutenant's Quarters"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/executive,
+/area/ship/crew/law_office)
+"Ag" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/rust,
+/area/ship/maintenance/fore)
+"Bm" = (
+/mob/living/simple_animal/pet/cat{
+	name = "Jones";
+	desc = "A cranky old cat. How's it still alive?"
+	},
+/obj/structure/closet/cardboard{
+	name = "cat house";
+	desc = "...that's just a cardboard box."
+	},
+/obj/item/reagent_containers/food/snacks/meat/bacon,
+/obj/item/reagent_containers/food/snacks/meat/bacon,
+/obj/item/reagent_containers/food/snacks/meat/bacon,
+/obj/item/reagent_containers/food/snacks/meat/bacon,
+/obj/item/reagent_containers/food/drinks/waterbottle/large,
+/obj/item/reagent_containers/food/drinks/waterbottle/large,
+/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
+/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
+/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
+/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
+/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/ship/crew/office)
+"Bo" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/rust,
+/area/ship/maintenance/fore)
+"Bx" = (
+/turf/closed/wall/r_wall/rust,
+/area/ship/security)
+"Bz" = (
+/obj/machinery/power/port_gen/pacman/uranium{
+	name = "emergency generator"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/rust,
+/area/ship/maintenance/fore)
+"BL" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ship/cargo)
+"Ce" = (
+/obj/effect/spawner/structure/window/reinforced/shutters,
+/turf/open/floor/plating,
+/area/ship/crew/office)
+"Cz" = (
+/turf/template_noop,
+/area/ship/engineering/atmospherics)
+"CQ" = (
+/obj/machinery/door/airlock/command{
+	name = "Captain's Quarters";
+	req_access_txt = "20"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/blue/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/ship/crew/office)
+"CV" = (
+/obj/machinery/computer/crew{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"CW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/wood,
+/obj/machinery/recharger,
+/turf/open/floor/wood,
+/area/ship/crew/law_office)
+"CX" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/executive,
+/area/ship/crew/office)
+"Da" = (
+/obj/machinery/light,
+/obj/effect/turf_decal/trimline/blue/arrow_ccw,
+/obj/effect/turf_decal/floordetail/edgedrain{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"Di" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/warning/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ship/cargo)
+"DH" = (
+/obj/machinery/computer/communications,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/ship/crew/office)
+"DI" = (
+/obj/structure/window/plasma/reinforced/spawner,
+/turf/open/floor/engine/plasma,
+/area/ship/engineering/atmospherics)
+"DZ" = (
+/obj/machinery/door/airlock/vault{
+	req_access_txt = "3";
+	name = "Armoury"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/ship/security/armory)
+"Ee" = (
+/obj/machinery/computer/security,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"Er" = (
+/obj/machinery/computer/autopilot{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"EF" = (
+/obj/machinery/computer/med_data{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"EL" = (
+/obj/machinery/door/window/brigdoor/security/cell/northright{
+	id = "dreadnought1"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/security/prison)
+"EU" = (
+/obj/machinery/door/airlock/vault{
+	req_access_txt = "3";
+	name = "Armoury"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/door/firedoor/border_only,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/ship/security/armory)
+"EZ" = (
+/turf/closed/wall/rust,
+/area/ship/hallway/aft)
+"Fb" = (
+/turf/closed/wall/r_wall,
+/area/ship/security)
+"Fi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/mining/glass{
+	name = "Cargo Bay"
+	},
+/turf/open/floor/plasteel,
+/area/ship/cargo)
+"Fn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/window/brigdoor/eastleft{
+	req_access_txt = "57"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ship/crew/law_office)
+"FI" = (
+/turf/closed/wall/r_wall/rust,
+/area/ship/storage)
+"FU" = (
+/obj/structure/filingcabinet,
+/obj/effect/turf_decal/trimline/neutral/end,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/crew/law_office)
+"FV" = (
+/turf/template_noop,
+/area/ship/crew/canteen/kitchen)
+"Gi" = (
+/obj/machinery/door_timer{
+	id = "dreadnought2"
+	},
 /turf/closed/wall/r_wall/rust,
 /area/ship/security/prison)
-"SU" = (
+"GH" = (
+/turf/template_noop,
+/area/ship/hallway/port)
+"GI" = (
+/turf/closed/wall/r_wall,
+/area/ship/hallway/starboard)
+"GR" = (
+/obj/structure/filingcabinet/medical,
+/obj/effect/turf_decal/trimline/blue/end,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/crew/law_office)
+"Hb" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/modular_computer/console/preset/id,
+/obj/item/paper{
+	name = "paper - note from command";
+	info = "Due to this ship's nature as a flagship, it has been provided additional weapons in the emergency armoury to counter boarding attacks and to perform them. Crew can access this armoury if they have access code 66 (Weapons Permit) and if the shutters (which are under armoury access) are opened. DO NOT give weapons permit access to anyone you wouldn't trust with a gun in an emergency."
+	},
+/turf/open/floor/wood,
+/area/ship/crew/law_office)
+"Ho" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/mining/glass{
+	name = "Cargo Office";
+	req_access_txt = "31"
+	},
+/turf/open/floor/plasteel,
+/area/ship/cargo/office)
+"Ht" = (
+/obj/structure/window/reinforced/spawner/north,
+/obj/structure/closet/secure_closet/brig{
+	id = "dreadnought1"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/security/prison)
+"Hy" = (
 /obj/machinery/door/window/brigdoor/security/cell/northright{
 	id = "dreadnought2"
 	},
@@ -1310,10 +1155,146 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/security/prison)
-"Te" = (
-/turf/open/floor/engine/plasma,
-/area/ship/engineering/atmospherics)
-"TN" = (
+"HH" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/ship/crew/office)
+"HQ" = (
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ship/cargo)
+"HZ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/ship/crew/office)
+"Ic" = (
+/obj/machinery/door/poddoor{
+	id = "dreadnought_lockdown";
+	name = "Lockdown Door"
+	},
+/turf/template_noop,
+/area/ship/hallway/aft)
+"Ij" = (
+/turf/closed/wall/r_wall/rust,
+/area/ship/maintenance/fore)
+"IE" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "dreadnought_emergency_armoury"
+	},
+/obj/machinery/door/window/brigdoor/northright{
+	req_access_txt = "66"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/hallway/fore)
+"IG" = (
+/turf/closed/wall/r_wall,
+/area/ship/security/prison)
+"IP" = (
+/obj/structure/fluff/event_battleship/cannon,
+/turf/open/floor/engine/hull/reinforced,
+/area/ship/external)
+"IR" = (
+/turf/template_noop,
+/area/ship/medical/surgery)
+"IS" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/window/brigdoor/eastleft{
+	req_access_txt = "57"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+	},
+/area/ship/crew/law_office)
+"JG" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/ship/storage)
+"JO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/ntlogo{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"Kf" = (
+/turf/closed/wall/r_wall,
+/area/ship/engineering/electrical)
+"Kl" = (
+/turf/closed/wall/r_wall,
+/area/ship/maintenance/fore)
+"Kr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light_switch{
+	pixel_y = 25;
+	pixel_x = 25
+	},
+/turf/open/floor/wood,
+/area/ship/crew/law_office)
+"Ks" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning,
+/turf/open/floor/plasteel,
+/area/ship/cargo)
+"KH" = (
+/obj/structure/bed,
+/obj/item/bedsheet/ian,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/carpet/executive,
+/area/ship/crew/law_office)
+"La" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"Nb" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/ship/cargo)
+"Ni" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/computer/cargo/express{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ship/cargo/office)
+"NA" = (
+/turf/template_noop,
+/area/ship/crew)
+"NB" = (
+/turf/closed/wall/r_wall,
+/area/ship/engineering/communications)
+"NJ" = (
+/turf/closed/wall/r_wall/rust,
+/area/ship/security/armory)
+"NS" = (
+/turf/closed/wall/r_wall/rust,
+/area/ship/security/prison)
+"Of" = (
 /obj/machinery/door/airlock/command/glass{
 	req_access_txt = "19";
 	name = "Bridge"
@@ -1333,14 +1314,72 @@
 	icon_state = "steel_ridged"
 	},
 /area/ship/bridge)
-"TP" = (
+"Oz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/firecloset{
+	anchored = 1
+	},
+/turf/open/floor/plasteel,
+/area/ship/hallway/fore)
+"OE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ship/cargo)
+"Pu" = (
 /turf/closed/wall/r_wall,
+/area/ship/crew/office)
+"PE" = (
+/turf/closed/wall/r_wall,
+/area/ship/storage)
+"Qd" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
 /area/ship/maintenance/fore)
-"TS" = (
+"Qh" = (
+/turf/closed/wall/r_wall,
+/area/ship/security/armory)
+"Qm" = (
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/ship/storage)
+"Qq" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel{
+	icon_state = "steel_ridged"
+	},
+/area/ship/storage)
+"QG" = (
 /turf/template_noop,
-/area/ship/crew/canteen/kitchen)
-"Uc" = (
-/obj/machinery/computer/communications{
+/area/ship/crew/canteen)
+"Rl" = (
+/turf/closed/wall/r_wall,
+/area/ship/engineering/atmospherics)
+"Rp" = (
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/photocopier/faxmachine/longrange,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"Ry" = (
+/obj/structure/window/plasma/reinforced/spawner/north,
+/turf/open/floor/engine/o2,
+/area/ship/engineering/atmospherics)
+"Rz" = (
+/obj/effect/turf_decal/trimline/blue/line{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -1348,10 +1387,70 @@
 	icon_state = "steel_ridged"
 	},
 /area/ship/bridge)
-"Uf" = (
-/turf/closed/wall/r_wall,
+"RL" = (
+/obj/structure/fluff/event_battleship/cannon{
+	dir = 1
+	},
+/turf/open/floor/engine/hull/reinforced,
+/area/ship/external)
+"RX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light,
+/obj/structure/guncase,
+/obj/item/gun/ballistic/automatic/pistol/commander/no_mag,
+/obj/item/gun/ballistic/automatic/pistol/commander/no_mag,
+/obj/item/gun/ballistic/automatic/vector,
+/turf/open/floor/plasteel/dark,
+/area/ship/hallway/fore)
+"Sd" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"Sn" = (
+/turf/template_noop,
+/area/ship/crew/janitor)
+"SG" = (
+/obj/structure/safe,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel{
+	icon_state = "steel_ridged"
+	},
 /area/ship/storage)
-"Uk" = (
+"SM" = (
+/obj/structure/table/reinforced,
+/obj/machinery/recharger,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"SO" = (
+/obj/structure/bed/dogbed/ian,
+/mob/living/simple_animal/pet/dog/corgi/Ian{
+	desc = "It's the HoP's beloved corgi. How has he survived this long?"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/ship/crew/law_office)
+"ST" = (
+/obj/machinery/computer/monitor/secret{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"Tg" = (
+/obj/machinery/modular_computer/console/preset/id,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/paper{
+	name = "paper - note from command";
+	info = "Due to this ship's nature as a flagship, it has been provided additional weapons in the emergency armoury to counter boarding attacks and to perform them. Crew can access this armoury if they have access code 66 (Weapons Permit) and if the shutters (which are under armoury access) are opened. DO NOT give weapons permit access to anyone you wouldn't trust with a gun in an emergency."
+	},
+/turf/open/floor/wood,
+/area/ship/crew/office)
+"Tl" = (
 /obj/machinery/light_switch{
 	pixel_y = -25
 	},
@@ -1364,55 +1463,104 @@
 	icon_state = "steel_ridged"
 	},
 /area/ship/bridge)
-"Ut" = (
-/turf/closed/wall/r_wall,
-/area/ship/engineering/atmospherics)
-"UC" = (
-/obj/structure/window/reinforced/spawner/north,
-/obj/structure/closet/secure_closet/brig{
-	id = "dreadnought2"
+"TC" = (
+/turf/template_noop,
+/area/ship/medical)
+"TL" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ship/cargo)
+"TZ" = (
+/turf/closed/wall/rust,
+/area/ship/maintenance/fore)
+"Uk" = (
+/turf/closed/wall/r_wall/rust,
+/area/ship/hallway/fore)
+"Uv" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/apc/auto_name/east{
+	start_charge = 0
 	},
 /obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ship/maintenance/fore)
+"UF" = (
+/turf/closed/wall/r_wall/rust,
+/area/ship/crew/office)
+"UK" = (
+/obj/effect/spawner/structure/window/reinforced/shutters,
+/turf/open/floor/plating,
+/area/ship/cargo)
+"UO" = (
+/obj/machinery/computer/communications{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"UR" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/brigdoor{
+	req_access_txt = "1"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ship/security/prison)
-"UE" = (
-/obj/structure/window/plasma/reinforced/spawner/north,
-/turf/open/floor/engine/o2,
-/area/ship/engineering/atmospherics)
-"UY" = (
+/area/ship/security)
+"Vt" = (
+/obj/machinery/computer/crew,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"VF" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/poddoor{
+	id = "dreadnought_cargo"
+	},
+/turf/open/floor/plating,
+/area/ship/cargo)
+"VM" = (
+/turf/closed/wall,
+/area/ship/hallway/fore)
+"Wr" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/stamp/captain{
-	pixel_x = -8;
-	pixel_y = 12
-	},
-/obj/item/stamp/centcom,
+/obj/machinery/photocopier/faxmachine/longrange,
 /turf/open/floor/wood,
-/area/ship/crew/office)
-"Vl" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
+/area/ship/crew/law_office)
+"Ww" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/rust,
-/area/ship/maintenance/fore)
-"Wi" = (
-/obj/structure/window/plasma/reinforced/spawner,
-/turf/open/floor/engine/plasma,
-/area/ship/engineering/atmospherics)
-"WD" = (
-/obj/machinery/modular_computer/console/preset/id,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/paper{
-	name = "paper - note from command";
-	info = "Due to this ship's nature as a flagship, it has been provided additional weapons in the emergency armoury to counter boarding attacks and to perform them. Crew can access this armoury if they have access code 66 (Weapons Permit) and if the shutters (which are under armoury access) are opened. DO NOT give weapons permit access to anyone you wouldn't trust with a gun in an emergency."
-	},
 /turf/open/floor/wood,
-/area/ship/crew/office)
-"Xw" = (
+/area/ship/crew/law_office)
+"WJ" = (
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/button/door{
+	id = "dreadnought_lockdown";
+	name = "Lockdown Control";
+	pixel_y = 4;
+	req_access_txt = "19"
+	},
+/turf/open/floor/plasteel/dark{
+	icon_state = "steel_ridged"
+	},
+/area/ship/bridge)
+"WR" = (
+/turf/template_noop,
+/area/ship/engineering)
+"Xb" = (
 /obj/machinery/button/door{
 	id = "dreadnought_lockdown";
 	name = "Compartment Lockdown Override";
@@ -1421,37 +1569,8 @@
 	},
 /turf/template_noop,
 /area/ship/hallway/aft)
-"XI" = (
-/turf/closed/wall/r_wall,
-/area/ship/engineering/electrical)
-"XR" = (
-/obj/docking_port/mobile{
-	dir = 4;
-	launch_status = 0;
-	port_direction = 2
-	},
-/turf/template_noop,
-/area/ship/engineering)
-"Yn" = (
-/obj/structure/fluff/event_battleship/cannon/bigboy{
-	dir = 4
-	},
-/turf/open/floor/engine/hull/reinforced,
-/area/ship/external)
-"YF" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel{
-	icon_state = "steel_ridged"
-	},
-/area/ship/storage)
-"YZ" = (
-/turf/closed/wall/r_wall/rust,
-/area/ship/storage)
-"Zt" = (
-/obj/machinery/computer/autopilot{
+"Xf" = (
+/obj/effect/turf_decal/ntlogo{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -1459,2371 +1578,2421 @@
 	icon_state = "steel_ridged"
 	},
 /area/ship/bridge)
-"Zu" = (
-/obj/machinery/door/airlock/vault{
-	req_access_txt = "3";
-	name = "Armoury"
+"Xz" = (
+/obj/structure/window/plasma/reinforced/spawner,
+/obj/structure/window/plasma/reinforced/spawner/west,
+/turf/open/floor/engine/plasma,
+/area/ship/engineering/atmospherics)
+"XG" = (
+/obj/structure/fluff/event_battleship/cannon/bigboy{
+	dir = 8
 	},
+/turf/open/floor/engine/hull/reinforced,
+/area/ship/external)
+"Ya" = (
+/obj/machinery/door/airlock/vault{
+	req_access_txt = "53"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
-/obj/machinery/door/firedoor/border_only,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
-/area/ship/security/armory)
-"ZG" = (
-/turf/closed/wall/r_wall/rust,
-/area/ship/hallway/fore)
+/area/ship/storage)
+"Yg" = (
+/obj/machinery/button/door{
+	id = "dreadnought_cargo";
+	pixel_y = 24;
+	name = "Cargo Doors"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning,
+/turf/open/floor/plasteel,
+/area/ship/cargo)
+"Yu" = (
+/turf/closed/wall/rust,
+/area/ship/cargo/office)
+"YN" = (
+/turf/closed/wall/r_wall,
+/area/ship/engineering/engine)
+"Zo" = (
+/obj/effect/spawner/structure/window/reinforced/shutters,
+/obj/machinery/door/poddoor/shutters{
+	id = "dreadnought_bridge_windows"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"ZA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/selling_pad,
+/turf/open/floor/plasteel,
+/area/ship/cargo)
+"ZT" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/industrial/warning,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/firedoor/border_only,
+/turf/open/floor/plasteel/dark,
+/area/ship/storage)
+"ZY" = (
+/turf/closed/wall,
+/area/ship/cargo)
 
 (1,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-XR
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+lO
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (2,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (3,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-dt
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+WR
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (4,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-bq
-bq
-bq
-bq
-bq
-tC
-tC
-tC
-tC
-dt
-dt
-dt
-dt
-ex
-ex
-ex
-ex
-ex
-ex
-Ut
-Ut
-Ut
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+mb
+mb
+mb
+mb
+mb
+YN
+YN
+YN
+YN
+WR
+WR
+WR
+WR
+Cz
+Cz
+Cz
+Cz
+Cz
+Cz
+Rl
+Rl
+Rl
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (5,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-tC
-dt
-dt
-dt
-dt
-ex
-ex
-ex
-ex
-ex
-ex
-vA
-HP
-Ut
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+mb
+mb
+mb
+mb
+mb
+mb
+mb
+mb
+YN
+WR
+WR
+WR
+WR
+Cz
+Cz
+Cz
+Cz
+Cz
+Cz
+kQ
+kg
+Rl
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (6,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-dt
-dt
-dt
-dt
-XI
-XI
-XI
-ex
-ex
-ex
-vA
-HP
-Ut
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+mb
+mb
+mb
+mb
+mb
+mb
+mb
+mb
+mb
+WR
+WR
+WR
+WR
+Kf
+Kf
+Kf
+Cz
+Cz
+Cz
+kQ
+kg
+Rl
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (7,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-tC
-dt
-dt
-dt
-dt
-ke
-ke
-XI
-ex
-ex
-ex
-vA
-HP
-Ut
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+mb
+mb
+mb
+mb
+mb
+mb
+mb
+mb
+YN
+WR
+WR
+WR
+WR
+sB
+sB
+Kf
+Cz
+Cz
+Cz
+kQ
+kg
+Rl
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (8,1,1) = {"
-Gx
-Gx
-CT
-CT
-CT
-CT
-Gx
-Gx
-Gx
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-dt
-dt
-dt
-dt
-ke
-ke
-XI
-ex
-ex
-ex
-Ut
-Ut
-Ut
-Gx
-Gx
-Gx
-zD
-zD
-zD
-zD
-Gx
-Gx
+th
+th
+vI
+vI
+vI
+vI
+th
+th
+th
+mb
+mb
+mb
+mb
+mb
+mb
+mb
+mb
+mb
+WR
+WR
+WR
+WR
+sB
+sB
+Kf
+Cz
+Cz
+Cz
+Rl
+Rl
+Rl
+th
+th
+th
+TC
+TC
+TC
+TC
+th
+th
 "}
 (9,1,1) = {"
-Gx
-CT
-CT
-CT
-CT
-CT
-Gx
-Gx
-Gx
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-tC
-dt
-dt
-dt
-dt
-ke
-ke
-XI
-cd
-vM
-ex
-UE
-ug
-Ut
-Gx
-Gx
-Gx
-zD
-zD
-zD
-zD
-zD
-Gx
+th
+vI
+vI
+vI
+vI
+vI
+th
+th
+th
+mb
+mb
+mb
+mb
+mb
+mb
+mb
+mb
+YN
+WR
+WR
+WR
+WR
+sB
+sB
+Kf
+mv
+Xz
+Cz
+Ry
+vW
+Rl
+th
+th
+th
+TC
+TC
+TC
+TC
+TC
+th
 "}
 (10,1,1) = {"
-CT
-CT
-CT
-CT
-CT
-CT
-Gx
-Gx
-Gx
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-tC
-dt
-dt
-dt
-dt
-ke
-ke
-XI
-Te
-Wi
-ex
-UE
-ug
-Ut
-Gx
-Gx
-Gx
+vI
+vI
+vI
+vI
+vI
+vI
+th
+th
+th
+mb
+mb
+mb
+mb
+mb
+mb
+mb
+mb
+YN
+WR
+WR
+WR
+WR
+sB
+sB
+Kf
 zD
-zD
-zD
-zD
-zD
-zD
+DI
+Cz
+Ry
+vW
+Rl
+th
+th
+th
+TC
+TC
+TC
+TC
+TC
+TC
 "}
 (11,1,1) = {"
-CT
-CT
-CT
-CT
-CT
-CT
-us
-xA
-xA
-us
-us
-us
-us
-us
-us
-us
-us
-us
-wj
-It
-It
-wj
-Je
-Je
-Je
-Je
-Je
-Je
-Je
-Je
-Je
-nP
-nP
-nP
-zD
-zD
-zD
-zD
-zD
-zD
+vI
+vI
+vI
+vI
+vI
+vI
+gz
+GH
+GH
+gz
+gz
+gz
+gz
+gz
+gz
+gz
+gz
+gz
+xW
+td
+td
+xW
+GI
+GI
+GI
+GI
+GI
+GI
+GI
+GI
+GI
+fa
+fa
+fa
+TC
+TC
+TC
+TC
+TC
+TC
 "}
 (12,1,1) = {"
-CT
-CT
-CT
-CT
-CT
-CT
-xA
-xA
-xA
-xA
-xA
-xA
-xA
-xA
-xA
-xA
-xA
-xA
-DR
-It
-It
-DR
-nP
-nP
-nP
-nP
-nP
-nP
-nP
-nP
-nP
-nP
-nP
-nP
-zD
-zD
-zD
-zD
-zD
-zD
+vI
+vI
+vI
+vI
+vI
+vI
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+Ic
+td
+td
+Ic
+fa
+fa
+fa
+fa
+fa
+fa
+fa
+fa
+fa
+fa
+fa
+fa
+TC
+TC
+TC
+TC
+TC
+TC
 "}
 (13,1,1) = {"
-CT
-CT
-CT
-CT
-CT
-CT
-xA
-xA
-xA
-xA
-xA
-xA
-xA
-xA
-xA
-xA
-xA
-xA
-DR
-It
-It
-DR
-nP
-nP
-nP
-nP
-nP
-nP
-nP
-nP
-nP
-nP
-nP
-nP
-zD
-zD
-zD
-zD
-zD
-zD
+vI
+vI
+vI
+vI
+vI
+vI
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+Ic
+td
+td
+Ic
+fa
+fa
+fa
+fa
+fa
+fa
+fa
+fa
+fa
+fa
+fa
+fa
+TC
+TC
+TC
+TC
+TC
+TC
 "}
 (14,1,1) = {"
-CT
-CT
-CT
-CT
-CT
-CT
-xA
-xA
-xA
-xA
-xA
-xA
-xA
-xA
-xA
-xA
-xA
-xA
-It
-It
-It
-It
-nP
-nP
-nP
-nP
-nP
-nP
-nP
-nP
-nP
-nP
-nP
-nP
-zD
-zD
-zD
-zD
-zD
-zD
+vI
+vI
+vI
+vI
+vI
+vI
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+EZ
+td
+td
+xW
+GI
+GI
+GI
+GI
+GI
+GI
+GI
+GI
+GI
+fa
+fa
+fa
+TC
+TC
+TC
+TC
+TC
+TC
 "}
 (15,1,1) = {"
-nh
-nh
-wh
-wh
-wh
-wh
-Gx
-Gx
-Gx
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-It
-Xw
-It
-It
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Gx
-Gx
-Gx
-zD
-zD
-zD
-zD
-zD
-zD
+QG
+QG
+Sn
+Sn
+Sn
+Sn
+th
+th
+th
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+EZ
+Xb
+td
+gP
+lm
+lm
+lm
+lm
+lm
+lm
+lm
+lm
+NB
+th
+th
+th
+TC
+TC
+TC
+TC
+TC
+TC
 "}
 (16,1,1) = {"
-nh
-nh
-wh
-wh
-wh
-wh
-Gx
-Gx
-Gx
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-It
-It
-It
-It
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Gx
-Gx
-Gx
-zD
-zD
-zD
-zD
-zD
-zD
+QG
+QG
+Sn
+Sn
+Sn
+Sn
+th
+th
+th
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+EZ
+td
+td
+gP
+lm
+lm
+lm
+lm
+lm
+lm
+lm
+lm
+NB
+th
+th
+th
+TC
+TC
+TC
+TC
+TC
+TC
 "}
 (17,1,1) = {"
-nh
-nh
-wh
-wh
-wh
-wh
-Gx
-Gx
-Gx
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-It
-It
-It
-It
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Gx
-Gx
-Gx
-zD
-zD
-zD
-zD
-zD
-zD
+QG
+QG
+Sn
+Sn
+Sn
+Sn
+th
+th
+th
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+EZ
+td
+td
+gP
+lm
+lm
+lm
+lm
+lm
+lm
+lm
+lm
+NB
+th
+th
+th
+TC
+TC
+TC
+TC
+TC
+TC
 "}
 (18,1,1) = {"
-nh
-nh
-wh
-wh
-wh
-wh
-Gx
-Gx
-Gx
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-It
-It
-It
-It
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Gx
-Gx
-Gx
-zD
-zD
-zD
-zD
-zD
-zD
+QG
+QG
+Sn
+Sn
+Sn
+Sn
+th
+th
+th
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+td
+td
+td
+td
+lm
+lm
+lm
+lm
+lm
+lm
+lm
+lm
+NB
+th
+th
+th
+TC
+TC
+TC
+TC
+TC
+TC
 "}
 (19,1,1) = {"
-nh
-nh
-nh
-nh
-nh
-nh
-Gx
-Gx
-Gx
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-It
-It
-It
-It
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Gx
-Gx
-Gx
-zD
-zD
-zD
-zD
-zD
-zD
+QG
+QG
+QG
+QG
+QG
+QG
+th
+th
+th
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+EZ
+td
+td
+td
+lm
+lm
+lm
+lm
+lm
+lm
+lm
+lm
+NB
+th
+th
+th
+TC
+TC
+TC
+TC
+TC
+TC
 "}
 (20,1,1) = {"
-nh
-nh
-nh
-nh
-nh
-nh
-Gx
-Gx
-Gx
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-It
-It
-It
-It
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Gx
-Gx
-Gx
-zD
-zD
-zD
-zD
-zD
-zD
+QG
+QG
+QG
+QG
+QG
+QG
+th
+th
+th
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+EZ
+td
+td
+gP
+lm
+lm
+lm
+lm
+lm
+lm
+lm
+lm
+NB
+th
+th
+th
+TC
+TC
+TC
+TC
+TC
+TC
 "}
 (21,1,1) = {"
-nh
-nh
-nh
-nh
-nh
-nh
-Gx
-Gx
-Gx
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-It
-It
-It
-It
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Gx
-Gx
-Gx
-zD
-zD
-st
-st
-st
-st
+QG
+QG
+QG
+QG
+QG
+QG
+th
+th
+th
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+EZ
+td
+td
+gP
+lm
+lm
+lm
+lm
+lm
+lm
+lm
+lm
+NB
+th
+th
+th
+TC
+TC
+IR
+IR
+IR
+IR
 "}
 (22,1,1) = {"
-nh
-nh
-nh
-nh
-nh
-nh
-Gx
-Gx
-Gx
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-GR
-It
-It
-It
-It
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Hm
-Gx
-Gx
-Gx
-zD
-zD
-st
-st
-st
-st
+QG
+QG
+QG
+QG
+QG
+QG
+th
+th
+th
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+EZ
+td
+td
+gP
+lm
+lm
+lm
+lm
+lm
+lm
+lm
+lm
+NB
+th
+th
+th
+TC
+TC
+IR
+IR
+IR
+IR
 "}
 (23,1,1) = {"
-nh
-nh
-nh
-nh
-nh
-nh
-Gx
-Gx
-Gx
-hi
-gM
-gM
-gM
-gM
-gM
-gM
-gM
-gM
-gM
-Ox
-Ox
-ae
-gh
-gh
-gh
-cU
-Sb
-dl
-Sb
-Sb
-Sb
-Gx
-Gx
-Gx
-zD
-zD
-st
-st
-st
-st
+QG
+QG
+QG
+QG
+QG
+QG
+th
+th
+th
+pK
+ZY
+ZY
+ZY
+ZY
+ZY
+ZY
+ZY
+yT
+yT
+Sd
+Sd
+Bx
+Fb
+Fb
+Fb
+IG
+NS
+pd
+NS
+NS
+IG
+th
+th
+th
+TC
+TC
+IR
+IR
+IR
+IR
 "}
 (24,1,1) = {"
-nh
-nh
-nh
-nh
-nh
-nh
-Gx
-Gx
-Gx
-hi
-FD
-FD
-FD
-FD
-FD
-FD
-FD
-FD
-gM
-Ox
-Ox
-tQ
-sg
-sg
-sg
-LW
-tO
-tO
-eM
-ea
-Sb
-Gx
-Gx
-Gx
-zD
-zD
-st
-st
-st
-st
+QG
+QG
+QG
+QG
+QG
+QG
+th
+th
+th
+pK
+hE
+ss
+ss
+ss
+ss
+yu
+TL
+TL
+yT
+Sd
+Sd
+yU
+ac
+ac
+ac
+xm
+wZ
+wZ
+EL
+xr
+NS
+th
+th
+th
+TC
+TC
+IR
+IR
+IR
+IR
 "}
 (25,1,1) = {"
-nh
-nh
-nh
-nh
-nh
-nh
-Gx
-Gx
-Gx
-hi
-FD
-FD
-FD
-FD
-FD
-FD
-FD
-FD
-gM
-Ox
-Ox
-tQ
-sg
-sg
-sg
-LW
-tO
-tO
-An
-bx
-Sb
-Gx
-Gx
-Gx
-zD
-zD
-st
-st
-st
-st
+QG
+QG
+QG
+QG
+QG
+QG
+th
+th
+th
+pK
+Ks
+Nb
+Nb
+Nb
+Nb
+OE
+TL
+TL
+Fi
+Sd
+Sd
+yU
+ac
+ac
+ac
+xm
+wZ
+wZ
+Ht
+im
+NS
+th
+th
+th
+TC
+TC
+IR
+IR
+IR
+IR
 "}
 (26,1,1) = {"
-nh
-nh
-nh
-nh
-nh
-nh
-Gx
-Gx
-Gx
-hi
-FD
-FD
-FD
-FD
-FD
-FD
-FD
-FD
-gM
-Ox
-Ox
-Iv
-sg
-sg
-sg
-LW
-tO
-HA
-cU
-cU
-cU
-Gx
-Gx
-Gx
-kH
-kH
-kH
-kH
-kH
-kH
+QG
+QG
+QG
+QG
+QG
+QG
+th
+th
+th
+pK
+Yg
+Nb
+Nb
+Nb
+Nb
+OE
+TL
+TL
+UK
+Sd
+Sd
+UR
+ac
+ac
+ac
+xm
+wZ
+Gi
+IG
+IG
+IG
+th
+th
+th
+fz
+fz
+fz
+fz
+fz
+fz
 "}
 (27,1,1) = {"
-nh
-nh
-nh
-nh
-nh
-nh
-Gx
-Gx
-Gx
-FD
-FD
-FD
-FD
-FD
-FD
-FD
-FD
-FD
-gM
-lD
-nO
-tQ
-sg
-sg
-sg
-LW
-tO
-tO
-SU
-gd
-cU
-Gx
-Gx
-Gx
-kH
-kH
-kH
-kH
-kH
-kH
+QG
+QG
+QG
+QG
+QG
+QG
+th
+th
+th
+VF
+mB
+hA
+hA
+hA
+hA
+Di
+TL
+TL
+HQ
+ek
+fr
+yU
+ac
+ac
+ac
+xm
+wZ
+wZ
+Hy
+uB
+IG
+th
+th
+th
+fz
+fz
+fz
+fz
+fz
+fz
 "}
 (28,1,1) = {"
-nh
-nh
-nh
-nh
-nh
-nh
-Gx
-Gx
-Gx
-FD
-FD
-FD
-FD
-FD
-FD
-FD
-FD
-FD
-gM
-ty
-pU
-tQ
-sg
-sg
-sg
-LW
-tO
-tO
-UC
-bx
-Sb
-Gx
-Gx
-Gx
-kH
-kH
-kH
-kH
-kH
-kH
+QG
+QG
+QG
+QG
+QG
+QG
+th
+th
+th
+VF
+Ks
+Nb
+Nb
+Nb
+Nb
+OE
+TL
+TL
+UK
+JO
+aY
+yU
+ac
+ac
+ac
+xm
+wZ
+wZ
+aK
+im
+NS
+th
+th
+th
+fz
+fz
+fz
+fz
+fz
+fz
 "}
 (29,1,1) = {"
-TS
-TS
-TS
-TS
-TS
-TS
-Gx
-Gx
-Gx
-FD
-FD
-FD
-FD
-FD
-FD
-FD
-FD
-FD
-gM
-Ox
-Ox
-ae
-sg
-sg
-sg
-ro
-ro
-Cu
-Cu
-ro
-ro
-Gx
-Gx
-Gx
-kH
-kH
-kH
-kH
-kH
-kH
+FV
+FV
+FV
+FV
+FV
+FV
+th
+th
+th
+VF
+Ks
+Nb
+Nb
+Nb
+Nb
+OE
+TL
+TL
+Fi
+Sd
+Sd
+Bx
+ac
+ac
+ac
+NJ
+NJ
+Qh
+Qh
+NJ
+NJ
+th
+th
+th
+fz
+fz
+fz
+fz
+fz
+fz
 "}
 (30,1,1) = {"
-TS
-TS
-TS
-TS
-TS
-TS
-Gx
-Gx
-Gx
-FD
-FD
-FD
-FD
-FD
-FD
-FD
-FD
-FD
-gM
-Ox
-Ox
-ae
-sg
-sg
-sg
-Cu
-il
-il
-il
-il
-ro
-Gx
-Gx
-Gx
-kH
-kH
-kH
-kH
-kH
-kH
+FV
+FV
+FV
+FV
+FV
+FV
+th
+th
+th
+VF
+cn
+BL
+BL
+BL
+BL
+xa
+ZA
+rG
+ZY
+Sd
+Sd
+Bx
+ac
+ac
+ac
+Qh
+um
+um
+um
+um
+NJ
+th
+th
+th
+fz
+fz
+fz
+fz
+fz
+fz
 "}
 (31,1,1) = {"
-TS
-TS
-TS
-TS
-TS
-TS
-Gx
-Gx
-Gx
-hi
-FD
-FD
-FD
-FD
-LS
-LS
-LS
-Gz
-Gz
-zY
-zY
-ae
-sg
-sg
-sg
-Cu
-il
-il
-il
-il
-ro
-Gx
-Gx
-Gx
-kH
-kH
-kH
-kH
-kH
-kH
+FV
+FV
+FV
+FV
+FV
+FV
+th
+th
+th
+pK
+TL
+TL
+TL
+TL
+TL
+co
+co
+qk
+qk
+tv
+tv
+Bx
+ac
+ac
+ac
+Qh
+um
+um
+um
+um
+NJ
+th
+th
+th
+fz
+fz
+fz
+fz
+fz
+fz
 "}
 (32,1,1) = {"
-TS
-TS
-TS
-TS
-TS
-TS
-Gx
-Gx
-Gx
-hi
-FD
-FD
-FD
-FD
-LS
-LS
-LS
-LS
-Gz
-Ox
-Ox
-tQ
-sg
-sg
-sg
-Cu
-il
-il
-il
-il
-ro
-Gx
-Gx
-Gx
-kH
-kH
-kH
-kH
-kH
-kH
+FV
+FV
+FV
+FV
+FV
+FV
+th
+th
+th
+pK
+TL
+TL
+TL
+TL
+co
+co
+mR
+mR
+Yu
+Sd
+Sd
+yU
+ac
+ac
+ac
+Qh
+um
+um
+um
+um
+NJ
+th
+th
+th
+fz
+fz
+fz
+fz
+fz
+fz
 "}
 (33,1,1) = {"
-Gx
-TS
-TS
-TS
-TS
-TS
-Gx
-Gx
-Gx
-hi
-hi
-FD
-FD
-FD
-LS
-LS
-LS
-LS
-LS
-Ox
-Ox
-JI
-sg
-sg
-sg
-ro
-il
-il
-il
-Cu
-ro
-Gx
-Gx
-Gx
-kH
-kH
-kH
-kH
-kH
-Gx
+th
+FV
+FV
+FV
+FV
+FV
+th
+th
+th
+pK
+pK
+TL
+TL
+TL
+Ho
+mR
+mR
+mR
+Yu
+Sd
+Sd
+fU
+ac
+ac
+ac
+NJ
+um
+um
+um
+Qh
+NJ
+th
+th
+th
+fz
+fz
+fz
+fz
+fz
+th
 "}
 (34,1,1) = {"
-Gx
-Gx
-TS
-TS
-TS
-Gx
-Gx
-Gx
-Gx
-Gx
-hi
-hi
-FD
-FD
-Gz
-LS
-LS
-LS
-LS
-Ox
-Ox
-tQ
-sg
-sg
-sg
-ro
-il
-il
-Cu
-Cu
-Gx
-Gx
-Gx
-Gx
-Gx
-kH
-kH
-kH
-Gx
-Gx
+th
+th
+FV
+FV
+FV
+th
+th
+th
+th
+th
+pK
+pK
+TL
+TL
+qk
+mR
+mR
+mR
+Yu
+Sd
+Sd
+yU
+ac
+ac
+ac
+NJ
+um
+um
+Qh
+Qh
+th
+th
+th
+th
+th
+fz
+fz
+fz
+th
+th
 "}
 (35,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-hi
-hi
-FD
-Gz
-LS
-LS
-Gz
-Gz
-Ox
-Ox
-JI
-sg
-sg
-sg
-ro
-sE
-ro
-ro
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+pK
+pK
+TL
+qk
+Ni
+mR
+qk
+qk
+Sd
+Sd
+fU
+ac
+ac
+ac
+NJ
+DZ
+NJ
+NJ
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (36,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-YZ
-Uf
-Uf
-YZ
-YZ
-YZ
-vH
-Ee
-Ee
-tQ
-sg
-sg
-sg
-Zu
-il
-ro
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+FI
+PE
+PE
+FI
+FI
+FI
+Oz
+sv
+sv
+yU
+ac
+ac
+ac
+EU
+um
+NJ
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (37,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-YZ
-eG
-DJ
-DJ
-eG
-YZ
-we
-Ee
-og
-ZG
-ZG
-lM
-lM
-TP
-TP
-lM
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+FI
+JG
+SG
+SG
+JG
+FI
+cE
+sv
+fe
+Uk
+Uk
+Ij
+Ij
+Kl
+Kl
+Ij
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (38,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-YZ
-eG
-eG
-eG
-eG
-YZ
-YZ
-Ee
-Ee
-AK
-Pn
-TP
-Eq
-uo
-Eq
-lM
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+FI
+JG
+JG
+JG
+JG
+FI
+FI
+sv
+sv
+yi
+fH
+Kl
+Qd
+Bz
+Qd
+Ij
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (39,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Ae
-Uf
-eG
-eG
-Cj
-Lq
-de
-pR
-Ee
-Ee
-DB
-HS
-TP
-FB
-Vl
-Eq
-lM
-Ae
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+rI
+PE
+JG
+JG
+Qm
+lp
+Ya
+ZT
+sv
+sv
+IE
+RX
+Kl
+vJ
+Ag
+Qd
+Ij
+rI
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (40,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-oB
-Ae
-Uf
-KY
-YF
-NR
-eG
-YZ
-YZ
-Ee
-Ee
-AK
-IR
-lM
-Eq
-hC
-Nh
-lM
-Ae
-oB
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+XG
+rI
+PE
+aT
+Qq
+zY
+JG
+FI
+FI
+sv
+sv
+yi
+pl
+Ij
+Qd
+qP
+ny
+Ij
+rI
+XG
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (41,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Ae
-Ae
-Ae
-Uf
-YZ
-YZ
-Uf
-Uf
-YZ
-aE
-Ee
-vE
-ZG
-ZG
-ZG
-xk
-xk
-Bf
-lM
-Ae
-Ae
-Ae
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+rI
+rI
+rI
+PE
+FI
+FI
+PE
+PE
+FI
+VM
+sv
+cC
+Uk
+Uk
+Uk
+cD
+cD
+sA
+Ij
+rI
+rI
+rI
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (42,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Ae
-Ae
-Ae
-qw
-Ee
-Ee
-Ee
-Ee
-Ee
-Ee
-Ee
-Ee
-Ee
-Ee
-Ee
-Pp
-FB
-lK
-lM
-Ae
-Ae
-Ae
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+rI
+rI
+rI
+nn
+sv
+sv
+sv
+sv
+sv
+sv
+sv
+sv
+sv
+sv
+sv
+TZ
+vJ
+Bo
+Ij
+rI
+rI
+rI
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (43,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Ae
-Ae
-Ae
-qw
-Ee
-Ee
-Ee
-Ee
-Ee
-Ee
-Ee
-Ee
-Ee
-eI
-eI
-Aw
-Gd
-xB
-lM
-Ae
-Ae
-Ae
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+rI
+rI
+rI
+nn
+sv
+sv
+sv
+sv
+sv
+sv
+sv
+sv
+sv
+vA
+vA
+oi
+Uv
+dm
+Ij
+rI
+rI
+rI
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (44,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Pe
-Ae
-Ae
-ml
-Ru
-dh
-ET
-ET
-ml
-ml
-AS
-te
-rZ
-wD
-kZ
-rZ
-rZ
-rZ
-Gn
-Ae
-Ae
-iI
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+RL
+rI
+rI
+fT
+fZ
+IS
+uf
+uf
+fT
+fT
+yx
+qx
+UF
+Ce
+ju
+UF
+UF
+UF
+Pu
+rI
+rI
+IP
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (45,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Pe
-Ae
-Ae
-ml
-Ba
-MZ
-ml
-fv
-On
-ml
-nN
-Uk
-rZ
-WD
-Rm
-Gn
-zJ
-aM
-rZ
-Ae
-Ae
-iI
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+RL
+rI
+rI
+fT
+Hb
+zg
+fT
+KH
+xn
+fT
+ea
+Tl
+UF
+Tg
+HH
+Pu
+bE
+CX
+UF
+rI
+rI
+IP
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (46,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Pe
-Ae
-Ae
-ET
-QT
-fK
-ml
-ET
-zo
-ET
-nN
-lC
-Gn
-is
-OK
-Gn
-JL
-aM
-Gn
-Ae
-Ae
-iI
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+RL
+rI
+rI
+uf
+vs
+Fn
+fT
+uf
+Aa
+uf
+ea
+by
+Pu
+DH
+pb
+Pu
+iL
+CX
+Pu
+rI
+rI
+IP
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (47,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Ae
-Ae
-Ae
-ET
-wg
-zH
-oz
-rW
-zH
-ET
-br
-vG
-Gn
-rZ
-Iq
-Gn
-rZ
-bR
-rZ
-Ae
-Ae
-Ae
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+rI
+rI
+rI
+uf
+FU
+Ww
+Wr
+pZ
+Ww
+uf
+aE
+Da
+Pu
+UF
+kH
+Pu
+UF
+tD
+UF
+rI
+rI
+rI
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (48,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Ae
-Ae
-Ae
-ml
-zj
-zH
-zH
-zH
-qz
-ET
-nN
-lC
-rZ
-jX
-OK
-dG
-OK
-OK
-rZ
-Ae
-Ae
-Ae
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+rI
+rI
+rI
+fT
+nl
+Ww
+Ww
+Ww
+CW
+uf
+ea
+by
+UF
+Bm
+pb
+HZ
+pb
+pb
+UF
+rI
+rI
+rI
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (49,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Ae
-Yn
-Ae
-ml
-bA
-zH
-im
-HN
+th
+th
+th
+th
+th
+th
+th
+th
+th
+rI
+oa
+rI
+fT
+GR
+Ww
+yR
+Kr
+SO
+fT
+ea
+by
+Pu
+kz
+xu
+zJ
+wT
 do
-ml
-nN
-lC
-Gn
-kv
-qK
-EI
-UY
-nn
-rZ
-Ae
-Yn
-Ae
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+UF
+rI
+oa
+rI
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (50,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Ae
-Ae
-ET
-ET
-ET
-ml
-vR
-ET
-ml
-kE
-TN
-rZ
-rZ
-hF
-Gn
-Gn
-Gn
-rZ
-Ae
-Ae
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+rI
+rI
+uf
+uf
+uf
+fT
+wN
+uf
+fT
+jp
+Of
+UF
+UF
+CQ
+Pu
+Pu
+Pu
+UF
+rI
+rI
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (51,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Ae
-ow
-uL
-LK
-dJ
-bu
-fD
-od
-fA
-iT
-od
-fD
-lG
-dJ
-LK
-Jt
-ow
-Ae
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+rI
+Zo
+Ee
+yI
+La
+wS
+wb
+Rz
+ak
+tV
+Rz
+wb
+fC
+La
+yI
+CV
+Zo
+rI
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (52,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-ow
-ow
-ao
-MP
-dJ
-dJ
-dJ
-oS
-Fd
-dJ
-dJ
-dJ
-MP
-CB
-ow
-ow
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+Zo
+Zo
+hj
+ru
+La
+La
+La
+Xf
+mT
+La
+La
+La
+ru
+EF
+Zo
+Zo
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (53,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-ow
-ow
-ce
-LK
-dJ
-dJ
-dJ
-dJ
-dJ
-dJ
-LK
-kU
-ow
-ow
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+Zo
+Zo
+Vt
+yI
+La
+La
+La
+La
+La
+La
+yI
+ST
+Zo
+Zo
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (54,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-ow
-ow
-Uc
-MP
-tA
-jr
-LK
-nJ
-bj
-KE
-ow
-ow
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+Zo
+Zo
+UO
+ru
+WJ
+cX
+yI
+yn
+Rp
+yr
+Zo
+Zo
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (55,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-ow
-ow
-ow
-gp
-Es
-Zt
-NE
-ow
-ow
-ow
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+Zo
+Zo
+Zo
+SM
+da
+Er
+su
+Zo
+Zo
+Zo
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
 (56,1,1) = {"
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-ow
-ow
-ow
-ow
-ow
-ow
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
 "}
