@@ -1,0 +1,52 @@
+{
+	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
+	"prefix": "NT-C",
+	"namelists": ["BRITISH_NAVY"],
+	"map_name": "Dreadnought-class Battleship",
+	"map_short_name": "Dreadnought-class",
+	"map_path": "_maps/shuttles/shiptest/voidcrew/dreadnought.dmm",
+	"map_id": "dreadnought",
+	"limit": 1,
+	"job_slots": {
+		"Fleet Admiral": {
+			"outfit": "/datum/outfit/job/captain/nt/heron",
+			"officer": true,
+			"slots": 1
+		},
+		"Lieutenant": {
+			"outfit": "/datum/outfit/job/head_of_personnel/nt",
+			"officer": true,
+			"slots": 1
+		},
+		"Field Commander": {
+			"outfit": "/datum/outfit/job/hos",
+			"officer": true,
+			"slots": 1
+		},
+		"Security Guard": {
+			"outfit": "/datum/outfit/job/security/nanotrasen",
+			"slots": 1
+		},
+		"Trooper":{
+			"outfit": "/datum/outfit/job/security/nanotrasen/ert",
+			"slots": 4
+		},
+		"Engine Technician": {
+			"outfit": "/datum/outfit/job/engineer",
+			"slots": 2
+		},
+		"Medical Doctor":{
+			"outfit": "/datum/outfit/job/doctor",
+			"slots": 2
+		},
+
+		"Atmospheric Technician": 1,
+		"Scientist": 1,
+		"Quartermaster": 1,
+		"Cargo Technician": 2,
+		"Cook": 1,
+		"Janitor": 1,
+		"Assistant": 3
+	},
+	"enabled":false
+}
