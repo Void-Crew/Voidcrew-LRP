@@ -58,3 +58,13 @@
 	glasses = /obj/item/clothing/glasses/sunglasses
 	head = /obj/item/clothing/head/cowboy/sec
 
+/datum/outfit/job/quartermaster/soviet
+	name = "Soviet Logistics Coordinator"
+
+	uniform = /obj/item/clothing/under/suit/qm
+	alt_uniform = null
+	shoes = /obj/item/clothing/shoes/jackboots
+	l_hand = null
+	neck = /obj/item/clothing/neck/tie/brown
+	head = /obj/item/clothing/head/beret/qm
+	backpack_contents = list(/obj/item/modular_computer/tablet/preset/cargo=1, /obj/item/clipboard=1)

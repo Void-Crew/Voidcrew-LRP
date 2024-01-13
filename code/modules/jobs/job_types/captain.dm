@@ -65,3 +65,15 @@
 	head = /obj/item/clothing/head/centhat
 	suit = /obj/item/clothing/suit/armor/bulletproof
 	ears = /obj/item/radio/headset/headset_cent/commander
+
+/datum/outfit/job/captain/soviet
+	name = "Soviet Captain"
+	uniform =  /obj/item/clothing/under/costume/russian_officer
+	alt_uniform = /obj/item/clothing/under/costume/soviet //WS Edit - Alt Uniforms
+	shoes = /obj/item/clothing/shoes/combat
+	head = /obj/item/clothing/head/ushanka
+	backpack_contents = list(/obj/item/melee/classic_baton/telescopic=1, /obj/item/station_charter=1)
+
+	accessory = /obj/item/clothing/accessory/medal/silver/valor
+
+	chameleon_extras = list(/obj/item/gun/ballistic/rifle/boltaction, /obj/item/stamp/captain)
