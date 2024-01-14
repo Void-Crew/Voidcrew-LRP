@@ -416,24 +416,24 @@
 	floor_tile = /obj/item/stack/tile/iron/tech/techmaint
 
 /turf/open/floor/iron/patterned
-	icon_state = "tile_full"
-	base_icon_state = "tile_full"
+	icon_state = "floor"
+	base_icon_state = "floor"
 /turf/open/floor/iron/patterned/cargo_one
-	icon_state = "cargo_one_full"
-	base_icon_state = "cargo_one_full"
+	icon_state = "floor"
+	base_icon_state = "floor"
 /turf/open/floor/iron/patterned/brushed
-	icon_state = "kafel_full"
-	base_icon_state = "kafel_full"
+	icon_state = "floor"
+	base_icon_state = "floor"
 /turf/open/floor/iron/patterned/monofloor
-	icon_state = "steel_monofloor"
-	base_icon_state = "steel_monofloor"
+	icon_state = "floor"
+	base_icon_state = "floor"
 	color = null
 /turf/open/floor/iron/patterned/grid
-	icon_state = "grid"
-	base_icon_state = "grid"
+	icon_state = "floor"
+	base_icon_state = "floor"
 /turf/open/floor/iron/patterned/ridged
-	icon_state = "ridged"
-	base_icon_state = "ridged"
+	icon_state = "floor"
+	base_icon_state = "floor"
 
 /turf/open/floor/iron/cult
 	icon_state = "cult"
