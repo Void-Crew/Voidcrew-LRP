@@ -8,7 +8,7 @@
 /datum/outfit/centcom/spec_ops
 	name = "Special Ops Officer"
 
-	uniform = /obj/item/clothing/under/rank/centcom/official
+	uniform = /obj/item/clothing/under/rank/centcom/commander
 	suit = /obj/item/clothing/suit/space/officer
 	shoes = /obj/item/clothing/shoes/combat/swat
 	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
