@@ -28,14 +28,14 @@
 /obj/structure/catwalk/over/plated_catwalk
 	name = "plated catwalk"
 	icon_state = "catwalk_platedwhite"
-	plated_tile = /obj/item/stack/tile/plasteel
+	plated_tile = /obj/item/stack/tile/iron
 
 /obj/structure/catwalk/over/plated_catwalk/dark
-	plated_tile = /obj/item/stack/tile/plasteel/dark
+	plated_tile = /obj/item/stack/tile/iron/dark
 
 /obj/structure/catwalk/over/plated_catwalk/white
 	name = "plated catwalk"
-	plated_tile = /obj/item/stack/tile/plasteel/white
+	plated_tile = /obj/item/stack/tile/iron/white
 
 /obj/structure/catwalk/update_icon()
 	..()
@@ -72,7 +72,7 @@
 		update_icon()
 		return
 	if(istype(C, /obj/item/stack/tile) && !plated_tile)
-		var/obj/item/stack/tile/plasteel/ST = C
+		var/obj/item/stack/tile/iron/ST = C
 		to_chat(user, "<span class='notice'>Placing tile...</span>")
 		if(do_after(user, 30, target = src))
 			to_chat(user, "<span class='notice'>You plate \the [src]</span>")

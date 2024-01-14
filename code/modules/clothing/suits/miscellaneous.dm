@@ -53,9 +53,15 @@
 	item_state = "pirate"
 	allowed = list(/obj/item/melee/transforming/energy/sword/saber/pirate, /obj/item/clothing/glasses/eyepatch, /obj/item/reagent_containers/food/drinks/bottle/rum)
 
+/obj/item/clothing/suit/pirate/hop
+	name = "pirate first mate's coat"
+	desc = "Yarr. Ye' better get that paperwork done!"
+	icon_state = "fopirate"
+	item_state = "fopirate"
+
 /obj/item/clothing/suit/pirate/captain
-	name = "pirate captain coat"
-	desc = "Yarr."
+	name = "pirate captain's coat"
+	desc = "These people are sometimes feared by even neutral factions."
 	icon_state = "hgpirate"
 	item_state = "hgpirate"
 

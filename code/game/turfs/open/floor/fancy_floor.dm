@@ -85,6 +85,18 @@
 /turf/open/floor/wood/airless
 	initial_gas_mix = AIRLESS_ATMOS
 
+/turf/open/floor/wood/tile
+	icon_state = "wood_tile"
+	floor_tile = /obj/item/stack/tile/wood/tile
+
+/turf/open/floor/wood/parquet
+	icon_state = "wood_parquet"
+	floor_tile = /obj/item/stack/tile/wood/parquet
+
+/turf/open/floor/wood/large
+	icon_state = "wood_large"
+	floor_tile = /obj/item/stack/tile/wood/large
+
 /turf/open/floor/grass
 	name = "grass patch"
 	desc = "You can't tell if this is real grass or just cheap plastic imitation."

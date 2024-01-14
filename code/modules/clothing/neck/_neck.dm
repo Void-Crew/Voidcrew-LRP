@@ -129,6 +129,16 @@
 	desc = "A neosilk clip-on tie. This one is in the colors of the ally flag."
 	icon_state = "ally_tie"
 
+/obj/item/clothing/neck/tie/solgov
+	name = "SolGov tie"
+	desc = "A neosilk clip-on tie. This one is in the colors of Sol Government blue."
+	icon_state = "solgovtie"
+
+/obj/item/clothing/neck/tie/solgov/terragov
+	name = "TerraGov tie"
+	desc = "A neosilk clip-on tie. This one is in the colors of Terra Government green."
+	icon_state = "terragovtie"
+
 /obj/item/clothing/neck/stethoscope
 	name = "stethoscope"
 	desc = "An outdated medical apparatus for listening to the sounds of the human body. It also makes you look like you know what you're doing."

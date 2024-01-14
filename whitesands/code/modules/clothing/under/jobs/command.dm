@@ -124,10 +124,15 @@
 /obj/item/clothing/under/rank/command/captain/nt/skirt
 	name = "captain's jumpskirt"
 	desc = "It's a blue jumpskirt with some gold markings denoting the rank of \"Captain\"."
-	icon_state = "captain_nt_alt_skirt"
+	icon_state = "captain_nt_skirt"
 	body_parts_covered = CHEST|GROIN|ARMS
 	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
+
+/obj/item/clothing/under/rank/command/captain/nt/skirt/alt
+	name = "captain's jumpskirt"
+	desc = "It's a blue jumpskirt with some gold markings denoting the rank of \"Captain\"."
+	icon_state = "captain_nt_alt_skirt"
 
 //Lieutenant
 

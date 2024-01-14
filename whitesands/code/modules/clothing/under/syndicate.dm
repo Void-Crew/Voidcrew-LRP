@@ -1,6 +1,6 @@
 /obj/item/clothing/under/syndicate/intern
-	name = "red polo and khaki pants"
-	desc = "A non-descript and slightly suspicious looking polo paired with a respectable yet also suspicious pair of khaki pants."
+	name = "Syndicate turleneck overalls"
+	desc = "A non-descript and slightly suspicious looking pair of overalls and a red turtleneck."
 	icon_state = "jake"
 	alt_covers_chest = TRUE
 

@@ -164,3 +164,21 @@
 	icon_state = "captain_parade"
 	item_state = "by_suit"
 	can_adjust = FALSE
+
+/obj/item/clothing/under/pirate
+	name = "pirate crew's suit"
+	desc = "Latest in pirate fashion. Wait.."
+	icon = 'icons/obj/clothing/under/security.dmi'
+	mob_overlay_icon = 'icons/mob/clothing/under/security.dmi'
+	icon_state = "officertanclothes"
+	item_state = "officertanclothes"
+
+/obj/item/clothing/under/pirate/hop
+	name = "pirate first mate's suit"
+	icon_state = "wardentanclothes"
+	item_state = "wardentanclothes"
+
+/obj/item/clothing/under/pirate/cap
+	name = "pirate captain's suit"
+	icon_state = "hostanclothes"
+	item_state = "hostanclothes"

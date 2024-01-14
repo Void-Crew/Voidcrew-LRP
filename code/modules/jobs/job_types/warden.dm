@@ -34,7 +34,7 @@
 
 	belt = /obj/item/pda/warden
 	ears = /obj/item/radio/headset/headset_sec/alt
-	uniform = /obj/item/clothing/under/rank/security/warden
+	uniform = /obj/item/clothing/under/rank/security/red/warden
 	alt_uniform = /obj/item/clothing/under/rank/security/warden
 	shoes = /obj/item/clothing/shoes/jackboots
 	alt_suit = /obj/item/clothing/suit/armor/vest/security/warden

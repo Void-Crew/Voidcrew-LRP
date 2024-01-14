@@ -8,7 +8,7 @@
 /datum/outfit/centcom/spec_ops
 	name = "Special Ops Officer"
 
-	uniform = /obj/item/clothing/under/syndicate
+	uniform = /obj/item/clothing/under/rank/centcom/official
 	suit = /obj/item/clothing/suit/space/officer
 	shoes = /obj/item/clothing/shoes/combat/swat
 	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
@@ -85,7 +85,7 @@
 	l_hand = /obj/item/reagent_containers/glass/bucket
 	r_pocket = /obj/item/grenade/chem_grenade/cleaner
 	l_pocket = /obj/item/grenade/chem_grenade/cleaner
-	backpack_contents = list(/obj/item/stack/tile/plasteel=6)
+	backpack_contents = list(/obj/item/stack/tile/iron=6)
 
 /datum/outfit/tournament/janitor/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	if(visualsOnly)
@@ -242,18 +242,23 @@
 	name = "CentCom Commander"
 
 	uniform = /obj/item/clothing/under/rank/centcom/commander
-	suit = /obj/item/clothing/suit/armor/bulletproof
+	suit = /obj/item/clothing/suit/armor/centcom_formal
 	shoes = /obj/item/clothing/shoes/combat/swat
 	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
 	ears = /obj/item/radio/headset/headset_cent/commander
-	glasses = /obj/item/clothing/glasses/eyepatch
-	mask = /obj/item/clothing/mask/cigarette/cigar/cohiba
-	head = /obj/item/clothing/head/centhat
-	belt = /obj/item/gun/ballistic/revolver/mateba
-	r_pocket = /obj/item/lighter
+	head = /obj/item/clothing/head/centcom_cap
+	belt = /obj/item/storage/belt/sabre
+	suit_store = /obj/item/gun/ballistic/revolver/mateba
+	r_pocket = /obj/item/melee/classic_baton/telescopic
 	l_pocket = /obj/item/ammo_box/a357
 	back = /obj/item/storage/backpack/satchel/leather
 	id = /obj/item/card/id/centcom
+
+	backpack_contents = list(
+		/obj/item/storage/box/survival/engineer=1,\
+		/obj/item/door_remote/omni=1,\
+		/obj/item/storage/fancy/cigarettes/cigars/cohiba=1,\
+		/obj/item/lighter=1)
 
 /datum/outfit/centcom/commander/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	if(visualsOnly)
@@ -417,6 +422,18 @@
 /datum/outfit/centcom/death_commando/officer
 	name = "Death Commando Officer"
 	head = /obj/item/clothing/head/helmet/space/beret
+
+/datum/outfit/centcom/death_commando/officer/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	if(visualsOnly)
+		return
+
+	var/obj/item/card/id/W = H.wear_id
+	W.access = get_all_accesses()//They get full station access.
+	W.access += get_centcom_access("CentCom Commander")//Let's add their ACTUAL WORTHY ACCESS.
+	W.assignment = "Death Commando"
+	W.registered_name = H.real_name
+	W.update_label()
+	..()
 
 /datum/outfit/chrono_agent
 	name = "Timeline Eradication Agent"

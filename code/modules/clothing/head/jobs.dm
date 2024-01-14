@@ -26,8 +26,8 @@
 
 //Captain
 /obj/item/clothing/head/caphat
-	name = "captain's peaked cap"
-	desc = "It's good being the king."
+	name = "captain's parade cap"
+	desc = "It's good being the king.. Of a singular shuttle."
 	icon_state = "captain"
 	item_state = "that"
 	flags_inv = 0
@@ -38,11 +38,14 @@
 //Captain: This is no longer space-worthy
 /obj/item/clothing/head/caphat/parade
 	name = "captain's parade cap"
-	desc = "Worn only by Captains with an abundance of class."
-	icon_state = "capcap"
-
+	desc = "It's good being the king."
+	icon_state = "capcap_nt"
 	dog_fashion = null
 
+/obj/item/clothing/head/caphat/parade/cent
+	name = "CentCom captain's parade cap"
+	desc = "It's good being the king. But slightly better."
+	icon_state = "capcap_cent"
 
 //Head of Personnel
 /obj/item/clothing/head/hopcap
@@ -55,6 +58,15 @@
 /obj/item/clothing/head/hopcap/nt
 	icon_state = "hopcap_nt"
 	dog_fashion = /datum/dog_fashion/head/head_of_personnel
+
+/obj/item/clothing/head/ltcap
+	name = "lieutenant's cap"
+	icon_state = "ltcap"
+	desc = "The symbol of bridge superiority."
+	armor = list("melee" = 25, "bullet" = 15, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
+
+/obj/item/clothing/head/ltcap/nt
+	icon_state = "ltcap_nt"
 
 //Chaplain
 /obj/item/clothing/head/nun_hood

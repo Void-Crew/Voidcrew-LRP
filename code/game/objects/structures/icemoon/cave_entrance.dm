@@ -771,7 +771,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 			new /mob/living/simple_animal/hostile/construct/juggernaut/hostile(loc)
 			new /mob/living/simple_animal/hostile/construct/wraith/hostile(loc)
 			new /obj/structure/destructible/cult/pylon(loc)
-			new /turf/open/floor/plasteel/cult(loc)
+			new /turf/open/floor/iron/cult(loc)
 		if(17)//the backroom freezer
 			visible_message("<span class='userdanger'>The faint hallogen glow of a faraway kitchen greets you.</span>")
 			if(prob(45))
@@ -801,7 +801,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 				new /obj/item/flamethrower/full(loc)
 				new /mob/living/simple_animal/hostile/killertomato(loc)
 			new /mob/living/simple_animal/hostile/alien/maid(loc)
-			new /turf/open/floor/plasteel/kitchen_coldroom/freezerfloor(loc)
+			new /turf/open/floor/iron/kitchen_coldroom/freezerfloor(loc)
 		if(18)//legion miniboss
 			visible_message("<span class='userdanger'>The ground quakes. An immense figure reaches through the portal, crouching to squeeze through.</span>")
 			playsound(loc,'sound/magic/knock.ogg', 100, FALSE, 50, TRUE, TRUE)

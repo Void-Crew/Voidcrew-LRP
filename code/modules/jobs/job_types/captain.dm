@@ -37,10 +37,13 @@
 	gloves = /obj/item/clothing/gloves/color/captain
 	uniform =  /obj/item/clothing/under/rank/command/captain
 	alt_uniform = /obj/item/clothing/under/rank/command/captain/parade //WS Edit - Alt Uniforms
-	dcoat = /obj/item/clothing/suit/hooded/wintercoat/captain //WS Edit - Alt Uniforms
-	shoes = /obj/item/clothing/shoes/sneakers/brown
+	suit = /obj/item/clothing/suit/armor/vest/capcarapace
+	alt_suit = /obj/item/clothing/suit/armor/vest/capcarapace/alt
+	shoes = /obj/item/clothing/shoes/laceup
 	head = /obj/item/clothing/head/caphat
 	backpack_contents = list(/obj/item/melee/classic_baton/telescopic=1, /obj/item/station_charter=1)
+
+	implants = list(/obj/item/implant/mindshield)
 
 	backpack = /obj/item/storage/backpack/captain
 	satchel = /obj/item/storage/backpack/satchel/cap
@@ -58,10 +61,20 @@
 	suit = /obj/item/clothing/suit/space/hardsuit/swat/captain
 	suit_store = /obj/item/tank/internals/oxygen
 
+/datum/outfit/job/captain/nt
+	name = "Captain (Nanotrasen)"
+
+	uniform =  /obj/item/clothing/under/rank/command/captain/nt
+	head = /obj/item/clothing/head/caphat/parade
+	suit = /obj/item/clothing/suit/armor/vest/capcarapace/nt
+	alt_suit = /obj/item/clothing/suit/armor/vest/capcarapace/alt/nt
+
+
 /datum/outfit/job/captain/nt/heron
 	name = "Captain (Nanotrasen Fleet Captain)"
 
-	uniform = /obj/item/clothing/under/rank/centcom/officer
-	head = /obj/item/clothing/head/centhat
-	suit = /obj/item/clothing/suit/armor/bulletproof
+	uniform = /obj/item/clothing/under/rank/centcom/official
+	head = /obj/item/clothing/head/caphat/parade/cent
+	shoes = /obj/item/clothing/shoes/jackboots
+	suit = /obj/item/clothing/suit/armor/vest/capcarapace/centcom
 	ears = /obj/item/radio/headset/headset_cent/commander

@@ -56,9 +56,9 @@ Contains:
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 
 /obj/item/clothing/head/helmet/space/beret
-	name = "officer's beret"
+	name = "CentCom officer's beret"
 	desc = "An armored beret commonly used by special operations officers. Uses advanced force field technology to protect the head from space."
-	icon_state = "beret_badge"
+	icon_state = "centberet_space"
 	dynamic_hair_suffix = "+generic"
 	dynamic_fhair_suffix = "+generic"
 	flags_inv = 0
@@ -66,12 +66,13 @@ Contains:
 	strip_delay = 130
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
 	resistance_flags = FIRE_PROOF | ACID_PROOF
+	flags_cover = null
 
 /obj/item/clothing/suit/space/officer
-	name = "officer's jacket"
+	name = "CentCom officer's coat"
 	desc = "An armored, space-proof jacket used in special operations."
-	icon_state = "detective"
-	item_state = "det_suit"
+	icon_state = "centcom_coat"
+	item_state = "g_suit"
 	blood_overlay_type = "coat"
 	slowdown = 0
 	flags_inv = 0

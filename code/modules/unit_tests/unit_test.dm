@@ -26,7 +26,7 @@ GLOBAL_VAR(test_log)
 	var/turf/run_loc_top_right
 
 	/// The type of turf to allocate for the testing zone
-	var/test_turf_type = /turf/open/floor/plasteel
+	var/test_turf_type = /turf/open/floor/iron
 
 	//internal shit
 	var/focus = FALSE
@@ -43,7 +43,7 @@ GLOBAL_VAR(test_log)
 		mapzone = SSmapping.create_map_zone("Integration Test Mapzone")
 		var/datum/virtual_level/vlevel = SSmapping.create_virtual_level("Integration Test Virtual Level", ZTRAITS_STATION, mapzone, width, height, ALLOCATION_FREE)
 		vlevel.reserve_margin(2)
-		vlevel.fill_in(/turf/open/floor/plasteel, /area/testroom)
+		vlevel.fill_in(/turf/open/floor/iron, /area/testroom)
 
 	allocated = new
 	var/datum/virtual_level/vlevel = mapzone.virtual_levels[1]
