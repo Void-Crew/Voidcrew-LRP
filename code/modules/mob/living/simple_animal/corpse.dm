@@ -115,25 +115,27 @@
 
 
 /obj/effect/mob_spawn/human/corpse/russian/ranged
+	name = "Russian Rifleman"
 	outfit = /datum/outfit/russiancorpse/ranged
 
 /datum/outfit/russiancorpse/ranged
-	name = "Ranged Russian Corpse"
+	name = "Russian Rifleman Corpse"
 	head = /obj/item/clothing/head/ushanka
 
 
 /obj/effect/mob_spawn/human/corpse/russian/ranged/trooper
+	name = "Russian Soldier"
 	outfit = /datum/outfit/russiancorpse/ranged/trooper
 
 /datum/outfit/russiancorpse/ranged/trooper
-	name = "Ranged Russian Trooper Corpse"
+	name = "Russian Soldier Corpse"
 	uniform = /obj/item/clothing/under/syndicate/camo
 	suit = /obj/item/clothing/suit/armor/bulletproof
 	shoes = /obj/item/clothing/shoes/combat
 	gloves = /obj/item/clothing/gloves/tackler/combat
 	ears = /obj/item/radio/headset
 	head = /obj/item/clothing/head/helmet/alt
-	mask = /obj/item/clothing/mask/balaclava
+	mask = /obj/item/clothing/mask/russian_balaclava
 
 
 /obj/effect/mob_spawn/human/corpse/russian/ranged/officer
@@ -148,6 +150,17 @@
 	ears = /obj/item/radio/headset
 	head = /obj/item/clothing/head/ushanka
 
+/obj/effect/mob_spawn/human/corpse/russian/ranged/automatic
+	name = "Russian Trooper"
+	outfit = /datum/outfit/russiancorpse/automatic
+
+/datum/outfit/russiancorpse/automatic
+	name = "Russian Trooper Corpse"
+	suit = /obj/item/clothing/suit/armor/vest/russian_coat
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/tackler/combat
+	ears = /obj/item/radio/headset
+	head = /obj/item/clothing/head/helmet/rus_ushanka
 
 /obj/effect/mob_spawn/human/corpse/wizard
 	name = "Space Wizard Corpse"
