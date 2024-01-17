@@ -83,6 +83,14 @@
 			toConstruct = /obj/structure/table/reinforced/titaniumglass
 		else if(istype(I, /obj/item/stack/sheet/plasmarglass))
 			toConstruct = /obj/structure/table/reinforced/plasmarglass
+		else if(istype(I, /obj/item/stack/sheet/mineral/silver))
+			toConstruct = /obj/structure/table/optable
+		else if(istype(I, /obj/item/stack/sheet/glass))
+			toConstruct = /obj/structure/table/glass
+		else if(istype(I, /obj/item/stack/sheet/metal))
+			toConstruct = /obj/structure/table
+		else if(istype(I, /obj/item/stack/sheet/plasteel))
+			toConstruct = /obj/structure/table/reinforced
 
 		if (toConstruct)
 			if(material.get_amount() < 1)
