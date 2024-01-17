@@ -154,11 +154,13 @@
 /turf/open/floor/wood/large,
 /area/ruin/unpowered)
 "fu" = (
-/obj/structure/fluff/paper/stack{
-	dir = 10
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
 	},
-/mob/living/simple_animal/hostile/nanotrasen/ranged/smg,
-/turf/open/floor/wood/large,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "fB" = (
 /obj/effect/turf_decal/siding/white{
@@ -173,8 +175,15 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 8
 	},
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 8
+	},
 /area/ruin/unpowered)
 "fJ" = (
 /obj/effect/turf_decal/industrial/warning{
@@ -297,7 +306,7 @@
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
 	},
-/mob/living/simple_animal/hostile/nanotrasen/ranged,
+/mob/living/simple_animal/hostile/nanotrasen/ranged/shotgun,
 /turf/open/floor/iron,
 /area/ruin/unpowered)
 "iT" = (
@@ -338,8 +347,15 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 6
 	},
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 8
+	},
 /area/ruin/unpowered)
 "ku" = (
 /obj/structure/sign/poster/official/nanotrasen_logo{
@@ -649,6 +665,9 @@
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4
 	},
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/ruin/unpowered)
 "tu" = (
@@ -842,9 +861,8 @@
 /turf/open/floor/iron/smooth,
 /area/ruin/unpowered)
 "AO" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
+/mob/living/simple_animal/hostile/nanotrasen/ranged/shotgun,
+/turf/open/floor/wood/large,
 /area/ruin/unpowered)
 "Bb" = (
 /obj/structure/table/reinforced/rglass,
@@ -984,8 +1002,8 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/obj/machinery/door/airlock/medical/glass{
-	name = "Pharmaceuticals Wing"
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
 	},
 /turf/open/floor/iron/dark/smooth_half{
 	dir = 8
@@ -1269,8 +1287,15 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
 	},
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 8
+	},
 /area/ruin/unpowered)
 "QP" = (
 /obj/effect/turf_decal/siding/white,
@@ -1294,15 +1319,6 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/herringbone,
-/area/ruin/unpowered)
-"RV" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 8
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Sh" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -1436,9 +1452,6 @@
 	dir = 9
 	},
 /obj/effect/turf_decal/industrial/warning{
-	dir = 8
-	},
-/obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/iron,
@@ -1801,7 +1814,7 @@ BH
 re
 sJ
 rZ
-fu
+dE
 fl
 Qc
 hL
@@ -1828,7 +1841,7 @@ Ub
 az
 vO
 fl
-fl
+AO
 iT
 fl
 yq
@@ -1892,9 +1905,9 @@ az
 kk
 Qv
 fG
-AO
 Hp
-AO
+Hp
+Hp
 OP
 YH
 Pg
@@ -1929,7 +1942,7 @@ BS
 iP
 BS
 hC
-RV
+BS
 BS
 WR
 fB
@@ -1958,7 +1971,7 @@ Sp
 cy
 cy
 cy
-cy
+fu
 zR
 cy
 cy

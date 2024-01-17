@@ -36,6 +36,7 @@
 	attack_verb_continuous = "punches"
 	attack_verb_simple = "punch"
 	attack_sound = 'sound/weapons/punch1.ogg'
+	deathsound = 'sound/voice/hacked.ogg'
 	a_intent = INTENT_HARM
 	loot = list(/obj/effect/mob_spawn/human/corpse/syndicatesoldier)
 	atmos_requirements = list("min_oxy" = 5, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 1, "min_co2" = 0, "max_co2" = 5, "min_n2" = 0, "max_n2" = 0)
@@ -105,6 +106,7 @@
 	health = 150
 
 /mob/living/simple_animal/hostile/syndicate/melee //dude with a knife and no shields
+	name = "Syndicate Conscript"
 	melee_damage_lower = 15
 	melee_damage_upper = 15
 	icon_state = "syndicate_knife"
@@ -175,14 +177,14 @@
 	return ..()
 
 /mob/living/simple_animal/hostile/syndicate/melee/sword/captain
-	name = "Syndicate Elite Captain"
+	name = "Syndicate Elite Commander"
 	desc = "You should run."
 	icon_state = "syndicate_desword"
 	icon_living = "syndicate_desword"
 	maxHealth = 320
 	health = 320
 	speed = -1
-	projectile_deflect_chance = 80
+	projectile_deflect_chance = 70
 	loot = list(/obj/effect/gibspawner/human,/obj/item/melee/transforming/energy/sword/saber/red)
 
 /mob/living/simple_animal/hostile/syndicate/melee/sword/space
@@ -208,6 +210,7 @@
 	return ..()
 
 /mob/living/simple_animal/hostile/syndicate/melee/sword/space/stormtrooper
+	name = "Syndicate Elite Sergeant"
 	icon_state = "syndicate_stormtrooper_sword"
 	icon_living = "syndicate_stormtrooper_sword"
 	name = "Syndicate Stormtrooper"
@@ -329,7 +332,7 @@
 	set_light(4)
 
 /mob/living/simple_animal/hostile/syndicate/ranged/shotgun/space/stormtrooper
-	name = "Syndicate Elite Commander"
+	name = "Syndicate Elite Captain"
 	desc = "One to be feared even more. IN SPACE. Oh boy."
 	icon_state = "syndicate_stormtrooper_shotgun"
 	icon_living = "syndicate_stormtrooper_shotgun"
