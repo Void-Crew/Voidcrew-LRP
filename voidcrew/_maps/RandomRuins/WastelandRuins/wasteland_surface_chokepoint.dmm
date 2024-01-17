@@ -2,192 +2,253 @@
 "a" = (
 /turf/template_noop,
 /area/template_noop)
-"d" = (
-/obj/structure/closet/secure_closet{
-	icon_state = "sec"
+"b" = (
+/obj/machinery/door/airlock/security/glass{
+	name = "Security Cell"
 	},
-/obj/item/gun/ballistic/automatic/pistol/commander,
-/obj/item/ammo_box/magazine/co9mm,
-/obj/item/ammo_box/magazine/co9mm,
-/turf/open/floor/plating/rust,
-/area/ruin/unpowered)
-"e" = (
-/obj/structure/sign/poster/official/here_for_your_safety,
-/turf/closed/wall/rust,
-/area/ruin/unpowered)
-"f" = (
-/obj/item/banner/security/mundane,
-/turf/open/floor/plating/dust/lit,
-/area/whitesands/surface/outdoors)
-"g" = (
-/obj/structure/bed,
-/obj/item/bedsheet/hos,
-/mob/living/simple_animal/hostile/nanotrasen/ranged{
-	atmos_requirements = list("min_oxy" = 5, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 999, "min_n2" = 0, "max_n2" = 0);
-	damage_coeff = list("brute" = 1, "fire" = 1, "toxin" = 1, "clone" = 1, "stamina" = 0, "oxygen" = 0);
-	name = "\improper NanoTrasen Stranded Security Officer"
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
-/area/ruin/unpowered)
-"h" = (
-/mob/living/simple_animal/hostile/nanotrasen/ranged{
-	atmos_requirements = list("min_oxy" = 5, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 999, "min_n2" = 0, "max_n2" = 0);
-	damage_coeff = list("brute" = 1, "fire" = 1, "toxin" = 1, "clone" = 1, "stamina" = 0, "oxygen" = 0);
-	dir = 4;
-	name = "\improper NanoTrasen Stranded Security Officer"
-	},
-/turf/open/floor/plating/wasteland/lit,
-/area/whitesands/surface/outdoors)
-"j" = (
-/obj/item/banner/security,
-/turf/open/floor/plating,
-/area/ruin/unpowered)
-"k" = (
-/obj/effect/mob_spawn/human/corpse/whitesands/survivor,
-/obj/effect/decal/cleanable/blood,
-/turf/open/floor/plating/dust/lit,
-/area/whitesands/surface/outdoors)
-"m" = (
-/turf/open/floor/plating,
-/area/ruin/unpowered)
-"n" = (
-/obj/structure/sign/poster/official/ion_rifle,
-/turf/closed/wall/rust,
-/area/ruin/unpowered)
-"p" = (
-/obj/structure/sign/poster/official/safety_report,
-/turf/closed/wall,
-/area/ruin/unpowered)
-"r" = (
-/obj/structure/closet/cabinet,
-/obj/item/clothing/head/helmet/knight/blue,
-/obj/item/clothing/suit/armor/riot/knight/blue,
-/obj/item/spear,
-/obj/item/shield/riot/buckler,
-/turf/open/floor/plating,
-/area/ruin/unpowered)
-"u" = (
-/turf/open/floor/plating/dust/lit,
-/area/whitesands/surface/outdoors)
-"v" = (
-/mob/living/simple_animal/hostile/nanotrasen/ranged{
-	atmos_requirements = list("min_oxy" = 5, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 999, "min_n2" = 0, "max_n2" = 0);
-	damage_coeff = list("brute" = 1, "fire" = 1, "toxin" = 1, "clone" = 1, "stamina" = 0, "oxygen" = 0);
-	dir = 8;
-	name = "\improper NanoTrasen Stranded Security Officer"
-	},
-/turf/open/floor/plating/wasteland/lit,
-/area/whitesands/surface/outdoors)
-"w" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/ruin/unpowered)
-"x" = (
-/obj/structure/sign/poster/official/space_cops,
-/turf/closed/wall/rust,
-/area/ruin/unpowered)
-"y" = (
-/turf/closed/wall,
-/area/ruin/unpowered)
-"B" = (
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
-/area/ruin/unpowered)
-"C" = (
-/turf/open/floor/plating/rust,
-/area/ruin/unpowered)
-"E" = (
-/obj/item/banner/security/mundane,
-/turf/open/floor/plating/wasteland/lit,
-/area/whitesands/surface/outdoors)
-"F" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/rust,
-/area/ruin/unpowered)
-"H" = (
-/obj/structure/sign/poster/official/report_crimes,
-/turf/closed/wall,
-/area/ruin/unpowered)
-"I" = (
-/obj/structure/sign/poster/official/twelve_gauge,
-/turf/closed/wall/rust,
-/area/ruin/unpowered)
-"J" = (
-/obj/item/cigbutt,
-/obj/item/cigbutt{
-	pixel_x = 7;
-	pixel_y = -5
-	},
-/obj/structure/barricade/sandbags,
-/turf/open/floor/plating/wasteland/lit,
-/area/whitesands/surface/outdoors)
-"K" = (
-/obj/structure/barricade/sandbags,
-/turf/open/floor/plating/wasteland/lit,
-/area/whitesands/surface/outdoors)
-"L" = (
-/obj/structure/sign/poster/official/love_ian,
-/turf/closed/wall/rust,
-/area/ruin/unpowered)
-"M" = (
-/obj/machinery/door/airlock/wood/glass,
+/area/ruin/powered)
+"c" = (
+/obj/machinery/light,
 /turf/open/floor/plating,
 /area/ruin/powered)
-"N" = (
-/obj/structure/sign/poster/official/work_for_a_future,
-/turf/closed/wall/rust,
+"d" = (
+/obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating,
 /area/ruin/unpowered)
-"P" = (
-/obj/structure/sign/poster/official/do_not_question,
-/turf/closed/wall/rust,
-/area/ruin/unpowered)
-"Q" = (
-/obj/structure/table/wood,
-/obj/item/holosign_creator/security,
-/turf/open/floor/plating/wasteland/lit,
-/area/whitesands/surface/outdoors)
-"R" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
-/area/ruin/unpowered)
-"S" = (
-/obj/effect/mob_spawn/human/corpse/whitesands/survivor,
-/obj/effect/decal/cleanable/blood{
-	icon_state = "floor3"
-	},
+"e" = (
+/obj/machinery/light/broken,
+/turf/open/floor/iron,
+/area/ruin/powered)
+"f" = (
 /turf/open/floor/plating/dust/lit,
-/area/whitesands/surface/outdoors)
-"T" = (
-/obj/structure/table/wood,
+/area/ruin/unpowered)
+"g" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner/west,
+/turf/open/floor/wood/parquet,
+/area/ruin/powered)
+"h" = (
+/mob/living/simple_animal/hostile/nanotrasen/ranged,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"j" = (
+/obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/drinks/bottle/whiskey{
 	pixel_x = -5;
-	pixel_y = 6
+	pixel_y = 8
 	},
 /obj/item/clothing/mask/gas/sechailer/swat{
 	pixel_x = 7;
 	pixel_y = 2
 	},
-/turf/open/floor/plating/rust,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner/west,
+/turf/open/floor/wood/parquet,
+/area/ruin/powered)
+"k" = (
+/obj/effect/mob_spawn/human/corpse/whitesands/survivor,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/dust/lit,
+/area/ruin/unpowered)
+"m" = (
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"n" = (
+/obj/effect/mob_spawn/human/corpse/whitesands/survivor,
+/obj/effect/decal/cleanable/blood{
+	icon_state = "floor3"
+	},
+/turf/open/floor/plating/wasteland/lit,
+/area/ruin/unpowered)
+"p" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/iron/small,
+/area/ruin/powered)
+"r" = (
+/obj/structure/table/reinforced,
+/obj/machinery/recharger,
+/turf/open/floor/iron/small,
+/area/ruin/powered)
+"u" = (
+/turf/open/floor/plating/dust/lit,
+/area/whitesands/surface/outdoors)
+"v" = (
+/mob/living/simple_animal/hostile/nanotrasen/baton,
+/obj/effect/turf_decal/sand,
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"w" = (
+/obj/structure/table/reinforced,
+/obj/effect/spawner/lootdrop/donkpockets,
+/obj/effect/spawner/lootdrop/donkpockets,
+/turf/open/floor/iron/small,
+/area/ruin/powered)
+"x" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = -12
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/item/restraints/handcuffs,
+/turf/open/floor/iron/small,
+/area/ruin/powered)
+"y" = (
+/obj/structure/bed,
+/obj/item/bedsheet/hos,
+/obj/structure/curtain/cloth/fancy,
+/turf/open/floor/wood/parquet,
+/area/ruin/powered)
+"z" = (
+/obj/structure/table/reinforced,
+/obj/machinery/microwave{
+	pixel_y = 6
+	},
+/turf/open/floor/iron/small,
+/area/ruin/powered)
+"A" = (
+/obj/machinery/light,
+/turf/open/floor/iron/small,
+/area/ruin/powered)
+"B" = (
+/turf/open/floor/iron/small,
+/area/ruin/powered)
+"C" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/machinery/door/window/westleft{
+	name = "Bunks"
+	},
+/turf/open/floor/wood/parquet,
+/area/ruin/powered)
+"E" = (
+/turf/open/floor/plating/wasteland/lit,
+/area/ruin/unpowered)
+"F" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/armor/vest/alt,
+/obj/item/clothing/head/helmet/swat/nanotrasen,
+/turf/open/floor/iron/small,
+/area/ruin/powered)
+"G" = (
+/obj/structure/table/wood,
+/obj/item/melee/classic_baton,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"H" = (
+/obj/structure/closet/secure_closet/security{
+	populate = 0;
+	req_access = null;
+	name = "gun locker"
+	},
+/obj/item/gun/ballistic/automatic/pistol/m1911,
+/obj/item/ammo_box/magazine/m45,
+/obj/item/ammo_box/magazine/m45,
+/obj/item/storage/box/handcuffs,
+/turf/open/floor/iron/small,
+/area/ruin/powered)
+"I" = (
+/obj/effect/turf_decal/sand,
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"J" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/turf/open/floor/iron/small,
+/area/ruin/powered)
+"K" = (
+/obj/structure/barricade/sandbags,
+/obj/effect/turf_decal/sand/plating,
+/obj/structure/fans/tiny/invisible,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"L" = (
+/obj/structure/bed,
+/obj/effect/mob_spawn/human/corpse/syndicatesoldier,
+/obj/effect/decal/cleanable/blood{
+	icon_state = "floor3"
+	},
+/turf/open/floor/iron/small,
+/area/ruin/powered)
+"M" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/security/glass{
+	name = "Private Security Outpost 64"
+	},
+/turf/open/floor/iron/dark/smooth_half,
+/area/ruin/powered)
+"N" = (
+/obj/structure/table/reinforced/rglass,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/iron/small,
+/area/ruin/powered)
+"P" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner/west,
+/obj/machinery/light,
+/turf/open/floor/wood/parquet,
+/area/ruin/powered)
+"Q" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/sand,
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"R" = (
+/mob/living/simple_animal/hostile/nanotrasen/ranged/smg,
+/turf/open/floor/iron/small,
+/area/ruin/powered)
+"S" = (
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"T" = (
+/obj/structure/table/wood,
+/obj/item/ammo_box/c45,
+/obj/effect/turf_decal/sand,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "U" = (
 /turf/open/floor/plating/wasteland/lit,
 /area/whitesands/surface/outdoors)
+"V" = (
+/obj/structure/table/wood,
+/obj/item/holosign_creator/security,
+/obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
 "W" = (
-/obj/structure/sign/poster/official/obey,
-/turf/closed/wall/rust,
-/area/ruin/unpowered)
+/turf/closed/wall/r_wall,
+/area/ruin/powered)
 "X" = (
-/turf/closed/wall/rust,
-/area/ruin/unpowered)
+/obj/structure/table/reinforced/rglass,
+/obj/item/reagent_containers/food/drinks/waterbottle/large{
+	pixel_y = 8
+	},
+/turf/open/floor/iron/small,
+/area/ruin/powered)
 "Y" = (
-/obj/structure/sign/poster/official/nanotrasen_logo,
-/turf/closed/wall/rust,
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/iron/small,
+/area/ruin/powered)
+"Z" = (
+/obj/structure/sign/departments/security,
+/turf/closed/wall/r_wall,
 /area/ruin/unpowered)
 
 (1,1,1) = {"
@@ -212,13 +273,13 @@ a
 a
 u
 u
-S
+u
 a
-a
-a
-a
-a
-a
+W
+W
+W
+W
+W
 "}
 (3,1,1) = {"
 a
@@ -229,146 +290,146 @@ u
 U
 U
 U
-a
-a
-a
-a
-a
+W
+L
+x
+J
+W
 "}
 (4,1,1) = {"
 a
-f
-U
-k
-U
-U
+u
 E
-K
-a
-a
-a
-a
-a
+k
+E
+E
+E
+E
+W
+W
+b
+W
+W
 "}
 (5,1,1) = {"
 a
-a
+f
+Z
 K
 K
-U
 K
 K
-X
-n
+W
+W
 H
-y
-a
-a
+B
+z
+W
 "}
 (6,1,1) = {"
 a
-a
+E
 K
-U
-U
-v
-U
-e
-r
+V
+Q
+h
 d
-I
-a
-a
+W
+r
+B
+B
+A
+W
 "}
 (7,1,1) = {"
 a
-U
+E
 K
-Q
-U
-U
-U
-y
+m
+d
+I
+c
+W
 w
 B
 Y
-a
-a
+Y
+W
 "}
 (8,1,1) = {"
 a
-U
-U
+E
+K
 v
-U
-U
-U
-M
 m
+S
+S
+M
+B
 R
 N
 X
-a
+W
 "}
 (9,1,1) = {"
 a
-a
+E
 K
-U
-U
-U
-U
+m
+T
+G
+e
 W
 F
-w
-T
+B
 p
-a
+p
+W
 "}
 (10,1,1) = {"
 a
-a
-J
-U
-U
-U
+f
+K
+d
+m
+d
 h
-x
+W
 j
 C
 g
 P
-a
+W
 "}
 (11,1,1) = {"
 a
-a
+E
+Z
 K
 K
-U
 K
 K
-X
-X
-L
+W
+W
 y
 y
-a
+y
+W
 "}
 (12,1,1) = {"
 a
 a
 E
-u
-U
-U
-u
 f
-a
-a
-a
-a
-a
+E
+n
+f
+f
+W
+W
+W
+W
+W
 "}
 (13,1,1) = {"
 a

@@ -204,6 +204,20 @@
 	icon_state = "swat"
 	item_state = "swat"
 
+/obj/item/clothing/head/helmet/swat/nanotrasen/hr
+	name = "\improper NCO SWAT helmet"
+	desc = "An extremely robust, space-worthy helmet with the Nanotrasen logo emblazoned on the top in gold. You feel a bit obligated to listen to whoever's wearing this."
+	icon_state = "swathr"
+	item_state = "swathr"
+	armor = list("melee" = 50, "bullet" = 40, "laser" = 30,"energy" = 40, "bomb" = 50, "bio" = 90, "rad" = 20, "fire" = 100, "acid" = 100)
+
+/obj/item/clothing/head/helmet/swat/nanotrasen/commander
+	name = "\improper Commander's beret"
+	desc = "A extremely padded, and tough beret worn by Nanotrasen Private Security Commanders. All you're missing is your badass L6 Saw."
+	icon_state = "swatcomm"
+	item_state = "swatcomm"
+	armor = list("melee" = 50, "bullet" = 40, "laser" = 30,"energy" = 40, "bomb" = 50, "bio" = 90, "rad" = 20, "fire" = 100, "acid" = 100)
+
 /obj/item/clothing/head/helmet/thunderdome
 	name = "\improper Thunderdome helmet"
 	desc = "<i>'Let the battle commence!'</i>"

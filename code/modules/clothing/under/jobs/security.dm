@@ -94,3 +94,14 @@
 /obj/item/clothing/under/rank/security/head_of_security/formal/tan
 	icon_state = "hostanclothes"
 	item_state = "hostanclothes"
+
+/obj/item/clothing/under/rank/security/nanotrasenhr
+	name = "security officer jumpsuit"
+	desc = "A security jumpsuit decorated for those few with the dedication to achieve the position of NCO or Commander."
+	icon_state = "rhos"
+	item_state = "r_suit"
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
+	strip_delay = 60
+	alt_covers_chest = TRUE
+	sensor_mode = 3
+	random_sensor = FALSE

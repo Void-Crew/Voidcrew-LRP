@@ -596,6 +596,15 @@ update_label()
 	else
 		..()
 
+/obj/item/card/id/pso
+	name = "\improper Nanotrasen ID"
+	id_type_name = "\improper Nanotrasen ID"
+	desc = "An ID usually used by Nanotrasen employed contractors. Usually private security."
+	icon_state = "privatesec"
+	assignment = "Private Security Detail"
+	uses_overlays = FALSE
+	registered_age = null
+
 /obj/item/card/id/centcom
 	name = "\improper CentCom ID"
 	id_type_name = "\improper CentCom ID"

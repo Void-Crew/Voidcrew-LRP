@@ -178,14 +178,14 @@
 
 
 /obj/effect/mob_spawn/human/corpse/nanotrasensoldier
-	name = "\improper Nanotrasen Private Security Officer"
-	id_job = "Private Security Force"
-	outfit = /datum/outfit/nanotrasensoldiercorpse2
+	name = "\improper Nanotrasen Private Security Squad Recruit"
+	id_job = "Private Security Squad Recruit"
+	outfit = /datum/outfit/nanotrasensoldiercorpserecruit
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
 
-/datum/outfit/nanotrasensoldiercorpse2
-	name = "NT Private Security Officer Corpse"
+/datum/outfit/nanotrasensoldiercorpserecruit
+	name = "Nanotrasen Private Security Squad Recruit Corpse"
 	uniform = /obj/item/clothing/under/rank/security/officer
 	suit = /obj/item/clothing/suit/armor/vest/alt
 	shoes = /obj/item/clothing/shoes/combat
@@ -194,26 +194,64 @@
 	mask = /obj/item/clothing/mask/gas/sechailer/swat
 	head = /obj/item/clothing/head/helmet/swat/nanotrasen
 	back = /obj/item/storage/backpack/satchel/sec
-	id = /obj/item/card/id
+	id = /obj/item/card/id/pso
 
-/obj/effect/mob_spawn/human/corpse/nanotrasenassaultsoldier
-	name = "Nanotrasen Private Security Officer"
-	id_job = "Nanotrasen Assault Force"
-	outfit = /datum/outfit/nanotrasenassaultsoldiercorpse
+/obj/effect/mob_spawn/human/corpse/nanotrasensoldier/ranged
+	name = "\improper Nanotrasen Private Security Squad Operative"
+	id_job = "Private Security Squad Operative"
+	outfit = /datum/outfit/nanotrasensoldiercorpseoperative
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
 
-/datum/outfit/nanotrasenassaultsoldiercorpse
-	name = "NT Assault Officer Corpse"
-	uniform = /obj/item/clothing/under/syndicate
-	suit = /obj/item/clothing/suit/armor/vest
+/datum/outfit/nanotrasensoldiercorpseoperative
+	name = "Nanotrasen Private Security Squad Operative Corpse"
+	uniform = /obj/item/clothing/under/rank/security/red/officer
+	suit = /obj/item/clothing/suit/armor/vest/alt
 	shoes = /obj/item/clothing/shoes/combat
-	gloves = /obj/item/clothing/gloves/combat
+	gloves = /obj/item/clothing/gloves/tackler/combat
 	ears = /obj/item/radio/headset
 	mask = /obj/item/clothing/mask/gas/sechailer/swat
 	head = /obj/item/clothing/head/helmet/swat/nanotrasen
-	back = /obj/item/storage/backpack/security
-	id = /obj/item/card/id
+	back = /obj/item/storage/backpack/satchel/sec
+	id = /obj/item/card/id/pso
+
+/obj/effect/mob_spawn/human/corpse/nanotrasensoldier/smg
+	name = "\improper Nanotrasen Private Security Squad Sergeant"
+	id_job = "Private Security Squad Sergeant"
+	outfit = /datum/outfit/nanotrasensoldiercorpsesergeant
+	hairstyle = "Bald"
+	facial_hairstyle = "Shaved"
+
+/datum/outfit/nanotrasensoldiercorpsesergeant
+	name = "Nanotrasen Private Security Squad Sergeant Corpse"
+	uniform = /obj/item/clothing/under/rank/security/nanotrasenhr
+	suit = /obj/item/clothing/suit/armor/vest/alt
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/tackler/combat
+	ears = /obj/item/radio/headset
+	mask = /obj/item/clothing/mask/gas/sechailer/swat
+	head = /obj/item/clothing/head/helmet/swat/nanotrasen/hr
+	back = /obj/item/storage/backpack/satchel/sec
+	id = /obj/item/card/id/pso
+
+/obj/effect/mob_spawn/human/corpse/nanotrasensoldier/assault
+	name = "\improper Nanotrasen Private Security Squad Commander"
+	id_job = "Private Security Squad Commander"
+	outfit = /datum/outfit/nanotrasensoldiercorpsecommander
+	hairstyle = "Bald"
+	facial_hairstyle = "Shaved"
+
+/datum/outfit/nanotrasensoldiercorpsecommander
+	name = "Nanotrasen Private Security Squad Commander Corpse"
+	uniform = /obj/item/clothing/under/rank/security/nanotrasenhr
+	suit = /obj/item/clothing/suit/armor/vest/alt
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/tackler/combat
+	ears = /obj/item/radio/headset
+	mask = /obj/item/clothing/mask/gas/sechailer/swat
+	head = /obj/item/clothing/head/helmet/swat/nanotrasen/commander
+	belt = /obj/item/storage/belt/security/webbing
+	id = /obj/item/card/id/pso
 
 /obj/effect/mob_spawn/human/corpse/cat_butcher
 	name = "The Cat Surgeon"
