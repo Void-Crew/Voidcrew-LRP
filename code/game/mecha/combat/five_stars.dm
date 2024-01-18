@@ -1,10 +1,10 @@
 /obj/mecha/combat/five_stars
-	desc = "An FV-101 light tank, modernised to be space-capable by every faction that would realistically need a tank."
-	name = "FV-101 tank"
+	desc = "The FV-101, the combat tank of the modern era. Lightweight enough to be transported on your average ship, while still packing enough of a punch to tear a new hole in any attacker. The flagship armoured vehicle of any force worth its salt."
+	name = "tank"
 	icon = 'icons/mecha/mecha_96x96.dmi'
 	icon_state = "five_stars"
 	armor = list("melee" = 95, "bullet" = 45, "laser" = 30, "energy" = 30, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 100, "acid" = 100)
-	exit_delay = 40
+	exit_delay = 20
 	step_in = 2 //almost as fast as a ripley
 	dir_in = 1 //Facing North.
 	max_integrity = 400
