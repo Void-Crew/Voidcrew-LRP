@@ -145,5 +145,51 @@
 	retreat_distance = 3
 	minimum_distance = 5
 	casingtype = /obj/item/ammo_casing/a556
-	projectilesound = 'sound/weapons/p90.ogg'
+	projectilesound = 'sound/weapons/fp9000.ogg'
 	loot = list(/obj/effect/gibspawner/human,/obj/effect/explosion)
+
+/mob/living/simple_animal/hostile/weyland/joe
+	name = "\improper Working Joe"
+	desc = "A Working Joe, also referred to as Maintenance Synths are a line of rudimentary androids manufactured and sold by the Seegson Corporation."
+	icon_state = "joe"
+	icon_living = "joe"
+	maxHealth = 300
+	health = 300
+	ranged = 0
+	dodge_prob = 0
+	harm_intent_damage = 5
+	melee_damage_lower = 30
+	melee_damage_upper = 35
+	retreat_distance = null
+	minimum_distance = 1
+	deathsound = 'sound/voice/joe/death_normal.ogg'
+	deathmessage = "chokes up a dark fluid, collapsing to the floor before exploding."
+	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 1, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
+	loot = list(/obj/effect/gibspawner/robot,/obj/effect/explosion)
+
+/mob/living/simple_animal/hostile/weyland/joe/hazardous
+	name = "\improper Hazardous Environment Working Joe"
+	desc = "A Working Joe, also referred to as Maintenance Synths are a line of rudimentary androids manufactured and sold by the Seegson Corporation. This one's in a snazzy hazard suit."
+	icon_state = "biojoe"
+	icon_living = "biojoe"
+	maxHealth = 325
+	health = 325
+
+/mob/living/simple_animal/hostile/weyland/joe/maintenance
+	name = "\improper Maintenance Working Joe"
+	desc = "A Working Joe, also referred to as Maintenance Synths are a line of rudimentary androids manufactured and sold by the Seegson Corporation. This one's in a snazzy hazard suit with some utility overalls, and gripping tightly onto a maintenance jack."
+	icon_state = "overallsjoe"
+	icon_living = "overallsjoe"
+	attack_verb_continuous = "smacks"
+	attack_verb_simple = "smack"
+	attack_sound = 'sound/weapons/genhit1.ogg'
+	maxHealth = 350
+	health = 350
+
+/mob/living/simple_animal/hostile/weyland/joe/Aggro()
+	..()
+	summon_backup(15)
+	var/list/messagevoice = list("You really shouldn't be here." = 'sound/voice/joe/really_shouldnt_be_here.ogg',"Running causes accidents." = 'sound/voice/joe/running_accidents.ogg',"You shouldn't be here." = 'sound/voice/joe/shouldnt_be_here.ogg',"You are trespassing." = 'sound/voice/joe/trespassing.ogg',"This is a breach of multiple safety directives." = 'sound/voice/joe/safety_breach.ogg',"Protected area compromised." = 'sound/voice/joe/protected_area_compromised.ogg')
+	var/message = pick(messagevoice)
+	say(message)
+	playsound(src, messagevoice[message], 50)
