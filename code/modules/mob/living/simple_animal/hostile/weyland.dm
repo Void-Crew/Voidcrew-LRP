@@ -66,8 +66,8 @@
 /mob/living/simple_animal/hostile/weyland/pmc
 	name = "\improper Weyland-Yutani PMC Soldier"
 	desc = "A tough-looking military combatant. Their choice of uniform color is quite unusual, but unique. Makes them a valuable enemy, they're armed with a M41A."
-	icon_state = "pmcstandardm41a"
-	icon_living = "pmcstandardm41a"
+	icon_state = "pmcstandardm41a2"
+	icon_living = "pmcstandardm41a2"
 	maxHealth = 275
 	health = 275
 	rapid = 3

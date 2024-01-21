@@ -43,6 +43,13 @@
 	item_state = "armor"
 	slowdown = 1
 
+/obj/item/clothing/suit/armor/vest/old/charlie
+	name = "degrading armor vest"
+	desc = "Older generation Type 1 armored vest. Due to degradation over time the vest is far less maneuverable to move in. This one has a blue stripe for Security."
+	icon_state = "armor_charlie"
+	item_state = "armor_charlie"
+	slowdown = 1
+
 /obj/item/clothing/suit/armor/vest/blueshirt
 	name = "large armor vest"
 	desc = "A large kevlar vest with polymer plating attacked at key points to protect the wearer's entire body. While the additional polymer plating is lightweight, the added bulk makes it difficult to move around in."

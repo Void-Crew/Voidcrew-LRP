@@ -105,3 +105,36 @@
 	alt_covers_chest = TRUE
 	sensor_mode = 3
 	random_sensor = FALSE
+
+/obj/item/clothing/under/rank/security/charlie/officer
+	name = "security jumpsuit"
+	desc = "An old blue variant of a tactical security jumpsuit. This one is in a blue color, to reference the old police officers of Earth."
+	icon_state = "csecurity"
+	item_state = "b_suit"
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 30)
+	strip_delay = 50
+	alt_covers_chest = TRUE
+	sensor_mode = SENSOR_COORDS
+	random_sensor = FALSE
+
+/obj/item/clothing/under/rank/security/charlie/warden
+	name = "security suit"
+	desc = "An old blue variant of a security formal suit, this has a silver badge, and Nanotrasen belt buckle. This one is in a blue color, to reference the old police officers of Earth."
+	icon_state = "cwarden"
+	item_state = "b_suit"
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 30)
+	strip_delay = 50
+	alt_covers_chest = TRUE
+	sensor_mode = 3
+	random_sensor = FALSE
+
+/obj/item/clothing/under/rank/security/charlie/head_of_security
+	name = "security officer jumpsuit"
+	desc = "An old blue variant of a security officer's jumpsuit, the gold badge and golden Nanotrasen belt buckle. This one is in a blue color, to reference the old police officers of Earth."
+	icon_state = "chos"
+	item_state = "b_suit"
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
+	strip_delay = 60
+	alt_covers_chest = TRUE
+	sensor_mode = 3
+	random_sensor = FALSE

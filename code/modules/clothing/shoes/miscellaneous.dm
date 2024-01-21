@@ -148,6 +148,13 @@
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/shoes
 	can_be_tied = FALSE
 
+/obj/item/clothing/shoes/jackboots/charlieboots
+	name = "security boots"
+	desc = "Nanotrasen-issue Security combat boots that are long out of style, these were made to be taller and more superior towards assistants, but they slowly became impractical."
+	icon_state = "kneeboots"
+	item_state = "kneeboots"
+
+
 /obj/item/clothing/shoes/jackboots/fast
 	slowdown = -1
 

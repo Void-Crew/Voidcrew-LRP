@@ -102,6 +102,19 @@
 	desc = "Standard issue security helmet. Due to degradation the helmet's visor obstructs the users ability to see long distances."
 	tint = 2
 
+/obj/item/clothing/head/helmet/old/charlie
+	name = "degrading helmet"
+	icon_state = "helmetchar"
+	item_state = "helmetchar"
+	desc = "Standard issue security helmet. Due to degradation the helmet's visor obstructs the users ability to see long distances."
+
+/obj/item/clothing/head/helmet/old/charlie/beret
+	name = "captain's beret"
+	icon_state = "charlieberet"
+	item_state = "charlieberet"
+	desc = "An old blue beret with dust on it, it has a golden vest-shaped badge on the front. An ancient commanding officer beret for Nanotrasen security on stations."
+	tint = 0
+
 /obj/item/clothing/head/helmet/blueshirt
 	name = "blue helmet"
 	desc = "A reliable, blue tinted helmet reminding you that you <i>still</i> owe that engineer a beer."

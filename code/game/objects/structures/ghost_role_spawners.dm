@@ -600,24 +600,27 @@
 /obj/effect/mob_spawn/human/oldsec
 	name = "old cryogenics pod"
 	desc = "A humming cryo pod. You can barely recognise a security uniform underneath the built up ice. The machine is attempting to wake up its occupant."
-	mob_name = "a security officer"
+	mob_name = "a security guard"
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper"
 	roundstart = FALSE
 	death = FALSE
 	random = TRUE
 	mob_species = /datum/species/human
-	short_desc = "You are a security officer working for Nanotrasen, stationed onboard a state of the art research station."
+	short_desc = "You are a security private working for Nanotrasen, stationed onboard a state of the art research station."
 	flavour_text = "You vaguely recall rushing into a cryogenics pod due to an oncoming radiation storm. \
 	The last thing you remember is the station's Artificial Program telling you that you would only be asleep for eight hours. As you open \
 	your eyes, everything seems rusted and broken, a dark feeling swells in your gut as you climb out of your pod."
 	important_info = "Work as a team with your fellow survivors and do not abandon them."
-	uniform = /obj/item/clothing/under/rank/security/old //WS edit - Command/Sec resprite
-	shoes = /obj/item/clothing/shoes/jackboots
+	head = /obj/item/clothing/head/soft/sec/charlie
+	uniform = /obj/item/clothing/under/rank/security/charlie/officer //WS edit - Command/Sec resprite
+	shoes = /obj/item/clothing/shoes/jackboots/charlieboots
 	id = /obj/item/card/id/away/old/sec
+	gloves = /obj/item/clothing/gloves/color/black
 	r_pocket = /obj/item/restraints/handcuffs
 	l_pocket = /obj/item/assembly/flash/handheld
 	assignedrole = "Ancient Crew"
+	id_job = "Charlie Station Security Private"
 
 /obj/effect/mob_spawn/human/oldsec/Destroy()
 	new/obj/structure/showcase/machinery/oldpod/used(drop_location())

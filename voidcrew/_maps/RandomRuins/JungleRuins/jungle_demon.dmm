@@ -62,10 +62,6 @@
 /obj/effect/decal/cleanable/chem_pile,
 /turf/open/floor/iron/dark,
 /area/ruin/powered)
-"fY" = (
-/obj/structure/sign/poster/contraband/random,
-/turf/closed/wall/material,
-/area/ruin/powered)
 "gL" = (
 /obj/machinery/door/airlock/grunge,
 /turf/open/floor/iron/dark,
@@ -114,9 +110,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/gibs/up,
 /turf/open/floor/iron/dark,
-/area/ruin/powered)
-"kb" = (
-/turf/closed/wall/material,
 /area/ruin/powered)
 "kf" = (
 /obj/structure/sign/warning/explosives,
@@ -340,11 +333,11 @@
 /area/ruin/powered)
 "FR" = (
 /obj/structure/sign/warning/fire,
-/turf/closed/wall/material,
+/turf/closed/wall,
 /area/ruin/powered)
 "FY" = (
 /obj/structure/sign/warning/biohazard,
-/turf/closed/wall/rust,
+/turf/closed/wall,
 /area/ruin/powered)
 "GI" = (
 /obj/structure/rack,
@@ -459,7 +452,7 @@
 /area/ruin/powered)
 "MW" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/closed/wall/material,
+/turf/closed/wall,
 /area/ruin/powered)
 "Nl" = (
 /obj/structure/sign/poster/contraband/random,
@@ -488,8 +481,8 @@
 /turf/open/floor/iron/dark,
 /area/ruin/powered)
 "PA" = (
-/obj/machinery/suit_storage_unit/syndicate,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/suit_storage_unit/independent/mining,
 /turf/open/floor/iron/dark,
 /area/ruin/powered)
 "QI" = (
@@ -645,9 +638,9 @@ iB
 Ed
 Ed
 Ed
-Nl
-EY
-EY
+bR
+Ed
+Ed
 Ed
 mY
 "}
@@ -796,13 +789,13 @@ fr
 eO
 eO
 KA
-EY
+Ed
 LW
 DC
 LW
 fL
 XS
-Nl
+bR
 iB
 "}
 (10,1,1) = {"
@@ -818,7 +811,7 @@ xK
 eO
 eO
 iB
-Nl
+bR
 XS
 sQ
 fm
@@ -840,7 +833,7 @@ Mk
 Mk
 eO
 AI
-EY
+Ed
 Nt
 xY
 Yp
@@ -862,7 +855,7 @@ eO
 Mk
 eO
 eO
-EY
+Ed
 Ed
 Ed
 bR
@@ -921,11 +914,11 @@ Ed
 Ed
 Ed
 Ed
-EY
-EY
-EY
+Ed
+Ed
+Ed
 gL
-kb
+Ed
 Ed
 Ed
 Mk
@@ -944,7 +937,7 @@ Vp
 FK
 XS
 Tr
-EY
+Ed
 Wi
 LW
 XS
@@ -966,7 +959,7 @@ Hv
 XS
 cQ
 LW
-kb
+Ed
 DC
 LW
 iC
@@ -988,11 +981,11 @@ bE
 Iq
 pm
 MM
-kb
+Ed
 LW
 hk
-fY
-kb
+bR
+Ed
 Ed
 eO
 eO
@@ -1051,15 +1044,15 @@ iB
 mY
 Ed
 MW
-kb
-fY
-kb
-kb
+Ed
+bR
+Ed
+Ed
 Wi
 hk
-Nl
-EY
-EY
+bR
+Ed
+Ed
 LV
 fv
 iB
@@ -1071,7 +1064,7 @@ iB
 "}
 (22,1,1) = {"
 mY
-EY
+Ed
 hc
 jB
 DC
@@ -1081,7 +1074,7 @@ XS
 qE
 XS
 jd
-EY
+Ed
 eO
 iB
 AI
@@ -1093,7 +1086,7 @@ mY
 "}
 (23,1,1) = {"
 mY
-EY
+Ed
 bx
 kM
 se
@@ -1115,12 +1108,12 @@ mY
 "}
 (24,1,1) = {"
 mY
-EY
-EY
-EY
 Ed
 Ed
-EY
+Ed
+Ed
+Ed
+Ed
 Ed
 Ed
 Ed

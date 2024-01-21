@@ -125,6 +125,13 @@
 	strip_delay = 60
 	dog_fashion = null
 
+/obj/item/clothing/head/soft/sec/charlie
+	name = "security cap"
+	desc = "It's a old blue cap with a white front, and red Nanotrasen logo. It isn't armored like the conventional security caps."
+	icon_state = "charliesoft"
+	soft_type = "charlie"
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 20)
+
 /obj/item/clothing/head/soft/sec/brig_phys
 	name = "security medic cap"
 	icon_state = "secmedsoft"

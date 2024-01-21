@@ -272,3 +272,51 @@
 	back = /obj/item/storage/backpack/satchel/med
 	id = /obj/item/card/id
 	glasses = /obj/item/clothing/glasses/hud/health
+
+/obj/effect/mob_spawn/human/corpse/charlie/private
+	name = "\improper Charlie Station Security Private"
+	id_job = "Charlie Station Security Private"
+	outfit = /datum/outfit/charlieprivate
+	hairstyle = "Bald"
+	facial_hairstyle = "Shaved"
+
+/datum/outfit/charlieprivate
+	name = "Charlie Station Security Private Corpse"
+	uniform = /obj/item/clothing/under/rank/security/charlie/officer
+	shoes = /obj/item/clothing/shoes/jackboots/charlieboots
+	gloves = /obj/item/clothing/gloves/color/black
+	head = /obj/item/clothing/head/soft/sec/charlie
+	id = /obj/item/card/id/away/old/sec
+
+/obj/effect/mob_spawn/human/corpse/charlie/officer
+	name = "\improper Charlie Station Security Officer"
+	id_job = "Charlie Station Security Officer"
+	outfit = /datum/outfit/charlieofficer
+	hairstyle = "Bald"
+	facial_hairstyle = "Shaved"
+
+/datum/outfit/charlieofficer
+	name = "Charlie Station Security Officer Corpse"
+	uniform = /obj/item/clothing/under/rank/security/charlie/warden
+	suit = /obj/item/clothing/suit/armor/vest/old/charlie
+	shoes = /obj/item/clothing/shoes/jackboots/charlieboots
+	gloves = /obj/item/clothing/gloves/color/black
+	head = /obj/item/clothing/head/helmet/old/charlie
+	id = /obj/item/card/id/away/old/sec
+
+/obj/effect/mob_spawn/human/corpse/charlie/captain
+	name = "\improper Charlie Station Security Captain"
+	id_job = "Charlie Station Security Captain"
+	outfit = /datum/outfit/charliecaptain
+	hairstyle = "Bald"
+	facial_hairstyle = "Shaved"
+
+/datum/outfit/charliecaptain
+	name = "Charlie Station Security Captain Corpse"
+	uniform = /obj/item/clothing/under/rank/security/charlie/head_of_security
+	suit = /obj/item/clothing/suit/armor/vest/old/charlie
+	shoes = /obj/item/clothing/shoes/jackboots/charlieboots
+	gloves = /obj/item/clothing/gloves/color/black
+	mask = /obj/item/clothing/mask/gas/sechailer
+	head = /obj/item/clothing/head/helmet/old/charlie/beret
+	id = /obj/item/card/id/away/old/sec

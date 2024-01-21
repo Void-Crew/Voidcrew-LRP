@@ -1,7 +1,14 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ab" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered)
 "aq" = (
 /obj/effect/decal/cleanable/blood,
-/obj/effect/mob_spawn/human/corpse/cargo_tech,
+/obj/effect/mob_spawn/human/corpse/cargo_tech{
+	name = "SolGov Cargo Tech";
+	outfit = /datum/outfit/job/cargo_tech/solgov
+	},
 /turf/open/floor/plating/grass/jungle,
 /area/ruin/unpowered)
 "bA" = (
@@ -10,18 +17,18 @@
 /turf/closed/wall/mineral/titanium/exterior,
 /area/ruin/powered)
 "bV" = (
-/obj/structure/rack,
-/obj/item/grown/log/tree,
-/obj/item/grown/log/tree,
-/obj/item/grown/log/tree,
-/obj/item/grown/log/tree,
-/obj/item/grown/log/tree,
-/turf/open/floor/plating,
+/obj/structure/table/reinforced/rglass,
+/turf/open/floor/carpet/royalblack,
 /area/ruin/powered)
 "cA" = (
 /obj/item/hatchet/wooden,
 /turf/open/floor/plating/dirt/jungle,
 /area/ruin/unpowered)
+"cN" = (
+/obj/structure/rack,
+/obj/item/hatchet/wooden,
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/powered)
 "cO" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /obj/structure/shuttle/engine/propulsion/burst{
@@ -33,7 +40,7 @@
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "floor5-old"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "dO" = (
 /obj/structure/flora/rock/pile/largejungle,
@@ -59,20 +66,53 @@
 /turf/open/floor/mineral/titanium,
 /area/ruin/powered)
 "eM" = (
+/obj/effect/decal/cleanable/blood,
 /obj/effect/mob_spawn/human/corpse/assistant{
-	outfit = /datum/outfit/job/botanist
+	outfit = /datum/outfit/job/assistant/solgov;
+	name = "SolGov Assistant"
 	},
 /turf/open/floor/plating/dirt/jungle,
 /area/ruin/unpowered)
+"fh" = (
+/obj/structure/fireaxecabinet{
+	pixel_y = 32
+	},
+/turf/open/floor/carpet/royalblack,
+/area/ruin/powered)
 "gd" = (
 /obj/structure/flora/stump,
 /turf/open/floor/plating/dirt/jungle,
 /area/ruin/unpowered)
 "hs" = (
-/obj/effect/decal/cleanable/blood/tracks{
-	dir = 9
+/obj/structure/rack,
+/obj/item/stack/sheet/mineral/wood/fifty,
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/powered)
+"hA" = (
+/obj/effect/decal/cleanable/blood/tracks,
+/obj/item/grown/log/tree,
+/obj/machinery/conveyor{
+	dir = 1;
+	id = "XCCQMLoad2"
 	},
-/turf/open/floor/plating,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/powered)
+"iz" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/rack,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "iO" = (
 /obj/effect/turf_decal/industrial/warning/corner{
@@ -86,13 +126,18 @@
 	force_on = 35;
 	name = "THE GREAT TREEFELLER"
 	},
-/obj/item/clothing/suit/space/hardsuit/solgov{
-	name = "Lumberjack Powersuit"
-	},
 /obj/structure/safe/floor,
 /obj/item/grenade/frag,
 /obj/item/grenade/frag,
+/obj/item/clothing/suit/space/hardsuit/solgov,
 /turf/open/floor/plating,
+/area/ruin/powered)
+"jx" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/carpet/royalblack,
 /area/ruin/powered)
 "jz" = (
 /obj/structure/flora/rock/jungle,
@@ -101,7 +146,15 @@
 "jC" = (
 /obj/machinery/light/floor,
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plating,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "lumbermill"
+	},
+/obj/structure/railing,
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_large,
 /area/ruin/powered)
 "kt" = (
 /obj/structure/flora/grass/jungle,
@@ -109,9 +162,10 @@
 /area/ruin/unpowered)
 "kA" = (
 /obj/effect/mob_spawn/human/corpse/assistant{
-	outfit = /datum/outfit/job/botanist
+	outfit = /datum/outfit/job/assistant/solgov;
+	name = "SolGov Assistant"
 	},
-/obj/effect/gibspawner/human,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/grass/jungle,
 /area/ruin/unpowered)
 "lb" = (
@@ -121,8 +175,6 @@
 /turf/open/floor/carpet/royalblack,
 /area/ruin/powered)
 "lz" = (
-/obj/structure/railing,
-/obj/effect/mob_spawn/human/corpse/solgov/officer,
 /obj/item/organ/heart,
 /obj/item/organ/liver,
 /obj/item/organ/stomach,
@@ -135,7 +187,11 @@
 /area/ruin/powered)
 "lD" = (
 /obj/effect/decal/cleanable/blood/gibs/up,
-/turf/open/floor/plating,
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/powered)
+"lT" = (
+/obj/effect/turf_decal/industrial/warning/corner,
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "mA" = (
 /obj/structure/flora/stump,
@@ -150,9 +206,21 @@
 /turf/open/floor/plating/grass/jungle,
 /area/ruin/unpowered)
 "nc" = (
-/obj/effect/decal/cleanable/blood/gibs/torso,
-/turf/open/floor/plating,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/turf_decal/industrial/warning/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
+"nq" = (
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 4
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/ruin/unpowered)
 "nM" = (
 /mob/living/simple_animal/hostile/tree{
 	health = 100;
@@ -170,6 +238,21 @@
 	},
 /turf/open/floor/plating/dirt/jungle,
 /area/ruin/unpowered)
+"nU" = (
+/obj/effect/decal/cleanable/blood/tracks,
+/obj/machinery/conveyor{
+	dir = 1;
+	id = "XCCQMLoad2"
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing,
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/powered)
 "nX" = (
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
@@ -182,19 +265,41 @@
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 8
 	},
-/turf/open/floor/plating,
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/powered)
+"rm" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "lumbermill"
+	},
+/obj/structure/railing,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/item/stack/sheet/mineral/wood/fifty,
+/turf/open/floor/iron/dark/smooth_large,
 /area/ruin/powered)
 "sm" = (
 /obj/structure/flora/junglebush/c,
 /turf/open/floor/plating/dirt/jungle,
 /area/ruin/unpowered)
-"un" = (
-/obj/item/rack_parts,
-/turf/open/floor/plating,
+"ud" = (
+/obj/effect/turf_decal/industrial/warning/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
+"un" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/plating/dirt/jungle,
+/area/ruin/unpowered)
 "uu" = (
-/obj/structure/railing,
 /obj/effect/decal/cleanable/blood/gibs/torso,
+/obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/carpet/royalblack,
 /area/ruin/powered)
 "uy" = (
@@ -216,7 +321,6 @@
 /turf/open/floor/plating/dirt/jungle,
 /area/ruin/unpowered)
 "vF" = (
-/obj/structure/railing,
 /obj/item/clothing/glasses/sunglasses,
 /obj/effect/decal/cleanable/blood/gibs/body,
 /turf/open/floor/carpet/royalblack,
@@ -231,10 +335,13 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/plating,
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "xu" = (
-/obj/effect/mob_spawn/human/corpse/syndicatesoldier,
+/obj/effect/mob_spawn/human/corpse/cargo_tech{
+	name = "SolGov Pilot";
+	outfit = /datum/outfit/job/cargo_tech/solgov/pilot
+	},
 /turf/open/floor/mineral/titanium,
 /area/ruin/powered)
 "xT" = (
@@ -249,9 +356,12 @@
 	},
 /turf/open/floor/plating/dirt/jungle,
 /area/ruin/unpowered)
+"yw" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/powered)
 "yF" = (
 /obj/structure/railing,
-/obj/effect/mob_spawn/human/corpse/solgov/officer,
 /obj/effect/decal/cleanable/blood,
 /obj/item/organ/heart,
 /obj/item/organ/liver,
@@ -261,11 +371,13 @@
 /turf/open/floor/carpet/royalblack,
 /area/ruin/powered)
 "yY" = (
-/obj/structure/mecha_wreckage/ripley,
-/turf/open/floor/plating,
-/area/ruin/powered)
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/plating/dirt/jungle,
+/area/ruin/unpowered)
 "zu" = (
-/obj/structure/railing,
+/obj/structure/chair/office{
+	dir = 1
+	},
 /turf/open/floor/carpet/royalblack,
 /area/ruin/powered)
 "zv" = (
@@ -277,25 +389,44 @@
 /turf/open/floor/plating/grass/jungle,
 /area/ruin/unpowered)
 "AR" = (
-/turf/open/floor/plating,
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/powered)
+"AV" = (
+/obj/structure/rack,
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "Bg" = (
 /obj/structure/flora/junglebush/large,
 /turf/open/floor/plating/grass/jungle,
 /area/ruin/unpowered)
+"Bk" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/powered)
 "BH" = (
-/obj/item/crowbar/syndie,
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 5
 	},
-/turf/open/floor/plating,
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/item/crowbar/red,
+/turf/open/floor/mineral/titanium,
 /area/ruin/powered)
 "Cc" = (
 /turf/open/floor/plating/grass/jungle,
 /area/ruin/unpowered)
 "CS" = (
 /obj/effect/decal/cleanable/blood/tracks,
-/turf/open/floor/plating,
+/obj/machinery/conveyor{
+	dir = 5;
+	id = "lumbermill"
+	},
+/obj/structure/railing/corner,
+/obj/structure/railing{
+	dir = 9
+	},
+/turf/open/floor/iron/dark/smooth_large,
 /area/ruin/powered)
 "De" = (
 /obj/machinery/button/door{
@@ -304,7 +435,7 @@
 	pixel_y = -25
 	},
 /obj/effect/turf_decal/industrial/warning/corner,
-/turf/open/floor/plating,
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "Df" = (
 /obj/structure/flora/rock/jungle,
@@ -313,7 +444,13 @@
 "Ds" = (
 /obj/effect/turf_decal/industrial/warning,
 /obj/effect/gibspawner/human,
-/turf/open/floor/plating,
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/powered)
+"DO" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "EU" = (
 /mob/living/simple_animal/hostile/tree{
@@ -339,30 +476,53 @@
 /turf/open/floor/plating/dirt/jungle,
 /area/ruin/unpowered)
 "Fo" = (
-/obj/structure/railing,
 /obj/effect/decal/cleanable/blood/gibs/limb,
+/obj/structure/chair/office{
+	dir = 1
+	},
 /turf/open/floor/carpet/royalblack,
 /area/ruin/powered)
 "FW" = (
-/obj/structure/statue/diamond/captain{
-	anchored = 1
+/obj/machinery/computer{
+	desc = "A computer long since rendered non-functional due to lack of maintenance. Spitting out error messages.";
+	name = "Broken Computer"
 	},
 /turf/open/floor/carpet/royalblack,
 /area/ruin/powered)
 "Gf" = (
-/obj/structure/girder,
 /obj/machinery/door/poddoor/shutters/preopen,
-/turf/open/floor/plating,
+/obj/effect/decal/cleanable/blood/footprints,
+/obj/machinery/door/airlock/mining/glass{
+	name = "SolGov Lumber Mill"
+	},
+/obj/effect/turf_decal/industrial/hatch/yellow,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_half,
+/area/ruin/powered)
+"Gh" = (
+/obj/item/rack_parts,
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "GE" = (
-/obj/structure/rack,
-/obj/item/hatchet/wooden,
-/turf/open/floor/plating,
+/obj/effect/decal/cleanable/blood/tracks,
+/obj/item/stack/sheet/mineral/wood/fifty,
+/obj/effect/turf_decal/industrial/loading{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "GN" = (
 /obj/effect/decal/cleanable/blood,
-/obj/effect/mob_spawn/human/corpse/assistant,
-/turf/open/floor/plating,
+/obj/effect/mob_spawn/human/corpse/assistant{
+	outfit = /datum/outfit/job/assistant/solgov;
+	name = "SolGov Assistant"
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "Hw" = (
 /obj/machinery/door/airlock/titanium/glass,
@@ -387,23 +547,20 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/unpowered)
-"JT" = (
-/obj/structure/railing,
-/mob/living/simple_animal/hostile/tree{
-	health = 100;
-	icon = 'icons/obj/flora/jungletrees.dmi';
-	icon_dead = "tree5";
-	icon_gib = "tree5";
-	icon_living = "tree5";
-	icon_state = "tree5";
-	maxHealth = 100;
-	melee_damage_lower = 6;
-	melee_damage_upper = 8;
-	name = "tree";
-	pixel_x = -45;
-	pixel_y = -15
+"IG" = (
+/obj/machinery/recycler/lumbermill{
+	desc = "Is better at killing people than cutting logs, for some reason."
 	},
-/turf/open/floor/carpet/royalblack,
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/powered)
+"JT" = (
+/obj/structure/rack,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "Kc" = (
 /obj/structure/chair/comfy/shuttle{
@@ -425,26 +582,34 @@
 	name = "tree";
 	pixel_x = -30
 	},
-/turf/open/floor/plating,
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "Mf" = (
 /obj/structure/sign/poster/official/build,
 /turf/closed/wall,
 /area/ruin/powered)
 "Mz" = (
-/obj/structure/rack,
-/obj/item/clothing/neck/stethoscope,
-/obj/item/storage/firstaid/ancient,
-/turf/open/floor/plating,
+/obj/structure/table/reinforced/rglass,
+/obj/item/clothing/head/solgovcap,
+/turf/open/floor/carpet/royalblack,
 /area/ruin/powered)
 "MA" = (
-/obj/effect/decal/cleanable/blood/footprints,
-/turf/open/floor/plating/grass/jungle,
-/area/ruin/unpowered)
+/obj/effect/decal/cleanable/blood,
+/obj/effect/turf_decal/industrial/stand_clear,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 1
+	},
+/obj/effect/mob_spawn/human/corpse/cargo_tech{
+	name = "SolGov Cargo Tech";
+	outfit = /datum/outfit/job/cargo_tech/solgov
+	},
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/powered)
 "MD" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/dirt/jungle,
 /area/ruin/unpowered)
 "MT" = (
@@ -455,6 +620,10 @@
 /obj/structure/flora/grass/jungle,
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 8
+	},
+/obj/effect/decal/cleanable/blood/footprints,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 4
 	},
 /turf/open/floor/plating/dirt/jungle,
 /area/ruin/unpowered)
@@ -469,13 +638,7 @@
 /turf/open/floor/mineral/titanium,
 /area/ruin/powered)
 "Nj" = (
-/obj/structure/rack,
-/obj/item/grown/log/tree,
-/obj/item/grown/log/tree,
-/obj/item/grown/log/tree,
-/obj/item/grown/log/tree,
-/obj/item/grown/log/tree,
-/obj/item/grown/log/tree,
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/ruin/powered)
 "Nr" = (
@@ -505,6 +668,16 @@
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/plating/dirt/jungle,
 /area/ruin/unpowered)
+"Or" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 9
+	},
+/obj/effect/turf_decal/industrial/warning/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/powered)
 "Pb" = (
 /turf/closed/wall,
 /area/ruin/powered)
@@ -515,9 +688,8 @@
 /turf/open/floor/plating/dirt/jungle,
 /area/ruin/unpowered)
 "Qp" = (
-/obj/effect/decal/cleanable/blood/footprints,
-/obj/structure/girder,
 /obj/machinery/door/poddoor/shutters/preopen,
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/ruin/powered)
 "Qv" = (
@@ -526,7 +698,7 @@
 /area/ruin/unpowered)
 "Ra" = (
 /obj/effect/gibspawner/human,
-/turf/open/floor/plating,
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "RE" = (
 /obj/structure/flora/stump,
@@ -540,19 +712,28 @@
 /area/ruin/unpowered)
 "RK" = (
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "RM" = (
-/obj/effect/decal/cleanable/blood,
-/obj/effect/mob_spawn/human/corpse/assistant,
-/turf/open/floor/plating/dirt/jungle,
-/area/ruin/unpowered)
+/obj/structure/rack,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/obj/item/grown/log/tree,
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/powered)
 "RV" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/industrial/warning/corner{
 	dir = 8
 	},
-/turf/open/floor/plating,
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "SD" = (
 /obj/effect/turf_decal/industrial/warning{
@@ -578,18 +759,29 @@
 /area/ruin/unpowered)
 "SJ" = (
 /obj/effect/decal/cleanable/blood,
-/obj/effect/mob_spawn/human/corpse/cargo_tech,
-/turf/open/floor/plating,
+/obj/effect/mob_spawn/human/corpse/cargo_tech{
+	name = "SolGov Cargo Tech";
+	outfit = /datum/outfit/job/cargo_tech/solgov
+	},
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "Ta" = (
 /obj/machinery/door/poddoor/shutters{
-	id = onceler
+	id = "onceler"
 	},
-/turf/open/floor/plating,
+/obj/effect/turf_decal/industrial/hatch/yellow,
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin/powered)
 "TB" = (
 /obj/item/megaphone/command,
+/obj/structure/table/reinforced/rglass,
 /turf/open/floor/carpet/royalblack,
+/area/ruin/powered)
+"Ua" = (
+/obj/effect/turf_decal/industrial/warning/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "Uy" = (
 /obj/effect/decal/cleanable/blood/tracks{
@@ -601,7 +793,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plating,
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "UJ" = (
 /turf/open/floor/plating/dirt/jungle,
@@ -610,31 +802,58 @@
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "floor2-old"
 	},
-/turf/open/floor/plating,
+/obj/structure/mecha_wreckage/ripley,
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "VH" = (
 /obj/effect/turf_decal/industrial/warning,
-/turf/open/floor/plating,
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "VR" = (
-/obj/machinery/light{
-	dir = 1
+/mob/living/simple_animal/hostile/tree{
+	health = 100;
+	icon = 'icons/obj/flora/jungletrees.dmi';
+	icon_dead = "tree5";
+	icon_gib = "tree5";
+	icon_living = "tree5";
+	icon_state = "tree5";
+	maxHealth = 100;
+	melee_damage_lower = 6;
+	melee_damage_upper = 8;
+	name = "tree";
+	pixel_x = -45;
+	pixel_y = -15
 	},
-/obj/item/fireaxe,
 /turf/open/floor/carpet/royalblack,
 /area/ruin/powered)
 "VT" = (
 /obj/effect/decal/cleanable/blood/gibs/limb,
+/obj/structure/table/reinforced/rglass,
+/turf/open/floor/carpet/royalblack,
+/area/ruin/powered)
+"WL" = (
+/obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/carpet/royalblack,
 /area/ruin/powered)
 "Yo" = (
-/obj/structure/rack,
-/obj/item/stack/sheet/mineral/wood/fifty,
-/turf/open/floor/plating,
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 6;
+	icon_state = "tracks"
+	},
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/powered)
+"YB" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 9
+	},
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "YM" = (
 /obj/machinery/light,
-/turf/open/floor/plating,
+/obj/structure/rack,
+/obj/item/storage/firstaid/ancient,
+/obj/item/clothing/neck/stethoscope,
+/turf/open/floor/iron/dark/herringbone,
 /area/ruin/powered)
 "Zh" = (
 /mob/living/simple_animal/hostile/tree{
@@ -654,8 +873,10 @@
 /turf/open/floor/plating/grass/jungle,
 /area/ruin/unpowered)
 "ZU" = (
-/obj/structure/rack,
-/turf/open/floor/plating,
+/obj/machinery/door/airlock/mining/glass{
+	name = "Communications Office"
+	},
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin/powered)
 
 (1,1,1) = {"
@@ -763,7 +984,7 @@ Cc
 UJ
 Ie
 UJ
-EW
+un
 Cc
 Cc
 Cc
@@ -798,8 +1019,8 @@ eb
 UJ
 Pb
 wD
-zu
-yY
+wD
+Pb
 Ve
 AR
 UD
@@ -807,7 +1028,7 @@ Ll
 AR
 AR
 Pb
-MD
+nq
 Cc
 Df
 Cc
@@ -815,21 +1036,21 @@ Cc
 (8,1,1) = {"
 Cc
 jz
-Cc
+ab
 UJ
 UJ
 Pb
-lb
-zu
-un
-AR
-AR
+jx
+wD
+Nj
+Gh
+lT
 GN
-AR
-AR
-AR
-Gf
-MD
+DO
+iz
+ud
+Qp
+nq
 gd
 UJ
 Cc
@@ -841,18 +1062,18 @@ cA
 Df
 gd
 Pb
+bV
 wD
-JT
-ZU
-AR
-AR
+Nj
+AV
+VH
 CS
-CS
-CS
-SJ
+hA
+nU
+MA
 Gf
 MX
-UJ
+ev
 UJ
 Cc
 "}
@@ -866,15 +1087,15 @@ Pb
 FW
 Fo
 Nj
-AR
-AR
+RM
+VH
 jC
-AR
+YB
 RK
-AR
+Ua
 Qp
-ev
-MA
+UJ
+Cc
 eb
 Cc
 "}
@@ -885,18 +1106,18 @@ UJ
 UJ
 UJ
 zv
-wD
+Mz
 yF
-GE
-AR
-AR
-AR
-AR
+Nj
+cN
+VH
+IG
+Bk
 AR
 AR
 Pb
 UJ
-RM
+eM
 Cc
 UJ
 "}
@@ -909,13 +1130,13 @@ UJ
 Pb
 TB
 vF
-bV
+Nj
+JT
+VH
+rm
+Bk
 AR
-AR
-RK
-AR
-AR
-AR
+hs
 Pb
 UJ
 uy
@@ -929,12 +1150,12 @@ Cc
 UJ
 UJ
 Pb
-wD
-zu
-Yo
+fh
+WL
+Nj
 hs
-CS
-CS
+Or
+GE
 nc
 AR
 YM
@@ -952,14 +1173,14 @@ UJ
 UJ
 Pb
 VR
-zu
-AR
+wD
+Pb
 SJ
+Yo
+yw
 AR
 AR
-AR
-AR
-AR
+Gh
 Pb
 EU
 UJ
@@ -973,8 +1194,8 @@ nM
 Cc
 gd
 Pb
+lb
 wD
-zu
 ZU
 dE
 AR
@@ -996,8 +1217,8 @@ Qv
 UJ
 Pb
 wD
-zu
-bV
+wD
+Pb
 AR
 HZ
 Nc
@@ -1019,7 +1240,7 @@ UJ
 Pb
 wD
 uu
-un
+Nj
 AR
 ps
 BH
@@ -1041,7 +1262,7 @@ PR
 Pb
 VT
 lz
-Yo
+Nj
 AR
 wP
 Nr
@@ -1061,9 +1282,9 @@ jz
 sm
 gd
 zv
+bV
 wD
-zu
-un
+Nj
 AR
 nX
 Kc
@@ -1085,7 +1306,7 @@ UJ
 Pb
 FW
 zu
-Yo
+Nj
 Ra
 bA
 uI
@@ -1105,9 +1326,9 @@ UJ
 Df
 UJ
 Pb
-lb
-zu
-un
+bV
+wD
+Nj
 AR
 wP
 nX
@@ -1125,11 +1346,11 @@ Cc
 UJ
 UJ
 eM
-UJ
+yY
 Pb
+lb
 wD
-zu
-Mz
+Nj
 AR
 AR
 Ll
@@ -1150,8 +1371,8 @@ vs
 UJ
 Pb
 wD
-zu
-AR
+wD
+Pb
 AR
 AR
 wZ
