@@ -792,6 +792,12 @@ update_label()
 	assignment = "Charlie Station Security Officer"
 	access = list(ACCESS_AWAY_GENERAL, ACCESS_AWAY_SEC)
 
+/obj/item/card/id/away/old/chef
+	name = "Charlie Station Chef's ID card"
+	desc = "A faded Charlie Station ID card. You can make out the rank \"Chef\"."
+	assignment = "Charlie Station Chef"
+	access = list(ACCESS_AWAY_GENERAL)
+
 /obj/item/card/id/away/old/sci
 	name = "Charlie Station Scientist's ID card"
 	desc = "A faded Charlie Station ID card. You can make out the rank \"Scientist\"."
@@ -808,6 +814,12 @@ update_label()
 	name = "Charlie Station Captain's ID card"
 	desc = "A faded Charlie Station ID card. You can make out the rank \"Captain\"."
 	assignment = "Charlie Station Captain"
+	access = list(ACCESS_AWAY_GENERAL, ACCESS_AWAY_ENGINE, ACCESS_AWAY_SEC)
+
+/obj/item/card/id/away/old/lt
+	name = "Charlie Station Lieutenant's ID card"
+	desc = "A faded Charlie Station ID card. You can make out the rank \"Lieutenant\"."
+	assignment = "Charlie Station Lieutenant"
 	access = list(ACCESS_AWAY_GENERAL, ACCESS_AWAY_ENGINE, ACCESS_AWAY_SEC)
 
 /obj/item/card/id/away/old/apc
