@@ -5891,6 +5891,15 @@
 	},
 /turf/open/floor/iron/dark/smooth_half,
 /area/tdome/tdomeobserve)
+"aGv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/gravity_generator/main/station{
+	charge_count = 0;
+	on = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/ruin/space/ancientstation/beta/gravity)
 "aGw" = (
 /obj/structure/sign/warning/nosmoking,
 /turf/closed/indestructible/riveted,
@@ -10037,7 +10046,9 @@
 /obj/machinery/light_switch{
 	pixel_x = 26
 	},
-/turf/open/floor/wood/airless,
+/turf/open/floor/wood/airless{
+	icon_state = "wood-broken4"
+	},
 /area/ruin/space/ancientstation/alpha/library)
 "aUd" = (
 /obj/effect/landmark/holding_facility,
@@ -16239,7 +16250,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 5
 	},
-/turf/open/floor/wood/airless,
+/turf/open/floor/wood/airless{
+	icon_state = "wood-broken3"
+	},
 /area/ruin/space/ancientstation/alpha/library)
 "eTr" = (
 /obj/effect/decal/cleanable/dirt,
@@ -16957,6 +16970,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/rnd)
+"fIH" = (
+/obj/structure/bookcase/random/nonfiction,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood/airless{
+	icon_state = "wood-broken3"
+	},
+/area/ruin/space/ancientstation/alpha/library)
 "fJe" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -17677,7 +17697,9 @@
 /obj/structure/table/wood,
 /obj/item/book/manual/wiki/infections,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/airless,
+/turf/open/floor/wood/airless{
+	icon_state = "wood-broken"
+	},
 /area/ruin/space/ancientstation/alpha/library)
 "gmO" = (
 /obj/effect/turf_decal/corner/neutral/full{
@@ -25623,7 +25645,9 @@
 "olW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/wood/airless,
+/turf/open/floor/wood/airless{
+	icon_state = "wood-broken"
+	},
 /area/ruin/space/ancientstation/alpha/library)
 "omi" = (
 /obj/structure/filingcabinet,
@@ -27622,6 +27646,12 @@
 /obj/structure/door_assembly/door_assembly_mhatch,
 /turf/open/space/basic,
 /area/ruin/space/ancientstation/alpha/hall)
+"qrc" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood/airless{
+	icon_state = "wood-broken"
+	},
+/area/ruin/space/ancientstation/alpha/library)
 "qrw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
@@ -29514,7 +29544,9 @@
 "rZa" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
-/turf/open/floor/wood/airless,
+/turf/open/floor/wood/airless{
+	icon_state = "wood-broken2"
+	},
 /area/ruin/space/ancientstation/alpha/library)
 "rZt" = (
 /obj/effect/turf_decal/corner/green{
@@ -32595,6 +32627,12 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/charlie/hall)
+"uSb" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood/airless{
+	icon_state = "wood-broken2"
+	},
+/area/ruin/space/ancientstation/alpha/library)
 "uSm" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -34937,6 +34975,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ctf)
+"xhI" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood/airless{
+	icon_state = "wood-broken4"
+	},
+/area/ruin/space/ancientstation/alpha/library)
 "xjg" = (
 /obj/structure/catwalk,
 /turf/open/space/basic,
@@ -35646,15 +35690,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/biolab)
-"xRH" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/gravity_generator/main/station{
-	charge_count = 0;
-	on = 0
-	},
-/turf/open/floor/iron/diagonal,
-/area/ruin/space/ancientstation/beta/gravity)
 "xSt" = (
 /obj/structure/chair/office{
 	dir = 8
@@ -35963,7 +35998,9 @@
 	start_charge = 0;
 	auto_name = 0
 	},
-/turf/open/floor/wood/airless,
+/turf/open/floor/wood/airless{
+	icon_state = "wood-broken3"
+	},
 /area/ruin/space/ancientstation/alpha/library)
 "ykA" = (
 /obj/structure/closet/crate,
@@ -43987,7 +44024,7 @@ bhG
 doc
 hRi
 lpr
-lpr
+xhI
 lrV
 rZa
 eTl
@@ -44243,10 +44280,10 @@ vCP
 vCP
 doc
 hQE
-lpr
+qrc
 jsa
 jsa
-jsa
+fIH
 wLG
 jUJ
 mhE
@@ -44501,7 +44538,7 @@ cov
 doc
 lpr
 lpr
-lpr
+uSb
 olW
 rSu
 upx
@@ -45270,7 +45307,7 @@ bIW
 wVt
 kXe
 doc
-lpr
+uSb
 aUc
 eNz
 gwu
@@ -51164,7 +51201,7 @@ vzV
 vSc
 dyJ
 giQ
-xRH
+aGv
 nHN
 wUz
 xKI
