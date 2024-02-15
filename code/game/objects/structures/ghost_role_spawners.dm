@@ -875,7 +875,7 @@
 	The last thing you remember is the station's Artificial Program telling you that you would only be asleep for eight hours. As you open \
 	your eyes, everything seems rusted and broken, a dark feeling swells in your gut as you climb out of your pod."
 	important_info = "Command your fellow survivors and do not abandon them."
-	uniform = /obj/item/clothing/under/rank/command/lieutenant/nt
+	uniform = /obj/item/clothing/under/rank/command/lieutenant/alt
 	shoes = /obj/item/clothing/shoes/laceup
 	gloves = /obj/item/clothing/gloves/color/black
 	id = /obj/item/card/id/away/old/lt

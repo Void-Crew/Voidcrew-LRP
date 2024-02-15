@@ -406,6 +406,13 @@ update_label()
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
 
+/obj/item/card/id/silverbluey
+	name = "silver identification card"
+	id_type_name = "silver identification card"
+	desc = "A silver card which shows honour and dedication."
+	icon_state = "silverbluey"
+	item_state = "silverbluey_id"
+
 /obj/item/card/id/silver/hologram
 	assignment = "Head of Personnel"
 	registered_name = "Emergency Command Hologram"
