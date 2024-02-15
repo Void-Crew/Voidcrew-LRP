@@ -149,17 +149,48 @@
 
 /area/ruin/space/ancientstation
 	name = "Ancient Station"
-	icon_state = "os_charlie_hall"
+	icon_state = "oldstation"
+	has_gravity = FALSE
 
-/area/ruin/space/ancientstation/powered
-	name = "Powered Tile"
-	icon_state = "teleporter"
-	requires_power = FALSE
+/area/ruin/space/ancientstation/alpha
+	name = "Alpha Station"
+	icon_state = "alphastation"
+
+/area/ruin/space/ancientstation/alpha/hall
+	name = "Alpha Station Main Corridor"
+	icon_state = "os_alpha_hall"
+
+/area/ruin/space/ancientstation/alpha/dorms
+	name = "Alpha Station Crew Dorms"
+	icon_state = "os_alpha_dorms"
+
+/area/ruin/space/ancientstation/alpha/comdorms
+	name = "Alpha Station Command Dorms"
+	icon_state = "os_alpha_comdorms"
+
+/area/ruin/space/ancientstation/alpha/cargo
+	name = "Alpha Station Cargo Bay"
+	icon_state = "os_alpha_cargo"
+
+/area/ruin/space/ancientstation/alpha/arrivals
+	name = "Alpha Station Docks"
+	icon_state = "os_alpha_arrivals"
+
+/area/ruin/space/ancientstation/alpha/lounge
+	name = "Alpha Station Lounge"
+	icon_state = "os_alpha_lounge"
+
+/area/ruin/space/ancientstation/alpha/library
+	name = "Alpha Station Library"
+	icon_state = "os_alpha_library"
+
+/area/ruin/space/ancientstation/alpha/office
+	name = "Alpha Station Representative's Office"
+	icon_state = "os_alpha_office"
 
 /area/ruin/space/ancientstation/charlie
 	name = "Charlie Station"
 	icon_state = "charliestation"
-	has_gravity = FALSE
 
 /area/ruin/space/ancientstation/charlie/hall
 	name = "Charlie Station Main Corridor"

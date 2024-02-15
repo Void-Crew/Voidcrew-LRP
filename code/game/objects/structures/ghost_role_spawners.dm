@@ -613,16 +613,44 @@
 	your eyes, everything seems rusted and broken, a dark feeling swells in your gut as you climb out of your pod."
 	important_info = "Work as a team with your fellow survivors and do not abandon them."
 	head = /obj/item/clothing/head/soft/sec/charlie
-	uniform = /obj/item/clothing/under/rank/security/charlie/officer //WS edit - Command/Sec resprite
+	uniform = /obj/item/clothing/under/rank/security/charlie/officer
 	shoes = /obj/item/clothing/shoes/jackboots/charlieboots
 	id = /obj/item/card/id/away/old/sec
 	gloves = /obj/item/clothing/gloves/color/black
-	r_pocket = /obj/item/restraints/handcuffs
-	l_pocket = /obj/item/assembly/flash/handheld
+	r_pocket = /obj/item/assembly/flash/handheld
+	l_pocket = /obj/item/restraints/handcuffs
 	assignedrole = "Ancient Crew"
 	id_job = "Charlie Station Security Private"
 
 /obj/effect/mob_spawn/human/oldsec/Destroy()
+	new/obj/structure/showcase/machinery/oldpod/used(drop_location())
+	return ..()
+
+/obj/effect/mob_spawn/human/oldsec/senior
+	name = "old cryogenics pod"
+	desc = "A humming cryo pod. You can barely recognise a senior security uniform underneath the built up ice. The machine is attempting to wake up its occupant."
+	mob_name = "a senior security guard"
+	icon = 'icons/obj/machines/sleeper.dmi'
+	icon_state = "sleeper"
+	roundstart = FALSE
+	death = FALSE
+	random = TRUE
+	mob_species = /datum/species/human
+	short_desc = "You are an senior officer working for Nanotrasen, stationed onboard a state of the art research station."
+	flavour_text = "You vaguely recall rushing into a cryogenics pod due to an oncoming radiation storm. \
+	The last thing you remember is the station's Artificial Program telling you that you would only be asleep for eight hours. As you open \
+	your eyes, everything seems rusted and broken, a dark feeling swells in your gut as you climb out of your pod."
+	important_info = "Work as a team with your fellow survivors and do not abandon them."
+	uniform = /obj/item/clothing/under/rank/security/charlie/warden
+	shoes = /obj/item/clothing/shoes/jackboots/charlieboots
+	id = /obj/item/card/id/away/old/sec
+	gloves = /obj/item/clothing/gloves/color/black
+	r_pocket = /obj/item/assembly/flash/handheld
+	l_pocket = /obj/item/restraints/handcuffs
+	assignedrole = "Ancient Crew"
+	id_job = "Charlie Station Security Officer"
+
+/obj/effect/mob_spawn/human/oldsec/senior/Destroy()
 	new/obj/structure/showcase/machinery/oldpod/used(drop_location())
 	return ..()
 
@@ -648,7 +676,85 @@
 	id = /obj/item/card/id/away/old/chef
 	assignedrole = "Ancient Crew"
 
-/obj/effect/mob_spawn/human/oldsec/Destroy()
+/obj/effect/mob_spawn/human/oldchef/Destroy()
+	new/obj/structure/showcase/machinery/oldpod/used(drop_location())
+	return ..()
+
+/obj/effect/mob_spawn/human/oldbot
+	name = "old cryogenics pod"
+	desc = "A humming cryo pod. You can barely recognise a hydroponics uniform underneath the built up ice. The machine is attempting to wake up its occupant."
+	mob_name = "a botanist"
+	icon = 'icons/obj/machines/sleeper.dmi'
+	icon_state = "sleeper"
+	roundstart = FALSE
+	death = FALSE
+	random = TRUE
+	mob_species = /datum/species/human
+	short_desc = "You are a botanist working for Nanotrasen, stationed onboard a state of the art research station."
+	flavour_text = "You vaguely recall rushing into a cryogenics pod due to an oncoming radiation storm. \
+	The last thing you remember is the station's Artificial Program telling you that you would only be asleep for eight hours. As you open \
+	your eyes, everything seems rusted and broken, a dark feeling swells in your gut as you climb out of your pod."
+	important_info = "Work as a team with your fellow survivors and do not abandon them."
+	uniform = /obj/item/clothing/under/rank/civilian/hydroponics
+	suit = /obj/item/clothing/suit/apron/overalls
+	shoes = /obj/item/clothing/shoes/sneakers/black
+	gloves = /obj/item/clothing/gloves/botanic_leather
+	id = /obj/item/card/id/away/old/bot
+	assignedrole = "Ancient Crew"
+
+/obj/effect/mob_spawn/human/oldbot/Destroy()
+	new/obj/structure/showcase/machinery/oldpod/used(drop_location())
+	return ..()
+
+/obj/effect/mob_spawn/human/oldjan
+	name = "old cryogenics pod"
+	desc = "A humming cryo pod. You can barely recognise a custodian uniform underneath the built up ice. The machine is attempting to wake up its occupant."
+	mob_name = "a janitor"
+	icon = 'icons/obj/machines/sleeper.dmi'
+	icon_state = "sleeper"
+	roundstart = FALSE
+	death = FALSE
+	random = TRUE
+	mob_species = /datum/species/human
+	short_desc = "You are a janitor working for Nanotrasen, stationed onboard a state of the art research station."
+	flavour_text = "You vaguely recall rushing into a cryogenics pod due to an oncoming radiation storm. \
+	The last thing you remember is the station's Artificial Program telling you that you would only be asleep for eight hours. As you open \
+	your eyes, everything seems rusted and broken, a dark feeling swells in your gut as you climb out of your pod."
+	important_info = "Work as a team with your fellow survivors and do not abandon them."
+	uniform = /obj/item/clothing/under/rank/civilian/janitor/custodian
+	shoes = /obj/item/clothing/shoes/sneakers/black
+	head = /obj/item/clothing/head/soft/purple
+	gloves = /obj/item/clothing/gloves/color/black
+	id = /obj/item/card/id/away/old/jan
+	assignedrole = "Ancient Crew"
+
+/obj/effect/mob_spawn/human/oldjan/Destroy()
+	new/obj/structure/showcase/machinery/oldpod/used(drop_location())
+	return ..()
+
+/obj/effect/mob_spawn/human/oldmed
+	name = "old cryogenics pod"
+	desc = "A humming cryo pod. You can barely recognise a medical uniform underneath the built up ice. The machine is attempting to wake up its occupant."
+	mob_name = "a doctor"
+	icon = 'icons/obj/machines/sleeper.dmi'
+	icon_state = "sleeper"
+	roundstart = FALSE
+	death = FALSE
+	random = TRUE
+	mob_species = /datum/species/human
+	short_desc = "You are a doctor working for Nanotrasen, stationed onboard a state of the art research station."
+	flavour_text = "You vaguely recall rushing into a cryogenics pod due to an oncoming radiation storm. \
+	The last thing you remember is the station's Artificial Program telling you that you would only be asleep for eight hours. As you open \
+	your eyes, everything seems rusted and broken, a dark feeling swells in your gut as you climb out of your pod."
+	important_info = "Work as a team with your fellow survivors and do not abandon them."
+	uniform = /obj/item/clothing/under/rank/medical/doctor
+	shoes = /obj/item/clothing/shoes/sneakers/black
+	gloves = /obj/item/clothing/gloves/color/latex
+	id = /obj/item/card/id/away/old/med
+	l_pocket = /obj/item/stack/medical/bruise_pack
+	assignedrole = "Ancient Crew"
+
+/obj/effect/mob_spawn/human/oldmed/Destroy()
 	new/obj/structure/showcase/machinery/oldpod/used(drop_location())
 	return ..()
 
@@ -678,6 +784,33 @@
 	new/obj/structure/showcase/machinery/oldpod/used(drop_location())
 	return ..()
 
+/obj/effect/mob_spawn/human/oldeng/senior
+	name = "old cryogenics pod"
+	desc = "A humming cryo pod. You can barely recognise an senior engineering uniform underneath the built up ice. The machine is attempting to wake up its occupant."
+	mob_name = "an senior engineer"
+	icon = 'icons/obj/machines/sleeper.dmi'
+	icon_state = "sleeper"
+	roundstart = FALSE
+	death = FALSE
+	random = TRUE
+	mob_species = /datum/species/human
+	short_desc = "You are an trained engineer working for Nanotrasen, stationed onboard a state of the art research station."
+	flavour_text = "You vaguely recall rushing into a cryogenics pod due to an oncoming radiation storm. The last thing \
+	you remember is the station's Artificial Program telling you that you would only be asleep for eight hours. As you open \
+	your eyes, everything seems rusted and broken, a dark feeling swells in your gut as you climb out of your pod."
+	important_info = "Work as a team with your fellow survivors and do not abandon them."
+	uniform = /obj/item/clothing/under/rank/engineering/engineer/maintenance_tech
+	shoes = /obj/item/clothing/shoes/workboots
+	id = /obj/item/card/id/away/old/eng
+	head = /obj/item/clothing/head/hardhat/orange
+	gloves = /obj/item/clothing/gloves/color/fyellow/old
+	l_pocket = /obj/item/tank/internals/emergency_oxygen
+	assignedrole = "Ancient Crew"
+
+/obj/effect/mob_spawn/human/oldeng/senior/Destroy()
+	new/obj/structure/showcase/machinery/oldpod/used(drop_location())
+	return ..()
+
 /obj/effect/mob_spawn/human/oldsci
 	name = "old cryogenics pod"
 	desc = "A humming cryo pod. You can barely recognise a science uniform underneath the built up ice. The machine is attempting to wake up its occupant."
@@ -696,7 +829,31 @@
 	uniform = /obj/item/clothing/under/rank/rnd/scientist
 	shoes = /obj/item/clothing/shoes/laceup
 	id = /obj/item/card/id/away/old/sci
-	l_pocket = /obj/item/stack/medical/bruise_pack
+	assignedrole = "Ancient Crew"
+
+/obj/effect/mob_spawn/human/oldsci/Destroy()
+	new/obj/structure/showcase/machinery/oldpod/used(drop_location())
+	return ..()
+
+/obj/effect/mob_spawn/human/oldrobo
+	name = "old cryogenics pod"
+	desc = "A humming cryo pod. You can barely recognise a robotics uniform underneath the built up ice. The machine is attempting to wake up its occupant."
+	mob_name = "a roboticist"
+	icon = 'icons/obj/machines/sleeper.dmi'
+	icon_state = "sleeper"
+	roundstart = FALSE
+	death = FALSE
+	random = TRUE
+	mob_species = /datum/species/human
+	short_desc = "You are a roboticist working for Nanotrasen, stationed onboard a state of the art research station."
+	flavour_text = "You vaguely recall rushing into a cryogenics pod due to an oncoming radiation storm. \
+	The last thing you remember is the station's Artificial Program telling you that you would only be asleep for eight hours. As you open \
+	your eyes, everything seems rusted and broken, a dark feeling swells in your gut as you climb out of your pod."
+	important_info = "Work as a team with your fellow survivors and do not abandon them."
+	uniform = /obj/item/clothing/under/rank/rnd/roboticist/biomech_engineer
+	shoes = /obj/item/clothing/shoes/jackboots
+	id = /obj/item/card/id/away/old/robo
+	gloves = /obj/item/clothing/gloves/color/black
 	assignedrole = "Ancient Crew"
 
 /obj/effect/mob_spawn/human/oldsci/Destroy()
@@ -748,12 +905,12 @@
 	The last thing you remember is the station's Artificial Program telling you that you would only be asleep for eight hours. As you open \
 	your eyes, everything seems rusted and broken, a dark feeling swells in your gut as you climb out of your pod."
 	important_info = "Command your fellow survivors and do not abandon them."
-	head = /obj/item/clothing/head/caphat/nt
 	uniform = /obj/item/clothing/under/rank/command/captain/nt
 	shoes = /obj/item/clothing/shoes/jackboots
 	gloves = /obj/item/clothing/gloves/color/black
 	id = /obj/item/card/id/away/old/cap
 	l_pocket = /obj/item/melee/classic_baton/telescopic
+	r_pocket = /obj/item/ammo_box/magazine/co9mm
 	belt = /obj/item/gun/ballistic/automatic/pistol/commander
 	assignedrole = "Ancient Crew"
 
@@ -762,6 +919,60 @@
 	. = ..()
 
 /obj/effect/mob_spawn/human/oldcap/Destroy()
+	new/obj/structure/showcase/machinery/oldpod/used(drop_location())
+	return ..()
+
+/obj/effect/mob_spawn/human/oldcent
+	name = "old cryogenics pod"
+	desc = "A humming cryo pod. You can barely recognise a central command uniform underneath the built up ice. The machine is attempting to wake up its occupant."
+	mob_name = "a centcom representative"
+	icon = 'icons/obj/machines/sleeper.dmi'
+	icon_state = "sleeper"
+	roundstart = FALSE
+	death = FALSE
+	random = TRUE
+	mob_species = /datum/species/human
+	short_desc = "You are a representative of Nanotrasen, onboard your state of the art research station."
+	flavour_text = "You vaguely recall rushing into a cryogenics pod due to an oncoming radiation storm. \
+	The last thing you remember is the station's Artificial Program telling you that you would only be asleep for eight hours. As you open \
+	your eyes, everything seems rusted and broken, a dark feeling swells in your gut as you climb out of your pod."
+	important_info = "Assist, and be a voice to fellow survivors and do not abandon them."
+	uniform = /obj/item/clothing/under/rank/centcom/official
+	shoes = /obj/item/clothing/shoes/sneakers/black
+	gloves = /obj/item/clothing/gloves/color/black
+	id = /obj/item/card/id/away/old/cent
+	l_pocket = /obj/item/melee/classic_baton/telescopic
+	r_pocket = /obj/item/ammo_box/magazine/m45
+	belt = /obj/item/gun/ballistic/automatic/pistol/m1911
+	assignedrole = "Ancient Crew"
+
+/obj/effect/mob_spawn/human/oldcent/Destroy()
+	new/obj/structure/showcase/machinery/oldpod/used(drop_location())
+	return ..()
+
+/obj/effect/mob_spawn/human/oldcarg
+	name = "old cryogenics pod"
+	desc = "A humming cryo pod. You can barely recognise a cargo uniform underneath the built up ice. The machine is attempting to wake up its occupant."
+	mob_name = "a cargo technician"
+	icon = 'icons/obj/machines/sleeper.dmi'
+	icon_state = "sleeper"
+	roundstart = FALSE
+	death = FALSE
+	random = TRUE
+	mob_species = /datum/species/human
+	short_desc = "You are a cargo tech of Nanotrasen, onboard your state of the art research station."
+	flavour_text = "You vaguely recall rushing into a cryogenics pod due to an oncoming radiation storm. \
+	The last thing you remember is the station's Artificial Program telling you that you would only be asleep for eight hours. As you open \
+	your eyes, everything seems rusted and broken, a dark feeling swells in your gut as you climb out of your pod."
+	important_info = "Assist fellow survivors and do not abandon them."
+	uniform = /obj/item/clothing/under/rank/cargo/tech
+	shoes = /obj/item/clothing/shoes/sneakers/black
+	head = /obj/item/clothing/head/soft
+	gloves = /obj/item/clothing/gloves/fingerless
+	id = /obj/item/card/id/away/old/carg
+	assignedrole = "Ancient Crew"
+
+/obj/effect/mob_spawn/human/oldcarg/Destroy()
 	new/obj/structure/showcase/machinery/oldpod/used(drop_location())
 	return ..()
 

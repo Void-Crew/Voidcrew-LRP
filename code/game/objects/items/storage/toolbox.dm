@@ -157,6 +157,24 @@
 	else
 		new /obj/item/stack/cable_coil(src,MAXCOIL,pickedcolor)
 
+/obj/item/storage/toolbox/electrical/old
+	name = "rusty yellow toolbox"
+	icon_state = "toolbox_yellow_old"
+	item_state = "toolbox_yellow"
+
+/obj/item/storage/toolbox/electrical/old/PopulateContents()
+	var/pickedcolor = pick("red","yellow","green","blue","pink","orange","cyan","white")
+	new /obj/item/screwdriver(src)
+	new /obj/item/wirecutters(src)
+	new /obj/item/t_scanner(src)
+	new /obj/item/crowbar(src)
+	new /obj/item/stack/cable_coil(src,MAXCOIL,pickedcolor)
+	new /obj/item/stack/cable_coil(src,MAXCOIL,pickedcolor)
+	if(prob(5))
+		new /obj/item/clothing/gloves/color/fyellow/old(src)
+	else
+		new /obj/item/stack/cable_coil(src,MAXCOIL,pickedcolor)
+
 /obj/item/storage/toolbox/syndicate
 	name = "suspicious looking toolbox"
 	icon_state = "syndicate"

@@ -229,9 +229,15 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	icon_state = "com_headset"
 	keyslot = new /obj/item/encryptionkey/heads/head_of_personnel
 
+/obj/item/radio/headset/heads/qm
+	name = "\proper the quartermaster's headset"
+	desc = "The headset of the hardest working, and yet lowest head."
+	icon_state = "cargo_headset"
+	keyslot = new /obj/item/encryptionkey/heads/qm
+
 /obj/item/radio/headset/headset_cargo
 	name = "supply radio headset"
-	desc = "A headset used by the QM and his slaves."
+	desc = "A headset used by cargo technicians."
 	icon_state = "cargo_headset"
 	keyslot = new /obj/item/encryptionkey/headset_cargo
 

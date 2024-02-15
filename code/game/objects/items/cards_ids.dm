@@ -798,11 +798,36 @@ update_label()
 	assignment = "Charlie Station Chef"
 	access = list(ACCESS_AWAY_GENERAL)
 
+/obj/item/card/id/away/old/bot
+	name = "Charlie Station Botanist's ID card"
+	desc = "A faded Charlie Station ID card. You can make out the rank \"Botanist\"."
+	assignment = "Charlie Station Botanist"
+	access = list(ACCESS_AWAY_GENERAL)
+
 /obj/item/card/id/away/old/sci
 	name = "Charlie Station Scientist's ID card"
 	desc = "A faded Charlie Station ID card. You can make out the rank \"Scientist\"."
 	assignment = "Charlie Station Scientist"
 	access = list(ACCESS_AWAY_GENERAL)
+
+/obj/item/card/id/away/old/robo
+	name = "Charlie Station Roboticist's ID card"
+	desc = "A faded Charlie Station ID card. You can make out the rank \"Roboticist\"."
+	assignment = "Charlie Station Roboticist"
+	access = list(ACCESS_AWAY_GENERAL, ACCESS_ROBOTICS)
+
+/obj/item/card/id/away/old/jan
+	name = "Charlie Station Custodian's ID card"
+	desc = "A faded Charlie Station ID card. You can make out the rank \"Custodian\"."
+	assignment = "Charlie Station Custodian"
+	access = list(ACCESS_AWAY_GENERAL)
+
+/obj/item/card/id/away/old/med
+	name = "Charlie Station Medical Doctor's ID card"
+	desc = "A faded Charlie Station ID card. You can make out the rank \"Medical Doctor\"."
+	assignment = "Charlie Station Medical Doctor"
+	access = list(ACCESS_AWAY_GENERAL)
+
 
 /obj/item/card/id/away/old/eng
 	name = "Charlie Station Engineer's ID card"
@@ -815,6 +840,18 @@ update_label()
 	desc = "A faded Charlie Station ID card. You can make out the rank \"Captain\"."
 	assignment = "Charlie Station Captain"
 	access = list(ACCESS_AWAY_GENERAL, ACCESS_AWAY_ENGINE, ACCESS_AWAY_SEC)
+
+/obj/item/card/id/away/old/cent
+	name = "Charlie Station Representative's ID card"
+	desc = "A faded Charlie Station ID card. You can make out the rank \"CentCom Rep\"."
+	assignment = "Central Command Representative"
+	access = list(ACCESS_AWAY_GENERAL, ACCESS_AWAY_ENGINE, ACCESS_AWAY_SEC)
+
+/obj/item/card/id/away/old/carg
+	name = "Charlie Station Cargo Tech's ID card"
+	desc = "A faded Charlie Station ID card. You can make out the rank \"Cargo Tech\"."
+	assignment = "Charlie Station Cargo Tech"
+	access = list(ACCESS_AWAY_GENERAL)
 
 /obj/item/card/id/away/old/lt
 	name = "Charlie Station Lieutenant's ID card"

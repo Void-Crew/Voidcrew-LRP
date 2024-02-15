@@ -39,6 +39,7 @@
 	alt_uniform = /obj/item/clothing/under/rank/command/captain/parade //WS Edit - Alt Uniforms
 	suit = /obj/item/clothing/suit/armor/vest/capcarapace
 	alt_suit = /obj/item/clothing/suit/armor/vest/capcarapace/alt
+	ears = /obj/item/radio/headset/heads/captain/alt
 	shoes = /obj/item/clothing/shoes/laceup
 	head = /obj/item/clothing/head/caphat
 	backpack_contents = list(/obj/item/melee/classic_baton/telescopic=1, /obj/item/station_charter=1)

@@ -17,6 +17,7 @@
 /obj/item/clothing/suit/worn_overlays(isinhands = FALSE)
 	. = list()
 	if(!isinhands)
+		. += mutable_appearance("[icon_state]-emissive", src, alpha = src.alpha)
 		if(damaged_clothes)
 			. += mutable_appearance('icons/effects/item_damage.dmi', "damaged[blood_overlay_type]")
 		if(HAS_BLOOD_DNA(src))
