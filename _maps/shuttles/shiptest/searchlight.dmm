@@ -184,7 +184,11 @@
 "eL" = (
 /obj/effect/turf_decal/corner/blue/diagonal,
 /obj/machinery/light/small,
-/obj/machinery/smartfridge/organ,
+/obj/machinery/smartfridge/organ{
+	pixel_y = -32
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/storage/box/hypospray,
 /turf/open/floor/iron/white,
 /area/ship/medical/surgery)
 "fn" = (
@@ -1118,7 +1122,6 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/obj/item/defibrillator/compact/combat/loaded,
 /turf/open/floor/iron/white,
 /area/ship/medical/surgery)
 "EG" = (
@@ -1739,7 +1742,11 @@
 /area/ship/engineering)
 "Xi" = (
 /obj/effect/turf_decal/corner/blue/diagonal,
-/obj/machinery/smartfridge/bloodbank/preloaded,
+/obj/machinery/smartfridge/bloodbank/preloaded{
+	pixel_y = -32
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/defibrillator/compact/combat/loaded,
 /turf/open/floor/iron/white,
 /area/ship/medical/surgery)
 "Yn" = (
