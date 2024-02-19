@@ -414,6 +414,7 @@
 /obj/item/stack/sheet/mineral/uranium/five,
 /obj/item/stack/sheet/mineral/uranium/five,
 /obj/item/wrench/syndie,
+/obj/machinery/cell_charger,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "kU" = (
@@ -747,6 +748,9 @@
 	id = "interdyne_para"
 	},
 /obj/effect/turf_decal/industrial/warning/corner,
+/obj/structure/chair/office/light{
+	dir = 8
+	},
 /turf/open/floor/iron/white/diagonal,
 /area/ship/medical)
 "tq" = (
@@ -1475,12 +1479,10 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
 	},
-/obj/structure/bed{
-	dir = 8
-	},
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/machinery/chem_dispenser,
 /turf/open/floor/iron/dark/small,
 /area/ship/medical)
 "Pz" = (
@@ -1527,7 +1529,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
 	},
-/obj/machinery/medical_kiosk,
+/obj/machinery/chem_master,
 /turf/open/floor/iron/dark/small,
 /area/ship/medical)
 "RB" = (
@@ -1628,6 +1630,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/siding/thinplating/dark,
+/obj/machinery/medical_kiosk,
 /turf/open/floor/iron/dark/small,
 /area/ship/medical)
 "UN" = (
@@ -1775,13 +1778,10 @@
 	dir = 4
 	},
 /obj/item/storage/box/gloves,
-/obj/item/storage/box/masks{
-	pixel_y = 10
-	},
 /obj/item/storage/box/medipens,
-/obj/item/storage/box/rxglasses{
-	pixel_y = 10
-	},
+/obj/item/storage/box/beakers,
+/obj/item/storage/box/rxglasses,
+/obj/item/storage/box/masks,
 /turf/open/floor/iron/white,
 /area/ship/medical)
 "YW" = (
