@@ -111,6 +111,18 @@
 			else
 				to_chat(user, "<span class='warning'>You just took a candy corn! You should wait a couple minutes, lest you burn through your stash.</span>")
 
+/obj/item/clothing/head/HoS/cybersun
+	name = "cybersun hat"
+	desc = "A crimson-red hat fit for a high ranking cybersun officer."
+	icon_state = "cybersunhat"
+	item_state = "cybersunhat"
+
+/obj/item/clothing/head/HoS/interdyne
+	name = "interdyne hat"
+	desc = "A dusty-rose hat fit for a high ranking interdyne officer."
+	icon_state = "interdynehat"
+	item_state = "interdynehat"
+
 /*WS Edit - Berets
 //Mime
 /obj/item/clothing/head/beret

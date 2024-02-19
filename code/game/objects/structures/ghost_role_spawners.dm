@@ -517,7 +517,7 @@
 /datum/outfit/syndicate_empty/sbc/engi
 	name = "Syndicate Battlecruiser Ship Engineer"
 	glasses = /obj/item/clothing/glasses/meson/night
-	uniform = /obj/item/clothing/under/syndicate/aclfgrunt
+	uniform = /obj/item/clothing/under/syndicate/gec
 	r_pocket = /obj/item/analyzer
 	l_pocket = /obj/item/gun/ballistic/automatic/pistol
 	belt = /obj/item/storage/belt/utility/syndicate

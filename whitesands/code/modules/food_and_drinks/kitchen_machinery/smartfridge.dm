@@ -2,7 +2,7 @@
 // Blood Bank Smartfridge
 // -----------------------------
 /obj/machinery/smartfridge/bloodbank
-	name = "Refrigerated Blood Bank"
+	name = "smart blood storage"
 	desc = "A refrigerated storage unit for blood packs."
 	icon = 'whitesands/icons/obj/vending.dmi'
 	icon_state = "bloodbank"

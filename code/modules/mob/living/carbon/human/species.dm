@@ -822,9 +822,9 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		else if ("tail" in mutant_bodyparts)
 			bodyparts_to_add -= "waggingspines"
 
-	if("snout" in mutant_bodyparts) //Take a closer look at that snout!
+	if("face_markings" in mutant_bodyparts) //Take a closer look at that snout!
 		if((H.wear_mask?.flags_inv & HIDEFACE) || (H.head?.flags_inv & HIDEFACE) || !HD)
-			bodyparts_to_add -= "snout"
+			bodyparts_to_add -= "face_markings"
 
 	if("frills" in mutant_bodyparts)
 		if(!H.dna.features["frills"] || H.dna.features["frills"] == "None" || (H.head?.flags_inv & HIDEEARS) || !HD)
@@ -893,15 +893,10 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		if((!H.wear_suit) || (H.wear_suit.supports_variations & DIGITIGRADE_VARIATION) || !(H.wear_suit.body_parts_covered & LEGS) || (H.wear_suit.supports_variations & DIGITIGRADE_VARIATION_NO_NEW_ICON)) //Checks suit compatability
 			suit_compatible = TRUE
 
-		if((uniform_compatible && suit_compatible) || (suit_compatible && H.wear_suit?.flags_inv & HIDEJUMPSUIT)) //If the uniform is hidden, it doesnt matter if its compatible
-			for(var/obj/item/bodypart/BP as anything in H.bodyparts)
-				if(BP.bodytype & BODYTYPE_DIGITIGRADE)
-					BP.limb_id = "digitigrade"
-
-		else
-			for(var/obj/item/bodypart/BP as anything in H.bodyparts)
-				if(BP.bodytype & BODYTYPE_DIGITIGRADE)
-					BP.limb_id = "lizard"
+		var/show_digitigrade = suit_compatible && (uniform_compatible || H.wear_suit?.flags_inv & HIDEJUMPSUIT) //If the uniform is hidden, it doesnt matter if its compatible
+		for(var/obj/item/bodypart/BP as anything in H.bodyparts)
+			if(BP.bodytype & BODYTYPE_DIGITIGRADE)
+				BP.plantigrade_forced = !show_digitigrade
 	///End digi handling
 
 
@@ -933,8 +928,8 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 					S = GLOB.spines_list[H.dna.features["spines"]]
 				if("waggingspines")
 					S = GLOB.animated_spines_list[H.dna.features["spines"]]
-				if("snout")
-					S = GLOB.snouts_list[H.dna.features["snout"]]
+				if("face_markings")
+					S = GLOB.face_markings_list[H.dna.features["face_markings"]]
 				if("frills")
 					S = GLOB.frills_list[H.dna.features["frills"]]
 				if("horns")
@@ -984,27 +979,41 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 
 			//A little rename so we don't have to use tail_lizard or tail_human when naming the sprites.
 			accessory_overlay.alpha = S.image_alpha
-			if(bodypart == "tail_lizard" || bodypart == "tail_human")
+			if(bodypart == "tail_lizard" || bodypart == "tail_human" || bodypart == "tail_elzu")
 				bodypart = "tail"
-			else if(bodypart == "waggingtail_lizard" || bodypart == "waggingtail_human")
+			else if(bodypart == "waggingtail_lizard" || bodypart == "waggingtail_human" || bodypart == "waggingtail_elzu")
 				bodypart = "waggingtail"
 
+			var/used_color_src = S.color_src
+
+			var/icon_state_name = S.icon_state
+			if(S.synthetic_icon_state)
+				var/obj/item/bodypart/attachment_point = H.get_bodypart(S.body_zone)
+				if(attachment_point && IS_ROBOTIC_LIMB(attachment_point))
+					icon_state_name = S.synthetic_icon_state
+					if(S.synthetic_color_src)
+						used_color_src = S.synthetic_color_src
 			if(S.gender_specific)
-				accessory_overlay.icon_state = "[g]_[bodypart]_[S.icon_state]_[layertext]"
+				accessory_overlay.icon_state = "[g]_[bodypart]_[icon_state_name]_[layertext]"
 			else
-				accessory_overlay.icon_state = "m_[bodypart]_[S.icon_state]_[layertext]"
+				accessory_overlay.icon_state = "m_[bodypart]_[icon_state_name]_[layertext]"
 
 			if(S.center)
 				accessory_overlay = center_image(accessory_overlay, S.dimension_x, S.dimension_y)
 
 			if(!(HAS_TRAIT(H, TRAIT_HUSK)))
 				if(!forced_colour)
-					switch(S.color_src)
+					switch(used_color_src)
 						if(MUTCOLORS)
 							if(fixed_mut_color)
 								accessory_overlay.color = "#[fixed_mut_color]"
 							else
 								accessory_overlay.color = "#[H.dna.features["mcolor"]]"
+						if(MUTCOLORS_SECONDARY)
+							accessory_overlay.color = "#[H.dna.features["mcolor2"]]"
+						if(SKINCOLORS)
+							accessory_overlay.color = "#[(skintone2hex(H.skin_tone))]"
+
 						if(HAIR)
 							if(hair_color == "mutcolor")
 								accessory_overlay.color = "#[H.dna.features["mcolor"]]"
@@ -1020,17 +1029,17 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 					accessory_overlay.color = forced_colour
 			standing += accessory_overlay
 
-			if(S.hasinner)
-				var/mutable_appearance/inner_accessory_overlay = mutable_appearance(S.icon, layer = -layer)
+			if(S.secondary_color)
+				var/mutable_appearance/secondary_color_overlay = mutable_appearance(S.icon, layer = -layer)
 				if(S.gender_specific)
-					inner_accessory_overlay.icon_state = "[g]_[bodypart]inner_[S.icon_state]_[layertext]"
+					secondary_color_overlay.icon_state = "[g]_[bodypart]_secondary_[S.icon_state]_[layertext]"
 				else
-					inner_accessory_overlay.icon_state = "m_[bodypart]inner_[S.icon_state]_[layertext]"
+					secondary_color_overlay.icon_state = "m_[bodypart]_secondary_[S.icon_state]_[layertext]"
 
 				if(S.center)
-					inner_accessory_overlay = center_image(inner_accessory_overlay, S.dimension_x, S.dimension_y)
-
-				standing += inner_accessory_overlay
+					secondary_color_overlay = center_image(secondary_color_overlay, S.dimension_x, S.dimension_y)
+				secondary_color_overlay.color = "#[H.dna.features["mcolor2"]]"
+				standing += secondary_color_overlay
 
 		H.overlays_standing[layer] = standing.Copy()
 		standing = list()

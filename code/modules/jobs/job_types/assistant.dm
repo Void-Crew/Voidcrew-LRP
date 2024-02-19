@@ -84,3 +84,19 @@ Assistant
 	shoes = /obj/item/clothing/shoes/laceup
 	gloves = /obj/item/clothing/gloves/color/white
 	accessory = /obj/item/clothing/neck/scarf/darkblue
+
+/datum/outfit/job/assistant/soviet
+	name = "Soviet Deckhand"
+	uniform = /obj/item/clothing/under/costume/soviet
+	r_hand = /obj/item/reagent_containers/food/drinks/bottle/vodka //real
+
+/datum/outfit/job/assistant/syndicate
+	name = "Operations Assistant (Syndicate)"
+
+	uniform = /obj/item/clothing/under/syndicate
+	mask = /obj/item/clothing/mask/gas/syndicate
+	suit = null
+	head = null
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/color/black
+	ears = /obj/item/radio/headset/syndicate/alt

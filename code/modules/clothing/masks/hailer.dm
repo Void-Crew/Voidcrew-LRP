@@ -71,6 +71,12 @@ GLOBAL_LIST_INIT(hailer_phrases, list(
 	flags_inv = HIDEFACIALHAIR | HIDEFACE | HIDEEYES | HIDEEARS | HIDEHAIR
 	visor_flags_inv = 0
 
+/obj/item/clothing/mask/gas/sechailer/syndie
+	name = "\improper Neck Gaiter"
+	desc = "A tight neck gaiter that covers half of the face, making it hard to identify the subject, it comes with a Compi-o-nator 3000."
+	icon_state = "half_mask"
+	item_state = "half_mask"
+
 /obj/item/clothing/mask/gas/sechailer/swat/spacepol
 	name = "spacepol mask"
 	desc = "A close-fitting tactical mask created in cooperation with a certain megacorporation, comes with an especially aggressive Compli-o-nator 3000."

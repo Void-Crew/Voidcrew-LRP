@@ -154,7 +154,7 @@
 
 	id = /obj/item/card/id/syndicate_command/crew_id
 	ears = /obj/item/radio/headset/syndicate/alt
-	uniform = /obj/item/clothing/under/syndicate/aclfgrunt
+	uniform = /obj/item/clothing/under/syndicate/aclf/grunt
 	belt = /obj/item/storage/belt/utility/syndicate
 	accessory = /obj/item/clothing/accessory/armband/engine
 	glasses = /obj/item/clothing/glasses/sunglasses
@@ -166,6 +166,8 @@
 	uniform = /obj/item/clothing/under/syndicate/intern
 	suit = /obj/item/clothing/suit/toggle/hazard
 	head = /obj/item/clothing/head/hardhat
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/combat
 	ears = /obj/item/radio/headset/syndicate/alt
 	id = /obj/item/card/id/syndicate_command/crew_id
 

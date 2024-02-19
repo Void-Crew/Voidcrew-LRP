@@ -197,3 +197,25 @@ GLOBAL_LIST_INIT(available_depts, list(SEC_DEPT_ENGINEERING, SEC_DEPT_MEDICAL, S
 	backpack_contents = list(/obj/item/radio, /obj/item/flashlight/seclite)
 
 //Shiptest outfits end
+
+/datum/outfit/job/security/soviet
+	name = "Soviet Soldier"
+
+	uniform = /obj/item/clothing/under/costume/soviet
+	head = /obj/item/clothing/head/ushanka
+	l_pocket = /obj/item/reagent_containers/food/drinks/bottle/vodka
+	r_pocket = /obj/item/flashlight/seclite
+	backpack_contents = list(/obj/item/melee/baton/loaded=1) //VC edit - fuck your security rearming. glory to the soviet union
+
+/datum/outfit/job/security/interdyne
+	name = "Operative (Interdyne Pharmaceuticals)"
+
+	uniform = /obj/item/clothing/under/syndicate/combat
+	suit = /obj/item/clothing/suit/armor/vest/jacket
+	head = /obj/item/clothing/head/helmet/swat
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/tackler/combat
+	mask = /obj/item/clothing/mask/gas/sechailer/syndie
+	belt = /obj/item/storage/belt/military/syndicate
+	id = /obj/item/card/id/syndicate_command/operative
+	backpack_contents = list(/obj/item/melee/baton/loaded=1, /obj/item/ammo_box/magazine/m10mm=1)

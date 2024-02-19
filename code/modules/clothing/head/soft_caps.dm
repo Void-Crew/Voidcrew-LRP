@@ -144,8 +144,22 @@
 	dog_fashion = null
 
 /obj/item/clothing/head/soft/cybersun
+	name = "cybersun agent cap"
+	desc = "A black baseball hat emblazoned with a reflective Cybersun patch."
+	icon_state = "agentsoft"
+	soft_type = "agent"
+	dog_fashion = null
+
+/obj/item/clothing/head/soft/cybersun/medical
 	name = "cybersun medic cap"
 	desc = "A turquoise baseball hat emblazoned with a reflective cross. Typical of Cybersun Industries field medics."
 	icon_state = "cybersunsoft"
 	soft_type = "cybersun"
+	dog_fashion = null
+
+/obj/item/clothing/head/soft/interdyne
+	name = "interdyne medical utility cover"
+	desc = "A sterile white utility cover with a green cross emblazoned on it. Worn by the Interdyne Pharmaceuticals doctors."
+	icon_state = "interdynemedsoft"
+	soft_type = "interdynemed"
 	dog_fashion = null

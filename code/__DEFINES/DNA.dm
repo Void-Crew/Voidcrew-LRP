@@ -134,6 +134,8 @@
 #define NOMOUTH 22
 #define NOSOCKS 23 // You cannot wear sock
 #define NO_BONES 24 //WS Edit - Breakable Bones
+#define MUTCOLORS_SECONDARY 25 //! A second mutant colour for other things
+#define SKINCOLORS 26 //Human skintones
 
 //organ slots
 #define ORGAN_SLOT_BRAIN "brain"

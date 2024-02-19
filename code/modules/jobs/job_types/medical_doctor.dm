@@ -43,7 +43,6 @@
 //WS Edit Start - Alt-Job Titles
 /datum/outfit/job/doctor/surgeon
 	name = "Medical Doctor (Surgeon)"
-
 	uniform = /obj/item/clothing/under/rank/medical/doctor/blue
 	suit = /obj/item/clothing/suit/apron/surgical
 	mask = /obj/item/clothing/mask/surgical
@@ -129,6 +128,7 @@
 	uniform = /obj/item/clothing/under/syndicate/cybersun
 	accessory = /obj/item/clothing/accessory/armband/medblue
 	shoes = /obj/item/clothing/shoes/jackboots
+
 /datum/outfit/job/doctor/syndicate/nsv
 	name = "Medical Doctor (NSV-M)"
 
@@ -136,3 +136,13 @@
 	id = /obj/item/card/id/syndicate_command/crew_id
 	shoes = /obj/item/clothing/shoes/jackboots
 	ears = /obj/item/radio/headset/syndicate/alt
+
+/datum/outfit/job/doctor/interdyne
+	name = "Field Practicioner (Interdyne Pharmaceuticals)"
+
+	uniform = /obj/item/clothing/under/syndicate/interdyne/medical
+	head = /obj/item/clothing/head/soft/interdyne
+	id = /obj/item/card/id/syndicate_command/crew_id
+	shoes = /obj/item/clothing/shoes/combat
+	ears = /obj/item/radio/headset/syndicate/alt
+	gloves = /obj/item/clothing/gloves/color/latex/nitrile/evil

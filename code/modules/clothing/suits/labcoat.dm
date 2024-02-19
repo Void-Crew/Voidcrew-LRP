@@ -57,3 +57,15 @@ You're pretty sure this is just a raincoat.
 	icon = 'icons/obj/clothing/suits.dmi' // zeta is a verified dumb dumb idiothead who cannot do anything right - github review suggestion by triplezeta
 	mob_overlay_icon = 'icons/mob/clothing/suit.dmi' // same as above
 	item_state = "raincoat"
+
+/obj/item/clothing/suit/toggle/labcoat/brig_phys
+	name = "security medic's labcoat"
+	desc = "A lightly armoured suit that protects against minor chemical spills and rogue patients. Has a dark red stripe on the shoulder."
+	icon_state = "labcoat_brig"
+	armor = list(melee = 10, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 10, rad = 0, fire = 50, acid = 50)
+
+/obj/item/clothing/suit/toggle/labcoat/interdyne
+	name = "interdyne labcoat"
+	desc = "A lightly armoured labcoat that protects against minor chemical spills and angry Nanotrasen employees. Has a Interdyne Pharmaceuticals on the back."
+	icon_state = "labcoat_interdyne"
+	armor = list(melee = 10, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 10, rad = 0, fire = 50, acid = 50)

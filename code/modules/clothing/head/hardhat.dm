@@ -198,3 +198,8 @@
 /obj/item/clothing/head/hardhat/weldhat/dblue
 	icon_state = "hardhat_dblue"
 	item_state = "hardhat_dblue"
+
+/obj/item/clothing/head/hardhat/solgov
+	icon_state = "hardhat_solgov"
+	item_state = "hardhat_solgov"
+	dog_fashion = null

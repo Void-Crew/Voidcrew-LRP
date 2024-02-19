@@ -55,8 +55,8 @@
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/human, GLOB.tails_list_human)
 	if(!GLOB.tails_list_lizard.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/lizard, GLOB.tails_list_lizard)
-	if(!GLOB.snouts_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/snouts, GLOB.snouts_list)
+	if(!GLOB.face_markings_list.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/face_markings, GLOB.face_markings_list)
 	if(!GLOB.horns_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/horns, GLOB.horns_list)
 	if(!GLOB.ears_list.len)
@@ -96,7 +96,7 @@
 	if(!GLOB.spider_mandibles_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/spider_mandibles, GLOB.spider_mandibles_list)
 	//For now we will always return none for tail_human and ears.
-	return(list("mcolor" = pick("FFFFFF","7F7F7F", "7FFF7F", "7F7FFF", "FF7F7F", "7FFFFF", "FF7FFF", "FFFF7F"),"ethcolor" = GLOB.color_list_ethereal[pick(GLOB.color_list_ethereal)], "tail_lizard" = pick(GLOB.tails_list_lizard), "tail_human" = "None", "wings" = "None", "snout" = pick(GLOB.snouts_list), "horns" = pick(GLOB.horns_list), "ears" = "None", "frills" = pick(GLOB.frills_list), "spines" = pick(GLOB.spines_list), "body_markings" = pick(GLOB.body_markings_list), "legs" = "Normal Legs", "caps" = pick(GLOB.caps_list), "moth_wings" = pick(GLOB.moth_wings_list), "moth_fluff" = pick(GLOB.moth_fluff_list), "moth_markings" = pick(GLOB.moth_markings_list), "squid_face" = pick(GLOB.squid_face_list), "ipc_screen" = pick(GLOB.ipc_screens_list), "ipc_antenna" = pick(GLOB.ipc_antennas_list),"ipc_chassis" = pick(GLOB.ipc_chassis_list), "spider_legs" = pick(GLOB.spider_legs_list), "spider_spinneret" = pick(GLOB.spider_spinneret_list), "spider_mandibles" = pick(GLOB.spider_mandibles_list), "kepori_feathers" = pick(GLOB.kepori_feathers_list), "kepori_body_feathers" = pick(GLOB.kepori_body_feathers_list), "flavor_text" = ""))
+	return(list("mcolor" = pick("FFFFFF","7F7F7F", "7FFF7F", "7F7FFF", "FF7F7F", "7FFFFF", "FF7FFF", "FFFF7F"),"ethcolor" = GLOB.color_list_ethereal[pick(GLOB.color_list_ethereal)], "tail_lizard" = pick(GLOB.tails_list_lizard), "tail_human" = "None", "wings" = "None", "face_markings" = pick(GLOB.face_markings_list), "horns" = pick(GLOB.horns_list), "ears" = "None", "frills" = pick(GLOB.frills_list), "spines" = pick(GLOB.spines_list), "body_markings" = pick(GLOB.body_markings_list), "legs" = "Normal Legs", "caps" = pick(GLOB.caps_list), "moth_wings" = pick(GLOB.moth_wings_list), "moth_fluff" = pick(GLOB.moth_fluff_list), "moth_markings" = pick(GLOB.moth_markings_list), "squid_face" = pick(GLOB.squid_face_list), "ipc_screen" = pick(GLOB.ipc_screens_list), "ipc_antenna" = pick(GLOB.ipc_antennas_list),"ipc_chassis" = pick(GLOB.ipc_chassis_list), "spider_legs" = pick(GLOB.spider_legs_list), "spider_spinneret" = pick(GLOB.spider_spinneret_list), "spider_mandibles" = pick(GLOB.spider_mandibles_list), "kepori_feathers" = pick(GLOB.kepori_feathers_list), "kepori_body_feathers" = pick(GLOB.kepori_body_feathers_list), "flavor_text" = ""))
 
 /proc/random_hairstyle(gender)
 	switch(gender)

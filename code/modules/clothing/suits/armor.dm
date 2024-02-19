@@ -60,6 +60,12 @@
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS
 	slowdown = 0.4
 
+/obj/item/clothing/suit/armor/vest/jacket
+	name = "operative jacket"
+	desc = "A heavy red jacket with Syndicate branding all over it. It gives you security vibes, it has nanoweave fiber weaved into the fabric to give it the slightest defense."
+	icon_state = "sec_dep_jacket"
+	item_state = "sec_dep_jacket"
+
 /obj/item/clothing/suit/armor/hos
 	name = "armored greatcoat"
 	desc = "A greatcoat enhanced with a special alloy for some extra protection and style for those with a commanding presence."
