@@ -187,6 +187,11 @@
 /obj/machinery/smartfridge/organ,
 /turf/open/floor/iron/white,
 /area/ship/medical/surgery)
+"fn" = (
+/obj/effect/turf_decal/corner/blue/diagonal_edge,
+/obj/effect/turf_decal/industrial/warning,
+/turf/open/floor/iron/white/diagonal,
+/area/ship/medical)
 "fw" = (
 /obj/machinery/porta_turret/centcom_shuttle/ballistic{
 	dir = 10
@@ -289,11 +294,6 @@
 	},
 /turf/open/floor/iron,
 /area/ship/bridge)
-"is" = (
-/obj/effect/turf_decal/corner/blue/diagonal_edge,
-/obj/effect/turf_decal/industrial/warning,
-/turf/open/floor/iron/white/diagonal,
-/area/ship/medical)
 "iw" = (
 /obj/machinery/door/airlock{
 	name = "Cryogenics"
@@ -769,10 +769,6 @@
 /turf/open/floor/iron/white,
 /area/ship/medical/surgery)
 "ux" = (
-/obj/effect/turf_decal/industrial/warning,
-/obj/effect/turf_decal/industrial/warning{
-	dir = 1
-	},
 /obj/effect/turf_decal/industrial/caution,
 /obj/effect/turf_decal/industrial/caution{
 	dir = 1
@@ -1395,10 +1391,6 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "MS" = (
-/obj/effect/turf_decal/industrial/warning,
-/obj/effect/turf_decal/industrial/warning{
-	dir = 1
-	},
 /obj/effect/turf_decal/industrial/caution,
 /obj/effect/turf_decal/industrial/caution{
 	dir = 1
@@ -1421,15 +1413,15 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/thinplating{
-	dir = 8
-	},
 /obj/effect/turf_decal/trimline/yellow/filled/warning{
 	dir = 8;
 	pixel_x = 5
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/ship/engineering)
@@ -1639,10 +1631,6 @@
 /turf/open/floor/iron/dark/small,
 /area/ship/medical)
 "UN" = (
-/obj/effect/turf_decal/industrial/warning,
-/obj/effect/turf_decal/industrial/warning{
-	dir = 1
-	},
 /obj/effect/turf_decal/industrial/caution,
 /obj/effect/turf_decal/industrial/caution{
 	dir = 1
@@ -1731,6 +1719,7 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
+/obj/machinery/power/floodlight,
 /turf/open/floor/engine/hull/reinforced,
 /area/ship/external)
 "WS" = (
@@ -1965,7 +1954,7 @@ ct
 DR
 Mu
 Yr
-is
+fn
 ux
 Md
 PV
@@ -1982,7 +1971,7 @@ bk
 Qe
 UM
 RB
-is
+fn
 MS
 aY
 PV
