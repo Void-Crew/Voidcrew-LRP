@@ -103,3 +103,21 @@
 	back = /obj/item/storage/backpack/satchel/sec
 	suit = /obj/item/clothing/suit/armor/vest/alt
 	ears = /obj/item/radio/headset/syndicate/alt/leader
+
+/datum/outfit/job/captain/inteq
+	name = "Vanguard (IRMG Captain)"
+
+	ears = /obj/item/radio/headset/inteq/alt
+	uniform = /obj/item/clothing/under/syndicate/inteq
+	head = /obj/item/clothing/head/beret/sec/hos/inteq
+	glasses = /obj/item/clothing/glasses/hud/security/sunglasses/inteq
+	mask = /obj/item/clothing/mask/gas/sechailer/inteq
+	suit = /obj/item/clothing/suit/armor/hos/inteq
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/combat
+	id = /obj/item/card/id/inteq/com
+	accessory = null
+
+	backpack = /obj/item/storage/backpack/messenger/inteq
+	satchel = /obj/item/storage/backpack/messenger/inteq
+	courierbag = /obj/item/storage/backpack/messenger/inteq

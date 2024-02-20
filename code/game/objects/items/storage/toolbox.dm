@@ -252,13 +252,13 @@
 	pickup_sound =  'sound/items/handling/ammobox_pickup.ogg'
 
 /obj/item/storage/toolbox/ammo/PopulateContents()
-	new /obj/item/ammo_box/a762(src)
-	new /obj/item/ammo_box/a762(src)
-	new /obj/item/ammo_box/a762(src)
-	new /obj/item/ammo_box/a762(src)
-	new /obj/item/ammo_box/a762(src)
-	new /obj/item/ammo_box/a762(src)
-	new /obj/item/ammo_box/a762(src)
+	new /obj/item/ammo_box/a300(src)
+	new /obj/item/ammo_box/a300(src)
+	new /obj/item/ammo_box/a300(src)
+	new /obj/item/ammo_box/a300(src)
+	new /obj/item/ammo_box/a300(src)
+	new /obj/item/ammo_box/a300(src)
+	new /obj/item/ammo_box/a300(src)
 
 /obj/item/storage/toolbox/infiltrator
 	name = "insidious case"

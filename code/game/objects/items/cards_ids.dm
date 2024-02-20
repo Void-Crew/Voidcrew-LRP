@@ -612,6 +612,24 @@ update_label()
 	uses_overlays = FALSE
 	registered_age = null
 
+/obj/item/card/id/inteq
+	name = "\improper IRMG ID"
+	id_type_name = "\improper IRMG ID"
+	desc = "An ID usually used by Inteq Mercenaries, looks similar to Syndicate ID's."
+	icon_state = "inteq"
+	assignment = "IRMG Operative"
+	uses_overlays = FALSE
+	registered_age = null
+
+/obj/item/card/id/inteq/com
+	name = "\improper IRMG Command ID"
+	id_type_name = "\improper IRMG Command ID"
+	desc = "An ID usually used by Inteq Mercenaries, looks similar to Syndicate ID's, this one is for more officer-like roles."
+	icon_state = "inteqcom"
+	assignment = "IRMG Command"
+	uses_overlays = FALSE
+	registered_age = null
+
 /obj/item/card/id/centcom
 	name = "\improper CentCom ID"
 	id_type_name = "\improper CentCom ID"

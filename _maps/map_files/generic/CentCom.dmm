@@ -5988,6 +5988,7 @@
 	desc = "A badge of upmost glory.";
 	name = "thunderdome badge"
 	},
+/turf/open/floor/iron,
 /area/tdome/tdomeobserve)
 "aGN" = (
 /obj/item/clipboard,
@@ -6016,6 +6017,7 @@
 /obj/item/clothing/accessory/medal/silver{
 	pixel_y = 5
 	},
+/turf/open/floor/iron,
 /area/tdome/tdomeobserve)
 "aGP" = (
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -6064,6 +6066,7 @@
 "aHe" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/trophy/gold_cup,
+/turf/open/floor/iron,
 /area/tdome/tdomeobserve)
 "aHi" = (
 /obj/structure/chair/office/light{
@@ -6146,6 +6149,7 @@
 	pixel_y = 5
 	},
 /obj/item/clothing/accessory/medal/gold,
+/turf/open/floor/iron,
 /area/tdome/tdomeobserve)
 "aHt" = (
 /obj/structure/table/wood,
@@ -6155,6 +6159,7 @@
 /obj/item/clothing/accessory/medal{
 	pixel_y = 5
 	},
+/turf/open/floor/iron,
 /area/tdome/tdomeobserve)
 "aHu" = (
 /obj/effect/turf_decal/corner/white/full,
@@ -15673,8 +15678,8 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/blood/old,
-/obj/item/gun/ballistic/automatic/pistol/m1911/no_mag,
 /obj/effect/gibspawner/human,
+/obj/item/gun/ballistic/automatic/pistol/candor/no_mag,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/rnd)
 "etZ" = (
@@ -20041,10 +20046,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/hall)
-"iJV" = (
-/obj/structure/sign/poster/official/nanomichi_ad,
-/turf/closed/wall/rust,
-/area/ruin/space/ancientstation/beta/medbay)
 "iKk" = (
 /turf/open/floor/engine/n2,
 /area/ruin/space/ancientstation/beta/atmos)
@@ -20934,8 +20935,8 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 1
 	},
-/obj/item/gun/ballistic/automatic/pistol/m1911/no_mag,
 /obj/item/ammo_casing/spent,
+/obj/item/gun/ballistic/automatic/pistol/candor/no_mag,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "jHa" = (
@@ -21190,15 +21191,16 @@
 /obj/effect/turf_decal/box/corners,
 /obj/structure/closet/crate/secure/weapon{
 	req_access_txt = "203";
-	name = "advanced baton shipment"
+	name = "weapon shipment"
 	},
-/obj/item/melee/baton,
-/obj/item/melee/baton,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 4
 	},
+/obj/item/gun/ballistic/automatic/cm5,
+/obj/item/ammo_box/magazine/smgm9mm,
+/obj/item/ammo_box/magazine/smgm9mm,
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/cargo)
 "jQy" = (
@@ -26835,7 +26837,6 @@
 "pvH" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/lockbox/loyalty,
-/obj/item/gun/ballistic/automatic/ar,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -27845,6 +27846,10 @@
 	icon_state = "armoralt";
 	slowdown = 0.5
 	},
+/obj/item/ammo_box/c45,
+/obj/item/ammo_box/c45_speedloader,
+/obj/item/ammo_box/c45_speedloader,
+/obj/item/gun/ballistic/revolver/shadow,
 /turf/open/floor/wood/large,
 /area/ruin/space/ancientstation/alpha/office)
 "qwK" = (
@@ -28895,9 +28900,9 @@
 	},
 /obj/item/kitchen/knife/combat,
 /obj/item/ammo_box/magazine/m45,
-/obj/item/gun/ballistic/automatic/wt550,
-/obj/item/ammo_box/magazine/wt550m9,
-/obj/effect/spawner/lootdrop/maintenance,
+/obj/item/gun/ballistic/shotgun/brimstone,
+/obj/item/ammo_box/a12g,
+/obj/item/ammo_box/a12g,
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/delta/hall)
 "rpa" = (
@@ -35028,8 +35033,8 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
 	dir = 4
 	},
-/obj/item/gun/ballistic/automatic/pistol/m1911,
 /obj/item/ammo_casing/spent,
+/obj/item/gun/ballistic/automatic/pistol/candor,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "xmR" = (
@@ -50952,7 +50957,7 @@ pnm
 fXc
 fVl
 cvf
-iJV
+uLF
 jWM
 oLs
 jWM

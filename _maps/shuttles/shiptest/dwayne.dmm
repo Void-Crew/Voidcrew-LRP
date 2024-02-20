@@ -46,6 +46,9 @@
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/donkpockets,
 /obj/item/storage/cans/sixbeer,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
 /turf/open/floor/wood,
 /area/ship/crew)
 "bb" = (
@@ -132,6 +135,9 @@
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
 /obj/structure/curtain/bounty,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/ship/crew)
 "ef" = (
@@ -292,6 +298,9 @@
 /obj/machinery/computer/cryopod{
 	pixel_y = -28
 	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/ship/crew)
 "hy" = (
@@ -413,8 +422,8 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/airalarm/directional/south,
-/obj/effect/turf_decal/corner/yellow/border{
-	dir = 8
+/obj/effect/turf_decal/corner/yellow{
+	dir = 9
 	},
 /turf/open/floor/iron/dark,
 /area/ship/crew)
@@ -735,6 +744,9 @@
 /obj/structure/chair/comfy/brown{
 	dir = 8
 	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
 /turf/open/floor/wood,
 /area/ship/crew)
 "qv" = (
@@ -832,6 +844,9 @@
 /obj/item/flashlight/lamp/green,
 /obj/item/radio/intercom{
 	pixel_y = -28
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
 	},
 /turf/open/floor/wood,
 /area/ship/crew)
@@ -975,10 +990,10 @@
 	icon_state = "1-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/obj/effect/turf_decal/corner/yellow/bordercorner{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/turf_decal/corner/green{
+	dir = 10
+	},
 /turf/open/floor/iron/dark,
 /area/ship/crew)
 "vn" = (
@@ -1096,9 +1111,6 @@
 /obj/machinery/mineral/ore_redemption{
 	dir = 4
 	},
-/obj/effect/turf_decal/corner/yellow/border{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 5
 	},
@@ -1108,7 +1120,10 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/open/floor/iron,
+/obj/effect/turf_decal/corner/yellow{
+	dir = 9
+	},
+/turf/open/floor/iron/dark,
 /area/ship/crew)
 "yx" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
@@ -1133,7 +1148,9 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
 	},
-/obj/effect/turf_decal/corner/yellow/border,
+/obj/effect/turf_decal/corner/green{
+	dir = 10
+	},
 /turf/open/floor/iron/dark,
 /area/ship/crew)
 "za" = (
@@ -1438,7 +1455,9 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/obj/effect/turf_decal/corner/yellow/border,
+/obj/effect/turf_decal/corner/green{
+	dir = 10
+	},
 /turf/open/floor/iron/dark,
 /area/ship/crew)
 "GU" = (
@@ -1683,6 +1702,9 @@
 /obj/structure/sign/poster/official/no_erp{
 	pixel_y = 32
 	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/ship/crew)
 "MB" = (
@@ -1764,14 +1786,14 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 10
 	},
-/obj/effect/turf_decal/corner/yellow/border{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 10
 	},
 /obj/structure/cable{
 	icon_state = "2-8"
+	},
+/obj/effect/turf_decal/corner/yellow{
+	dir = 9
 	},
 /turf/open/floor/iron/dark,
 /area/ship/crew)
@@ -2076,7 +2098,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/light,
-/obj/effect/turf_decal/corner/yellow/bordercorner,
+/obj/effect/turf_decal/corner/green,
 /turf/open/floor/iron/dark,
 /area/ship/crew)
 "YJ" = (

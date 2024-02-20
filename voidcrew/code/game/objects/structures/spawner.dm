@@ -22,7 +22,7 @@
 		/obj/item/gun/ballistic/shotgun/doublebarrel/improvised/sawn = 10,
 		/obj/item/gun/ballistic/automatic/zip_pistol = 10,
 		/obj/item/gun/ballistic/rifle/boltaction/polymer = 9,
-		/obj/item/gun/ballistic/shotgun/winchester = 5,
+		/obj/item/gun/ballistic/shotgun/flamingarrow = 5,
 		/obj/item/gun/ballistic/revolver/nagant = 3,
 		/obj/item/gun/ballistic/rifle/boltaction = 2,
 		/obj/item/gun/ballistic/automatic/aks74u = 1,

@@ -115,7 +115,7 @@
 	minimum_distance = 15
 	aggro_vision_range = 15
 	vision_range = 15
-	casingtype = /obj/item/ammo_casing/a762
+	casingtype = /obj/item/ammo_casing/a300
 	projectilesound = 'sound/weapons/sniper_heavy.ogg'
 	loot = list(/obj/effect/gibspawner/human,/obj/effect/explosion)
 
@@ -144,7 +144,7 @@
 	rapid = 3
 	retreat_distance = 3
 	minimum_distance = 5
-	casingtype = /obj/item/ammo_casing/a556
+	casingtype = /obj/item/ammo_casing/caseless/c556mm
 	projectilesound = 'sound/weapons/fp9000.ogg'
 	loot = list(/obj/effect/gibspawner/human,/obj/effect/explosion)
 

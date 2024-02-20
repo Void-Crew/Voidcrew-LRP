@@ -84,7 +84,7 @@
 	minimum_distance = 5
 	casingtype = /obj/item/ammo_casing/shotgun/beanbag
 	projectilesound = 'sound/weapons/gun/shotgun/shot.ogg'
-	loot = list(/obj/effect/gibspawner/human,/obj/effect/explosion,/obj/item/gun/ballistic/shotgun/riot)
+	loot = list(/obj/effect/gibspawner/human,/obj/effect/explosion,/obj/item/gun/ballistic/shotgun/brimstone)
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 1, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 
 /mob/living/simple_animal/hostile/nanotrasen/ranged/disabler

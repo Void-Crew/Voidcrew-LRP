@@ -179,3 +179,19 @@
 	shoes = /obj/item/clothing/shoes/workboots
 	alt_uniform = null
 	glasses = null
+
+/datum/outfit/job/engineer/inteq
+	name = "Artificier (IRMG Station Engineer)"
+
+	uniform = /obj/item/clothing/under/syndicate/inteq/artificer
+	head = /obj/item/clothing/head/soft/inteq
+	shoes = /obj/item/clothing/shoes/combat
+	belt = /obj/item/storage/belt/utility/full/engi
+	r_pocket = /obj/item/t_scanner
+	gloves = /obj/item/clothing/gloves/combat
+	ears = /obj/item/radio/headset/inteq
+	id = /obj/item/card/id/inteq
+
+	backpack = /obj/item/storage/backpack/messenger/inteq
+	satchel = /obj/item/storage/backpack/messenger/inteq
+	courierbag = /obj/item/storage/backpack/messenger/inteq

@@ -324,7 +324,7 @@
 	for(var/i in 1 to 3)
 		new /obj/item/storage/box/rubbershot(src)
 	for(var/i in 1 to 3)
-		new /obj/item/gun/ballistic/shotgun/riot(src)
+		new /obj/item/gun/ballistic/shotgun/brimstone(src)
 
 /obj/structure/closet/secure_closet/armory3
 	name = "armory energy gun locker"

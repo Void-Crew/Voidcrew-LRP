@@ -346,9 +346,9 @@
 	name = "CentCom Head Intern"
 	belt = /obj/item/melee/baton/loaded
 	suit = /obj/item/clothing/suit/armor/vest
-	suit_store = /obj/item/gun/ballistic/rifle/boltaction
+	suit_store = /obj/item/gun/ballistic/rifle/scout
 	r_hand = /obj/item/megaphone
-	l_pocket = /obj/item/ammo_box/a762
+	l_pocket = /obj/item/ammo_box/a300
 	head = /obj/item/clothing/head/intern
 
 /datum/outfit/centcom/ert/janitor/party

@@ -279,3 +279,22 @@ WS End */
 #undef DRILL_SHOUTING
 #undef DRILL_YELLING
 #undef DRILL_CANADIAN
+
+/obj/item/clothing/head/beret/sec/inteq
+	name = "inteq beret"
+	desc = "A comfortable looking brown beret with a badge of the golden shield of the IRMG. Denotes the wearer as part of the IRMG."
+	icon_state = "inteq_beret"
+	item_state = "inteq_beret"
+
+/obj/item/clothing/head/beret/sec/hos/inteq
+	name = "inteq vanguard beret"
+	desc = "A comfortable looking brown beret with a badge of the golden shield of the IRMG. Denotes the wearer as a vanguard of the IRMG. The padding inside feels thicker."
+	icon_state = "inteq_beret"
+	item_state = "inteq_beret"
+
+/obj/item/clothing/head/beret/sec/hos/inteq/honorable
+	name = "honorable vanguard beret"
+	desc = "A snow white beret with an air of distinction around it, emblazoned with the golden shield of the IRMG as the badge."
+	icon_state = "inteq_honorable_beret"
+	item_state = "inteq_honorable_beret"
+	armor = list("melee" = 40, "bullet" = 50, "laser" = 50, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 70, "acid" = 90)

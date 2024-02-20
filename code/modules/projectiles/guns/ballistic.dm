@@ -57,6 +57,8 @@
 	var/empty_indicator = FALSE
 	///Whether the gun alarms when empty or not.
 	var/empty_alarm = FALSE
+	///Do we eject the magazine upon runing out of ammo?
+	var/empty_autoeject = FALSE
 	///Whether the gun supports multiple special mag types
 	var/special_mags = FALSE
 	///The bolt type of the gun, affects quite a bit of functionality, see combat.dm defines for bolt types: BOLT_TYPE_STANDARD; BOLT_TYPE_LOCKING; BOLT_TYPE_OPEN; BOLT_TYPE_NO_BOLT
@@ -81,11 +83,14 @@
 	var/rack_delay = 5
 	///time of the most recent rack, used for cooldown purposes
 	var/recent_rack = 0
-	///Whether the gun can be tacloaded by slapping a fresh magazine directly on it
-	var/tac_reloads = TRUE //Snowflake mechanic no more.
 	///Whether the gun can be sawn off by sawing tools
 	var/can_be_sawn_off  = FALSE
 	var/flip_cooldown = 0
+
+	///Whether the gun can be tacloaded by slapping a fresh magazine directly on it
+	var/tac_reloads = TRUE //Snowflake mechanic no more.
+	///If we have the 'snowflake mechanic,' how long should it take to reload?
+	var/tactical_reload_delay  = 1 SECONDS
 
 /obj/item/gun/ballistic/Initialize()
 	. = ..()

@@ -718,3 +718,20 @@
 /obj/item/storage/belt/sabre/PopulateContents()
 	new /obj/item/melee/sabre(src)
 	update_icon()
+
+/obj/item/storage/belt/security/webbing/inteq
+	name = "inteq webbing"
+	desc = "A set of tactical webbing for operators of the IRMG, can hold security gear."
+	icon_state = "inteq_webbing"
+	item_state = "inteq_webbing"
+
+/obj/item/storage/belt/security/webbing/inteq/ak47/PopulateContents()
+	. = ..()
+	for(var/i in 1 to 7)
+		new /obj/item/ammo_box/magazine/ak47(src)
+
+/obj/item/storage/belt/security/webbing/inteq/alt
+	name = "inteq drop pouch harness"
+	desc = "A harness with a bunch of pouches attached to them emblazoned in the colors of the IRMG, can hold security gear."
+	icon_state = "inteq_droppouch"
+	item_state = "inteq_droppouch"

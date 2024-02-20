@@ -40,7 +40,7 @@
 	retreat_distance = 5
 	minimum_distance = 5
 	projectilesound = 'sound/weapons/gun/rifle/shot.ogg'
-	casingtype = /obj/item/ammo_casing/a762
+	casingtype = /obj/item/ammo_casing/a300
 
 /mob/living/simple_animal/hostile/russian/ranged/trooper
 	name = "Russian Soldier"
@@ -51,7 +51,7 @@
 	projectilesound = 'sound/weapons/gun/shotgun/shot.ogg'
 	casingtype = /obj/item/ammo_casing/shotgun/buckshot
 	loot = list(/obj/effect/mob_spawn/human/corpse/russian/ranged/trooper,
-				/obj/item/gun/ballistic/shotgun/lethal)
+				/obj/item/gun/ballistic/shotgun/brimstone)
 
 /mob/living/simple_animal/hostile/russian/ranged/elite
 	name = "Russian Soldier Elite"

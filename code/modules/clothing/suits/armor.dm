@@ -358,3 +358,43 @@
 	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
 	min_cold_protection_temperature = SPACE_SUIT_MIN_TEMP_PROTECT
 	armor = list("melee" = 25, "bullet" = 20, "laser" = 20, "energy" = 30, "bomb" = 20, "bio" = 50, "rad" = 20, "fire" = -10, "acid" = 50)
+
+/obj/item/clothing/suit/armor/hos/inteq
+	name = "inteq battle coat"
+	desc = "A luxurious brown coat made from a crossweave of kevlar and ballistic fibre, the collar and wrist trims are made from genuine wolf fur. as protective as it is stylish."
+	icon_state = "armor_inteq_battlecoat"
+	item_state = "inteq_battlecoat"
+
+/obj/item/clothing/suit/armor/hos/inteq/honorable //Basically CC higherup clothing for inteq
+	name = "honorable vanguard battlecoat"
+	desc = "A sleek black coat with snow white fur trims made to order for honorable vanguards of the IRMG. It feels even tougher than the typical battlecoat."
+	icon_state = "armor_inteq_honorable_battlecoat"
+	item_state = "inteq_honorable_battlecoat"
+	armor = list("melee" = 40, "bullet" = 50, "laser" = 50, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 70, "acid" = 90)
+
+/obj/item/clothing/suit/armor/inteq/corpsman
+	name = "inteq corpsman vest"
+	desc = "A shortened brown labcoat with an armor vest under it, for the IRMG's support division Corpsmen."
+	icon_state = "armor_inteq_labcoat"
+	item_state = "inteq_labcoat"
+	allowed = list(
+		/obj/item/analyzer,
+		/obj/item/stack/medical,
+		/obj/item/reagent_containers/syringe,
+		/obj/item/reagent_containers/hypospray,
+		/obj/item/healthanalyzer,
+		/obj/item/flashlight/pen,
+		/obj/item/reagent_containers/glass/bottle,
+		/obj/item/reagent_containers/glass/beaker,
+		/obj/item/reagent_containers/pill,
+		/obj/item/storage/pill_bottle,
+		/obj/item/melee/classic_baton/telescopic,
+		/obj/item/soap,
+		/obj/item/sensor_device,
+		/obj/item/tank/internals/emergency_oxygen,
+		/obj/item/tank/internals/plasmaman,
+		/obj/item/ammo_box,
+		/obj/item/gun/ballistic,
+		/obj/item/gun/energy,
+		/obj/item/melee/baton,
+	)

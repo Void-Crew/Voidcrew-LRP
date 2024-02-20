@@ -1,0 +1,37 @@
+{
+	"map_name": "Viper-Class Patrol Cruiser",
+	"prefix": "NT-C",
+	"map_short_name": "Viper-class",
+	"map_path": "_maps/shuttles/shiptest/viper.dmm",
+	"map_id": "viper",
+	"roundstart": true,
+	"job_slots": {
+		"Bridge Officer": {
+			"outfit": "/datum/outfit/job/captain/nt/heron",
+			"officer": true,
+			"slots": 1
+		},
+		"Commander": {
+			"outfit": "/datum/outfit/job/hos/private",
+			"officer": true,
+			"slots": 1
+		},
+		"Sergeant": {
+			"outfit": "/datum/outfit/job/security/nanotrasen/private/nco",
+			"slots": 2
+		},
+		"Operative": {
+			"outfit": "/datum/outfit/job/security/nanotrasen/private/op",
+			"slots": 2
+		},
+		"Recruit": {
+			"outfit": "/datum/outfit/job/security/nanotrasen/private",
+			"slots": 2
+		},
+		"Ship Engineer": {
+			"outfit": "/datum/outfit/job/engineer/corporate",
+			"slots": 1
+		}
+	},
+	"cost": 700
+}

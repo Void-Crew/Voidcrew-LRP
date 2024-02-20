@@ -223,6 +223,7 @@
 	outfit = /datum/outfit/nanotrasensoldiercorpsesergeant
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
+	icon_state = "corpsentsergeant"
 
 /datum/outfit/nanotrasensoldiercorpsesergeant
 	name = "Nanotrasen Private Security Squad Sergeant Corpse"
@@ -242,6 +243,7 @@
 	outfit = /datum/outfit/nanotrasensoldiercorpsecommander
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
+	icon_state = "corpsentcommander"
 
 /datum/outfit/nanotrasensoldiercorpsecommander
 	name = "Nanotrasen Private Security Squad Commander Corpse"
