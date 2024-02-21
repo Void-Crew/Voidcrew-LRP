@@ -27,14 +27,17 @@
 
 /obj/structure/catwalk/over/plated_catwalk
 	name = "plated catwalk"
-	icon_state = "catwalk_platedwhite"
+	icon_state = "catwalk_plated"
 	plated_tile = /obj/item/stack/tile/iron
 
 /obj/structure/catwalk/over/plated_catwalk/dark
+	name = "plated catwalk"
+	icon_state = "catwalk_plateddark"
 	plated_tile = /obj/item/stack/tile/iron/dark
 
 /obj/structure/catwalk/over/plated_catwalk/white
 	name = "plated catwalk"
+	icon_state = "catwalk_platedwhite"
 	plated_tile = /obj/item/stack/tile/iron/white
 
 /obj/structure/catwalk/update_icon()
