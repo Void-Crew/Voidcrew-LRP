@@ -14,7 +14,7 @@
 	smoothing_groups = list(SMOOTH_GROUP_LATTICE, SMOOTH_GROUP_CATWALK, SMOOTH_GROUP_OPEN_FLOOR)
 	canSmoothWith = list(SMOOTH_GROUP_CATWALK)
 	obj_flags = CAN_BE_HIT | BLOCK_Z_OUT_DOWN | BLOCK_Z_IN_UP
-	var/number_of_rods = 1
+	var/number_of_rods = 2
 	var/hatch_open = FALSE
 	var/obj/item/stack/tile/plated_tile
 
@@ -27,29 +27,25 @@
 
 /obj/structure/catwalk/over/plated_catwalk
 	name = "plated catwalk"
-	icon_state = "catwalk_plated"
 	plated_tile = /obj/item/stack/tile/iron
+	icon_state = "catwalk_plated"
 
 /obj/structure/catwalk/over/plated_catwalk/dark
-	name = "plated catwalk"
-	icon_state = "catwalk_plateddark"
 	plated_tile = /obj/item/stack/tile/iron/dark
+	icon_state = "catwalk_plateddark"
 
 /obj/structure/catwalk/over/plated_catwalk/white
-	name = "plated catwalk"
-	icon_state = "catwalk_platedwhite"
 	plated_tile = /obj/item/stack/tile/iron/white
+	icon_state = "catwalk_platedwhite"
 
 /obj/structure/catwalk/update_icon()
-	..()
 	cut_overlays()
 	icon_state = hatch_open ? "open" : "catwalk"
 	if(plated_tile)
-		var/turf/open/floor/turf_type = initial(plated_tile.turf_type)
 		smoothing_flags &= ~SMOOTH_BITMASK
 		SSicon_smooth.remove_from_queues(src)
 		var/image/I = image('whitesands/icons/obj/catwalks.dmi', "plated")
-		I.color = initial(turf_type.color)
+		I.color = initial(plated_tile.color)
 		overlays += I
 	else
 		smoothing_flags |= SMOOTH_BITMASK
