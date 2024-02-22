@@ -93,7 +93,8 @@
 /area/ship/crew)
 "cm" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 4
+	dir = 4;
+	alpha = 225
 	},
 /obj/structure/table/reinforced/titaniumglass,
 /obj/machinery/recharger,
@@ -132,7 +133,8 @@
 /area/ship/security)
 "dC" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 4
+	dir = 4;
+	alpha = 225
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/ship/hallway/central)
@@ -141,7 +143,8 @@
 /area/ship/security/range)
 "dV" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 8
+	dir = 8;
+	alpha = 225
 	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
@@ -179,7 +182,8 @@
 /area/ship/bridge)
 "eD" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 8
+	dir = 8;
+	alpha = 225
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -313,7 +317,8 @@
 /area/ship/bridge)
 "iA" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 4
+	dir = 4;
+	alpha = 225
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -513,7 +518,8 @@
 /area/ship/security)
 "mi" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 4
+	dir = 4;
+	alpha = 225
 	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
@@ -528,10 +534,12 @@
 /area/ship/security/range)
 "mG" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 8
+	dir = 8;
+	alpha = 225
 	},
 /obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 4
+	dir = 4;
+	alpha = 225
 	},
 /obj/structure/table/reinforced/titaniumglass,
 /turf/open/floor/iron/dark,
@@ -555,7 +563,8 @@
 /area/ship/security/armory)
 "ni" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 4
+	dir = 4;
+	alpha = 225
 	},
 /obj/machinery/firealarm{
 	dir = 4;
@@ -704,7 +713,8 @@
 /area/ship/security/range)
 "pn" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 4
+	dir = 4;
+	alpha = 225
 	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
@@ -900,7 +910,8 @@
 /area/ship/hallway/aft)
 "vn" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 8
+	dir = 8;
+	alpha = 225
 	},
 /obj/structure/rack,
 /obj/item/gun/ballistic/shotgun/hellfire,
@@ -930,7 +941,8 @@
 /area/ship/security)
 "vB" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 8
+	dir = 8;
+	alpha = 225
 	},
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -958,10 +970,12 @@
 /area/ship/crew)
 "vP" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 8
+	dir = 8;
+	alpha = 225
 	},
 /obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 4
+	dir = 4;
+	alpha = 225
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -974,7 +988,8 @@
 /area/ship/security/range)
 "vW" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 8
+	dir = 8;
+	alpha = 225
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
@@ -1032,7 +1047,8 @@
 /area/ship/crew)
 "xP" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 4
+	dir = 4;
+	alpha = 225
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
@@ -1071,7 +1087,8 @@
 /area/ship/security/range)
 "yZ" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 8
+	dir = 8;
+	alpha = 225
 	},
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -1114,20 +1131,21 @@
 /turf/open/floor/carpet/nanoweave/beige,
 /area/ship/hallway/aft)
 "Ai" = (
-/obj/effect/turf_decal/trimline/orange/warning{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 5
 	},
+/obj/effect/turf_decal/trimline/orange/warning{
+	dir = 4
+	},
 /turf/open/floor/iron/dark,
 /area/ship/security/range)
 "Bw" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 4
+	dir = 4;
+	alpha = 225
 	},
 /obj/machinery/light{
 	dir = 4
@@ -1270,7 +1288,8 @@
 /area/ship/security)
 "EZ" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 4
+	dir = 4;
+	alpha = 225
 	},
 /obj/structure/table/reinforced/titaniumglass,
 /obj/machinery/door/firedoor/border_only{
@@ -1327,7 +1346,8 @@
 /area/ship/maintenance/port)
 "Gg" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 8
+	dir = 8;
+	alpha = 225
 	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
@@ -1365,7 +1385,8 @@
 /area/ship/crew)
 "GN" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 8
+	dir = 8;
+	alpha = 225
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1502,7 +1523,8 @@
 /area/ship/bridge)
 "JE" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 4
+	dir = 4;
+	alpha = 225
 	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
@@ -1576,7 +1598,8 @@
 /area/ship/hallway/aft)
 "KL" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 8
+	dir = 8;
+	alpha = 225
 	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
@@ -1611,7 +1634,8 @@
 /area/ship/maintenance/port)
 "Lq" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 4
+	dir = 4;
+	alpha = 225
 	},
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 32
@@ -1620,10 +1644,12 @@
 /area/ship/hallway/central)
 "Lr" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 8
+	dir = 8;
+	alpha = 225
 	},
 /obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 4
+	dir = 4;
+	alpha = 225
 	},
 /obj/structure/table/reinforced/titaniumglass,
 /obj/machinery/recharger,
@@ -1708,7 +1734,8 @@
 /area/ship/hallway/aft)
 "Nu" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 8
+	dir = 8;
+	alpha = 225
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1749,7 +1776,8 @@
 /area/ship/hallway/aft)
 "Oi" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 4
+	dir = 4;
+	alpha = 225
 	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
@@ -1882,7 +1910,8 @@
 /area/ship/maintenance/port)
 "RK" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 8
+	dir = 8;
+	alpha = 225
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1980,7 +2009,8 @@
 /area/ship/maintenance/starboard)
 "VK" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 8
+	dir = 8;
+	alpha = 225
 	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
@@ -2088,10 +2118,12 @@
 /area/ship/security/range)
 "WJ" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 8
+	dir = 8;
+	alpha = 225
 	},
 /obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 4
+	dir = 4;
+	alpha = 225
 	},
 /obj/structure/table/reinforced/titaniumglass,
 /obj/item/gun/energy/laser/retro,
@@ -2153,7 +2185,8 @@
 /area/ship/hallway/aft)
 "Xw" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 4
+	dir = 4;
+	alpha = 225
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
@@ -2184,7 +2217,8 @@
 /area/ship/bridge)
 "XQ" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 4
+	dir = 4;
+	alpha = 225
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/ship/hallway/central)

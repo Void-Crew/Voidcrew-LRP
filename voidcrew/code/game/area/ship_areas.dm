@@ -232,6 +232,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Robotics"
 	icon_state = "medresearch"
 
+/area/ship/science/xeno
+	name = "Xenobiology"
+	icon_state = "toxlab"
+
 /area/ship/science/ai_chamber
 	name = "AI Chamber"
 	icon_state = "ai_chamber"
