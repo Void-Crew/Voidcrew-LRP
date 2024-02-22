@@ -123,6 +123,11 @@
 	dog_fashion = null
 	resistance_flags = FIRE_PROOF
 
+/obj/item/clothing/suit/armor/vest/capcarapace/cybersun
+	name = "Cybersun captain's haori"
+	desc = "An extraordinarily fashionable haori, utilized by Cybersun captains. Weaved with armored fabric to protect the user from gunshots."
+	icon_state = "carapace_cybersun"
+
 /obj/item/clothing/suit/armor/vest/capcarapace/nt
 	name = "captain's carapace"
 	desc = "A fireproof armored chestpiece reinforced with ceramic plates and plasteel pauldrons to provide additional protection whilst still offering maximum mobility and flexibility. Issued only to the station's finest, although it does chafe your nipples."

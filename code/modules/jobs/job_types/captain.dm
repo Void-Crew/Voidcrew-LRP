@@ -104,6 +104,18 @@
 	suit = /obj/item/clothing/suit/armor/vest/alt
 	ears = /obj/item/radio/headset/syndicate/alt/leader
 
+/datum/outfit/job/captain/cybersun
+	name = "Captain (Cybersun Industries)"
+
+	uniform = /obj/item/clothing/under/syndicate/cybersun/officer
+	id = /obj/item/card/id/syndicate_command/captain_id
+	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
+	head = /obj/item/clothing/head/HoS/cybersun
+	shoes = /obj/item/clothing/shoes/combat
+	back = /obj/item/storage/backpack/satchel/sec
+	suit = /obj/item/clothing/suit/armor/vest/capcarapace/cybersun
+	ears = /obj/item/radio/headset/syndicate/alt/leader
+
 /datum/outfit/job/captain/inteq
 	name = "Vanguard (IRMG Captain)"
 
