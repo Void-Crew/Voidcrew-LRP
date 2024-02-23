@@ -81,6 +81,25 @@
 	icon_state = "stamp-centcom"
 	dye_color = DYE_CENTCOM
 
+/obj/item/stamp/donk
+	name = "Donk! Co. rubber stamp"
+	icon_state = "stamp-donk"
+	dye_color = DYE_SYNDICATE
+
+/obj/item/stamp/cybersun
+	name = "Cybersun rubber stamp"
+	icon_state = "stamp-cybersun"
+	dye_color = DYE_SYNDICATE
+
+/obj/item/stamp/solgov
+	name = "SolGov rubber stamp"
+	icon_state = "stamp-solgov"
+
+/obj/item/stamp/inteq
+	name = "Inteq rubber stamp"
+	icon_state = "stamp-inteq"
+	dye_color = DYE_QM
+
 /obj/item/stamp/syndicate
 	name = "Syndicate rubber stamp"
 	icon_state = "stamp-syndicate"

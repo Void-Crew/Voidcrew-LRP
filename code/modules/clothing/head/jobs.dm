@@ -112,8 +112,8 @@
 				to_chat(user, "<span class='warning'>You just took a candy corn! You should wait a couple minutes, lest you burn through your stash.</span>")
 
 /obj/item/clothing/head/HoS/cybersun
-	name = "cybersun hat"
-	desc = "A crimson-red hat fit for a high ranking cybersun officer."
+	name = "Cybersun hat"
+	desc = "A crimson-red hat fit for a high ranking Cybersun officer."
 	icon_state = "cybersunhat"
 	item_state = "cybersunhat"
 

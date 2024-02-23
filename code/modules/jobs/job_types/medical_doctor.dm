@@ -122,12 +122,16 @@
 	uniform = /obj/item/clothing/under/costume/sailor
 	shoes = /obj/item/clothing/shoes/jackboots
 
-/datum/outfit/job/doctor/cybersun
-	name = "Operations Assistant (Medical Doctor)"
+/datum/outfit/job/doctor/syndicate/cybersun
+	name = "Medical Doctor (Cybersun Industries)"
 
-	uniform = /obj/item/clothing/under/syndicate/cybersun
+	uniform = /obj/item/clothing/under/syndicate/medic
 	accessory = /obj/item/clothing/accessory/armband/medblue
-	shoes = /obj/item/clothing/shoes/jackboots
+	shoes = /obj/item/clothing/shoes/laceup
+	head = /obj/item/clothing/head/soft/cybersun/medical
+	suit = /obj/item/clothing/suit/toggle/labcoat/raincoat
+	id = /obj/item/card/id/syndicate_command/crew_id
+	gloves = /obj/item/clothing/gloves/color/latex/nitrile/evil
 
 /datum/outfit/job/doctor/syndicate/nsv
 	name = "Medical Doctor (NSV-M)"

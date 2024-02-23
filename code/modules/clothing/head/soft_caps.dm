@@ -144,14 +144,14 @@
 	dog_fashion = null
 
 /obj/item/clothing/head/soft/cybersun
-	name = "cybersun agent cap"
+	name = "Cybersun agent cap"
 	desc = "A black baseball hat emblazoned with a reflective Cybersun patch."
 	icon_state = "agentsoft"
 	soft_type = "agent"
 	dog_fashion = null
 
 /obj/item/clothing/head/soft/cybersun/medical
-	name = "cybersun medic cap"
+	name = "Cybersun medic cap"
 	desc = "A turquoise baseball hat emblazoned with a reflective cross. Typical of Cybersun Industries field medics."
 	icon_state = "cybersunsoft"
 	soft_type = "cybersun"

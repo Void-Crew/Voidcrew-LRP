@@ -95,3 +95,14 @@
 	ears = /obj/item/radio/headset/syndicate/alt/leader
 	id = /obj/item/card/id/syndicate_command/captain_id
 	shoes = /obj/item/clothing/shoes/jackboots
+
+/datum/outfit/job/cmo/syndicate/cybersun
+	name = "Medical Director (Cybersun Industries)"
+
+	uniform = /obj/item/clothing/under/rank/medical/chief_medical_officer/cybersun
+	gloves = /obj/item/clothing/gloves/color/latex/nitrile/evil
+	suit = /obj/item/clothing/suit/toggle/labcoat/raincoat
+	head = /obj/item/clothing/head/beret/cmo/cybersun
+	ears = /obj/item/radio/headset/syndicate/alt/leader
+	id = /obj/item/card/id/syndicate_command/captain_id
+	shoes = /obj/item/clothing/shoes/jackboots

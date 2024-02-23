@@ -195,3 +195,14 @@
 	backpack = /obj/item/storage/backpack/messenger/inteq
 	satchel = /obj/item/storage/backpack/messenger/inteq
 	courierbag = /obj/item/storage/backpack/messenger/inteq
+
+/datum/outfit/job/engineer/syndicate/cybersun
+	name = "Mechanic (Cybersun Industries)"
+
+	uniform = /obj/item/clothing/under/syndicate/cybersun/research
+	suit = /obj/item/clothing/suit/hazardvest
+	head = /obj/item/clothing/head/hardhat/cybersun
+	belt = /obj/item/storage/belt/utility/syndicate
+	shoes = /obj/item/clothing/shoes/workboots
+	gloves = /obj/item/clothing/gloves/combat/chief_engineer
+	alt_uniform = null

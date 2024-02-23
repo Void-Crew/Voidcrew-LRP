@@ -376,3 +376,8 @@
 	. = ..()
 	if(!warped)
 		warp_up()
+
+/obj/item/clothing/head/beret/cmo/cybersun
+	name = "medical director beret"
+	desc = "A burgundy-red beret with a silver cross. It smells very sterile."
+	icon_state = "meddirectorberet"

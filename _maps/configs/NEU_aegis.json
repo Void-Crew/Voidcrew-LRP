@@ -1,0 +1,41 @@
+{
+	"map_name": "Aegis-class Rehabilitation Cruiser",
+	"map_short_name": "Aegis-class",
+	"prefix": "NEU",
+	"map_path": "_maps/shuttles/shiptest/aegis.dmm",
+	"map_id": "aegis",
+	"roundstart": true,
+	"job_slots": {
+		"Captain": {
+			"outfit": "/datum/outfit/job/captain/cybersun",
+			"officer": true,
+			"slots": 1
+		},
+		"Medical Director": {
+			"outfit": "/datum/outfit/job/cmo/syndicate/cybersun",
+			"officer": true,
+			"slots": 1
+		},
+		"Ship Doctor": {
+			"outfit": "/datum/outfit/job/doctor/syndicate/cybersun",
+			"slots": 2
+		},
+		"Mechanic": {
+			"outfit": "/datum/outfit/job/engineer/syndicate/cybersun",
+			"slots": 1
+		},
+		"Deck Service Assistant": {
+			"outfit": "/datum/outfit/job/assistant/syndicate/cybersun",
+			"slots": 2
+		},
+		"Psychologist": {
+			"outfit": "/datum/outfit/job/psychologist/syndicate/cybersun",
+			"slots": 1
+		},
+		"Long-Term Patient": {
+			"outfit": "/datum/outfit/job/assistant/syndicate",
+			"slots": 2
+		}
+	},
+	"cost": 600
+}

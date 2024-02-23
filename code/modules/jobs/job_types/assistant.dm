@@ -100,3 +100,13 @@ Assistant
 	shoes = /obj/item/clothing/shoes/combat
 	gloves = /obj/item/clothing/gloves/color/black
 	ears = /obj/item/radio/headset/syndicate/alt
+
+/datum/outfit/job/assistant/syndicate/cybersun
+	name = "Deck Service Assistant (Cybersun Industries)"
+
+	uniform = /obj/item/clothing/under/syndicate/cybersun
+	head = /obj/item/clothing/head/soft/cybersun
+	shoes = /obj/item/clothing/shoes/jackboots
+	gloves = /obj/item/clothing/gloves/color/black
+	ears = /obj/item/radio/headset/syndicate/alt
+	accessory = /obj/item/clothing/accessory/armband/hydro

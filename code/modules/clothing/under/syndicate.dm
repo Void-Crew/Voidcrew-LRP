@@ -111,7 +111,7 @@
 	body_parts_covered = CHEST|GROIN|LEGS|ARMS
 
 /obj/item/clothing/under/syndicate/cybersun
-	name = "cybersun jumpsuit"
+	name = "Cybersun jumpsuit"
 	desc = "The standard jumpsuit used by the agents employed by Cybersun, in its distinctive half-black-half-white aesthetic."
 	icon_state = "cybersun_agent"
 	can_adjust = FALSE
@@ -125,7 +125,7 @@
 	alt_covers_chest = TRUE
 
 /obj/item/clothing/under/syndicate/cybersun/officer
-	name = "cybersun officer's suit"
+	name = "Cybersun officer's suit"
 	desc = "A crimson-red suit used by the officers employed by Cybersun."
 	icon_state = "cybersun_officer"
 	alt_covers_chest = TRUE

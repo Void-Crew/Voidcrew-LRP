@@ -203,3 +203,8 @@
 	icon_state = "hardhat_solgov"
 	item_state = "hardhat_solgov"
 	dog_fashion = null
+
+/obj/item/clothing/head/hardhat/cybersun
+	icon_state = "hardhat_cybersun"
+	item_state = "hardhat_cybersun"
+	dog_fashion = null
