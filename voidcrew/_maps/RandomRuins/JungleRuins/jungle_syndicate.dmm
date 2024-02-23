@@ -34,6 +34,9 @@
 /area/ruin/powered)
 "j" = (
 /obj/machinery/ntnet_relay,
+/obj/structure/sign/poster/contraband/m90{
+	pixel_x = -32
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
 "k" = (
@@ -94,7 +97,6 @@
 /area/ruin/unpowered)
 "x" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/sign/poster/contraband/revolver,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/powered)
 "y" = (
@@ -131,6 +133,9 @@
 /area/ruin/powered)
 "G" = (
 /mob/living/simple_animal/hostile/syndicate/ranged/smg/pilot,
+/obj/structure/sign/poster/contraband/power{
+	pixel_x = 32
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
 "H" = (
@@ -149,10 +154,6 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/powered)
-"M" = (
-/obj/structure/sign/poster/contraband/free_key,
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/powered)
 "N" = (
 /obj/structure/punji_sticks,
@@ -224,7 +225,7 @@ c
 k
 F
 i
-M
+b
 b
 a
 "}

@@ -13,6 +13,7 @@
 	id_job = "Operative"
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
+	icon_state = "corpsesyndicate"
 	outfit = /datum/outfit/syndicatesoldiercorpse
 
 /datum/outfit/syndicatesoldiercorpse
@@ -22,9 +23,8 @@
 	shoes = /obj/item/clothing/shoes/combat
 	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
 	ears = /obj/item/radio/headset
-	mask = /obj/item/clothing/mask/gas
+	mask = /obj/item/clothing/mask/gas/sechailer/syndie
 	head = /obj/item/clothing/head/helmet/swat
-	back = /obj/item/storage/backpack
 	id = /obj/item/card/id/syndicate
 
 /obj/effect/mob_spawn/human/corpse/syndicatecommando
