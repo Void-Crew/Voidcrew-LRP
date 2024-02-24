@@ -43,6 +43,10 @@
 	layer = 2.49
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/radio/intercom/wideband{
+	pixel_y = 22;
+	pixel_x = 28
+	},
 /turf/open/floor/carpet/black,
 /area/ship/bridge)
 "bU" = (
@@ -115,6 +119,7 @@
 "hL" = (
 /obj/machinery/airalarm/directional/west,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/holopad/emergency/command,
 /turf/open/floor/carpet/black,
 /area/ship/bridge)
 "hS" = (
@@ -141,6 +146,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/greenglow,
 /turf/open/floor/plating,
 /area/ship/maintenance/central)
 "jp" = (
