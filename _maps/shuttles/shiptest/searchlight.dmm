@@ -77,13 +77,10 @@
 	pixel_x = -3;
 	pixel_y = 4
 	},
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = 26
-	},
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/machinery/firealarm/north,
 /turf/open/floor/iron/dark/small,
 /area/ship/medical)
 "dc" = (
@@ -244,24 +241,18 @@
 /turf/open/floor/iron/dark/small,
 /area/ship/crew/cryo)
 "gY" = (
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -26
-	},
 /obj/machinery/autolathe,
 /obj/machinery/atmospherics/pipe/simple/supply/visible/layer2,
+/obj/machinery/firealarm/west,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "hb" = (
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = 26
-	},
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/machinery/suit_storage_unit{
 	suit_type = /obj/item/clothing/suit/space/hardsuit/syndi/cybersun;
 	storage_type = /obj/item/tank/internals/oxygen/yellow
 	},
+/obj/machinery/firealarm/north,
 /turf/open/floor/iron/dark/small,
 /area/ship/bridge)
 "hu" = (
@@ -362,11 +353,8 @@
 /obj/item/stack/medical/mesh,
 /obj/item/stack/medical/suture/medicated,
 /obj/effect/turf_decal/corner/blue/diagonal,
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = 26
-	},
 /obj/item/defibrillator/loaded,
+/obj/machinery/firealarm/north,
 /turf/open/floor/iron/white,
 /area/ship/medical/surgery)
 "kx" = (
@@ -614,10 +602,6 @@
 /turf/open/floor/iron/white,
 /area/ship/medical)
 "oL" = (
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = 26
-	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -627,6 +611,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
 	},
+/obj/machinery/firealarm/north,
 /turf/open/floor/iron,
 /area/ship/medical)
 "oX" = (
@@ -731,12 +716,10 @@
 /area/ship/medical)
 "sz" = (
 /obj/effect/turf_decal/corner/blue/diagonal_edge,
-/obj/machinery/firealarm{
-	pixel_y = -26
-	},
 /obj/effect/turf_decal/industrial/warning/corner{
 	dir = 8
 	},
+/obj/machinery/firealarm/south,
 /turf/open/floor/iron/white/diagonal,
 /area/ship/medical)
 "tf" = (
@@ -817,6 +800,7 @@
 	dir = 8
 	},
 /obj/machinery/airalarm/directional/east,
+/obj/machinery/firealarm/south,
 /turf/open/floor/iron/dark/small,
 /area/ship/crew/cryo)
 "ww" = (
@@ -971,6 +955,7 @@
 /obj/structure/chair{
 	dir = 8
 	},
+/obj/machinery/firealarm/east,
 /turf/open/floor/iron,
 /area/ship/security)
 "Bn" = (
@@ -1322,7 +1307,7 @@
 	callTime = 250;
 	dir = 2;
 	launch_status = 0;
-	name = "Interdyne Ship";
+	name = "Searchlight-Class";
 	port_direction = 8;
 	preferred_direction = 4
 	},
@@ -1463,6 +1448,10 @@
 /obj/machinery/cell_charger,
 /obj/item/stock_parts/cell/high,
 /obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -32;
+	dir = 4
+	},
 /turf/open/floor/iron/dark/small,
 /area/ship/bridge)
 "Ol" = (
@@ -1556,6 +1545,10 @@
 	dir = 4
 	},
 /obj/machinery/chem_master,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -32;
+	dir = 4
+	},
 /turf/open/floor/iron/dark/small,
 /area/ship/medical)
 "RB" = (
@@ -1627,7 +1620,8 @@
 "TP" = (
 /obj/structure/closet/secure_closet/engineering_personal,
 /obj/structure/extinguisher_cabinet{
-	pixel_x = -32
+	pixel_x = -32;
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/ship/engineering)

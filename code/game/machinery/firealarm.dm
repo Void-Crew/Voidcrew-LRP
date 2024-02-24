@@ -30,6 +30,22 @@
 	light_range = 7
 	light_color = COLOR_VIVID_RED
 
+/obj/machinery/firealarm/north //Pixel offsets get overwritten on New()
+	dir = 2
+	pixel_y = 19
+
+/obj/machinery/firealarm/south
+	dir = 1
+	pixel_y = -19
+
+/obj/machinery/firealarm/east
+	dir = 8
+	pixel_x = 19
+
+/obj/machinery/firealarm/west
+	dir = 4
+	pixel_x = -19
+
 	//Trick to get the glowing overlay visible from a distance
 	luminosity = 1
 

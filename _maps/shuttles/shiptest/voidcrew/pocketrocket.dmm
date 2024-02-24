@@ -4,21 +4,13 @@
 /obj/machinery/microwave,
 /obj/effect/spawner/lootdrop/donkpockets,
 /obj/effect/spawner/lootdrop/donkpockets,
-/obj/machinery/firealarm{
-	pixel_y = -24
-	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
+/obj/machinery/firealarm/south,
 /turf/open/floor/wood,
 /area/ship/crew/canteen)
-"aj" = (
-/obj/structure/extinguisher_cabinet{
-	pixel_x = 26
-	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/engineering)
 "aF" = (
 /obj/machinery/button/door{
 	id = "pocketrocket_bridge_window";
@@ -85,6 +77,10 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 32;
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/ship/engineering)
 "fe" = (
@@ -117,10 +113,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -26
-	},
+/obj/machinery/firealarm/west,
 /turf/open/floor/iron/grimy,
 /area/ship/crew)
 "gK" = (
@@ -258,7 +251,6 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/obj/machinery/power/apc/auto_name/north,
 /obj/effect/decal/cleanable/garbage,
 /obj/structure/closet/emcloset/wall{
 	dir = 4;
@@ -266,6 +258,7 @@
 	},
 /obj/effect/turf_decal/siding/wood/corner,
 /obj/effect/decal/cleanable/cobweb,
+/obj/machinery/power/apc/auto_name/north,
 /turf/open/floor/wood,
 /area/ship/crew/canteen)
 "mP" = (
@@ -381,11 +374,11 @@
 /turf/open/floor/iron,
 /area/ship/cargo)
 "tc" = (
-/obj/machinery/airalarm/directional/north,
 /obj/effect/decal/cleanable/sprayweb,
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
 	},
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/wood,
 /area/ship/crew/canteen)
 "tw" = (
@@ -712,13 +705,10 @@
 /obj/effect/spawner/lootdrop/maintenance/four,
 /obj/item/storage/belt/fannypack,
 /obj/item/storage/firstaid/advanced,
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -26
-	},
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 5
 	},
+/obj/machinery/firealarm/west,
 /turf/open/floor/iron/dark/small,
 /area/ship/cargo)
 "IE" = (
@@ -731,10 +721,12 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/machinery/power/apc/auto_name/north,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 6
+	},
+/obj/machinery/power/apc/auto_name/north{
+	pixel_y = 24
 	},
 /turf/open/floor/iron/dark/small,
 /area/ship/cargo)
@@ -751,24 +743,19 @@
 /turf/open/floor/iron/dark/small,
 /area/ship/engineering)
 "Jq" = (
-/obj/machinery/firealarm{
-	pixel_y = -24
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
 /obj/item/storage/toolbox/emergency,
 /obj/item/flashlight,
+/obj/machinery/firealarm/south,
 /turf/open/floor/wood,
 /area/ship/bridge)
 "JK" = (
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -26
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 4
 	},
 /obj/item/clothing/suit/toggle/industrial,
+/obj/machinery/firealarm/west,
 /turf/open/floor/iron,
 /area/ship/engineering)
 "JW" = (
@@ -801,9 +788,6 @@
 /turf/open/floor/wood,
 /area/ship/bridge)
 "Lg" = (
-/obj/machinery/door/airlock/hatch{
-	name = "Engineering"
-	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -814,6 +798,9 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Engineering"
+	},
 /turf/open/floor/iron/dark/textured_large,
 /area/ship/engineering)
 "MC" = (
@@ -1069,7 +1056,7 @@ bU
 iL
 eR
 Tw
-aj
+bU
 bU
 Lg
 bU

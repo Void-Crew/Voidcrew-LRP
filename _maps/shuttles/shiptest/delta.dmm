@@ -996,6 +996,9 @@
 /obj/structure/chair,
 /obj/effect/turf_decal/corner/bar/diagonal,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/firealarm/west{
+	pixel_x = -19
+	},
 /turf/open/floor/iron,
 /area/ship/crew/canteen)
 "bJ" = (
@@ -1134,11 +1137,8 @@
 	pixel_x = -2;
 	pixel_y = 1
 	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 24
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/firealarm/east,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "bX" = (
@@ -1147,10 +1147,6 @@
 	pixel_x = -4
 	},
 /obj/effect/decal/cleanable/cobweb,
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -24
-	},
 /obj/item/stack/spacecash/c200{
 	pixel_x = 7;
 	pixel_y = 4
@@ -1166,6 +1162,7 @@
 	dir = 9
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/firealarm/west,
 /turf/open/floor/iron/dark/textured_edge{
 	dir = 4
 	},
@@ -1214,7 +1211,6 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/obj/machinery/power/apc/auto_name/west,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 4
 	},
@@ -1228,6 +1224,9 @@
 	name = "surplus CentCom officer's coat"
 	},
 /obj/item/clothing/head/caphat/parade/cent,
+/obj/machinery/power/apc/auto_name/west{
+	dir = 4
+	},
 /turf/open/floor/iron/dark/textured_edge{
 	dir = 4
 	},
@@ -1752,14 +1751,11 @@
 /obj/machinery/light/small/built{
 	dir = 8
 	},
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -26
-	},
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/firealarm/west,
 /turf/open/floor/iron,
 /area/ship/cargo)
 "cZ" = (
@@ -1921,10 +1917,6 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/firealarm{
-	pixel_y = 24;
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -1932,6 +1924,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/firealarm/north,
 /turf/open/floor/iron/white/side{
 	dir = 9
 	},
@@ -2660,9 +2653,6 @@
 /obj/machinery/airalarm/all_access{
 	pixel_y = 24
 	},
-/obj/machinery/firealarm{
-	pixel_y = -24
-	},
 /obj/effect/turf_decal/corner/neutral{
 	dir = 4
 	},
@@ -2676,6 +2666,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/firealarm/south,
 /turf/open/floor/iron,
 /area/ship/crew)
 "pb" = (
@@ -2988,10 +2979,6 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/medical)
 "SY" = (
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 24
-	},
 /obj/structure/table,
 /obj/machinery/cell_charger,
 /obj/item/stack/cable_coil/red,
@@ -3000,6 +2987,7 @@
 	pixel_y = -13
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/firealarm/east,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "TD" = (

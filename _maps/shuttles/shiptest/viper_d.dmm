@@ -153,10 +153,7 @@
 "ct" = (
 /obj/structure/rack,
 /obj/item/gun/energy/e_gun,
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 26
-	},
+/obj/machinery/firealarm/east,
 /turf/open/floor/iron/dark,
 /area/ship/security/armory)
 "cP" = (
@@ -541,7 +538,8 @@
 /area/ship/bridge)
 "nB" = (
 /obj/structure/extinguisher_cabinet{
-	pixel_x = 32
+	pixel_x = 32;
+	dir = 8
 	},
 /obj/effect/turf_decal/trimline/orange/filled/line{
 	dir = 4;
@@ -624,10 +622,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 26
-	},
+/obj/machinery/firealarm/east,
 /turf/open/floor/iron/dark/smooth_large,
 /area/ship/hallway/aft)
 "pF" = (
@@ -755,9 +750,6 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
-/obj/machinery/firealarm{
-	pixel_y = -26
-	},
 /obj/effect/turf_decal/trimline/orange/filled/line{
 	dir = 4;
 	alpha = 225
@@ -765,6 +757,7 @@
 /obj/structure/window/reinforced/survival_pod{
 	dir = 4
 	},
+/obj/machinery/firealarm/south,
 /turf/open/floor/iron/dark,
 /area/ship/security/range)
 "tg" = (
@@ -959,10 +952,6 @@
 	name = "ammo crate"
 	},
 /obj/machinery/airalarm/directional/south,
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -26
-	},
 /obj/item/ammo_box/c9mm,
 /obj/item/ammo_box/c9mm,
 /obj/item/ammo_box/c9mm,
@@ -977,6 +966,7 @@
 /obj/item/ammo_box/a762_39,
 /obj/item/ammo_box/a308,
 /obj/item/ammo_box/a308,
+/obj/machinery/firealarm/west,
 /turf/open/floor/iron/dark,
 /area/ship/security)
 "yg" = (
@@ -1219,7 +1209,8 @@
 /obj/machinery/power/terminal,
 /obj/item/wrench,
 /obj/structure/extinguisher_cabinet{
-	pixel_x = -32
+	pixel_x = -32;
+	dir = 4
 	},
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/electrical,
@@ -1277,10 +1268,6 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/ship/hallway/central)
 "EV" = (
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 26
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
 	},
@@ -1288,6 +1275,7 @@
 	dir = 4;
 	alpha = 225
 	},
+/obj/machinery/firealarm/east,
 /turf/open/floor/iron/dark/smooth_large,
 /area/ship/hallway/central)
 "Fq" = (
@@ -1347,13 +1335,10 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 26
-	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
 	},
+/obj/machinery/firealarm/east,
 /turf/open/floor/plating,
 /area/ship/maintenance/port)
 "FX" = (
@@ -1379,7 +1364,8 @@
 /obj/structure/cable,
 /obj/machinery/power/terminal,
 /obj/structure/extinguisher_cabinet{
-	pixel_x = 32
+	pixel_x = 32;
+	dir = 8
 	},
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/mechanical,
@@ -1530,15 +1516,12 @@
 /area/ship/maintenance/starboard)
 "Lu" = (
 /obj/machinery/recharger,
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 26
-	},
 /obj/item/gun/energy/e_gun/mini,
 /obj/structure/sign/poster/official/mini_energy_gun{
 	pixel_y = 32
 	},
 /obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/firealarm/east,
 /turf/open/floor/carpet/nanoweave,
 /area/ship/bridge)
 "LQ" = (
@@ -1568,7 +1551,8 @@
 	dir = 4
 	},
 /obj/structure/extinguisher_cabinet{
-	pixel_x = 32
+	pixel_x = 32;
+	dir = 8
 	},
 /turf/open/floor/carpet/nanoweave,
 /area/ship/hallway/aft)
@@ -1653,10 +1637,7 @@
 /obj/structure/chair{
 	dir = 8
 	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 26
-	},
+/obj/machinery/firealarm/east,
 /turf/open/floor/carpet/nanoweave,
 /area/ship/hallway/aft)
 "OM" = (
@@ -1905,9 +1886,6 @@
 	},
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ship/maintenance/starboard)
-"VD" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/ship/maintenance/fore)
 "VK" = (
 /turf/open/floor/iron/dark,
 /area/ship/security)
@@ -2007,12 +1985,9 @@
 /turf/open/floor/iron/small,
 /area/ship/storage)
 "Xi" = (
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -26
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/firealarm/west,
 /turf/open/floor/carpet/nanoweave/orange,
 /area/ship/crew)
 "Xk" = (
@@ -2068,13 +2043,10 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -26
-	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
 	},
+/obj/machinery/firealarm/west,
 /turf/open/floor/plating,
 /area/ship/maintenance/starboard)
 "Yt" = (
@@ -2595,7 +2567,7 @@ sH
 sH
 sH
 sH
-VD
+Oi
 ll
 Pw
 ll

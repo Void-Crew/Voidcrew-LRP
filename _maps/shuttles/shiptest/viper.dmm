@@ -9,10 +9,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 26
-	},
+/obj/machinery/firealarm/east,
 /turf/open/floor/iron/dark/smooth_large,
 /area/ship/hallway/aft)
 "aD" = (
@@ -444,10 +441,7 @@
 "lm" = (
 /obj/structure/rack,
 /obj/item/gun/energy/e_gun,
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 26
-	},
+/obj/machinery/firealarm/east,
 /turf/open/floor/iron/dark,
 /area/ship/security/armory)
 "lw" = (
@@ -524,12 +518,10 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
-/obj/machinery/firealarm{
-	pixel_y = -26
-	},
 /obj/structure/window/reinforced{
 	dir = 4
 	},
+/obj/machinery/firealarm/south,
 /turf/open/floor/iron/dark,
 /area/ship/security/range)
 "mG" = (
@@ -566,13 +558,10 @@
 	dir = 4;
 	alpha = 225
 	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 26
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
 	},
+/obj/machinery/firealarm/east,
 /turf/open/floor/iron/dark/smooth_large,
 /area/ship/hallway/central)
 "np" = (
@@ -592,7 +581,8 @@
 /obj/machinery/power/terminal,
 /obj/item/wrench,
 /obj/structure/extinguisher_cabinet{
-	pixel_x = -32
+	pixel_x = -32;
+	dir = 4
 	},
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/electrical,
@@ -623,13 +613,10 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -26
-	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
 	},
+/obj/machinery/firealarm/west,
 /turf/open/floor/plating,
 /area/ship/maintenance/starboard)
 "oh" = (
@@ -663,7 +650,7 @@
 /obj/docking_port/mobile{
 	callTime = 250;
 	launch_status = 0;
-	name = "Private Security Cruiser";
+	name = "Viper-Class";
 	port_direction = 2
 	},
 /turf/open/floor/plating,
@@ -1022,7 +1009,8 @@
 	dir = 4
 	},
 /obj/structure/extinguisher_cabinet{
-	pixel_x = 32
+	pixel_x = 32;
+	dir = 8
 	},
 /turf/open/floor/carpet/nanoweave/beige,
 /area/ship/hallway/aft)
@@ -1074,10 +1062,7 @@
 /obj/item/ammo_box/c556mmHITP,
 /obj/item/ammo_box/c556mmHITP,
 /obj/machinery/airalarm/directional/south,
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -26
-	},
+/obj/machinery/firealarm/west,
 /turf/open/floor/iron/dark,
 /area/ship/security)
 "yu" = (
@@ -1335,13 +1320,10 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 26
-	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
 	},
+/obj/machinery/firealarm/east,
 /turf/open/floor/plating,
 /area/ship/maintenance/port)
 "Gg" = (
@@ -1638,7 +1620,8 @@
 	alpha = 225
 	},
 /obj/structure/extinguisher_cabinet{
-	pixel_x = 32
+	pixel_x = 32;
+	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/ship/hallway/central)
@@ -1692,10 +1675,6 @@
 /turf/open/floor/plating/airless,
 /area/ship/external)
 "MU" = (
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -26
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/suit_storage_unit/security{
@@ -1704,6 +1683,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
 	},
+/obj/machinery/firealarm/west,
 /turf/open/floor/iron/small,
 /area/ship/crew)
 "MW" = (
@@ -1849,10 +1829,7 @@
 /obj/structure/chair{
 	dir = 8
 	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 26
-	},
+/obj/machinery/firealarm/east,
 /turf/open/floor/carpet/nanoweave/beige,
 /area/ship/hallway/aft)
 "QF" = (
@@ -1934,14 +1911,11 @@
 "SY" = (
 /obj/structure/table/reinforced/titaniumglass,
 /obj/machinery/recharger,
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 26
-	},
 /obj/item/gun/energy/e_gun/mini,
 /obj/structure/sign/poster/official/mini_energy_gun{
 	pixel_y = 32
 	},
+/obj/machinery/firealarm/east,
 /turf/open/floor/carpet/executive,
 /area/ship/bridge)
 "Ti" = (
@@ -2100,7 +2074,8 @@
 /obj/structure/cable,
 /obj/machinery/power/terminal,
 /obj/structure/extinguisher_cabinet{
-	pixel_x = 32
+	pixel_x = 32;
+	dir = 8
 	},
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/mechanical,
@@ -2226,16 +2201,13 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = 26
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
+/obj/machinery/firealarm/north,
 /turf/open/floor/iron/dark,
 /area/ship/storage)
 "Yu" = (
