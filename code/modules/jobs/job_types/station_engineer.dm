@@ -164,8 +164,9 @@
 	name = "Station Engineer (GEC)"
 
 	uniform = /obj/item/clothing/under/syndicate/intern
-	suit = /obj/item/clothing/suit/toggle/hazard
-	head = /obj/item/clothing/head/hardhat
+	suit = null
+	mask = /obj/item/clothing/mask/gas/syndicate
+	head = null
 	shoes = /obj/item/clothing/shoes/combat
 	gloves = /obj/item/clothing/gloves/combat
 	ears = /obj/item/radio/headset/syndicate/alt
