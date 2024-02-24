@@ -23,9 +23,10 @@
 
 	belt = /obj/item/pda/medical
 	ears = /obj/item/radio/headset/headset_med
-	uniform = /obj/item/clothing/under/rank/medical/doctor
-	alt_uniform = /obj/item/clothing/under/rank/medical/doctor/blue //WS Edit - Alt Uniforms
+	uniform = /obj/item/clothing/under/rank/medical/doctor/blue
+	alt_uniform = /obj/item/clothing/under/rank/medical/doctor //WS Edit - Alt Uniforms
 	shoes = /obj/item/clothing/shoes/sneakers/white
+	head = /obj/item/clothing/head/utility/surgerycap
 	suit =  /obj/item/clothing/suit/toggle/labcoat
 	alt_suit = /obj/item/clothing/suit/apron/surgical
 	dcoat = /obj/item/clothing/suit/hooded/wintercoat/medical //WS Edit - Alt Uniforms
@@ -63,6 +64,7 @@
 	uniform = /obj/item/clothing/under/rank/medical/doctor/junior_doctor
 	alt_uniform = null
 	shoes = /obj/item/clothing/shoes/sneakers/blue
+	head = null
 	suit =  null
 	alt_suit = null
 	l_hand = null
@@ -77,6 +79,7 @@
 	alt_uniform = null
 	shoes = /obj/item/clothing/shoes/laceup
 	suit = /obj/item/clothing/suit/toggle/lawyer/medical
+	head = null
 	alt_suit = /obj/item/clothing/suit/toggle/labcoat
 	dcoat = null
 	l_hand = null
@@ -91,6 +94,7 @@
 	uniform = /obj/item/clothing/under/rank/medical/psychiatrist
 	alt_uniform = /obj/item/clothing/under/rank/medical/psychiatrist/blue
 	shoes = /obj/item/clothing/shoes/laceup
+	head = null
 	suit =  null
 	alt_suit = null
 	l_hand = null
