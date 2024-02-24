@@ -66,7 +66,6 @@
 /obj/item/soap,
 /obj/structure/curtain,
 /obj/machinery/light/small/built,
-/obj/item/circuitboard/computer/rdconsole,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/showroomfloor,
 /area/ship/crew)
@@ -480,16 +479,14 @@
 	dir = 1;
 	pixel_y = -32
 	},
-/obj/item/clothing/under/rank/centcom/commander{
-	desc = "A badge on the arm indicates that it's meant to be worn by CentCom recovery teams. This one seems dusty and clearly hasn't been cleaned in some time.";
-	name = "\improper dusty old CentCom jumpsuit"
-	},
-/obj/item/clothing/under/rank/centcom/officer{
-	desc = "A badge on the arm indicates that it's meant to be worn by CentCom recovery teams. This one seems dusty and clearly hasn't been cleaned in some time.";
-	name = "\improper dusty old CentCom jumpsuit"
-	},
-/obj/item/storage/wallet/random,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/clothing/under/rank/centcom/intern,
+/obj/item/clothing/under/rank/centcom/intern,
+/obj/item/clothing/under/rank/centcom/officer,
+/obj/item/clothing/under/rank/centcom/officer,
+/obj/item/clothing/under/rank/centcom/official,
+/obj/item/clothing/head/beret/centcom_formal,
+/obj/item/clothing/suit/hooded/wintercoat/centcom,
 /turf/open/floor/iron,
 /area/ship/crew)
 "aU" = (
@@ -1211,9 +1208,6 @@
 /area/ship/bridge)
 "cf" = (
 /obj/structure/table,
-/obj/item/storage/photo_album{
-	pixel_y = 12
-	},
 /obj/machinery/light/small{
 	dir = 8
 	},
@@ -1224,11 +1218,16 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 4
 	},
-/obj/item/circuitboard/machine/rdserver,
-/obj/item/camera,
 /obj/effect/turf_decal/corner/blue{
 	dir = 9
 	},
+/obj/item/megaphone,
+/obj/item/clothing/suit/armor/vest{
+	icon_state = "centcom_coat";
+	desc = "An armored jacket used in special operations. This one seems older somehow, lacking the spaceproof capabilities.";
+	name = "surplus CentCom officer's coat"
+	},
+/obj/item/clothing/head/caphat/parade/cent,
 /turf/open/floor/iron/dark/textured_edge{
 	dir = 4
 	},
@@ -1324,16 +1323,6 @@
 /area/ship/hallway/central)
 "cn" = (
 /obj/structure/table,
-/obj/item/radio/off{
-	pixel_x = 6;
-	pixel_y = 14
-	},
-/obj/item/gps{
-	gpstag = "NTREC1";
-	pixel_x = -9;
-	pixel_y = 15
-	},
-/obj/item/megaphone,
 /obj/machinery/airalarm/all_access{
 	dir = 4;
 	pixel_x = -24
@@ -1341,17 +1330,12 @@
 /obj/effect/turf_decal/corner/blue{
 	dir = 9
 	},
+/obj/machinery/photocopier/faxmachine/longrange,
 /turf/open/floor/iron/dark/textured_edge{
 	dir = 4
 	},
 /area/ship/bridge)
 "co" = (
-/obj/item/clothing/head/centhat{
-	desc = "There's a gouge through the top where something has clawed clean through it. Whoever was wearing it probably doesn't need a hat any more.";
-	name = "\improper damaged CentCom hat";
-	pixel_x = 2;
-	pixel_y = 2
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -1620,7 +1604,9 @@
 /obj/machinery/airalarm/all_access{
 	pixel_y = 24
 	},
-/obj/structure/closet/crate/internals,
+/obj/structure/closet/crate/internals{
+	name = "Emergency crate"
+	},
 /obj/effect/turf_decal/box/corners{
 	dir = 4
 	},
@@ -1781,18 +1767,21 @@
 	dir = 8
 	},
 /obj/item/circuitboard/machine/experimentor,
-/obj/structure/closet/crate/science,
+/obj/structure/closet/crate/science{
+	name = "Emergency Research crate"
+	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/circuitboard/machine/rdserver,
+/obj/item/circuitboard/machine/circuit_imprinter,
+/obj/item/circuitboard/computer/rdconsole,
 /turf/open/floor/iron/dark,
 /area/ship/cargo)
 "db" = (
-/obj/structure/closet/crate{
-	icon_state = "crateopen"
-	},
 /obj/effect/turf_decal/box/corners,
 /obj/effect/spawner/lootdrop/maintenance/three,
 /obj/item/storage/box/monkeycubes,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/preopen,
 /turf/open/floor/iron/dark,
 /area/ship/cargo)
 "dc" = (
@@ -2291,6 +2280,10 @@
 	dir = 9
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/paper{
+	info = "For your longing service within Central Command Internship Program, you are now gifted your very own Delta-Class Vessel! It was decommissioned years ago, past crew has long sinse dispersed, but I trust you will make good work of this! Happy exploring, Captain.";
+	name = "Central Command Note"
+	},
 /turf/open/floor/iron/dark/textured_edge{
 	dir = 4
 	},
@@ -2444,11 +2437,9 @@
 /turf/open/floor/iron,
 /area/ship/cargo)
 "dY" = (
-/obj/structure/closet/crate{
-	icon_state = "crateopen"
-	},
 /obj/effect/spawner/lootdrop/maintenance/three,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/preopen,
 /turf/open/floor/iron/dark,
 /area/ship/cargo)
 "dZ" = (
@@ -2517,7 +2508,9 @@
 /turf/open/floor/iron,
 /area/ship/hallway/central)
 "hh" = (
-/obj/structure/closet/crate/medical,
+/obj/structure/closet/crate/medical{
+	name = "Spare Medical Equipment crate"
+	},
 /obj/item/storage/firstaid/o2{
 	pixel_x = 3;
 	pixel_y = 3
@@ -2825,10 +2818,11 @@
 	name = "weapons locker";
 	pixel_x = 32
 	},
-/obj/item/gun/ballistic/shotgun/winchester,
 /obj/effect/spawner/lootdrop/maintenance/three,
-/obj/item/gun/ballistic/revolver/detective,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/ammo_box/c45_speedloader,
+/obj/item/gun/ballistic/revolver/shadow,
+/obj/item/gun/ballistic/shotgun/flamingarrow,
 /turf/open/floor/iron/dark,
 /area/ship/crew/canteen)
 "xW" = (
@@ -3080,7 +3074,6 @@
 /area/ship/external)
 "Zl" = (
 /obj/structure/closet/emcloset/anchored,
-/obj/item/circuitboard/machine/circuit_imprinter,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)

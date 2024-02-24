@@ -564,7 +564,7 @@ update_label()
 	desc = "An ID straight from the Syndicate."
 	registered_name = "Syndicate"
 	assignment = "Syndicate Ship Captain"
-	icon_state = "syndie"
+	icon_state = "commander"
 	access = list(ACCESS_SYNDICATE, ACCESS_ROBOTICS, ACCESS_ARMORY, ACCESS_SYNDICATE_LEADER)
 	uses_overlays = FALSE
 
@@ -815,42 +815,49 @@ update_label()
 	name = "Charlie Station Security Officer's ID card"
 	desc = "A faded Charlie Station ID card. You can make out the rank \"Security Officer\"."
 	assignment = "Charlie Station Security Officer"
+	icon_state = "retro_sec"
 	access = list(ACCESS_AWAY_GENERAL, ACCESS_AWAY_SEC)
 
 /obj/item/card/id/away/old/chef
 	name = "Charlie Station Chef's ID card"
 	desc = "A faded Charlie Station ID card. You can make out the rank \"Chef\"."
 	assignment = "Charlie Station Chef"
+	icon_state = "retro_chef"
 	access = list(ACCESS_AWAY_GENERAL)
 
 /obj/item/card/id/away/old/bot
 	name = "Charlie Station Botanist's ID card"
 	desc = "A faded Charlie Station ID card. You can make out the rank \"Botanist\"."
 	assignment = "Charlie Station Botanist"
+	icon_state = "retro_bot"
 	access = list(ACCESS_AWAY_GENERAL)
 
 /obj/item/card/id/away/old/sci
 	name = "Charlie Station Scientist's ID card"
 	desc = "A faded Charlie Station ID card. You can make out the rank \"Scientist\"."
 	assignment = "Charlie Station Scientist"
+	icon_state = "retro_sci"
 	access = list(ACCESS_AWAY_GENERAL)
 
 /obj/item/card/id/away/old/robo
 	name = "Charlie Station Roboticist's ID card"
 	desc = "A faded Charlie Station ID card. You can make out the rank \"Roboticist\"."
 	assignment = "Charlie Station Roboticist"
+	icon_state = "retro_robo"
 	access = list(ACCESS_AWAY_GENERAL, ACCESS_ROBOTICS)
 
 /obj/item/card/id/away/old/jan
 	name = "Charlie Station Custodian's ID card"
 	desc = "A faded Charlie Station ID card. You can make out the rank \"Custodian\"."
 	assignment = "Charlie Station Custodian"
+	icon_state = "retro_jan"
 	access = list(ACCESS_AWAY_GENERAL)
 
 /obj/item/card/id/away/old/med
 	name = "Charlie Station Medical Doctor's ID card"
 	desc = "A faded Charlie Station ID card. You can make out the rank \"Medical Doctor\"."
 	assignment = "Charlie Station Medical Doctor"
+	icon_state = "retro_med"
 	access = list(ACCESS_AWAY_GENERAL)
 
 
@@ -858,35 +865,41 @@ update_label()
 	name = "Charlie Station Engineer's ID card"
 	desc = "A faded Charlie Station ID card. You can make out the rank \"Station Engineer\"."
 	assignment = "Charlie Station Engineer"
+	icon_state = "retro_eng"
 	access = list(ACCESS_AWAY_GENERAL, ACCESS_AWAY_ENGINE)
 
 /obj/item/card/id/away/old/cap
 	name = "Charlie Station Captain's ID card"
 	desc = "A faded Charlie Station ID card. You can make out the rank \"Captain\"."
 	assignment = "Charlie Station Captain"
+	icon_state = "retro_cap"
 	access = list(ACCESS_AWAY_GENERAL, ACCESS_AWAY_ENGINE, ACCESS_AWAY_SEC)
 
 /obj/item/card/id/away/old/cent
 	name = "Charlie Station Representative's ID card"
 	desc = "A faded Charlie Station ID card. You can make out the rank \"CentCom Rep\"."
 	assignment = "Central Command Representative"
+	icon_state = "retro_cent"
 	access = list(ACCESS_AWAY_GENERAL, ACCESS_AWAY_ENGINE, ACCESS_AWAY_SEC)
 
 /obj/item/card/id/away/old/carg
 	name = "Charlie Station Cargo Tech's ID card"
 	desc = "A faded Charlie Station ID card. You can make out the rank \"Cargo Tech\"."
 	assignment = "Charlie Station Cargo Tech"
+	icon_state = "retro_carg"
 	access = list(ACCESS_AWAY_GENERAL)
 
 /obj/item/card/id/away/old/lt
 	name = "Charlie Station Lieutenant's ID card"
 	desc = "A faded Charlie Station ID card. You can make out the rank \"Lieutenant\"."
 	assignment = "Charlie Station Lieutenant"
+	icon_state = "retro_lt"
 	access = list(ACCESS_AWAY_GENERAL, ACCESS_AWAY_ENGINE, ACCESS_AWAY_SEC)
 
 /obj/item/card/id/away/old/apc
 	name = "APC Access ID"
 	desc = "A special ID card that allows access to APC terminals."
+	icon_state = "retro_apc"
 	access = list(ACCESS_ENGINE_EQUIP)
 
 /obj/item/card/id/away/deep_storage //deepstorage.dmm space ruin
