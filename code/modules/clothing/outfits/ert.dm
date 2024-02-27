@@ -86,6 +86,18 @@
 		/obj/item/melee/baton/loaded=1,\
 		/obj/item/gun/energy/pulse/carbine/loyalpin=1)
 
+/datum/outfit/centcom/ert/security/alert/specialops //diet deathsquad
+	name = "Nanotrasen Special Operations Agent"
+
+	mask = /obj/item/clothing/mask/gas/sechailer/swat
+	backpack_contents = list(/obj/item/storage/box/survival/engineer=1,\
+		/obj/item/storage/box/handcuffs=1,\
+		/obj/item/melee/baton/loaded=1,\
+		/obj/item/gun/energy/pulse/carbine/loyalpin=1,\
+		/obj/item/storage/firstaid/advanced=1)
+	suit = /obj/item/clothing/suit/space/hardsuit/shielded
+	back = /obj/item/storage/backpack/security
+
 
 /datum/outfit/centcom/ert/medic
 	name = "ERT Medic"

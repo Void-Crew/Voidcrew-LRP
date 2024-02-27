@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
+	"map_name": "Revoluytsii-class Soviet Dreadnought",
+	"prefix": "NEU",
+	"namelists": ["GENERAL", "SPACE", "WEAPONS"],
+	"map_short_name": "Revolyutsii-class",
+	"map_path": "_maps/shuttles/shiptest/voidcrew/revolyutsii.dmm",
+	"map_id": "revolyutsii",
+	"job_slots": {
+		"Captain": {
+			"outfit": "/datum/outfit/job/captain/soviet",
+			"officer": true,
+			"slots": 1
+		},
+		"Logistics Coordinator": {
+			"outfit": "/datum/outfit/job/quartermaster/soviet",
+			"officer": true,
+			"slots": 1
+		},
+		"Scientist": 1,
+		"Medical Doctor": 1,
+		"Ship Engineer": {
+			"outfit": "/datum/outfit/job/engineer",
+			"slots": 2
+		},
+		"Soldier": {
+			"outfit": "/datum/outfit/job/security/soviet",
+			"slots": 4
+		},
+		"Atmospheric Technician": 1,
+		"Cargo Technician": 3,
+		"Shaft Miner": 1,
+		"Janitor": 1,
+		"Deckhand": {
+			"outfit": "/datum/outfit/job/assistant/soviet",
+			"slots": 5
+		}
+	},
+	"cost": 1000
+}
