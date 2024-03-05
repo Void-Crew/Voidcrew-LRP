@@ -808,10 +808,7 @@
 	dir = 4;
 	layer = 3.1
 	},
-/obj/machinery/suit_storage_unit/inherit,
-/obj/item/clothing/suit/space/hardsuit/ert/sec{
-	name = "quick response force hardsuit"
-	},
+/obj/machinery/suit_storage_unit/ert/security,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/security/armory)
 "dx" = (
@@ -1020,17 +1017,12 @@
 /turf/open/floor/engine/hull/reinforced/interior,
 /area/ship/maintenance/fore)
 "ek" = (
-/obj/item/gun/energy/e_gun/smg{
-	pixel_y = 9
-	},
-/obj/item/gun/energy/e_gun/smg{
-	pixel_y = 2
-	},
-/obj/item/gun/ballistic/shotgun/automatic/combat{
-	pixel_y = -3
-	},
 /obj/structure/rack,
 /obj/machinery/airalarm/directional/east,
+/obj/item/gun_voucher,
+/obj/item/gun_voucher,
+/obj/item/gun_voucher,
+/obj/item/gun_voucher,
 /turf/open/floor/plasteel/tech,
 /area/ship/security/armory)
 "en" = (
@@ -3139,12 +3131,11 @@
 /turf/open/floor/plasteel/white,
 /area/ship/crew/canteen/kitchen)
 "md" = (
-/obj/machinery/suit_storage_unit/standard_unit,
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
 	},
 /obj/structure/window/reinforced,
-/obj/effect/decal/cleanable/robot_debris,
+/obj/machinery/suit_storage_unit/ert/engineer,
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/hallway/aft)
 "me" = (
@@ -3747,12 +3738,11 @@
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/engineering/atmospherics)
 "oo" = (
-/obj/machinery/suit_storage_unit/inherit,
 /obj/structure/railing{
 	dir = 8;
 	layer = 3.1
 	},
-/obj/item/clothing/suit/space/hardsuit/ert/med,
+/obj/machinery/suit_storage_unit/ert/command,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/security/armory)
 "oq" = (
@@ -3930,7 +3920,6 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering/atmospherics)
 "oX" = (
-/obj/machinery/suit_storage_unit/inherit,
 /obj/structure/railing{
 	dir = 8;
 	layer = 3.1
@@ -3938,7 +3927,7 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -28
 	},
-/obj/item/clothing/suit/space/hardsuit/ert/engi,
+/obj/machinery/suit_storage_unit/ert/medical,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/security/armory)
 "pb" = (
@@ -5796,10 +5785,10 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering/electrical)
 "wx" = (
-/obj/machinery/suit_storage_unit/standard_unit,
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
 	},
+/obj/machinery/suit_storage_unit/ert/engineer,
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/hallway/aft)
 "wz" = (
@@ -12037,11 +12026,8 @@
 	dir = 8;
 	layer = 3.1
 	},
-/obj/machinery/suit_storage_unit/inherit,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/clothing/suit/space/hardsuit/ert/sec{
-	name = "quick response force hardsuit"
-	},
+/obj/machinery/suit_storage_unit/ert/security,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/security/armory)
 "VH" = (
@@ -12084,10 +12070,7 @@
 	dir = 4;
 	layer = 3.1
 	},
-/obj/machinery/suit_storage_unit/inherit,
-/obj/item/clothing/suit/space/hardsuit/ert/sec{
-	name = "quick response force hardsuit"
-	},
+/obj/machinery/suit_storage_unit/ert/security,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/security/armory)
 "VN" = (

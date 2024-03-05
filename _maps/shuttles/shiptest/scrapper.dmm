@@ -384,7 +384,7 @@
 /area/ship/engineering/atmospherics)
 "dN" = (
 /obj/structure/catwalk,
-/turf/template_noop,
+/turf/open/floor/plating,
 /area/ship/external)
 "dP" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -510,10 +510,13 @@
 /area/ship/hallway/aft)
 "ft" = (
 /obj/structure/table/reinforced,
-/obj/item/storage/fancy/donut_box,
+/obj/item/storage/fancy/donut_box{
+	pixel_y = 8
+	},
 /obj/effect/turf_decal/siding/red{
 	dir = 9
 	},
+/obj/item/storage/fancy/donut_box,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
 "fw" = (
@@ -799,12 +802,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
-"jy" = (
-/obj/effect/turf_decal/siding/yellow/corner{
-	dir = 8
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external)
 "jC" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -1099,6 +1096,7 @@
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/crew/hydroponics)
 "mN" = (
+/obj/structure/catwalk,
 /turf/open/floor/plating/airless,
 /area/ship/external)
 "mR" = (
@@ -1249,6 +1247,7 @@
 /obj/effect/turf_decal/siding/yellow{
 	dir = 8
 	},
+/obj/structure/catwalk,
 /turf/open/floor/plating/airless,
 /area/ship/external)
 "ot" = (
@@ -1570,17 +1569,9 @@
 /turf/open/floor/pod/light,
 /area/ship/hallway/aft)
 "sW" = (
-/obj/structure/closet/wall{
-	dir = 4;
-	name = "armory locker";
-	pixel_x = -32
-	},
 /obj/effect/turf_decal/siding/red{
 	dir = 9
 	},
-/obj/item/gun/energy/laser/terra,
-/obj/item/gun/energy/laser/terra,
-/obj/item/gun/energy/laser/terra,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
 "tb" = (
@@ -2298,14 +2289,12 @@
 /obj/effect/turf_decal/siding/red{
 	dir = 10
 	},
-/obj/structure/closet/wall{
-	dir = 4;
-	name = "armory locker";
-	pixel_x = -32
-	},
 /obj/machinery/light/dim,
-/obj/item/storage/box/handcuffs,
-/obj/item/storage/box/handcuffs,
+/obj/structure/rack,
+/obj/item/gun_voucher/syndicate,
+/obj/item/gun_voucher/syndicate,
+/obj/item/gun_voucher/syndicate,
+/obj/item/gun_voucher/syndicate,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
 "AP" = (
@@ -2353,12 +2342,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/pod/light,
 /area/ship/cargo)
 "Bh" = (
@@ -2431,12 +2415,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/pod/light,
 /area/ship/cargo)
 "Ch" = (
@@ -2946,6 +2925,7 @@
 /obj/effect/turf_decal/siding/yellow{
 	dir = 8
 	},
+/obj/structure/catwalk,
 /turf/open/floor/plating/airless,
 /area/ship/external)
 "IC" = (
@@ -2973,12 +2953,6 @@
 /obj/machinery/door/poddoor{
 	id = "scrapdoorext";
 	name = "cargo bay blast door"
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
 	},
 /turf/open/floor/pod/light,
 /area/ship/hallway/aft)
@@ -3273,12 +3247,6 @@
 /area/ship/maintenance/starboard)
 "Md" = (
 /turf/open/floor/engine/hull,
-/area/ship/external)
-"Me" = (
-/obj/effect/turf_decal/siding/yellow/corner{
-	dir = 1
-	},
-/turf/open/floor/plating/airless,
 /area/ship/external)
 "Mg" = (
 /obj/structure/ore_box,
@@ -5518,11 +5486,11 @@ MX
 qU
 qU
 qU
-jy
+MX
 oo
 oo
 Iw
-Me
+MX
 qU
 qU
 qU
@@ -5764,43 +5732,6 @@ mN
 mN
 mN
 mN
-dN
-qU
-"}
-(31,1,1) = {"
-qU
-qU
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
 dN
 qU
 "}
