@@ -2589,32 +2589,10 @@
 /turf/open/floor/iron/grimy,
 /area/ship/crew)
 "UX" = (
-/obj/item/gun/ballistic/automatic/vector{
-	spawnwithmagazine = 0
-	},
 /obj/item/gun/syringe,
 /obj/item/reagent_containers/glass/bottle/sodium_thiopental,
-/obj/item/ammo_box/magazine/co9mm{
-	ammo_type = /obj/item/ammo_casing/c9mm/rubbershot
-	},
-/obj/item/ammo_box/magazine/co9mm{
-	ammo_type = /obj/item/ammo_casing/c9mm/rubber;
-	name = "Commander magazine (Rubbershot 9mm)"
-	},
 /obj/item/gun/ballistic/automatic/pistol/commander/no_mag,
 /obj/item/gun/ballistic/automatic/pistol/commander/no_mag,
-/obj/item/ammo_box/magazine/co9mm{
-	ammo_type = /obj/item/ammo_casing/c9mm/rubber;
-	name = "Commander magazine (Rubbershot 9mm)"
-	},
-/obj/item/ammo_box/magazine/co9mm{
-	ammo_type = /obj/item/ammo_casing/c9mm/rubber;
-	name = "Commander magazine (Rubbershot 9mm)"
-	},
-/obj/item/ammo_box/magazine/co9mm{
-	ammo_type = /obj/item/ammo_casing/c9mm/ap;
-	name = "Commander magazine (AP 9mm)"
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /obj/structure/sign/poster/contraband/c20r{
 	pixel_y = 32
@@ -2627,6 +2605,16 @@
 	req_access_txt = "5"
 	},
 /obj/item/ammo_box/c9mm/rubbershot,
+/obj/item/ammo_box/magazine/co9mm,
+/obj/item/ammo_box/magazine/co9mm/ap,
+/obj/item/ammo_box/magazine/co9mm/rubber,
+/obj/item/ammo_box/magazine/co9mm/rubber,
+/obj/item/ammo_box/magazine/co9mm/ap,
+/obj/item/ammo_box/magazine/co9mm,
+/obj/item/ammo_box/magazine/smgm9mm,
+/obj/item/gun/ballistic/automatic/vector{
+	spawnwithmagazine = 0
+	},
 /turf/open/floor/iron/dark,
 /area/ship/crew)
 "Va" = (
