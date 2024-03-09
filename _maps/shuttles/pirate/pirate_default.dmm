@@ -721,6 +721,9 @@
 /obj/machinery/computer/piratepad_control{
 	dir = 1
 	},
+/obj/structure/sign/poster/contraband/peacemaker{
+	pixel_y = -32
+	},
 /turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "bJ" = (
@@ -779,7 +782,6 @@
 	},
 /obj/machinery/power/apc{
 	aidisabled = 1;
-	dir = 1;
 	name = "Pirate Corvette APC";
 	pixel_y = 24;
 	req_access = null
@@ -883,9 +885,6 @@
 /obj/effect/turf_decal/industrial/warning,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
-/obj/structure/sign/poster/contraband/revolver{
-	pixel_x = 32
-	},
 /obj/item/storage/backpack/duffelbag/syndie/x4{
 	pixel_y = 8
 	},

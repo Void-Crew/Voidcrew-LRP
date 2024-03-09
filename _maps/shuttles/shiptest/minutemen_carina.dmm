@@ -2159,6 +2159,9 @@
 /obj/effect/spawner/lootdrop/donkpockets,
 /obj/effect/spawner/lootdrop/donkpockets,
 /obj/machinery/camera/autoname,
+/obj/structure/sign/poster/contraband/space_cops{
+	pixel_y = 32
+	},
 /turf/open/floor/iron/large,
 /area/ship/crew)
 "zD" = (
@@ -4066,9 +4069,6 @@
 	},
 /obj/item/reagent_containers/food/condiment/peppermill{
 	pixel_y = 2
-	},
-/obj/structure/sign/poster/official/space_cops{
-	pixel_x = 32
 	},
 /obj/machinery/computer/security/telescreen/entertainment{
 	pixel_y = -28
