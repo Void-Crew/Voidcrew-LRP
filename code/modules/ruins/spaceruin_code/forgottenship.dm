@@ -79,4 +79,27 @@ GLOBAL_VAR_INIT(fscpassword, generate_password())
 
 	//Cybersun hardsuit
 
+/obj/item/clothing/head/helmet/space/hardsuit/cybersun
+	name = "cybersun hardsuit helmet"
+	desc = "A prototype hardsuit helmet bearing the Cybersun logo."
+	icon_state = "cybersun"
+	item_state = "cybersun"
+	hardsuit_type = "cybersun"
+	armor = list("melee" = 30, "bullet" = 40, "laser" = 80, "energy" = 80, "bomb" = 30, "bio" = 100, "rad" = 60, "fire" = 60, "acid" = 60)
+	strip_delay = 600
+	actions_types = list()
+
+
+/obj/item/clothing/suit/space/hardsuit/cybersun
+	icon_state = "cybersun"
+	item_state = "cybersun"
+	hardsuit_type = "cybersun"
+	name = "cybersun hardsuit"
+	desc = "A lightweight, prototype hardsuit armoured against laser fire but not as efficient against other forms of attack."
+	armor = list("melee" = 30, "bullet" = 40, "laser" = 80, "energy" = 80, "bomb" = 30, "bio" = 100, "rad" = 60, "fire" = 60, "acid" = 60)
+	slowdown = 0
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/cybersun
+	actions_types = list(/datum/action/item_action/toggle_helmet)
+	jetpack = /obj/item/tank/jetpack/suit
+
 //Special NT NPCs
