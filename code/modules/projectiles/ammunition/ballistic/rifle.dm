@@ -41,7 +41,7 @@
 
 // 5.56x39mm (M-90gl Carbine & P-16)
 
-/obj/item/ammo_casing/a556_39
+/obj/item/ammo_casing/a556_39_39
 	name = "5.56x39mm bullet casing"
 	desc = "A 5.56x39mm bullet casing."
 	icon_state = "rifle-brass"
