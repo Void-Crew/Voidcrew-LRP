@@ -37,21 +37,21 @@
 /obj/effect/mine/explosive
 	name = "explosive mine"
 	var/range_devastation = 0
-	var/range_heavy = 1
-	var/range_light = 2
-	var/range_flash = 3
+	var/range_heavy = 0
+	var/range_light = 3
+	var/range_flash = 5
 
 /obj/effect/mine/explosive/mineEffect(mob/victim)
 	explosion(loc, range_devastation, range_heavy, range_light, range_flash)
 
 /obj/effect/mine/stun
 	name = "stun mine"
-	var/stun_time = 80
+	var/stun_time = 60
 
 /obj/effect/mine/shrapnel
 	name = "shrapnel mine"
 	var/shrapnel_type = /obj/projectile/bullet/shrapnel
-	var/shrapnel_magnitude = 3
+	var/shrapnel_magnitude = 2
 
 /obj/effect/mine/shrapnel/mineEffect(mob/victim)
 	AddComponent(/datum/component/pellet_cloud, projectile_type=shrapnel_type, magnitude=shrapnel_magnitude)
