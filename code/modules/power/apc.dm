@@ -141,19 +141,19 @@
 	auto_name = TRUE
 
 /obj/machinery/power/apc/auto_name/north //Pixel offsets get overwritten on New()
-	dir = 2
+	dir = NORTH
 	pixel_y = 24
 
 /obj/machinery/power/apc/auto_name/south
-	dir = 1
+	dir = SOUTH
 	pixel_y = -24
 
 /obj/machinery/power/apc/auto_name/east
-	dir = 8
+	dir = EAST
 	pixel_x = 24
 
 /obj/machinery/power/apc/auto_name/west
-	dir = 4
+	dir = WEST
 	pixel_x = -24
 
 /obj/machinery/power/apc/get_cell()
