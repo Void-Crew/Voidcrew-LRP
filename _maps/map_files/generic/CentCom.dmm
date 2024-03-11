@@ -16276,7 +16276,9 @@
 	desc = "A computer long since rendered non-functional due to lack of maintenance. Spitting out error messages.";
 	name = "Broken Computer"
 	},
-/obj/item/paper/fluff/ruins/oldstation/damagereport,
+/obj/item/paper/fluff/ruins/oldstation/damagereport{
+	info = "<b>*Damage Report*</b><br><br><b>Alpha Station</b> - Sensors Disconnected, Presumed Destroyed<br><br><b>Beta Station</b> - Catastrophic Damage. Medical, destroyed. Atmospherics, partially destroyed. Engine Core, destroyed.<br><br><b>Charlie Station</b> - Multiple asteroid impacts, no loss in air pressure.<br><br><b>Delta Station</b> - Intact. <b>WARNING</b>: Unknown force occupying Delta Station. Intent unknown. Species unknown. Numbers unknown.<br><br>Recommendation - Reestablish station powernet via solar array. Reestablish station atmospherics system to restore air."
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/bridge)
@@ -23576,6 +23578,18 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/control)
+"kfv" = (
+/obj/machinery/power/emitter{
+	dir = 8
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/sign/poster/contraband/hacking_guide{
+	pixel_x = -32
+	},
+/turf/open/floor/plating,
+/area/ruin/space/ancientstation/beta/supermatter)
 "kgd" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/suit/space/hardsuit/wizard{
@@ -28063,6 +28077,14 @@
 	},
 /turf/open/floor/iron/solarpanel/airless,
 /area/ruin/space/ancientstation/charlie/solars)
+"nAi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/poster/official/enlist{
+	pixel_x = -32
+	},
+/turf/open/floor/iron/airless,
+/area/ruin/space/ancientstation/alpha/hall)
 "nAm" = (
 /obj/structure/reagent_dispensers/virusfood{
 	pixel_y = -32
@@ -28711,6 +28733,13 @@
 	},
 /turf/open/floor/wood/large,
 /area/tdome/tdomeadmin)
+"oeB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/poster/official/safety_eye_protection{
+	pixel_x = -32
+	},
+/turf/open/floor/iron/airless,
+/area/ruin/space/ancientstation/beta/hall)
 "ofb" = (
 /obj/machinery/pipedispenser/disposal,
 /obj/effect/turf_decal/industrial/warning/corner{
@@ -38665,6 +38694,9 @@
 "vHm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/structure/sign/poster/official/miners{
+	pixel_y = 32
+	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/beta/hall)
 "vHp" = (
@@ -48393,7 +48425,7 @@ cVg
 qYI
 cVg
 caJ
-caJ
+nAi
 cVg
 wAy
 uYn
@@ -56885,7 +56917,7 @@ gvK
 oEW
 oEW
 oiL
-uCP
+oeB
 uVO
 uCP
 cGB
@@ -57901,7 +57933,7 @@ fKU
 qoO
 uKA
 gNn
-qKN
+kfv
 qKN
 qoO
 mTG
