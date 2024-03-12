@@ -201,6 +201,7 @@
 
 /mob/living/simple_animal/hostile/alien/maid
 	name = "lusty xenomorph maid"
+	icon = 'icons/mob/alien.dmi'
 	melee_damage_lower = 0
 	melee_damage_upper = 0
 	a_intent = INTENT_HELP
