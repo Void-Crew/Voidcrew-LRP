@@ -32,6 +32,19 @@
 		showpiece = new start_showpiece_type (src)
 	update_icon()
 
+/obj/structure/displaycase/vv_edit_var(vname, vval)
+	. = ..()
+	if(vname in list(NAMEOF(src, open), NAMEOF(src, showpiece)))
+		update_icon()
+
+/obj/structure/displaycase/Exited(atom/movable/gone, direction)
+	. = ..()
+	if(gone == electronics)
+		electronics = null
+	if(gone == showpiece)
+		showpiece = null
+		update_icon()
+
 /obj/structure/displaycase/Destroy()
 	if(electronics)
 		QDEL_NULL(electronics)
@@ -48,24 +61,24 @@
 	if(trophy_message)
 		. += "The plaque reads:\n [trophy_message]"
 
-
+///Removes the showpiece from the displaycase
 /obj/structure/displaycase/proc/dump()
-	if (showpiece)
-		showpiece.forceMove(loc)
-		showpiece = null
+	if(QDELETED(showpiece))
+		return
+	showpiece.forceMove(drop_location())
 
 /obj/structure/displaycase/play_attack_sound(damage_amount, damage_type = BRUTE, damage_flag = 0)
 	switch(damage_type)
 		if(BRUTE)
-			playsound(src.loc, 'sound/effects/glasshit.ogg', 75, TRUE)
+			playsound(src, 'sound/effects/glasshit.ogg', 75, TRUE)
 		if(BURN)
-			playsound(src.loc, 'sound/items/welder.ogg', 100, TRUE)
+			playsound(src, 'sound/items/welder.ogg', 100, TRUE)
 
 /obj/structure/displaycase/deconstruct(disassembled = TRUE)
 	if(!(flags_1 & NODECONSTRUCT_1))
 		dump()
 		if(!disassembled)
-			new /obj/item/shard( src.loc )
+			new /obj/item/shard(drop_location())
 			trigger_alarm()
 	qdel(src)
 
@@ -78,6 +91,7 @@
 		update_icon()
 		trigger_alarm()
 
+///Anti-theft alarm triggered when broken.
 /obj/structure/displaycase/proc/trigger_alarm()
 	//Activate Anti-theft
 	if(alert)
@@ -97,8 +111,7 @@
 		var/icon/S = getFlatIcon(showpiece)
 		S.Scale(17,17)
 		I.Blend(S,ICON_UNDERLAY,8,8)
-	src.icon = I
-	return
+		return
 
 /obj/structure/displaycase/attackby(obj/item/W, mob/user, params)
 	if(W.GetID() && !broken && openable)
@@ -154,24 +167,35 @@
 	else
 		return ..()
 
+///Handles placing an item into the display case. Returns TRUE if the item failed to be placed inside the container, useful for descendants
+/obj/structure/displaycase/proc/insert_showpiece(obj/item/new_showpiece, mob/user)
+	if(showpiece_type && !istype(new_showpiece, showpiece_type))
+		to_chat(user, span_notice("This doesn't belong in this kind of display."))
+		return TRUE
+	if(user.transferItemToLoc(new_showpiece, src))
+		showpiece = new_showpiece
+		to_chat(user, span_notice("You put [new_showpiece] on display."))
+		update_icon()
+
+///Opens and closes the display case
 /obj/structure/displaycase/proc/toggle_lock(mob/user)
+	playsound(src, 'sound/machines/click.ogg', 20, TRUE)
 	open = !open
 	update_icon()
 
-/obj/structure/displaycase/attack_paw(mob/user)
-	return attack_hand(user)
+/obj/structure/displaycase/attack_paw(mob/user, list/modifiers)
+	return attack_hand(user, modifiers)
 
-/obj/structure/displaycase/attack_hand(mob/user)
+/obj/structure/displaycase/attack_hand(mob/living/user, list/modifiers)
 	. = ..()
 	if(.)
 		return
 	user.changeNext_move(CLICK_CD_MELEE)
 	if (showpiece && (broken || open))
-		to_chat(user, "<span class='notice'>You deactivate the hover field built into the case.</span>")
+		to_chat(user, span_notice("You deactivate the hover field built into the case."))
 		log_combat(user, src, "deactivates the hover field of")
 		dump()
-		src.add_fingerprint(user)
-		update_icon()
+		add_fingerprint(user)
 		return
 	else
 		//prevents remote "kicks" with TK
@@ -186,12 +210,14 @@
 		take_damage(2)
 
 /obj/structure/displaycase_chassis
-	anchored = TRUE
-	density = FALSE
 	name = "display case chassis"
 	desc = "The wooden base of a display case."
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "glassbox_chassis"
+	resistance_flags = FLAMMABLE
+	anchored = TRUE
+	density = FALSE
+	///The airlock electronics inserted into the chassis, to be moved to the finished product.
 	var/obj/item/electronics/airlock/electronics
 
 

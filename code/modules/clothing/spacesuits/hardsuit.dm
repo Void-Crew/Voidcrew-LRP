@@ -1117,3 +1117,53 @@
 	for(var/X in actions)
 		var/datum/action/A = X
 		A.UpdateButtonIcon()
+
+/obj/item/clothing/suit/space/hardsuit/syndi/cybersun
+	name = "neutron-star combat hardsuit"
+	desc = "Designed with fighting Nanotrasen weapons in mind, the Cybersun combat hardsuit trades ballistic and blunt protection for top grade laser protection. It is in EVA mode. Produced by Cybersun Industries."
+	alt_desc = "Designed with fighting Nanotrasen weapons in mind, the Cybersun combat hardsuit trades ballistic and blunt protection for top grade laser protection. It is in combat mode. Produced by Cybersun Industries."
+	icon_state = "hardsuit1-cybersun"
+	hardsuit_type = "cybersun"
+	armor = list("melee" = 25, "bullet" = 25, "laser" = 50, "energy" = 50, "bomb" = 25, "bio" = 100, "rad" = 60, "fire" = 60, "acid" = 60)
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi/cybersun
+
+/obj/item/clothing/head/helmet/space/hardsuit/syndi/cybersun
+	name = "neutron-star combat hardsuit helmet"
+	desc = "Designed with fighting Nanotrasen weapons in mind, the Cybersun combat hardsuit trades ballistic and blunt protection for top grade laser protection. It is in EVA mode. Produced by Cybersun Industries."
+	alt_desc = "Designed with fighting Nanotrasen weapons in mind, the Cybersun combat hardsuit trades ballistic and blunt protection for top grade laser protection. It is in combat mode. Produced by Cybersun Industries."
+	icon_state = "hardsuit1-cybersun"
+	hardsuit_type = "cybersun"
+	armor = list("melee" = 25, "bullet" = 25, "laser" = 50, "energy" = 50, "bomb" = 25, "bio" = 100, "rad" = 60, "fire" = 60, "acid" = 60)
+
+/obj/item/clothing/suit/space/hardsuit/syndi/cybersun/paramed
+	name = "cybersun medical technician hardsuit"
+	desc = "A stripped down version of the neutron-star hardsuit for use by medical technicians. It is in EVA mode. Produced by Cybersun Industries."
+	alt_desc = "A stripped down version of the neutron-star hardsuit for use by medical technicians. It is in combat mode. Produced by Cybersun Industries."
+	icon_state = "hardsuit1-cyberparamed"
+	hardsuit_type = "cyberparamed"
+	armor = list("melee" = 25, "bullet" = 25, "laser" = 35, "energy" = 40, "bomb" = 10, "bio" = 100, "rad" = 65, "fire" = 75, "acid" = 40)
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi/cybersun/paramed
+	jetpack = null
+
+/obj/item/clothing/head/helmet/space/hardsuit/syndi/cybersun/paramed
+	name = "cybersun medical technician hardsuit helmet"
+	desc = "A stripped down version of the neutron-star hardsuit for use by medical technicians. It is in EVA mode. Produced by Cybersun Industries."
+	alt_desc = "A stripped down version of the neutron-star hardsuit for use by medical technicians. It is in combat mode. Produced by Cybersun Industries"
+	icon_state = "hardsuit1-cyberparamed"
+	hardsuit_type = "cyberparamed"
+	armor = list("melee" = 25, "bullet" = 25, "laser" = 35, "energy" = 40, "bomb" = 10, "bio" = 100, "rad" = 65, "fire" = 75, "acid" = 40)
+
+/obj/item/clothing/head/helmet/space/hardsuit/security/independent/inteq
+	name = "inteq hardsuit helmet"
+	desc = "A somewhat boxy, monocular visored helmet designed for hazardous, low pressure environments. It has the letters 'IRMG' imprinted onto the earpad."
+	icon_state = "hardsuit0-inteq"
+	item_state = "hardsuit-inteq"
+	hardsuit_type = "inteq"
+
+/obj/item/clothing/suit/space/hardsuit/security/independent/inteq
+	name = "inteq hardsuit"
+	desc = "A heavy-duty looking suit that protects against hazardous, low pressure environments. It's bulk provides ample protection, if not a bit cumbersome to wear."
+	icon_state = "hardsuit-inteq"
+	item_state = "hardsuit-inteq"
+	hardsuit_type = "inteq"
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/security/independent/inteq

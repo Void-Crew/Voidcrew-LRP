@@ -87,6 +87,7 @@
 	name = "screwdriver"
 	desc = "A screwdriver with an ultra thin tip that's carefully designed to boost screwing speed."
 //	icon = 'icons/obj/nuke_tools.dmi' WS edit - better tool sprites
+	icon = 'whitesands/icons/obj/tools.dmi'
 	icon_state = "screwdriver_nuke"
 	item_state = "screwdriver_nuke"
 	toolspeed = 0.5

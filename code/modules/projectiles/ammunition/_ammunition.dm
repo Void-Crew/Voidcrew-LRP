@@ -2,7 +2,7 @@
 	name = "bullet casing"
 	desc = "A bullet casing."
 	icon = 'icons/obj/ammo.dmi'
-	icon_state = "s-casing"
+	icon_state = "pistol-brass"
 	flags_1 = CONDUCT_1
 	slot_flags = ITEM_SLOT_BELT
 	throwforce = 0
@@ -10,6 +10,7 @@
 	custom_materials = list(/datum/material/iron = 500)
 	var/fire_sound = null						//What sound should play when this ammo is fired
 	var/caliber = null							//Which kind of guns it can be loaded into
+	var/bullet_skin
 	var/projectile_type = null					//The bullet type to create when New() is called
 	var/obj/projectile/BB = null 			//The loaded bullet
 	var/pellets = 1								//Pellets for spreadshot
@@ -22,6 +23,8 @@
 
 /obj/item/ammo_casing/spent
 	name = "spent bullet casing"
+	desc = "A bullet casing. This one is spent."
+	icon_state = "pistol-brass-empty"
 	BB = null
 
 /obj/item/ammo_casing/Initialize()
@@ -39,10 +42,10 @@
 	if(!BB)
 		SSblackbox.record_feedback("tally", "station_mess_destroyed", 1, name)
 
-/obj/item/ammo_casing/update_icon()
-	..()
-	icon_state = "[initial(icon_state)][BB ? "-live" : ""]"
+/obj/item/ammo_casing/update_icon_state()
+	icon_state = "[initial(icon_state)][BB ? (bullet_skin ? "-[bullet_skin]" : "") : "-empty"]"
 	desc = "[initial(desc)][BB ? "" : " This one is spent."]"
+	return ..()
 
 //proc to magically refill a casing with a new projectile
 /obj/item/ammo_casing/proc/newshot() //For energy weapons, syringe gun, shotgun shells and wands (!).

@@ -154,7 +154,7 @@
 
 	id = /obj/item/card/id/syndicate_command/crew_id
 	ears = /obj/item/radio/headset/syndicate/alt
-	uniform = /obj/item/clothing/under/syndicate/aclfgrunt
+	uniform = /obj/item/clothing/under/syndicate/aclf/grunt
 	belt = /obj/item/storage/belt/utility/syndicate
 	accessory = /obj/item/clothing/accessory/armband/engine
 	glasses = /obj/item/clothing/glasses/sunglasses
@@ -164,8 +164,11 @@
 	name = "Station Engineer (GEC)"
 
 	uniform = /obj/item/clothing/under/syndicate/intern
-	suit = /obj/item/clothing/suit/toggle/hazard
-	head = /obj/item/clothing/head/hardhat
+	suit = null
+	mask = /obj/item/clothing/mask/gas/syndicate
+	head = null
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/combat
 	ears = /obj/item/radio/headset/syndicate/alt
 	id = /obj/item/card/id/syndicate_command/crew_id
 
@@ -177,3 +180,30 @@
 	shoes = /obj/item/clothing/shoes/workboots
 	alt_uniform = null
 	glasses = null
+
+/datum/outfit/job/engineer/inteq
+	name = "Artificier (IRMG Station Engineer)"
+
+	uniform = /obj/item/clothing/under/syndicate/inteq/artificer
+	head = /obj/item/clothing/head/soft/inteq
+	shoes = /obj/item/clothing/shoes/combat
+	belt = /obj/item/storage/belt/utility/full/engi
+	r_pocket = /obj/item/t_scanner
+	gloves = /obj/item/clothing/gloves/combat
+	ears = /obj/item/radio/headset/inteq
+	id = /obj/item/card/id/inteq
+
+	backpack = /obj/item/storage/backpack/messenger/inteq
+	satchel = /obj/item/storage/backpack/messenger/inteq
+	courierbag = /obj/item/storage/backpack/messenger/inteq
+
+/datum/outfit/job/engineer/syndicate/cybersun
+	name = "Mechanic (Cybersun Industries)"
+
+	uniform = /obj/item/clothing/under/syndicate/cybersun/research
+	suit = /obj/item/clothing/suit/hazardvest
+	head = /obj/item/clothing/head/hardhat/cybersun
+	belt = /obj/item/storage/belt/utility/syndicate
+	shoes = /obj/item/clothing/shoes/workboots
+	gloves = /obj/item/clothing/gloves/combat/chief_engineer
+	alt_uniform = null

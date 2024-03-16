@@ -41,16 +41,17 @@
 /obj/structure/closet/secure_closet/engineering_electrical/PopulateContents()
 	..()
 	var/static/items_inside = list(
-		//WS Begin
-		/obj/item/stack/tape/industrial/electrical = 1, // Better tape
-		//WS End
-		/obj/item/clothing/gloves/color/yellow = 2,
 		/obj/item/inducer = 2,
 		/obj/item/storage/toolbox/electrical = 3,
 		/obj/item/electronics/apc = 3,
-		/obj/item/multitool = 3,
-		/obj/item/clothing/head/safety_helmet = 2)
+		/obj/item/multitool = 3)
 	generate_items_inside(items_inside,src)
+
+/obj/structure/closet/secure_closet/engineering_electrical/populate_contents_immediate()
+	. = ..()
+
+	new /obj/item/clothing/gloves/color/yellow(src)
+	new /obj/item/clothing/gloves/color/yellow(src)
 
 /obj/structure/closet/secure_closet/engineering_welding
 	name = "welding supplies locker"
@@ -72,10 +73,6 @@
 
 /obj/structure/closet/secure_closet/engineering_personal/PopulateContents()
 	..()
-	new /obj/item/stack/tape/industrial(src) //WS edit - Tape
-	new /obj/item/clothing/head/beret/eng(src) //WS edit - Berets
-	new /obj/item/clothing/head/safety_helmet(src)
-	new /obj/item/clothing/glasses/meson/prescription(src) //WS edit - Prescription HUDs
 	new /obj/item/radio/headset/headset_eng(src)
 	new /obj/item/storage/toolbox/mechanical(src)
 	new /obj/item/tank/internals/emergency_oxygen/engi(src)
@@ -84,6 +81,7 @@
 	new /obj/item/clothing/glasses/meson/engine(src)
 	new /obj/item/storage/box/emptysandbags(src)
 	new /obj/item/storage/bag/construction(src)
+	new /obj/item/construction/plumbing(src) //SKYRAT EDIT ADDITION
 
 
 /obj/structure/closet/secure_closet/atmospherics
@@ -94,14 +92,19 @@
 /obj/structure/closet/secure_closet/atmospherics/PopulateContents()
 	..()
 	new /obj/item/radio/headset/headset_eng(src)
-	new /obj/item/pipe_dispenser(src)
+
 	new /obj/item/storage/toolbox/mechanical(src)
 	new /obj/item/tank/internals/emergency_oxygen/engi(src)
 	new /obj/item/holosign_creator/atmos(src)
 	new /obj/item/watertank/atmos(src)
 	new /obj/item/clothing/suit/fire/atmos(src)
+	new /obj/item/clothing/gloves/color/black(src)
 	new /obj/item/clothing/mask/gas/atmos(src)
 	new /obj/item/clothing/head/hardhat/atmos(src)
-	new /obj/item/clothing/head/safety_helmet(src)
 	new /obj/item/clothing/glasses/meson/engine/tray(src)
 	new /obj/item/extinguisher/advanced(src)
+
+/obj/structure/closet/secure_closet/atmospherics/populate_contents_immediate()
+	. = ..()
+
+	new /obj/item/pipe_dispenser(src)

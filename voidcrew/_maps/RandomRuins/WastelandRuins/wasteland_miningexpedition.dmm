@@ -7,7 +7,9 @@
 /area/overmap_encounter/planetoid/wasteland)
 "an" = (
 /obj/machinery/door/airlock,
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
 /area/ruin/unpowered)
 "bs" = (
 /obj/structure/barricade/sandbags,
@@ -15,7 +17,12 @@
 /area/overmap_encounter/planetoid/wasteland)
 "bB" = (
 /obj/structure/sign/poster/contraband/steppyflag,
-/turf/closed/wall/r_wall/rust,
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered)
+"cJ" = (
+/obj/structure/table,
+/obj/item/ammo_box/c45,
+/turf/open/floor/carpet/nanoweave/red,
 /area/ruin/unpowered)
 "dk" = (
 /obj/structure/ore_box,
@@ -32,6 +39,17 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/wasteland/lit,
 /area/overmap_encounter/planetoid/wasteland)
+"fs" = (
+/obj/machinery/shower{
+	dir = 4
+	},
+/obj/structure/curtain,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/obj/structure/window/reinforced/spawner/north,
+/turf/open/floor/noslip,
+/area/ruin/unpowered)
 "fL" = (
 /obj/item/kinetic_crusher,
 /obj/effect/decal/cleanable/blood,
@@ -41,45 +59,64 @@
 /area/overmap_encounter/planetoid/wasteland)
 "gN" = (
 /obj/structure/sign/poster/contraband/tools,
-/turf/closed/wall/r_wall/rust,
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered)
+"hN" = (
+/turf/open/floor/carpet/nanoweave/red,
 /area/ruin/unpowered)
 "lg" = (
 /obj/structure/table,
 /obj/machinery/microwave,
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "ll" = (
 /turf/open/floor/plating/rust,
 /area/overmap_encounter/planetoid/wasteland)
 "mf" = (
-/obj/structure/bed,
 /obj/machinery/light/broken{
 	dir = 8
 	},
-/turf/open/floor/plasteel/grimy,
+/obj/structure/bed{
+	dir = 8
+	},
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "mk" = (
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "nn" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/mining,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin/unpowered)
 "oj" = (
 /turf/open/floor/plating/wasteland/lit,
 /area/overmap_encounter/planetoid/wasteland)
 "ov" = (
 /obj/structure/sign/warning/gasmask,
-/turf/closed/wall/r_wall/rust,
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered)
+"oZ" = (
+/obj/structure/table,
+/turf/open/floor/iron/white/small,
+/area/ruin/unpowered)
+"pd" = (
+/obj/machinery/computer,
+/turf/open/floor/carpet/nanoweave/red,
 /area/ruin/unpowered)
 "pg" = (
 /obj/structure/flora/rock/pile,
 /turf/open/floor/plating/wasteland/lit,
 /area/overmap_encounter/planetoid/wasteland)
 "pl" = (
-/turf/open/floor/plasteel/rockvault,
+/turf/open/floor/iron/rockvault,
 /area/ruin/unpowered)
+"pY" = (
+/obj/item/stack/ore/plasma{
+	amount = 8
+	},
+/turf/open/floor/plating/wasteland/lit,
+/area/overmap_encounter/planetoid/wasteland)
 "pZ" = (
 /obj/structure/barricade/sandbags,
 /turf/open/floor/plating/dust/lit,
@@ -91,13 +128,18 @@
 	},
 /turf/open/floor/plating/wasteland/lit,
 /area/overmap_encounter/planetoid/wasteland)
+"qL" = (
+/obj/item/gun/ballistic/automatic/pistol/m1911,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/grimy,
+/area/ruin/unpowered)
 "ro" = (
 /obj/effect/decal/cleanable/oil,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/iron/dark/small,
 /area/ruin/unpowered)
 "rr" = (
 /obj/structure/sign/warning/xeno_mining,
-/turf/closed/wall/r_wall/rust,
+/turf/closed/wall/r_wall,
 /area/ruin/unpowered)
 "rV" = (
 /obj/effect/decal/cleanable/blood,
@@ -108,17 +150,17 @@
 	desc = "What seems to be the remnants of what was once a human.";
 	name = "Turned"
 	},
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "sj" = (
 /obj/machinery/computer/mech_bay_power_console{
 	dir = 8
 	},
-/turf/open/floor/plasteel/rockvault,
+/turf/open/floor/iron/rockvault,
 /area/ruin/unpowered)
 "sJ" = (
 /obj/effect/gibspawner/human,
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "sM" = (
 /obj/structure/flora/rock/pile,
@@ -132,18 +174,18 @@
 /turf/open/floor/plating/dust/lit,
 /area/overmap_encounter/planetoid/wasteland)
 "ub" = (
-/obj/machinery/computer{
-	dir = 8
+/obj/structure/chair{
+	dir = 1
 	},
-/turf/open/floor/plasteel/rockvault,
+/turf/open/floor/carpet/nanoweave/red,
 /area/ruin/unpowered)
 "ug" = (
 /obj/machinery/suit_storage_unit/mining,
-/turf/open/floor/plasteel/mono,
+/turf/open/floor/iron/dark/small,
 /area/ruin/unpowered)
 "uq" = (
 /obj/machinery/suit_storage_unit/open,
-/turf/open/floor/plasteel/mono,
+/turf/open/floor/iron/dark/small,
 /area/ruin/unpowered)
 "ur" = (
 /obj/structure/flora/rock,
@@ -152,68 +194,115 @@
 "vK" = (
 /obj/machinery/door/airlock/mining,
 /obj/structure/fans/tiny,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin/unpowered)
 "wY" = (
 /obj/structure/table,
 /obj/item/stack/sheet/cardboard,
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "yv" = (
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/iron/dark/small,
 /area/ruin/unpowered)
 "yz" = (
 /obj/structure/sign/poster/official/no_erp,
-/turf/closed/wall/r_wall/rust,
+/turf/closed/wall/r_wall,
 /area/ruin/unpowered)
 "yT" = (
-/obj/machinery/mineral/ore_redemption,
-/turf/open/floor/plasteel/rockvault,
+/obj/machinery/door/airlock/security/glass{
+	name = "Security Post"
+	},
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin/unpowered)
 "yZ" = (
 /turf/closed/mineral/random/high_chance/wasteland,
 /area/overmap_encounter/planetoid/wasteland)
+"zQ" = (
+/mob/living/simple_animal/hostile/nanotrasen/baton{
+	name = "Survivor"
+	},
+/turf/open/floor/iron/white/small,
+/area/ruin/unpowered)
 "BR" = (
 /obj/effect/decal/cleanable/oil,
-/turf/open/floor/plasteel/rockvault,
+/turf/open/floor/iron/rockvault,
 /area/ruin/unpowered)
 "Ch" = (
 /obj/machinery/mineral/equipment_vendor,
-/turf/open/floor/plasteel/mono,
+/turf/open/floor/iron/dark/small,
 /area/ruin/unpowered)
+"CH" = (
+/obj/item/reagent_containers/food/drinks/beer/light{
+	pixel_y = 12
+	},
+/obj/item/cigbutt{
+	pixel_x = -10;
+	pixel_y = 2
+	},
+/obj/structure/table,
+/turf/open/floor/plating/wasteland/lit,
+/area/overmap_encounter/planetoid/wasteland)
 "CL" = (
 /obj/structure/sign/poster/random,
-/turf/closed/wall/r_wall/rust,
+/turf/closed/wall/r_wall,
 /area/ruin/unpowered)
 "CX" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/machinery/light/broken{
 	dir = 4
 	},
-/turf/open/floor/plasteel/mono,
+/turf/open/floor/iron/dark/small,
 /area/ruin/unpowered)
 "Du" = (
 /obj/structure/sign/poster/contraband/space_up,
-/turf/closed/wall/r_wall/rust,
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered)
+"DS" = (
+/obj/item/weldingtool,
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/iron/white/small,
 /area/ruin/unpowered)
 "Fl" = (
-/obj/structure/bed,
 /obj/effect/gibspawner/human/bodypartless,
-/turf/open/floor/plasteel/grimy,
+/obj/structure/bed{
+	dir = 8
+	},
+/turf/open/floor/iron/grimy,
+/area/ruin/unpowered)
+"Fz" = (
+/obj/item/assembly/signaler/anomaly{
+	name = "unknown anomaly core"
+	},
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "Gc" = (
 /mob/living/simple_animal/hostile/asteroid/goliath,
 /turf/open/floor/plating/dust/lit,
 /area/overmap_encounter/planetoid/wasteland)
+"Ge" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/iron/grimy,
+/area/ruin/unpowered)
 "Gh" = (
 /obj/structure/tank_dispenser/oxygen,
-/turf/open/floor/plasteel/mono,
+/turf/open/floor/iron/dark/small,
+/area/ruin/unpowered)
+"GS" = (
+/obj/effect/gibspawner/human,
+/obj/structure/window/reinforced/spawner/north,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "HW" = (
 /obj/machinery/light/broken{
 	dir = 4
 	},
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
+/area/ruin/unpowered)
+"IB" = (
+/obj/structure/closet/cabinet,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "Jz" = (
 /obj/effect/decal/cleanable/blood,
@@ -226,49 +315,81 @@
 "JC" = (
 /obj/item/weldingtool,
 /obj/effect/decal/cleanable/blood/gibs/up,
-/turf/open/floor/plasteel/rockvault,
+/turf/open/floor/iron/rockvault,
+/area/ruin/unpowered)
+"Kg" = (
+/obj/machinery/mineral/ore_redemption,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"Kq" = (
+/obj/structure/table,
+/turf/open/floor/carpet/nanoweave/red,
+/area/ruin/unpowered)
+"LR" = (
+/obj/item/chair{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave/red,
 /area/ruin/unpowered)
 "LZ" = (
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "Mh" = (
-/obj/structure/bed,
-/turf/open/floor/plasteel/grimy,
+/obj/structure/window/reinforced/spawner/north,
+/obj/structure/table,
+/turf/open/floor/iron/grimy,
+/area/ruin/unpowered)
+"Na" = (
+/obj/structure/bed{
+	dir = 8
+	},
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "NV" = (
 /obj/machinery/light/broken,
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plasteel/rockvault,
+/turf/open/floor/iron/rockvault,
+/area/ruin/unpowered)
+"Og" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 12
+	},
+/obj/structure/mirror{
+	pixel_x = 26
+	},
+/turf/open/floor/iron/white/small,
 /area/ruin/unpowered)
 "OB" = (
 /obj/structure/chair{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "OQ" = (
 /obj/effect/turf_decal/dept/mining,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/iron/dark/small,
+/area/ruin/unpowered)
+"OV" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/turf/open/floor/iron/white/small,
 /area/ruin/unpowered)
 "Pk" = (
-/obj/item/reagent_containers/food/drinks/beer/light,
-/obj/item/cigbutt{
-	pixel_x = -10;
-	pixel_y = -7
-	},
-/turf/open/floor/plating/wasteland/lit,
+/turf/closed/wall/r_wall,
 /area/overmap_encounter/planetoid/wasteland)
 "Pn" = (
 /obj/item/reagent_containers/food/snacks/donkpocket/warm/berry,
 /obj/effect/decal/cleanable/blood/gibs/core,
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "Pz" = (
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plasteel/rockvault,
+/turf/open/floor/iron/rockvault,
 /area/ruin/unpowered)
 "PJ" = (
 /obj/structure/table/wood,
@@ -276,14 +397,21 @@
 	pixel_x = 3;
 	pixel_y = 6
 	},
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "PK" = (
 /obj/effect/decal/cleanable/blood,
-/obj/item/stack/ore/plasma{
-	amount = 8
+/obj/machinery/computer{
+	dir = 1;
+	name = "old computer"
 	},
-/turf/open/floor/plasteel/rockvault,
+/turf/open/floor/iron/rockvault,
+/area/ruin/unpowered)
+"PM" = (
+/obj/machinery/door/poddoor/shutters,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
 /area/ruin/unpowered)
 "Qo" = (
 /obj/effect/decal/cleanable/blood,
@@ -294,16 +422,27 @@
 "Qr" = (
 /obj/effect/turf_decal/rechargefloor,
 /obj/structure/mecha_wreckage/ripley,
-/turf/open/floor/plasteel/rockvault,
+/turf/open/floor/iron/rockvault,
 /area/ruin/unpowered)
 "QR" = (
 /mob/living/simple_animal/bot/mulebot,
 /turf/open/floor/plating/wasteland/lit,
 /area/overmap_encounter/planetoid/wasteland)
+"QT" = (
+/obj/machinery/door/airlock/mining{
+	name = "Mech Storage"
+	},
+/turf/open/floor/iron/dark/smooth_half,
+/area/ruin/unpowered)
 "Rk" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/dust/lit,
 /area/overmap_encounter/planetoid/wasteland)
+"Sb" = (
+/obj/effect/decal/cleanable/blood,
+/obj/structure/closet/cabinet,
+/turf/open/floor/iron/grimy,
+/area/ruin/unpowered)
 "SC" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/drinks/soda_cans/cola{
@@ -316,35 +455,52 @@
 /obj/machinery/light/broken{
 	dir = 4
 	},
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "TI" = (
 /obj/item/chair,
 /obj/effect/decal/cleanable/blood,
-/obj/item/gun/ballistic/automatic/pistol/m1911,
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "Uu" = (
 /obj/machinery/light/broken{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/oil,
-/turf/open/floor/plasteel/rockvault,
+/turf/open/floor/iron/rockvault,
+/area/ruin/unpowered)
+"Uy" = (
+/obj/machinery/door/airlock{
+	name = "Restroom"
+	},
+/obj/structure/barricade/wooden/crude,
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/iron/dark/smooth_half,
+/area/ruin/unpowered)
+"Vi" = (
+/obj/machinery/computer{
+	dir = 8
+	},
+/turf/open/floor/carpet/nanoweave/red,
 /area/ruin/unpowered)
 "Vw" = (
-/turf/closed/wall/r_wall/rust,
+/turf/closed/wall/r_wall,
 /area/ruin/unpowered)
 "VL" = (
 /obj/machinery/mech_bay_recharge_port{
 	dir = 2
 	},
-/turf/open/floor/plasteel/rockvault,
+/turf/open/floor/iron/rockvault,
 /area/ruin/unpowered)
 "VM" = (
-/obj/item/chair{
-	dir = 8
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"Wc" = (
+/obj/machinery/door/poddoor/shutters/preopen,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
 	},
-/turf/open/floor/plasteel/grimy,
 /area/ruin/unpowered)
 "Wf" = (
 /obj/effect/decal/cleanable/blood,
@@ -358,21 +514,26 @@
 "Wz" = (
 /obj/item/broken_bottle,
 /obj/effect/decal/cleanable/blood/gibs/body,
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "YN" = (
 /obj/effect/decal/cleanable/blood,
-/obj/structure/bed,
-/turf/open/floor/plasteel/grimy,
+/obj/structure/window/reinforced/spawner/north,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "YS" = (
-/obj/machinery/door/airlock/mining,
-/turf/open/floor/plasteel/rockvault,
+/obj/structure/window/reinforced/spawner/north,
+/turf/open/floor/iron/grimy,
 /area/ruin/unpowered)
 "YW" = (
 /obj/structure/barricade/wooden,
 /turf/open/floor/plating/dust/lit,
 /area/overmap_encounter/planetoid/wasteland)
+"Zf" = (
+/obj/effect/decal/cleanable/blood,
+/obj/item/anomaly_neutralizer,
+/turf/open/floor/iron/grimy,
+/area/ruin/unpowered)
 "Zp" = (
 /obj/structure/marker_beacon,
 /turf/open/floor/plating/dust/lit,
@@ -395,7 +556,7 @@ yZ
 yZ
 yZ
 yZ
-ll
+yZ
 ll
 ll
 ll
@@ -408,8 +569,8 @@ tN
 yZ
 yZ
 Vw
-mk
 Mh
+Na
 Mh
 mf
 Mh
@@ -418,8 +579,8 @@ bB
 Vw
 Vw
 Vw
+Pk
 yZ
-oj
 bs
 bs
 ll
@@ -434,9 +595,9 @@ yZ
 Vw
 YN
 rY
-sJ
+GS
 mk
-mk
+YS
 LZ
 Vw
 ug
@@ -456,9 +617,9 @@ oj
 Rk
 yZ
 Vw
-Mh
+IB
 mk
-mk
+Fz
 mk
 mk
 mk
@@ -480,10 +641,10 @@ yZ
 Qo
 yZ
 Vw
-YN
+Sb
 mk
-VM
-LZ
+mk
+Zf
 mk
 mk
 Vw
@@ -504,7 +665,7 @@ ll
 Rk
 yZ
 Vw
-mk
+IB
 mk
 mk
 SC
@@ -515,7 +676,7 @@ Vw
 Vw
 Vw
 Pk
-dz
+dk
 tN
 tN
 tN
@@ -535,11 +696,11 @@ Du
 Vw
 Vw
 Vw
+Vw
 ll
 ll
-ll
-oj
-oj
+CH
+dz
 oj
 pg
 tN
@@ -554,17 +715,17 @@ yZ
 Vw
 TI
 Wz
+mk
+mk
 Vw
-yZ
-yZ
-yZ
-yZ
-ll
+oZ
+fs
+Vw
 tN
 oj
 oj
 oj
-dk
+oj
 ll
 pZ
 Zp
@@ -578,13 +739,13 @@ yZ
 CL
 PJ
 mk
+qL
+Ge
+Uy
+DS
+zQ
 Vw
-Vw
-Vw
-yZ
-ll
-ll
-tN
+Kg
 tN
 bs
 bs
@@ -605,11 +766,11 @@ Pn
 rY
 lg
 Vw
-yZ
-ll
+Og
+OV
+Vw
 tN
-tN
-oj
+pY
 oj
 Wv
 ll
@@ -629,9 +790,9 @@ HW
 mk
 wY
 Vw
-ll
-ll
-oj
+Vw
+Vw
+Vw
 oj
 oj
 oj
@@ -767,11 +928,11 @@ yZ
 yZ
 oj
 yZ
-yZ
-yZ
-yZ
-ll
-oj
+Vw
+Vw
+Vw
+Vw
+Vw
 oj
 oj
 oj
@@ -791,11 +952,11 @@ yZ
 yZ
 oj
 yZ
-yZ
-yZ
-yZ
-ll
-oj
+Vw
+Kq
+hN
+hN
+VM
 QR
 oj
 ll
@@ -815,11 +976,11 @@ yZ
 yZ
 oj
 yZ
-yZ
-yZ
-yZ
-ll
-oj
+Vw
+pd
+ub
+hN
+yT
 oj
 oj
 oj
@@ -839,11 +1000,11 @@ yZ
 ll
 oj
 yZ
-yZ
-yZ
-ll
-ll
-oj
+Vw
+Kq
+LR
+hN
+VM
 oj
 rV
 ll
@@ -863,11 +1024,11 @@ yZ
 oj
 oj
 yZ
-yZ
-yZ
-ll
-ll
-oj
+Vw
+cJ
+Vi
+Kq
+VM
 oj
 oj
 oj
@@ -887,11 +1048,11 @@ yZ
 tN
 yZ
 yZ
-yZ
-yZ
-ll
-ll
-oj
+Vw
+VM
+VM
+VM
+Vw
 oj
 oj
 oj
@@ -912,7 +1073,7 @@ tN
 yZ
 yZ
 yZ
-yZ
+tN
 ll
 ll
 oj
@@ -936,7 +1097,7 @@ tN
 yZ
 yZ
 yZ
-yZ
+tN
 ll
 Wv
 rV
@@ -960,7 +1121,7 @@ tN
 oj
 yZ
 yZ
-yZ
+tN
 tN
 oj
 oj
@@ -987,9 +1148,9 @@ yZ
 ll
 tN
 Vw
-YS
 Vw
-Vw
+PM
+Wc
 Vw
 Vw
 yZ
@@ -1010,10 +1171,10 @@ yZ
 yZ
 ll
 tN
-Vw
+QT
 Pz
 pl
-yT
+pl
 PK
 Vw
 ll
@@ -1062,7 +1223,7 @@ Vw
 VL
 Qr
 sj
-ub
+pl
 Vw
 ll
 oj

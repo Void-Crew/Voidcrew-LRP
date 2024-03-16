@@ -393,7 +393,7 @@
 
 /obj/item/storage/belt/military
 	name = "chest rig"
-	desc = "A set of tactical webbing worn by Syndicate boarding parties."
+	desc = "A set of tactical webbing worn by military organizations."
 	icon_state = "militarywebbing"
 	item_state = "militarywebbing"
 	resistance_flags = FIRE_PROOF
@@ -402,6 +402,12 @@
 	. = ..()
 	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
 	STR.max_w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/storage/belt/military/syndicate
+	name = "tactical webbing"
+	desc = "A set of tactical webbing worn by Syndicate operatives."
+	icon_state = "syndicatewebbing"
+	item_state = "syndicatewebbing"
 
 /obj/item/storage/belt/military/snack
 	name = "tactical snack rig"
@@ -712,3 +718,20 @@
 /obj/item/storage/belt/sabre/PopulateContents()
 	new /obj/item/melee/sabre(src)
 	update_icon()
+
+/obj/item/storage/belt/security/webbing/inteq
+	name = "inteq webbing"
+	desc = "A set of tactical webbing for operators of the IRMG, can hold security gear."
+	icon_state = "inteq_webbing"
+	item_state = "inteq_webbing"
+
+/obj/item/storage/belt/security/webbing/inteq/ak47/PopulateContents()
+	. = ..()
+	for(var/i in 1 to 7)
+		new /obj/item/ammo_box/magazine/ak47(src)
+
+/obj/item/storage/belt/security/webbing/inteq/alt
+	name = "inteq drop pouch harness"
+	desc = "A harness with a bunch of pouches attached to them emblazoned in the colors of the IRMG, can hold security gear."
+	icon_state = "inteq_droppouch"
+	item_state = "inteq_droppouch"

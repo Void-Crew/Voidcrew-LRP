@@ -3,8 +3,8 @@
 
 	uniform = /obj/item/clothing/under/solgov
 	accessory = /obj/item/clothing/accessory/armband/engine
-	head = /obj/item/clothing/head/hardhat/orange
-	suit =  /obj/item/clothing/suit/hazardvest
+	head = /obj/item/clothing/head/hardhat/solgov
+	suit =  /obj/item/clothing/suit/hazardvest/solgov
 
 /datum/outfit/job/engineer/solgov/rebel
 	name = "Ship Engineer (Deserter)"
@@ -39,14 +39,15 @@
 
 	id = /obj/item/card/id/syndicate_command/crew_id
 	ears = /obj/item/radio/headset/syndicate/alt
-	uniform = /obj/item/clothing/under/syndicate/aclfgrunt
+	uniform = /obj/item/clothing/under/syndicate/gec
 	accessory = /obj/item/clothing/accessory/armband/engine
 	glasses = /obj/item/clothing/glasses/sunglasses
 	shoes = /obj/item/clothing/shoes/jackboots
+
 /datum/outfit/job/engineer/gec
 	name = "Station Engineer (GEC)"
 
-	uniform = /obj/item/clothing/under/syndicate/intern
+	uniform = /obj/item/clothing/under/syndicate/gec
 	suit = /obj/item/clothing/suit/toggle/hazard
 	head = /obj/item/clothing/head/hardhat
 	ears = /obj/item/radio/headset/syndicate/alt

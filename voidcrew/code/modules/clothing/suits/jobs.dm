@@ -1,7 +1,7 @@
 // SolGov Rep //
 /obj/item/clothing/suit/solgov_trenchcoat
-	name = "solgov trenchcoat"
-	desc = "A solgov official's trenchcoat. Has a lot of pockets."
+	name = "SolGov officer's trenchcoat"
+	desc = "A Sol Government official's trenchcoat. Has a lot of pockets."
 	icon = 'voidcrew/icons/obj/clothing/suits.dmi'
 	icon_state = "trenchcoat_solgov"
 	item_state = "trenchcoat_solgov"
@@ -10,3 +10,9 @@
 	armor = list("melee" = 25, "bullet" = 10, "laser" = 25, "energy" = 10, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 	cold_protection = CHEST|LEGS|ARMS
 	heat_protection = CHEST|LEGS|ARMS
+
+/obj/item/clothing/suit/solgov_trenchcoat/terragov
+	name = "TerraGov officer's trenchcoat"
+	desc = "A Sol Government official's trenchcoat. Has a lot of pockets. This one is in a familiar TaerraGov color."
+	icon_state = "trenchcoat_terragov"
+	item_state = "trenchcoat_terragov"

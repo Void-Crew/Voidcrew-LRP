@@ -4,24 +4,31 @@
 /area/shuttle/mining)
 "b" = (
 /obj/effect/spawner/structure/window/shuttle,
+/obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/shuttle/mining)
 "c" = (
-/obj/structure/table,
-/turf/open/floor/mineral/titanium/blue,
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/emergency/old,
+/turf/open/floor/iron/dark/textured_large,
 /area/shuttle/mining)
 "d" = (
 /obj/machinery/computer/helm,
-/turf/open/floor/mineral/titanium/blue,
+/turf/open/floor/iron/dark/textured_large,
 /area/shuttle/mining)
 "e" = (
-/turf/open/floor/mineral/titanium,
+/obj/structure/window/reinforced,
+/turf/open/floor/iron/dark/textured_large,
 /area/shuttle/mining)
 "f" = (
 /obj/structure/chair/comfy/shuttle{
-	dir = 1
+	dir = 4
 	},
-/turf/open/floor/mineral/titanium/blue,
+/obj/structure/fluff/broken_flooring{
+	icon_state = "pile";
+	dir = 8
+	},
+/turf/open/floor/plating,
 /area/shuttle/mining)
 "g" = (
 /obj/machinery/light{
@@ -30,7 +37,13 @@
 /obj/item/storage/overmap_emergency_safe/electric{
 	pixel_x = -22
 	},
-/turf/open/floor/mineral/titanium,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/iron,
 /area/shuttle/mining)
 "h" = (
 /obj/machinery/door/airlock/titanium{
@@ -44,92 +57,121 @@
 	port_direction = 4;
 	width = 7
 	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/structure/fans/tiny,
+/obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/shuttle/mining)
 "i" = (
-/obj/structure/closet/crate,
-/turf/open/floor/mineral/titanium/blue,
+/obj/structure/ore_box,
+/obj/effect/turf_decal/box,
+/turf/open/floor/iron,
 /area/shuttle/mining)
 "j" = (
-/obj/machinery/power/smes/shuttle/precharged{
-	dir = 1
+/obj/effect/turf_decal/box,
+/obj/structure/closet/crate/internals,
+/obj/item/clothing/suit/hazardvest{
+	name = "safety vest"
 	},
-/obj/structure/cable{
-	icon_state = "0-2"
+/obj/item/clothing/suit/hazardvest{
+	name = "safety vest"
 	},
-/obj/machinery/door/window/northleft{
-	name = "Engine Access"
+/obj/item/clothing/head/hardhat/orange{
+	name = "safety hard hat"
 	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	pixel_x = -4
+/obj/item/clothing/head/hardhat/orange{
+	name = "safety hard hat"
 	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	pixel_x = 4
-	},
-/turf/open/floor/plating,
+/obj/item/tank/internals/oxygen/yellow,
+/obj/item/tank/internals/oxygen/yellow,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/turf/open/floor/iron,
 /area/shuttle/mining)
 "k" = (
-/obj/structure/ore_box,
-/turf/open/floor/mineral/titanium/blue,
+/obj/structure/shuttle/engine/propulsion,
+/turf/open/floor/plating/airless,
 /area/shuttle/mining)
 "l" = (
-/obj/machinery/power/shuttle/engine/electric{
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
 	dir = 1
 	},
-/obj/structure/cable,
 /obj/structure/window/reinforced{
-	dir = 1;
-	pixel_y = 3
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/mining)
+"s" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 4
 	},
 /turf/open/floor/plating/airless,
 /area/shuttle/mining)
 "v" = (
-/obj/structure/table,
-/obj/item/radio/intercom/wideband{
-	pixel_y = 22
+/obj/structure/table/reinforced,
+/obj/item/radio{
+	name = "walkie-talkie";
+	desc = "A basic handheld device that is connected to nearby walkie-talkies. For easy communication when far from eachother.";
+	pixel_y = 5;
+	pixel_x = -4
 	},
-/turf/open/floor/mineral/titanium/blue,
+/turf/open/floor/iron/dark/textured_large,
 /area/shuttle/mining)
 "A" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 1
+/obj/effect/turf_decal/arrows,
+/obj/structure/fluff/broken_flooring{
+	icon_state = "singular";
+	dir = 4
 	},
-/obj/machinery/power/terminal,
-/obj/structure/cable,
-/turf/open/floor/mineral/titanium/blue,
+/turf/open/floor/iron,
+/area/shuttle/mining)
+"H" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/turf/open/floor/iron,
 /area/shuttle/mining)
 "N" = (
 /turf/closed/wall/mineral/titanium/exterior,
 /area/shuttle/mining)
-"P" = (
-/obj/structure/cable{
-	icon_state = "4-8"
+"O" = (
+/obj/item/shard{
+	icon_state = "small"
 	},
-/turf/open/floor/mineral/titanium,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/mining)
+"P" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/plating,
 /area/shuttle/mining)
 "Q" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
-/turf/open/floor/mineral/titanium,
+/turf/open/floor/iron/dark/textured_large,
 /area/shuttle/mining)
 "R" = (
-/obj/structure/cable{
-	icon_state = "2-4"
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
 	},
-/turf/open/floor/mineral/titanium,
+/obj/structure/fluff/broken_flooring{
+	icon_state = "singular";
+	dir = 1
+	},
+/turf/open/floor/iron,
 /area/shuttle/mining)
 
 (1,1,1) = {"
@@ -138,13 +180,13 @@ N
 b
 a
 b
-N
-N
+s
+k
 "}
 (2,1,1) = {"
-N
+b
 c
-e
+O
 g
 f
 i
@@ -157,15 +199,15 @@ Q
 R
 A
 j
-l
+N
 "}
 (4,1,1) = {"
-N
+b
 v
 e
 P
-f
-k
+H
+i
 N
 "}
 (5,1,1) = {"
@@ -174,6 +216,6 @@ N
 b
 h
 b
-N
-N
+l
+k
 "}

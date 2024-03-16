@@ -102,6 +102,19 @@
 	desc = "Standard issue security helmet. Due to degradation the helmet's visor obstructs the users ability to see long distances."
 	tint = 2
 
+/obj/item/clothing/head/helmet/old/charlie
+	name = "degrading helmet"
+	icon_state = "helmetchar"
+	item_state = "helmetchar"
+	desc = "Standard issue security helmet. Due to degradation the helmet's visor obstructs the users ability to see long distances."
+
+/obj/item/clothing/head/helmet/old/charlie/beret
+	name = "captain's beret"
+	icon_state = "charlieberet"
+	item_state = "charlieberet"
+	desc = "An old blue beret with dust on it, it has a golden vest-shaped badge on the front. An ancient commanding officer beret for Nanotrasen security on stations."
+	tint = 0
+
 /obj/item/clothing/head/helmet/blueshirt
 	name = "blue helmet"
 	desc = "A reliable, blue tinted helmet reminding you that you <i>still</i> owe that engineer a beer."
@@ -203,6 +216,20 @@
 	desc = "An extremely robust, space-worthy helmet with the Nanotrasen logo emblazoned on the top."
 	icon_state = "swat"
 	item_state = "swat"
+
+/obj/item/clothing/head/helmet/swat/nanotrasen/hr
+	name = "\improper NCO SWAT helmet"
+	desc = "An extremely robust, space-worthy helmet with the Nanotrasen logo emblazoned on the top in gold. You feel a bit obligated to listen to whoever's wearing this."
+	icon_state = "swathr"
+	item_state = "swathr"
+	armor = list("melee" = 50, "bullet" = 40, "laser" = 30,"energy" = 40, "bomb" = 50, "bio" = 90, "rad" = 20, "fire" = 100, "acid" = 100)
+
+/obj/item/clothing/head/helmet/swat/nanotrasen/commander
+	name = "\improper Commander's beret"
+	desc = "A extremely padded, and tough beret worn by Nanotrasen Private Security Commanders. All you're missing is your badass L6 Saw."
+	icon_state = "swatcomm"
+	item_state = "swatcomm"
+	armor = list("melee" = 50, "bullet" = 40, "laser" = 30,"energy" = 40, "bomb" = 50, "bio" = 90, "rad" = 20, "fire" = 100, "acid" = 100)
 
 /obj/item/clothing/head/helmet/thunderdome
 	name = "\improper Thunderdome helmet"
@@ -440,3 +467,17 @@
 	for(var/X in actions)
 		var/datum/action/A = X
 		A.UpdateButtonIcon()
+
+/obj/item/clothing/head/helmet/swat/inteq
+	name = "inteq SWAT helmet"
+	desc = "A robust and spaceworthy helmet with an opaque gold visor. There is an insignia on the earpad with the letters 'IRMG' on it."
+	icon_state = "inteq_swat"
+	item_state = "inteq_swat"
+	flags_inv = HIDEHAIR
+
+/obj/item/clothing/head/helmet/inteq
+	name = "inteq helmet"
+	desc = "A standard issue helmet in the colors of the IRMG. It doesn't feel special in any way."
+	icon_state = "inteq_helmet"
+	icon_state = "inteq_helmet"
+	can_flashlight = TRUE

@@ -386,6 +386,20 @@
 	for(var/obj/item/shard/S in debris)
 		S.color = NARSIE_WINDOW_COLOUR
 
+/obj/structure/table/glass/plasmaglass
+	name = "plasma glass table"
+	desc = "Someone thought this was a good idea."
+	icon = 'icons/obj/smooth_structures/plasmaglass_table.dmi'
+	icon_state = "plasmaglass_table-0"
+	base_icon_state = "plasmaglass_table"
+	buildstack = /obj/item/stack/sheet/plasmaglass
+	max_integrity = 100
+
+/obj/structure/table/glass/plasmaglass/Initialize()
+	. = ..()
+	debris += new frame
+	debris += new /obj/item/shard/plasma
+
 /*
  * Wooden tables
  */
@@ -554,6 +568,41 @@
 /obj/structure/table/bronze/tablepush(mob/living/user, mob/living/pushed_mob)
 	..()
 	playsound(src, 'sound/magic/clockwork/fellowship_armory.ogg', 50, TRUE)
+
+/obj/structure/table/reinforced/rglass
+	name = "reinforced glass table"
+	desc = "A reinforced version of the glass table."
+	icon = 'icons/obj/smooth_structures/rglass_table.dmi'
+	icon_state = "rglass_table-0"
+	base_icon_state = "rglass_table"
+	buildstack = /obj/item/stack/sheet/rglass
+	max_integrity = 150
+
+/obj/structure/table/reinforced/plasmarglass
+	name = "reinforced plasma glass table"
+	desc = "A reinforced version of the plasma glass table."
+	icon = 'icons/obj/smooth_structures/rplasmaglass_table.dmi'
+	icon_state = "rplasmaglass_table-0"
+	base_icon_state = "rplasmaglass_table"
+	buildstack = /obj/item/stack/sheet/plasmarglass
+
+/obj/structure/table/reinforced/titaniumglass
+	name = "titanium glass table"
+	desc = "A titanium reinforced glass table, with a fresh coat of NT white paint."
+	icon = 'icons/obj/smooth_structures/titaniumglass_table.dmi'
+	icon_state = "titaniumglass_table-0"
+	base_icon_state = "titaniumglass_table"
+	buildstack = /obj/item/stack/sheet/titaniumglass
+	max_integrity = 250
+
+/obj/structure/table/reinforced/plastitaniumglass
+	name = "plastitanium glass table"
+	desc = "A table made of titanium reinforced silica-plasma composite. About as durable as it sounds."
+	icon = 'icons/obj/smooth_structures/plastitaniumglass_table.dmi'
+	icon_state = "plastitaniumglass_table-0"
+	base_icon_state = "plastitaniumglass_table"
+	buildstack = /obj/item/stack/sheet/plastitaniumglass
+	max_integrity = 300
 
 /*
  * Surgery Tables

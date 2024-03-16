@@ -1,8 +1,8 @@
 /obj/item/wrench
 	name = "wrench"
 	desc = "A wrench with common uses. Can be found in your hand. This one is a pipe wrench."
-	icon = 'whitesands/icons/obj/tools.dmi'
-	icon_state = "wrench_pipe" //now where could my pipe wrench be?
+	icon = 'icons/obj/tools.dmi'
+	icon_state = "wrench"
 	lefthand_file = 'whitesands/icons/mob/inhands/equipment/tools_lefthand.dmi'
 	righthand_file = 'whitesands/icons/mob/inhands/equipment/tools_righthand.dmi'
 	flags_1 = CONDUCT_1

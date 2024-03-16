@@ -13,6 +13,7 @@
 	id_job = "Operative"
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
+	icon_state = "corpsesyndicate"
 	outfit = /datum/outfit/syndicatesoldiercorpse
 
 /datum/outfit/syndicatesoldiercorpse
@@ -22,9 +23,8 @@
 	shoes = /obj/item/clothing/shoes/combat
 	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
 	ears = /obj/item/radio/headset
-	mask = /obj/item/clothing/mask/gas
+	mask = /obj/item/clothing/mask/gas/sechailer/syndie
 	head = /obj/item/clothing/head/helmet/swat
-	back = /obj/item/storage/backpack
 	id = /obj/item/card/id/syndicate
 
 /obj/effect/mob_spawn/human/corpse/syndicatecommando
@@ -115,25 +115,27 @@
 
 
 /obj/effect/mob_spawn/human/corpse/russian/ranged
+	name = "Russian Rifleman"
 	outfit = /datum/outfit/russiancorpse/ranged
 
 /datum/outfit/russiancorpse/ranged
-	name = "Ranged Russian Corpse"
+	name = "Russian Rifleman Corpse"
 	head = /obj/item/clothing/head/ushanka
 
 
 /obj/effect/mob_spawn/human/corpse/russian/ranged/trooper
+	name = "Russian Soldier"
 	outfit = /datum/outfit/russiancorpse/ranged/trooper
 
 /datum/outfit/russiancorpse/ranged/trooper
-	name = "Ranged Russian Trooper Corpse"
+	name = "Russian Soldier Corpse"
 	uniform = /obj/item/clothing/under/syndicate/camo
 	suit = /obj/item/clothing/suit/armor/bulletproof
 	shoes = /obj/item/clothing/shoes/combat
 	gloves = /obj/item/clothing/gloves/tackler/combat
 	ears = /obj/item/radio/headset
 	head = /obj/item/clothing/head/helmet/alt
-	mask = /obj/item/clothing/mask/balaclava
+	mask = /obj/item/clothing/mask/russian_balaclava
 
 
 /obj/effect/mob_spawn/human/corpse/russian/ranged/officer
@@ -148,6 +150,17 @@
 	ears = /obj/item/radio/headset
 	head = /obj/item/clothing/head/ushanka
 
+/obj/effect/mob_spawn/human/corpse/russian/ranged/automatic
+	name = "Russian Trooper"
+	outfit = /datum/outfit/russiancorpse/automatic
+
+/datum/outfit/russiancorpse/automatic
+	name = "Russian Trooper Corpse"
+	suit = /obj/item/clothing/suit/armor/vest/russian_coat
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/tackler/combat
+	ears = /obj/item/radio/headset
+	head = /obj/item/clothing/head/helmet/rus_ushanka
 
 /obj/effect/mob_spawn/human/corpse/wizard
 	name = "Space Wizard Corpse"
@@ -165,42 +178,84 @@
 
 
 /obj/effect/mob_spawn/human/corpse/nanotrasensoldier
-	name = "\improper Nanotrasen Private Security Officer"
-	id_job = "Private Security Force"
-	outfit = /datum/outfit/nanotrasensoldiercorpse2
+	name = "\improper Nanotrasen Private Security Squad Recruit"
+	id_job = "Private Security Squad Recruit"
+	outfit = /datum/outfit/nanotrasensoldiercorpserecruit
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
+	icon_state = "corpsentrecruit"
 
-/datum/outfit/nanotrasensoldiercorpse2
-	name = "NT Private Security Officer Corpse"
+/datum/outfit/nanotrasensoldiercorpserecruit
+	name = "Nanotrasen Private Security Squad Recruit Corpse"
 	uniform = /obj/item/clothing/under/rank/security/officer
-	suit = /obj/item/clothing/suit/armor/vest
+	suit = /obj/item/clothing/suit/armor/vest/alt
 	shoes = /obj/item/clothing/shoes/combat
 	gloves = /obj/item/clothing/gloves/tackler/combat
 	ears = /obj/item/radio/headset
 	mask = /obj/item/clothing/mask/gas/sechailer/swat
 	head = /obj/item/clothing/head/helmet/swat/nanotrasen
-	back = /obj/item/storage/backpack/security
-	id = /obj/item/card/id
+	back = /obj/item/storage/backpack/satchel/sec
+	id = /obj/item/card/id/pso
 
-/obj/effect/mob_spawn/human/corpse/nanotrasenassaultsoldier
-	name = "Nanotrasen Private Security Officer"
-	id_job = "Nanotrasen Assault Force"
-	outfit = /datum/outfit/nanotrasenassaultsoldiercorpse
+/obj/effect/mob_spawn/human/corpse/nanotrasensoldier/ranged
+	name = "\improper Nanotrasen Private Security Squad Operative"
+	id_job = "Private Security Squad Operative"
+	outfit = /datum/outfit/nanotrasensoldiercorpseoperative
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
+	icon_state = "corpsentoperative"
 
-/datum/outfit/nanotrasenassaultsoldiercorpse
-	name = "NT Assault Officer Corpse"
-	uniform = /obj/item/clothing/under/syndicate
-	suit = /obj/item/clothing/suit/armor/vest
+/datum/outfit/nanotrasensoldiercorpseoperative
+	name = "Nanotrasen Private Security Squad Operative Corpse"
+	uniform = /obj/item/clothing/under/rank/security/red/officer
+	suit = /obj/item/clothing/suit/armor/vest/alt
 	shoes = /obj/item/clothing/shoes/combat
-	gloves = /obj/item/clothing/gloves/combat
+	gloves = /obj/item/clothing/gloves/tackler/combat
 	ears = /obj/item/radio/headset
 	mask = /obj/item/clothing/mask/gas/sechailer/swat
 	head = /obj/item/clothing/head/helmet/swat/nanotrasen
-	back = /obj/item/storage/backpack/security
-	id = /obj/item/card/id
+	back = /obj/item/storage/backpack/satchel/sec
+	id = /obj/item/card/id/pso
+
+/obj/effect/mob_spawn/human/corpse/nanotrasensoldier/smg
+	name = "\improper Nanotrasen Private Security Squad Sergeant"
+	id_job = "Private Security Squad Sergeant"
+	outfit = /datum/outfit/nanotrasensoldiercorpsesergeant
+	hairstyle = "Bald"
+	facial_hairstyle = "Shaved"
+	icon_state = "corpsentsergeant"
+
+/datum/outfit/nanotrasensoldiercorpsesergeant
+	name = "Nanotrasen Private Security Squad Sergeant Corpse"
+	uniform = /obj/item/clothing/under/rank/security/nanotrasenhr
+	suit = /obj/item/clothing/suit/armor/vest/alt
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/tackler/combat
+	ears = /obj/item/radio/headset
+	mask = /obj/item/clothing/mask/gas/sechailer/swat
+	head = /obj/item/clothing/head/helmet/swat/nanotrasen/hr
+	back = /obj/item/storage/backpack/satchel/sec
+	id = /obj/item/card/id/pso
+
+/obj/effect/mob_spawn/human/corpse/nanotrasensoldier/assault
+	name = "\improper Nanotrasen Private Security Squad Commander"
+	id_job = "Private Security Squad Commander"
+	outfit = /datum/outfit/nanotrasensoldiercorpsecommander
+	hairstyle = "Bald"
+	facial_hairstyle = "Shaved"
+	icon_state = "corpsentcommander"
+
+/datum/outfit/nanotrasensoldiercorpsecommander
+	name = "Nanotrasen Private Security Squad Commander Corpse"
+	uniform = /obj/item/clothing/under/rank/security/nanotrasenhr
+	suit = /obj/item/clothing/suit/armor/vest/alt
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/tackler/combat
+	ears = /obj/item/radio/headset
+	mask = /obj/item/clothing/mask/gas/sechailer/swat
+	head = /obj/item/clothing/head/helmet/swat/nanotrasen/commander
+	belt = /obj/item/storage/belt/security/webbing
+	id = /obj/item/card/id/pso
 
 /obj/effect/mob_spawn/human/corpse/cat_butcher
 	name = "The Cat Surgeon"
@@ -221,3 +276,51 @@
 	back = /obj/item/storage/backpack/satchel/med
 	id = /obj/item/card/id
 	glasses = /obj/item/clothing/glasses/hud/health
+
+/obj/effect/mob_spawn/human/corpse/charlie/private
+	name = "\improper Charlie Station Security Private"
+	id_job = "Charlie Station Security Private"
+	outfit = /datum/outfit/charlieprivate
+	hairstyle = "Bald"
+	facial_hairstyle = "Shaved"
+
+/datum/outfit/charlieprivate
+	name = "Charlie Station Security Private Corpse"
+	uniform = /obj/item/clothing/under/rank/security/charlie/officer
+	shoes = /obj/item/clothing/shoes/jackboots/charlieboots
+	gloves = /obj/item/clothing/gloves/color/black
+	head = /obj/item/clothing/head/soft/sec/charlie
+	id = /obj/item/card/id/away/old/sec
+
+/obj/effect/mob_spawn/human/corpse/charlie/officer
+	name = "\improper Charlie Station Security Officer"
+	id_job = "Charlie Station Security Officer"
+	outfit = /datum/outfit/charlieofficer
+	hairstyle = "Bald"
+	facial_hairstyle = "Shaved"
+
+/datum/outfit/charlieofficer
+	name = "Charlie Station Security Officer Corpse"
+	uniform = /obj/item/clothing/under/rank/security/charlie/warden
+	suit = /obj/item/clothing/suit/armor/vest/old/charlie
+	shoes = /obj/item/clothing/shoes/jackboots/charlieboots
+	gloves = /obj/item/clothing/gloves/color/black
+	head = /obj/item/clothing/head/helmet/old/charlie
+	id = /obj/item/card/id/away/old/sec
+
+/obj/effect/mob_spawn/human/corpse/charlie/captain
+	name = "\improper Charlie Station Security Captain"
+	id_job = "Charlie Station Security Captain"
+	outfit = /datum/outfit/charliecaptain
+	hairstyle = "Bald"
+	facial_hairstyle = "Shaved"
+
+/datum/outfit/charliecaptain
+	name = "Charlie Station Security Captain Corpse"
+	uniform = /obj/item/clothing/under/rank/security/charlie/head_of_security
+	suit = /obj/item/clothing/suit/armor/vest/old/charlie
+	shoes = /obj/item/clothing/shoes/jackboots/charlieboots
+	gloves = /obj/item/clothing/gloves/color/black
+	mask = /obj/item/clothing/mask/gas/sechailer
+	head = /obj/item/clothing/head/helmet/old/charlie/beret
+	id = /obj/item/card/id/away/old/sec

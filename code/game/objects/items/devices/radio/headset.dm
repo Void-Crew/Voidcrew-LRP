@@ -7,6 +7,8 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	RADIO_CHANNEL_ENGINEERING = RADIO_TOKEN_ENGINEERING,
 	RADIO_CHANNEL_SECURITY = RADIO_TOKEN_SECURITY,
 	RADIO_CHANNEL_CENTCOM = RADIO_TOKEN_CENTCOM,
+	RADIO_CHANNEL_INTEQ = RADIO_TOKEN_INTEQ,
+	RADIO_CHANNEL_SOLGOV = RADIO_TOKEN_SOLGOV,
 	RADIO_CHANNEL_SYNDICATE = RADIO_TOKEN_SYNDICATE,
 	RADIO_CHANNEL_SUPPLY = RADIO_TOKEN_SUPPLY,
 	RADIO_CHANNEL_SERVICE = RADIO_TOKEN_SERVICE,
@@ -229,9 +231,15 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	icon_state = "com_headset"
 	keyslot = new /obj/item/encryptionkey/heads/head_of_personnel
 
+/obj/item/radio/headset/heads/qm
+	name = "\proper the quartermaster's headset"
+	desc = "The headset of the hardest working, and yet lowest head."
+	icon_state = "cargo_headset"
+	keyslot = new /obj/item/encryptionkey/heads/qm
+
 /obj/item/radio/headset/headset_cargo
 	name = "supply radio headset"
-	desc = "A headset used by the QM and his slaves."
+	desc = "A headset used by cargo technicians."
 	icon_state = "cargo_headset"
 	keyslot = new /obj/item/encryptionkey/headset_cargo
 
@@ -351,3 +359,31 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	if (command)
 		use_command = !use_command
 		to_chat(user, "<span class='notice'>You toggle high-volume mode [use_command ? "on" : "off"].</span>")
+
+/obj/item/radio/headset/inteq
+	name = "inteq radio headset"
+	desc = "This is used by Inteq Risk Management Group's mercenaries."
+	icon_state = "inteq_headset"
+	keyslot = new /obj/item/encryptionkey/inteq
+
+/obj/item/radio/headset/inteq/captain
+	name = "vanguard radio headset"
+	desc = "Used by Inteq Risk Management Group's elite vanguards."
+	keyslot2 = new /obj/item/encryptionkey/heads/captain
+	command = TRUE
+
+/obj/item/radio/headset/inteq/alt
+	name = "inteq bowman headset"
+	desc = "This is used by Inteq Risk Management Group's mercenaries. Protects ears from flashbangs."
+	icon_state = "inteq_headset_alt"
+	item_state = "inteq_headset_alt"
+
+/obj/item/radio/headset/inteq/alt/captain
+	name = "vanguard bowman headset"
+	desc = "Used by Inteq Risk Management Group's elite vanguards. Protects ears from flashbangs."
+	keyslot2 = new /obj/item/encryptionkey/heads/captain
+	command = TRUE
+
+/obj/item/radio/headset/inteq/alt/ComponentInitialize()
+	. = ..()
+	AddComponent(/datum/component/wearertargeting/earprotection, list(ITEM_SLOT_EARS))

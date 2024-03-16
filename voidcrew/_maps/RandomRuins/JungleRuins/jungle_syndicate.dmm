@@ -3,19 +3,17 @@
 /turf/template_noop,
 /area/template_noop)
 "b" = (
-/turf/closed/wall,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/powered)
 "c" = (
-/obj/machinery/power/port_gen/pacman,
 /obj/effect/decal/cleanable/cobweb,
-/obj/structure/cable{
-	icon_state = "0-6"
-	},
-/turf/open/floor/plating,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/powered)
 "e" = (
-/obj/structure/sign/poster/contraband/revolver,
-/turf/closed/wall,
+/obj/item/gun/ballistic/automatic/pistol,
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
 "g" = (
 /obj/structure/punji_sticks,
@@ -31,28 +29,27 @@
 /area/ruin/unpowered)
 "i" = (
 /obj/structure/table,
-/obj/item/kitchen/knife/combat,
-/turf/open/floor/plating,
+/obj/item/storage/toolbox/syndicate,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
 "j" = (
-/obj/structure/rack,
-/obj/item/storage/toolbox/syndicate,
-/obj/item/stack/sheet/mineral/plasma,
-/obj/item/gun/ballistic/automatic/pistol,
-/turf/open/floor/plating,
+/obj/machinery/ntnet_relay,
+/obj/structure/sign/poster/contraband/m90{
+	pixel_x = -32
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
 "k" = (
+/obj/machinery/power/port_gen/pacman,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
 "l" = (
-/obj/structure/cable{
-	icon_state = "1-4"
+/obj/machinery/computer{
+	dir = 8
 	},
-/turf/open/floor/plating,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
 "m" = (
 /obj/structure/punji_sticks,
@@ -64,14 +61,11 @@
 /obj/structure/flora/junglebush/c,
 /turf/open/floor/plating/dirt,
 /area/ruin/unpowered)
-"o" = (
-/obj/structure/barricade/sandbags,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating,
-/area/ruin/powered)
 "p" = (
-/obj/effect/decal/remains/human,
-/turf/open/floor/plating,
+/obj/machinery/porta_turret/syndicate/pod{
+	dir = 10
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/powered)
 "q" = (
 /obj/structure/punji_sticks,
@@ -84,58 +78,46 @@
 /obj/item/grenade/frag,
 /obj/item/grenade/frag,
 /obj/item/grenade/frag,
-/turf/open/floor/plating,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
 "t" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/porta_turret/syndicate/pod,
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
+/obj/structure/window/plasma/reinforced/plastitanium,
+/obj/structure/grille,
 /turf/open/floor/plating,
 /area/ruin/powered)
 "u" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/porta_turret/syndicate/pod,
-/obj/structure/cable{
-	icon_state = "0-4"
+/obj/machinery/porta_turret/syndicate/pod{
+	dir = 6
 	},
-/turf/open/floor/plating,
-/area/ruin/powered)
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/template_noop)
 "v" = (
 /obj/structure/flora/junglebush/large,
 /turf/open/floor/plating/dirt,
 /area/ruin/unpowered)
-"w" = (
-/obj/structure/barricade/sandbags,
-/turf/open/floor/plating,
-/area/ruin/powered)
 "x" = (
-/obj/structure/table,
-/obj/item/grenade/smokebomb,
-/obj/item/grenade/smokebomb,
-/obj/item/grenade/smokebomb,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/powered)
 "y" = (
-/obj/structure/cable{
-	icon_state = "4-8"
+/obj/structure/chair/plastic{
+	dir = 4
 	},
-/turf/open/floor/plating,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
 "A" = (
-/obj/structure/rack,
-/obj/item/ammo_box/magazine/mm712x82,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating,
+/obj/structure/table,
+/obj/item/kitchen/knife/combat,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
 "C" = (
 /obj/structure/table,
 /obj/item/clothing/gloves/combat,
 /obj/item/clothing/shoes/combat,
 /obj/item/clothing/mask/gas/syndicate,
-/turf/open/floor/plating,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
 "E" = (
 /obj/structure/punji_sticks,
@@ -144,22 +126,23 @@
 /turf/open/floor/plating/dirt,
 /area/ruin/unpowered)
 "F" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/mineral/plasma,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
 "G" = (
-/obj/structure/cable,
-/mob/living/simple_animal/hostile/syndicate,
-/turf/open/floor/plating,
+/mob/living/simple_animal/hostile/syndicate/ranged/smg/pilot,
+/obj/structure/sign/poster/contraband/power{
+	pixel_x = 32
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
 "H" = (
 /obj/structure/punji_sticks,
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating/dirt,
 /area/ruin/unpowered)
-"I" = (
-/turf/closed/wall/rust,
-/area/ruin/powered)
 "J" = (
 /obj/structure/punji_sticks,
 /obj/structure/flora/ausbushes/fullgrass,
@@ -167,13 +150,10 @@
 /turf/open/floor/plating/dirt,
 /area/ruin/unpowered)
 "K" = (
-/obj/structure/chair/plastic,
-/mob/living/simple_animal/hostile/syndicate/ranged,
-/turf/open/floor/plating,
-/area/ruin/powered)
-"M" = (
-/obj/structure/sign/poster/contraband/syndicate_recruitment,
-/turf/closed/wall/rust,
+/obj/machinery/computer{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
 "N" = (
 /obj/structure/punji_sticks,
@@ -181,19 +161,9 @@
 /obj/effect/decal/cleanable/blood/gibs/up,
 /turf/open/floor/plating/dirt,
 /area/ruin/unpowered)
-"R" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/barricade/sandbags,
-/turf/open/floor/plating,
-/area/ruin/powered)
 "S" = (
-/obj/structure/cable{
-	icon_state = "5-8"
-	},
-/obj/structure/cable{
-	icon_state = "5-9"
-	},
-/turf/open/floor/plating,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
 "T" = (
 /obj/structure/punji_sticks,
@@ -203,36 +173,27 @@
 /area/ruin/unpowered)
 "U" = (
 /obj/machinery/door/airlock/hatch,
-/obj/structure/cable,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/ruin/powered)
 "V" = (
-/turf/open/floor/plating,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
 "W" = (
 /obj/structure/flora/tree/jungle,
 /turf/open/floor/plating/dirt,
 /area/ruin/unpowered)
 "X" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/cable{
-	icon_state = "1-2"
+/obj/machinery/light/broken{
+	dir = 1
 	},
-/obj/structure/cable{
-	icon_state = "1-10"
-	},
-/turf/open/floor/plating,
-/area/ruin/powered)
-"Y" = (
-/obj/structure/sign/poster/contraband/free_key,
-/turf/closed/wall,
+/obj/structure/chair/plastic,
+/mob/living/simple_animal/hostile/syndicate/ranged,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
 "Z" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating,
+/obj/machinery/light,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
 
 (1,1,1) = {"
@@ -248,23 +209,23 @@ a
 "}
 (2,1,1) = {"
 a
-I
-I
-u
-w
+a
 b
-b
+t
+t
+t
+p
 a
 a
 "}
 (3,1,1) = {"
 a
-I
+b
 c
 k
 F
 i
-M
+b
 b
 a
 "}
@@ -273,32 +234,32 @@ W
 b
 j
 S
-V
-p
+S
+S
 C
-o
+t
 T
 "}
 (5,1,1) = {"
 v
 U
-X
+S
 Z
-l
-F
+b
+X
 K
-R
+t
 q
 "}
 (6,1,1) = {"
 n
-Y
+b
 G
 V
 y
-V
+S
 A
-w
+t
 a
 "}
 (7,1,1) = {"
@@ -306,20 +267,20 @@ a
 b
 x
 r
-y
+l
 e
-I
-I
+b
+b
 a
 "}
 (8,1,1) = {"
 a
-b
-w
-o
-t
-b
 a
+b
+t
+t
+t
+u
 a
 a
 "}

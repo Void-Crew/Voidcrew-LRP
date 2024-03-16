@@ -1,3 +1,14 @@
+/obj/item/stack/tile/material
+	name = "floor tile"
+	singular_name = "floor tile"
+	desc = "The ground you walk on."
+	throwforce = 10
+	icon_state = "material_tile"
+	turf_type = /turf/open/floor/material
+	material_flags = MATERIAL_ADD_PREFIX | MATERIAL_COLOR | MATERIAL_AFFECT_STATISTICS
+
+//PLASMA
+
 /obj/item/stack/tile/mineral/plasma
 	name = "plasma tile"
 	singular_name = "plasma floor tile"
@@ -58,6 +69,7 @@
 	mineralType = "bananium"
 	custom_materials = list(/datum/material/bananium=500)
 
+// ALIEN ALLOY
 /obj/item/stack/tile/mineral/abductor
 	name = "alien floor tile"
 	singular_name = "alien floor tile"

@@ -1,14 +1,33 @@
 /obj/structure/closet
 	name = "closet"
 	desc = "It's a basic storage unit."
-	icon = 'goon/icons/obj/closet.dmi'
+	icon = 'icons/obj/closet_new.dmi'
 	icon_state = "generic"
 	density = TRUE
-	drag_slowdown = 1.5		// Same as a prone mob
+	drag_slowdown = 1.5 // Same as a prone mob
 	max_integrity = 200
 	integrity_failure = 0.25
 	armor = list("melee" = 20, "bullet" = 10, "laser" = 10, "energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 70, "acid" = 60)
+	blocks_emissive = EMISSIVE_BLOCK_GENERIC
 
+	/// The overlay for the closet's door
+	var/obj/effect/overlay/closet_door/door_obj
+	/// Whether or not this door is being animated
+	var/is_animating_door = FALSE
+	/// Vertical squish of the door
+	var/door_anim_squish = 0.12
+	/// The maximum angle the door will be drawn at
+	var/door_anim_angle = 136
+	/// X position of the closet door hinge
+	var/door_hinge_x = -6.5
+	/// Amount of time it takes for the door animation to play
+	var/door_anim_time = 1.5 // set to 0 to make the door not animate at all
+	/// Paint jobs for this closet, crates are a subtype of closet so they override these values
+	var/list/paint_jobs = TRUE
+	/// Controls whether a door overlay should be applied using the icon_door value as the icon state
+	var/enable_door_overlay = TRUE
+	var/has_opened_overlay = TRUE
+	var/has_closed_overlay = TRUE
 	var/icon_door = null
 	var/icon_door_override = FALSE //override to have open overlay use icon different to its base's
 	var/secure = FALSE //secure locker or not, also used if overriding a non-secure locker with a secure door overlay to add fancy lights
@@ -40,6 +59,20 @@
 	/// Whether or not to populate items roundstart
 	var/populate = TRUE
 
+	/// Whether a skittish person can dive inside this closet. Disable if opening the closet causes "bad things" to happen or that it leads to a logical inconsistency.
+	var/divable = TRUE
+	/// true whenever someone with the strong pull component (or magnet modsuit module) is dragging this, preventing opening
+	var/strong_grab = FALSE
+
+	var/contents_initialized = FALSE
+	/// is this closet locked by an exclusive id, i.e. your own personal locker
+	var/datum/weakref/id_card = null
+	/// should we prevent further access change
+	var/access_locked = FALSE
+	/// is the card reader installed in this machine
+	var/card_reader_installed = FALSE
+	/// access types for card reader
+	var/list/access_choices = TRUE
 
 /obj/structure/closet/Initialize(mapload)
 	if(mapload && !opened)		// if closed, any item at the crate's loc is put in the contents
@@ -56,11 +89,21 @@
 
 //USE THIS TO FILL IT, NOT INITIALIZE OR NEW
 /obj/structure/closet/proc/PopulateContents()
+/// Populate the closet with stuff that needs to be added before it is opened.
+/// This is useful for things like traitor objectives.
+/obj/structure/closet/proc/populate_contents_immediate()
 	return
 
 /obj/structure/closet/Destroy()
 	dump_contents()
 	return ..()
+
+/obj/structure/closet/update_icon(updates=ALL)
+	. = ..()
+	if(opened || broken || !secure)
+		luminosity = 0
+		return
+	luminosity = 1
 
 /obj/structure/closet/update_icon()
 	. = ..()
@@ -88,6 +131,7 @@
 			//Overlay is similar enough for both that we can use the same mask for both
 			luminosity = 1
 			SSvis_overlays.add_vis_overlay(src, icon, "locked", EMISSIVE_LAYER, EMISSIVE_PLANE, dir, alpha)
+			. += locked ? "locked" : "unlocked"
 			if(locked)
 				. += "locked"
 			else
@@ -113,7 +157,7 @@
 		if(HAS_TRAIT(L, TRAIT_SKITTISH))
 			. += "<span class='notice'>Ctrl-Shift-click [src] to jump inside.</span>"
 
-/obj/structure/closet/CanAllowThrough(atom/movable/mover, turf/target)
+/obj/structure/closet/CanAllowThrough(atom/movable/mover, border_dir)
 	. = ..()
 	if(wall_mounted)
 		return TRUE
@@ -123,11 +167,15 @@
 		return TRUE
 	if(welded || locked)
 		return FALSE
+	if(strong_grab)
+		if(user)
+			to_chat(user, span_danger("[pulledby] has an incredibly strong grip on [src], preventing it from opening."))
+		return FALSE
 	var/turf/T = get_turf(src)
 	for(var/mob/living/L in T)
 		if(L.anchored || horizontal && L.mob_size > MOB_SIZE_TINY && L.density)
 			if(user)
-				to_chat(user, "<span class='danger'>There's something large on top of [src], preventing it from opening.</span>" )
+				to_chat(user, span_danger("There's something large on top of [src], preventing it from opening."))
 			return FALSE
 	return TRUE
 
@@ -139,22 +187,28 @@
 	for(var/mob/living/L in T)
 		if(L.anchored || horizontal && L.mob_size > MOB_SIZE_TINY && L.density)
 			if(user)
-				to_chat(user, "<span class='danger'>There's something too large in [src], preventing it from closing.</span>")
+				to_chat(user, span_danger("There's something too large in [src], preventing it from closing."))
 			return FALSE
 	return TRUE
 
 /obj/structure/closet/dump_contents()
+	if (!contents_initialized)
+		contents_initialized = TRUE
+		PopulateContents()
+
 	var/atom/L = drop_location()
-	for(var/atom/movable/AM as anything in src)
+	for(var/atom/movable/AM in src)
 		AM.forceMove(L)
 		if(throwing) // you keep some momentum when getting out of a thrown closet
 			step(AM, dir)
 	if(throwing)
 		throwing.finalize(FALSE)
 
-/obj/structure/closet/proc/take_contents()
-	var/atom/L = drop_location()
-	for(var/atom/movable/AM in L)
+/obj/structure/closet/proc/take_contents(mapload = FALSE)
+	var/atom/location = drop_location()
+	if(!location)
+		return
+	for(var/atom/movable/AM in location)
 		if(istype(AM, /obj/effect))	//WS edit, closets and crates do not eat your lamp
 			continue
 		if(AM != src && insert(AM) == -1) // limit reached
@@ -175,6 +229,10 @@
 	dump_contents()
 	update_icon()
 	return TRUE
+
+///Proc to override for effects after opening a door
+/obj/structure/closet/proc/after_open(mob/living/user, force = FALSE)
+	return
 
 /obj/structure/closet/proc/insert(atom/movable/AM)
 	if(contents.len >= storage_capacity)
@@ -199,14 +257,15 @@
 				return FALSE
 			var/mobs_stored = 0
 			for(var/mob/living/M in contents)
-				if(++mobs_stored >= mob_storage_capacity)
+				mobs_stored++
+				if(mobs_stored >= mob_storage_capacity)
 					return FALSE
 		L.stop_pulling()
 
 	else if(istype(AM, /obj/structure/closet))
 		return FALSE
 	else if(isobj(AM))
-		if((!allow_dense && AM.density) || AM.anchored || AM.has_buckled_mobs())
+		if((!allow_dense && AM.density) || AM.anchored || AM.has_buckled_mobs() || ismecha(AM))
 			return FALSE
 		else if(isitem(AM) && !HAS_TRAIT(AM, TRAIT_NODROP))
 			return TRUE
@@ -217,17 +276,29 @@
 
 	return TRUE
 
+///Proc to write checks before closing a door
+/obj/structure/closet/proc/before_close(mob/living/user)
+	return TRUE
+
 /obj/structure/closet/proc/close(mob/living/user)
 	if(!opened || !can_close(user))
 		return FALSE
 	take_contents()
 	playsound(loc, close_sound, close_sound_volume, TRUE, -3)
+	opened = FALSE
 	climb_time = initial(climb_time)
 	opened = FALSE
 	density = TRUE
 	update_icon()
 	return TRUE
 
+///Proc to do effects after closet has closed
+/obj/structure/closet/proc/after_close(mob/living/user)
+	return
+
+/**
+ * Toggles a closet open or closed, to the opposite state. Does not respect locked or welded states, however.
+ */
 /obj/structure/closet/proc/toggle(mob/living/user)
 	if(opened)
 		return close(user)
@@ -235,13 +306,53 @@
 		return open(user)
 
 /obj/structure/closet/deconstruct(disassembled = TRUE)
-	if(ispath(material_drop) && material_drop_amount && !(flags_1 & NODECONSTRUCT_1))
-		new material_drop(loc, material_drop_amount)
+	if (!(flags_1 & NODECONSTRUCT_1))
+		if(ispath(material_drop) && material_drop_amount)
+			new material_drop(loc, material_drop_amount)
+		if (secure)
+			var/obj/item/electronics/airlock/electronics = new(drop_location())
+			if(length(req_one_access))
+				electronics.one_access = TRUE
+				electronics.accesses = req_one_access
+			else
+				electronics.accesses = req_access
+		if(card_reader_installed)
+			new /obj/item/stock_parts/card_reader(drop_location())
+	dump_contents()
 	qdel(src)
 
 /obj/structure/closet/obj_break(damage_flag)
 	if(!broken && !(flags_1 & NODECONSTRUCT_1))
 		bust_open()
+
+/obj/structure/closet/CheckParts(list/parts_list)
+	var/obj/item/electronics/airlock/access_control = locate() in parts_list
+	if(QDELETED(access_control))
+		return
+
+	if (access_control.one_access)
+		req_one_access = access_control.accesses
+		req_access = null
+	else
+		req_access = access_control.accesses
+		req_one_access = null
+	access_control.moveToNullspace()
+
+	parts_list -= access_control
+	qdel(access_control)
+
+/obj/structure/closet/multitool_act(mob/living/user, obj/item/tool)
+	if(!secure || !card_reader_installed || broken || locked || opened)
+		return
+
+/// sets the access for the closets from the swiped ID card
+/obj/structure/closet/proc/set_access(list/accesses)
+	if(length(req_one_access))
+		req_one_access = accesses
+		req_access = null
+	else
+		req_access = accesses
+		req_one_access = null
 
 /obj/structure/closet/attackby(obj/item/W, mob/user, params)
 	if(user in src)
@@ -251,6 +362,7 @@
 	else
 		return ..()
 
+/// returns TRUE if attackBy call shouldn't be continued (because tool was used/closet was of wrong type), FALSE if otherwise
 /obj/structure/closet/proc/tool_interact(obj/item/W, mob/user)//returns TRUE if attackBy call shouldnt be continued (because tool was used/closet was of wrong type), FALSE if otherwise
 	. = TRUE
 	if(opened)
@@ -346,6 +458,7 @@
 				L.Paralyze(40)
 			O.forceMove(T)
 			close()
+			log_combat(user, O, "stuffed", addition = "inside of [src]")
 	else
 		O.forceMove(T)
 	return 1
@@ -356,7 +469,7 @@
 	if(locked)
 		if(message_cooldown <= world.time)
 			message_cooldown = world.time + 50
-			to_chat(user, "<span class='warning'>[src]'s door won't budge!</span>")
+			to_chat(user, span_warning("[src]'s door won't budge!"))
 		return
 	container_resist_act(user)
 

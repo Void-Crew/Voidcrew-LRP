@@ -1,11 +1,9 @@
 /*
-
 	Hello and welcome to sprite_accessories: For sprite accessories, such as hair,
 	facial hair, and possibly tattoos and stuff somewhere along the line. This file is
 	intended to be friendly for people with little to no actual coding experience.
 	The process of adding in new hairstyles has been made pain-free and easy to do.
 	Enjoy! - Doohl
-
 
 	Notice: This all gets automatically compiled in a list in dna.dm, so you do not
 	have to define any UI values for sprite accessories manually for hair and facial
@@ -16,7 +14,9 @@
 	from doing this unless you absolutely know what you are doing, and have defined a
 	conversion in savefile.dm
 */
-/proc/init_sprite_accessory_subtypes(prototype, list/L, list/male, list/female,var/roundstart = FALSE)//Roundstart argument builds a specific list for roundstart parts where some parts may be locked
+
+//Roundstart argument builds a specific list for roundstart parts where some parts may be locked
+/proc/init_sprite_accessory_subtypes(prototype, list/L, list/male, list/female, roundstart = FALSE)
 	if(!istype(L))
 		L = list()
 	if(!istype(male))
@@ -47,20 +47,44 @@
 	return L
 
 /datum/sprite_accessory
-	var/icon			//the icon file the accessory is located in
-	var/icon_state		//the icon_state of the accessory
-	var/name			//the preview name of the accessory
-	var/gender = NEUTER	//Determines if the accessory will be skipped or included in random hair generations
-	var/gender_specific //Something that can be worn by either gender, but looks different on each
-	var/use_static		//determines if the accessory will be skipped by color preferences
-	var/color_src = MUTCOLORS	//Currently only used by mutantparts so don't worry about hair and stuff. This is the source that this accessory will get its color from. Default is MUTCOLOR, but can also be HAIR, FACEHAIR, EYECOLOR and 0 if none.
-	var/hasinner		//Decides if this sprite has an "inner" part, such as the fleshy parts on ears.
-	var/locked = FALSE		//Is this part locked from roundstart selection? Used for parts that apply effects
+	var/icon							//the icon file the accessory is located in
+	var/icon_state						//the icon_state of the accessory
+	var/name							//the preview name of the accessory
+	var/gender = NEUTER					//Determines if the accessory will be skipped or included in random hair generations
+	var/gender_specific					//Something that can be worn by either gender, but looks different on each
+	var/use_static						//determines if the accessory will be skipped by color preferences
+	var/color_src = MUTCOLORS			//Currently only used by mutantparts so don't worry about hair and stuff. This is the source that this accessory will get its color from. Default is MUTCOLOR, but can also be HAIR, FACEHAIR, EYECOLOR and 0 if none.
+	var/secondary_color					//Decides if this sprite has a secondary color in use.
+	var/locked = FALSE					//Is this part locked from roundstart selection? Used for parts that apply effects
+	var/center = FALSE					//Should we center the sprite?
+	var/limbs_id						//The limbs id supplied for full-body replacing features.
+	var/image_alpha = 255				//The alpha for the accessory to use.
 	var/dimension_x = 32
 	var/dimension_y = 32
-	var/center = FALSE	//Should we center the sprite?
-	var/limbs_id // The limbs id supplied for full-body replacing features.
-	var/image_alpha = 255 // The alpha for the accessory to use.
+	var/body_zone = BODY_ZONE_CHEST		//The body zone this accessory affects
+	var/synthetic_icon_state			//The icon_state to use when the bodypart it's attached to is synthetic
+	var/synthetic_color_src				//The color src to use instead of the normal src when synthetic, leave blank to use the normal src
+
+//Squids AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA whyyyy
+/datum/sprite_accessory/squid_face
+	icon = 'icons/mob/mutant_bodyparts.dmi'
+
+/datum/sprite_accessory/squid_face/squidward
+	name = "Squidward"
+	icon_state = "squidward"
+
+/datum/sprite_accessory/squid_face/illithid
+	name = "Illithid"
+	icon_state = "illithid"
+
+/datum/sprite_accessory/squid_face/freaky
+	name = "Freaky"
+	icon_state = "freaky"
+
+/datum/sprite_accessory/squid_face/grabbers
+	name = "Grabbers"
+	icon_state = "grabbers"
+
 
 //////////////////////
 // Hair Definitions //
@@ -1645,63 +1669,262 @@
 
 /datum/sprite_accessory/body_markings
 	icon = 'icons/mob/mutant_bodyparts.dmi'
+	color_src = MUTCOLORS_SECONDARY
+	body_zone = BODY_ZONE_CHEST
 
 /datum/sprite_accessory/body_markings/none
 	name = "None"
 	icon_state = "none"
 
-/datum/sprite_accessory/body_markings/dtiger
-	name = "Dark Tiger Body"
-	icon_state = "dtiger"
-	gender_specific = 1
-
 /datum/sprite_accessory/body_markings/ltiger
-	name = "Light Tiger Body"
-	icon_state = "ltiger"
-	gender_specific = 1
+	name = "Tiger"
+	icon_state = "tiger"
 
 /datum/sprite_accessory/body_markings/lbelly
 	name = "Light Belly"
 	icon_state = "lbelly"
-	gender_specific = 1
+
+/datum/sprite_accessory/body_markings/cracks
+	name = "Cracks"
+	icon_state = "cracks"
+
+//Start tails
 
 /datum/sprite_accessory/tails
 	icon = 'icons/mob/mutant_bodyparts.dmi'
+	body_zone = BODY_ZONE_CHEST
+	secondary_color = TRUE
 
 /datum/sprite_accessory/tails_animated
 	icon = 'icons/mob/mutant_bodyparts.dmi'
+	secondary_color = TRUE
+	body_zone = BODY_ZONE_CHEST
 
 /datum/sprite_accessory/tails/lizard/smooth
-	name = "Smooth"
+	name = "Smooth (Two color)"
 	icon_state = "smooth"
 
 /datum/sprite_accessory/tails_animated/lizard/smooth
-	name = "Smooth"
+	name = "Smooth (Two color)"
 	icon_state = "smooth"
 
-/datum/sprite_accessory/tails/lizard/dtiger
-	name = "Dark Tiger"
-	icon_state = "dtiger"
+/datum/sprite_accessory/tails/lizard/smooth_onecolor
+	name = "Smooth (One color)"
+	icon_state = "smooth2"
+	secondary_color = FALSE
 
-/datum/sprite_accessory/tails_animated/lizard/dtiger
-	name = "Dark Tiger"
-	icon_state = "dtiger"
+/datum/sprite_accessory/tails_animated/lizard/smooth_onecolor
+	name = "Smooth (One color)"
+	icon_state = "smooth2"
 
-/datum/sprite_accessory/tails/lizard/ltiger
-	name = "Light Tiger"
-	icon_state = "ltiger"
+/datum/sprite_accessory/tails/lizard/prosthetic
+	name = "Prosthetic"
+	icon_state = "synth"
 
-/datum/sprite_accessory/tails_animated/lizard/ltiger
-	name = "Light Tiger"
-	icon_state = "ltiger"
+/datum/sprite_accessory/tails_animated/lizard/prosthetic
+	name = "Prosthetic"
+	icon_state = "synth"
 
-/datum/sprite_accessory/tails/lizard/spikes
-	name = "Spikes"
-	icon_state = "spikes"
+/datum/sprite_accessory/tails/lizard/large
+	name = "Large"
+	icon_state = "large"
 
-/datum/sprite_accessory/tails_animated/lizard/spikes
-	name = "Spikes"
-	icon_state = "spikes"
+/datum/sprite_accessory/tails_animated/lizard/large
+	name = "Large"
+	icon_state = "large"
+
+/datum/sprite_accessory/tails/lizard/small
+	name = "Small"
+	icon_state = "small"
+
+/datum/sprite_accessory/tails_animated/lizard/small
+	name = "Small"
+	icon_state = "small"
+
+//Start Face markings
+
+/datum/sprite_accessory/face_markings
+	icon = 'icons/mob/mutant_bodyparts.dmi'
+	body_zone = BODY_ZONE_HEAD
+	color_src = MUTCOLORS_SECONDARY
+
+/datum/sprite_accessory/face_markings/none
+	name = "None"
+	icon_state = "none"
+
+/datum/sprite_accessory/face_markings/jaw
+	name = "Jaw"
+	icon_state = "jaw"
+
+/datum/sprite_accessory/face_markings/top
+	name = "Top Stripe"
+	icon_state = "top"
+
+/datum/sprite_accessory/face_markings/eye
+	name = "Alligator Skink"
+	icon_state = "eye"
+
+/datum/sprite_accessory/face_markings/dome
+	name = "Dome"
+	icon_state = "dome"
+
+//Start Horns
+
+/datum/sprite_accessory/horns
+	icon = 'icons/mob/mutant_bodyparts.dmi'
+	color_src = HAIR
+	body_zone = BODY_ZONE_HEAD
+
+/datum/sprite_accessory/horns/none
+	name = "None"
+	icon_state = "none"
+
+//new horns
+/datum/sprite_accessory/horns/broken
+	name = "Broken"
+	icon_state = "broken"
+
+/datum/sprite_accessory/horns/lightning
+	name = "Lightning"
+	icon_state = "lightning"
+
+/datum/sprite_accessory/horns/brimstone
+	name = "Brimstone"
+	icon_state = "brimstone"
+
+//old horns
+/datum/sprite_accessory/horns/simple
+	name = "Simple"
+	icon_state = "simple"
+
+/datum/sprite_accessory/horns/short
+	name = "Short"
+	icon_state = "short"
+
+/datum/sprite_accessory/horns/curled
+	name = "Curled"
+	icon_state = "curled"
+
+/datum/sprite_accessory/horns/ram //remade
+	name = "Ram"
+	icon_state = "ram"
+
+/datum/sprite_accessory/horns/angler
+	name = "Angeler"
+	icon_state = "angler"
+
+//Start Frills
+
+/datum/sprite_accessory/frills
+	icon = 'icons/mob/mutant_bodyparts.dmi'
+	secondary_color = TRUE
+
+/datum/sprite_accessory/frills/none
+	name = "None"
+	icon_state = "none"
+
+//Ears are here because having frills+ears would overlap and be weird.
+
+/datum/sprite_accessory/frills/aquatic
+	name = "Aquatic"
+	icon_state = "aqua"
+
+/datum/sprite_accessory/frills/droopy
+	name = "Droopy"
+	icon_state = "droopy"
+
+/datum/sprite_accessory/frills/ears
+	name = "Normal ears"
+	icon_state = "ears"
+
+//End ears
+
+/datum/sprite_accessory/frills/frillhawk
+	name = "Frillhawk"
+	icon_state = "frillhawk"
+
+/datum/sprite_accessory/frills/neck
+	name = "Neck"
+	icon_state = "neck"
+
+/datum/sprite_accessory/frills/neckbig
+	name = "Frilled Dragon"
+	icon_state = "neckbig"
+
+/datum/sprite_accessory/frills/short
+	name = "Short"
+	icon_state = "short"
+
+/datum/sprite_accessory/frills/simple
+	name = "Simple"
+	icon_state = "simple"
+
+//Start Spines
+
+/datum/sprite_accessory/spines
+	icon = 'icons/mob/mutant_bodyparts.dmi'
+
+/datum/sprite_accessory/spines_animated
+	icon = 'icons/mob/mutant_bodyparts.dmi'
+
+/datum/sprite_accessory/spines/none
+	name = "None"
+	icon_state = "none"
+
+/datum/sprite_accessory/spines_animated/none
+	name = "None"
+	icon_state = "none"
+
+/datum/sprite_accessory/spines/short
+	name = "Short"
+	icon_state = "short"
+
+/datum/sprite_accessory/spines_animated/short
+	name = "Short"
+	icon_state = "short"
+
+/datum/sprite_accessory/spines/shortmeme
+	name = "Short + Membrane"
+	icon_state = "shortmeme"
+
+/datum/sprite_accessory/spines_animated/shortmeme
+	name = "Short + Membrane"
+	icon_state = "shortmeme"
+
+/datum/sprite_accessory/spines/long
+	name = "Long"
+	icon_state = "long"
+
+/datum/sprite_accessory/spines_animated/long
+	name = "Long"
+	icon_state = "long"
+
+/datum/sprite_accessory/spines/longmeme
+	name = "Long + Membrane"
+	icon_state = "longmeme"
+
+/datum/sprite_accessory/spines_animated/longmeme
+	name = "Long + Membrane"
+	icon_state = "longmeme"
+
+/datum/sprite_accessory/spines/aquatic
+	name = "Aquatic"
+	icon_state = "aqua"
+
+/datum/sprite_accessory/spines_animated/aquatic
+	name = "Aquatic"
+	icon_state = "aqua"
+
+//Leg stuff, no better place to put it, no point in a legs.dm file
+
+/datum/sprite_accessory/legs 	//legs are a special case, they aren't actually sprite_accessories but are updated with them.
+	icon = null					//These datums exist for selecting legs on preference, and little else
+
+/datum/sprite_accessory/legs/none
+	name = "Normal Legs"
+
+/datum/sprite_accessory/legs/digitigrade_lizard
+	name = "Digitigrade Legs"
 
 /datum/sprite_accessory/tails/human/none
 	name = "None"
@@ -1733,51 +1956,8 @@
 	color_src = HAIR
 	image_alpha = 150
 
-/datum/sprite_accessory/snouts
+/datum/sprite_accessory/face_markings
 	icon = 'icons/mob/mutant_bodyparts.dmi'
-
-/datum/sprite_accessory/snouts/sharp
-	name = "Sharp"
-	icon_state = "sharp"
-
-/datum/sprite_accessory/snouts/round
-	name = "Round"
-	icon_state = "round"
-
-/datum/sprite_accessory/snouts/sharplight
-	name = "Sharp + Light"
-	icon_state = "sharplight"
-
-/datum/sprite_accessory/snouts/roundlight
-	name = "Round + Light"
-	icon_state = "roundlight"
-
-/datum/sprite_accessory/horns
-	icon = 'icons/mob/mutant_bodyparts.dmi'
-
-/datum/sprite_accessory/horns/none
-	name = "None"
-	icon_state = "none"
-
-/datum/sprite_accessory/horns/simple
-	name = "Simple"
-	icon_state = "simple"
-
-/datum/sprite_accessory/horns/short
-	name = "Short"
-	icon_state = "short"
-
-/datum/sprite_accessory/horns/curled
-	name = "Curled"
-	icon_state = "curled"
-
-/datum/sprite_accessory/horns/ram
-	name = "Ram"
-	icon_state = "ram"
-
-/datum/sprite_accessory/horns/angler
-	name = "Angeler"
-	icon_state = "angler"
 
 /datum/sprite_accessory/ears
 	icon = 'icons/mob/mutant_bodyparts.dmi'
@@ -1789,13 +1969,13 @@
 /datum/sprite_accessory/ears/cat
 	name = "Cat"
 	icon_state = "cat"
-	hasinner = 1
+	secondary_color = 1
 	color_src = HAIR
 
 /datum/sprite_accessory/ears/cat/slime
 	name = "Slimecat"
 	icon_state = "cat"
-	hasinner = FALSE
+	secondary_color = FALSE
 	color_src = HAIR
 	image_alpha = 150
 
@@ -1874,88 +2054,6 @@
 	dimension_x = 96
 	center = TRUE
 	dimension_y = 32
-
-/datum/sprite_accessory/frills
-	icon = 'icons/mob/mutant_bodyparts.dmi'
-
-/datum/sprite_accessory/frills/none
-	name = "None"
-	icon_state = "none"
-
-/datum/sprite_accessory/frills/simple
-	name = "Simple"
-	icon_state = "simple"
-
-/datum/sprite_accessory/frills/short
-	name = "Short"
-	icon_state = "short"
-
-/datum/sprite_accessory/frills/aquatic
-	name = "Aquatic"
-	icon_state = "aqua"
-
-/datum/sprite_accessory/spines
-	icon = 'icons/mob/mutant_bodyparts.dmi'
-
-/datum/sprite_accessory/spines_animated
-	icon = 'icons/mob/mutant_bodyparts.dmi'
-
-/datum/sprite_accessory/spines/none
-	name = "None"
-	icon_state = "none"
-
-/datum/sprite_accessory/spines_animated/none
-	name = "None"
-	icon_state = "none"
-
-/datum/sprite_accessory/spines/short
-	name = "Short"
-	icon_state = "short"
-
-/datum/sprite_accessory/spines_animated/short
-	name = "Short"
-	icon_state = "short"
-
-/datum/sprite_accessory/spines/shortmeme
-	name = "Short + Membrane"
-	icon_state = "shortmeme"
-
-/datum/sprite_accessory/spines_animated/shortmeme
-	name = "Short + Membrane"
-	icon_state = "shortmeme"
-
-/datum/sprite_accessory/spines/long
-	name = "Long"
-	icon_state = "long"
-
-/datum/sprite_accessory/spines_animated/long
-	name = "Long"
-	icon_state = "long"
-
-/datum/sprite_accessory/spines/longmeme
-	name = "Long + Membrane"
-	icon_state = "longmeme"
-
-/datum/sprite_accessory/spines_animated/longmeme
-	name = "Long + Membrane"
-	icon_state = "longmeme"
-
-/datum/sprite_accessory/spines/aqautic
-	name = "Aquatic"
-	icon_state = "aqua"
-
-/datum/sprite_accessory/spines_animated/aqautic
-	name = "Aquatic"
-	icon_state = "aqua"
-
-/datum/sprite_accessory/legs 	//legs are a special case, they aren't actually sprite_accessories but are updated with them.
-	icon = null					//These datums exist for selecting legs on preference, and little else
-
-/datum/sprite_accessory/legs/none
-	name = "Normal Legs"
-
-/datum/sprite_accessory/legs/digitigrade_lizard
-	name = "Digitigrade Legs"
 
 /datum/sprite_accessory/caps
 	icon = 'icons/mob/mutant_bodyparts.dmi'

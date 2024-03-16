@@ -1,16 +1,17 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "az" = (
-/obj/structure/window/bronze{
+/obj/structure/window/reinforced/survival_pod,
+/obj/structure/window/reinforced/survival_pod{
 	dir = 4
 	},
-/obj/structure/window/bronze,
-/turf/open/floor/carpet/nanoweave/red,
+/turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "aA" = (
 /obj/structure/frame/computer{
 	anchored = 1
 	},
-/turf/open/floor/carpet/nanoweave/blue,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/dark,
 /area/ship/bridge)
 "aJ" = (
 /obj/structure/sink{
@@ -20,70 +21,76 @@
 	pixel_y = -30
 	},
 /obj/machinery/light,
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/iron/freezer,
 /area/ship/bridge)
 "aW" = (
 /obj/machinery/computer/autopilot,
-/turf/open/floor/carpet/nanoweave/blue,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/dark,
 /area/ship/bridge)
 "bD" = (
-/obj/structure/shuttle/engine/heater,
-/obj/structure/window/reinforced/spawner,
-/turf/open/floor/plasteel/freezer,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/obj/effect/turf_decal/syndicateemblem/bottom/left,
+/turf/open/floor/mineral/plastitanium/red,
 /area/ship/bridge)
 "bF" = (
-/obj/structure/table/bronze,
 /obj/item/storage/firstaid/advanced,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/carpet/nanoweave/blue,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
 /area/ship/bridge)
 "cS" = (
-/obj/structure/chair/bronze{
+/obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
-/turf/open/floor/carpet/nanoweave/blue,
+/turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "de" = (
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/iron/freezer,
 /area/ship/bridge)
 "eI" = (
-/obj/structure/table/bronze,
-/obj/item/storage/belt/utility,
-/turf/open/floor/carpet/nanoweave/blue,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
 /area/ship/bridge)
 "gb" = (
-/turf/open/floor/carpet/nanoweave/red,
+/obj/effect/turf_decal/syndicateemblem/top/middle,
+/turf/open/floor/mineral/plastitanium/red,
 /area/ship/bridge)
 "gG" = (
 /obj/machinery/light/floor,
-/turf/open/floor/carpet/nanoweave/blue,
+/turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "io" = (
 /obj/structure/chair/bronze,
-/obj/machinery/door/window{
-	dir = 1
+/obj/machinery/door/window/survival_pod{
+	dir = 1;
+	name = "Front Desk"
 	},
-/turf/open/floor/carpet/nanoweave/beige,
+/turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "iX" = (
-/obj/structure/window/bronze{
+/obj/structure/window/reinforced/survival_pod{
 	dir = 4
 	},
-/obj/structure/window/bronze{
+/obj/structure/window/reinforced/survival_pod{
 	dir = 1
 	},
-/obj/structure/table/bronze,
-/obj/item/encryptionkey/wideband{
-	pixel_y = 12
-	},
-/turf/open/floor/carpet/nanoweave/red,
+/turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "lm" = (
 /obj/machinery/atmospherics/components/unary/tank/air,
 /obj/structure/curtain/cloth/grey,
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/iron/freezer,
 /area/ship/bridge)
 "oK" = (
 /obj/machinery/power/shuttle/engine/void{
@@ -92,18 +99,25 @@
 /turf/open/floor/plating,
 /area/ship/bridge)
 "pO" = (
-/obj/structure/table/bronze,
-/turf/open/floor/carpet/nanoweave/blue,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/item/storage/belt/utility,
+/obj/item/multitool,
+/turf/open/floor/iron/dark,
 /area/ship/bridge)
 "pY" = (
-/obj/structure/table/bronze,
-/turf/open/floor/carpet/nanoweave/orange,
+/obj/structure/table/reinforced,
+/turf/open/floor/carpet/red_gold,
 /area/ship/bridge)
 "rm" = (
-/obj/structure/window/bronze,
-/obj/structure/table/bronze,
-/obj/item/storage/toolbox/mechanical/old/clean,
-/turf/open/floor/carpet/nanoweave/blue,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/structure/window/reinforced/survival_pod,
+/turf/open/floor/iron/dark,
 /area/ship/bridge)
 "sq" = (
 /obj/machinery/door/airlock/external/glass,
@@ -116,61 +130,71 @@
 	port_direction = 2;
 	width = 11
 	},
-/turf/open/floor/carpet/nanoweave/red,
+/turf/open/floor/plating,
 /area/ship/bridge)
 "th" = (
 /obj/machinery/light/floor,
-/turf/open/floor/carpet/nanoweave/red,
+/obj/effect/turf_decal/syndicateemblem/middle/middle,
+/turf/open/floor/mineral/plastitanium/red,
 /area/ship/bridge)
 "tv" = (
 /obj/structure/shuttle/engine/heater,
 /obj/structure/window/reinforced/spawner,
-/turf/open/floor/carpet/nanoweave/orange,
+/obj/effect/turf_decal/industrial/warning/dust{
+	dir = 1
+	},
+/turf/open/floor/plating,
 /area/ship/bridge)
 "up" = (
-/obj/structure/window/bronze,
-/turf/open/floor/carpet/nanoweave/blue,
+/obj/structure/window/reinforced/survival_pod,
+/turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "uS" = (
-/obj/structure/window/bronze{
+/obj/structure/window/reinforced/survival_pod{
 	dir = 4
 	},
-/turf/open/floor/carpet/nanoweave/red,
+/obj/effect/turf_decal/syndicateemblem/top/right,
+/turf/open/floor/mineral/plastitanium/red,
 /area/ship/bridge)
 "vt" = (
-/obj/structure/window/bronze{
+/obj/structure/window/reinforced/survival_pod{
 	dir = 4
 	},
-/obj/structure/table/bronze,
-/turf/open/floor/carpet/nanoweave/red,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/encryptionkey/wideband{
+	pixel_y = 5
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "wJ" = (
 /obj/structure/tank_dispenser/oxygen,
-/obj/structure/window/bronze{
+/obj/machinery/light,
+/obj/structure/window/reinforced/survival_pod{
 	dir = 8
 	},
-/obj/machinery/light,
-/turf/open/floor/carpet/nanoweave/red,
+/turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "wV" = (
-/obj/structure/window/bronze{
-	dir = 8
-	},
-/obj/machinery/jukebox,
-/obj/structure/window/bronze{
-	dir = 1
-	},
 /obj/item/radio/intercom/wideband{
 	pixel_y = -32
 	},
-/turf/open/floor/carpet/nanoweave/beige,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "xx" = (
-/obj/structure/table/bronze,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/carpet/nanoweave,
+/obj/structure/table/reinforced,
+/obj/structure/curtain/cloth/grey{
+	pixel_x = -32
+	},
+/turf/open/floor/carpet/red_gold,
 /area/ship/bridge)
 "yX" = (
 /obj/machinery/shower{
@@ -180,162 +204,192 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/iron/freezer,
 /area/ship/bridge)
 "Au" = (
 /obj/structure/bed,
 /obj/item/bedsheet/syndie,
 /obj/structure/curtain/cloth/grey,
-/turf/open/floor/carpet/nanoweave,
+/turf/open/floor/carpet/red_gold,
 /area/ship/bridge)
 "Ba" = (
-/obj/structure/window/bronze{
+/obj/structure/window/reinforced/survival_pod{
 	dir = 8
 	},
-/turf/open/floor/carpet/nanoweave/red,
+/obj/effect/turf_decal/syndicateemblem/top/left,
+/turf/open/floor/mineral/plastitanium/red,
 /area/ship/bridge)
 "BI" = (
-/obj/structure/table/bronze,
 /obj/item/trash/plate,
-/turf/open/floor/carpet/nanoweave/orange,
+/obj/structure/table/reinforced/rglass,
+/obj/structure/curtain/cloth/grey{
+	pixel_x = 32
+	},
+/turf/open/floor/carpet/red_gold,
 /area/ship/bridge)
 "EK" = (
-/turf/open/floor/carpet/nanoweave,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 4
+	},
+/obj/effect/turf_decal/syndicateemblem/bottom/right,
+/turf/open/floor/mineral/plastitanium/red,
 /area/ship/bridge)
 "EY" = (
-/obj/structure/table/bronze,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/carpet/nanoweave/blue,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/item/storage/toolbox/mechanical/old/clean,
+/turf/open/floor/iron/dark,
 /area/ship/bridge)
 "GQ" = (
 /obj/machinery/door/window/westright{
 	dir = 2
 	},
-/turf/open/floor/carpet/nanoweave/blue,
+/turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "Hu" = (
 /obj/machinery/door/window/westright,
-/turf/open/floor/carpet/nanoweave,
+/obj/effect/turf_decal/syndicateemblem/middle/left,
+/turf/open/floor/mineral/plastitanium/red,
 /area/ship/bridge)
 "HJ" = (
-/obj/structure/window/bronze,
-/obj/structure/window/bronze{
+/obj/structure/window/reinforced/survival_pod,
+/obj/structure/window/reinforced/survival_pod{
 	dir = 8
 	},
-/turf/open/floor/carpet/nanoweave/red,
+/turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "HZ" = (
 /obj/effect/mob_spawn/human/lavaland_syndicate/comms{
 	dir = 4
 	},
-/turf/open/floor/carpet/nanoweave,
+/obj/structure/curtain/cloth/grey{
+	pixel_x = -32
+	},
+/turf/open/floor/carpet/red_gold,
 /area/ship/bridge)
 "Jz" = (
 /obj/machinery/vending/autodrobe/all_access{
 	default_price = 0;
 	extra_price = 0
 	},
-/turf/open/floor/carpet/nanoweave,
+/turf/open/floor/carpet/red_gold,
 /area/ship/bridge)
 "Kn" = (
 /obj/machinery/computer/helm,
-/turf/open/floor/carpet/nanoweave/blue,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/dark,
 /area/ship/bridge)
 "Kr" = (
-/turf/open/floor/carpet/nanoweave/blue,
+/turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "Ky" = (
 /turf/open/space/basic,
 /area/space)
 "KK" = (
-/turf/open/floor/carpet/nanoweave/beige,
+/obj/effect/turf_decal/syndicateemblem/bottom/middle,
+/turf/open/floor/mineral/plastitanium/red,
 /area/ship/bridge)
 "Lu" = (
-/obj/structure/table/bronze,
 /obj/item/kitchen/knife,
-/turf/open/floor/carpet/nanoweave/orange,
+/obj/structure/table/reinforced/rglass,
+/obj/structure/curtain/cloth/grey{
+	pixel_x = 32
+	},
+/turf/open/floor/carpet/red_gold,
 /area/ship/bridge)
 "Mj" = (
 /obj/machinery/suit_storage_unit/standard_unit,
-/obj/structure/window/bronze{
+/obj/machinery/light,
+/obj/structure/window/reinforced/survival_pod{
 	dir = 4
 	},
-/obj/machinery/light,
-/turf/open/floor/carpet/nanoweave/red,
+/turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "Mo" = (
-/obj/structure/table/bronze,
-/obj/machinery/microwave,
+/obj/machinery/microwave{
+	pixel_y = 6
+	},
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/carpet/nanoweave/orange,
+/obj/structure/table/reinforced,
+/turf/open/floor/carpet/red_gold,
 /area/ship/bridge)
 "MW" = (
 /obj/structure/curtain/cloth/grey,
 /obj/structure/table,
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/iron/freezer,
 /area/ship/bridge)
 "Nh" = (
 /obj/machinery/door/window{
 	dir = 4
 	},
-/turf/open/floor/carpet/nanoweave/orange,
+/obj/effect/turf_decal/syndicateemblem/middle/right,
+/turf/open/floor/mineral/plastitanium/red,
 /area/ship/bridge)
 "Ob" = (
 /obj/structure/chair/plastic{
 	dir = 4
 	},
-/turf/open/floor/carpet/nanoweave/orange,
+/turf/open/floor/carpet/red_gold,
 /area/ship/bridge)
 "Ph" = (
-/obj/structure/table/bronze,
 /obj/machinery/light/floor,
 /obj/item/radio/intercom,
-/turf/open/floor/carpet/nanoweave/red,
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "Qw" = (
-/obj/structure/window/bronze{
-	dir = 1
-	},
 /obj/structure/toilet{
 	dir = 4
 	},
-/turf/open/floor/plasteel/freezer,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
+/turf/open/floor/iron/freezer,
 /area/ship/bridge)
 "QG" = (
-/obj/structure/window/bronze{
+/obj/structure/window/reinforced/survival_pod{
 	dir = 8
 	},
-/obj/structure/table/bronze,
-/turf/open/floor/carpet/nanoweave/red,
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "Rj" = (
 /obj/machinery/door/window{
 	dir = 1
 	},
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/iron/freezer,
 /area/ship/bridge)
 "Tq" = (
-/turf/open/floor/carpet/nanoweave/orange,
+/turf/open/floor/carpet/red_gold,
 /area/ship/bridge)
 "Ve" = (
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
 /area/ship/bridge)
 "Vx" = (
-/obj/structure/table/bronze,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/carpet/nanoweave/orange,
+/obj/structure/table/reinforced,
+/obj/structure/curtain/cloth/grey{
+	pixel_x = 32
+	},
+/turf/open/floor/carpet/red_gold,
 /area/ship/bridge)
 "VS" = (
 /obj/machinery/telecomms/allinone,
-/obj/structure/window/bronze,
-/turf/open/floor/carpet/nanoweave/blue,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/structure/window/reinforced/survival_pod,
+/turf/open/floor/iron/dark,
 /area/ship/bridge)
 "Xu" = (
 /obj/effect/spawner/lootdrop/donkpockets,
@@ -343,28 +397,28 @@
 /obj/structure/closet/secure_closet/freezer,
 /obj/effect/spawner/lootdrop/donkpockets,
 /obj/effect/spawner/lootdrop/donkpockets,
-/turf/open/floor/carpet/nanoweave/orange,
+/turf/open/floor/carpet/red_gold,
 /area/ship/bridge)
 "Ya" = (
-/obj/machinery/door/window/westright{
-	dir = 2
-	},
 /obj/machinery/holopad,
 /obj/structure/chair/comfy/teal{
 	dir = 1
 	},
-/turf/open/floor/carpet/nanoweave/red,
+/obj/machinery/door/window/survival_pod{
+	name = "Front Desk"
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "Yx" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/bridge)
 "Zp" = (
-/obj/structure/window/bronze{
-	dir = 1
-	},
 /obj/structure/curtain/cloth/grey,
 /obj/structure/table,
-/turf/open/floor/plasteel/freezer,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
+/turf/open/floor/iron/freezer,
 /area/ship/bridge)
 
 (1,1,1) = {"
@@ -376,8 +430,8 @@ Ky
 Ky
 Yx
 Ve
-Ve
-Ve
+Yx
+Yx
 Yx
 Ky
 Ky
@@ -404,8 +458,8 @@ Ve
 Ve
 Yx
 xx
-EK
-EK
+Tq
+Tq
 Rj
 de
 yX
@@ -419,12 +473,12 @@ bF
 eI
 rm
 Au
-EK
+Tq
 Jz
 Zp
 MW
 lm
-bD
+tv
 oK
 "}
 (5,1,1) = {"
@@ -435,7 +489,7 @@ Kr
 up
 Ba
 Hu
-Ba
+bD
 wV
 QG
 HJ
@@ -448,13 +502,13 @@ Kn
 cS
 gG
 GQ
-Kr
+gb
 th
 KK
 io
 Ph
 Ya
-gb
+Kr
 sq
 "}
 (7,1,1) = {"
@@ -465,7 +519,7 @@ Kr
 up
 uS
 Nh
-uS
+EK
 iX
 vt
 az

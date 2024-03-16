@@ -47,9 +47,9 @@
 	ears = /obj/item/radio/headset/heads/head_of_personnel
 	uniform = /obj/item/clothing/under/rank/command/head_of_personnel
 	alt_uniform = /obj/item/clothing/under/rank/command/head_of_personnel/suit //WS Edit - Alt Uniforms
-	alt_suit = /obj/item/clothing/suit/ianshirt
-	dcoat = /obj/item/clothing/suit/hooded/wintercoat/captain //WS Edit - Alt Uniforms
-	shoes = /obj/item/clothing/shoes/sneakers/brown
+	suit = /obj/item/clothing/suit/armor/vest/hopcoat
+	shoes = /obj/item/clothing/shoes/laceup
+	gloves = /obj/item/clothing/gloves/color/black
 	head = /obj/item/clothing/head/hopcap
 	backpack_contents = list(/obj/item/storage/box/ids=1,\
 		/obj/item/melee/classic_baton/telescopic=1, /obj/item/modular_computer/tablet/preset/advanced = 1)
@@ -65,3 +65,11 @@
 	..()
 	if(locate(/datum/holiday/ianbirthday) in SSevents.holidays)
 		undershirt = /datum/sprite_accessory/undershirt/ian
+
+/datum/outfit/job/head_of_personnel/nanotrasen
+	name = "Head of Personnel (Nanotrasen)"
+
+	uniform = /obj/item/clothing/under/rank/command/head_of_personnel/nt
+	alt_uniform = /obj/item/clothing/under/rank/command/head_of_personnel/suit //WS Edit - Alt Uniforms
+	suit = /obj/item/clothing/suit/armor/vest/hopcoat/nt
+	head = /obj/item/clothing/head/hopcap/nt

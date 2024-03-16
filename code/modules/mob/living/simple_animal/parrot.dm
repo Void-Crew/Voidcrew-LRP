@@ -263,6 +263,10 @@
 								available_channels.Add(RADIO_TOKEN_SUPPLY)
 							if(RADIO_CHANNEL_SERVICE)
 								available_channels.Add(RADIO_TOKEN_SERVICE)
+							if(RADIO_CHANNEL_INTEQ)
+								available_channels.Add(RADIO_TOKEN_INTEQ)
+							if(RADIO_CHANNEL_SOLGOV)
+								available_channels.Add(RADIO_TOKEN_SOLGOV)
 
 					if(headset_to_add.translate_binary)
 						available_channels.Add(MODE_TOKEN_BINARY)

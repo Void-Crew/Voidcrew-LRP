@@ -1,0 +1,32 @@
+{
+	"map_name": "Searchlight-Class Medical Cruiser",
+	"prefix": "SYN-C",
+	"map_short_name": "Searchlight-class",
+	"map_path": "_maps/shuttles/shiptest/searchlight.dmm",
+	"map_id": "searchlight",
+	"roundstart": true,
+	"job_slots": {
+		"Captain": {
+			"outfit": "/datum/outfit/job/captain/interdyne",
+			"officer": true,
+			"slots": 1
+		},
+		"Operative": {
+			"outfit": "/datum/outfit/job/security/interdyne",
+			"slots": 1
+			},
+		"Field Practicioner": {
+			"outfit": "/datum/outfit/job/doctor/interdyne",
+			"slots": 2
+			},
+		"Ship Engineer": {
+			"outfit": "/datum/outfit/job/engineer/gec",
+			"slots": 1
+		},
+		"Operations Assistant": {
+			"outfit": "/datum/outfit/job/assistant/syndicate",
+			"slots": 1
+		}
+	},
+	"cost": 600
+}

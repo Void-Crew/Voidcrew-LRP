@@ -2,12 +2,18 @@
 	name = "armory closet"
 	desc = "Why is this here?"
 	icon_state = "syndicate"
+	armor = list("melee" = 70, "bullet" = 40, "laser" = 40, "energy" = 30, "bomb" = 30, "bio" = 0, "rad" = 0, "fire" = 70, "acid" = 70)
 
 /obj/structure/closet/syndicate/personal
 	desc = "It's a personal storage unit for operative gear."
 
 /obj/structure/closet/syndicate/personal/PopulateContents()
 	..()
+	new /obj/item/clothing/glasses/night(src)
+	new /obj/item/ammo_box/magazine/m10mm(src)
+	new /obj/item/storage/belt/military(src)
+	new /obj/item/clothing/accessory/holster/nukie(src)
+	new /obj/item/radio/headset/syndicate(src)
 	new /obj/item/clothing/under/syndicate(src)
 	new /obj/item/clothing/under/syndicate/skirt(src)
 	new /obj/item/clothing/shoes/sneakers/black(src)
@@ -27,7 +33,7 @@
 	new /obj/item/storage/box/flashbangs(src)
 	new /obj/item/storage/box/teargas(src)
 	new /obj/item/storage/backpack/duffelbag/syndie/med(src)
-	new /obj/item/pda/syndicate(src)
+	new /obj/item/modular_computer/tablet/nukeops(src)
 
 /obj/structure/closet/syndicate/resources
 	desc = "An old, dusty locker."
@@ -94,7 +100,9 @@
 
 /obj/structure/closet/syndicate/resources/everything
 	desc = "It's an emergency storage closet for repairs."
+	storage_capacity = 60 // This is gonna be used for debug.
 
+// A lot of this stuff is objective items, and it's also only used for debugging, so init times don't matter here.
 /obj/structure/closet/syndicate/resources/everything/PopulateContents()
 	var/list/resources = list(
 	/obj/item/stack/sheet/metal,

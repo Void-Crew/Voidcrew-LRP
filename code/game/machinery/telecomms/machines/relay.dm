@@ -59,6 +59,16 @@
 	id = "Station Relay"
 	autolinkers = list("s_relay")
 
+/obj/machinery/telecomms/relay/preset/inteq
+	freq_listening = list(FREQ_COMMAND, FREQ_INTEQ, FREQ_COMMON)
+	id = "IRMG Relay"
+	network = "irmg_commnet"
+
+/obj/machinery/telecomms/relay/preset/solgov
+	freq_listening = list(FREQ_COMMAND, FREQ_SOLGOV, FREQ_COMMON)
+	id = "SolGov Relay"
+	network = "solgov_commnet"
+
 /obj/machinery/telecomms/relay/preset/telecomms
 	id = "Telecomms Relay"
 	autolinkers = list("relay")

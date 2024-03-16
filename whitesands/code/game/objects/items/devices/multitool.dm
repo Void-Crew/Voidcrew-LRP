@@ -1,6 +1,7 @@
 /obj/item/multitool/syndie
 	name = "suspicious-looking multitool"
 	desc = "A darkened multitool with a matte finish and an ominous glowing screen."
+	icon = 'whitesands/icons/obj/tools.dmi'
 	icon_state = "multitool_syndie"
 	toolspeed = 0.5
 
