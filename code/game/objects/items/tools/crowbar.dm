@@ -1,7 +1,7 @@
 /obj/item/crowbar
 	name = "pocket crowbar"
 	desc = "A small crowbar. This handy tool is useful for lots of things, such as prying floor tiles or opening unpowered doors."
-	icon = 'icons/obj/tools.dmi'
+	icon = 'whitesands/icons/obj/tools.dmi' //WS Edit - Better Tool Sprites
 	icon_state = "crowbar"
 	lefthand_file = 'whitesands/icons/mob/inhands/equipment/tools_lefthand.dmi' //WS edit: i finally do those god forsaken inhands
 	righthand_file = 'whitesands/icons/mob/inhands/equipment/tools_righthand.dmi'

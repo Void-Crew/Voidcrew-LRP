@@ -15,8 +15,8 @@
 
 
 /mob/living/simple_animal/hostile/syndicate
-	name = "Syndicate Conscript"
-	desc = "An low rank operative of The Syndicate."
+	name = "Syndicate Operative"
+	desc = "Death to Nanotrasen."
 	icon = 'icons/mob/simple_human.dmi'
 	icon_state = "syndicate"
 	icon_living = "syndicate"
@@ -36,7 +36,6 @@
 	attack_verb_continuous = "punches"
 	attack_verb_simple = "punch"
 	attack_sound = 'sound/weapons/punch1.ogg'
-	deathsound = 'sound/voice/hacked.ogg'
 	a_intent = INTENT_HARM
 	loot = list(/obj/effect/mob_spawn/human/corpse/syndicatesoldier)
 	atmos_requirements = list("min_oxy" = 5, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 1, "min_co2" = 0, "max_co2" = 5, "min_n2" = 0, "max_n2" = 0)
@@ -49,45 +48,14 @@
 	rapid_melee = 2
 	footstep_type = FOOTSTEP_MOB_SHOE
 
-/mob/living/simple_animal/hostile/syndicate/engie
-	name = "Syndicate Engineer"
-	desc = "An engineer of The Syndicate armed with a welder. Hey look buddy, he's an engineer. That means he solves problems."
-	melee_damage_lower = 15
-	melee_damage_upper = 15
-	melee_damage_type = BURN
-	icon_state = "syndicateeng"
-	icon_living = "syndicateeng"
-	loot = list(/obj/effect/gibspawner/human,/obj/item/weldingtool/hugetank)
-	attack_verb_continuous = "burns"
-	attack_verb_simple = "burn"
-	attack_sound = 'sound/items/welder.ogg'
-	status_flags = 0
-	var/projectile_deflect_chance = 0
-
-/mob/living/simple_animal/hostile/syndicate/sci
-	name = "Syndicate Scientist"
-	desc = "An scientist of The Syndicate. Also known as the reason for xenomorph outbreaks, and evil technology."
-	melee_damage_lower = 20
-	melee_damage_upper = 20
-	melee_damage_type = BRUTE
-	icon_state = "syndicatesci"
-	icon_living = "syndicatesci"
-	loot = list(/obj/effect/gibspawner/human,/obj/item/circular_saw,/obj/item/research_notes/loot/big)
-	attack_verb_continuous = "saws"
-	attack_verb_simple = "saw"
-	attack_sound = 'sound/weapons/circsawhit.ogg'
-	status_flags = 0
-	var/projectile_deflect_chance = 0
-
 ///////////////Melee////////////
 
 /mob/living/simple_animal/hostile/syndicate/space
-	name = "Syndicate Conscript"
-	desc = "An low rank operative of The Syndicate. IN SPACE!"
 	icon_state = "syndicate_space"
 	icon_living = "syndicate_space"
-	maxHealth = 125
-	health = 125
+	name = "Syndicate Commando"
+	maxHealth = 170
+	health = 170
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	minbodytemp = 0
 	speed = 1
@@ -98,15 +66,13 @@
 	set_light(4)
 
 /mob/living/simple_animal/hostile/syndicate/space/stormtrooper
-	name = "Syndicate Conscript"
-	desc = "An low rank operative of The Syn-- HEY WAIT- WHO GAVE THE CONSCRIPT A ELITE SUIT?!"
 	icon_state = "syndicate_stormtrooper"
 	icon_living = "syndicate_stormtrooper"
-	maxHealth = 150
-	health = 150
+	name = "Syndicate Stormtrooper"
+	maxHealth = 250
+	health = 250
 
 /mob/living/simple_animal/hostile/syndicate/melee //dude with a knife and no shields
-	name = "Syndicate Conscript"
 	melee_damage_lower = 15
 	melee_damage_upper = 15
 	icon_state = "syndicate_knife"
@@ -119,12 +85,11 @@
 	var/projectile_deflect_chance = 0
 
 /mob/living/simple_animal/hostile/syndicate/melee/space
-	name = "Syndicate Conscript"
-	desc = "An low rank operative of The Syndicate. IN SPACE!"
 	icon_state = "syndicate_space_knife"
 	icon_living = "syndicate_space_knife"
-	maxHealth = 125
-	health = 125
+	name = "Syndicate Commando"
+	maxHealth = 170
+	health = 170
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	minbodytemp = 0
 	speed = 1
@@ -136,19 +101,14 @@
 	set_light(4)
 
 /mob/living/simple_animal/hostile/syndicate/melee/space/stormtrooper
-	name = "Syndicate Conscript"
-	desc = "An low rank operative of The Syn-- HEY WAIT- WHO GAVE THE CONSCRIPT A ELITE SUIT?!"
 	icon_state = "syndicate_stormtrooper_knife"
 	icon_living = "syndicate_stormtrooper_knife"
-	maxHealth = 150
-	health = 150
+	name = "Syndicate Stormtrooper"
+	maxHealth = 250
+	health = 250
 	projectile_deflect_chance = 50
 
 /mob/living/simple_animal/hostile/syndicate/melee/sword
-	name = "Syndicate Elite Operative"
-	desc = "One to be feared."
-	maxHealth = 200
-	health = 200
 	melee_damage_lower = 30
 	melee_damage_upper = 30
 	icon_state = "syndicate_sword"
@@ -176,24 +136,12 @@
 		return BULLET_ACT_BLOCK
 	return ..()
 
-/mob/living/simple_animal/hostile/syndicate/melee/sword/captain
-	name = "Syndicate Elite Commander"
-	desc = "You should run."
-	icon_state = "syndicate_desword"
-	icon_living = "syndicate_desword"
-	maxHealth = 320
-	health = 320
-	speed = -1
-	projectile_deflect_chance = 70
-	loot = list(/obj/effect/gibspawner/human,/obj/item/melee/transforming/energy/sword/saber/red)
-
 /mob/living/simple_animal/hostile/syndicate/melee/sword/space
-	name = "Syndicate Elite Operative"
-	desc = "One to be feared. IN SPACE!"
 	icon_state = "syndicate_space_sword"
 	icon_living = "syndicate_space_sword"
-	maxHealth = 250
-	health = 250
+	name = "Syndicate Commando"
+	maxHealth = 170
+	health = 170
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	minbodytemp = 0
 	speed = 1
@@ -210,7 +158,6 @@
 	return ..()
 
 /mob/living/simple_animal/hostile/syndicate/melee/sword/space/stormtrooper
-	name = "Syndicate Elite Sergeant"
 	icon_state = "syndicate_stormtrooper_sword"
 	icon_living = "syndicate_stormtrooper_sword"
 	name = "Syndicate Stormtrooper"
@@ -221,8 +168,6 @@
 ///////////////Guns////////////
 
 /mob/living/simple_animal/hostile/syndicate/ranged
-	name = "Syndicate Officer"
-	desc = "An high ranked operative of The Syndicate."
 	ranged = 1
 	retreat_distance = 5
 	minimum_distance = 5
@@ -239,10 +184,9 @@
 	loot = list(/obj/effect/mob_spawn/human/corpse/syndicatesoldier)
 
 /mob/living/simple_animal/hostile/syndicate/ranged/space
-	name = "Syndicate Officer"
-	desc = "An high ranked operative of The Syndicate. IN SPACE."
 	icon_state = "syndicate_space_pistol"
 	icon_living = "syndicate_space_pistol"
+	name = "Syndicate Commando"
 	maxHealth = 170
 	health = 170
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
@@ -255,18 +199,13 @@
 	set_light(4)
 
 /mob/living/simple_animal/hostile/syndicate/ranged/space/stormtrooper
-	name = "Syndicate Elite Leader"
-	desc = "One to be feared. IN SPACE. Oh boy."
 	icon_state = "syndicate_stormtrooper_pistol"
 	icon_living = "syndicate_stormtrooper_pistol"
-	maxHealth = 270
-	health = 270
+	name = "Syndicate Stormtrooper"
+	maxHealth = 250
+	health = 250
 
 /mob/living/simple_animal/hostile/syndicate/ranged/smg
-	name = "Syndicate Elite Operative"
-	desc = "One to be feared."
-	maxHealth = 200
-	health = 200
 	rapid = 2
 	icon_state = "syndicate_smg"
 	icon_living = "syndicate_smg"
@@ -278,12 +217,11 @@
 	loot = list(/obj/effect/mob_spawn/human/corpse/syndicatesoldier)
 
 /mob/living/simple_animal/hostile/syndicate/ranged/smg/space
-	name = "Syndicate Elite Operative"
-	desc = "One to be feared. IN SPACE."
 	icon_state = "syndicate_space_smg"
 	icon_living = "syndicate_space_smg"
-	maxHealth = 250
-	health = 250
+	name = "Syndicate Commando"
+	maxHealth = 170
+	health = 170
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	minbodytemp = 0
 	speed = 1
@@ -294,19 +232,13 @@
 	set_light(4)
 
 /mob/living/simple_animal/hostile/syndicate/ranged/smg/space/stormtrooper
-	name = "Syndicate Elite Leader"
-	desc = "One to be feared. IN SPACE. Oh boy."
 	icon_state = "syndicate_stormtrooper_smg"
 	icon_living = "syndicate_stormtrooper_smg"
 	name = "Syndicate Stormtrooper"
-	maxHealth = 270
-	health = 270
+	maxHealth = 250
+	health = 250
 
 /mob/living/simple_animal/hostile/syndicate/ranged/shotgun
-	name = "Syndicate Elite Captain"
-	desc = "One to be feared even more."
-	maxHealth = 300
-	health = 300
 	rapid = 2
 	rapid_fire_delay = 6
 	minimum_distance = 3
@@ -315,13 +247,11 @@
 	casingtype = /obj/item/ammo_casing/shotgun/buckshot //buckshot (up to 72.5 brute) fired in a two-round burst
 
 /mob/living/simple_animal/hostile/syndicate/ranged/shotgun/space
-	name = "Syndicate Elite Captain"
-	desc = "One to be feared even more. IN SPACE."
 	icon_state = "syndicate_space_shotgun"
 	icon_living = "syndicate_space_shotgun"
 	name = "Syndicate Commando"
-	maxHealth = 320
-	health = 320
+	maxHealth = 170
+	health = 170
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	minbodytemp = 0
 	speed = 1
@@ -332,12 +262,11 @@
 	set_light(4)
 
 /mob/living/simple_animal/hostile/syndicate/ranged/shotgun/space/stormtrooper
-	name = "Syndicate Elite Captain"
-	desc = "One to be feared even more. IN SPACE. Oh boy."
 	icon_state = "syndicate_stormtrooper_shotgun"
 	icon_living = "syndicate_stormtrooper_shotgun"
-	maxHealth = 350
-	health = 350
+	name = "Syndicate Stormtrooper"
+	maxHealth = 250
+	health = 250
 
 ///////////////Misc////////////
 

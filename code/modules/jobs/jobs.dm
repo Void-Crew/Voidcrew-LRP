@@ -1,13 +1,11 @@
 GLOBAL_LIST_INIT(command_positions, list(
 	"Captain",
 	"Head of Personnel",
-	"Lieutenant",
 	"SolGov Representative", //WS edit - SolGov Rep
 	"Head of Security",
 	"Chief Engineer",
 	"Research Director",
-	"Chief Medical Officer",
-	"Quartermaster"))
+	"Chief Medical Officer"))
 
 
 GLOBAL_LIST_INIT(engineering_positions, list(
@@ -39,7 +37,6 @@ GLOBAL_LIST_INIT(supply_positions, list(
 
 GLOBAL_LIST_INIT(service_positions, list(
 	"Head of Personnel",
-	"Lieutenant",
 	"SolGov Representative",		//WS Edit - SolGov Rep
 	"Bartender",
 	"Botanist",

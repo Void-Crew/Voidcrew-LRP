@@ -1,21 +1,20 @@
-// .50 BMG (Sniper)
+// .50 (Sniper)
 
 /obj/item/ammo_casing/p50
-	name = ".50 BMG bullet casing"
-	desc = "A .50 BMG bullet casing."
-	icon_state = "big-steel"
-	caliber = ".50 BMG"
+	name = ".50 bullet casing"
+	desc = "A .50 bullet casing."
+	caliber = ".50"
 	projectile_type = /obj/projectile/bullet/p50
+	icon_state = ".50"
 
 /obj/item/ammo_casing/p50/soporific
-	name = ".50 BMG soporific bullet casing"
-	desc = "A .50 BMG soporific bullet casing."
-	icon_state = "rubber"
+	name = ".50 soporific bullet casing"
+	desc = "A .50 bullet casing, specialised in sending the target to sleep, instead of hell."
 	projectile_type = /obj/projectile/bullet/p50/soporific
+	icon_state = "sleeper"
 	harmful = FALSE
 
 /obj/item/ammo_casing/p50/penetrator
-	name = ".50 BMG penetrator bullet casing"
-	desc = "A .50 BMG penetrator bullet casing."
-	icon_state = "ap"
+	name = ".50 penetrator round bullet casing"
+	desc = "A .50 caliber penetrator round casing."
 	projectile_type = /obj/projectile/bullet/p50/penetrator

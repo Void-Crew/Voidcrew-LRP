@@ -23,10 +23,9 @@
 
 	belt = /obj/item/pda/medical
 	ears = /obj/item/radio/headset/headset_med
-	uniform = /obj/item/clothing/under/rank/medical/doctor/blue
-	alt_uniform = /obj/item/clothing/under/rank/medical/doctor //WS Edit - Alt Uniforms
+	uniform = /obj/item/clothing/under/rank/medical/doctor
+	alt_uniform = /obj/item/clothing/under/rank/medical/doctor/blue //WS Edit - Alt Uniforms
 	shoes = /obj/item/clothing/shoes/sneakers/white
-	head = /obj/item/clothing/head/utility/surgerycap
 	suit =  /obj/item/clothing/suit/toggle/labcoat
 	alt_suit = /obj/item/clothing/suit/apron/surgical
 	dcoat = /obj/item/clothing/suit/hooded/wintercoat/medical //WS Edit - Alt Uniforms
@@ -44,6 +43,7 @@
 //WS Edit Start - Alt-Job Titles
 /datum/outfit/job/doctor/surgeon
 	name = "Medical Doctor (Surgeon)"
+
 	uniform = /obj/item/clothing/under/rank/medical/doctor/blue
 	suit = /obj/item/clothing/suit/apron/surgical
 	mask = /obj/item/clothing/mask/surgical
@@ -64,7 +64,6 @@
 	uniform = /obj/item/clothing/under/rank/medical/doctor/junior_doctor
 	alt_uniform = null
 	shoes = /obj/item/clothing/shoes/sneakers/blue
-	head = null
 	suit =  null
 	alt_suit = null
 	l_hand = null
@@ -79,7 +78,6 @@
 	alt_uniform = null
 	shoes = /obj/item/clothing/shoes/laceup
 	suit = /obj/item/clothing/suit/toggle/lawyer/medical
-	head = null
 	alt_suit = /obj/item/clothing/suit/toggle/labcoat
 	dcoat = null
 	l_hand = null
@@ -94,7 +92,6 @@
 	uniform = /obj/item/clothing/under/rank/medical/psychiatrist
 	alt_uniform = /obj/item/clothing/under/rank/medical/psychiatrist/blue
 	shoes = /obj/item/clothing/shoes/laceup
-	head = null
 	suit =  null
 	alt_suit = null
 	l_hand = null
@@ -126,17 +123,12 @@
 	uniform = /obj/item/clothing/under/costume/sailor
 	shoes = /obj/item/clothing/shoes/jackboots
 
-/datum/outfit/job/doctor/syndicate/cybersun
-	name = "Medical Doctor (Cybersun Industries)"
+/datum/outfit/job/doctor/cybersun
+	name = "Operations Assistant (Medical Doctor)"
 
-	uniform = /obj/item/clothing/under/syndicate/medic
+	uniform = /obj/item/clothing/under/syndicate/cybersun
 	accessory = /obj/item/clothing/accessory/armband/medblue
-	shoes = /obj/item/clothing/shoes/laceup
-	head = /obj/item/clothing/head/soft/cybersun/medical
-	suit = /obj/item/clothing/suit/toggle/labcoat/raincoat
-	id = /obj/item/card/id/syndicate_command/crew_id
-	gloves = /obj/item/clothing/gloves/color/latex/nitrile/evil
-
+	shoes = /obj/item/clothing/shoes/jackboots
 /datum/outfit/job/doctor/syndicate/nsv
 	name = "Medical Doctor (NSV-M)"
 
@@ -144,13 +136,3 @@
 	id = /obj/item/card/id/syndicate_command/crew_id
 	shoes = /obj/item/clothing/shoes/jackboots
 	ears = /obj/item/radio/headset/syndicate/alt
-
-/datum/outfit/job/doctor/interdyne
-	name = "Field Practicioner (Interdyne Pharmaceuticals)"
-
-	uniform = /obj/item/clothing/under/syndicate/interdyne/medical
-	head = /obj/item/clothing/head/soft/interdyne
-	id = /obj/item/card/id/syndicate_command/crew_id
-	shoes = /obj/item/clothing/shoes/combat
-	ears = /obj/item/radio/headset/syndicate/alt
-	gloves = /obj/item/clothing/gloves/color/latex/nitrile/evil

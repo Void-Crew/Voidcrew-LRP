@@ -13,7 +13,7 @@
 "dR" = (
 /obj/effect/decal/cleanable/robot_debris/old,
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "eD" = (
 /obj/structure/flora/junglebush/c,
@@ -32,7 +32,7 @@
 /area/ruin/unpowered)
 "jb" = (
 /obj/structure/closet/firecloset,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "jx" = (
 /obj/effect/decal/cleanable/plasma,
@@ -63,17 +63,13 @@
 /area/ruin/powered)
 "mb" = (
 /obj/machinery/computer/mech_bay_power_console,
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/open/floor/iron,
+/obj/structure/cable,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "nW" = (
+/obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "ph" = (
 /obj/item/storage/toolbox/mechanical,
@@ -83,23 +79,18 @@
 /area/ruin/powered)
 "ru" = (
 /obj/structure/table/reinforced,
+/obj/item/clothing/under/costume/mech_suit/white,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/toy/figure/roboticist,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "sL" = (
 /turf/closed/indestructible/reinforced,
 /area/ruin/powered)
 "ua" = (
+/obj/structure/cable,
 /obj/effect/decal/cleanable/plasma,
 /obj/effect/decal/cleanable/greenglow,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
 /turf/open/floor/plating,
 /area/ruin/powered)
 "va" = (
@@ -108,27 +99,19 @@
 /area/ruin/unpowered)
 "xb" = (
 /obj/machinery/power/port_gen/pacman,
+/obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "xt" = (
 /obj/structure/flora/junglebush/b,
 /turf/open/floor/plating/dirt,
 /area/ruin/unpowered)
 "xY" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/open/floor/iron,
+/turf/closed/wall/rust,
 /area/ruin/powered)
 "zf" = (
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/powered)
 "zl" = (
@@ -137,7 +120,7 @@
 /obj/item/mecha_parts/mecha_equipment/weapon/energy/plasma,
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "zC" = (
 /obj/structure/reagent_dispensers/fueltank,
@@ -147,31 +130,28 @@
 /area/ruin/powered)
 "Ad" = (
 /obj/effect/decal/remains/robot,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "Ap" = (
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/open/floor/iron,
+/obj/structure/cable,
+/obj/structure/closet/crate/secure/plasma,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "EK" = (
-/turf/open/floor/iron,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "Gd" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating,
+/turf/closed/wall,
 /area/ruin/powered)
 "HM" = (
 /obj/structure/closet/emcloset,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "Jd" = (
 /obj/effect/decal/cleanable/oil/slippery,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "LS" = (
 /obj/machinery/door/poddoor/shutters/preopen,
@@ -180,49 +160,46 @@
 "LZ" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "Px" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "Qm" = (
 /obj/item/weldingtool/hugetank,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "Qo" = (
 /obj/structure/rack,
 /obj/item/mecha_parts/mecha_equipment/hydraulic_clamp,
 /obj/item/mecha_parts/mecha_equipment/drill/diamonddrill,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "QT" = (
 /obj/structure/table/reinforced,
+/obj/item/clothing/under/costume/mech_suit,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/clothing/under/rank/rnd/roboticist,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "SG" = (
 /obj/effect/decal/remains/human,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "UC" = (
 /obj/structure/chair/plastic{
 	dir = 4
 	},
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "UI" = (
 /turf/open/floor/plating,
 /area/ruin/powered)
 "UT" = (
 /obj/mecha/working/ripley,
-/turf/open/floor/iron,
+/turf/open/floor/mech_bay_recharge_floor,
 /area/ruin/powered)
 "Vj" = (
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -231,28 +208,24 @@
 /area/ruin/unpowered)
 "VH" = (
 /obj/machinery/mech_bay_recharge_port,
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/open/floor/iron,
+/obj/structure/cable,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "Wg" = (
 /obj/structure/mecha_wreckage/durand,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "WW" = (
 /obj/machinery/light/floor,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "Xv" = (
 /obj/machinery/door/poddoor/shutters,
 /turf/open/floor/plating,
 /area/ruin/powered)
 "Xy" = (
+/obj/structure/cable,
 /obj/effect/decal/cleanable/robot_debris,
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
 /turf/open/floor/plating,
 /area/ruin/powered)
 "XF" = (
@@ -263,16 +236,16 @@
 /area/ruin/powered)
 "Yi" = (
 /obj/effect/decal/cleanable/plasma,
-/obj/structure/closet/crate/secure/plasma,
 /turf/open/floor/plating,
 /area/ruin/powered)
 "YQ" = (
 /obj/structure/table/reinforced,
-/turf/open/floor/iron,
+/obj/item/clothing/under/costume/mech_suit/blue,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "Zc" = (
 /obj/structure/mecha_wreckage/marauder,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/powered)
 
 (1,1,1) = {"
@@ -286,17 +259,17 @@ Vj
 jZ
 "}
 (2,1,1) = {"
-sL
-sL
-sL
-sL
-sL
-sL
-sL
+xY
+xY
+xY
+Gd
+Gd
+xY
+Gd
 xt
 "}
 (3,1,1) = {"
-sL
+xY
 zl
 HM
 Zc
@@ -306,21 +279,21 @@ sL
 eS
 "}
 (4,1,1) = {"
-sL
+xY
 Qo
 ph
 dR
-UI
-lk
+EK
+nW
 cv
 eD
 "}
 (5,1,1) = {"
-sL
+xY
 Wg
 Ad
 jx
-UI
+zf
 Jd
 LS
 va
@@ -329,9 +302,9 @@ va
 sL
 VH
 zf
-lk
-lk
-EK
+nW
+nW
+UI
 LS
 ka
 "}
@@ -340,58 +313,58 @@ sL
 UT
 SG
 WW
-UI
+zf
 lk
 Xv
 jB
 "}
 (8,1,1) = {"
-sL
+Gd
 mb
 ua
 lZ
-UI
+zf
 Px
 Xv
 gA
 "}
 (9,1,1) = {"
-sL
+xY
 Qm
 nW
-Gd
-xY
+nW
+nW
 Yi
 Xv
 gA
 "}
 (10,1,1) = {"
-sL
+xY
 LZ
 cD
 UC
 Xy
 Ap
-sL
+Gd
 gA
 "}
 (11,1,1) = {"
-sL
+Gd
 zC
 QT
 YQ
 ru
 xb
-sL
+xY
 gA
 "}
 (12,1,1) = {"
 sL
 sL
-sL
-sL
-sL
-sL
-sL
+Gd
+Gd
+xY
+xY
+xY
 gA
 "}

@@ -32,55 +32,48 @@
 // Mech LMG
 
 /obj/projectile/bullet/lmg
-	damage = 25
-	armour_penetration = 40
+	damage = 25 //VoidTest Edit, changes 20 to 25
 
 // Mech FNX-99
 
 /obj/projectile/bullet/incendiary/fnx99
-	damage = 25
+	damage = 20
 
 // Turrets
 
 /obj/projectile/bullet/manned_turret
-	damage = 30
-	armour_penetration = 40
-
-/obj/projectile/bullet/manned_turret/hmg
-	icon_state = "redtrac"
-	armour_penetration = 40
+	damage = 20
 
 /obj/projectile/bullet/syndicate_turret
 	damage = 20
-	armour_penetration = 20
 
-// 7.12x82mm (L6 SAW)
+// 7.12x82mm (SAW)
 
 /obj/projectile/bullet/mm712x82
 	name = "7.12x82mm bullet"
-	damage = 25
-	armour_penetration = 40
+	damage = 45
+	armour_penetration = 5
 
-/obj/projectile/bullet/mm712x82/ap
+/obj/projectile/bullet/mm712x82_ap
 	name = "7.12x82mm armor-piercing bullet"
+	damage = 40
 	armour_penetration = 75
 
-/obj/projectile/bullet/mm712x82/hp
-	name = "7.12x82mm hollow point bullet"
-	damage = 45
-	armour_penetration = -20
+/obj/projectile/bullet/mm712x82_hp
+	name = "7.12x82mm hollow-point bullet"
+	damage = 60
+	armour_penetration = -60
 
 /obj/projectile/bullet/incendiary/mm712x82
 	name = "7.12x82mm incendiary bullet"
-	damage = 15
-	armour_penetration = 40
+	damage = 20
 	fire_stacks = 3
 
-/obj/projectile/bullet/mm712x82/match
+/obj/projectile/bullet/mm712x82_match
 	name = "7.12x82mm match bullet"
-	speed = 0.3
-	armour_penetration = 50
+	damage = 40
 	ricochets_max = 2
 	ricochet_chance = 60
 	ricochet_auto_aim_range = 4
 	ricochet_incidence_leeway = 35
+

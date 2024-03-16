@@ -3,14 +3,14 @@
 	mob_overlay_icon = 'icons/mob/clothing/under/cargo.dmi'
 
 /obj/item/clothing/under/rank/cargo/qm
-	name = "quartermaster's turtleneck"
-	desc = "A snug turtleneck sweater worn by the Quartermaster, characterized by the expensive-looking pair of suit pants."
+	name = "quartermaster's jumpsuit"
+	desc = "It's a jumpsuit worn by the quartermaster. It's specially designed to prevent back injuries caused by pushing paper."
 	icon_state = "qm"
 	item_state = "lb_suit"
 
 /obj/item/clothing/under/rank/cargo/qm/skirt
-	name = "quartermaster's skirtleneck"
-	desc = "A snug turtleneck sweater worn by the Quartermaster, as shown by the elegant double-lining of its silk skirt."
+	name = "quartermaster's jumpskirt"
+	desc = "It's a jumpskirt worn by the quartermaster. It's specially designed to prevent back injuries caused by pushing paper."
 	icon_state = "qm_skirt"
 	item_state = "lb_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
@@ -19,8 +19,8 @@
 	supports_variations = DIGITIGRADE_VARIATION_NO_NEW_ICON
 
 /obj/item/clothing/under/rank/cargo/tech
-	name = "supply turtleneck"
-	desc = "A snug turtleneck sweater worn by the Supply department.."
+	name = "cargo technician's jumpsuit"
+	desc = "Shooooorts! They're comfy and easy to wear!"
 	icon_state = "cargotech"
 	item_state = "lb_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
@@ -28,8 +28,8 @@
 	alt_covers_chest = TRUE
 
 /obj/item/clothing/under/rank/cargo/tech/skirt
-	name = "supply skirtleneck"
-	desc = "A snug turtleneck sweater worn by Supply, this time with a skirt attached!"
+	name = "cargo technician's jumpskirt"
+	desc = "Skiiiiirts! They're comfy and easy to wear"
 	icon_state = "cargo_skirt"
 	item_state = "lb_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
@@ -55,8 +55,8 @@
 //Shiptest alt jumpsuits
 
 /obj/item/clothing/under/rank/cargo/miner/hazard
-	name = "supply gorka"
-	desc = "A rugged, utilitarian gorka worn by the Supply department."
+	desc = "A thick jumpsuit with reflective stripes for hazardous, low-visibility environments. It's coated in a thick layer of asteroid dust."
+	name = "asteroid miner's jumpsuit"
 	icon_state = "hazard"
 	item_state = "hazard"
 

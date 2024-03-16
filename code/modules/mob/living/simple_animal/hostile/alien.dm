@@ -1,16 +1,17 @@
 /mob/living/simple_animal/hostile/alien
-	name = "alien runner"
+	name = "alien hunter"
 	desc = "Hiss!"
-	icon = 'icons/mob/alienqueen.dmi'
+	icon = 'icons/mob/alien.dmi'
 	icon_state = "alienh"
 	icon_living = "alienh"
 	icon_dead = "alienh_dead"
 	icon_gib = "syndicate_gib"
+	gender = FEMALE
 	speed = 0
 	butcher_results = list(/obj/item/reagent_containers/food/snacks/meat/slab/xeno = 4,
 							/obj/item/stack/sheet/animalhide/xeno = 1)
-	maxHealth = 200
-	health = 200
+	maxHealth = 125
+	health = 125
 	harm_intent_damage = 5
 	obj_damage = 60
 	melee_damage_lower = 25
@@ -49,7 +50,6 @@
 	melee_damage_upper = 15
 	var/plant_cooldown = 30
 	var/plants_off = 0
-	speed = 0
 
 /mob/living/simple_animal/hostile/alien/drone/handle_automated_action()
 	if(!..()) //AIStatus is off
@@ -65,50 +65,13 @@
 	icon_state = "aliens"
 	icon_living = "aliens"
 	icon_dead = "aliens_dead"
-	health = 200
-	maxHealth = 200
+	health = 150
+	maxHealth = 150
 	melee_damage_lower = 15
 	melee_damage_upper = 15
 	ranged = 1
 	retreat_distance = 5
 	minimum_distance = 5
-	speed = 0
-	projectiletype = /obj/projectile/neurotox
-	projectilesound = 'sound/weapons/pierce.ogg'
-
-/mob/living/simple_animal/hostile/alien/sentinel/spitter
-	name = "alien spitter"
-	icon_state = "aliensp"
-	icon_living = "aliensp"
-	icon_dead = "aliensp_dead"
-	health = 300
-	maxHealth = 300
-	speed = 0
-
-/mob/living/simple_animal/hostile/alien/warrior
-	name = "alien warrior"
-	icon_state = "alienw"
-	icon_living = "alienw"
-	icon_dead = "alienw_dead"
-	health = 400
-	maxHealth = 400
-	melee_damage_lower = 20
-	melee_damage_upper = 20
-	speed = 0
-
-/mob/living/simple_animal/hostile/alien/praetorian
-	name = "alien praetorian"
-	icon_state = "alienp"
-	icon_living = "alienp"
-	icon_dead = "alienp_dead"
-	health = 450
-	maxHealth = 450
-	melee_damage_lower = 15
-	melee_damage_upper = 15
-	retreat_distance = 5
-	minimum_distance = 5
-	ranged = 1
-	speed = 0
 	projectiletype = /obj/projectile/neurotox
 	projectilesound = 'sound/weapons/pierce.ogg'
 
@@ -118,15 +81,14 @@
 	icon_state = "alienq"
 	icon_living = "alienq"
 	icon_dead = "alienq_dead"
-	health = 500
-	maxHealth = 500
-	melee_damage_lower = 25
-	melee_damage_upper = 25
+	health = 250
+	maxHealth = 250
+	melee_damage_lower = 15
+	melee_damage_upper = 15
 	ranged = 1
 	retreat_distance = 5
 	minimum_distance = 5
 	move_to_delay = 4
-	speed = 0
 	butcher_results = list(/obj/item/reagent_containers/food/snacks/meat/slab/xeno = 4,
 							/obj/item/stack/sheet/animalhide/xeno = 1)
 	projectiletype = /obj/projectile/neurotox
@@ -178,7 +140,6 @@
 	move_to_delay = 4
 	maxHealth = 400
 	health = 400
-	speed = 0
 	butcher_results = list(/obj/item/reagent_containers/food/snacks/meat/slab/xeno = 10,
 							/obj/item/stack/sheet/animalhide/xeno = 2)
 	mob_size = MOB_SIZE_LARGE
@@ -201,7 +162,6 @@
 
 /mob/living/simple_animal/hostile/alien/maid
 	name = "lusty xenomorph maid"
-	icon = 'icons/mob/alien.dmi'
 	melee_damage_lower = 0
 	melee_damage_upper = 0
 	a_intent = INTENT_HELP
@@ -213,7 +173,6 @@
 	icon_state = "maid"
 	icon_living = "maid"
 	icon_dead = "maid_dead"
-	speed = 0
 
 /mob/living/simple_animal/hostile/alien/maid/Initialize(mapload)
 	. = ..()

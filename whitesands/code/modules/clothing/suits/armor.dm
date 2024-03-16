@@ -1,6 +1,6 @@
 /obj/item/clothing/suit/armor/vest/lieutenant
-	name = "blueshield's armor vest"
-	desc = "A large, yet comfortable piece of armor, protecting you from some threats. It has a Nanotrasen insignia on the breast of it."
+	name = "lieutenant's armor"
+	desc = "An armored vest with the lieutenant's insignia imprinted on it."
 	icon_state = "blueshield"
 	item_state = "blueshield"
 

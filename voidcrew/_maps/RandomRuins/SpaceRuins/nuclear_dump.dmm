@@ -1,114 +1,94 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ac" = (
-/turf/open/floor/engine/hull,
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 10
+	},
+/turf/open/floor/plasteel/dark/airless,
 /area/space/nearstation)
 "ce" = (
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 5
+	},
 /obj/effect/decal/cleanable/greenglow,
-/obj/structure/radioactive/stack,
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "cU" = (
 /obj/structure/radioactive/waste,
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/unpowered)
 "dl" = (
+/obj/machinery/power/emitter{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
 /turf/open/floor/vault,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav/storage/materials2)
 "eo" = (
 /obj/structure/radioactive,
-/obj/effect/decal/cleanable/greenglow,
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "fi" = (
 /turf/closed/wall,
-/area/ruin/space/has_grav/powered)
-"fl" = (
-/obj/structure/table,
-/obj/item/ammo_box/c38{
-	name = "speed loader (7.62x38mmR)";
-	desc = "Designed to quickly reload revolvers. Somehow the only one of it's kind.";
-	ammo_type = /obj/item/ammo_casing/n762
-	},
-/turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/powered)
 "fu" = (
 /obj/structure/radioactive,
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/unpowered)
-"gq" = (
-/obj/structure/frame/computer{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/glass,
-/obj/item/shard{
-	icon_state = "small"
-	},
-/turf/open/floor/carpet/red,
-/area/ruin/space/has_grav/powered)
 "gw" = (
-/obj/effect/decal/cleanable/blood/footprints,
-/obj/effect/decal/cleanable/blood/footprints{
-	dir = 8
-	},
-/turf/open/floor/iron,
+/obj/machinery/atmospherics/pipe/simple/general/visible,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "gO" = (
 /mob/living/simple_animal/hostile/hivebot/mechanic,
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "he" = (
-/obj/effect/mob_spawn/human/corpse/charredskeleton{
-	outfit = /datum/outfit/russiancorpse
+/obj/effect/mob_spawn/human/corpse/charredskeleton,
+/obj/structure/cable{
+	icon_state = "0-4"
 	},
-/turf/open/floor/iron/dark/smooth_half{
-	dir = 1
-	},
-/area/ruin/space/has_grav/powered)
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/storage/materials2)
 "ht" = (
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/powered)
 "hH" = (
-/obj/structure/table,
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/mineral/plastitanium,
+/obj/item/paper/crumpled,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "im" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 8
-	},
-/turf/open/floor/mineral/plastitanium,
+/obj/effect/decal/cleanable/blood/gibs/body,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "iN" = (
 /obj/structure/lattice,
 /turf/template_noop,
 /area/space/nearstation)
 "iZ" = (
-/turf/open/floor/mineral/titanium,
+/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/powered)
 "jm" = (
-/obj/machinery/light/small/broken,
-/obj/structure/closet/emcloset/anchored,
-/turf/open/floor/iron/dark/small,
+/turf/closed/wall/r_wall/rust,
 /area/ruin/space/has_grav/powered)
 "jD" = (
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/powered)
 "jN" = (
-/obj/structure/window/plasma/reinforced/spawner/north,
-/obj/structure/radioactive,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/powered)
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/storage/materials2)
 "kB" = (
-/obj/effect/decal/cleanable/blood/splatter,
-/turf/open/floor/iron,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "kN" = (
-/obj/machinery/door/airlock/maintenance/external{
-	name = "Waste Storage"
+/obj/machinery/light{
+	dir = 4
 	},
-/turf/open/floor/iron/dark/smooth_half,
+/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/powered)
 "kP" = (
 /obj/effect/turf_decal/radiation{
@@ -118,17 +98,19 @@
 /area/space/nearstation)
 "ld" = (
 /obj/effect/decal/cleanable/blood/drip,
-/obj/machinery/vending/sovietsoda,
-/turf/open/floor/iron,
+/obj/structure/radioactive,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "ls" = (
-/turf/closed/wall/r_wall,
-/area/ruin/unpowered)
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/powered)
 "lF" = (
 /obj/item/stack/sheet/plasmaglass,
 /turf/open/floor/vault,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav/storage/materials2)
 "lU" = (
+/obj/effect/decal/cleanable/blood/old,
 /obj/effect/turf_decal/industrial/fire{
 	dir = 4
 	},
@@ -136,10 +118,7 @@
 	color = "#B20000";
 	pixel_x = 32
 	},
-/obj/machinery/computer{
-	dir = 8
-	},
-/turf/open/floor/iron,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "ma" = (
 /turf/open/floor/plating/asteroid/airless,
@@ -147,52 +126,37 @@
 "mj" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/structure/radioactive/stack,
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/powered)
-"ml" = (
-/obj/machinery/computer{
-	dir = 4
-	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "mX" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 1
-	},
+/obj/structure/radioactive,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/powered)
 "nM" = (
 /obj/item/flashlight/flare,
-/obj/structure/sign/warning/vacuum/external{
-	pixel_x = 32
-	},
-/turf/open/floor/iron/dark/small,
+/turf/open/floor/plasteel/dark/airless,
 /area/ruin/space/has_grav/powered)
 "ov" = (
-/obj/structure/table,
-/obj/item/paper_bin,
-/obj/item/pen,
-/turf/open/floor/mineral/plastitanium,
+/obj/machinery/atmospherics/components/unary/tank/air,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "oC" = (
-/obj/structure/window/plasma/reinforced/spawner,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/powered)
+/turf/closed/wall/r_wall/rust,
+/area/ruin/space/has_grav/storage/materials2)
 "oP" = (
 /obj/effect/decal/cleanable/blood,
-/obj/effect/decal/cleanable/blood/footprints{
-	dir = 1
-	},
-/turf/open/floor/iron,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "oT" = (
 /turf/closed/mineral/random,
 /area/ruin/unpowered)
 "oU" = (
-/obj/effect/decal/cleanable/blood,
-/obj/effect/mob_spawn/human/corpse/russian/ranged/trooper,
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/powered)
+/obj/effect/turf_decal/industrial/fire{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark/airless,
+/area/space/nearstation)
 "oV" = (
 /obj/effect/turf_decal/radiation{
 	dir = 4;
@@ -201,82 +165,57 @@
 /turf/template_noop,
 /area/space/nearstation)
 "pe" = (
-/obj/effect/turf_decal/industrial/radiation,
-/turf/open/floor/engine/hull,
+/obj/effect/turf_decal/industrial/fire,
+/turf/open/floor/plasteel/dark/airless,
 /area/space/nearstation)
 "pJ" = (
-/obj/effect/turf_decal/siding/thinplating/dark,
-/turf/open/floor/mineral/plastitanium,
+/obj/effect/spawner/lootdrop/maintenance/two,
+/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/powered)
 "qy" = (
 /obj/effect/decal/cleanable/blood/footprints,
-/obj/effect/decal/cleanable/blood/footprints{
-	dir = 1
-	},
-/turf/open/floor/iron,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "qA" = (
 /obj/item/geiger_counter,
-/turf/open/floor/engine/hull,
+/turf/open/floor/plasteel/dark/airless,
 /area/space/nearstation)
 "qF" = (
-/obj/item/pipe{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/glass/plasma,
-/obj/effect/decal/cleanable/greenglow/glowy,
-/turf/open/floor/engine/plasma,
-/area/ruin/space/has_grav/powered)
+/obj/item/pipe,
+/turf/open/floor/engine/air,
+/area/ruin/space/has_grav/storage/materials2)
 "qH" = (
-/obj/structure/table,
-/obj/item/flashlight/lamp,
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/mineral/plastitanium,
+/obj/machinery/door/airlock/grunge,
+/obj/machinery/atmospherics/pipe/simple/general/visible,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "qK" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/structure/radioactive,
-/turf/open/floor/iron,
+/obj/structure/rack,
+/obj/item/storage/box/lethalshot,
+/obj/item/gun/ballistic/shotgun/automatic/combat,
+/turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/powered)
 "rg" = (
 /obj/item/stack/ore/uranium,
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/unpowered)
 "rp" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium,
+/obj/structure/radioactive/stack,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "rM" = (
 /obj/item/pipe,
-/obj/effect/decal/cleanable/glass,
 /turf/open/floor/vault,
-/area/ruin/space/has_grav/powered)
-"rP" = (
-/obj/effect/decal/hammerandsickle,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav/storage/materials2)
 "rS" = (
-/turf/open/floor/engine/plasma,
-/area/ruin/space/has_grav/powered)
+/turf/open/floor/engine/air,
+/area/ruin/space/has_grav/storage/materials2)
 "sN" = (
-/obj/structure/window/plasma/reinforced/spawner,
-/obj/item/stack/sheet/mineral/plasma/five,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/powered)
-"ts" = (
-/obj/effect/gibspawner/human,
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/powered)
+/obj/structure/grille,
+/turf/open/floor/engine/air,
+/area/ruin/space/has_grav/storage/materials2)
 "ua" = (
-/obj/machinery/power/rad_collector/anchored,
-/obj/effect/decal/cleanable/greenglow,
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "un" = (
 /obj/structure/closet/crate,
@@ -285,83 +224,67 @@
 /area/ruin/space/has_grav/powered)
 "uo" = (
 /obj/machinery/door/airlock/hatch,
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 4
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
-/obj/structure/fans/tiny,
-/turf/open/floor/iron/dark/smooth_half{
-	dir = 1
-	},
+/turf/open/floor/plasteel/dark/airless,
 /area/ruin/space/has_grav/powered)
 "uF" = (
 /obj/machinery/power/port_gen/pacman/uranium,
-/obj/effect/decal/cleanable/greenglow,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/powered)
-"uX" = (
-/obj/effect/turf_decal/industrial/radiation{
-	dir = 6
-	},
-/turf/open/floor/engine/hull,
-/area/space/nearstation)
 "vh" = (
-/obj/effect/decal/cleanable/glass/plasma,
-/obj/machinery/power/emitter{
-	dir = 1
+/obj/structure/sign/warning/radiation/rad_area{
+	pixel_x = -32
 	},
-/turf/open/floor/vault,
-/area/ruin/space/has_grav/powered)
+/turf/open/floor/plasteel/dark/airless,
+/area/space/nearstation)
 "vr" = (
-/obj/structure/grille/broken,
-/obj/item/shard/plasma,
-/obj/effect/decal/cleanable/glass/plasma,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/powered)
+/obj/item/slimecross/chilling/green,
+/turf/open/floor/vault,
+/area/ruin/space/has_grav/storage/materials2)
 "wc" = (
-/obj/item/stack/sheet/plasmarglass,
-/turf/open/floor/engine/plasma,
-/area/ruin/space/has_grav/powered)
-"wr" = (
-/obj/item/clothing/suit/radiation,
-/obj/item/clothing/head/radiation,
-/turf/open/floor/iron/dark/small,
-/area/ruin/space/has_grav/powered)
-"xF" = (
 /obj/structure/radioactive/supermatter,
-/turf/open/floor/engine/plasma,
+/turf/open/floor/engine/air,
+/area/ruin/space/has_grav/storage/materials2)
+"wr" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon{
+	dir = 4
+	},
+/obj/machinery/light/small/broken,
+/turf/open/floor/plasteel/dark/airless,
 /area/ruin/space/has_grav/powered)
 "xR" = (
 /turf/closed/wall,
 /area/space/nearstation)
-"xY" = (
-/obj/effect/decal/cleanable/greenglow,
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/powered)
 "yn" = (
 /obj/machinery/light/broken{
 	dir = 1
 	},
-/obj/machinery/droneDispenser/hivebot,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/powered)
 "yw" = (
-/obj/effect/decal/cleanable/glass/plasma,
-/obj/item/shard/plasma,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/powered)
+/obj/structure/grille/broken,
+/obj/item/stack/sheet/plasmarglass,
+/turf/open/floor/engine/air,
+/area/ruin/space/has_grav/storage/materials2)
 "zp" = (
-/obj/structure/radioactive,
+/obj/structure/cable{
+	icon_state = "4-9"
+	},
 /turf/open/floor/vault,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav/storage/materials2)
 "zx" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 8
+	},
 /obj/effect/turf_decal/industrial/fire{
 	dir = 4
 	},
-/obj/item/paper/crumpled{
-	info = "Due to the major radiation hazards everywhere in this facility, we are decommissioning the supermatter as everywhere else gives off enough radiation to power a whole outpost. And yes, I made sure everyone was out.";
-	name = "Decommissioning"
-	},
-/turf/open/floor/iron,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "zC" = (
 /obj/structure/catwalk,
@@ -369,8 +292,7 @@
 /area/space/nearstation)
 "zE" = (
 /obj/effect/decal/cleanable/vomit/old,
-/obj/effect/decal/cleanable/greenglow,
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "zY" = (
 /obj/structure/lattice,
@@ -385,39 +307,35 @@
 /obj/machinery/light/broken{
 	dir = 1
 	},
-/turf/open/floor/iron,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "BW" = (
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/structure/closet/radiation,
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/powered)
+/turf/open/floor/vault,
+/area/ruin/space/has_grav/storage/materials2)
 "BX" = (
+/obj/structure/cable{
+	icon_state = "4-6"
+	},
 /obj/machinery/atmospherics/pipe/manifold,
 /turf/open/floor/vault,
-/area/ruin/space/has_grav/powered)
-"Dp" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/item/crowbar/red,
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav/storage/materials2)
 "Dq" = (
-/obj/item/shard/plasma,
-/obj/effect/decal/cleanable/glass/plasma,
-/turf/open/floor/vault,
-/area/ruin/space/has_grav/powered)
+/obj/item/stack/sheet/mineral/plasma/five,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/engine/air,
+/area/ruin/space/has_grav/storage/materials2)
 "DD" = (
-/obj/effect/gibspawner/human,
-/obj/effect/decal/cleanable/blood,
-/turf/open/floor/iron,
+/obj/effect/decal/cleanable/blood/gibs/old,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "Ed" = (
 /mob/living/simple_animal/hostile/hivebot,
-/turf/open/floor/iron,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "EJ" = (
 /obj/structure/closet/secure/loot,
@@ -429,18 +347,11 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/industrial/fire/fulltile,
-/turf/open/floor/iron/dark/smooth_half{
-	dir = 1
-	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "Fj" = (
 /obj/effect/spawner/lootdrop/maintenance,
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/powered)
-"FP" = (
-/obj/structure/window/plasma/reinforced/spawner/north,
-/obj/effect/decal/cleanable/glass/plasma,
-/turf/open/floor/plating,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "GN" = (
 /obj/effect/spawner/lootdrop/snowdin/dungeonmid,
@@ -448,78 +359,44 @@
 /area/ruin/space/has_grav/powered)
 "Hg" = (
 /obj/structure/closet/radiation,
-/turf/open/floor/iron,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "HH" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/powered)
-"HW" = (
-/obj/effect/turf_decal/siding/thinplating/dark/corner,
-/obj/structure/table,
-/obj/item/paper/crumpled{
-	info = "God, why is it always me. Put to manage a stupid waste disposal plant. I can feel my teeth and hair falling out by just sitting in my office. RIGHT NEXT TO THE WASTE DISPOSAL ROOM. I swear, I'll die to radiation poisoning before anything else decides to wipe us out.";
-	name = "Complaining"
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/powered)
+/turf/open/floor/engine/air,
+/area/ruin/space/has_grav/storage/materials2)
 "Io" = (
-/obj/effect/decal/cleanable/greenglow/glowy,
-/turf/open/floor/vault,
-/area/ruin/space/has_grav/powered)
-"Ir" = (
-/obj/machinery/door/airlock/maintenance/external{
-	name = "Storage Room"
-	},
-/turf/open/floor/iron/dark/smooth_half,
-/area/ruin/space/has_grav/powered)
+/obj/machinery/power/rad_collector,
+/turf/open/floor/engine/air,
+/area/ruin/space/has_grav/storage/materials2)
 "IJ" = (
-/obj/effect/decal/cleanable/glass/plasma,
-/obj/structure/door_assembly/door_assembly_mai,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/powered)
-"IM" = (
-/obj/machinery/light{
-	dir = 8
+/obj/effect/spawner/structure/window/hollow/plasma/directional{
+	dir = 4
 	},
-/obj/effect/decal/cleanable/blood/tracks,
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/powered)
+/turf/open/floor/engine/air,
+/area/ruin/space/has_grav/storage/materials2)
+"IM" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/engine/air,
+/area/ruin/space/has_grav/storage/materials2)
 "Km" = (
-/turf/open/floor/carpet/red,
-/area/ruin/space/has_grav/powered)
+/obj/structure/window/plasma/reinforced/fulltile/unanchored,
+/turf/open/floor/vault,
+/area/ruin/space/has_grav/storage/materials2)
 "KB" = (
 /turf/closed/wall,
 /area/ruin/unpowered)
 "KF" = (
-/obj/machinery/door/airlock/hatch,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/blood/footprints{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/blood/footprints{
-	dir = 4
-	},
-/turf/open/floor/iron/dark/smooth_half{
-	dir = 1
-	},
-/area/ruin/space/has_grav/powered)
+/turf/open/floor/plasteel/dark/airless,
+/area/space/nearstation)
 "KS" = (
-/obj/item/chair,
-/turf/open/floor/carpet/red,
+/mob/living/simple_animal/hostile/carp,
+/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/powered)
 "Ln" = (
-/obj/item/melee/greykingsword,
-/obj/structure/window/plasma/reinforced/spawner,
-/obj/structure/window/plasma/reinforced/spawner{
-	dir = 8
-	},
-/obj/structure/window/plasma/reinforced/spawner{
-	dir = 4
-	},
-/obj/structure/table/reinforced,
+/obj/structure/radioactive/waste,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/powered)
 "LH" = (
@@ -529,136 +406,95 @@
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/unpowered)
 "Mo" = (
-/obj/structure/rack,
-/obj/item/storage/box/lethalshot,
-/obj/item/gun/ballistic/shotgun/lethal,
-/turf/open/floor/plating/airless,
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 9
+	},
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "MP" = (
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 6
+	},
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/blood/footprints{
-	dir = 1
-	},
-/obj/structure/closet/firecloset,
-/turf/open/floor/iron,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "MX" = (
-/obj/structure/table,
-/obj/item/ammo_box/n762,
+/obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/powered)
 "Nk" = (
-/obj/item/geiger_counter,
-/turf/open/floor/iron/dark/small,
+/obj/machinery/atmospherics/components/unary/vent_pump{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/airless,
 /area/ruin/space/has_grav/powered)
 "NV" = (
-/obj/effect/decal/cleanable/greenglow/glowy,
-/obj/structure/radioactive,
-/turf/open/floor/engine/plasma,
-/area/ruin/space/has_grav/powered)
+/obj/structure/grille/broken,
+/turf/open/floor/engine/air,
+/area/ruin/space/has_grav/storage/materials2)
 "Oc" = (
 /obj/structure/lattice,
 /obj/structure/lattice,
 /turf/template_noop,
 /area/space/nearstation)
 "Oq" = (
-/obj/structure/closet/emcloset/anchored,
-/turf/open/floor/iron/dark/small,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "OF" = (
 /obj/structure/radioactive/waste,
-/obj/effect/decal/cleanable/greenglow,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/powered)
 "OL" = (
-/obj/item/shard/plasma,
-/obj/effect/decal/cleanable/glass/plasma,
-/obj/machinery/light/built{
-	dir = 8
-	},
-/turf/open/floor/vault,
+/obj/machinery/atmospherics/components/binary/valve/on,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "OP" = (
 /obj/item/stack/sheet/plasmarglass,
 /turf/open/floor/vault,
-/area/ruin/space/has_grav/powered)
-"Pi" = (
-/obj/machinery/door/airlock{
-	name = "Facility Management"
-	},
-/turf/open/floor/iron/dark/smooth_half{
-	dir = 1
-	},
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav/storage/materials2)
 "Py" = (
 /obj/structure/sign/warning/longtermwaste{
 	pixel_y = 32
 	},
-/obj/effect/mob_spawn/human/skeleton{
-	outfit = /datum/outfit/russiancorpse
-	},
-/turf/open/floor/engine/hull,
+/obj/effect/mob_spawn/human/skeleton,
+/turf/open/floor/plasteel/dark/airless,
 /area/space/nearstation)
 "Qa" = (
-/obj/structure/window/plasma/reinforced/spawner,
-/obj/machinery/power/rad_collector,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/powered)
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/vault,
+/area/ruin/space/has_grav/storage/materials2)
 "Qd" = (
-/obj/effect/mob_spawn/human/corpse/russian/ranged/officer,
-/obj/effect/decal/cleanable/blood,
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 8
+/obj/machinery/atmospherics/components/unary/outlet_injector/on{
+	dir = 1
 	},
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/powered)
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
 "QE" = (
-/obj/effect/decal/cleanable/cobweb/cobweb2,
-/obj/effect/turf_decal/siding/thinplating/dark/corner{
-	dir = 8
-	},
-/obj/structure/closet/crate/radiation,
-/obj/item/stack/sheet/mineral/uranium/twenty,
+/obj/structure/radioactive/stack,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/powered)
-"QR" = (
-/obj/effect/decal/cleanable/blood/footprints,
-/obj/effect/decal/cleanable/blood/footprints{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/blood/splatter,
-/turf/open/floor/iron,
 /area/ruin/space/has_grav/powered)
 "Ra" = (
-/obj/item/shard{
-	icon_state = "medium"
-	},
-/obj/effect/decal/cleanable/glass,
-/obj/machinery/light/built{
+/obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/vault,
-/area/ruin/space/has_grav/powered)
-"Rp" = (
-/obj/effect/decal/cleanable/blood/splatter,
-/obj/item/gun/ballistic/revolver/nagant,
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 8
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/powered)
+/turf/open/floor/engine/air,
+/area/ruin/space/has_grav/storage/materials2)
 "Ry" = (
-/obj/structure/sign/warning/radiation{
-	pixel_y = -32
-	},
 /obj/machinery/light/built,
-/turf/open/floor/iron,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "RC" = (
-/obj/item/storage/toolbox/emergency/old,
-/turf/open/floor/vault,
+/obj/effect/decal/hammerandsickle,
+/mob/living/simple_animal/chicken,
+/obj/item/melee/greykingsword,
+/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/powered)
 "RD" = (
 /obj/effect/turf_decal/industrial/hatch/red,
@@ -666,124 +502,85 @@
 /obj/structure/closet/crate/radiation,
 /obj/item/stack/sheet/mineral/uranium/twenty,
 /obj/item/coin/uranium,
-/obj/item/research_notes/loot/genius,
-/turf/open/floor/mineral/plastitanium,
+/obj/effect/spawner/lootdrop/maintenance/four,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "RZ" = (
-/obj/machinery/door/airlock/vault/derelict{
-	name = "Decommissioned Supermatter Chamber"
-	},
-/obj/effect/mapping_helpers/airlock/locked,
-/turf/open/floor/iron/dark/smooth_half{
-	dir = 1
-	},
-/area/ruin/space/has_grav/powered)
-"Sg" = (
-/obj/effect/decal/cleanable/glass,
-/obj/item/shard{
-	icon_state = "medium"
-	},
-/turf/open/floor/carpet/red,
-/area/ruin/space/has_grav/powered)
+/obj/machinery/door/airlock/vault/derelict,
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/storage/materials2)
 "SS" = (
-/obj/effect/decal/cleanable/blood/splatter,
-/obj/item/storage/toolbox/mechanical/old,
-/turf/open/floor/iron,
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "Tm" = (
-/turf/open/floor/iron,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "Ud" = (
-/obj/machinery/power/rad_collector/anchored,
-/turf/open/floor/mineral/plastitanium,
+/obj/effect/decal/cleanable/greenglow,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "UW" = (
-/obj/effect/turf_decal/industrial/radiation{
-	dir = 4
-	},
-/turf/open/floor/engine/hull,
+/turf/open/floor/plating/airless,
 /area/space/nearstation)
 "UY" = (
-/obj/structure/frame/computer,
-/obj/effect/decal/cleanable/glass,
-/obj/item/shard{
-	icon_state = "small"
-	},
-/turf/open/floor/vault,
+/obj/structure/radioactive/waste,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "Vb" = (
-/obj/effect/decal/cleanable/blood/tracks,
-/turf/open/floor/iron,
+/obj/effect/radiation,
+/turf/closed/wall,
 /area/ruin/space/has_grav/powered)
 "VD" = (
-/obj/item/storage/toolbox/mechanical/old,
-/obj/structure/rack,
-/obj/machinery/light/built{
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/vault,
-/area/ruin/space/has_grav/powered)
+/turf/open/floor/engine/air,
+/area/ruin/space/has_grav/storage/materials2)
 "VE" = (
-/obj/effect/decal/cleanable/cobweb/cobweb2,
-/obj/structure/radioactive,
-/obj/effect/decal/cleanable/greenglow,
-/turf/open/floor/mineral/plastitanium,
+/obj/machinery/atmospherics/pipe/simple/general/visible,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "VK" = (
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 4
 	},
-/turf/open/floor/vault,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark/airless,
 /area/ruin/space/has_grav/powered)
 "VU" = (
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/powered)
 "WH" = (
-/obj/structure/radioactive/stack,
-/obj/effect/decal/cleanable/greenglow,
-/turf/open/floor/mineral/plastitanium,
+/obj/effect/spawner/lootdrop/snowdin/dungeonlite,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "Yg" = (
+/obj/machinery/advanced_airlock_controller{
+	pixel_y = -24
+	},
 /obj/effect/mob_spawn/human/corpse/russian,
 /obj/item/tank/internals/emergency_oxygen/empty,
-/obj/effect/decal/cleanable/blood,
-/obj/effect/decal/cleanable/blood/footprints{
-	dir = 4
-	},
-/turf/open/floor/iron/dark/small,
+/turf/open/floor/plasteel/dark/airless,
 /area/ruin/space/has_grav/powered)
 "Yj" = (
 /mob/living/simple_animal/hostile/hivebot/strong,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/powered)
-"Yp" = (
-/obj/machinery/computer{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/glass,
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/carpet/red,
-/area/ruin/space/has_grav/powered)
 "Yx" = (
-/obj/item/slimecross/chilling/green,
 /turf/open/floor/vault,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav/storage/materials2)
 "Zh" = (
-/obj/effect/turf_decal/siding/thinplating/dark/corner{
-	dir = 1
-	},
-/obj/item/storage/toolbox/ammo,
-/obj/structure/closet/syndicate{
-	populate = 0;
-	name = "Facility Manager's locker"
-	},
-/obj/item/gun/ballistic/rifle/boltaction,
-/obj/item/clothing/suit/security/officer/russian,
-/obj/item/clothing/suit/armor/vest/russian,
-/obj/item/clothing/head/helmet/rus_helmet,
-/turf/open/floor/mineral/plastitanium,
+/obj/machinery/door/airlock/grunge,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "Zi" = (
 /obj/effect/turf_decal/industrial/fire{
@@ -794,23 +591,14 @@
 	color = "#B20000";
 	pixel_x = 32
 	},
-/obj/effect/decal/cleanable/greenglow,
-/turf/open/floor/iron,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "Zn" = (
 /turf/template_noop,
 /area/template_noop)
 "ZO" = (
-/obj/effect/turf_decal/siding/thinplating/dark/corner{
-	dir = 4
-	},
-/obj/structure/table,
-/obj/item/storage/toolbox/emergency/old,
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/powered)
-"ZS" = (
-/obj/effect/decal/cleanable/glass/plasma,
-/turf/open/floor/engine/plasma,
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/powered)
 
 (1,1,1) = {"
@@ -866,13 +654,13 @@ Zn
 Zn
 Zn
 Zn
-oT
-oT
-oT
-oT
-oT
-oT
-oT
+Zn
+Zn
+Zn
+Zn
+Zn
+Zn
+Zn
 Zn
 Zn
 Zn
@@ -895,6 +683,11 @@ Zn
 Zn
 Zn
 Zn
+Zn
+Zn
+Zn
+Zn
+Zn
 oT
 oT
 oT
@@ -903,12 +696,7 @@ oT
 oT
 oT
 oT
-oT
-oT
-oT
-oT
-oT
-oT
+Zn
 Zn
 Zn
 Zn
@@ -926,16 +714,9 @@ Zn
 Zn
 Zn
 Zn
-oT
-oT
-oT
-oT
-oT
-jD
-jD
-jD
-jD
-jD
+Zn
+Zn
+Zn
 oT
 oT
 oT
@@ -944,6 +725,13 @@ oT
 oT
 oT
 oT
+oT
+oT
+oT
+oT
+oT
+Zn
+Zn
 Zn
 Zn
 Zn
@@ -956,6 +744,10 @@ Zn
 Zn
 Zn
 Zn
+Zn
+Zn
+Zn
+Zn
 oT
 oT
 oT
@@ -964,13 +756,9 @@ oT
 oT
 oT
 oT
-jD
-jD
-ml
-Yp
-gq
-jD
-jD
+oT
+oT
+oT
 oT
 oT
 oT
@@ -997,15 +785,15 @@ oT
 oT
 oT
 oT
-jD
-jD
-HW
-Km
-KS
-Sg
-ZO
-jD
-jD
+oT
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+oT
 oT
 oT
 oT
@@ -1031,15 +819,15 @@ oT
 oT
 oT
 oT
-jD
-ov
-pJ
+fi
+fi
+VU
 iZ
 iZ
-iZ
+ZO
 mX
-MX
-jD
+fi
+fi
 oT
 oT
 oT
@@ -1056,6 +844,8 @@ Zn
 Zn
 Zn
 Zn
+Zn
+Zn
 oT
 oT
 oT
@@ -1063,17 +853,15 @@ oT
 oT
 oT
 oT
-oT
-fu
-jD
+fi
 Ln
 pJ
 iZ
-rP
 iZ
-mX
-fl
-jD
+iZ
+iZ
+VU
+fi
 oT
 oT
 oT
@@ -1096,22 +884,22 @@ oT
 oT
 oT
 oT
-ma
-rg
-LH
-jD
-qH
-pJ
+oT
+oT
+fu
+fi
+VU
 iZ
 iZ
+RC
+KS
 iZ
-mX
-hH
-jD
-jD
-jD
-jD
-jD
+VU
+fi
+fi
+fi
+fi
+fi
 oT
 oT
 oT
@@ -1128,24 +916,24 @@ oT
 oT
 oT
 oT
+oT
+oT
 ma
 rg
-fu
-ma
-cU
-jD
-jD
+LH
+fi
 QE
-Qd
-Rp
-im
-Zh
-jD
-jD
-WH
+iZ
+iZ
+iZ
+iZ
+iZ
+MX
+fi
+rp
 RD
-WH
-jD
+eo
+fi
 oT
 oT
 oT
@@ -1158,28 +946,28 @@ Zn
 Zn
 oT
 oT
+oT
+oT
+oT
+oT
+ma
+rg
+fu
+ma
+cU
 fi
+ls
+VU
+kN
+iZ
+kN
+VU
+mX
 fi
-fi
-fi
-fi
-fi
-fi
-fi
-fi
-fi
-jD
-jD
-jD
-Pi
-jD
-jD
-jD
-jD
-xY
+Ud
 eo
-WH
-jD
+UY
+fi
 oT
 oT
 oT
@@ -1193,27 +981,27 @@ Zn
 oT
 oT
 fi
-AO
-AO
-Mo
 fi
-mj
-qK
-Hg
-kB
-IM
+fi
+fi
+fi
+fi
+fi
+fi
+fi
+fi
 Vb
-oU
-Dp
-Tm
-Hg
-BW
-Hg
-jD
-rp
+fi
+fi
+Zh
+fi
+fi
+fi
+fi
+ua
 ua
 Ud
-jD
+fi
 oT
 oT
 oT
@@ -1227,27 +1015,27 @@ Zn
 oT
 oT
 fi
-ht
-ht
-ht
-Ir
-Tm
-Tm
-Tm
+AO
+AO
+qK
+fi
+mj
 Tm
 kB
+Tm
+ld
 Tm
 kB
 Tm
 Ed
 Tm
 Fj
-Tm
-kN
-VU
-ts
-eo
-jD
+Hg
+fi
+Oq
+ua
+im
+fi
 oT
 oT
 oT
@@ -1268,20 +1056,20 @@ fi
 Bl
 DD
 Tm
-Tm
+hH
 Tm
 Tm
 ld
 oP
 qy
 qy
-QR
+qy
 Ry
-jD
+fi
 zE
 gO
 WH
-jD
+fi
 oT
 oT
 oT
@@ -1298,7 +1086,7 @@ fi
 yn
 Yj
 ht
-fi
+Zh
 Tm
 SS
 Fj
@@ -1311,11 +1099,11 @@ fi
 fi
 MP
 gw
-jD
+qH
 VE
-eo
+VE
 ce
-jD
+fi
 oT
 oT
 oT
@@ -1343,13 +1131,13 @@ oT
 oT
 oT
 jD
+VK
 jD
-KF
 jD
-jD
-WH
-WH
-jD
+ov
+OL
+Mo
+fi
 oT
 oT
 oT
@@ -1379,11 +1167,11 @@ oT
 jD
 Nk
 Yg
-Oq
 jD
-jD
-jD
-jD
+fi
+fi
+fi
+fi
 oT
 oT
 Zn
@@ -1397,24 +1185,24 @@ Zn
 oT
 oT
 oT
-jD
-jD
-jD
-jD
-jD
+jN
+jN
+jN
+jN
+jN
 RZ
-jD
-jD
-jD
-jD
-jD
+oC
+oC
+jN
+jN
+oC
 oT
 oT
-jD
+jm
 nM
 wr
 jm
-ls
+oT
 oT
 oT
 oT
@@ -1431,24 +1219,24 @@ oT
 oT
 oT
 oT
-jD
-jD
-jD
-jD
-jD
+oC
+jN
+oC
+jN
+jN
 he
-jD
-jD
-jD
-jD
-jD
+jN
+jN
+jN
+oC
+oC
 oT
 oT
 jD
 jD
 uo
-jD
-ls
+jm
+oT
 oT
 Zn
 iN
@@ -1465,23 +1253,23 @@ oT
 oT
 oT
 oT
-jD
-jD
-UY
+oC
+jN
+Yx
 rM
-dl
-dl
-RC
+Yx
+Qa
+Yx
 BX
-dl
-jD
-jD
+Yx
+oC
+jN
 oT
 oT
 oT
+vh
 ac
-ac
-pe
+Qd
 zC
 Zn
 Zn
@@ -1499,27 +1287,27 @@ oT
 oT
 oT
 oT
-jD
-jD
-dl
+oC
+jN
+Yx
 Ra
 Io
-dl
+IM
 Dq
 VD
 zp
-jD
-jD
+oC
+jN
 oT
 oT
 oT
 qA
-ac
+UW
 pe
 zC
 Zn
 Zn
-zY
+iN
 Zn
 Zn
 Zn
@@ -1533,28 +1321,28 @@ Zn
 oT
 oT
 oT
-jD
-jD
-dl
-jD
+jN
+jN
+Yx
+oC
 HH
 IJ
-vr
-jD
-dl
-jD
-jD
+rS
+oC
+Qa
+jN
+jN
 oT
 oT
 KB
 Py
-ac
-pe
+UW
+UW
 iN
 iN
 iN
 zY
-kP
+Zn
 Zn
 Zn
 Zn
@@ -1567,28 +1355,28 @@ Zn
 Zn
 oT
 oT
-jD
-jD
-zp
+jN
+oC
+Yx
 sN
 rS
 wc
 qF
 yw
 dl
-jD
-jD
+jN
+jN
 oT
 oT
 KB
-ac
-ac
+KF
+UW
 pe
-zC
+iN
 Zn
 Zn
 xR
-Zn
+kP
 Zn
 Zn
 Zn
@@ -1601,24 +1389,24 @@ Zn
 Zn
 oT
 oT
-jD
-jD
+jN
+jN
 lF
-Qa
 rS
-xF
 rS
-FP
+rS
+rS
+sN
 OP
-jD
-jD
+jN
+jN
 oT
 oT
 oT
-ac
-ac
-pe
-zC
+KF
+KF
+UW
+iN
 Zn
 Zn
 iN
@@ -1635,23 +1423,23 @@ Zn
 Zn
 oT
 oT
-jD
-jD
-Io
-oC
-NV
-rS
-ZS
+jN
 jN
 Yx
-jD
-jD
+oC
+NV
+HH
+rS
+jN
+Yx
+oC
+oC
 oT
 oT
 oT
 UW
+oU
 UW
-uX
 zC
 Zn
 Zn
@@ -1669,27 +1457,27 @@ Zn
 Zn
 oT
 oT
-jD
-jD
-dl
-jD
-HH
-HH
+oC
+jN
+Yx
+Km
+Yx
+Yx
 vr
-jD
-Io
-jD
-jD
+BW
+Yx
+oC
+oC
 oT
 oT
 oT
-zC
+iN
 iN
 zC
 zC
 Zn
 Zn
-iN
+xR
 Zn
 Zn
 Zn
@@ -1703,17 +1491,17 @@ Zn
 oT
 oT
 oT
-jD
-jD
-dl
-VK
-dl
-dl
-vh
-OL
-dl
-jD
-jD
+oC
+oC
+oC
+jN
+oC
+oC
+oC
+jN
+oC
+oC
+oC
 oT
 oT
 Zn
@@ -1737,17 +1525,17 @@ Zn
 oT
 oT
 oT
-jD
-jD
-jD
-jD
-jD
-jD
-jD
-jD
-jD
-jD
-jD
+jN
+oC
+oC
+oC
+jN
+jN
+jN
+jN
+jN
+oC
+oC
 oT
 oT
 iN
@@ -1771,17 +1559,17 @@ Zn
 oT
 oT
 oT
-jD
-jD
-jD
-jD
-jD
-jD
-jD
-jD
-jD
-jD
-jD
+oT
+oT
+oT
+oT
+oT
+oT
+oT
+oT
+oT
+oT
+oT
 oT
 oT
 Zn
@@ -1816,7 +1604,7 @@ oT
 oT
 oT
 oT
-oT
+Zn
 Zn
 Zn
 Zn
