@@ -1,46 +1,39 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ae" = (
-/obj/structure/window/fulltile,
-/turf/open/floor/carpet/royalblack,
+/obj/structure/table/wood/fancy/purple,
+/obj/item/storage/backpack/magspear_quiver,
+/obj/item/storage/backpack/magspear_quiver,
+/turf/open/floor/wood/tile,
 /area/ruin/powered{
 	name = "\improper Dining Hall"
 	})
 "aF" = (
-/obj/structure/table/wood/fancy/purple,
-/obj/item/toy/plush/carpplushie/dehy_carp,
-/obj/item/toy/plush/carpplushie/dehy_carp,
-/obj/item/toy/plush/carpplushie/dehy_carp,
-/obj/item/grenade/spawnergrenade/spesscarp,
-/turf/open/floor/carpet/royalblack,
+/obj/structure/table/wood/fancy,
+/obj/item/reagent_containers/food/snacks/fishandchips,
+/turf/open/floor/carpet/red/airless,
 /area/ruin/powered{
 	name = "\improper Dining Hall"
 	})
 "bE" = (
-/obj/structure/table/wood/fancy,
-/obj/item/reagent_containers/food/snacks/cubancarp,
-/turf/open/floor/carpet/red,
+/obj/structure/window/fulltile,
+/obj/structure/grille,
+/turf/open/floor/plating,
 /area/ruin/powered{
 	name = "\improper Dining Hall"
 	})
 "dd" = (
-/obj/structure/chair/wood/wings{
-	dir = 5
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
 	},
-/obj/item/nullrod/carp,
 /turf/open/floor/carpet/red,
 /area/ruin/powered{
 	name = "\improper Dining Hall"
 	})
 "ep" = (
-/turf/closed/wall/mineral/wood,
-/area/ruin/powered{
-	name = "\improper Cold Storage"
-	})
-"gT" = (
-/obj/structure/table/wood/fancy/purple,
-/obj/item/storage/backpack/magspear_quiver,
-/obj/item/storage/backpack/magspear_quiver,
-/turf/open/floor/carpet/royalblack,
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/carpet/red,
 /area/ruin/powered{
 	name = "\improper Dining Hall"
 	})
@@ -52,37 +45,50 @@
 	name = "\improper Dining Hall"
 	})
 "hH" = (
-/obj/structure/fence/end,
-/turf/open/floor/wood,
-/area/ruin/unpowered)
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/iron/stairs,
+/area/ruin/powered{
+	name = "\improper Dining Hall"
+	})
 "hK" = (
-/turf/open/floor/carpet/red_gold,
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/chair/wood/wings{
+	dir = 1
+	},
+/turf/open/floor/carpet/red,
 /area/ruin/powered{
 	name = "\improper Dining Hall"
 	})
 "jD" = (
-/obj/machinery/door/airlock/wood/glass,
-/turf/open/floor/carpet/royalblack,
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/iron/dark/textured_large,
 /area/ruin/powered{
 	name = "\improper Cold Storage"
 	})
 "mr" = (
-/obj/structure/chair/wood/wings{
-	dir = 4
-	},
 /mob/living/simple_animal/hostile/pirate/melee/beach,
-/turf/open/floor/carpet/red/airless,
-/area/ruin/unpowered)
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/ruin/powered{
+	name = "\improper Dining Hall"
+	})
 "nv" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 4
 	},
-/turf/open/floor/plasteel/kitchen_coldroom/freezerfloor,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/ruin/powered{
 	name = "\improper Cold Storage"
 	})
 "oE" = (
-/turf/open/floor/carpet/red,
+/turf/open/floor/wood/tile,
 /area/ruin/powered{
 	name = "\improper Dining Hall"
 	})
@@ -105,48 +111,50 @@
 	real_name = "The Butcher";
 	unique_name = 1
 	},
-/turf/open/floor/plasteel/kitchen_coldroom/freezerfloor,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/ruin/powered{
 	name = "\improper Cold Storage"
 	})
 "sA" = (
-/obj/structure/table/wood/fancy/purple,
-/obj/item/pneumatic_cannon/speargun,
-/obj/item/pneumatic_cannon/speargun,
-/turf/open/floor/carpet/royalblack,
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/carpet/red,
 /area/ruin/powered{
 	name = "\improper Dining Hall"
 	})
 "tV" = (
 /mob/living/simple_animal/hostile/pirate/melee/beach,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/ruin/powered{
 	name = "\improper Dining Hall"
 	})
 "tX" = (
-/obj/machinery/porta_turret/syndicate/energy{
-	active_power_usage = 0;
-	faction = list("turret", "beach");
-	idle_power_usage = 0;
-	reqpower = 0
-	},
-/turf/closed/wall/mineral/wood,
+/turf/closed/wall,
 /area/ruin/powered{
 	name = "\improper Cold Storage"
 	})
 "ut" = (
-/turf/open/floor/carpet/royalblack,
+/turf/closed/wall,
 /area/ruin/powered{
 	name = "\improper Dining Hall"
 	})
 "uD" = (
-/turf/open/floor/carpet/red/airless,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
 /area/ruin/powered{
 	name = "\improper Dining Hall"
 	})
 "uZ" = (
-/obj/structure/table/wood/fancy,
-/obj/item/reagent_containers/food/snacks/fishandchips,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/chair/wood/wings,
 /turf/open/floor/carpet/red,
 /area/ruin/powered{
 	name = "\improper Dining Hall"
@@ -163,21 +171,25 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 4
 	},
-/turf/open/floor/plasteel/kitchen_coldroom/freezerfloor,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/ruin/powered{
 	name = "\improper Cold Storage"
 	})
 "wH" = (
-/obj/structure/table/wood/fancy,
-/obj/item/reagent_containers/food/drinks/soda_cans/cola,
+/mob/living/simple_animal/hostile/pirate/ranged/beach,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/chair/wood/wings,
 /turf/open/floor/carpet/red,
 /area/ruin/powered{
 	name = "\improper Dining Hall"
 	})
 "Ch" = (
-/obj/structure/table/wood/fancy,
-/obj/structure/table/wood/fancy,
-/turf/open/floor/carpet/red,
+/obj/structure/table/wood/fancy/purple,
+/obj/item/pneumatic_cannon/speargun,
+/obj/item/pneumatic_cannon/speargun,
+/turf/open/floor/wood/tile,
 /area/ruin/powered{
 	name = "\improper Dining Hall"
 	})
@@ -203,12 +215,18 @@
 	name = "\improper Dining Hall"
 	})
 "Em" = (
-/obj/structure/fence,
-/turf/open/floor/wood,
-/area/ruin/unpowered)
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
+/area/ruin/powered{
+	name = "\improper Dining Hall"
+	})
 "Eq" = (
-/obj/machinery/door/airlock/wood/glass,
-/turf/open/floor/wood,
+/obj/structure/railing{
+	dir = 5
+	},
+/turf/open/floor/iron/large,
 /area/ruin/powered{
 	name = "\improper Dining Hall"
 	})
@@ -217,64 +235,77 @@
 /area/template_noop)
 "FK" = (
 /obj/machinery/light/dim,
-/turf/open/floor/carpet/royalblack,
+/turf/open/floor/wood/tile,
 /area/ruin/powered{
 	name = "\improper Dining Hall"
 	})
 "Iv" = (
-/obj/structure/fence{
+/obj/structure/table/wood/fancy/purple,
+/obj/item/toy/plush/carpplushie/dehy_carp,
+/obj/item/toy/plush/carpplushie/dehy_carp,
+/obj/item/toy/plush/carpplushie/dehy_carp,
+/obj/item/grenade/spawnergrenade/spesscarp,
+/turf/open/floor/wood/tile,
+/area/ruin/powered{
+	name = "\improper Dining Hall"
+	})
+"Ko" = (
+/obj/structure/railing{
 	dir = 4
 	},
-/turf/open/floor/wood,
-/area/ruin/unpowered)
-"Ko" = (
-/turf/closed/wall/mineral/wood,
+/turf/open/floor/iron/stairs,
 /area/ruin/powered{
 	name = "\improper Dining Hall"
 	})
 "Kq" = (
 /obj/machinery/light/dim,
-/turf/open/floor/plasteel/kitchen_coldroom/freezerfloor,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/ruin/powered{
 	name = "\improper Cold Storage"
 	})
 "KY" = (
 /obj/structure/table/wood/fancy,
+/obj/item/reagent_containers/food/snacks/cubancarp,
 /turf/open/floor/carpet/red/airless,
 /area/ruin/powered{
 	name = "\improper Dining Hall"
 	})
 "Ly" = (
-/turf/open/floor/plasteel/stairs,
-/area/ruin/unpowered)
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/powered{
+	name = "\improper Dining Hall"
+	})
 "Mn" = (
 /obj/structure/sink,
-/turf/closed/wall/mineral/wood,
+/turf/closed/wall,
 /area/ruin/powered{
 	name = "\improper Cold Storage"
 	})
 "Ok" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer/on/coldroom,
-/turf/open/floor/plasteel/kitchen_coldroom/freezerfloor,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/ruin/powered{
 	name = "\improper Cold Storage"
 	})
 "Os" = (
-/mob/living/simple_animal/hostile/pirate/ranged/beach,
-/turf/open/floor/carpet/red_gold,
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/carpet/red,
 /area/ruin/powered{
 	name = "\improper Dining Hall"
 	})
 "OE" = (
 /obj/structure/table/rolling,
 /obj/item/kitchen/knife/butcher,
-/turf/open/floor/plasteel/kitchen_coldroom/freezerfloor,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/ruin/powered{
 	name = "\improper Cold Storage"
 	})
 "PB" = (
 /obj/structure/kitchenspike,
-/turf/open/floor/plasteel/kitchen_coldroom/freezerfloor,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/ruin/powered{
 	name = "\improper Cold Storage"
 	})
@@ -285,38 +316,39 @@
 /obj/item/reagent_containers/food/snacks/carpmeat,
 /obj/item/reagent_containers/food/snacks/carpmeat,
 /obj/item/reagent_containers/food/snacks/carpmeat,
-/turf/open/floor/plasteel/kitchen_coldroom/freezerfloor,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/ruin/powered{
 	name = "\improper Cold Storage"
 	})
 "QO" = (
-/turf/open/floor/plasteel/kitchen_coldroom/freezerfloor,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/ruin/powered{
 	name = "\improper Cold Storage"
 	})
 "Ta" = (
 /obj/structure/table/rolling,
 /obj/machinery/microwave,
-/turf/open/floor/plasteel/kitchen_coldroom/freezerfloor,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/ruin/powered{
 	name = "\improper Cold Storage"
 	})
 "WT" = (
-/obj/structure/fence/corner{
-	dir = 5
-	},
-/turf/open/floor/wood,
-/area/ruin/unpowered)
+/obj/structure/chair/wood/wings,
+/obj/item/nullrod/carp,
+/turf/open/floor/wood/tile,
+/area/ruin/powered{
+	name = "\improper Dining Hall"
+	})
 "Xp" = (
 /obj/structure/table/rolling,
 /obj/item/clothing/suit/space/hardsuit/carp,
-/turf/open/floor/plasteel/kitchen_coldroom/freezerfloor,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/ruin/powered{
 	name = "\improper Cold Storage"
 	})
 "Xt" = (
 /obj/machinery/deepfryer,
-/turf/open/floor/plasteel/kitchen_coldroom/freezerfloor,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/ruin/powered{
 	name = "\improper Cold Storage"
 	})
@@ -327,27 +359,27 @@
 /obj/item/reagent_containers/food/snacks/carpmeat,
 /obj/item/reagent_containers/food/snacks/carpmeat,
 /obj/item/reagent_containers/food/snacks/carpmeat,
-/turf/open/floor/plasteel/kitchen_coldroom/freezerfloor,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/ruin/powered{
 	name = "\improper Cold Storage"
 	})
 "ZG" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/junction,
-/turf/open/floor/plasteel/kitchen_coldroom/freezerfloor,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/ruin/powered{
 	name = "\improper Cold Storage"
 	})
 
 (1,1,1) = {"
-Ko
-Ko
-Ko
-Ko
-Ko
-Ko
-Ko
-Ko
-Ko
+FG
+FG
+FG
+FG
+FG
+FG
+FG
+FG
+FG
 FG
 FG
 FG
@@ -355,15 +387,15 @@ FG
 FG
 "}
 (2,1,1) = {"
-ae
+FG
+FG
+FG
 ut
 ut
-aF
-gT
-sA
 ut
 ut
-Ko
+ut
+ut
 FG
 FG
 FG
@@ -371,207 +403,207 @@ FG
 FG
 "}
 (3,1,1) = {"
+FG
+FG
+bE
+bE
+Iv
 ae
-ut
-ut
-ut
-ut
-ut
-ut
+Ch
 FK
-ep
-ep
-ep
-ep
-ep
+tX
+tX
+tX
+tX
+tX
 tX
 "}
 (4,1,1) = {"
-ae
-ut
-hK
-hK
-hK
-hK
-hK
-ut
-ep
+FG
+bE
+bE
+oE
+oE
+oE
+oE
+oE
+tX
 Ok
 ZG
 QO
 QO
-ep
+tX
 "}
 (5,1,1) = {"
-ae
-ut
-hK
+FG
+bE
 oE
 oE
 oE
-hK
-ut
+oE
+oE
+oE
 jD
 QO
 QO
 PB
 Kq
-ep
+tX
 "}
 (6,1,1) = {"
-ae
-ut
-hK
+FG
+bE
 oE
+dd
 mr
 uD
-hK
-ut
+ep
+oE
 jD
 QO
 QO
 nv
 QO
-ep
+tX
 "}
 (7,1,1) = {"
-ae
-ut
-hK
+FG
+bE
+oE
 uZ
 hd
 vc
 hK
-ut
+FK
 Mn
 QO
 QO
 vL
 QO
-ep
+tX
 "}
 (8,1,1) = {"
-ae
-ut
-Os
+FG
+bE
+oE
 wH
-KY
+aF
 Ds
 hK
-ut
-ep
+oE
+tX
 OE
 pI
 QO
 QO
-ep
+tX
 "}
 (9,1,1) = {"
-ae
-ut
-hK
-Ch
-KY
+FG
+bE
+oE
+uZ
+DM
 DM
 hK
-FK
-ep
+oE
+tX
 Qi
 QO
 vL
 QO
-ep
+tX
 "}
 (10,1,1) = {"
-ae
-ut
-hK
+FG
 bE
+oE
+uZ
 KY
 DO
 hK
-ut
-ep
+FK
+tX
 Ta
 QO
 QO
 QO
-ep
+tX
 "}
 (11,1,1) = {"
-ae
-ut
-hK
+FG
+bE
 oE
+Os
 tV
+Em
+sA
 oE
-hK
-ut
-ep
+tX
 Xp
 QO
 vL
 QO
-ep
+tX
 "}
 (12,1,1) = {"
-ae
-ut
-hK
-dd
+FG
+bE
 oE
 oE
-hK
-ut
-ep
+WT
+oE
+oE
+oE
+tX
 Xt
 QO
 nv
 Kq
-ep
+tX
 "}
 (13,1,1) = {"
-ae
-ut
-hK
-hK
-hK
-hK
-hK
-ut
-ep
+FG
+bE
+bE
+oE
+oE
+oE
+oE
+oE
+tX
 YJ
 QO
 QO
 QO
-ep
+tX
 "}
 (14,1,1) = {"
-ae
-ut
-ut
-ut
-ut
-ut
-ut
+FG
+FG
+bE
+bE
+oE
+oE
+oE
 FK
-ep
-ep
-ep
-ep
-ep
+tX
+tX
+tX
+tX
+tX
 tX
 "}
 (15,1,1) = {"
-ae
+FG
+FG
+FG
+ut
+ut
+Ly
 ut
 ut
 ut
-ut
-ut
-ut
-ut
-Ko
 FG
 FG
 FG
@@ -579,11 +611,11 @@ FG
 FG
 "}
 (16,1,1) = {"
-Ko
-Ko
-Ko
-Ko
-Ko
+FG
+FG
+FG
+FG
+FG
 Eq
 Ko
 Ko
@@ -599,13 +631,13 @@ FG
 FG
 FG
 FG
-Iv
-Ly
-Ly
-Ly
-Ly
-Ly
-Ly
+FG
+FG
+FG
+FG
+FG
+FG
+FG
 FG
 FG
 FG
@@ -615,12 +647,12 @@ FG
 FG
 FG
 FG
-WT
-Em
-Em
-Em
-Em
-hH
+FG
+FG
+FG
+FG
+FG
+FG
 FG
 FG
 FG

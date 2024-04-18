@@ -106,7 +106,11 @@
 		"stamp-rd" = 'icons/stamp_icons/large_stamp-rd.png',
 		"stamp-cap" = 'icons/stamp_icons/large_stamp-cap.png',
 		"stamp-qm" = 'icons/stamp_icons/large_stamp-qm.png',
-		"stamp-law" = 'icons/stamp_icons/large_stamp-law.png'
+		"stamp-law" = 'icons/stamp_icons/large_stamp-law.png',
+		"stamp-solgov" = 'icons/stamp_icons/large_stamp-solgov.png',
+		"stamp-inteq" = 'icons/stamp_icons/large_stamp-inteq.png',
+		"stamp-cybersun" = 'icons/stamp_icons/large_stamp-cybersun.png',
+		"stamp-donk" = 'icons/stamp_icons/large_stamp-donk.png'
 	)
 
 

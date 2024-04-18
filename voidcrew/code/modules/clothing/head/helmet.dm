@@ -8,7 +8,22 @@
 	dog_fashion = null
 
 /obj/item/clothing/head/solgov
-	name = "\improper SolGov officer's cap"
+	name = "\improper SolGov Executive Officer's cap"
+	desc = "A cap worn by medium grade officers of SolGov."
+	armor = list("melee" = 40, "bullet" = 30, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 60)
+	icon = 'voidcrew/icons/obj/clothing/hats.dmi'
+	icon_state = "cap_solgovhop"
+	item_state = "cap_solgovhop"
+	strip_delay = 80
+
+/obj/item/clothing/head/solgov/terragov
+	name = "\improper TerraGov Executive Officer's cap"
+	desc = "A cap worn by medium grade officers of SolGov. With a different government tone."
+	icon_state = "cap_terragovhop"
+	item_state = "cap_terragovhop"
+
+/obj/item/clothing/head/solgovcap
+	name = "\improper SolGov parade cap"
 	desc = "A blue cap worn by high-ranking officers of SolGov."
 	armor = list("melee" = 40, "bullet" = 30, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 60)
 	icon = 'voidcrew/icons/obj/clothing/hats.dmi'
@@ -16,9 +31,9 @@
 	item_state = "cap_solgov"
 	strip_delay = 80
 
-/obj/item/clothing/head/solgov/terragov
-	name = "\improper TerraGov officer's cap"
-	desc = "A cap worn by high-ranking officers of SolGov. This one is still in original TerraGov green."
+/obj/item/clothing/head/solgovcap/terragov
+	name = "\improper TerraGov parade cap"
+	desc = "A cap worn by high-ranking officers of SolGov. This one is colored the original TerraGov green."
 	armor = list("melee" = 40, "bullet" = 30, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 60)
 	icon_state = "cap_terragov"
 	item_state = "cap_terragov"

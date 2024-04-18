@@ -5,16 +5,22 @@
 /area/ruin)
 "aE" = (
 /obj/item/trash/candy,
-/turf/open/floor/wood,
+/turf/open/floor/wood/large,
+/area/ruin)
+"bl" = (
+/obj/structure/bed,
+/obj/item/bedsheet/dorms,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/iron,
 /area/ruin)
 "bn" = (
 /obj/effect/decal/cleanable/blood/splatter,
-/turf/open/floor/wood,
+/turf/open/floor/wood/large,
 /area/ruin)
 "bY" = (
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/structure/girder/reinforced,
-/turf/open/floor/plating,
+/turf/open/floor/plating/airless,
 /area/ruin)
 "ch" = (
 /obj/machinery/power/port_gen/pacman,
@@ -27,7 +33,7 @@
 /obj/machinery/door/airlock/engineering{
 	name = "Engineering"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin)
 "dd" = (
 /obj/item/stack/ore/uranium,
@@ -36,19 +42,16 @@
 "dr" = (
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/item/trash/sosjerky,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/airless,
 /area/ruin)
 "dz" = (
-/obj/effect/decal/cleanable/oil/slippery,
-/obj/machinery/modular_computer/console{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
+/obj/machinery/door/airlock/external,
+/turf/open/floor/plating,
 /area/ruin)
 "dI" = (
 /obj/structure/table/wood,
-/obj/item/gun/ballistic/automatic/pistol/suppressed,
-/turf/open/floor/wood,
+/obj/item/gun/ballistic/automatic/pistol/solgov,
+/turf/open/floor/carpet/nanoweave/blue,
 /area/ruin)
 "em" = (
 /turf/closed/wall/r_wall,
@@ -56,12 +59,16 @@
 "en" = (
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/structure/closet/crate,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "eH" = (
 /obj/structure/mecha_wreckage/ripley/mkii,
 /turf/open/floor/holofloor/asteroid,
 /area/asteroid)
+"eI" = (
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plating/airless,
+/area/ruin)
 "fg" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 1
@@ -70,36 +77,36 @@
 /area/asteroid)
 "fD" = (
 /obj/effect/decal/cleanable/oil/slippery,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "fE" = (
 /obj/item/stack/sheet/mineral/plasma/five,
-/obj/effect/decal/cleanable/blood/gibs/bubblegum,
+/obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/holofloor/asteroid,
 /area/asteroid)
 "fU" = (
 /obj/structure/bed,
 /obj/item/bedsheet/dorms,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "fW" = (
-/obj/machinery/door/airlock{
-	name = "Room 1"
-	},
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/obj/machinery/door/airlock/medical/glass{
+	name = "Sick Bay"
+	},
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin)
 "fY" = (
-/obj/effect/mob_spawn/human/miner/explorer,
-/obj/effect/decal/cleanable/blood/splatter,
-/turf/open/floor/wood,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/mob_spawn/human/corpse/solgov/officer,
+/turf/open/floor/carpet/nanoweave/blue,
 /area/ruin)
 "gW" = (
 /obj/structure/table,
 /obj/item/folder/blue,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "hc" = (
 /obj/effect/decal/cleanable/oil/slippery,
@@ -112,30 +119,35 @@
 /obj/item/flashlight/glowstick/yellow,
 /obj/item/trash/syndi_cakes,
 /obj/item/storage/bag/ore,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "hD" = (
 /obj/structure/table,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
+/area/ruin)
+"ij" = (
+/obj/structure/table/glass,
+/obj/item/stack/medical/gauze/twelve,
+/turf/open/floor/iron,
 /area/ruin)
 "ik" = (
 /obj/structure/sign/poster/retro/smile,
-/turf/closed/wall/rust,
+/turf/closed/wall,
 /area/ruin)
 "in" = (
 /turf/closed/mineral,
 /area/asteroid)
 "iy" = (
 /obj/structure/closet/crate/engineering,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "iA" = (
 /obj/item/stack/ore/uranium,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "iY" = (
 /obj/item/trash/candy,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "kd" = (
 /obj/structure/sink/puddle,
@@ -143,56 +155,59 @@
 /area/asteroid)
 "kl" = (
 /obj/machinery/door/airlock{
-	name = "Room 3"
+	name = "Dorm 1"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin)
 "kS" = (
 /obj/item/trash/can,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "lE" = (
 /turf/closed/wall,
 /area/ruin)
 "lQ" = (
 /obj/item/trash/waffles,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/airless,
 /area/ruin)
 "mx" = (
 /obj/machinery/vending/cigarette,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "nG" = (
 /obj/structure/closet/crate,
 /obj/item/stack/ore/iron,
 /obj/item/stack/ore/iron,
 /obj/item/stack/ore/iron,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "op" = (
 /obj/structure/sign/poster/retro/radio,
-/turf/closed/wall/rust,
+/turf/closed/wall,
 /area/ruin)
 "or" = (
-/obj/structure/table/wood/poker,
-/obj/effect/holodeck_effect/cards,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/airless,
 /area/ruin)
 "pd" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green,
-/turf/open/floor/wood,
+/turf/open/floor/wood/large,
 /area/ruin)
 "qb" = (
-/obj/machinery/door/airlock/wood/glass{
-	name = "Corporate's Office"
+/obj/machinery/door/airlock/solgov/glass{
+	name = "Corporate Representative's Office"
 	},
-/turf/open/floor/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 8
+	},
 /area/ruin)
 "qx" = (
 /obj/structure/bed,
-/obj/item/bedsheet/syndie,
-/turf/open/floor/wood,
+/obj/item/bedsheet/head_of_personnel,
+/turf/open/floor/carpet/nanoweave/blue,
 /area/ruin)
 "qz" = (
 /obj/item/stack/ore/uranium,
@@ -200,86 +215,99 @@
 /turf/open/floor/holofloor/asteroid,
 /area/asteroid)
 "qX" = (
-/turf/closed/mineral,
-/area/asteroid)
+/obj/structure/table,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/iron,
+/area/ruin)
 "re" = (
-/turf/closed/mineral/gold,
-/area/asteroid)
+/obj/structure/lattice,
+/obj/effect/gibspawner/human,
+/turf/open/space/basic,
+/area/space)
 "sc" = (
 /obj/machinery/door/airlock{
 	name = "Preparations"
 	},
 /obj/structure/barricade/wooden/crude,
-/turf/open/floor/plasteel,
+/obj/structure/fans/tiny/invisible,
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin)
 "sw" = (
-/turf/closed/wall/r_wall/rust,
+/obj/structure/table/glass,
+/obj/item/stack/medical/suture,
+/turf/open/floor/iron,
 /area/ruin)
 "tu" = (
 /obj/machinery/mineral/equipment_vendor,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/airless,
 /area/ruin)
 "tS" = (
 /obj/effect/decal/cleanable/blood/splatter,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "ub" = (
 /obj/structure/closet/secure_closet/engineering_personal,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "vf" = (
 /obj/machinery/door/airlock/command{
-	name = "Bridge"
+	name = "Control Office"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 8
+	},
 /area/ruin)
 "vh" = (
 /obj/effect/mob_spawn/human/miner/explorer,
-/obj/effect/decal/cleanable/blood/tracks{
-	dir = 1
-	},
 /obj/effect/decal/cleanable/blood/gibs/bubblegum,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/holofloor/asteroid,
 /area/asteroid)
 "wj" = (
-/obj/machinery/roulette,
-/turf/open/floor/plasteel,
+/obj/structure/table/glass,
+/obj/item/storage/firstaid/ancient,
+/turf/open/floor/iron,
 /area/ruin)
 "wD" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "wF" = (
 /obj/structure/lattice,
 /turf/open/space/basic,
-/area/ruin)
+/area/space)
 "xv" = (
 /obj/effect/decal/cleanable/blood/gibs/torso,
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/structure/chair/office/light,
+/turf/open/floor/iron,
+/area/ruin)
+"xG" = (
+/obj/effect/decal/cleanable/oil/slippery,
+/turf/open/floor/iron/airless,
 /area/ruin)
 "yk" = (
 /obj/structure/sign/poster/ripped,
-/turf/closed/wall/rust,
+/turf/closed/wall,
 /area/ruin)
 "yN" = (
-/obj/structure/chair/office/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/ruin)
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/holofloor/asteroid,
+/area/asteroid)
 "zF" = (
 /obj/structure/chair/office/light{
 	dir = 4
 	},
-/turf/open/floor/wood,
+/turf/open/floor/wood/large,
 /area/ruin)
 "At" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/mechanical,
 /obj/item/multitool,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "AV" = (
 /obj/item/stack/ore/plasma,
@@ -293,49 +321,51 @@
 /turf/open/floor/holofloor/asteroid,
 /area/asteroid)
 "Cc" = (
-/obj/effect/decal/cleanable/oil/slippery,
-/obj/structure/chair/stool/bar{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/blood,
+/obj/structure/bed/roller,
+/turf/open/floor/iron,
 /area/ruin)
 "CE" = (
 /obj/structure/closet/crate,
 /obj/item/stack/ore/titanium,
 /obj/item/stack/ore/titanium,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "CJ" = (
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 9
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
+/area/ruin)
+"CR" = (
+/obj/effect/decal/cleanable/oil/slippery,
+/obj/structure/bed,
+/obj/item/bedsheet/medical,
+/turf/open/floor/iron,
 /area/ruin)
 "Di" = (
 /obj/structure/bed/roller,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "Dv" = (
-/obj/structure/chair/office/light{
-	dir = 1
-	},
-/turf/open/floor/wood,
+/turf/open/floor/carpet/nanoweave/blue,
 /area/ruin)
 "DP" = (
 /obj/item/shard,
-/turf/open/floor/plating,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plating/airless,
 /area/ruin)
 "Eg" = (
 /obj/structure/closet/crate,
 /obj/item/stack/ore/gold,
 /obj/item/stack/ore/gold,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "ES" = (
 /obj/structure/table/wood,
-/obj/machinery/computer/pod/old/syndicate,
-/turf/open/floor/wood,
+/obj/machinery/photocopier/faxmachine,
+/turf/open/floor/carpet/nanoweave/blue,
 /area/ruin)
 "Ft" = (
 /obj/structure/sign/departments/engineering,
@@ -343,34 +373,46 @@
 /area/ruin)
 "FW" = (
 /obj/machinery/suit_storage_unit/mining/eva,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/airless,
 /area/ruin)
 "GD" = (
 /obj/effect/decal/cleanable/blood/gibs/old,
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/airless,
 /area/ruin)
 "Ho" = (
 /obj/effect/mob_spawn/human/miner/explorer,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/holofloor/asteroid,
 /area/asteroid)
 "HL" = (
 /obj/machinery/power/smes,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
+/area/ruin)
+"HP" = (
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/iron/airless,
+/area/ruin)
+"HX" = (
+/obj/structure/girder/reinforced,
+/turf/open/floor/plating/airless,
 /area/ruin)
 "Im" = (
 /obj/effect/mob_spawn/human/miner/explorer,
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron,
 /area/ruin)
 "It" = (
 /turf/closed/mineral/gold,
 /area/asteroid)
 "IR" = (
 /obj/machinery/door/airlock/external,
-/turf/open/floor/plasteel,
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
 /area/ruin)
 "Jg" = (
 /obj/item/pickaxe/drill,
-/obj/effect/decal/cleanable/blood/old,
+/obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/holofloor/asteroid,
 /area/asteroid)
 "Jn" = (
@@ -380,115 +422,123 @@
 /obj/item/stack/sheet/mineral/plasma/twenty,
 /obj/item/stack/ore/diamond,
 /obj/item/stack/ore/diamond,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "JT" = (
 /obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plasteel,
+/turf/open/floor/plating,
 /area/ruin)
 "Lz" = (
 /turf/open/space/basic,
 /area/space)
 "LB" = (
 /obj/effect/mob_spawn/human/miner/explorer,
-/obj/effect/decal/cleanable/blood/gibs,
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/glass,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/airless,
 /area/ruin)
 "LI" = (
 /obj/structure/closet/secure_closet/personal,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "LU" = (
 /obj/effect/decal/cleanable/blood/tracks,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "MO" = (
 /obj/item/trash/syndi_cakes,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "Nt" = (
-/obj/structure/sign/poster/official/space_cops,
+/obj/structure/sign/poster/contraband/space_cops,
 /turf/closed/wall,
 /area/ruin)
 "Ov" = (
-/turf/open/floor/wood,
+/turf/open/floor/wood/large,
 /area/ruin)
 "Oz" = (
-/turf/closed/wall/rust,
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 9
+	},
+/turf/open/floor/iron,
 /area/ruin)
 "OT" = (
 /obj/effect/decal/cleanable/blood/tracks{
-	dir = 1
+	dir = 6
 	},
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/dept/medical,
+/turf/open/floor/iron,
 /area/ruin)
 "OX" = (
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/machinery/vending/coffee,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "Pk" = (
-/obj/effect/mob_spawn/human/miner/explorer,
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/holofloor/asteroid,
-/area/asteroid)
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/ruin)
 "Px" = (
 /obj/structure/closet/secure_closet/miner,
-/turf/open/floor/plating,
+/turf/open/floor/plating/airless,
 /area/ruin)
 "Py" = (
 /obj/item/rollingpaper,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "Pz" = (
-/obj/structure/chair/stool/bar{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
+/obj/structure/table/glass,
+/turf/open/floor/iron,
 /area/ruin)
 "Qn" = (
 /obj/structure/closet/cabinet,
-/turf/open/floor/wood,
+/turf/open/floor/carpet/nanoweave/blue,
 /area/ruin)
 "Rb" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "Rw" = (
-/obj/item/trash/popcorn,
-/turf/open/floor/wood,
+/obj/item/stack/ore/uranium,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron,
 /area/ruin)
 "Sp" = (
 /obj/structure/grille/broken,
 /obj/item/shard,
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plating/airless,
 /area/ruin)
 "Ss" = (
-/obj/structure/table,
-/obj/item/paper_bin,
-/obj/item/pen,
-/obj/item/stamp,
-/turf/open/floor/plasteel,
+/obj/machinery/computer{
+	dir = 1;
+	name = "old computer"
+	},
+/turf/open/floor/iron,
 /area/ruin)
 "SI" = (
 /obj/machinery/door/airlock/alarmlock{
 	name = "Cargo"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 8
+	},
 /area/ruin)
 "SK" = (
 /obj/structure/table/wood,
-/turf/open/floor/wood,
+/turf/open/floor/wood/large,
 /area/ruin)
 "Tl" = (
 /obj/item/trash/sosjerky,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "Tn" = (
-/obj/machinery/door/airlock/wood{
-	locked = 1;
-	name = "Corporate Bedroom"
+/obj/machinery/door/airlock/solgov{
+	name = "Representative's Bedroom"
 	},
-/turf/open/floor/wood,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin)
 "TE" = (
 /turf/open/floor/holofloor/asteroid,
@@ -496,7 +546,7 @@
 "Ur" = (
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/item/trash/can/food/peaches/maint,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "UP" = (
 /turf/open/floor/plating,
@@ -504,34 +554,40 @@
 "UZ" = (
 /obj/structure/closet/crate/bin,
 /obj/item/trash/can/food/beans,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "Vd" = (
-/obj/machinery/modular_computer/console/preset/engineering,
-/turf/open/floor/plasteel,
+/obj/machinery/computer{
+	name = "old computer"
+	},
+/turf/open/floor/iron,
 /area/ruin)
 "VE" = (
-/obj/structure/girder/reinforced,
-/turf/open/floor/plating,
+/turf/open/floor/plating/airless,
 /area/ruin)
 "Wk" = (
-/turf/closed/mineral,
-/area/asteroid)
+/obj/structure/chair/office/light{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron,
+/area/ruin)
 "Wz" = (
 /obj/structure/closet/crate,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "WH" = (
-/obj/machinery/modular_computer/console{
-	dir = 8
+/obj/machinery/computer{
+	dir = 8;
+	name = "old computer"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "WN" = (
 /obj/effect/mob_spawn/human/miner/explorer,
 /obj/item/storage/bag/ore,
-/obj/effect/decal/cleanable/blood/tracks,
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron,
 /area/ruin)
 "Xo" = (
 /obj/effect/decal/cleanable/oil/slippery,
@@ -539,16 +595,17 @@
 	icon_state = "crateopen"
 	},
 /obj/item/flashlight,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "Xr" = (
-/turf/closed/mineral,
-/area/space)
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/airless,
+/area/ruin)
 "Xy" = (
 /obj/machinery/door/airlock{
-	name = "Room 2"
+	name = "Dorm 2"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin)
 "XN" = (
 /obj/structure/closet/crate{
@@ -557,19 +614,21 @@
 /obj/item/flashlight,
 /obj/item/reagent_containers/food/drinks/soda_cans/plasma,
 /obj/item/stack/ore/bluespace_crystal,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "XP" = (
 /obj/item/flashlight/flare,
 /obj/effect/decal/cleanable/blood/tracks,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin)
 "Yc" = (
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/machinery/door/airlock/alarmlock{
 	name = "Cargo"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 8
+	},
 /area/ruin)
 
 (1,1,1) = {"
@@ -603,11 +662,11 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-qX
-qX
+in
+in
+in
+in
+in
 Lz
 Lz
 Lz
@@ -653,14 +712,14 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-qX
-qX
-qX
-Wk
-qX
+in
+in
+in
+in
+in
+in
+in
+in
 Lz
 Lz
 Lz
@@ -696,24 +755,24 @@ TE
 Lz
 Lz
 Lz
-qX
+in
 Lz
 Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-Wk
-qX
-qX
-qX
-Wk
-qX
-qX
-qX
-Wk
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
 Lz
 Lz
 Lz
@@ -742,31 +801,31 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
+in
+in
 TE
 TE
 TE
-qX
-qX
-qX
+in
+in
+in
 Lz
 Lz
 Lz
-Wk
-Wk
-Wk
-qX
+in
+in
+in
+in
 TE
 TE
 TE
 TE
 TE
-qX
-re
-qX
-qX
-qX
+in
+It
+in
+in
+in
 Lz
 Lz
 Lz
@@ -794,32 +853,32 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
+in
+in
+in
 TE
 TE
 TE
-Wk
-qX
-qX
-qX
-qX
-qX
-qX
-qX
+in
+in
+in
+in
+in
+in
+in
+in
 TE
 TE
 TE
 vh
 fg
 fg
-TE
+yN
 It
-qX
-qX
-qX
-qX
+in
+in
+in
+in
 Lz
 Lz
 Lz
@@ -845,20 +904,20 @@ Lz
 Lz
 Lz
 Lz
-Xr
-qX
-qX
-Wk
-qX
+in
+in
+in
+in
+in
 TE
 TE
 TE
-qX
-Wk
-qX
-Wk
-qX
-qX
+in
+in
+in
+in
+in
+in
 TE
 TE
 TE
@@ -870,9 +929,9 @@ TE
 TE
 TE
 qz
-qX
-Wk
-qX
+in
+in
+in
 Lz
 Lz
 Lz
@@ -895,20 +954,20 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-qX
-qX
-qX
-qX
+in
+in
+in
+in
+in
+in
+in
 TE
 TE
 TE
 TE
 TE
-qX
-qX
+in
+in
 TE
 TE
 TE
@@ -923,8 +982,8 @@ TE
 dd
 dd
 TE
-qX
-qX
+in
+in
 Lz
 Lz
 Lz
@@ -946,16 +1005,16 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-qX
-Wk
-qX
-qX
-Wk
-qX
-qX
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
 TE
 TE
 TE
@@ -965,19 +1024,19 @@ TE
 TE
 TE
 TE
-qX
-qX
-qX
-qX
-qX
+in
+in
+in
+in
+in
 TE
 TE
 TE
 TE
 TE
 TE
-qX
-qX
+in
+in
 Lz
 Lz
 Lz
@@ -997,16 +1056,16 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-Wk
-Wk
-Wk
-Wk
-Wk
-qX
-qX
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
 TE
 TE
 TE
@@ -1014,28 +1073,28 @@ TE
 TE
 TE
 TE
-qX
-qX
-qX
-qX
-qX
-qX
-Wk
-re
-qX
-re
+in
+in
+in
+in
+in
+in
+in
+It
+in
+It
 TE
 TE
 TE
 TE
-Wk
-qX
-qX
+in
+in
+in
 Lz
 Lz
 Lz
-qX
-qX
+in
+in
 Lz
 Lz
 Lz
@@ -1050,43 +1109,43 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-Wk
-Wk
-qX
-qX
-qX
+in
+in
+in
+in
+in
+in
+in
+TE
+TE
+yN
 TE
 TE
 TE
-TE
-TE
-TE
-qX
-qX
-qX
-qX
-qX
-qX
+in
+in
+in
+in
+in
+in
 It
-qX
-qX
-qX
-qX
-qX
-qX
-qX
+in
+in
+in
+in
+in
+in
+in
 TE
 TE
 TE
-qX
-qX
-qX
-qX
-qX
-Wk
-qX
+in
+in
+in
+in
+in
+in
+in
 Lz
 Lz
 Lz
@@ -1103,43 +1162,43 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-Wk
-qX
+in
+in
+in
+in
+in
 TE
 TE
 eH
 TE
 TE
 TE
-qX
-qX
-qX
-Wk
-qX
+in
+in
+in
+in
+in
 em
 em
 em
-sw
-sw
 em
 em
 em
-sw
-Wk
-qX
+em
+em
+em
+in
+in
 TE
 TE
 TE
-qX
-Wk
-qX
-Wk
-qX
-qX
-qX
+in
+in
+in
+in
+in
+in
+in
 Lz
 Lz
 Lz
@@ -1156,37 +1215,37 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-qX
-qX
+in
+in
+in
+in
+in
 TE
 TE
 TE
 TE
-qX
+in
 It
-qX
-qX
-qX
-qX
+in
+in
+in
+in
 em
 ES
 Dv
-Ov
+Dv
 Tn
 bn
 zF
 Ov
-sw
-qX
-qX
+em
+in
+in
 TE
 TE
 TE
 TE
-qX
+in
 TE
 TE
 TE
@@ -1208,33 +1267,33 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-qX
-qX
+in
+in
+in
+in
+in
 TE
 TE
 TE
-re
-qX
-qX
+It
+in
+in
 em
 em
 em
-sw
+em
 em
 dI
-Rw
-Ov
+Dv
+Dv
 em
 pd
 SK
 Ov
 em
-qX
-Wk
-qX
+in
+in
+in
 TE
 TE
 TE
@@ -1261,21 +1320,21 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
+in
+in
+in
 TE
 TE
 TE
 Ho
-re
-qX
-qX
-sw
+It
+in
+in
+em
 HL
 fD
 Rb
-sw
+em
 Qn
 fY
 qx
@@ -1284,9 +1343,9 @@ Ov
 bn
 aE
 em
-qX
-qX
-qX
+in
+in
+in
 TE
 TE
 TE
@@ -1314,38 +1373,38 @@ Lz
 Lz
 Lz
 Lz
-qX
+in
 TE
 TE
 TE
 fE
 TE
 TE
-qX
-Wk
+in
+in
 am
 HL
 Rb
 Rb
-sw
-sw
 em
 em
-sw
+em
+em
+em
 em
 qb
-sw
 em
-sw
 em
-qX
+em
+em
+in
 TE
 TE
 TE
 TE
 TE
 TE
-qX
+in
 TE
 Lz
 Lz
@@ -1373,9 +1432,9 @@ ch
 TE
 TE
 TE
-qX
-qX
-sw
+in
+in
+em
 Vd
 tS
 fD
@@ -1385,20 +1444,20 @@ Rb
 Rb
 Rb
 fD
+Rw
 iA
-iA
+dz
+UP
 IR
-Rb
-IR
 TE
 TE
 TE
 TE
 TE
 TE
-qX
-qX
-qX
+in
+in
+in
 Lz
 Lz
 Lz
@@ -1425,8 +1484,8 @@ Bx
 TE
 TE
 TE
-qX
-qX
+in
+in
 em
 iy
 Rb
@@ -1439,16 +1498,16 @@ XP
 WN
 iA
 Rb
+dz
+UP
 IR
-Rb
-IR
 TE
 TE
 TE
 TE
 TE
-qX
-qX
+in
+in
 Lz
 Lz
 Lz
@@ -1477,29 +1536,29 @@ TE
 TE
 Jg
 TE
-qX
-qX
+in
+in
 em
 lE
 lE
-Oz
+lE
 yk
 Di
 wD
 lE
-Oz
+lE
 SI
 Yc
-Oz
-Oz
+lE
+lE
 lE
 em
-qX
+in
 TE
 TE
 TE
-qX
-qX
+in
+in
 Lz
 Lz
 Lz
@@ -1525,34 +1584,34 @@ Lz
 Lz
 Lz
 TE
-Pk
+Ho
 TE
 TE
-qX
-qX
-Wk
+in
+in
+in
 em
 LI
 Rb
 fU
-Oz
+lE
 Rb
-Rb
-Oz
+tS
+lE
 Jn
 Rb
 Rb
 Wz
 nG
 Xo
-sw
-qX
-qX
-qX
-qX
-qX
-qX
-qX
+em
+in
+in
+in
+in
+in
+in
+in
 Lz
 Lz
 Lz
@@ -1580,10 +1639,10 @@ TE
 TE
 TE
 TE
-qX
-qX
-qX
-JT
+in
+in
+in
+em
 Rb
 fD
 Rb
@@ -1598,12 +1657,12 @@ fD
 Rb
 Rb
 em
-qX
-re
-qX
-Wk
-Wk
-qX
+in
+It
+in
+in
+in
+in
 Lz
 Lz
 Lz
@@ -1632,9 +1691,9 @@ Lz
 TE
 TE
 TE
-qX
-qX
-qX
+in
+in
+in
 em
 LI
 Tl
@@ -1649,12 +1708,12 @@ XN
 Eg
 hc
 Wz
-sw
-qX
-Wk
-qX
-qX
-qX
+em
+in
+in
+in
+in
+in
 Lz
 Lz
 Lz
@@ -1680,35 +1739,35 @@ Lz
 Lz
 Lz
 Lz
-qX
+in
 TE
-qX
-qX
-qX
-re
-qX
+in
+in
+in
+It
+in
 em
 lE
-Oz
-Oz
+lE
+lE
 Nt
 Rb
 Rb
 lE
 lE
-Oz
-Oz
-Oz
+lE
+lE
+lE
 lE
 em
 em
-re
-qX
-Wk
-qX
-qX
-qX
-qX
+It
+in
+in
+in
+in
+in
+in
 Lz
 Lz
 Lz
@@ -1731,35 +1790,35 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-qX
-qX
-qX
-Wk
-qX
+in
+in
+in
+in
+in
+in
+in
+in
 em
 LI
 Rb
-fU
+bl
 lE
 Rb
 fD
 UZ
 lE
 FW
-Rb
-Rb
+or
+or
 tu
 em
-re
-re
-Wk
-qX
-Wk
-qX
-qX
+It
+It
+in
+in
+in
+in
+in
 Lz
 Lz
 Lz
@@ -1783,15 +1842,15 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-JT
+in
+in
+in
+in
+in
+in
+in
+in
+em
 Rb
 Rb
 fD
@@ -1804,13 +1863,13 @@ FW
 dr
 LB
 Px
-sw
-re
-qX
-qX
-qX
-qX
-qX
+em
+It
+in
+in
+in
+in
+in
 Lz
 Lz
 Lz
@@ -1834,16 +1893,16 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-qX
-qX
-Wk
-qX
-qX
-qX
-sw
+in
+in
+in
+in
+in
+in
+in
+in
+in
+em
 LI
 MO
 fU
@@ -1851,16 +1910,16 @@ lE
 Rb
 kS
 OX
-Oz
+lE
 FW
-Rb
+HP
 DP
-UP
+VE
 bY
 Lz
 Lz
 Lz
-qX
+in
 Lz
 Lz
 Lz
@@ -1886,29 +1945,29 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-re
-qX
+in
+in
+in
+in
+in
+in
+in
+It
+in
 em
 lE
 lE
-Oz
+lE
 op
 Im
 Rb
-Oz
-Oz
+lE
+lE
 JT
 Sp
-UP
-VE
-UP
+Xr
+HX
+Xr
 wF
 Lz
 Lz
@@ -1937,28 +1996,28 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-Wk
-qX
-qX
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
 em
-Rb
+ij
 Pz
-Rb
-Oz
-Rb
+sw
+lE
+wD
 Rb
 lE
 GD
-Rb
+or
 DP
-UP
+eI
 wF
 wF
 wF
@@ -1988,29 +2047,29 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-qX
-qX
-Wk
-qX
-qX
-qX
-qX
-qX
-JT
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+em
 wj
-or
-OT
+Rb
+Oz
 fW
 OT
 Rb
 sc
 lQ
-UP
-UP
-wF
+VE
+VE
+re
 wF
 Lz
 Lz
@@ -2040,28 +2099,28 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-qX
-Wk
-qX
-Wk
-qX
-qX
-Wk
-qX
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
 em
-Rb
+CR
 Cc
-Rb
+Pk
 lE
 Rb
 Rb
 lE
-Rb
-fD
-UP
+or
+xG
+Xr
 VE
 wF
 Lz
@@ -2091,30 +2150,30 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-qX
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
 em
-sw
-sw
-lE
-lE
+em
+em
+em
+em
 vf
-Oz
+JT
 lE
 em
-sw
-UP
-UP
+em
+HX
+VE
 wF
 wF
 Lz
@@ -2143,27 +2202,27 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-Wk
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-qX
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
 em
 At
 Ur
 Rb
 Rb
-Rb
-sw
+hD
+em
 Lz
 Lz
 Lz
@@ -2196,26 +2255,26 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-Wk
+in
+in
+in
+in
+in
+in
+in
+in
+in
 kd
-qX
-qX
-Wk
+in
+in
+in
 em
-Ss
 Rb
 Rb
+iY
 xv
-Rb
-sw
+Ss
+JT
 Lz
 Lz
 wF
@@ -2248,26 +2307,26 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-qX
-qX
 in
-Wk
-qX
-qX
-qX
-qX
-qX
-qX
-sw
-gW
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+em
 Rb
-yN
-fD
-iY
-sw
+Wk
+Rb
+Rb
+qX
+JT
 Lz
 wF
 wF
@@ -2301,24 +2360,24 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-Wk
-Wk
-qX
-qX
-JT
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+em
+WH
+WH
+WH
 hD
-dz
-WH
-WH
-Rb
+gW
 JT
 Lz
 Lz
@@ -2355,17 +2414,17 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-qX
-JT
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+em
 JT
 JT
 JT
@@ -2409,13 +2468,13 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
-qX
-qX
-qX
-qX
+in
+in
+in
+in
+in
+in
+in
 Lz
 Lz
 Lz
@@ -2461,11 +2520,11 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-Wk
-qX
-qX
+in
+in
+in
+in
+in
 Lz
 Lz
 Lz
@@ -2514,9 +2573,9 @@ Lz
 Lz
 Lz
 Lz
-qX
-qX
-qX
+in
+in
+in
 Lz
 Lz
 Lz
@@ -2568,7 +2627,7 @@ Lz
 Lz
 Lz
 Lz
-qX
+in
 Lz
 Lz
 Lz

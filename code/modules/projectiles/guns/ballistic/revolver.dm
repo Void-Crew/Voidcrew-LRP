@@ -1,9 +1,10 @@
 /obj/item/gun/ballistic/revolver
 	name = "\improper .357 revolver"
-	desc = "A suspicious revolver. Uses .357 ammo." //usually used by syndicates
+	desc = "A weighty revolver with a Scarborough Arms logo engraved on the barrel. Uses .357 ammo." //usually used by syndicates
 	icon_state = "revolver"
-	mag_type = /obj/item/ammo_box/magazine/internal/cylinder
+	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev357
 	fire_sound = 'sound/weapons/gun/revolver/shot.ogg'
+	rack_sound = 'sound/weapons/gun/revolver/revolver_prime.ogg'
 	load_sound = 'sound/weapons/gun/revolver/load_bullet.ogg'
 	eject_sound = 'sound/weapons/gun/revolver/empty.ogg'
 	vary_fire_sound = FALSE
@@ -16,6 +17,7 @@
 	fire_rate = 1.5 //slower than normal guns due to the damage factor
 	var/spin_delay = 10
 	var/recent_spin = 0
+	recoil = 0.5
 
 /obj/item/gun/ballistic/revolver/chamber_round(spin_cylinder = TRUE)
 	if(spin_cylinder)
@@ -74,30 +76,30 @@
 		. += "It can be spun with <b>alt+click</b>"
 
 /obj/item/gun/ballistic/revolver/detective
-	name = "\improper Colt Detective Special"
-	desc = "A classic, if not outdated, law enforcement firearm. Uses .38-special rounds."
-	fire_sound = 'sound/weapons/gun/revolver/shot.ogg'
+	name = "\improper HP Detective Special"
+	desc = "A small law enforcement firearm. Originally commissioned by Nanotrasen for their Private Investigation division, it has become extremely popular among independent civilians as a cheap, compact sidearm. Uses .38 Special rounds."
+	fire_sound = 'sound/weapons/gun/revolver/shot_light.ogg'
 	icon_state = "detective"
-	fire_rate = 2
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev38
 	obj_flags = UNIQUE_RENAME
 	unique_reskin = list("Default" = "detective",
-						"Fitz Special" = "detective_fitz",
-						"Police Positive Special" = "detective_police",
-						"Blued Steel" = "detective_blued",
-						"Stainless Steel" = "detective_stainless",
-						"Gold Trim" = "detective_gold",
-						"Leopard Spots" = "detective_leopard",
-						"The Peacemaker" = "detective_peacemaker",
-						"Black Panther" = "detective_panther"
-						)
+		"Stainless Steel" = "detective_stainless",
+		"Gold Trim" = "detective_gold",
+		"Leopard Spots" = "detective_leopard",
+		"The Peacemaker" = "detective_peacemaker",
+		"Black Panther" = "detective_panther"
+		)
+
+	recoil = 0 //weaker than normal revovler, no recoil
 
 /obj/item/gun/ballistic/revolver/detective/process_fire(atom/target, mob/living/user, message = TRUE, params = null, zone_override = "", bonus_spread = 0)
 	if(magazine.caliber != initial(magazine.caliber))
 		if(prob(100 - (magazine.ammo_count() * 5)))	//minimum probability of 70, maximum of 95
 			playsound(user, fire_sound, fire_sound_volume, vary_fire_sound)
 			to_chat(user, "<span class='userdanger'>[src] blows up in your face!</span>")
-			user.gib()
+			user.take_bodypart_damage(0,20)
+			explosion(src, 0, 0, 1, 1)
+			user.dropItemToGround(src)
 			return 0
 	..()
 
@@ -114,7 +116,7 @@
 			if(magazine.ammo_count())
 				to_chat(user, "<span class='warning'>You can't modify it!</span>")
 				return TRUE
-			magazine.caliber = "357"
+			magazine.caliber = ".357"
 			fire_rate = 1 //worse than a nromal .357
 			fire_sound = 'sound/weapons/gun/revolver/shot.ogg'
 			desc = "The barrel and chamber assembly seems to have been modified."
@@ -129,7 +131,7 @@
 			if(magazine.ammo_count())
 				to_chat(user, "<span class='warning'>You can't modify it!</span>")
 				return
-			magazine.caliber = "38"
+			magazine.caliber = ".38"
 			fire_rate = null
 			fire_sound = 'sound/weapons/gun/revolver/shot.ogg'
 			desc = initial(desc)
@@ -139,8 +141,10 @@
 
 /obj/item/gun/ballistic/revolver/mateba
 	name = "\improper Unica 6 auto-revolver"
-	desc = "A retro high-powered autorevolver typically used by officers of the New Russia military. Uses .357 ammo."
+	desc = "A high-powered revolver with a unique auto-reloading system. Uses .357 ammo."
 	icon_state = "mateba"
+	semi_auto = TRUE
+	spread = 0
 
 /obj/item/gun/ballistic/revolver/golden
 	name = "\improper Golden revolver"
@@ -159,13 +163,32 @@
 
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev762
 
+/obj/item/gun/ballistic/revolver/montagne
+	name = "\improper HP Montagne"
+	desc = "An ornate break-open revolver issued to high-ranking members of the Saint-Roumain Militia. Chambered in .38 Special."
+	icon = 'icons/obj/guns/48x32guns.dmi'
+	icon_state = "montagne"
+	recoil = 0
+
+	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev38/big
+
+
+/obj/item/gun/ballistic/revolver/ashhand
+	name = "HP Ashhand"
+	desc = "A massive, long-barreled revolver often used by the Saint-Roumain Militia as protection against big game. Can only be reloaded one cartridge at a time due to its reinforced frame. Uses .45-70 ammo."
+	icon = 'icons/obj/guns/48x32guns.dmi'
+	icon_state = "ashhand"
+	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev4570
+	fire_sound = 'sound/weapons/gun/revolver/shot_hunting.ogg'
+	spread = 2
+	recoil = 2
 
 // A gun to play Russian Roulette!
 // You can spin the chamber to randomize the position of the bullet.
 
 /obj/item/gun/ballistic/revolver/russian
 	name = "\improper Russian revolver"
-	desc = "A Russian-made revolver for drinking games. Uses .357 ammo, and has a mechanism requiring you to spin the chamber before each trigger pull."
+	desc = "A Solarian revolver for particularly lethal drinking games. It has a mechanism requiring you to spin the chamber before each trigger pull. Uses .357 ammo."
 	icon_state = "russianrevolver"
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rus357
 	var/spun = FALSE
@@ -262,3 +285,28 @@
 		user.emote("scream")
 		user.drop_all_held_items()
 		user.Paralyze(80)
+
+/obj/item/gun/ballistic/revolver/firebrand
+	name = "\improper HP Firebrand"
+	desc = "An archaic precursor to revolver-type firearms, this gun was rendered completely obsolete millennia ago. While fast to fire, it is extremely inaccurate. Uses .357 ammo."
+	icon_state = "pepperbox"
+	item_state = "hp_generic_fresh"
+	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/pepperbox
+	spread = 20
+	fire_delay = 0
+	semi_auto = TRUE
+
+/obj/item/gun/ballistic/revolver/shadow
+	name = "\improper HP Shadow"
+	desc = "A mid-size revolver. Despite the antiquated design, it is cheap, reliable, and stylish, making it a favorite among fast-drawing spacers and the officers of various militaries, as well as small-time police units. Chambered in .45."
+	fire_sound = 'sound/weapons/gun/revolver/cattleman.ogg'
+	icon = 'icons/obj/guns/48x32guns.dmi'
+	icon_state = "shadow"
+	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev45
+	obj_flags = UNIQUE_RENAME
+	unique_reskin = list("Default" = "shadow",
+		"Army" = "shadow_army",
+		"General" = "shadow_general"
+		)
+
+	recoil = 0 //weaker than normal revovler, no recoil

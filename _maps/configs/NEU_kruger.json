@@ -1,0 +1,24 @@
+{
+	"map_name": "Kruger-Class Mining Vessel",
+	"prefix": "NEU",
+	"map_short_name": "Kruger-class",
+	"map_path": "_maps/shuttles/shiptest/kruger.dmm",
+	"map_id": "kruger",
+	"roundstart": true,
+	"job_slots": {
+		"Quartermaster": {
+			"outfit": "/datum/outfit/job/quartermaster",
+			"officer": true,
+			"slots": 1
+			},
+		"Contracting GEC Engineer": {
+			"outfit": "/datum/outfit/job/engineer/gec",
+			"slots": 1
+		},
+		"Shaft Miner": {
+			"outfit": "/datum/outfit/job/miner",
+			"slots": 2
+		}
+	},
+	"cost": 250
+}

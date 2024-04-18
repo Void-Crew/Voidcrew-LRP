@@ -17,12 +17,18 @@
 	var/bodytype = BODYTYPE_HUMANOID | BODYTYPE_ORGANIC //List of bodytypes flags, important for fitting clothing.
 	var/change_exempt_flags //Defines when a bodypart should not be changed. Example: BP_BLOCK_CHANGE_SPECIES prevents the limb from being overwritten on species gain
 
+	var/plantigrade_forced = FALSE //Whether the clothing being worn forces the limb into being "squished" to plantigrade/standard humanoid compliance
 	var/is_husked = FALSE //Duh
 	var/limb_id = SPECIES_HUMAN //This is effectively the icon_state for limbs.
 	var/limb_gender //Defines what sprite the limb should use if it is also sexually dimorphic.
 	var/uses_mutcolor = TRUE //Does this limb have a greyscale version?
 	var/is_dimorphic = FALSE //Is there a sprite difference between male and female?
 	var/draw_color //Greyscale draw color
+
+	/// The icon state of the limb's overlay, colored with a different color
+	var/overlay_icon_state
+	/// The color of the limb's overlay
+	var/species_secondary_color
 
 	var/body_zone //BODY_ZONE_CHEST, BODY_ZONE_L_ARM, etc , used for def_zone
 	var/aux_zone // used for hands
@@ -545,6 +551,9 @@
 		else
 			species_color = null
 
+		if(overlay_icon_state)
+			species_secondary_color = H.dna.features["mcolor2"]
+
 		UnregisterSignal(owner, COMSIG_MOVABLE_MOVED)
 		if(NO_BONES in S.species_traits)
 			bone_status = BONE_FLAG_NO_BONES
@@ -629,18 +638,44 @@
 	else
 		limb.icon_state = "[limb_id]_[body_zone]"
 
-	if(aux_zone) //Hand shit
-		aux = image(limb.icon, "[limb_id]_[aux_zone]", -aux_layer, image_dir)
-		. += aux
+		if(aux_zone) //Hand shit
+			aux = image(limb.icon, "[limb_id]_[aux_zone]", -aux_layer, image_dir)
+			. += aux
+			if(overlay_icon_state)
+				var/image/overlay = image(limb.icon, "[limb_id]_[aux_zone]_overlay", -aux_layer, image_dir)
+				overlay.color = "#[species_secondary_color]"
+				. += overlay
 
-	draw_color = mutation_color
-	if(should_draw_greyscale) //Should the limb be colored?
-		draw_color ||= (species_color) || (skin_tone && skintone2hex(skin_tone))
+		draw_color = mutation_color
+		if(should_draw_greyscale) //Should the limb be colored?
+			draw_color ||= (species_color) || (skin_tone && skintone2hex(skin_tone))
 
-	if(draw_color)
-		limb.color = "#[draw_color]"
-		if(aux_zone)
-			aux.color = "#[draw_color]"
+		if(draw_color)
+			limb.color = "#[draw_color]"
+			if(aux_zone)
+				aux.color = "#[draw_color]"
+
+		if(overlay_icon_state)
+			var/image/overlay = image(limb.icon, "[limb.icon_state]_overlay", -BODY_ADJ_LAYER, image_dir)
+			overlay.color = "#[species_secondary_color]"
+			. += overlay
+
+	/*if(!is_husked)
+		//Draw external organs like horns and frills
+		for(var/obj/item/organ/external/external_organ as anything in external_organs)
+			if(!dropped && !external_organ.can_draw_on_bodypart(owner))
+				continue
+			//Some externals have multiple layers for background, foreground and between
+			for(var/external_layer in external_organ.all_layers)
+				if(external_organ.layers & external_layer)
+					external_organ.generate_and_retrieve_overlays(
+						.,
+						image_dir,
+						external_organ.bitflag_to_layer(external_layer),
+						limb_gender,
+					)*/
+
+	return
 
 /obj/item/bodypart/deconstruct(disassembled = TRUE)
 	drop_organs()

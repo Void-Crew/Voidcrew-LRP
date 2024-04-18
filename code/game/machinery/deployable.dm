@@ -62,6 +62,19 @@
 	icon_state = "woodenbarricade"
 	bar_material = WOOD
 	var/drop_amount = 3
+	var/deconstructible = TRUE
+
+/obj/structure/fluff/attackby(obj/item/I, mob/living/user, params)
+	if(I.tool_behaviour == TOOL_CROWBAR && deconstructible)
+		user.visible_message("<span class='notice'>[user] starts prying [src]...</span>", "<span class='notice'>You start prying [src]...</span>")
+		I.play_tool_sound(src)
+		if(I.use_tool(src, user, 50))
+			user.visible_message("<span class='notice'>[user] pries off [src]!</span>", "<span class='notice'>You break down [src] into loose wooden boards.</span>")
+			playsound(user, 'sound/items/deconstruct.ogg', 50, TRUE)
+			new/obj/item/stack/sheet/mineral/wood(drop_location())
+			qdel(src)
+		return
+	..()
 
 /obj/structure/barricade/wooden/attackby(obj/item/I, mob/user)
 	if(istype(I,/obj/item/stack/sheet/mineral/wood))

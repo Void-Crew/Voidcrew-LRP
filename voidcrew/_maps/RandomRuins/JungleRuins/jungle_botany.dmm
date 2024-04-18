@@ -6,21 +6,37 @@
 /obj/item/disk/data,
 /obj/item/disk/data,
 /obj/item/disk/data,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/siding/thinplating/corner,
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "aP" = (
 /obj/item/kirbyplants/fullysynthetic,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/canteen)
 "bI" = (
 /turf/closed/wall/r_wall,
 /area/ship/crew/hydroponics)
 "ce" = (
-/turf/open/floor/plasteel,
+/obj/structure/chair/greyscale,
+/turf/open/floor/carpet/green,
 /area/ship/bridge)
+"cX" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/obj/machinery/door/airlock/external/glass,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/ship/hallway)
 "dJ" = (
-/obj/structure/closet/crate/radiation,
-/turf/open/floor/plasteel,
+/obj/structure/closet/crate/large,
+/obj/item/clothing/suit/space/hardsuit/engine,
+/obj/effect/turf_decal/corner/yellow/diagonal_centre,
+/turf/open/floor/iron/diagonal,
 /area/ship/engineering)
 "dR" = (
 /turf/closed/wall/r_wall,
@@ -28,21 +44,21 @@
 "ez" = (
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/white/small,
 /area/ship/crew/dorm)
 "eQ" = (
 /obj/machinery/washing_machine,
-/turf/open/floor/plasteel,
+/turf/open/floor/wood,
 /area/ship/crew/dorm)
 "fM" = (
 /obj/structure/chair/greyscale{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/carpet/green,
 /area/ship/bridge)
 "fR" = (
 /obj/effect/gibspawner/xeno,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/canteen)
 "gb" = (
 /obj/structure/table,
@@ -50,61 +66,110 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/edge{
+	dir = 1
+	},
 /area/ship/hallway)
 "hl" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock,
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/blood/tracks,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating,
+/obj/machinery/door/airlock/command{
+	name = "Communications Center"
+	},
+/turf/open/floor/iron/dark/smooth_half,
 /area/ship/bridge)
 "hm" = (
-/turf/open/floor/plasteel,
-/area/ship/crew/hydroponics)
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/carpet/green,
+/area/ship/bridge)
 "ii" = (
 /obj/structure/closet/secure_closet/hydroponics,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/green{
+	dir = 4
+	},
+/turf/open/floor/iron/edge,
 /area/ship/hallway)
 "ik" = (
-/obj/effect/decal/cleanable/blood/gibs/up,
-/turf/open/floor/plasteel,
+/obj/structure/table,
+/obj/machinery/photocopier/faxmachine,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "iv" = (
-/obj/structure/closet/crate/bin,
-/turf/open/floor/plasteel,
+/obj/machinery/telecomms/relay/preset/ruskie,
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "iG" = (
 /obj/machinery/vending/cigarette,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/canteen)
 "jb" = (
 /obj/effect/gibspawner/xeno,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/white/small,
 /area/ship/crew/dorm)
 "jc" = (
 /obj/machinery/seed_extractor,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/green/diagonal,
+/turf/open/floor/iron,
 /area/ship/crew/hydroponics)
 "jf" = (
-/obj/structure/closet/crate/large,
-/turf/open/floor/plasteel,
+/obj/machinery/computer{
+	name = "old computer";
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "ji" = (
 /obj/machinery/vending/hydroseeds,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/green/diagonal,
+/turf/open/floor/iron,
 /area/ship/crew/hydroponics)
 "js" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/blood/tracks,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/siding/thinplating,
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "jK" = (
-/obj/machinery/door/unpowered/shuttle,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/obj/machinery/door/airlock/external/glass,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
 /area/ship/hallway)
+"jZ" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/item/gun/energy/laser/retro,
+/obj/effect/turf_decal/dept/medical{
+	dir = 8
+	},
+/obj/effect/mob_spawn/human/corpse{
+	outfit = /datum/outfit/job/head_of_personnel/western
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/wood,
+/area/ship/crew/dorm)
 "ke" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -112,57 +177,71 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/canteen)
 "kj" = (
 /obj/machinery/vending/sovietsoda,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/canteen)
 "kG" = (
 /turf/closed/wall/r_wall,
 /area/ship/hallway)
 "lb" = (
 /obj/machinery/power/smes,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/yellow/diagonal_centre,
+/turf/open/floor/iron/diagonal,
 /area/ship/engineering)
 "lK" = (
 /obj/machinery/hydroponics/constructable,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/green/diagonal,
+/turf/open/floor/iron,
 /area/ship/crew/hydroponics)
 "lO" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/yellow/diagonal_centre,
+/turf/open/floor/iron/diagonal,
 /area/ship/engineering)
 "mg" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/public/glass,
-/turf/open/floor/plasteel,
+/obj/machinery/door/airlock/public/glass{
+	name = "Break Room"
+	},
+/obj/effect/turf_decal/siding/thinplating,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_half,
 /area/ship/crew/canteen)
 "mL" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/turf_decal/corner/blue/half,
+/turf/open/floor/iron/edge,
 /area/ship/hallway)
 "mN" = (
 /obj/effect/gibspawner/xeno,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/green/diagonal,
+/turf/open/floor/iron,
 /area/ship/crew/hydroponics)
 "nl" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/xenoblood/xgibs,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/canteen)
 "nF" = (
-/obj/structure/girder/reinforced,
-/turf/open/floor/plating,
-/area/ship/hallway)
+/obj/effect/decal/cleanable/glass,
+/obj/item/shard,
+/turf/open/floor/carpet/green,
+/area/ship/bridge)
 "nJ" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass,
@@ -176,31 +255,41 @@
 	icon_state = "1-4"
 	},
 /obj/effect/decal/cleanable/blood/tracks,
-/turf/open/floor/plasteel,
+/turf/open/floor/carpet/green,
 /area/ship/bridge)
 "oc" = (
-/obj/machinery/door/airlock/glass,
-/turf/open/floor/plasteel,
+/obj/machinery/door/airlock/glass{
+	name = "Hydroponics"
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
 /area/ship/crew/hydroponics)
 "om" = (
-/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 10
 	},
-/obj/effect/mob_spawn/human/corpse/pirate,
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/carpet/green,
 /area/ship/bridge)
 "oR" = (
 /obj/structure/table,
 /obj/item/storage/fancy/cigarettes/cigpack_robust,
-/obj/item/paper/fluff/ruins/forgottenship/powerissues,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/white/small,
 /area/ship/crew/dorm)
 "pt" = (
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/open/floor/plasteel,
+/obj/structure/closet/crate/bin,
+/obj/effect/turf_decal/siding/thinplating,
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "pM" = (
 /turf/closed/wall/r_wall,
@@ -216,23 +305,46 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/effect/turf_decal/corner/green/diagonal,
+/turf/open/floor/iron,
 /area/ship/crew/hydroponics)
+"sA" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/machinery/suit_storage_unit/standard_unit,
+/turf/open/floor/iron/dark/small,
+/area/ship/hallway)
+"sK" = (
+/obj/structure/closet/secure_closet/hydroponics,
+/obj/effect/turf_decal/corner/blue{
+	dir = 8
+	},
+/turf/open/floor/iron/edge,
+/area/ship/hallway)
 "sU" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/mob_spawn/human/corpse{
+	outfit = /datum/outfit/job/botanist
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "tb" = (
 /obj/structure/grille/broken,
+/obj/effect/decal/cleanable/glass,
 /turf/open/floor/plating,
 /area/ship/bridge)
 "uC" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/wood,
 /area/ship/crew/dorm)
 "uK" = (
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -246,58 +358,84 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/carpet/green,
 /area/ship/bridge)
 "vo" = (
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/yellow/diagonal_centre,
+/turf/open/floor/iron/diagonal,
 /area/ship/engineering)
 "wl" = (
 /obj/structure/table,
 /obj/item/storage/belt/utility,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/yellow/diagonal_centre,
+/turf/open/floor/iron/diagonal,
 /area/ship/engineering)
 "wP" = (
-/obj/structure/closet/crate/medical,
-/turf/open/floor/plasteel,
+/obj/structure/table,
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "wU" = (
 /obj/structure/flora/ausbushes/grassybush,
 /turf/open/floor/grass,
 /area/ruin/jungle)
 "xa" = (
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/iron/herringbone,
+/area/ship/crew/canteen)
+"yi" = (
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/canteen)
 "yt" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/public/glass,
-/turf/open/floor/plasteel,
+/obj/machinery/door/airlock/public/glass{
+	name = "Dorms"
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
 /area/ship/crew/dorm)
 "yR" = (
 /obj/machinery/hydroponics/constructable,
 /obj/effect/decal/cleanable/xenoblood,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/green/diagonal,
+/turf/open/floor/iron,
 /area/ship/crew/hydroponics)
 "yS" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/mechanical,
 /obj/item/storage/toolbox/electrical,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/edge{
+	dir = 1
+	},
 /area/ship/hallway)
 "zm" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/effect/mob_spawn/human/corpse/pirate,
-/turf/open/floor/plasteel,
+/obj/effect/mob_spawn/human/corpse{
+	outfit = /datum/outfit/job/botanist
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/canteen)
 "zz" = (
-/obj/effect/spawner/structure/window/hollow/reinforced,
-/turf/open/floor/plasteel,
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating,
 /area/ship/crew/hydroponics)
 "Aq" = (
 /obj/structure/table,
@@ -305,73 +443,117 @@
 /obj/item/pen,
 /obj/item/folder,
 /obj/item/stamp,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "AD" = (
 /obj/structure/bed,
 /obj/item/bedsheet/black,
-/turf/open/floor/plasteel,
+/turf/open/floor/wood,
 /area/ship/crew/dorm)
 "AJ" = (
-/obj/effect/decal/cleanable/blood,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "Cj" = (
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/iron,
 /area/ship/hallway)
 "CO" = (
 /obj/machinery/power/apc,
 /turf/closed/wall/r_wall,
 /area/ship/crew/hydroponics)
 "Dr" = (
-/obj/item/xenos_claw,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/green/diagonal,
+/turf/open/floor/iron,
 /area/ship/crew/hydroponics)
 "DL" = (
 /obj/machinery/power/port_gen/pacman,
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/yellow/diagonal_centre,
+/turf/open/floor/iron/diagonal,
 /area/ship/engineering)
 "DS" = (
 /obj/structure/closet/crate/bin,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/canteen)
+"Ec" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/corner/yellow/diagonal_centre,
+/obj/item/storage/toolbox/mechanical/old/clean,
+/turf/open/floor/iron/diagonal,
+/area/ship/engineering)
+"Ei" = (
+/obj/effect/turf_decal/corner/green,
+/turf/open/floor/iron,
+/area/ship/hallway)
 "EJ" = (
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
 /obj/effect/gibspawner/xeno,
-/turf/open/floor/plasteel,
+/turf/open/floor/wood,
 /area/ship/crew/dorm)
+"EK" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/effect/decal/cleanable/glass,
+/obj/item/shard,
+/turf/open/floor/grass,
+/area/ruin/jungle)
+"Fm" = (
+/obj/effect/turf_decal/corner/green{
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/ship/hallway)
+"Fv" = (
+/turf/open/floor/iron/large,
+/area/ship/hallway)
 "FF" = (
 /obj/effect/decal/cleanable/xenoblood,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/canteen)
 "FG" = (
-/obj/machinery/door/airlock/public,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/machinery/door/airlock/public/glass{
+	name = "Dorms"
+	},
+/turf/open/floor/iron/dark/smooth_half,
 /area/ship/crew/dorm)
 "FN" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/green/diagonal,
+/turf/open/floor/iron,
 /area/ship/crew/hydroponics)
 "FZ" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/green/diagonal,
+/turf/open/floor/iron,
 /area/ship/crew/hydroponics)
 "Gq" = (
 /obj/structure/table,
 /obj/item/book/manual/hydroponics_pod_people,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/edge{
+	dir = 1
+	},
 /area/ship/hallway)
 "Gx" = (
 /obj/structure/cable{
@@ -380,59 +562,76 @@
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/carpet/green,
 /area/ship/bridge)
 "GY" = (
-/obj/structure/girder/reinforced,
-/turf/open/floor/plating,
-/area/ship/engineering)
+/obj/effect/decal/cleanable/glass,
+/obj/item/shard,
+/obj/structure/table,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/turf/open/floor/iron/herringbone,
+/area/ship/bridge)
 "Hm" = (
 /obj/structure/chair/greyscale{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/canteen)
 "Hu" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ship/hallway)
 "HQ" = (
-/obj/effect/mob_spawn/human/corpse/cargo_tech,
-/turf/open/floor/plasteel,
+/obj/effect/mob_spawn/human/corpse{
+	outfit = /datum/outfit/job/engineer
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/effect/turf_decal/corner/yellow/diagonal_centre,
+/turf/open/floor/iron/diagonal,
 /area/ship/engineering)
 "Ie" = (
 /obj/structure/table,
 /obj/machinery/plantgenes,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/green/diagonal,
+/turf/open/floor/iron,
 /area/ship/crew/hydroponics)
 "Ig" = (
 /obj/structure/table,
 /obj/item/clothing/glasses/meson,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/yellow/diagonal_centre,
+/turf/open/floor/iron/diagonal,
 /area/ship/engineering)
 "IG" = (
 /obj/structure/closet/crate/large,
-/turf/open/floor/plasteel,
+/obj/item/stack/sheet/metal/twenty,
+/obj/item/stack/sheet/glass{
+	amount = 20
+	},
+/obj/effect/turf_decal/corner/yellow/diagonal_centre,
+/turf/open/floor/iron/diagonal,
 /area/ship/engineering)
 "IT" = (
 /obj/machinery/power/apc,
 /turf/closed/wall/r_wall,
 /area/ship/crew/canteen)
 "Ji" = (
-/obj/effect/spawner/structure/window/hollow/reinforced,
-/turf/open/floor/plasteel,
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
+/turf/open/floor/plating,
 /area/ship/crew/dorm)
 "JU" = (
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ship/hallway)
 "Ke" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/effect/gibspawner/xeno,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ship/hallway)
 "Kn" = (
 /obj/structure/sign/departments/botany,
@@ -442,78 +641,129 @@
 /obj/structure/chair/greyscale{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/canteen)
 "KE" = (
-/obj/structure/girder/reinforced,
-/turf/open/floor/plating,
-/area/ship/bridge)
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/iron/herringbone,
+/area/ship/crew/canteen)
 "Nk" = (
 /obj/structure/table,
 /obj/item/storage/box/donkpockets/donkpocketberry,
 /obj/item/storage/box/donkpockets/donkpockethonk,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/canteen)
 "Nn" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/white/small,
 /area/ship/crew/dorm)
 "Np" = (
-/obj/structure/girder/reinforced,
+/obj/structure/grille/broken,
+/obj/effect/decal/cleanable/glass,
+/obj/item/shard,
 /turf/open/floor/plating,
-/area/ship/crew/canteen)
+/area/ship/bridge)
 "OX" = (
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/yellow/diagonal_centre,
+/turf/open/floor/iron/diagonal,
 /area/ship/engineering)
 "Pm" = (
 /obj/structure/sign/departments/engineering,
 /turf/closed/wall/r_wall,
 /area/ship/engineering)
 "Pp" = (
-/obj/structure/grille/broken,
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
 /turf/open/floor/plating,
 /area/ship/crew/hydroponics)
 "Pq" = (
 /obj/effect/decal/cleanable/xenoblood,
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/carpet/green,
 /area/ship/bridge)
 "Qc" = (
-/obj/effect/spawner/structure/window/hollow/reinforced,
-/turf/open/floor/plasteel,
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
+/turf/open/floor/plating,
 /area/ship/bridge)
 "Qg" = (
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/green/diagonal,
+/turf/open/floor/iron,
 /area/ship/crew/hydroponics)
 "Qu" = (
-/obj/machinery/door/airlock,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/obj/machinery/door/airlock/command{
+	name = "Communications Center"
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
 /area/ship/bridge)
 "QJ" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
 /obj/machinery/door/airlock/engineering{
-	locked = 1
+	name = "Engineering"
 	},
-/turf/open/floor/plasteel,
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
 /area/ship/engineering)
+"Rc" = (
+/obj/structure/table,
+/obj/effect/turf_decal/siding/thinplating,
+/turf/open/floor/iron/herringbone,
+/area/ship/bridge)
 "Rj" = (
-/obj/structure/closet/crate{
-	icon_state = "crateopen"
-	},
 /obj/item/stack/sheet/mineral/plasma/twenty,
-/turf/open/floor/plasteel,
+/obj/structure/closet/crate{
+	name = "fuel crate"
+	},
+/obj/effect/turf_decal/corner/yellow/diagonal_centre,
+/turf/open/floor/iron/diagonal,
 /area/ship/engineering)
 "Se" = (
 /obj/structure/closet/secure_closet/personal,
-/turf/open/floor/plasteel,
+/turf/open/floor/wood,
 /area/ship/crew/dorm)
 "Sh" = (
 /obj/structure/flora/grass/jungle,
 /turf/open/floor/grass,
 /area/ruin/jungle)
+"Sj" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/machinery/door/airlock/medical{
+	name = "First Aid Post"
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/ship/crew/dorm)
 "Ss" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -525,14 +775,16 @@
 	icon_state = "0-8"
 	},
 /obj/effect/gibspawner/xeno,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/yellow/diagonal_centre,
+/turf/open/floor/iron/diagonal,
 /area/ship/engineering)
 "SB" = (
 /obj/machinery/vending/hydronutrients,
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/corner/green/diagonal,
+/turf/open/floor/iron,
 /area/ship/crew/hydroponics)
 "SQ" = (
 /obj/structure/cable{
@@ -542,15 +794,23 @@
 /area/ship/bridge)
 "Uo" = (
 /obj/structure/table,
-/obj/machinery/microwave,
+/obj/machinery/microwave{
+	pixel_y = 7
+	},
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/canteen)
 "Vn" = (
-/obj/structure/table,
-/turf/open/floor/plasteel,
+/obj/machinery/computer{
+	name = "old computer";
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "Vu" = (
 /obj/machinery/power/apc,
@@ -560,7 +820,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/canteen)
 "Wo" = (
 /obj/structure/sign/poster/contraband/donut_corp,
@@ -574,7 +834,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/canteen)
 "Xq" = (
 /obj/machinery/power/apc,
@@ -584,32 +844,44 @@
 /turf/closed/wall/r_wall,
 /area/ship/bridge)
 "Yc" = (
-/obj/effect/mob_spawn/human/corpse/charredskeleton,
-/turf/open/floor/plasteel,
+/obj/effect/mob_spawn/human/corpse{
+	outfit = /datum/outfit/job/botanist
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/effect/turf_decal/corner/green/diagonal,
+/turf/open/floor/iron,
 /area/ship/crew/hydroponics)
+"YI" = (
+/obj/structure/closet/crate/medical,
+/obj/item/storage/firstaid/regular,
+/turf/open/floor/iron/white/small,
+/area/ship/crew/dorm)
 "YN" = (
 /obj/structure/table,
 /obj/item/toy/cards/deck/tarot,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/canteen)
 "Zq" = (
-/obj/machinery/suit_storage_unit/ert/engineer,
-/turf/open/floor/plasteel,
+/obj/machinery/suit_storage_unit/open,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/small,
 /area/ship/hallway)
 "ZO" = (
 /obj/structure/bed,
 /obj/item/bedsheet/green,
-/turf/open/floor/plasteel,
+/turf/open/floor/wood,
 /area/ship/crew/dorm)
 "ZU" = (
 /turf/closed/wall/r_wall,
 /area/ship/crew/dorm)
 
 (1,1,1) = {"
+wU
 kG
 kG
-jK
-jK
+cX
 kG
 XO
 Qc
@@ -620,32 +892,32 @@ wU
 Sh
 "}
 (2,1,1) = {"
-nF
-Zq
-Hu
-Hu
+Sh
+kG
+sA
+Fv
 Zq
 XO
 aM
 Vn
 Aq
 Qc
-tb
-nJ
+Np
+EK
 "}
 (3,1,1) = {"
 kG
 kG
-jK
+kG
 jK
 kG
 XO
-ce
+Rc
 fM
-ce
+hm
 Pq
 tb
-tb
+Np
 "}
 (4,1,1) = {"
 kG
@@ -657,8 +929,8 @@ hl
 js
 nS
 om
-ce
-ce
+nF
+GY
 Qc
 "}
 (5,1,1) = {"
@@ -666,7 +938,7 @@ Ws
 gb
 Cj
 Hu
-ii
+sK
 Xq
 pt
 uM
@@ -678,10 +950,10 @@ XO
 (6,1,1) = {"
 kG
 Gq
-Hu
-Hu
+Ei
+Fm
 ii
-KE
+XO
 iv
 ik
 sU
@@ -690,12 +962,12 @@ wP
 Qc
 "}
 (7,1,1) = {"
-bI
+kG
 bI
 Kn
 oc
 bI
-KE
+XO
 XO
 XO
 SQ
@@ -704,11 +976,11 @@ XO
 XO
 "}
 (8,1,1) = {"
-bI
+wU
 qM
 ji
-hm
-hm
+Dr
+Dr
 lK
 pM
 iG
@@ -724,10 +996,10 @@ SB
 Qg
 Yc
 yR
-Np
+pM
 kj
 nl
-xa
+yi
 YN
 pM
 "}
@@ -740,7 +1012,7 @@ FN
 FN
 mg
 VH
-ke
+KE
 xa
 Hm
 pM
@@ -817,28 +1089,28 @@ uK
 "}
 (16,1,1) = {"
 Sh
-GY
+dR
 Ig
 lO
 dJ
 dR
 ZO
 FG
-Nn
+jZ
 eQ
 Ji
 Sh
 "}
 (17,1,1) = {"
 Sh
-GY
+dR
 Rj
-lO
+Ec
 OX
 dR
 ZU
 ZU
-FG
+Sj
 ZU
 ZU
 wU
@@ -866,7 +1138,7 @@ OX
 dR
 oR
 jb
-Nn
+YI
 Ji
 nJ
 Sh
@@ -880,7 +1152,7 @@ dR
 dR
 ZU
 Ji
-Ji
+ZU
 ZU
 Sh
 Sh

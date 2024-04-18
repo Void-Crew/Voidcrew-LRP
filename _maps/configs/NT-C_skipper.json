@@ -1,28 +1,28 @@
 {
-	"map_name": "Skipper-class Heavy Cruiser",
+	"map_name": "Skipper-class Luxury Cruiser",
 	"map_short_name": "Skipper-class",
-	"prefix": "NEU",
+	"prefix": "NT-C",
 	"map_path": "_maps/shuttles/shiptest/skipper.dmm",
 	"map_id": "skipper",
 	"roundstart": true,
 	"job_slots": {
 		"Captain": {
-			"outfit": "/datum/outfit/job/captain",
+			"outfit": "/datum/outfit/job/captain/nt",
 			"officer": true,
 			"slots": 1
 		},
 		"First Officer": {
-			"outfit": "/datum/outfit/job/head_of_personnel",
+			"outfit": "/datum/outfit/job/head_of_personnel/nt",
 			"officer": true,
 			"slots": 1
 		},
-		"SolGov Representative": 1,
-		"Medical Doctor": 2,
-		"Station Engineer": 3,
+		"Medical Doctor": 1,
+		"Station Engineer": 1,
+		"Atmospheric Technician": 1,
 		"Shaft Miner": 2,
-		"Cargo Technician": 2,
+		"Cargo Technician": 1,
 		"Security Officer": 1,
-		"Assistant": 5
+		"Assistant": 3
 	},
 	"cost": 600
 }

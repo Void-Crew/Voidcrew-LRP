@@ -1,11 +1,19 @@
 /obj/structure/railing
 	name = "railing"
 	desc = "Basic railing meant to protect idiots like you from falling."
-	icon = 'icons/obj/fluff.dmi'
+	icon = 'icons/obj/railings.dmi'
 	icon_state = "railing"
+	flags_1 = ON_BORDER_1
 	density = TRUE
 	anchored = TRUE
-	climbable = TRUE
+	layer = ABOVE_MOB_LAYER
+	/// armor is a little bit less than a grille. max_integrity about half that of a grille.
+	max_integrity = 25
+
+	///Initial direction of the railing.
+	var/ini_dir
+	///item released when deconstructed
+	var/item_deconstruct = /obj/item/stack/rods
 
 /obj/structure/railing/corner //aesthetic corner sharp edges hurt oof ouch
 	icon_state = "railing_corner"

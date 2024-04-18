@@ -57,3 +57,46 @@
 	. = ..()
 	corpse.forceMove(drop_location())
 	corpse.create()
+
+/mob/living/simple_animal/hostile/charlie
+	name = "Zombified Charlie Station Security Private"
+	desc = "A poor private of an ancient security team."
+	icon = 'icons/mob/simple_human.dmi'
+	icon_state = "charlierecruitzombie"
+	icon_living = "charlierecruitzombie"
+	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID
+	speak_chance = 0
+	stat_attack = HARD_CRIT //braains
+	maxHealth = 125
+	health = 125
+	harm_intent_damage = 5
+	melee_damage_lower = 21
+	melee_damage_upper = 21
+	attack_verb_continuous = "bites"
+	attack_verb_simple = "bite"
+	attack_sound = 'sound/hallucinations/growl1.ogg'
+	a_intent = INTENT_HARM
+	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
+	minbodytemp = 0
+	status_flags = CANPUSH
+	del_on_death = 1
+	loot = list(/obj/effect/mob_spawn/human/corpse/charlie/private)
+
+/mob/living/simple_animal/hostile/charlie/officer
+	name = "Zombified Charlie Station Security Officer"
+	desc = "A poor officer of an ancient security team."
+	icon_state = "charlieoperativezombie"
+	icon_living = "charlieoperativezombie"
+	maxHealth = 175
+	health = 175
+	loot = list(/obj/effect/mob_spawn/human/corpse/charlie/officer)
+
+/mob/living/simple_animal/hostile/charlie/captain
+	name = "Zombified Charlie Station Security Captain"
+	desc = "What was once the commanding officer of an ancient security team."
+	icon_state = "charliecaptainzombie"
+	icon_living = "charliecaptainzombie"
+	maxHealth = 225
+	health = 225
+	loot = list(/obj/effect/mob_spawn/human/corpse/charlie/captain)
+

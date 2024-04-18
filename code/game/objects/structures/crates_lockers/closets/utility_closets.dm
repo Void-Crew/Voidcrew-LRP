@@ -1,12 +1,12 @@
 /* Utility Closets
  * Contains:
- *		Emergency Closet
- *		Fire Closet
- *		Tool Closet
- *		Radiation Closet
- *		Bombsuit Closet
- *		Hydrant
- *		First Aid
+ * Emergency Closet
+ * Fire Closet
+ * Tool Closet
+ * Radiation Closet
+ * Bombsuit Closet
+ * Hydrant
+ * First Aid
  */
 
 /*
@@ -63,12 +63,12 @@
 
 /obj/structure/closet/firecloset/PopulateContents()
 	..()
-
 	new /obj/item/clothing/suit/fire/firefighter(src)
 	new /obj/item/clothing/mask/gas(src)
 	new /obj/item/tank/internals/oxygen/red(src)
 	new /obj/item/extinguisher(src)
 	new /obj/item/clothing/head/hardhat/red(src)
+	new /obj/item/crowbar/large(src)
 
 /obj/structure/closet/firecloset/full/PopulateContents()
 	new /obj/item/clothing/suit/fire/firefighter(src)
@@ -77,6 +77,8 @@
 	new /obj/item/tank/internals/oxygen/red(src)
 	new /obj/item/extinguisher(src)
 	new /obj/item/clothing/head/hardhat/red(src)
+	new /obj/item/crowbar/large(src)
+
 
 /*
  * Tool Closet
@@ -116,10 +118,17 @@
 	if(prob(20))
 		new /obj/item/multitool(src)
 	if(prob(5))
-		new /obj/item/clothing/gloves/color/yellow(src)
+		new /obj/item/clothing/gloves/color/fyellow(src)
 	if(prob(40))
 		new /obj/item/clothing/head/hardhat(src)
 
+
+/obj/structure/closet/toolcloset/populate_contents_immediate()
+	. = ..()
+
+	// Since they're a traitor objective, they have to be generated immediately.
+	if(prob(5))
+		new /obj/item/clothing/gloves/color/yellow(src)
 
 /*
  * Radiation Closet

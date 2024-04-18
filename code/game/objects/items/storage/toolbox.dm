@@ -157,6 +157,24 @@
 	else
 		new /obj/item/stack/cable_coil(src,MAXCOIL,pickedcolor)
 
+/obj/item/storage/toolbox/electrical/old
+	name = "rusty yellow toolbox"
+	icon_state = "toolbox_yellow_old"
+	item_state = "toolbox_yellow"
+
+/obj/item/storage/toolbox/electrical/old/PopulateContents()
+	var/pickedcolor = pick("red","yellow","green","blue","pink","orange","cyan","white")
+	new /obj/item/screwdriver(src)
+	new /obj/item/wirecutters(src)
+	new /obj/item/t_scanner(src)
+	new /obj/item/crowbar(src)
+	new /obj/item/stack/cable_coil(src,MAXCOIL,pickedcolor)
+	new /obj/item/stack/cable_coil(src,MAXCOIL,pickedcolor)
+	if(prob(5))
+		new /obj/item/clothing/gloves/color/fyellow/old(src)
+	else
+		new /obj/item/stack/cable_coil(src,MAXCOIL,pickedcolor)
+
 /obj/item/storage/toolbox/syndicate
 	name = "suspicious looking toolbox"
 	icon_state = "syndicate"
@@ -234,13 +252,13 @@
 	pickup_sound =  'sound/items/handling/ammobox_pickup.ogg'
 
 /obj/item/storage/toolbox/ammo/PopulateContents()
-	new /obj/item/ammo_box/a762(src)
-	new /obj/item/ammo_box/a762(src)
-	new /obj/item/ammo_box/a762(src)
-	new /obj/item/ammo_box/a762(src)
-	new /obj/item/ammo_box/a762(src)
-	new /obj/item/ammo_box/a762(src)
-	new /obj/item/ammo_box/a762(src)
+	new /obj/item/ammo_box/a300(src)
+	new /obj/item/ammo_box/a300(src)
+	new /obj/item/ammo_box/a300(src)
+	new /obj/item/ammo_box/a300(src)
+	new /obj/item/ammo_box/a300(src)
+	new /obj/item/ammo_box/a300(src)
+	new /obj/item/ammo_box/a300(src)
 
 /obj/item/storage/toolbox/infiltrator
 	name = "insidious case"
@@ -278,14 +296,14 @@
 	new /obj/item/clothing/shoes/combat/sneakboots(src)
 
 //floorbot assembly
-/obj/item/storage/toolbox/attackby(obj/item/stack/tile/plasteel/T, mob/user, params)
+/obj/item/storage/toolbox/attackby(obj/item/stack/tile/iron/T, mob/user, params)
 	var/list/allowed_toolbox = list(/obj/item/storage/toolbox/emergency,	//which toolboxes can be made into floorbots
 							/obj/item/storage/toolbox/electrical,
 							/obj/item/storage/toolbox/mechanical,
 							/obj/item/storage/toolbox/artistic,
 							/obj/item/storage/toolbox/syndicate)
 
-	if(!istype(T, /obj/item/stack/tile/plasteel))
+	if(!istype(T, /obj/item/stack/tile/iron))
 		..()
 		return
 	if(!is_type_in_list(src, allowed_toolbox) && (type != /obj/item/storage/toolbox))

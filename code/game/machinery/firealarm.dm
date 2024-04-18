@@ -356,3 +356,19 @@
 	if (!party_overlay)
 		party_overlay = iconstate2appearance('icons/turf/areas.dmi', "party")
 	A.add_overlay(party_overlay)
+
+/obj/machinery/firealarm/north //Pixel offsets get overwritten on New()
+	dir = 2
+	pixel_y = 19
+
+/obj/machinery/firealarm/south
+	dir = 1
+	pixel_y = -19
+
+/obj/machinery/firealarm/east
+	dir = 8
+	pixel_x = 19
+
+/obj/machinery/firealarm/west
+	dir = 4
+	pixel_x = -19

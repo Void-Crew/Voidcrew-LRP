@@ -288,3 +288,12 @@
 
 /turf/open/floor/mineral/abductor/burn_tile()
 	return //unburnable
+
+/obj/item/stack/tile/mineral/snow
+	name = "snow tile"
+	singular_name = "snow tile"
+	desc = "A layer of snow."
+	icon_state = "tile_snow"
+	item_state = "tile-silver"
+	turf_type = /turf/open/floor/grass/fakesnow
+	mineralType = "snow"

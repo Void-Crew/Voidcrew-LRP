@@ -23,10 +23,10 @@
 	icon_state = "cmd_nt"
 	item_state = "b_suit"
 
-/obj/item/clothing/under/rank/command/nt
+/obj/item/clothing/under/rank/command/skirt/nt
 	desc = "A standard command jumpskirt."
 	name = "command jumpskirt"
-	icon_state = "cmd_skirt"
+	icon_state = "cmd_skirt_nt"
 	body_parts_covered = CHEST|GROIN|ARMS
 	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
@@ -124,38 +124,43 @@
 /obj/item/clothing/under/rank/command/captain/nt/skirt
 	name = "captain's jumpskirt"
 	desc = "It's a blue jumpskirt with some gold markings denoting the rank of \"Captain\"."
-	icon_state = "captain_nt_alt_skirt"
+	icon_state = "captain_nt_skirt"
 	body_parts_covered = CHEST|GROIN|ARMS
 	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 
+/obj/item/clothing/under/rank/command/captain/nt/skirt/alt
+	name = "captain's jumpskirt"
+	desc = "It's a blue jumpskirt with some gold markings denoting the rank of \"Captain\"."
+	icon_state = "captain_nt_alt_skirt"
+
 //Lieutenant
 
 /obj/item/clothing/under/rank/command/lieutenant
-	desc = "A standard command jumpsuit in the colours of the Lieutenant."
-	name = "\improper lieutenant jumpsuit"
-	icon_state = "lt"
+	name = "blueshield's suit"
+	desc = "A classic bodyguard's suit, with custom-fitted Blueshield-Blue cuffs and a Nanotrasen insignia over one of the pockets."
+	icon_state = "blueshield"
 	can_adjust = FALSE
 
 /obj/item/clothing/under/rank/command/lieutenant/skirt
-	desc = "A command jumpskirt in the colours of the Lieutenant."
-	name = "\improper lieutenant jumpskirt"
-	icon_state = "lt_skirt"
+	name = "blueshield's suitskirt"
+	desc = "A classic bodyguard's suitskirt, with custom-fitted Blueshield-Blue cuffs and a Nanotrasen insignia over one of the pockets."
+	icon_state = "blueshieldskirt"
 	body_parts_covered = CHEST|GROIN|ARMS
 	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 	supports_variations = DIGITIGRADE_VARIATION_NO_NEW_ICON
 
-/obj/item/clothing/under/rank/command/lieutenant/nt
-	desc = "A standard command jumpsuit in the colours of the Lieutenant."
-	name = "\improper lieutenant blue jumpsuit"
-	icon_state = "lt_nt"
+/obj/item/clothing/under/rank/command/lieutenant/alt
+	name = "blueshield's turtleneck"
+	desc = "A tactical jumper fit for only the best of bodyguards, with plenty of tactical pockets for your tactical needs."
+	icon_state = "bs_turtleneck"
 	item_state = "b_suit"
 
-/obj/item/clothing/under/rank/command/lieutenant/nt/skirt
-	desc = "A command jumpskirt in the colours of the Lieutenant."
-	name = "\improper lieutenant blue jumpskirt"
-	icon_state = "lt_nt_skirt"
+/obj/item/clothing/under/rank/command/lieutenant/alt/skirt
+	name = "blueshield's skirtleneck"
+	desc = "A tactical jumper fit for only the best of bodyguards - instead of tactical pockets, this one has a tactical lack of leg protection."
+	icon_state = "bs_skirtleneck"
 	body_parts_covered = CHEST|GROIN|ARMS
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = FALSE

@@ -1,3 +1,4 @@
+
 /datum/controller/subsystem/shuttle
 	/// Timer ID of the timer used for telling which stage of an endround "jump" the ships are in
 	var/jump_timer
@@ -221,3 +222,4 @@
 	new_shuttle.reset_air()
 
 	return new_shuttle
+

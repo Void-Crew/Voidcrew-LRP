@@ -233,10 +233,6 @@
 /obj/machinery/computer/helm,
 /turf/open/floor/mineral/titanium/tiled/blue,
 /area/ship/bridge)
-"em" = (
-/obj/structure/sign/poster/official/anniversary_vintage_reprint,
-/turf/closed/wall/mineral/titanium,
-/area/ship/science/robotics)
 "eo" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
@@ -1750,12 +1746,12 @@
 /obj/item/reagent_containers/food/drinks/flask/gold,
 /obj/item/areaeditor/shuttle,
 /obj/item/aiModule/core/freeformcore,
-/obj/item/gun/energy/laser/hitscanpistol,
 /obj/item/disk/nuclear/fake/obvious,
 /obj/item/clothing/suit/toggle/labcoat/raincoat{
 	desc = "A translucent, uniquely designed labcoat. It's made from a special material that actively repels fluids. You're pretty sure this is just a raincoat";
 	name = "clear labcoat"
 	},
+/obj/item/gun/ballistic/revolver/shadow,
 /turf/open/floor/carpet/purple,
 /area/ship/crew/office)
 "zx" = (
@@ -2015,10 +2011,6 @@
 "CF" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/crew/canteen)
-"CI" = (
-/obj/structure/sign/poster/official/anniversary_vintage_reprint,
-/turf/closed/wall/mineral/titanium,
-/area/ship/crew/office)
 "CK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/relic,
@@ -3086,12 +3078,6 @@
 /obj/structure/sign/warning/coldtemp,
 /turf/closed/wall/mineral/titanium,
 /area/ship/science)
-"Oo" = (
-/obj/structure/sign/poster/official/ion_rifle,
-/turf/closed/wall/mineral/titanium{
-	baseturfs = /turf/open/floor/mineral/titanium/tiled/white
-	},
-/area/ship/storage)
 "Ox" = (
 /obj/structure/cable{
 	icon_state = "1-10"
@@ -3402,10 +3388,6 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/electrical)
-"Sh" = (
-/obj/structure/sign/poster/contraband/lamarr,
-/turf/closed/wall/mineral/titanium,
-/area/ship/crew/office)
 "Sj" = (
 /mob/living/simple_animal/slime,
 /obj/structure/disposalpipe/segment{
@@ -4780,7 +4762,7 @@ vo
 "}
 (25,1,1) = {"
 vo
-Sh
+me
 mL
 fC
 CT
@@ -4836,7 +4818,7 @@ vo
 "}
 (27,1,1) = {"
 vo
-CI
+me
 jq
 mc
 zV
@@ -4876,7 +4858,7 @@ HC
 Tk
 PA
 HC
-em
+EM
 DF
 DF
 sV
@@ -4937,7 +4919,7 @@ BC
 BC
 zG
 UZ
-Oo
+UZ
 yH
 wu
 EM

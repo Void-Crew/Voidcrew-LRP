@@ -26,8 +26,8 @@
 
 //Captain
 /obj/item/clothing/head/caphat
-	name = "captain's peaked cap"
-	desc = "It's good being the king."
+	name = "captain's parade cap"
+	desc = "It's good being the king.. Of a singular shuttle."
 	icon_state = "captain"
 	item_state = "that"
 	flags_inv = 0
@@ -38,11 +38,14 @@
 //Captain: This is no longer space-worthy
 /obj/item/clothing/head/caphat/parade
 	name = "captain's parade cap"
-	desc = "Worn only by Captains with an abundance of class."
-	icon_state = "capcap"
-
+	desc = "It's good being the king."
+	icon_state = "capcap_nt"
 	dog_fashion = null
 
+/obj/item/clothing/head/caphat/parade/cent
+	name = "CentCom captain's parade cap"
+	desc = "It's good being the king. But slightly better."
+	icon_state = "capcap_cent"
 
 //Head of Personnel
 /obj/item/clothing/head/hopcap
@@ -55,6 +58,15 @@
 /obj/item/clothing/head/hopcap/nt
 	icon_state = "hopcap_nt"
 	dog_fashion = /datum/dog_fashion/head/head_of_personnel
+
+/obj/item/clothing/head/ltcap
+	name = "lieutenant's cap"
+	icon_state = "ltcap"
+	desc = "The symbol of bridge superiority."
+	armor = list("melee" = 25, "bullet" = 15, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
+
+/obj/item/clothing/head/ltcap/nt
+	icon_state = "ltcap_nt"
 
 //Chaplain
 /obj/item/clothing/head/nun_hood
@@ -98,6 +110,18 @@
 				candy_cooldown = world.time+1200
 			else
 				to_chat(user, "<span class='warning'>You just took a candy corn! You should wait a couple minutes, lest you burn through your stash.</span>")
+
+/obj/item/clothing/head/HoS/cybersun
+	name = "Cybersun hat"
+	desc = "A crimson-red hat fit for a high ranking Cybersun officer."
+	icon_state = "cybersunhat"
+	item_state = "cybersunhat"
+
+/obj/item/clothing/head/HoS/interdyne
+	name = "interdyne hat"
+	desc = "A dusty-rose hat fit for a high ranking interdyne officer."
+	icon_state = "interdynehat"
+	item_state = "interdynehat"
 
 /*WS Edit - Berets
 //Mime
@@ -255,3 +279,47 @@ WS End */
 #undef DRILL_SHOUTING
 #undef DRILL_YELLING
 #undef DRILL_CANADIAN
+
+/obj/item/clothing/head/beret/sec/inteq
+	name = "inteq beret"
+	desc = "A comfortable looking brown beret with a badge of the golden shield of the IRMG. Denotes the wearer as part of the IRMG."
+	icon_state = "inteq_beret"
+	item_state = "inteq_beret"
+
+/obj/item/clothing/head/beret/sec/hos/inteq
+	name = "inteq vanguard beret"
+	desc = "A comfortable looking brown beret with a badge of the golden shield of the IRMG. Denotes the wearer as a vanguard of the IRMG. The padding inside feels thicker."
+	icon_state = "inteq_beret"
+	item_state = "inteq_beret"
+
+/obj/item/clothing/head/beret/sec/hos/inteq/honorable
+	name = "honorable vanguard beret"
+	desc = "A snow white beret with an air of distinction around it, emblazoned with the golden shield of the IRMG as the badge."
+	icon_state = "inteq_honorable_beret"
+	item_state = "inteq_honorable_beret"
+	armor = list("melee" = 40, "bullet" = 50, "laser" = 50, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 70, "acid" = 90)
+
+/obj/item/clothing/head/utility/surgerycap
+	name = "blue surgery cap"
+	icon_state = "surgicalcap"
+	desc = "A blue medical surgery cap to prevent the surgeon's hair from entering the insides of the patient!"
+	flags_inv = HIDEHAIR //Cover your head doctor!
+
+/obj/item/clothing/head/utility/surgerycap/examine(mob/user)
+	. = ..()
+	. += span_notice("Use in hand to [flags_inv & HIDEHAIR ? "loosen" : "tighten"] the strings.")
+
+/obj/item/clothing/head/utility/surgerycap/purple
+	name = "burgundy surgery cap"
+	icon_state = "surgicalcapwine"
+	desc = "A burgundy medical surgery cap to prevent the surgeon's hair from entering the insides of the patient!"
+
+/obj/item/clothing/head/utility/surgerycap/green
+	name = "green surgery cap"
+	icon_state = "surgicalcapgreen"
+	desc = "A green medical surgery cap to prevent the surgeon's hair from entering the insides of the patient!"
+
+/obj/item/clothing/head/utility/surgerycap/cmo
+	name = "turquoise surgery cap"
+	icon_state = "surgicalcapcmo"
+	desc = "The CMO's medical surgery cap to prevent their hair from entering the insides of the patient!"

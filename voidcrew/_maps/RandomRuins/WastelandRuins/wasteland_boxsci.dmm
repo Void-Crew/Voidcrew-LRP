@@ -1,77 +1,114 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aj" = (
-/obj/structure/table,
 /obj/item/mmi/syndie,
 /obj/item/mmi/syndie,
 /obj/item/mmi/syndie,
-/turf/open/floor/plasteel/mono/dark,
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/iron/dark/smooth_large,
 /area/ruin/unpowered)
 "aq" = (
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "aH" = (
-/obj/structure/table,
-/obj/item/retractor,
-/turf/open/floor/plasteel/mono/dark,
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/iron/dark/smooth_large,
 /area/ruin/unpowered)
 "aI" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/shutters,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/trimline/red/filled/line,
+/obj/structure/chair{
+	dir = 1
+	},
+/turf/open/floor/iron/edge{
+	dir = 1
+	},
 /area/ruin/unpowered)
 "aO" = (
-/obj/machinery/door/airlock/maintenance_hatch,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/structure/disposalpipe/broken{
 	dir = 4
 	},
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 8
+	},
+/area/ruin/unpowered)
+"aQ" = (
+/obj/structure/table_frame,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/unpowered)
+"aV" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/circuit/red/telecomms,
+/area/ruin/unpowered)
+"aX" = (
+/obj/machinery/computer{
+	name = "broken computer";
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/unpowered)
+"aZ" = (
+/obj/item/wrench/syndie,
 /turf/open/floor/plating,
 /area/ruin/unpowered)
 "bN" = (
-/obj/structure/table_frame,
-/turf/open/floor/plasteel,
+/obj/item/stack/sheet/plasteel/twenty,
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/unpowered)
 "cp" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
+/area/ruin/unpowered)
+"cs" = (
+/mob/living/simple_animal/hostile/nanotrasen/ranged/disabler,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/unpowered)
 "cB" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/iron/dark/smooth_large,
 /area/ruin/unpowered)
 "cY" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/shutters,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/white,
+/obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
+/obj/machinery/door/poddoor/shutters{
+	name = "Lab Lockdown";
+	id = "labsyn"
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"db" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/storage/toolbox/syndicate,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/unpowered)
+"em" = (
+/mob/living/simple_animal/hostile/nanotrasen/ranged/disabler,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "et" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor,
-/obj/structure/disposalpipe/broken{
-	dir = 1
-	},
-/turf/open/floor/engine,
-/area/ruin/unpowered)
+/obj/effect/mine/shrapnel,
+/turf/open/floor/plating/dust/lit,
+/area/overmap_encounter/planetoid/wasteland)
 "fp" = (
 /obj/structure/table,
-/obj/machinery/button/door{
-	pixel_x = 6;
-	pixel_y = 24
-	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "fB" = (
 /obj/structure/frame/machine{
 	anchored = 1
 	},
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/unpowered)
 "fV" = (
 /obj/machinery/button/door{
@@ -81,27 +118,36 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
-"gW" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/unpowered)
-"ha" = (
-/obj/structure/table_frame,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
+"gT" = (
+/obj/effect/turf_decal/trimline/red/filled/line,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/clothing/head/HoS/beret/syndicate,
+/turf/open/floor/iron/edge{
+	dir = 1
 	},
 /area/ruin/unpowered)
+"gW" = (
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/unpowered)
+"ha" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/unpowered)
 "hK" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor,
-/turf/open/floor/engine,
+/obj/effect/turf_decal/trimline/red/filled/line,
+/turf/open/floor/iron/edge{
+	dir = 1
+	},
 /area/ruin/unpowered)
 "hN" = (
-/obj/machinery/door/airlock/security,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/white,
+/obj/machinery/door/airlock/security{
+	name = "Security Office"
+	},
+/obj/effect/decal/cleanable/blood/tracks,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin/unpowered)
 "hS" = (
 /turf/open/floor/plating{
@@ -110,8 +156,7 @@
 /area/ruin/unpowered)
 "iE" = (
 /obj/effect/turf_decal/industrial/outline/yellow,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/unpowered)
 "jk" = (
 /obj/effect/turf_decal/industrial/warning,
@@ -119,157 +164,245 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
+/area/ruin/unpowered)
+"jL" = (
+/obj/effect/turf_decal/trimline/purple/filled/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "ks" = (
-/obj/machinery/computer/rdconsole/core,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/white,
+/obj/machinery/computer{
+	name = "broken computer"
+	},
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "kz" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/shutters,
-/turf/open/floor/plasteel/white,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ruin/unpowered)
+"lr" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ruin/unpowered)
+"ls" = (
+/obj/machinery/power/apc/syndicate{
+	pixel_y = 32;
+	name = "Lab Post A3 APC";
+	start_charge = 0
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating,
 /area/ruin/unpowered)
 "lv" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/rust,
+/obj/effect/turf_decal/trimline/blue/filled/corner,
+/turf/open/floor/iron/white,
+/area/ruin/unpowered)
+"ly" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 4
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/recharger,
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
 /area/ruin/unpowered)
 "lE" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/circuit/red/telecomms,
 /area/ruin/unpowered)
 "ml" = (
-/obj/machinery/recharge_station,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/filled/corner,
+/turf/open/floor/iron/white,
+/area/ruin/unpowered)
+"mr" = (
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/ruin/unpowered)
+"mJ" = (
+/obj/item/crowbar/syndie,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/unpowered)
 "nm" = (
-/obj/structure/flora/rock/pile,
-/turf/open/floor/plating/wasteland/lit,
-/area/overmap_encounter/planetoid/wasteland)
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 6
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/iron,
+/area/ruin/unpowered)
 "nS" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/red/filled/line,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "oa" = (
-/turf/open/floor/plating/rust,
+/obj/machinery/door/airlock/research{
+	name = "Lab Post A3"
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 8
+	},
 /area/ruin/unpowered)
 "oh" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "oo" = (
-/turf/open/floor/plating{
-	icon_state = "platingdmg3"
+/obj/item/stack/sheet/mineral/diamond/five,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"oD" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/survival_pod,
+/obj/machinery/door/window/survival_pod{
+	dir = 1
 	},
+/obj/machinery/door/poddoor/shutters{
+	name = "Lab Lockdown";
+	id = "labsyn"
+	},
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin/unpowered)
 "oH" = (
-/obj/machinery/mech_bay_recharge_port{
-	dir = 2
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 6
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/unpowered)
 "oJ" = (
 /obj/machinery/computer/operating{
 	dir = 1
 	},
 /obj/effect/turf_decal/borderfloor,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/iron/dark/smooth_large,
 /area/ruin/unpowered)
 "oM" = (
 /obj/structure/table/optable,
 /obj/effect/turf_decal/borderfloor,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/iron/dark/smooth_large,
 /area/ruin/unpowered)
 "oY" = (
-/obj/effect/spawner/structure/window,
-/obj/machinery/door/poddoor/shutters,
-/turf/open/floor/plating,
+/mob/living/simple_animal/hostile/nanotrasen/ranged/smg/taser,
+/turf/open/floor/iron/white,
+/area/ruin/unpowered)
+"pj" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/circuit/red/telecomms,
 /area/ruin/unpowered)
 "pz" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 10
+	},
+/obj/structure/barricade/security,
+/turf/open/floor/iron/edge,
 /area/ruin/unpowered)
 "pO" = (
 /obj/structure/filingcabinet/chestdrawer,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
+/area/ruin/unpowered)
+"qL" = (
+/obj/machinery/door/poddoor/shutters/preopen,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_half,
+/area/ruin/unpowered)
+"qU" = (
+/obj/effect/turf_decal/siding/thinplating,
+/mob/living/simple_animal/hostile/syndicate/sci{
+	name = "Syndicate Roboticist"
+	},
+/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/unpowered)
 "ra" = (
 /turf/open/floor/plating/dust/lit,
 /area/overmap_encounter/planetoid/wasteland)
 "rm" = (
-/obj/structure/table,
-/obj/item/circular_saw,
-/obj/item/scalpel{
-	pixel_y = 12
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/mono/dark,
+/obj/item/storage/backpack/duffelbag/syndie/surgery,
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/iron/dark/smooth_large,
 /area/ruin/unpowered)
 "rr" = (
-/obj/machinery/door/airlock/research,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/white,
+/obj/machinery/door/airlock/research{
+	name = "Robotics"
+	},
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin/unpowered)
 "rB" = (
 /obj/structure/door_assembly/door_assembly_com,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 8
+	},
 /area/ruin/unpowered)
 "rQ" = (
 /obj/machinery/computer/mech_bay_power_console{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "rW" = (
 /obj/item/organ/body_egg/alien_embryo,
-/turf/open/floor/engine,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
 /area/ruin/unpowered)
 "sp" = (
-/obj/machinery/door/poddoor/shutters,
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
+/obj/effect/mob_spawn/human/corpse/syndicatesoldier,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "sO" = (
 /obj/machinery/light/broken,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/rust,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "sR" = (
 /obj/machinery/light,
 /obj/structure/table,
 /obj/item/storage/toolbox/mechanical,
 /obj/item/crowbar,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "tc" = (
 /obj/item/circuitboard/machine/rdserver,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/unpowered)
+"tk" = (
+/mob/living/simple_animal/hostile/nanotrasen/baton,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "tF" = (
 /obj/effect/turf_decal/industrial/warning/corner,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/item/wirecutters/syndie,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "tW" = (
 /turf/open/floor/plating{
@@ -280,32 +413,29 @@
 /obj/effect/turf_decal/industrial/warning/corner{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "uE" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 1
 	},
-/obj/structure/table_frame,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/obj/effect/mob_spawn/human/corpse/syndicatesoldier,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/edge,
 /area/ruin/unpowered)
 "uQ" = (
 /obj/effect/turf_decal/industrial/warning,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "vc" = (
-/obj/structure/table,
 /obj/item/clothing/gloves/color/latex,
 /obj/item/razor,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/mono/dark,
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/iron/dark/smooth_large,
 /area/ruin/unpowered)
 "wF" = (
 /obj/effect/turf_decal/rechargefloor,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "xq" = (
 /obj/structure/window/reinforced/spawner/west,
@@ -313,50 +443,88 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
-/turf/open/floor/plasteel/white,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/white,
+/area/ruin/unpowered)
+"xR" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 10
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"yr" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/circuit/red/telecomms,
 /area/ruin/unpowered)
 "yH" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/circuit/red/telecomms,
 /area/ruin/unpowered)
 "zv" = (
-/obj/structure/table_frame,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 5
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/stamp/syndicate,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "zz" = (
-/obj/machinery/button/door{
-	pixel_x = 6;
-	pixel_y = 24
-	},
 /obj/machinery/light_switch{
 	pixel_x = -7;
 	pixel_y = 25
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/rust,
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 1
+	},
+/obj/item/restraints/handcuffs/cable/zipties/used,
+/obj/machinery/button/door{
+	pixel_x = 6;
+	pixel_y = 24;
+	name = "Lockdown Button";
+	id = "labsyn"
+	},
+/turf/open/floor/iron/edge,
 /area/ruin/unpowered)
 "Ap" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "AD" = (
-/obj/effect/spawner/structure/window,
-/obj/machinery/door/poddoor/shutters,
-/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/computer/apc_control,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
 /turf/open/floor/plating,
 /area/ruin/unpowered)
 "AX" = (
 /obj/machinery/door/poddoor/shutters,
-/turf/open/floor/plasteel/white,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin/unpowered)
 "Ca" = (
 /turf/open/floor/plating/wasteland/lit,
 /area/overmap_encounter/planetoid/wasteland)
+"Ce" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/circuit/red/telecomms,
+/area/ruin/unpowered)
 "Cq" = (
 /turf/template_noop,
 /area/template_noop)
@@ -364,23 +532,47 @@
 /turf/open/floor/plating,
 /area/ruin/unpowered)
 "CR" = (
-/obj/machinery/door/poddoor,
-/turf/open/floor/engine,
+/obj/machinery/computer{
+	name = "broken computer";
+	dir = 1
+	},
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "DJ" = (
-/obj/structure/girder/reinforced,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 6
+	},
+/turf/open/floor/circuit/red/telecomms,
 /area/ruin/unpowered)
 "DV" = (
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/borderfloor,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/unpowered)
+"Ej" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/structure/frame/machine{
+	anchored = 1
+	},
+/obj/item/circuitboard/machine/mechfab,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/unpowered)
 "ET" = (
-/obj/structure/table_frame,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/obj/machinery/conveyor{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/unpowered)
+"Fi" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/machinery/conveyor{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/unpowered)
 "Fk" = (
 /obj/effect/mine/shrapnel,
@@ -393,18 +585,27 @@
 /obj/structure/reagent_dispensers/peppertank{
 	pixel_x = -32
 	},
-/obj/structure/closet/secure_closet/security/science,
-/turf/open/floor/plasteel,
+/obj/item/clothing/suit/space/hardsuit/syndi,
+/obj/structure/closet/syndicate{
+	populate = 0;
+	name = "Science Security locker"
+	},
+/obj/item/clothing/under/syndicate,
+/obj/item/gun/ballistic/automatic/pistol,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Gb" = (
 /obj/effect/turf_decal/borderfloor,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/unpowered)
+"Ge" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/unpowered)
 "Gk" = (
-/obj/machinery/door/airlock/research,
-/obj/machinery/door/poddoor/shutters,
-/turf/open/floor/plasteel/white,
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "Hp" = (
 /obj/effect/turf_decal/industrial/warning{
@@ -413,45 +614,69 @@
 /obj/structure/frame/machine{
 	anchored = 1
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "HD" = (
-/obj/structure/table,
 /obj/item/storage/box/bodybags,
 /obj/item/pen,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/mono/dark,
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/unpowered)
+"HM" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 8
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/clothing/mask/gas/syndicate,
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/ruin/unpowered)
+"HT" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/unpowered)
 "Jg" = (
 /obj/structure/frame/machine{
 	anchored = 1
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/turf/open/floor/circuit/red/telecomms,
 /area/ruin/unpowered)
 "Jx" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/mob/living/simple_animal/hostile/nanotrasen/ranged/assault,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/unpowered)
 "JY" = (
 /obj/structure/table/reinforced,
-/obj/machinery/door/poddoor/shutters,
-/turf/open/floor/plating,
-/area/ruin/unpowered)
-"Kj" = (
-/obj/effect/turf_decal/industrial/warning{
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/machinery/door/window/survival_pod{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/white,
+/obj/machinery/door/window/survival_pod{
+	dir = 8
+	},
+/obj/machinery/door/poddoor/shutters{
+	name = "Lab Lockdown";
+	id = "labsyn"
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 8
+	},
+/area/ruin/unpowered)
+"Kj" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/research_notes/loot/genius,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/unpowered)
 "KZ" = (
-/obj/machinery/door/airlock/research,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 10
+	},
+/turf/open/floor/circuit/red/telecomms,
 /area/ruin/unpowered)
 "Lt" = (
 /obj/structure/girder/reinforced,
@@ -460,7 +685,9 @@
 	},
 /area/ruin/unpowered)
 "LG" = (
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
 /turf/open/floor/circuit/red/telecomms,
 /area/ruin/unpowered)
 "LN" = (
@@ -468,128 +695,159 @@
 	brightness = 3;
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/unpowered)
 "LZ" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4
 	},
 /obj/machinery/conveyor_switch/oneway,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "My" = (
-/obj/structure/table,
-/turf/open/floor/plasteel,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/storage/belt/utility/syndicate,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/unpowered)
 "MG" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/obj/effect/spawner/lootdrop/crate_spawner,
+/turf/open/floor/plating,
 /area/ruin/unpowered)
 "MQ" = (
-/turf/open/floor/engine,
+/obj/structure/closet/crate/secure/loot,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
 /area/ruin/unpowered)
 "Nf" = (
 /turf/open/floor/circuit/red/telecomms,
 /area/ruin/unpowered)
 "NP" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/asteroid,
+/obj/structure/table_frame,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/unpowered)
 "Od" = (
-/obj/structure/table,
-/obj/item/hemostat,
-/obj/item/cautery{
-	pixel_x = 4
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/obj/structure/table_frame,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/unpowered)
+"Of" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Lab Power Control"
+	},
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin/unpowered)
 "Ol" = (
 /obj/machinery/mech_bay_recharge_port{
 	dir = 2
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Op" = (
-/obj/structure/disposalpipe/segment{
+/obj/effect/turf_decal/industrial/warning{
 	dir = 4
 	},
-/turf/open/floor/plating,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "Ox" = (
-/obj/structure/disposalpipe/trunk,
-/obj/structure/disposaloutlet{
-	dir = 1
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
-/turf/open/floor/engine,
+/turf/open/floor/plating,
 /area/ruin/unpowered)
 "ON" = (
 /obj/structure/frame/machine{
 	anchored = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Pn" = (
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
+/area/ruin/unpowered)
+"Px" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/unpowered)
 "Qi" = (
-/obj/machinery/door/airlock/research,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
-/area/ruin/unpowered)
-"Qr" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/ruin/unpowered)
-"QM" = (
-/obj/structure/disposalpipe/segment,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/white,
-/area/ruin/unpowered)
-"QP" = (
-/obj/machinery/computer/mech_bay_power_console{
+/obj/machinery/door/airlock/research{
+	name = "Mech Bay"
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 8
+	},
+/area/ruin/unpowered)
+"Qr" = (
+/mob/living/simple_animal/hostile/nanotrasen/ranged,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/unpowered)
+"QM" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/unpowered)
+"QP" = (
+/obj/machinery/computer{
+	name = "broken computer";
+	dir = 8
+	},
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Rg" = (
 /obj/structure/bodycontainer/morgue,
 /obj/effect/turf_decal/borderfloor,
-/turf/open/floor/plating,
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/unpowered)
+"Ry" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/unpowered)
 "RV" = (
-/obj/machinery/conveyor{
-	dir = 4
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 10
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/obj/machinery/mecha_part_fabricator,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/unpowered)
 "Tl" = (
 /obj/structure/window/reinforced/spawner/west,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/white,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/structure/frame/machine{
+	anchored = 1
+	},
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "Ts" = (
-/turf/closed/wall/r_wall/syndicate,
+/turf/closed/indestructible/syndicate,
 /area/ruin/unpowered)
 "TF" = (
-/obj/structure/door_assembly/door_assembly_com,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/obj/machinery/door/airlock/command{
+	name = "Server Room"
+	},
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin/unpowered)
 "Ub" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 4
+	},
+/obj/machinery/computer/camera_advanced/syndie{
+	dir = 8
+	},
+/turf/open/floor/iron/edge{
+	dir = 8
 	},
 /area/ruin/unpowered)
 "UH" = (
@@ -599,9 +857,15 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/unpowered)
+"Vb" = (
+/mob/living/simple_animal/hostile/nanotrasen/ranged/smg,
+/turf/open/floor/iron/dark/smooth_large,
+/area/ruin/unpowered)
 "Vp" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/white,
+/obj/effect/turf_decal/trimline/blue/filled/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "Vx" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
@@ -610,53 +874,87 @@
 /obj/machinery/light/built{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/storage/box/zipties,
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/ruin/unpowered)
+"VN" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/port_gen/pacman/diamond,
+/turf/open/floor/plating,
 /area/ruin/unpowered)
 "VO" = (
 /obj/machinery/rnd/production/circuit_imprinter,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "VR" = (
-/obj/structure/disposalpipe/broken{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "WJ" = (
 /obj/machinery/light/small/broken{
 	dir = 4
 	},
-/turf/open/floor/plating,
+/obj/machinery/computer{
+	name = "broken computer";
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/unpowered)
 "WO" = (
 /obj/machinery/recharge_station,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
+/area/ruin/unpowered)
+"WR" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
+	},
+/turf/open/floor/circuit/red/telecomms,
+/area/ruin/unpowered)
+"Xh" = (
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "Xw" = (
-/obj/effect/turf_decal/rechargefloor,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/plating,
 /area/ruin/unpowered)
 "XI" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "Yd" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Yj" = (
 /obj/machinery/door/window/eastright{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/rust,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/white,
+/area/ruin/unpowered)
+"Yw" = (
+/obj/effect/turf_decal/trimline/red/filled/line,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 "YE" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/mono,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 5
+	},
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/unpowered)
 "YK" = (
 /obj/structure/disposalpipe/broken,
@@ -664,9 +962,16 @@
 	pixel_x = -24;
 	pixel_y = 8
 	},
+/obj/structure/disposalpipe/broken{
+	dir = 1
+	},
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
+/area/ruin/unpowered)
+"ZM" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered)
 
 (1,1,1) = {"
@@ -700,105 +1005,105 @@ fV
 Ol
 wF
 rQ
-ml
+WO
 Ts
 vc
 HD
 Rg
 Ts
 Ts
-Gk
 Ts
 Ts
 Ts
 Ts
 Ts
-MQ
-MQ
-MQ
+Ts
+VN
+oo
+Xw
 Ts
 ra
 "}
 (3,1,1) = {"
 AX
-Op
-Nf
-lv
-LG
-gW
+Ap
+WR
+Ce
+KZ
+Yd
 Ts
-Od
+aH
 cB
 Gb
 Ts
-aq
-Cu
+Gk
+Gk
 Ts
 Jg
 LN
 Jg
 Ts
-MQ
-MQ
-MQ
+Ox
+aZ
+MG
 Ts
-hK
+ra
 "}
 (4,1,1) = {"
-AX
-MG
-lv
+qL
+Ap
+pj
 Nf
-lv
+aV
 sR
 Ts
 rm
-lv
+Vb
 oM
 Ts
-Vp
-Vp
+aq
+aq
 Ts
 lE
 tc
 yH
 Ts
-MQ
-MQ
-MQ
-MQ
-hK
+AD
+Xw
+Cu
+Ts
+ra
 "}
 (5,1,1) = {"
-AX
+qL
 Ap
 LG
-LG
-LG
-oa
+yr
+DJ
+Yd
 Ts
 aH
-lv
+cB
 oJ
 Ts
-oa
+aq
 lv
 Ts
 UH
 rB
 UH
 Ts
-MQ
-MQ
-MQ
-MQ
-CR
+ls
+Cu
+MG
+Ts
+ra
 "}
 (6,1,1) = {"
-KZ
+Ts
 Ap
-oH
-Xw
+ON
+wF
 QP
 WO
 Ts
@@ -806,23 +1111,23 @@ aj
 cB
 DV
 Ts
-aq
-Vp
+oY
+Xh
 TF
-Jx
-lv
-Jx
+gW
+cs
+aX
 Ts
-MQ
-MQ
-MQ
-Ox
-et
+Xw
+Cu
+Cu
+Ts
+ra
 "}
 (7,1,1) = {"
 Ts
 Qi
-kz
+cY
 cY
 cY
 Ts
@@ -831,39 +1136,39 @@ xq
 Yj
 Tl
 Ts
-lv
+aq
 Vp
 Ts
-Jx
-NP
-nS
+gW
+gW
+gW
+Of
+Cu
+Cu
+mr
 Ts
-MQ
-MQ
-MQ
-Ts
-hK
+ra
 "}
 (8,1,1) = {"
 Ts
 cp
-QM
-QM
-VR
+Pn
+Pn
+Pn
 YK
 Pn
 XI
-Vp
-Vp
+aq
+CR
 Ts
-lv
-Vp
+sp
+tk
 Ts
 fB
 WJ
 ha
 Ts
-MQ
+MG
 rW
 MQ
 Ts
@@ -872,24 +1177,24 @@ ra
 (9,1,1) = {"
 Ts
 VO
-Vp
+aq
 tF
-Kj
+tW
 hS
 Cu
 LZ
-lv
+Op
 uD
 Ts
-Vp
-Vp
+aq
+aq
 Ts
 Ts
 Ts
 Ts
 Ts
 Ts
-DJ
+Lt
 Lt
 Ts
 Cq
@@ -897,24 +1202,24 @@ Cq
 (10,1,1) = {"
 Ts
 ks
-lv
+aq
 uQ
-lv
-tW
-hS
-ON
+Cu
+Cu
+Ry
+Fi
 RV
 sO
 Ts
-Vp
-lv
+em
+ZM
 Ts
 FH
 Vx
-Cu
+HM
+xR
+Ts
 Ca
-Cq
-Cq
 Cq
 Cq
 Cq
@@ -924,96 +1229,96 @@ Ts
 Ts
 fp
 uQ
-gW
+Ej
 NP
 Jx
 ET
-RV
+db
 oh
 Ts
-Vp
-Vp
+jL
+ml
 Ts
 zz
-YE
-tW
-Fk
+HT
+lr
+hK
+Ts
 Ca
-Cq
-Cq
+Fk
 Cq
 Cq
 "}
 (12,1,1) = {"
 ra
-sp
-oo
-lv
-tW
+cY
+aq
+uQ
+Od
 iE
-gW
-bN
+mJ
 iE
+Ge
 oh
-AD
-Vp
+cY
+VR
 nS
 hN
 pz
-nS
-oa
-Ca
-Ca
+kz
+qU
+aI
+Ts
 Ca
 Ca
 Cq
 Cq
 "}
 (13,1,1) = {"
-ra
-JY
-Vp
-nS
-gW
+et
+oD
+aq
+uQ
+Px
 Qr
 gW
-tW
-lv
+gW
+QM
 oh
 rr
-Vp
-Vp
-aI
+VR
+Yw
+cY
 uE
 YE
-tW
+oH
+gT
+Ts
 Ca
 Ca
-Ca
-Fk
 Cq
 Cq
 "}
 (14,1,1) = {"
 ra
-sp
+cY
 pO
 jk
-ET
-bN
+aQ
+Kj
 bN
 My
-Yd
+QM
 Hp
-oY
-lv
-nS
-aI
+cY
+VR
+Yw
+cY
 zv
 Ub
-tW
+ly
 nm
-Cq
+Ts
 Cq
 Cq
 Cq
@@ -1027,18 +1332,18 @@ Ts
 Ts
 Ts
 Ts
-oY
+cY
 JY
 Ts
 Ts
-Cu
 oa
-aI
-aI
-aI
-aI
-Cq
-Cq
+oa
+Ts
+Ts
+Ts
+Ts
+Ts
+Ts
 Cq
 Cq
 Cq
