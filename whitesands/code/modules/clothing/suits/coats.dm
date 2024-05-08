@@ -34,7 +34,7 @@
 	icon_state = "labcoat_side_chem"
 
 /obj/item/clothing/suit/toggle/lieutenant
-	name = "lieutenant's coat"
+	name = "blueshield's coat"
 	desc = "Surplus from some military. You finally have your own coat."
 	icon_state = "blueshield_coat"
 	item_state = "blueshield_coat"

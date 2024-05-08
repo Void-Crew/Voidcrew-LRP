@@ -1,23 +1,31 @@
 /obj/structure/closet/crate
 	name = "crate"
 	desc = "A rectangular steel crate."
-	icon = 'goon/icons/obj/crates.dmi'
+	icon = 'icons/obj/crates_new.dmi' //ICON OVERRIDEN IN SKYRAT AESTHETICS - SEE MODULE
 	icon_state = "crate"
+	base_icon_state = "crate"
 	req_access = null
 	can_weld_shut = FALSE
 	horizontal = TRUE
 	allow_objects = TRUE
 	allow_dense = TRUE
 	dense_when_open = TRUE
-	climbable = TRUE
-	climb_time = 10 //real fast, because let's be honest stepping into or onto a crate is easy
 	delivery_icon = "deliverycrate"
 	open_sound = 'sound/machines/crate_open.ogg'
 	close_sound = 'sound/machines/crate_close.ogg'
 	open_sound_volume = 35
 	close_sound_volume = 50
 	drag_slowdown = 0
+	var/crate_climb_time = 20
 	var/obj/item/paper/fluff/jobs/cargo/manifest/manifest
+	/// Where the Icons for lids are located.
+	var/lid_icon = 'icons/obj/crates_new.dmi'
+	/// Icon state to use for lid to display when opened. Leave undefined if there isn't one.
+	var/lid_icon_state
+	/// Controls the X value of the lid, allowing left and right pixel movement.
+	var/lid_x = 0
+	/// Controls the Y value of the lid, allowing up and down pixel movement.
+	var/lid_y = 0
 
 /obj/structure/closet/crate/Initialize()
 	. = ..()
@@ -25,7 +33,7 @@
 		opened = TRUE
 	update_icon()
 
-/obj/structure/closet/crate/CanAllowThrough(atom/movable/mover, turf/target)
+/obj/structure/closet/crate/CanAllowThrough(atom/movable/mover, border_dir)
 	. = ..()
 	if(!istype(mover, /obj/structure/closet))
 		var/obj/structure/closet/crate/locatedcrate = locate(/obj/structure/closet/crate) in get_turf(mover)
@@ -36,14 +44,30 @@
 				return TRUE
 
 /obj/structure/closet/crate/update_icon_state()
-	icon_state = "[initial(icon_state)][opened ? "open" : ""]"
+	icon_state = "[isnull(base_icon_state) ? initial(icon_state) : base_icon_state][opened ? "open" : ""]"
+	return ..()
 
 /obj/structure/closet/crate/closet_update_overlays(list/new_overlays)
 	. = new_overlays
 	if(manifest)
 		. += "manifest"
 
-/obj/structure/closet/crate/attack_hand(mob/user)
+	if(!opened)
+		if(broken)
+			. += "securecrateemag"
+		else if(locked)
+			. += "securecrater"
+		else if(secure)
+			. += "securecrateg"
+
+	if(opened && lid_icon_state)
+		var/mutable_appearance/lid = mutable_appearance(icon = lid_icon, icon_state = lid_icon_state)
+		lid.pixel_x = lid_x
+		lid.pixel_y = lid_y
+		lid.layer = layer
+		. += lid
+
+/obj/structure/closet/crate/attack_hand(mob/user, list/modifiers)
 	. = ..()
 	if(.)
 		return
@@ -60,7 +84,7 @@
 		update_icon()
 
 /obj/structure/closet/crate/proc/tear_manifest(mob/user)
-	to_chat(user, "<span class='notice'>You tear the manifest off of [src].</span>")
+	to_chat(user, span_notice("You tear the manifest off of [src]."))
 	playsound(src, 'sound/items/poster_ripped.ogg', 75, TRUE)
 
 	manifest.forceMove(loc)
@@ -69,10 +93,15 @@
 	manifest = null
 	update_icon()
 
+/obj/structure/closet/crate/preopen
+	opened = TRUE
+	icon_state = "crateopen"
+
 /obj/structure/closet/crate/coffin
 	name = "coffin"
 	desc = "It's a burial receptacle for the dearly departed."
 	icon_state = "coffin"
+	base_icon_state = "coffin"
 	resistance_flags = FLAMMABLE
 	max_integrity = 70
 	material_drop = /obj/item/stack/sheet/mineral/wood
@@ -82,10 +111,17 @@
 	open_sound_volume = 25
 	close_sound_volume = 50
 
-/obj/structure/closet/crate/internals
-	desc = "An internals crate."
-	name = "internals crate"
-	icon_state = "o2crate"
+/obj/structure/closet/crate/trashcart //please make this a generic cart path later after things calm down a little
+	desc = "A heavy, metal trashcart with wheels."
+	name = "trash cart"
+	icon_state = "trashcart"
+	base_icon_state = "trashcart"
+
+/obj/structure/closet/crate/trashcart/laundry
+	name = "laundry cart"
+	desc = "A large cart for hauling around large amounts of laundry."
+	icon_state = "laundry"
+	base_icon_state = "laundry"
 
 /obj/structure/closet/crate/trashcart //please make this a generic cart path later after things calm down a little
 	desc = "A heavy, metal trashcart with wheels."
@@ -97,20 +133,27 @@
 	if(has_gravity())
 		playsound(src, 'sound/effects/roll.ogg', 100, TRUE)
 
-/obj/structure/closet/crate/trashcart/laundry
-	name = "laundry cart"
-	desc = "A large cart for hauling around large amounts of laundry."
-	icon_state = "laundry"
+/obj/structure/closet/crate/internals
+	desc = "An internals crate."
+	name = "internals crate"
+	icon_state = "o2crate"
+	base_icon_state = "o2crate"
 
 /obj/structure/closet/crate/medical
 	desc = "A medical crate."
 	name = "medical crate"
 	icon_state = "medicalcrate"
+	base_icon_state = "medicalcrate"
+
+/obj/structure/closet/crate/medical/department
+	icon_state = "medical"
+	base_icon_state = "medical"
 
 /obj/structure/closet/crate/freezer
 	desc = "A freezer."
 	name = "freezer"
 	icon_state = "freezer"
+	base_icon_state = "freezer"
 
 //Snowflake organ freezer code
 //Order is important, since we check source, we need to do the check whenever we have all the organs in the crate
@@ -165,27 +208,57 @@
 	new /obj/item/bodypart/r_leg/robot/surplus(src)
 	new /obj/item/bodypart/r_leg/robot/surplus(src)
 
+/obj/structure/closet/crate/freezer/food
+	name = "food icebox"
+	icon_state = "food"
+	base_icon_state = "food"
+
 /obj/structure/closet/crate/radiation
 	desc = "A crate with a radiation sign on it."
 	name = "radiation crate"
 	icon_state = "radiation"
+	base_icon_state = "radiation"
 
 /obj/structure/closet/crate/hydroponics
 	name = "hydroponics crate"
 	desc = "All you need to destroy those pesky weeds and pests."
 	icon_state = "hydrocrate"
+	base_icon_state = "hydrocrate"
+
+/obj/structure/closet/crate/centcom
+	name = "centcom crate"
+	icon_state = "centcom"
+	base_icon_state = "centcom"
+
+/obj/structure/closet/crate/cargo
+	name = "cargo crate"
+	icon_state = "cargo"
+	base_icon_state = "cargo"
+
+/obj/structure/closet/crate/cargo/mining
+	name = "mining crate"
+	icon_state = "mining"
+	base_icon_state = "mining"
 
 /obj/structure/closet/crate/engineering
 	name = "engineering crate"
 	icon_state = "engi_crate"
+	base_icon_state = "engi_crate"
 
 /obj/structure/closet/crate/engineering/electrical
 	icon_state = "engi_e_crate"
+	base_icon_state = "engi_e_crate"
+
+/obj/structure/closet/crate/engineering/atmos
+	name = "atmospherics crate"
+	icon_state = "atmos"
+	base_icon_state = "atmos"
 
 /obj/structure/closet/crate/rcd
 	desc = "A crate for the storage of an RCD."
 	name = "\improper RCD crate"
 	icon_state = "engi_crate"
+	base_icon_state = "engi_crate"
 
 /obj/structure/closet/crate/rcd/PopulateContents()
 	..()
@@ -197,10 +270,17 @@
 	name = "science crate"
 	desc = "A science crate."
 	icon_state = "scicrate"
+	base_icon_state = "scicrate"
+
+/obj/structure/closet/crate/science/robo
+	name = "robotics crate"
+	icon_state = "robo"
+	base_icon_state = "robo"
 
 /obj/structure/closet/crate/solarpanel_small
 	name = "budget solar panel crate"
 	icon_state = "engi_e_crate"
+	base_icon_state = "engi_e_crate"
 
 /obj/structure/closet/crate/solarpanel_small/PopulateContents()
 	..()
@@ -212,6 +292,8 @@
 
 /obj/structure/closet/crate/goldcrate
 	name = "gold crate"
+	icon_state = "gold"
+	base_icon_state = "gold"
 
 /obj/structure/closet/crate/goldcrate/PopulateContents()
 	..()
@@ -221,6 +303,8 @@
 
 /obj/structure/closet/crate/silvercrate
 	name = "silver crate"
+	icon_state = "silver"
+	base_icon_state = "silver"
 
 /obj/structure/closet/crate/silvercrate/PopulateContents()
 	..()

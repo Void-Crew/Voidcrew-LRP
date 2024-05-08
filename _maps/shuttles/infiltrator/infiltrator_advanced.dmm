@@ -1151,9 +1151,6 @@
 	},
 /obj/effect/turf_decal/industrial/fire,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/poster/contraband/cc64k_ad{
-	pixel_y = 32
-	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/syndicate/armory)
 "dJ" = (
@@ -2377,6 +2374,9 @@
 	},
 /obj/structure/cable{
 	icon_state = "1-4"
+	},
+/obj/structure/sign/poster/contraband/bulldog{
+	pixel_x = -32
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/syndicate/armory)

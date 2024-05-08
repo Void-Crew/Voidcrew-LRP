@@ -14,6 +14,12 @@
 	normal_integrity = 450
 	hatch_colour = "#c82b2b"
 
+/obj/machinery/door/airlock/security2
+	icon = 'icons/obj/doors/airlocks/station/security2.dmi'
+	assemblytype = /obj/structure/door_assembly/door_assembly_sec2
+	normal_integrity = 450
+	hatch_colour = "#232c55"
+
 /obj/machinery/door/airlock/engineering
 	icon = 'icons/obj/doors/airlocks/station/engineering.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_eng
@@ -113,6 +119,12 @@
 	glass = TRUE
 	normal_integrity = 400
 	hatch_colour = "#b81b1b"
+
+/obj/machinery/door/airlock/security2/glass
+	opacity = FALSE
+	glass = TRUE
+	normal_integrity = 400
+	hatch_colour = "#232c55"
 
 /obj/machinery/door/airlock/medical/glass
 	opacity = FALSE

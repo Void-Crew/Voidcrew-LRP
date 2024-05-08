@@ -40,6 +40,32 @@
 	new /obj/item/card/id/captains_spare(src)
 	new /obj/item/storage/photo_album/Captain(src)
 
+/obj/structure/closet/secure_closet/centcom
+	name = "centcom official's locker"
+	desc = "A storage unit containing equipment for an Central Command Official."
+	req_access = list(ACCESS_CENT_CAPTAIN)
+	icon_state = "cc"
+
+/obj/structure/closet/secure_closet/centcom/PopulateContents()
+	..()
+	//WS Begin
+	new /obj/item/clothing/head/helmet/space/beret(src) //Berets
+	new /obj/item/clothing/shoes/combat/swat(src)
+	new /obj/item/clothing/under/rank/centcom/commander(src)
+	new /obj/item/clothing/suit/armor/centcom(src)
+	new /obj/item/clothing/head/centhat(src)
+	new /obj/item/clothing/suit/armor/vest/alt(src)
+	new /obj/item/cartridge/captain(src)
+	new /obj/item/storage/box/silver_ids(src)
+	new /obj/item/radio/headset/headset_cent/alt(src)
+	new /obj/item/clothing/glasses/sunglasses(src)
+	new /obj/item/clothing/gloves/tackler/combat/insulated(src)
+	new /obj/item/storage/belt/sabre(src)
+	new /obj/item/gun/energy/e_gun(src)
+	new /obj/item/door_remote/omni(src)
+	new /obj/item/card/id/centcom(src)
+	new /obj/item/storage/photo_album(src)
+
 /obj/structure/closet/secure_closet/head_of_personnel
 	name = "\proper head of personnel's locker"
 	req_access = list(ACCESS_HOP)
@@ -298,7 +324,7 @@
 	for(var/i in 1 to 3)
 		new /obj/item/storage/box/rubbershot(src)
 	for(var/i in 1 to 3)
-		new /obj/item/gun/ballistic/shotgun/riot(src)
+		new /obj/item/gun/ballistic/shotgun/brimstone(src)
 
 /obj/structure/closet/secure_closet/armory3
 	name = "armory energy gun locker"

@@ -112,24 +112,24 @@
 		icon_state = "spline_fancy_corner"				\
 	}
 
-HELPER(neutral, null, 75)
-HELPER(black, COLOR_TILE_GRAY, 255)
-HELPER(blue, COLOR_BLUE_GRAY, 255)
-HELPER(green, COLOR_GREEN_GRAY, 255)
-HELPER(lime, COLOR_PALE_GREEN_GRAY, 255)
-HELPER(yellow, COLOR_BROWN, 255)
-HELPER(beige, COLOR_BEIGE, 255)
-HELPER(red, COLOR_RED_GRAY, 255)
+HELPER(neutral, null, 50)
+HELPER(black, COLOR_TILE_GRAY, 110)
+HELPER(blue, COLOR_BLUE_GRAY, 110)
+HELPER(green, COLOR_GREEN_GRAY, 110)
+HELPER(lime, COLOR_PALE_GREEN_GRAY, 110)
+HELPER(yellow, COLOR_BROWN, 110)
+HELPER(beige, COLOR_BEIGE, 110)
+HELPER(red, COLOR_RED_GRAY, 110)
 HELPER(bar, "#791500", 130)
-HELPER(pink, COLOR_PALE_RED_GRAY, 255)
-HELPER(purple, COLOR_PURPLE_GRAY, 255)
-HELPER(mauve, COLOR_PALE_PURPLE_GRAY, 255)
-HELPER(orange, COLOR_DARK_ORANGE, 255)
-HELPER(brown, COLOR_DARK_BROWN, 255)
-HELPER(white, COLOR_WHITE, 255)
-HELPER(grey, COLOR_FLOORTILE_GRAY, 255)
-HELPER(lightgrey, "#a8b2b6", 255)
-HELPER(bottlegreen, "#57967f", 255)
+HELPER(pink, COLOR_PALE_RED_GRAY, 110)
+HELPER(purple, COLOR_PURPLE_GRAY, 110)
+HELPER(mauve, COLOR_PALE_PURPLE_GRAY, 110)
+HELPER(orange, COLOR_DARK_ORANGE, 110)
+HELPER(brown, COLOR_DARK_BROWN, 110)
+HELPER(white, COLOR_WHITE, 110)
+HELPER(grey, COLOR_FLOORTILE_GRAY, 110)
+HELPER(lightgrey, "#a8b2b6", 110)
+HELPER(bottlegreen, "#57967f", 110)
 
 /obj/effect/turf_decal/spline/plain
 	icon_state = "spline_plain"
@@ -688,3 +688,149 @@ HELPER(bottlegreen, "#57967f", 255)
 
 /obj/effect/turf_decal/rechargefloor
 	icon_state = "recharge_floor"
+
+/obj/effect/turf_decal/corner/bar/diagonal_centre
+	icon_state = "diagonal_centre"
+	color = "#791500"
+	alpha = 130
+
+/obj/effect/turf_decal/corner/bar/diagonal_edge
+	icon_state = "diagonal_edge"
+	color = "#791500"
+	alpha = 130
+
+/obj/effect/turf_decal/corner/beige/diagonal_centre
+	icon_state = "diagonal_centre"
+	color = "#CEB689"
+
+/obj/effect/turf_decal/corner/beige/diagonal_edge
+	icon_state = "diagonal_edge"
+	color = "#CEB689"
+
+/obj/effect/turf_decal/corner/black/diagonal_centre
+	icon_state = "diagonal_centre"
+	color = "#4c535b"
+
+/obj/effect/turf_decal/corner/black/diagonal_edge
+	icon_state = "diagonal_edge"
+	color = "#4c535b"
+
+/obj/effect/turf_decal/corner/blue/diagonal_centre
+	icon_state = "diagonal_centre"
+	color = "#75A2BB"
+
+/obj/effect/turf_decal/corner/blue/diagonal_edge
+	icon_state = "diagonal_edge"
+	color = "#75A2BB"
+
+/obj/effect/turf_decal/corner/bottlegreen/diagonal_centre
+	icon_state = "diagonal_centre"
+	color = "#57967f"
+
+/obj/effect/turf_decal/corner/bottlegreen/diagonal_edge
+	icon_state = "diagonal_edge"
+	color = "#57967f"
+
+/obj/effect/turf_decal/corner/brown/diagonal_centre
+	icon_state = "diagonal_centre"
+	color = "#997C4F"
+
+/obj/effect/turf_decal/corner/brown/diagonal_edge
+	icon_state = "diagonal_edge"
+	color = "#997C4F"
+
+/obj/effect/turf_decal/corner/green/diagonal_centre
+	icon_state = "diagonal_centre"
+	color = "#99BB76"
+
+/obj/effect/turf_decal/corner/green/diagonal_edge
+	icon_state = "diagonal_edge"
+	color = "#99BB76"
+
+/obj/effect/turf_decal/corner/grey/diagonal_centre
+	icon_state = "diagonal_centre"
+	color = "#8D8B8B"
+
+/obj/effect/turf_decal/corner/grey/diagonal_edge
+	icon_state = "diagonal_edge"
+	color = "#8D8B8B"
+
+/obj/effect/turf_decal/corner/lightgrey/diagonal_centre
+	icon_state = "diagonal_centre"
+	color = "#a8b2b6"
+
+/obj/effect/turf_decal/corner/lightgrey/diagonal_edge
+	icon_state = "diagonal_edge"
+	color = "#a8b2b6"
+
+/obj/effect/turf_decal/corner/lime/diagonal_centre
+	icon_state = "diagonal_centre"
+	color = "#B7D993"
+
+/obj/effect/turf_decal/corner/lime/diagonal_edge
+	icon_state = "diagonal_edge"
+	color = "#B7D993"
+
+/obj/effect/turf_decal/corner/mauve/diagonal_centre
+	icon_state = "diagonal_centre"
+	color = "#CBB1CA"
+
+/obj/effect/turf_decal/corner/mauve/diagonal_edge
+	icon_state = "diagonal_edge"
+	color = "#CBB1CA"
+
+/obj/effect/turf_decal/corner/neutral/diagonal_centre
+	icon_state = "diagonal_centre"
+	alpha = 75
+
+/obj/effect/turf_decal/corner/neutral/diagonal_edge
+	icon_state = "diagonal_edge"
+	alpha = 75
+
+/obj/effect/turf_decal/corner/orange/diagonal_centre
+	icon_state = "diagonal_centre"
+	color = "#C3630C"
+
+/obj/effect/turf_decal/corner/orange/diagonal_edge
+	icon_state = "diagonal_edge"
+	color = "#C3630C"
+
+/obj/effect/turf_decal/corner/pink/diagonal_centre
+	icon_state = "diagonal_centre"
+	color = "#D59998"
+
+/obj/effect/turf_decal/corner/pink/diagonal_edge
+	icon_state = "diagonal_edge"
+	color = "#D59998"
+
+/obj/effect/turf_decal/corner/purple/diagonal_centre
+	icon_state = "diagonal_centre"
+	color = "#AE8CA8"
+
+/obj/effect/turf_decal/corner/purple/diagonal_edge
+	icon_state = "diagonal_edge"
+	color = "#AE8CA8"
+
+/obj/effect/turf_decal/corner/red/diagonal_centre
+	icon_state = "diagonal_centre"
+	color = "#B4696A"
+
+/obj/effect/turf_decal/corner/red/diagonal_edge
+	icon_state = "diagonal_edge"
+	color = "#B4696A"
+
+/obj/effect/turf_decal/corner/white/diagonal_centre
+	icon_state = "diagonal_centre"
+	color = "#FFFFFF"
+
+/obj/effect/turf_decal/corner/white/diagonal_edge
+	icon_state = "diagonal_edge"
+	color = "#FFFFFF"
+
+/obj/effect/turf_decal/corner/yellow/diagonal_centre
+	icon_state = "diagonal_centre"
+	color = "#BA9F6D"
+
+/obj/effect/turf_decal/corner/yellow/diagonal_edge
+	icon_state = "diagonal_edge"
+	color = "#BA9F6D"

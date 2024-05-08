@@ -1,23 +1,17 @@
-/datum/outfit/job/captain/nt
-	name = "Captain (Nanotrasen)"
-
-	uniform = /obj/item/clothing/under/rank/command/captain/nt
-	alt_uniform = /obj/item/clothing/under/rank/command/captain/nt/alt
-	shoes = /obj/item/clothing/shoes/laceup
-	head = /obj/item/clothing/head/caphat/nt
-
 /datum/outfit/job/captain/solgov
 	name = "Captain (SolGov)"
+	head = /obj/item/clothing/head/solgovcap
 	shoes = /obj/item/clothing/shoes/laceup
 	suit = /obj/item/clothing/suit/toggle/solgov
 
 /datum/outfit/job/captain/solgov/rebel
 	name = "Captain (Deserter)"
+	head = /obj/item/clothing/head/solgovcap/terragov
 	suit = /obj/item/clothing/suit/toggle/solgov/terragov
 
 /datum/outfit/job/captain/pirate
 	name = "Captain (Pirate)"
-	uniform = /obj/item/clothing/under/costume/russian_officer
+	uniform = /obj/item/clothing/under/pirate/cap
 	shoes = /obj/item/clothing/shoes/jackboots
 	head = /obj/item/clothing/head/pirate/captain
 	suit = /obj/item/clothing/suit/pirate/captain

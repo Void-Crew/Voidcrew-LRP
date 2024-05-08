@@ -11,7 +11,7 @@
 	l_pocket = /obj/item/ammo_box/magazine/pistol556mm
 	shoes = /obj/item/clothing/shoes/jackboots
 	suit_store = /obj/item/gun/energy/laser/terra
-	back = /obj/item/storage/backpack
+	back = /obj/item/storage/backpack/satchel/leather
 	box = /obj/item/storage/box/survival
 	backpack_contents = list(/obj/item/crowbar/power,
 		/obj/item/melee/baton/loaded = 1,
@@ -28,13 +28,13 @@
 	id = /obj/item/card/id/solgov/commander
 	uniform = /obj/item/clothing/under/solgov/formal
 	suit = /obj/item/clothing/suit/toggle/solgov
-	head = /obj/item/clothing/head/solgov
+	head = /obj/item/clothing/head/solgovcap
 	r_pocket = /obj/item/gun/ballistic/automatic/pistol/solgov
 	l_pocket = /obj/item/ammo_box/magazine/pistol556mm
 	shoes = /obj/item/clothing/shoes/jackboots
 	suit_store = null
 	belt = /obj/item/gun/energy/pulse/terra
-	back = /obj/item/storage/backpack
+	back = /obj/item/storage/backpack/satchel/leather
 	box = /obj/item/storage/box/survival
 	backpack_contents = list(/obj/item/crowbar/power,
 		/obj/item/melee/baton/loaded = 1,

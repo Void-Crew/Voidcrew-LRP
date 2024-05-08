@@ -715,7 +715,7 @@
 				dst = previous
 			else
 				dst = destination
-			. = "transit towards [dst?.name || "unknown location"] ([getTimerStr()])"
+			. = "Intransit towards [dst?.name || "unknown location"] ([getTimerStr()])"
 	else if(mode == SHUTTLE_RECHARGING)
 		return "[docked_at], recharging [getTimerStr()]"
 	else

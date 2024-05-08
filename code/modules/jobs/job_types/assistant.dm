@@ -71,7 +71,7 @@ Assistant
 	uniform = /obj/item/clothing/under/color/white
 	accessory = /obj/item/clothing/accessory/armband/science
 
-/datum/outfit/job/assistant/engineeringspecialist
+/datum/outfit/job/assistant/deckhand
 	name = "Assistant (Deckhand)"
 	accessory = /obj/item/clothing/accessory/armband/cargo
 
@@ -84,3 +84,34 @@ Assistant
 	shoes = /obj/item/clothing/shoes/laceup
 	gloves = /obj/item/clothing/gloves/color/white
 	accessory = /obj/item/clothing/neck/scarf/darkblue
+
+/datum/outfit/job/assistant/soviet
+	name = "Soviet Deckhand"
+	uniform = /obj/item/clothing/under/costume/soviet
+	r_hand = /obj/item/reagent_containers/food/drinks/bottle/vodka //real
+
+/datum/outfit/job/assistant/syndicate
+	name = "Operations Assistant (Syndicate)"
+
+	uniform = /obj/item/clothing/under/syndicate
+	mask = /obj/item/clothing/mask/gas/syndicate
+	suit = null
+	head = null
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/color/black
+	ears = /obj/item/radio/headset/syndicate/alt
+
+/datum/outfit/job/assistant/syndicate/cybersun
+	name = "Deck Service Assistant (Cybersun Industries)"
+
+	uniform = /obj/item/clothing/under/syndicate/cybersun
+	head = /obj/item/clothing/head/soft/cybersun
+	shoes = /obj/item/clothing/shoes/jackboots
+	gloves = /obj/item/clothing/gloves/color/black
+	ears = /obj/item/radio/headset/syndicate/alt
+	accessory = /obj/item/clothing/accessory/armband/hydro
+
+/datum/outfit/job/assistant/soviet
+	name = "Soviet Deckhand"
+	uniform = /obj/item/clothing/under/costume/soviet
+	r_hand = /obj/item/reagent_containers/food/drinks/bottle/vodka //real

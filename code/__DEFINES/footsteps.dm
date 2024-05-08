@@ -16,6 +16,7 @@
 #define FOOTSTEP_CARPET_BAREFOOT "carpetbarefoot"
 //misc footstep sounds
 #define FOOTSTEP_GENERIC_HEAVY "heavy"
+#define FOOTSTEP_NANOTRASEN "spurstep"
 
 //footstep mob defines
 #define FOOTSTEP_MOB_CLAW 1
@@ -24,6 +25,7 @@
 #define FOOTSTEP_MOB_SHOE 4
 #define FOOTSTEP_MOB_HUMAN 5 //Warning: Only works on /mob/living/carbon/human
 #define FOOTSTEP_MOB_SLIME 6
+#define FOOTSTEP_MOB_NANOTRASEN 7
 
 /*
 
@@ -196,3 +198,8 @@ GLOBAL_LIST_INIT(heavyfootstep, list(
 		'sound/effects/meatslap.ogg'), 100, 0),
 ))
 
+//nanotrasen footsteps list
+GLOBAL_LIST_INIT(secfootstep, list(
+	FOOTSTEP_NANOTRASEN = list(list(
+		'sound/effects/footstep/spurstep.ogg'), 100, 2),
+))

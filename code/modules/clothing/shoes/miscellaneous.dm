@@ -8,8 +8,8 @@
 /obj/item/clothing/shoes/combat //basic syndicate combat boots for nuke ops and mob corpses
 	name = "combat boots"
 	desc = "High speed, low drag combat boots."
-	icon_state = "jackboots"
-	item_state = "jackboots"
+	icon_state = "combat"
+	item_state = "combat"
 	lefthand_file = 'icons/mob/inhands/equipment/security_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/security_righthand.dmi'
 	armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 10, "rad" = 0, "fire" = 70, "acid" = 50)
@@ -147,6 +147,13 @@
 	permeability_coefficient = 0.05 //Thick soles, and covers the ankle
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/shoes
 	can_be_tied = FALSE
+
+/obj/item/clothing/shoes/jackboots/charlieboots
+	name = "security boots"
+	desc = "Nanotrasen-issue Security combat boots that are long out of style, these were made to be taller and more superior towards assistants, but they slowly became impractical."
+	icon_state = "kneeboots"
+	item_state = "kneeboots"
+
 
 /obj/item/clothing/shoes/jackboots/fast
 	slowdown = -1

@@ -26,6 +26,11 @@
 	blood_overlay_type = "armor"
 	dog_fashion = /datum/dog_fashion/back
 
+/obj/item/clothing/suit/armor/vest/sec
+	desc = "A slim Type I armored vest that provides decent protection against most types of damage. This one has a red stripe for Security."
+	icon_state = "armor_sec"
+	item_state = "armor_sec"
+
 /obj/item/clothing/suit/armor/vest/alt
 	desc = "A Type I armored vest that provides decent protection against most types of damage."
 	icon_state = "armoralt"
@@ -38,6 +43,13 @@
 	item_state = "armor"
 	slowdown = 1
 
+/obj/item/clothing/suit/armor/vest/old/charlie
+	name = "degrading armor vest"
+	desc = "Older generation Type 1 armored vest. Due to degradation over time the vest is far less maneuverable to move in. This one has a blue stripe for Security."
+	icon_state = "armor_charlie"
+	item_state = "armor_charlie"
+	slowdown = 1
+
 /obj/item/clothing/suit/armor/vest/blueshirt
 	name = "large armor vest"
 	desc = "A large kevlar vest with polymer plating attacked at key points to protect the wearer's entire body. While the additional polymer plating is lightweight, the added bulk makes it difficult to move around in."
@@ -47,6 +59,12 @@
 	armor = list("melee" = 45, "bullet" = 40, "laser" = 40, "energy" = 50, "bomb" = 25, "bio" = 10, "rad" = 10, "fire" = 75, "acid" = 75)
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS
 	slowdown = 0.4
+
+/obj/item/clothing/suit/armor/vest/jacket
+	name = "operative jacket"
+	desc = "A heavy red jacket with Syndicate branding all over it. It gives you security vibes, it has nanoweave fiber weaved into the fabric to give it the slightest defense."
+	icon_state = "sec_dep_jacket"
+	item_state = "sec_dep_jacket"
 
 /obj/item/clothing/suit/armor/hos
 	name = "armored greatcoat"
@@ -105,16 +123,68 @@
 	dog_fashion = null
 	resistance_flags = FIRE_PROOF
 
+/obj/item/clothing/suit/armor/vest/capcarapace/cybersun
+	name = "Cybersun captain's haori"
+	desc = "An extraordinarily fashionable haori, utilized by Cybersun captains. Weaved with armored fabric to protect the user from gunshots."
+	icon_state = "carapace_cybersun"
+
+/obj/item/clothing/suit/armor/vest/capcarapace/nt
+	name = "captain's carapace"
+	desc = "A fireproof armored chestpiece reinforced with ceramic plates and plasteel pauldrons to provide additional protection whilst still offering maximum mobility and flexibility. Issued only to the station's finest, although it does chafe your nipples."
+	icon_state = "capcarapace_nt"
+
 /obj/item/clothing/suit/armor/vest/capcarapace/syndicate
 	name = "syndicate captain's vest"
 	desc = "A sinister looking vest of advanced armor worn over a black and red fireproof jacket. The gold collar and shoulders denote that this belongs to a high ranking syndicate officer."
 	icon_state = "syndievest"
 
-/obj/item/clothing/suit/armor/vest/capcarapace/alt
-	name = "captain's parade jacket"
+/obj/item/clothing/suit/armor/vest/capcarapace/centcom
+	name = "CentCom captain's carapace"
+	desc = "A fireproof armored chestpiece reinforced with ceramic plates and plasteel pauldrons to provide additional protection whilst still offering maximum mobility and flexibility. Issued only to the highest CentCom Officers."
+	icon_state = "centcarapace"
+
+/obj/item/clothing/suit/armor/vest/capcarapace/alt/nt
+	name = "captain's parade coat"
 	desc = "For when an armoured vest isn't fashionable enough."
+	icon_state = "capformal_nt"
+	item_state = "b_suit"
+
+/obj/item/clothing/suit/armor/vest/capjacket
+	name = "captain's parade jacket"
+	desc = "Worn by a Captain to show their class."
+	icon_state = "capjacket"
+	item_state = "b_suit"
+
+/obj/item/clothing/suit/armor/vest/capcarapace/alt/cent
+	name = "CentCom captain's parade coat"
+	desc = "For when an armoured vest isn't fashionable enough. Gives you a clear indication you're lesser than your superiors."
+	icon_state = "centformal"
+	item_state = "g_suit"
+
+/obj/item/clothing/suit/armor/vest/capcarapace/alt
+	name = "captain's parade coat"
+	desc = "For when an armoured vest isn't fashionable enough. Does the job against pirates."
 	icon_state = "capformal"
-	item_state = "capspacesuit"
+	item_state = "w_suit"
+
+/obj/item/clothing/suit/armor/vest/hopcoat/nt
+	name = "\improper head of personnel's coat"
+	desc = "A stylish coat given to a Nanotrasen Head of Personnel."
+	icon_state = "hop_coat_nt"
+	item_state = "b_suit"
+
+/obj/item/clothing/suit/armor/vest/hopcoat
+	name = "\improper head of personnel's coat"
+	desc = "A stylish coat given to a Head of Personnel."
+	icon_state = "hop_coat"
+	item_state = "w_suit"
+
+/obj/item/clothing/suit/armor/centcom_formal
+	name = "\improper CentCom formal coat"
+	desc = "A stylish coat given to CentCom Commanders. Perfect for sending ERTs to suicide missions with style!"
+	icon_state = "centcom_formal"
+	item_state = "g_suit"
+	armor = list("melee" = 35, "bullet" = 40, "laser" = 40, "energy" = 50, "bomb" = 35, "bio" = 10, "rad" = 10, "fire" = 10, "acid" = 60)
 
 /obj/item/clothing/suit/armor/riot
 	name = "riot suit"
@@ -293,3 +363,43 @@
 	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
 	min_cold_protection_temperature = SPACE_SUIT_MIN_TEMP_PROTECT
 	armor = list("melee" = 25, "bullet" = 20, "laser" = 20, "energy" = 30, "bomb" = 20, "bio" = 50, "rad" = 20, "fire" = -10, "acid" = 50)
+
+/obj/item/clothing/suit/armor/hos/inteq
+	name = "inteq battle coat"
+	desc = "A luxurious brown coat made from a crossweave of kevlar and ballistic fibre, the collar and wrist trims are made from genuine wolf fur. as protective as it is stylish."
+	icon_state = "armor_inteq_battlecoat"
+	item_state = "inteq_battlecoat"
+
+/obj/item/clothing/suit/armor/hos/inteq/honorable //Basically CC higherup clothing for inteq
+	name = "honorable vanguard battlecoat"
+	desc = "A sleek black coat with snow white fur trims made to order for honorable vanguards of the IRMG. It feels even tougher than the typical battlecoat."
+	icon_state = "armor_inteq_honorable_battlecoat"
+	item_state = "inteq_honorable_battlecoat"
+	armor = list("melee" = 40, "bullet" = 50, "laser" = 50, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 70, "acid" = 90)
+
+/obj/item/clothing/suit/armor/inteq/corpsman
+	name = "inteq corpsman vest"
+	desc = "A shortened brown labcoat with an armor vest under it, for the IRMG's support division Corpsmen."
+	icon_state = "armor_inteq_labcoat"
+	item_state = "inteq_labcoat"
+	allowed = list(
+		/obj/item/analyzer,
+		/obj/item/stack/medical,
+		/obj/item/reagent_containers/syringe,
+		/obj/item/reagent_containers/hypospray,
+		/obj/item/healthanalyzer,
+		/obj/item/flashlight/pen,
+		/obj/item/reagent_containers/glass/bottle,
+		/obj/item/reagent_containers/glass/beaker,
+		/obj/item/reagent_containers/pill,
+		/obj/item/storage/pill_bottle,
+		/obj/item/melee/classic_baton/telescopic,
+		/obj/item/soap,
+		/obj/item/sensor_device,
+		/obj/item/tank/internals/emergency_oxygen,
+		/obj/item/tank/internals/plasmaman,
+		/obj/item/ammo_box,
+		/obj/item/gun/ballistic,
+		/obj/item/gun/energy,
+		/obj/item/melee/baton,
+	)

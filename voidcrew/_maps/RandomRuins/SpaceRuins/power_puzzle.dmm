@@ -3,25 +3,31 @@
 /turf/open/space/basic,
 /area/space)
 "ab" = (
-/turf/closed/wall/r_wall,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/carpet/nanoweave,
 /area/ruin/space/has_grav/storage/materials3)
 "ac" = (
-/obj/structure/closet/crate,
-/obj/effect/spawner/lootdrop/maintenance/four,
-/turf/open/floor/plasteel,
+/obj/structure/table,
+/obj/item/flashlight/lamp,
+/turf/open/floor/carpet/nanoweave,
 /area/ruin/space/has_grav/storage/materials3)
 "ad" = (
-/turf/closed/wall/r_wall,
-/area/ruin/space/has_grav/storage/materials2)
+/obj/structure/chair/sofa{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/space/has_grav/storage/materials3)
 "ae" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/carpet/nanoweave,
 /area/ruin/space/has_grav/storage/materials3)
 "af" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 4;
 	icon_state = "blood1"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "ag" = (
 /obj/effect/decal/cleanable/blood/footprints{
@@ -29,20 +35,23 @@
 	icon_state = "blood1"
 	},
 /obj/item/storage/pill_bottle/floorpill/full,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "ah" = (
 /turf/closed/mineral,
 /area/ruin/space/has_grav)
 "ai" = (
-/turf/closed/wall/r_wall,
-/area/ruin/space/has_grav/storage/materials1)
+/obj/structure/table/reinforced/titaniumglass,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/storage/central)
 "ak" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 1;
 	icon_state = "blood1"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "al" = (
 /obj/effect/decal/cleanable/blood/footprints{
@@ -50,17 +59,17 @@
 	icon_state = "blood1"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "am" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "an" = (
 /obj/structure/closet/crate/secure/weapon,
 /obj/item/ammo_box/magazine/co9mm,
 /obj/item/ammo_box/magazine/co9mm,
 /obj/item/ammo_box/magazine/co9mm,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "ao" = (
 /obj/effect/decal/cleanable/blood/footprints{
@@ -68,51 +77,51 @@
 	icon_state = "blood1"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "ap" = (
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials1)
 "aq" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials1)
 "au" = (
-/obj/machinery/door/airlock/highsecurity,
-/obj/effect/mapping_helpers/airlock/locked,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/storage/materials3)
+/obj/structure/table/reinforced/titaniumglass,
+/obj/item/paper_bin,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/storage/central)
 "av" = (
 /obj/structure/falsewall/reinforced,
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 1;
 	icon_state = "blood1"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "aw" = (
 /obj/structure/closet/syndicate/resources{
 	name = "Resource storage"
 	},
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "ax" = (
 /obj/structure/closet/syndicate/resources{
 	name = "Resource storage"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "ay" = (
-/obj/machinery/doorButtons/access_button,
-/turf/closed/indestructible/reinforced,
-/area/ruin/space/has_grav/storage/materials2)
+/obj/machinery/jukebox,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/space/has_grav/storage/materials3)
 "aA" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4;
 	icon_state = "tracks"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials1)
 "aB" = (
 /obj/machinery/door/airlock/highsecurity,
@@ -121,39 +130,39 @@
 	icon_state = "tracks"
 	},
 /obj/effect/mapping_helpers/airlock/locked,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "aC" = (
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "aD" = (
 /obj/machinery/door/airlock/highsecurity,
 /obj/effect/mapping_helpers/airlock/locked,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "aE" = (
 /obj/item/bear_armor,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "aH" = (
 /obj/structure/closet/syndicate/resources{
 	name = "Resource storage"
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "aI" = (
 /obj/effect/spawner/lootdrop/glowstick,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials1)
 "aJ" = (
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "aK" = (
 /obj/structure/falsewall/reinforced,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "aM" = (
 /turf/closed/indestructible/reinforced,
@@ -165,16 +174,15 @@
 /turf/closed/indestructible/reinforced,
 /area/ruin/space/has_grav/storage/power3)
 "aT" = (
-/obj/structure/closet/crate/secure/loot,
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power3)
 "aU" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power3)
 "aV" = (
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power1)
 "aW" = (
 /obj/item/export_scanner,
@@ -182,96 +190,107 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "aX" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power1)
 "aY" = (
-/turf/closed/wall/r_wall,
-/area/ruin/space/has_grav/storage/central)
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/storage/power1)
 "aZ" = (
-/obj/item/trash/pistachios,
-/obj/item/storage/pill_bottle/floorpill/full,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/storage/central)
+/obj/item/stack/tile/carpet/nanoweave,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/storage/materials3)
 "ba" = (
 /obj/structure/closet/toolcloset,
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power2)
 "bb" = (
-/obj/item/trash/sosjerky,
-/obj/item/trash/syndi_cakes,
-/obj/effect/mob_spawn/human/corpse/cargo_tech,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/storage/central)
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/space/has_grav/storage/materials3)
 "bc" = (
 /obj/structure/closet/toolcloset,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power2)
 "bd" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/mob_spawn/human/corpse/cargo_tech,
 /obj/item/weldingtool/mini,
-/obj/item/storage/pill_bottle/lsd,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/storage/central)
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/space/has_grav/storage/materials3)
 "be" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials1)
 "bf" = (
 /obj/item/storage/pill_bottle,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "bh" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials1)
 "bi" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power2)
 "bj" = (
 /obj/machinery/vending/engivend,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power2)
 "bk" = (
 /turf/closed/indestructible/reinforced,
 /area/ruin/space/has_grav/storage/central2)
 "bl" = (
-/turf/closed/wall,
+/obj/structure/closet/crate/engineering/electrical,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "bm" = (
 /obj/structure/falsewall/reinforced,
 /obj/effect/decal/cleanable/blood/tracks,
-/turf/open/floor/plasteel,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "bp" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "bq" = (
 /obj/structure/closet/firecloset/full,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "br" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/maintenance/two,
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/spawner/lootdrop/minor/kittyears_or_rabbitears,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "bs" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/maintenance/two,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "bt" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 10;
 	icon_state = "tracks"
 	},
-/turf/open/floor/plasteel,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "bx" = (
 /obj/structure/cable{
@@ -281,54 +300,61 @@
 /area/ruin/space/has_grav/storage/power2)
 "by" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "bz" = (
-/turf/open/space/basic,
-/area/ruin/space/has_grav/storage/central2)
+/obj/structure/table/reinforced/titaniumglass,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/storage/central)
 "bB" = (
 /obj/vehicle/ridden/bicycle,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central2)
 "bC" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central2)
 "bD" = (
 /obj/structure/table/wood/fancy/cyan,
 /obj/item/storage/lockbox/dueling{
 	req_access = null
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central2)
 "bE" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power2)
 "bG" = (
 /obj/structure/closet/crate/secure/loot,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power3)
 "bH" = (
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/airlock/vault/derelict,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central2)
+"bL" = (
+/obj/structure/chair/sofa/left{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/space/has_grav/storage/materials3)
 "bQ" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 8;
 	icon_state = "blood1"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power2)
 "bS" = (
 /obj/structure/table/wood/fancy/royalblue,
 /obj/item/storage/box/hypospray{
 	pixel_y = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central2)
 "bT" = (
 /obj/effect/decal/cleanable/blood/tracks{
@@ -336,11 +362,11 @@
 	icon_state = "tracks"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials1)
 "bX" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "bZ" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -348,80 +374,82 @@
 /area/ruin/space/has_grav/storage/materials2)
 "ca" = (
 /obj/effect/mob_spawn/human/corpse/cargo_tech,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "cc" = (
-/obj/machinery/door/airlock/highsecurity,
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 8;
 	icon_state = "blood1"
 	},
 /obj/effect/mapping_helpers/airlock/locked,
-/turf/open/floor/plasteel,
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Engineering"
+	},
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power2)
 "cd" = (
 /obj/structure/table/wood/fancy/red,
 /obj/item/gun/ballistic/automatic/pistol/commander{
 	pixel_y = 2
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central2)
 "ce" = (
 /obj/item/crowbar/red,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "cg" = (
 /obj/structure/closet/crate/internals,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "ch" = (
 /obj/effect/decal/cleanable/oil,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials1)
 "ci" = (
 /obj/structure/closet/crate/secure/loot,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "cj" = (
 /obj/structure/table/wood/fancy/orange,
 /obj/item/construction/rcd,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central2)
 "ck" = (
 /obj/structure/table/wood/fancy/green,
 /obj/item/construction/rld,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central2)
 "cl" = (
 /obj/structure/table/wood/fancy/purple,
 /obj/item/assembly/signaler/anomaly{
 	pixel_y = 7
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central2)
 "cm" = (
 /obj/item/crowbar/red,
 /obj/effect/mob_spawn/human/corpse/cargo_tech,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power2)
 "cp" = (
 /obj/structure/closet/crate/medical,
 /obj/item/storage/pill_bottle/lsd,
 /obj/item/storage/pill_bottle/happy,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power2)
 "cq" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "cr" = (
 /obj/structure/falsewall/reinforced,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "cs" = (
 /obj/item/storage/pill_bottle,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power2)
 "ct" = (
 /obj/structure/closet/cardboard/metal,
@@ -430,25 +458,25 @@
 /obj/item/storage/toolbox/emergency,
 /obj/item/storage/toolbox/electrical,
 /obj/item/storage/toolbox/electrical,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power1)
 "cu" = (
 /obj/structure/closet/crate/solarpanel_small,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power2)
 "cv" = (
 /obj/structure/falsewall/reinforced,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power2)
 "cw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "cx" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "cy" = (
 /obj/effect/decal/cleanable/blood/tracks{
@@ -456,77 +484,88 @@
 	icon_state = "tracks"
 	},
 /obj/effect/decal/cleanable/vomit,
-/turf/open/floor/plasteel,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "cA" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "cB" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/maintenance/two,
 /obj/effect/decal/cleanable/generic,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "cD" = (
 /obj/effect/spawner/lootdrop/glowstick,
 /obj/effect/decal/cleanable/glass,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "cE" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "cH" = (
 /obj/item/inducer,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "cI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/vomit,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "cJ" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "cM" = (
 /obj/effect/decal/cleanable/oil,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "cN" = (
 /obj/effect/decal/cleanable/generic,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "cO" = (
-/obj/structure/closet/crate/engineering/electrical,
-/obj/effect/decal/cleanable/generic,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/storage/central)
+/obj/machinery/power/apc/auto_name/west{
+	pixel_x = -24;
+	start_charge = 0
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/chair/sofa/right{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/space/has_grav/storage/materials3)
 "cP" = (
 /obj/effect/decal/cleanable/vomit,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power2)
 "cQ" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power2)
 "cR" = (
-/obj/effect/decal/cleanable/oil,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/storage/power3)
+/obj/structure/chair/office/light,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/storage/central)
 "cS" = (
 /obj/machinery/power/port_gen/pacman/uranium,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power2)
 "cT" = (
-/obj/effect/decal/cleanable/vomit,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/storage/power3)
+/obj/structure/table,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/space/has_grav/storage/materials3)
 "cU" = (
 /obj/structure/closet/crate,
 /obj/item/bedsheet/ian,
@@ -535,22 +574,32 @@
 /obj/item/bedsheet/centcom,
 /obj/item/bedsheet/syndie,
 /obj/item/toy/plush/moth,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power1)
 "cV" = (
 /obj/effect/decal/cleanable/oil,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power1)
 "cW" = (
 /obj/effect/decal/cleanable/oil,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power2)
+"dV" = (
+/obj/structure/chair/office/light{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/storage/central)
 "fd" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
+"fo" = (
+/obj/effect/mob_spawn/human/corpse/cargo_tech,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/space/has_grav/storage/materials3)
 "gD" = (
 /obj/machinery/power/apc/auto_name/north{
 	pixel_y = 24;
@@ -560,7 +609,7 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials1)
 "gG" = (
 /obj/machinery/power/apc/auto_name/west{
@@ -570,7 +619,7 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power3)
 "gS" = (
 /obj/effect/decal/cleanable/blood/footprints{
@@ -583,22 +632,24 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "hH" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 1;
 	icon_state = "blood1"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power1)
 "ku" = (
-/obj/machinery/door/airlock/highsecurity,
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/turf/open/floor/plasteel,
+/obj/machinery/door/airlock/glass{
+	name = "Lounge"
+	},
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power3)
 "kv" = (
 /obj/structure/cable{
@@ -616,7 +667,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials1)
 "kD" = (
 /obj/machinery/door/airlock/highsecurity,
@@ -626,7 +677,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials1)
 "lG" = (
 /obj/machinery/power/apc/auto_name/east{
@@ -637,13 +688,13 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials2)
 "mg" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "mF" = (
 /obj/machinery/power/apc/auto_name/east{
@@ -653,40 +704,46 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "mI" = (
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
 /obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power1)
 "ob" = (
 /turf/closed/indestructible/reinforced,
 /area/ruin/space/has_grav/storage/materials3)
 "oo" = (
-/turf/closed/wall,
-/area/ship/hallway/central)
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/table,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/space/has_grav/storage/materials3)
 "oT" = (
 /obj/machinery/door/airlock/external,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "rc" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials1)
 "rf" = (
 /turf/open/floor/plating,
-/area/ship/hallway/central)
+/area/ruin/space/has_grav/storage/central)
+"sH" = (
+/obj/structure/table,
+/obj/item/storage/pill_bottle/lsd,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/space/has_grav/storage/materials3)
 "up" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -694,15 +751,13 @@
 /turf/closed/indestructible/reinforced,
 /area/ruin/space/has_grav/storage/power2)
 "uu" = (
-/obj/effect/decal/cleanable/blood/footprints{
-	dir = 8;
-	icon_state = "blood1"
+/obj/structure/filingcabinet,
+/obj/item/keycard{
+	puzzle_id = "vaultcrew";
+	name = "service keycard"
 	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/storage/power1)
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/storage/central)
 "uX" = (
 /obj/machinery/door/airlock/highsecurity,
 /obj/effect/decal/cleanable/blood/tracks,
@@ -710,7 +765,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials1)
 "vE" = (
 /obj/effect/decal/cleanable/blood/tracks{
@@ -724,26 +779,25 @@
 	icon_state = "1-2"
 	},
 /obj/structure/cable{
-	icon_state = "1-4"
+	icon_state = "2-8"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "vJ" = (
-/obj/machinery/power/apc/auto_name/west{
-	pixel_x = -24;
-	start_charge = 0
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /obj/structure/cable{
-	icon_state = "0-4"
+	icon_state = "1-8"
 	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/storage/materials3)
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/storage/power1)
 "ws" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "ww" = (
 /obj/effect/decal/cleanable/blood/footprints{
@@ -753,14 +807,14 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power1)
 "xi" = (
 /obj/machinery/power/smes,
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power2)
 "xl" = (
 /turf/closed/indestructible/reinforced,
@@ -782,7 +836,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "Bq" = (
 /obj/structure/cable{
@@ -795,12 +849,19 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "CT" = (
-/obj/effect/radiation,
 /obj/effect/decal/cleanable/greenglow,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/storage/central)
+"ES" = (
+/obj/structure/table/reinforced/titaniumglass,
+/obj/item/paper{
+	info = "Josh. I know this job is boring and all, but I know a place we can all hang out. I broke a wall on accident while on the late shift a few days ago. It's in the northern wall. Just keep tapping walls until one opens. See you in that sick party bro. - Damien"
+	},
+/obj/item/pen,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "Im" = (
 /obj/machinery/door/airlock/highsecurity,
@@ -808,7 +869,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "In" = (
 /obj/machinery/power/apc/auto_name/south{
@@ -818,7 +879,7 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central2)
 "Ir" = (
 /obj/structure/cable{
@@ -827,8 +888,15 @@
 /obj/machinery/power/terminal{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power2)
+"Js" = (
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 8;
+	icon_state = "blood1"
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/storage/power1)
 "JO" = (
 /turf/closed/indestructible/reinforced,
 /area/ruin/space/has_grav/storage/materials2)
@@ -836,22 +904,16 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power1)
 "LV" = (
 /turf/closed/indestructible/reinforced,
 /area/ruin/space/has_grav/storage/materials1)
 "Mg" = (
 /obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
 	icon_state = "2-4"
 	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials1)
 "Mh" = (
 /obj/machinery/power/apc/auto_name/south{
@@ -861,7 +923,8 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/turf/open/floor/plasteel,
+/obj/structure/table/reinforced/titaniumglass,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power1)
 "Mm" = (
 /obj/effect/decal/cleanable/blood/footprints{
@@ -871,23 +934,27 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power1)
 "OO" = (
-/obj/machinery/door/airlock/highsecurity,
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 1;
 	icon_state = "blood1"
 	},
-/obj/effect/mapping_helpers/airlock/locked,
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/obj/structure/cable{
-	icon_state = "0-4"
+/obj/machinery/door/keycard{
+	puzzle_id = "vaultcrew"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power1)
+"Pi" = (
+/obj/item/paper{
+	info = "Damien, the room is sick, but we need more supplies to fix it up. I'll give you a key to the lower part of the outpost. Give it back when you're done. It's in my filing cabinet."
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/space/has_grav/storage/materials3)
 "PF" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 9;
@@ -898,14 +965,14 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/materials1)
 "PU" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
 "RB" = (
 /obj/structure/cable{
@@ -917,18 +984,19 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/central)
+"SU" = (
+/obj/machinery/computer/security/wooden_tv,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/space/has_grav/storage/materials3)
 "SY" = (
 /obj/machinery/power/apc/auto_name/east{
 	pixel_x = 24;
 	start_charge = 0
 	},
 /obj/structure/cable,
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/storage/power2)
 "Vs" = (
 /obj/structure/cable{
@@ -945,7 +1013,7 @@
 "VV" = (
 /obj/machinery/door/airlock/external,
 /turf/open/floor/plating,
-/area/ship/hallway/central)
+/area/ruin/space/has_grav/storage/central)
 "VX" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -975,9 +1043,9 @@ aa
 aa
 ah
 ah
-oo
+xl
 VV
-oo
+xl
 ah
 ah
 ah
@@ -1007,9 +1075,9 @@ aa
 ah
 ah
 ah
-oo
+xl
 rf
-oo
+xl
 ah
 ah
 ah
@@ -1036,15 +1104,15 @@ aa
 aa
 aa
 ah
-bl
-bl
-bl
-bl
+xl
+xl
+xl
+xl
 oT
-bl
-bl
-bl
-bl
+xl
+xl
+xl
+xl
 ah
 ah
 aa
@@ -1068,7 +1136,7 @@ aa
 ah
 ah
 ah
-bl
+xl
 bp
 bp
 bp
@@ -1076,7 +1144,7 @@ bp
 bp
 bp
 bp
-bl
+xl
 ah
 ah
 ah
@@ -1100,7 +1168,7 @@ ah
 ah
 ah
 ah
-bl
+xl
 bp
 bp
 bp
@@ -1108,7 +1176,7 @@ cH
 cJ
 bp
 cg
-bl
+xl
 ah
 ah
 ah
@@ -1132,7 +1200,7 @@ ah
 ah
 ah
 ah
-bl
+xl
 bq
 bp
 cD
@@ -1140,7 +1208,7 @@ cI
 cJ
 cg
 bp
-bl
+xl
 ah
 ah
 ah
@@ -1156,15 +1224,15 @@ aa
 aa
 aa
 ah
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ah
-bl
+ob
+ob
+ob
+ob
+ob
+ob
+ob
+ob
+xl
 bq
 bp
 mF
@@ -1172,7 +1240,7 @@ ws
 cJ
 cA
 bp
-bl
+xl
 aS
 aS
 aS
@@ -1188,14 +1256,14 @@ aa
 aa
 aa
 ah
-ab
-ac
-ac
-ac
-ac
-ac
 ob
-xl
+ae
+aZ
+ac
+bL
+ad
+cO
+sH
 xl
 xl
 xl
@@ -1207,7 +1275,7 @@ xl
 xl
 aT
 bG
-bG
+aU
 aU
 aU
 aS
@@ -1220,28 +1288,28 @@ aa
 aa
 ah
 ah
-ab
+ob
+aZ
 ae
 ae
-ae
-ae
+fo
 ae
 ab
 aZ
-aY
+xl
 br
 bp
 bp
 fd
 bp
 bp
-bp
+bl
 xl
 aU
 aU
-cR
-cT
 aU
+aU
+bG
 aS
 ah
 ah
@@ -1252,22 +1320,22 @@ aa
 ah
 ah
 ah
-ab
-ac
-ac
-ae
-ac
-ac
-ab
+ob
+Pi
+ay
+aZ
+cT
+SU
+oo
 bb
-aY
+xl
 bs
 bp
 bp
 fd
 cN
-cO
-bp
+cN
+au
 xl
 aU
 aU
@@ -1284,13 +1352,13 @@ aa
 aa
 ah
 ah
-ab
-ab
-ab
-au
-ab
-ab
-ob
+LV
+LV
+LV
+LV
+LV
+LV
+LV
 bd
 bm
 bt
@@ -1298,8 +1366,8 @@ cB
 cE
 aW
 bp
-bp
-bp
+cR
+ES
 xl
 aS
 aS
@@ -1316,9 +1384,9 @@ aa
 aa
 ah
 ah
-ai
+LV
 ap
-vJ
+aq
 bh
 aq
 aq
@@ -1348,7 +1416,7 @@ aa
 aa
 ah
 ah
-ai
+LV
 aq
 Mg
 PF
@@ -1380,7 +1448,7 @@ aa
 aa
 ah
 ah
-ai
+LV
 aq
 kA
 bT
@@ -1388,18 +1456,18 @@ ch
 aI
 LV
 aq
-ai
+LV
 gD
 CT
 bp
 ca
 cN
 cM
-bp
+bz
 VX
-aX
-aX
-uu
+aY
+KY
+Mm
 aX
 aX
 aM
@@ -1412,7 +1480,7 @@ aa
 aa
 ah
 ah
-ai
+LV
 aq
 lG
 aA
@@ -1426,12 +1494,12 @@ bp
 cB
 bp
 ce
-bp
-ci
+dV
+bz
 Vs
-KY
+vJ
 SY
-Mm
+Js
 aX
 ct
 aM
@@ -1448,18 +1516,18 @@ JO
 JO
 JO
 aB
-ad
+JO
 bZ
 JO
 JO
 xl
-by
+bp
 bs
 bp
 cM
 bp
 ci
-bp
+ai
 VX
 aR
 aR
@@ -1485,13 +1553,13 @@ aJ
 am
 bf
 xl
-xl
-xl
-xl
+by
 bp
-xl
-xl
-xl
+bp
+bp
+ci
+bp
+uu
 VX
 ba
 bi
@@ -1517,19 +1585,19 @@ am
 am
 bf
 bk
-bz
-bz
+bk
+bk
 bk
 bH
 bk
-bz
-bz
+bk
+bk
 up
 bc
 bi
 bQ
 cQ
-bi
+cu
 aR
 ah
 ah
@@ -1541,10 +1609,10 @@ ah
 ah
 JO
 af
-ad
-ad
+JO
+JO
 aD
-ad
+JO
 cr
 bZ
 cq
@@ -1573,7 +1641,7 @@ ah
 ah
 JO
 af
-ad
+JO
 aw
 bX
 aH
@@ -1605,11 +1673,11 @@ ah
 ah
 JO
 ao
-ad
+JO
 am
 am
 ax
-ad
+JO
 JO
 cx
 bk
@@ -1625,7 +1693,7 @@ bj
 bi
 cp
 cW
-cu
+bi
 aR
 ah
 ah
@@ -1637,11 +1705,11 @@ ah
 ah
 JO
 af
-ad
+JO
 ax
 am
 am
-ad
+JO
 JO
 am
 bk
@@ -1669,11 +1737,11 @@ ah
 ah
 JO
 af
-ad
+JO
 JO
 bZ
 JO
-ad
+JO
 JO
 am
 bk
@@ -1701,7 +1769,7 @@ ah
 ah
 JO
 ag
-ad
+JO
 am
 aE
 am
@@ -1733,7 +1801,7 @@ ah
 ah
 JO
 an
-ad
+JO
 am
 am
 cq
@@ -1766,7 +1834,7 @@ ah
 JO
 JO
 JO
-ay
+JO
 JO
 JO
 JO

@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/russian
-	name = "Russian"
+	name = "Russian Conscript"
 	desc = "For the Motherland!"
 	icon = 'icons/mob/simple_human.dmi'
 	icon_state = "russianmelee"
@@ -31,30 +31,51 @@
 
 
 /mob/living/simple_animal/hostile/russian/ranged
+	name = "Russian Rifleman"
 	icon_state = "russianranged"
 	icon_living = "russianranged"
 	loot = list(/obj/effect/mob_spawn/human/corpse/russian/ranged,
-				/obj/item/gun/ballistic/revolver/nagant)
+				/obj/item/gun/ballistic/rifle/boltaction)
 	ranged = 1
 	retreat_distance = 5
 	minimum_distance = 5
-	projectilesound = 'sound/weapons/gun/revolver/shot.ogg'
-	casingtype = /obj/item/ammo_casing/n762
-
-
-/mob/living/simple_animal/hostile/russian/ranged/mosin
-	loot = list(/obj/effect/mob_spawn/human/corpse/russian/ranged,
-				/obj/item/gun/ballistic/rifle/boltaction)
-	casingtype = /obj/item/ammo_casing/a762
+	projectilesound = 'sound/weapons/gun/rifle/shot.ogg'
+	casingtype = /obj/item/ammo_casing/a300
 
 /mob/living/simple_animal/hostile/russian/ranged/trooper
+	name = "Russian Soldier"
 	icon_state = "russianrangedelite"
 	icon_living = "russianrangedelite"
 	maxHealth = 150
 	health = 150
+	projectilesound = 'sound/weapons/gun/shotgun/shot.ogg'
 	casingtype = /obj/item/ammo_casing/shotgun/buckshot
 	loot = list(/obj/effect/mob_spawn/human/corpse/russian/ranged/trooper,
-				/obj/item/gun/ballistic/shotgun/lethal)
+				/obj/item/gun/ballistic/shotgun/brimstone)
+
+/mob/living/simple_animal/hostile/russian/ranged/elite
+	name = "Russian Soldier Elite"
+	icon_state = "russianrangedelitehr"
+	icon_living = "russianrangedelitehr"
+	maxHealth = 200
+	health = 200
+	rapid = 4
+	projectilesound = 'sound/weapons/gun/rifle/shot.ogg'
+	casingtype = /obj/item/ammo_casing/ballistic/a762_39
+	loot = list(/obj/effect/gibspawner/human,
+				/obj/item/gun/ballistic/automatic/ak47)
+
+/mob/living/simple_animal/hostile/russian/ranged/automatic
+	name = "Russian Trooper"
+	icon_state = "russianautomatic"
+	icon_living = "russianautomatic"
+	maxHealth = 125
+	health = 125
+	rapid = 3
+	projectilesound = 'sound/weapons/gun/rifle/shot.ogg'
+	casingtype = /obj/item/ammo_casing/ballistic/a762_39
+	loot = list(/obj/effect/mob_spawn/human/corpse/russian/ranged/automatic,
+				/obj/item/gun/ballistic/automatic/ak47)
 
 /mob/living/simple_animal/hostile/russian/ranged/officer
 	name = "Russian Officer"
@@ -63,6 +84,7 @@
 	maxHealth = 65
 	health = 65
 	rapid = 3
+	projectilesound = 'sound/weapons/gun/pistol/shot.ogg'
 	casingtype = /obj/item/ammo_casing/c9mm
 	loot = list(/obj/effect/mob_spawn/human/corpse/russian/ranged/officer,
 				/obj/item/gun/ballistic/automatic/pistol/APS)
@@ -70,4 +92,4 @@
 /mob/living/simple_animal/hostile/russian/ranged/officer/Aggro()
 	..()
 	summon_backup(15)
-	say("V BOJ!!")
+	say("VRAG ZAMECHAN!!")

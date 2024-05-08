@@ -1,7 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ad" = (
 /obj/machinery/rnd/production/protolathe,
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/iron/tech/grid,
 /area/ship/engineering)
 "bl" = (
 /obj/effect/spawner/structure/window/hollow/plasma/directional,
@@ -49,7 +49,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "cy" = (
 /turf/open/space/basic,
@@ -80,7 +80,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/janitor)
 "db" = (
 /obj/structure/cable{
@@ -134,7 +134,7 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 26
 	},
-/turf/open/floor/plasteel/tech/techmaint,
+/turf/open/floor/iron/tech/techmaint,
 /area/ship/engineering/engine)
 "eu" = (
 /turf/open/floor/mineral/titanium,
@@ -177,7 +177,7 @@
 	dir = 8;
 	pixel_x = 26
 	},
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/janitor)
 "eQ" = (
 /obj/machinery/atmospherics/components/unary/tank/air{
@@ -200,14 +200,14 @@
 "fp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/janitor)
 "fy" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/effect/turf_decal/borderfloor{
 	dir = 1
 	},
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "fN" = (
 /obj/effect/spawner/structure/window/shuttle,
@@ -380,7 +380,7 @@
 /obj/structure/sign/poster/random{
 	pixel_x = -32
 	},
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/janitor)
 "je" = (
 /obj/effect/spawner/structure/window/hollow/plasma/directional{
@@ -419,7 +419,7 @@
 	pixel_x = 25;
 	dir = 8
 	},
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/janitor)
 "js" = (
 /obj/effect/decal/cleanable/dirt,
@@ -491,7 +491,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "ki" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/atmos_waste{
@@ -517,7 +517,7 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/turf/open/floor/plasteel/tech/techmaint,
+/turf/open/floor/iron/tech/techmaint,
 /area/ship/engineering/engine)
 "kE" = (
 /obj/machinery/atmospherics/components/unary/passive_vent/layer2{
@@ -619,7 +619,7 @@
 	},
 /obj/effect/decal/cleanable/confetti,
 /obj/machinery/camera,
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/janitor)
 "mQ" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
@@ -632,7 +632,7 @@
 	name = "Helmsman";
 	layer = 2.49
 	},
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/iron/tech/grid,
 /area/ship/bridge)
 "np" = (
 /obj/structure/table/wood,
@@ -712,7 +712,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "oS" = (
 /obj/machinery/atmospherics/pipe/simple/purple/hidden/layer4,
@@ -797,7 +797,7 @@
 /obj/machinery/camera{
 	dir = 4
 	},
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/iron/tech/grid,
 /area/ship/bridge)
 "pV" = (
 /obj/machinery/defibrillator_mount/loaded,
@@ -825,7 +825,10 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/floor/plasteel/stairs,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/iron/stairs,
 /area/ship/bridge)
 "qy" = (
 /obj/structure/sign/poster/official/nanotrasen_logo,
@@ -878,7 +881,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/janitor)
 "rn" = (
 /obj/effect/decal/cleanable/dirt,
@@ -946,7 +949,7 @@
 	dir = 8;
 	pixel_x = 28
 	},
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/iron/tech/grid,
 /area/ship/bridge)
 "sN" = (
 /obj/structure/table,
@@ -995,7 +998,10 @@
 	name = "Helm"
 	},
 /obj/structure/railing/corner,
-/turf/open/floor/plasteel/tech/grid,
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/tech/grid,
 /area/ship/bridge)
 "um" = (
 /turf/closed/wall/mineral/titanium,
@@ -1083,7 +1089,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/janitor)
 "vt" = (
 /turf/open/floor/carpet/red,
@@ -1195,7 +1201,7 @@
 /area/ship/engineering/engine)
 "yJ" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "yV" = (
 /obj/item/reagent_containers/glass/bucket,
@@ -1210,7 +1216,7 @@
 /obj/structure/sign/poster/contraband/eat{
 	pixel_y = 32
 	},
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/janitor)
 "zz" = (
 /obj/machinery/cryopod{
@@ -1415,12 +1421,12 @@
 "Dh" = (
 /obj/machinery/computer/helm,
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/iron/tech/grid,
 /area/ship/bridge)
 "Dp" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/east,
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "Ds" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1547,7 +1553,7 @@
 	pixel_y = -15
 	},
 /obj/machinery/autolathe,
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/iron/tech/grid,
 /area/ship/engineering)
 "Gt" = (
 /obj/structure/cable{
@@ -1851,7 +1857,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
 	},
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "Lc" = (
 /obj/machinery/door/firedoor,
@@ -1897,7 +1903,7 @@
 /area/ship/medical)
 "Me" = (
 /obj/machinery/computer/communications,
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/iron/tech/grid,
 /area/ship/bridge)
 "Mh" = (
 /obj/machinery/button/door{
@@ -1934,7 +1940,7 @@
 	dir = 8
 	},
 /obj/machinery/door/airlock/public/glass,
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "MK" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -1977,7 +1983,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 1
 	},
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "NM" = (
 /obj/structure/cable{
@@ -2054,7 +2060,7 @@
 "OS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/trash/chips,
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "OY" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2135,7 +2141,7 @@
 /obj/machinery/computer/cargo/express{
 	dir = 4
 	},
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/iron/tech/grid,
 /area/ship/bridge)
 "PD" = (
 /obj/machinery/atmospherics/components/binary/valve/layer2{
@@ -2186,7 +2192,7 @@
 	dir = 1
 	},
 /obj/structure/closet/secure_closet/captains,
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "Qj" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -2203,7 +2209,7 @@
 	pixel_x = 24;
 	pixel_y = 10
 	},
-/turf/open/floor/plasteel/tech/techmaint,
+/turf/open/floor/iron/tech/techmaint,
 /area/ship/engineering/engine)
 "Qk" = (
 /obj/structure/table,
@@ -2236,7 +2242,7 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/crew/janitor)
 "QD" = (
 /obj/effect/spawner/structure/window/shuttle,
@@ -2592,7 +2598,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/food/plant_smudge,
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "Yq" = (
 /obj/structure/cable{
@@ -2602,7 +2608,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/holopad/emergency/command,
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "Yr" = (
 /obj/structure/fireaxecabinet{
@@ -2615,7 +2621,7 @@
 /obj/structure/table,
 /obj/item/pipe_dispenser,
 /obj/item/areaeditor/shuttle,
-/turf/open/floor/plasteel/tech/techmaint,
+/turf/open/floor/iron/tech/techmaint,
 /area/ship/engineering/engine)
 "YB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2649,7 +2655,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 8
 	},
-/turf/open/floor/plasteel/patterned,
+/turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "Zc" = (
 /obj/structure/mirror{
@@ -2692,7 +2698,7 @@
 /area/ship/medical)
 "Zk" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/turf/open/floor/plasteel/tech/techmaint,
+/turf/open/floor/iron/tech/techmaint,
 /area/ship/engineering/engine)
 "ZI" = (
 /obj/structure/cable{
@@ -2716,7 +2722,7 @@
 	},
 /obj/machinery/camera,
 /obj/structure/frame/computer,
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/iron/tech/grid,
 /area/ship/engineering)
 "ZO" = (
 /obj/machinery/newscaster{
@@ -2731,7 +2737,7 @@
 /obj/item/stack/spacecash/c1000,
 /obj/structure/railing,
 /obj/item/radio/intercom/wideband,
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/iron/tech/grid,
 /area/ship/bridge)
 "ZV" = (
 /obj/effect/decal/cleanable/dirt,

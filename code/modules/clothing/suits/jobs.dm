@@ -91,6 +91,26 @@
 	resistance_flags = NONE
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/exo/large
 
+/obj/item/clothing/suit/hazardvest/solgov
+	name = "SolGov hazard vest"
+	desc = "A high-visibility vest used in work zones by solarian engineers."
+	icon_state = "hazard_solgov"
+	item_state = "hazard_solgov"
+	blood_overlay_type = "armor"
+	allowed = list(/obj/item/flashlight, /obj/item/tank/internals/emergency_oxygen, /obj/item/tank/internals/plasmaman, /obj/item/t_scanner, /obj/item/radio)
+	resistance_flags = NONE
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/exo/large
+
+/obj/item/clothing/suit/hazardvest/donk
+	name = "Donk! Co. employee vest"
+	desc = "A vest used to easily identify employees. It has a name tag attached. It reads: 'Hello! My name is..' It's not filled in."
+	icon_state = "donk_cargo_vest"
+
+/obj/item/clothing/suit/hazardvest/donk/qm
+	name = "Donk! Co. manager vest"
+	desc = "A vest used to easily identify managers. It has a name tag attached. It reads: 'Hello! My name is... THE BOSS'"
+	icon_state = "donk_qm_vest"
+
 /obj/item/clothing/suit/toggle/hazard
 	name = "high-visibility jacket"
 	desc = "A highlighter-yellow jacket made of a durable, fire-resistant fabric with reflective stripes."

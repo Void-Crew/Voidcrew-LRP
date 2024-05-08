@@ -16,7 +16,7 @@
 /datum/outfit/job/doctor/pirate
 	name = "Ship's Doctor (Pirate)"
 
-	uniform = /obj/item/clothing/under/costume/sailor
+	uniform = /obj/item/clothing/under/pirate
 	shoes = /obj/item/clothing/shoes/jackboots
 
 /datum/outfit/job/doctor/cybersun

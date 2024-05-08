@@ -1,9 +1,14 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aD" = (
-/obj/structure/table/glass,
-/obj/item/research_notes/loot/medium,
-/obj/item/research_notes/loot/small,
-/turf/open/floor/light,
+/obj/structure/table/wood/reinforced,
+/turf/open/floor/wood/yew,
+/area/ruin/powered)
+"aG" = (
+/obj/structure/chair,
+/obj/effect/mob_spawn/human/corpse/solgov/infantry,
+/obj/effect/decal/cleanable/blood,
+/obj/item/restraints/handcuffs,
+/turf/open/floor/wood/mahogany,
 /area/ruin/powered)
 "aN" = (
 /obj/machinery/chem_dispenser,
@@ -11,103 +16,203 @@
 /turf/open/floor/plastic,
 /area/ruin/powered)
 "aR" = (
-/obj/structure/chair/sofa/left{
-	dir = 1
+/obj/machinery/door/airlock{
+	name = "Lounge"
 	},
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/iron/dark/smooth_half,
+/area/ruin/powered)
+"bn" = (
+/mob/living/simple_animal/hostile/russian,
+/turf/open/floor/mineral/titanium/tiled,
+/area/ruin/powered)
+"cM" = (
+/obj/structure/chair/sofa/right,
+/turf/open/floor/wood/yew,
 /area/ruin/powered)
 "dd" = (
-/obj/structure/chair/sofa/left,
-/obj/item/stack/spacecash/c1000,
-/turf/open/floor/carpet/royalblue,
+/obj/effect/decal/hammerandsickle,
+/turf/open/floor/mineral/titanium/tiled,
 /area/ruin/powered)
-"dh" = (
-/mob/living/simple_animal/hostile/russian/ranged/mosin,
-/turf/open/floor/light,
+"df" = (
+/mob/living/simple_animal/hostile/russian/ranged/trooper,
+/turf/open/floor/wood/yew,
 /area/ruin/powered)
 "ds" = (
 /mob/living/simple_animal/hostile/russian/ranged/trooper,
-/turf/open/floor/light,
+/turf/open/floor/wood/mahogany,
+/area/ruin/powered)
+"dw" = (
+/obj/item/clothing/mask/cigarette/rollie/cannabis,
+/turf/open/floor/wood/yew,
 /area/ruin/powered)
 "dG" = (
-/obj/structure/chair/sofa/corner{
-	dir = 8
-	},
-/mob/living/simple_animal/hostile/russian,
 /obj/machinery/light,
-/turf/open/floor/carpet/royalblue,
+/obj/effect/turf_decal/corner/blue/diagonal,
+/turf/open/floor/iron/white,
 /area/ruin/powered)
-"gE" = (
-/obj/machinery/seed_extractor,
-/turf/open/floor/plastic,
-/area/ruin/powered)
-"hh" = (
+"ed" = (
 /obj/structure/chair/sofa/left{
 	dir = 1
 	},
-/turf/open/floor/light,
+/turf/open/floor/wood/yew,
+/area/ruin/powered)
+"fv" = (
+/obj/machinery/light,
+/turf/open/floor/mineral/titanium/tiled,
+/area/ruin/powered)
+"fL" = (
+/obj/item/surgicaldrill,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/carpet/red_gold,
+/area/ruin/powered)
+"ga" = (
+/obj/item/reagent_containers/syringe/contraband/space_drugs,
+/turf/open/floor/plastic,
+/area/ruin/powered)
+"gd" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Drug Production"
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/ruin/powered)
+"go" = (
+/obj/structure/table/wood/reinforced,
+/obj/item/reagent_containers/food/drinks/trophy/gold_cup,
+/turf/open/floor/wood/yew,
+/area/ruin/powered)
+"gE" = (
+/obj/machinery/seed_extractor,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/powered)
+"he" = (
+/obj/structure/table/wood/reinforced,
+/obj/item/kitchen/knife/combat,
+/turf/open/floor/wood/yew,
+/area/ruin/powered)
+"hh" = (
+/obj/machinery/computer{
+	dir = 1
+	},
+/turf/open/floor/wood/mahogany,
 /area/ruin/powered)
 "hm" = (
-/obj/item/kirbyplants,
-/turf/open/floor/light,
+/obj/item/reagent_containers/pill/floorpill,
+/turf/open/floor/wood/mahogany,
+/area/ruin/powered)
+"ho" = (
+/obj/structure/table/wood/reinforced,
+/obj/item/clothing/mask/cigarette/rollie/cannabis,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/obj/item/lighter,
+/obj/item/reagent_containers/syringe/contraband/space_drugs,
+/obj/item/reagent_containers/pill/floorpill,
+/turf/open/floor/wood/yew,
 /area/ruin/powered)
 "ie" = (
-/obj/item/storage/pill_bottle/floorpill/full,
-/turf/open/floor/light,
+/turf/open/floor/wood/mahogany,
+/area/ruin/powered)
+"jD" = (
+/obj/item/reagent_containers/syringe/contraband/space_drugs,
+/obj/item/reagent_containers/pill/floorpill,
+/turf/open/floor/plastic,
 /area/ruin/powered)
 "kc" = (
-/obj/structure/chair/sofa/right,
-/obj/item/research_notes/loot/medium,
-/mob/living/simple_animal/hostile/russian/ranged/trooper,
-/turf/open/floor/plasteel/vaporwave,
+/obj/structure/table/glass,
+/obj/item/storage/box/syringes,
+/turf/open/floor/iron/white/small,
 /area/ruin/powered)
 "kf" = (
-/obj/structure/mineral_door/wood,
-/turf/open/floor/carpet/royalblue,
+/obj/machinery/door/airlock{
+	name = "Smoking Room"
+	},
+/turf/open/floor/iron/dark/smooth_half,
+/area/ruin/powered)
+"kQ" = (
+/obj/structure/table/wood/reinforced,
+/obj/item/stack/medical/bruise_pack,
+/turf/open/floor/wood/yew,
 /area/ruin/powered)
 "kR" = (
-/obj/machinery/door/airlock/freezer,
-/turf/open/floor/plastic,
+/obj/machinery/door/airlock/public/glass{
+	name = "Drug Production"
+	},
+/turf/open/floor/iron/dark/smooth_half,
+/area/ruin/powered)
+"kW" = (
+/obj/machinery/computer{
+	dir = 8
+	},
+/turf/open/floor/wood/mahogany,
 /area/ruin/powered)
 "mf" = (
 /mob/living/simple_animal/hostile/russian,
-/turf/open/floor/carpet/blue,
+/turf/open/floor/carpet/red,
 /area/ruin/powered)
 "mK" = (
 /obj/structure/chair/sofa/right{
 	dir = 1
 	},
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/carpet/red,
+/area/ruin/powered)
+"mW" = (
+/obj/structure/table/glass,
+/obj/item/storage/box/beakers,
+/turf/open/floor/iron/white/small,
 /area/ruin/powered)
 "nh" = (
-/obj/structure/closet/secure_closet/hydroponics,
-/turf/open/floor/plastic,
+/turf/open/floor/mineral/titanium/white,
 /area/ruin/powered)
 "nz" = (
 /mob/living/simple_animal/hostile/russian,
-/turf/open/floor/light,
+/turf/open/floor/carpet/red_gold,
+/area/ruin/powered)
+"nC" = (
+/obj/machinery/light,
+/turf/open/floor/carpet/red,
 /area/ruin/powered)
 "nS" = (
-/obj/structure/chair/sofa/right{
-	dir = 8
-	},
-/turf/open/floor/carpet/royalblue,
+/obj/effect/turf_decal/corner/blue/diagonal,
+/obj/machinery/smartfridge/organ,
+/turf/open/floor/iron/white,
 /area/ruin/powered)
 "pi" = (
 /obj/structure/chair/office/light,
 /turf/open/floor/plastic,
 /area/ruin/powered)
+"pm" = (
+/obj/structure/chair/sofa/right{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/wood/yew,
+/area/ruin/powered)
+"pq" = (
+/obj/item/flashlight/lamp/green,
+/obj/structure/table/wood/reinforced,
+/turf/open/floor/wood/yew,
+/area/ruin/powered)
 "pG" = (
+/obj/item/reagent_containers/pill/floorpill,
 /turf/open/floor/plastic,
 /area/ruin/powered)
 "pY" = (
-/obj/item/clothing/head/chicken,
-/turf/open/floor/carpet/cyan,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/carpet/black,
 /area/ruin/powered)
 "qg" = (
 /obj/machinery/hydroponics,
 /obj/item/seeds/cannabis/ultimate,
-/turf/open/floor/plastic,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/powered)
+"qC" = (
+/obj/item/reagent_containers/syringe/contraband/space_drugs,
+/turf/open/floor/carpet/red,
 /area/ruin/powered)
 "qD" = (
 /obj/structure/chair/sofa/corner{
@@ -115,54 +220,73 @@
 	},
 /obj/machinery/light,
 /mob/living/simple_animal/hostile/russian,
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/carpet/red,
 /area/ruin/powered)
 "rb" = (
-/obj/structure/chair/sofa/left{
-	dir = 8
-	},
-/turf/open/floor/carpet/royalblue,
+/obj/structure/table/glass,
+/obj/item/research_notes/loot/medium,
+/turf/open/floor/iron/white/small,
 /area/ruin/powered)
 "rN" = (
-/obj/item/kirbyplants/random,
-/obj/item/stack/sheet/mineral/diamond/five,
-/turf/open/floor/carpet/royalblue,
+/obj/item/kirbyplants,
+/turf/open/floor/wood/yew,
+/area/ruin/powered)
+"sd" = (
+/mob/living/simple_animal/hostile/russian/ranged/trooper,
+/turf/open/floor/iron/white/small,
 /area/ruin/powered)
 "se" = (
-/obj/item/kirbyplants/random,
-/turf/open/floor/light,
+/obj/item/kirbyplants,
+/turf/open/floor/wood/mahogany,
 /area/ruin/powered)
 "sn" = (
-/turf/open/floor/carpet/blue,
+/turf/open/floor/wood/yew,
 /area/ruin/powered)
 "sP" = (
 /mob/living/simple_animal/hostile/russian/ranged/officer,
-/turf/open/floor/light,
+/turf/open/floor/carpet/red_gold,
 /area/ruin/powered)
 "uC" = (
-/turf/open/floor/light,
+/obj/item/lighter,
+/turf/open/floor/carpet/red_gold,
 /area/ruin/powered)
 "ve" = (
-/obj/structure/table/glass,
-/obj/machinery/chem_dispenser/drinks{
-	dir = 8
-	},
-/turf/open/floor/plasteel/vaporwave,
+/obj/item/kirbyplants,
+/turf/open/floor/iron/white/small,
+/area/ruin/powered)
+"vf" = (
+/obj/item/stack/sheet/mineral/diamond/five,
+/obj/structure/table/wood/reinforced,
+/obj/item/lighter,
+/obj/item/reagent_containers/syringe/contraband/space_drugs,
+/turf/open/floor/wood/yew,
+/area/ruin/powered)
+"vY" = (
+/obj/machinery/light,
+/obj/machinery/jukebox,
+/turf/open/floor/wood/yew,
+/area/ruin/powered)
+"wT" = (
+/obj/item/clothing/mask/cigarette/rollie/cannabis,
+/turf/open/floor/carpet/red,
 /area/ruin/powered)
 "xr" = (
 /obj/structure/chair/office/light,
 /mob/living/simple_animal/hostile/russian,
-/turf/open/floor/plastic,
+/turf/open/floor/mineral/titanium/white,
 /area/ruin/powered)
 "xL" = (
 /obj/structure/chair/sofa,
-/mob/living/simple_animal/hostile/russian/ranged/mosin,
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/carpet/red,
+/area/ruin/powered)
+"yf" = (
+/obj/structure/table/wood/fancy/red_gold,
+/obj/item/folder/red,
+/turf/open/floor/wood/mahogany,
 /area/ruin/powered)
 "yA" = (
-/obj/structure/reagent_dispensers/watertank,
 /obj/machinery/light,
-/turf/open/floor/plastic,
+/turf/open/floor/mineral/titanium/white,
 /area/ruin/powered)
 "yE" = (
 /obj/machinery/chem_master,
@@ -170,17 +294,48 @@
 /area/ruin/powered)
 "yG" = (
 /obj/structure/chair/sofa/right,
-/turf/open/floor/carpet/royalblue,
+/obj/item/reagent_containers/pill/floorpill,
+/turf/open/floor/carpet/red,
+/area/ruin/powered)
+"zd" = (
+/obj/structure/table/wood/fancy/red_gold,
+/obj/item/reagent_containers/pill/floorpill,
+/turf/open/floor/carpet/red_gold,
 /area/ruin/powered)
 "zj" = (
-/obj/item/melee/baseball_bat{
-	force = 25;
-	throwforce = 25
+/obj/structure/table/wood/reinforced,
+/obj/item/crusher_trophy/elder_tentacle,
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/turf/open/floor/wood/yew,
+/area/ruin/powered)
+"zJ" = (
+/obj/structure/chair/sofa/left{
+	dir = 1
 	},
-/turf/open/floor/carpet/cyan,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/wood/yew,
+/area/ruin/powered)
+"Ad" = (
+/obj/structure/table/wood/fancy/red_gold,
+/obj/item/storage/pill_bottle/floorpill/full,
+/obj/item/reagent_containers/syringe/contraband/space_drugs,
+/turf/open/floor/carpet/red_gold,
+/area/ruin/powered)
+"AN" = (
+/obj/structure/table/wood/fancy/red_gold,
+/obj/item/research_notes/loot/small,
+/obj/item/research_notes/loot/small,
+/turf/open/floor/wood/mahogany,
+/area/ruin/powered)
+"AP" = (
+/obj/machinery/door/airlock/medical{
+	name = "Aid Post"
+	},
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin/powered)
 "Cm" = (
-/obj/structure/table/glass,
 /obj/item/gun/ballistic/revolver/golden,
 /obj/item/ammo_casing/a357,
 /obj/item/ammo_casing/a357,
@@ -188,132 +343,281 @@
 /obj/item/ammo_casing/a357,
 /obj/item/ammo_casing/a357,
 /obj/item/ammo_casing/a357,
-/turf/open/floor/carpet/royalblue,
+/obj/structure/table/wood/reinforced,
+/turf/open/floor/wood/yew,
 /area/ruin/powered)
 "Cs" = (
-/obj/structure/chair/sofa{
-	dir = 1
-	},
-/turf/open/floor/light,
+/obj/structure/table/wood/fancy/red_gold,
+/obj/item/clothing/mask/cigarette/rollie/cannabis,
+/turf/open/floor/wood/mahogany,
 /area/ruin/powered)
 "Cz" = (
-/obj/effect/mob_spawn/human/corpse/solgov/infantry,
-/turf/open/floor/light,
+/obj/structure/table/wood/fancy/red_gold,
+/obj/item/reagent_containers/pill/stimulant,
+/obj/item/lighter,
+/turf/open/floor/carpet/red_gold,
 /area/ruin/powered)
 "CI" = (
-/turf/open/floor/carpet/royalblue,
+/obj/item/kirbyplants,
+/turf/open/floor/carpet/red,
+/area/ruin/powered)
+"CO" = (
+/obj/item/kirbyplants,
+/turf/open/floor/plastic,
+/area/ruin/powered)
+"CP" = (
+/obj/effect/turf_decal/corner/blue/diagonal,
+/mob/living/simple_animal/hostile/russian,
+/turf/open/floor/iron/white,
 /area/ruin/powered)
 "CX" = (
-/obj/structure/table/rolling,
-/obj/item/storage/fancy/rollingpapers,
+/obj/item/storage/fancy/rollingpapers{
+	pixel_y = 7;
+	pixel_x = 5
+	},
 /obj/item/clothing/mask/cigarette/rollie/cannabis,
-/obj/item/clothing/mask/cigarette/rollie/cannabis,
-/obj/item/reagent_containers/pill/stimulant,
-/turf/open/floor/carpet/royalblue,
+/obj/item/clothing/mask/cigarette/rollie/cannabis{
+	pixel_y = 4;
+	pixel_x = -2
+	},
+/obj/structure/table/wood/reinforced,
+/obj/item/stack/spacecash/c1000{
+	pixel_y = 11;
+	pixel_x = -4
+	},
+/obj/item/lighter/greyscale{
+	pixel_y = -4;
+	pixel_x = 9
+	},
+/turf/open/floor/carpet/red,
 /area/ruin/powered)
 "Df" = (
 /obj/structure/chair/sofa/left,
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/carpet/red,
+/area/ruin/powered)
+"Dw" = (
+/obj/effect/turf_decal/corner/blue/diagonal,
+/obj/item/clothing/mask/cigarette/rollie/cannabis,
+/obj/item/reagent_containers/syringe/contraband/space_drugs,
+/turf/open/floor/iron/white,
 /area/ruin/powered)
 "Dz" = (
 /mob/living/simple_animal/hostile/bear/russian,
-/turf/open/floor/carpet/cyan,
+/turf/open/floor/wood/yew,
+/area/ruin/powered)
+"Ea" = (
+/obj/effect/turf_decal/corner/blue/diagonal,
+/obj/structure/table/optable,
+/turf/open/floor/iron/white,
+/area/ruin/powered)
+"Er" = (
+/obj/structure/table/glass,
+/obj/item/stack/medical/suture,
+/turf/open/floor/iron/white/small,
 /area/ruin/powered)
 "Fr" = (
 /mob/living/simple_animal/hostile/russian/ranged/officer,
 /turf/open/floor/plastic,
 /area/ruin/powered)
 "FB" = (
-/obj/structure/mineral_door/wood,
-/turf/open/floor/carpet/blue,
+/obj/machinery/door/airlock{
+	name = "Lounge"
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/ruin/powered)
+"FK" = (
+/obj/structure/closet/crate/freezer/blood,
+/turf/open/floor/iron/white/small,
+/area/ruin/powered)
+"FT" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/ruin/powered)
+"Gq" = (
+/obj/item/book/manual/wiki/chemistry,
+/obj/structure/table/reinforced,
+/turf/open/floor/plastic,
+/area/ruin/powered)
+"Gv" = (
+/obj/machinery/vending/hydroseeds,
+/turf/open/floor/mineral/titanium/white,
 /area/ruin/powered)
 "GK" = (
-/obj/effect/spawner/structure/window/plasma/reinforced,
-/turf/open/floor/carpet/blue,
+/turf/closed/wall/r_wall,
+/area/ruin/powered)
+"GQ" = (
+/obj/structure/chair/comfy{
+	dir = 8;
+	color = "#292B2D"
+	},
+/turf/open/floor/wood/mahogany,
 /area/ruin/powered)
 "Ha" = (
-/obj/structure/table/glass,
-/obj/item/storage/box/donkpockets,
-/turf/open/floor/plasteel/vaporwave,
+/obj/machinery/chem_dispenser/drinks{
+	dir = 4;
+	pixel_y = -1
+	},
+/obj/structure/table/wood/reinforced,
+/obj/item/reagent_containers/food/drinks/drinkingglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass,
+/turf/open/floor/wood/yew,
 /area/ruin/powered)
 "HH" = (
-/obj/machinery/vending/hydroseeds,
 /obj/machinery/light,
-/turf/open/floor/plastic,
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/powered)
+"Iv" = (
+/obj/machinery/door/airlock/medical{
+	name = "Aid Post"
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
 /area/ruin/powered)
 "Iw" = (
-/obj/machinery/plantgenes/seedvault,
-/obj/structure/table/reinforced,
-/obj/item/research_notes/loot/big,
 /obj/machinery/light,
-/turf/open/floor/plastic,
+/obj/structure/closet/secure_closet/hydroponics,
+/turf/open/floor/mineral/titanium/white,
 /area/ruin/powered)
 "JH" = (
-/turf/open/floor/plasteel/vaporwave,
+/obj/machinery/iv_drip,
+/turf/open/floor/iron/white/small,
 /area/ruin/powered)
 "JQ" = (
 /obj/machinery/chem_heater,
 /turf/open/floor/plastic,
 /area/ruin/powered)
-"Le" = (
-/obj/structure/chair/sofa/right{
-	dir = 1
-	},
-/turf/open/floor/light,
+"Kl" = (
+/mob/living/simple_animal/hostile/russian,
+/turf/open/floor/iron/white/small,
 /area/ruin/powered)
-"Mb" = (
-/mob/living/simple_animal/hostile/russian/ranged/mosin,
+"Kp" = (
+/obj/machinery/computer{
+	dir = 4
+	},
+/turf/open/floor/wood/mahogany,
+/area/ruin/powered)
+"KY" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/box/beakers,
 /turf/open/floor/plastic,
+/area/ruin/powered)
+"Le" = (
+/obj/structure/table/wood/fancy/red_gold,
+/obj/item/lighter,
+/turf/open/floor/wood/mahogany,
+/area/ruin/powered)
+"Lu" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
+/area/ruin/powered)
+"Mn" = (
+/obj/machinery/light,
+/obj/item/kirbyplants,
+/turf/open/floor/iron/white/small,
 /area/ruin/powered)
 "MB" = (
 /obj/machinery/light,
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/wood/yew,
 /area/ruin/powered)
 "MI" = (
 /obj/structure/chair/sofa/left,
-/turf/open/floor/plasteel/vaporwave,
+/obj/item/reagent_containers/pill/floorpill,
+/turf/open/floor/wood/yew,
 /area/ruin/powered)
 "Nh" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/wood/yew,
+/area/ruin/powered)
+"NM" = (
+/obj/machinery/light,
 /obj/structure/table/glass,
-/obj/machinery/microwave,
-/turf/open/floor/plasteel/vaporwave,
+/obj/item/stack/medical/gauze,
+/turf/open/floor/iron/white/small,
+/area/ruin/powered)
+"NY" = (
+/obj/item/reagent_containers/pill/happy,
+/turf/open/floor/carpet/red_gold,
+/area/ruin/powered)
+"NZ" = (
+/obj/structure/table/reinforced,
+/obj/item/research_notes/loot/big,
+/obj/item/reagent_containers/syringe/contraband/space_drugs,
+/obj/item/reagent_containers/pill/floorpill,
+/obj/item/storage/pill_bottle/floorpill/full,
+/turf/open/floor/plastic,
 /area/ruin/powered)
 "Oa" = (
-/obj/structure/chair/sofa/right,
 /obj/item/stack/spacecash/c1000,
-/turf/open/floor/plasteel/vaporwave,
+/obj/structure/chair/sofa,
+/obj/item/clothing/mask/cigarette/rollie/cannabis,
+/turf/open/floor/wood/yew,
 /area/ruin/powered)
-"Ou" = (
-/mob/living/simple_animal/hostile/russian/ranged/mosin,
-/turf/open/floor/carpet/cyan,
+"Od" = (
+/obj/structure/table/wood/reinforced,
+/obj/item/reagent_containers/syringe/contraband/space_drugs,
+/obj/item/reagent_containers/pill/floorpill,
+/turf/open/floor/wood/yew,
 /area/ruin/powered)
-"Pq" = (
-/obj/structure/chair/sofa/right{
+"OV" = (
+/obj/item/clothing/mask/cigarette/rollie/cannabis,
+/turf/open/floor/carpet/red_gold,
+/area/ruin/powered)
+"OY" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
 	},
-/mob/living/simple_animal/hostile/russian/ranged/trooper,
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/wood/yew,
+/area/ruin/powered)
+"Pk" = (
+/obj/item/reagent_containers/pill/floorpill,
+/turf/open/floor/carpet/red,
+/area/ruin/powered)
+"Pq" = (
+/obj/machinery/microwave{
+	pixel_y = 6;
+	pixel_x = -1
+	},
+/obj/structure/table/wood/reinforced,
+/turf/open/floor/wood/yew,
 /area/ruin/powered)
 "Px" = (
-/turf/open/floor/carpet/cyan,
+/turf/open/floor/carpet/red,
 /area/ruin/powered)
 "QN" = (
-/obj/item/book/manual/wiki/chemistry,
 /turf/open/floor/plastic,
 /area/ruin/powered)
 "QY" = (
-/obj/structure/chair/sofa/right{
-	dir = 8
-	},
-/mob/living/simple_animal/hostile/russian,
-/turf/open/floor/carpet/royalblue,
+/obj/structure/bed,
+/obj/item/bedsheet/medical,
+/turf/open/floor/iron/white/small,
+/area/ruin/powered)
+"Ri" = (
+/obj/machinery/light,
+/obj/item/kirbyplants,
+/turf/open/floor/wood/yew,
 /area/ruin/powered)
 "RJ" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/plating,
 /area/ruin/powered)
 "RS" = (
-/turf/closed/wall/mineral/wood,
+/obj/machinery/door/airlock/command/glass{
+	name = "Command Lounge"
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
 /area/ruin/powered)
 "Sa" = (
 /obj/structure/table/glass,
@@ -321,90 +625,173 @@
 /obj/item/stack/spacecash/c1000,
 /obj/item/stack/spacecash/c200,
 /obj/item/stack/medical/suture,
-/obj/item/stack/medical/gauze,
-/turf/open/floor/carpet/royalblue,
+/obj/effect/turf_decal/corner/blue/diagonal,
+/turf/open/floor/iron/white,
 /area/ruin/powered)
 "Sb" = (
 /obj/structure/chair/sofa/right,
-/obj/item/lighter/greyscale,
-/turf/open/floor/carpet/royalblue,
+/obj/item/clothing/mask/cigarette/rollie/cannabis,
+/turf/open/floor/carpet/red,
+/area/ruin/powered)
+"SB" = (
+/obj/item/reagent_containers/pill/stimulant,
+/turf/open/floor/carpet/red,
 /area/ruin/powered)
 "SI" = (
-/obj/item/kirbyplants/random,
-/turf/open/floor/carpet/royalblue,
+/obj/effect/turf_decal/corner/blue/diagonal,
+/obj/item/kirbyplants,
+/turf/open/floor/iron/white,
+/area/ruin/powered)
+"SL" = (
+/obj/structure/chair/sofa/left{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
+/area/ruin/powered)
+"SN" = (
+/obj/structure/chair/comfy{
+	color = "#292B2D"
+	},
+/turf/open/floor/wood/mahogany,
+/area/ruin/powered)
+"Td" = (
+/obj/structure/chair/comfy{
+	color = "#292B2D";
+	dir = 4
+	},
+/turf/open/floor/wood/mahogany,
+/area/ruin/powered)
+"TE" = (
+/obj/item/storage/pill_bottle/floorpill/full,
+/turf/open/floor/plastic,
 /area/ruin/powered)
 "TH" = (
 /obj/machinery/hydroponics,
 /obj/item/seeds/cannabis,
-/turf/open/floor/plastic,
+/turf/open/floor/mineral/titanium/white,
 /area/ruin/powered)
 "TO" = (
-/obj/structure/mineral_door/wood,
-/turf/open/floor/carpet/cyan,
+/obj/machinery/door/airlock{
+	name = "Russian Outpost 28"
+	},
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin/powered)
 "TP" = (
-/obj/structure/table/glass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/stack/medical/suture,
-/turf/open/floor/plasteel/vaporwave,
+/turf/open/floor/iron/white/small,
+/area/ruin/powered)
+"Ui" = (
+/obj/structure/table/wood/fancy/red_gold,
+/obj/item/flashlight/lamp/green,
+/turf/open/floor/wood/mahogany,
+/area/ruin/powered)
+"Uj" = (
+/turf/open/floor/carpet/red_gold,
 /area/ruin/powered)
 "Vb" = (
 /turf/template_noop,
 /area/template_noop)
 "VO" = (
 /obj/machinery/light,
-/turf/open/floor/carpet/cyan,
+/obj/structure/table/wood/reinforced,
+/obj/item/flashlight/lamp/green,
+/turf/open/floor/wood/yew,
+/area/ruin/powered)
+"Wu" = (
+/obj/effect/turf_decal/corner/blue/diagonal,
+/turf/open/floor/iron/white,
 /area/ruin/powered)
 "Wx" = (
 /obj/machinery/hydroponics,
 /obj/item/seeds/cannabis/rainbow,
-/turf/open/floor/plastic,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/powered)
+"WS" = (
+/obj/item/reagent_containers/syringe/contraband/space_drugs,
+/turf/open/floor/carpet/red_gold,
 /area/ruin/powered)
 "WU" = (
-/obj/machinery/jukebox/disco/beach,
-/turf/open/floor/light,
+/obj/structure/table/wood/fancy/red_gold,
+/obj/item/storage/pill_bottle/floorpill/full,
+/turf/open/floor/carpet/red_gold,
 /area/ruin/powered)
 "Xs" = (
-/obj/item/gun/ballistic/automatic/pistol/commander,
-/turf/open/floor/light,
+/obj/item/reagent_containers/pill/floorpill,
+/turf/open/floor/carpet/red_gold,
 /area/ruin/powered)
 "XC" = (
 /obj/machinery/hydroponics,
 /obj/item/seeds/cannabis/death,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/powered)
+"XE" = (
+/obj/structure/table/wood/reinforced,
+/obj/item/storage/toolbox/emergency/old,
+/turf/open/floor/wood/yew,
+/area/ruin/powered)
+"XK" = (
+/obj/structure/table/reinforced,
+/obj/machinery/plantgenes/seedvault{
+	pixel_y = 7
+	},
 /turf/open/floor/plastic,
 /area/ruin/powered)
+"XZ" = (
+/obj/structure/chair/sofa/right{
+	dir = 1
+	},
+/turf/open/floor/wood/yew,
+/area/ruin/powered)
 "YD" = (
-/obj/item/surgicaldrill,
-/turf/open/floor/light,
+/obj/structure/table/wood/fancy/red_gold,
+/obj/item/gun/ballistic/automatic/pistol/commander,
+/obj/item/clothing/mask/cigarette/rollie/cannabis,
+/turf/open/floor/carpet/red_gold,
+/area/ruin/powered)
+"YJ" = (
+/obj/machinery/light,
+/obj/effect/turf_decal/corner/blue/diagonal,
+/obj/machinery/computer/operating{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
 /area/ruin/powered)
 "YV" = (
 /obj/machinery/hydroponics,
 /obj/item/seeds/cannabis/white,
-/turf/open/floor/plastic,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/powered)
+"Zb" = (
+/obj/structure/table/wood/reinforced,
+/obj/item/lighter,
+/turf/open/floor/wood/yew,
 /area/ruin/powered)
 "Zo" = (
 /obj/item/reagent_containers/pill/happy,
-/turf/open/floor/light,
+/obj/structure/table/wood/fancy/red_gold,
+/turf/open/floor/carpet/red_gold,
+/area/ruin/powered)
+"Zz" = (
+/obj/structure/table/wood/reinforced,
+/obj/item/flashlight/lamp/green,
+/turf/open/floor/wood/yew,
+/area/ruin/powered)
+"ZG" = (
+/turf/open/floor/mineral/titanium/tiled,
 /area/ruin/powered)
 "ZH" = (
-/obj/structure/chair/sofa/left{
-	dir = 4
-	},
-/turf/open/floor/carpet/royalblue,
+/obj/item/storage/box/donkpockets,
+/obj/structure/table/wood/reinforced,
+/obj/item/reagent_containers/syringe/contraband/space_drugs,
+/turf/open/floor/wood/yew,
 /area/ruin/powered)
 
 (1,1,1) = {"
-RS
-RS
-RS
-RS
-RS
-RS
+GK
+GK
+GK
+GK
+GK
+GK
 Vb
 Vb
 Vb
@@ -423,16 +810,16 @@ Vb
 Vb
 "}
 (2,1,1) = {"
-RS
-Nh
+GK
+rN
 Ha
 ZH
 Pq
-RS
-RS
-RS
-RS
-RS
+GK
+GK
+GK
+GK
+GK
 Vb
 Vb
 Vb
@@ -447,16 +834,16 @@ Vb
 Vb
 "}
 (3,1,1) = {"
-RS
-JH
-JH
-CI
+GK
+cM
+Px
+Px
 MB
-RS
+GK
 Cm
-ZH
+SL
 qD
-RS
+GK
 Vb
 Vb
 Vb
@@ -471,16 +858,16 @@ Vb
 Vb
 "}
 (4,1,1) = {"
-RS
+GK
 Oa
-JH
-CI
-CI
-RS
-CI
 Px
+Px
+df
+GK
+dw
+Pk
 mK
-RS
+GK
 Vb
 Vb
 Vb
@@ -495,16 +882,16 @@ Vb
 Vb
 "}
 (5,1,1) = {"
-RS
+GK
 MI
-JH
-CI
-CI
-kf
-CI
+Px
+Px
+sn
+aR
+sn
 Dz
-CI
-RS
+vf
+GK
 Vb
 Vb
 Vb
@@ -519,16 +906,16 @@ Vb
 Vb
 "}
 (6,1,1) = {"
-RS
-JH
-JH
-CI
-MB
-RS
+GK
+pq
+dw
+sn
+Ri
+GK
 rN
-Px
-MB
-RS
+sn
+vY
+GK
 Vb
 Vb
 Vb
@@ -543,23 +930,23 @@ Vb
 Vb
 "}
 (7,1,1) = {"
-RS
-RS
-RS
-kf
-RS
-RS
-RS
-TO
-RS
-RS
-RS
-RS
-RS
-RS
-RS
-RS
-RS
+GK
+GK
+GK
+FB
+GK
+GK
+GK
+FB
+GK
+GK
+GK
+GK
+GK
+GK
+GK
+GK
+GK
 Vb
 Vb
 Vb
@@ -568,382 +955,382 @@ Vb
 "}
 (8,1,1) = {"
 Vb
-RS
-Px
-Px
-Px
-RS
-CI
-Px
-CI
-CI
-CI
-CI
-MB
-RS
-CI
-CI
-RS
-RS
-RS
-RS
-RS
-RS
+GK
+rN
+sn
+rN
+GK
+rN
+sn
+sn
+sn
+sn
+sn
+Ri
+GK
+Zb
+Od
+GK
+GK
+GK
+GK
+GK
+GK
 "}
 (9,1,1) = {"
 Vb
-RS
-Px
+GK
 sn
 Px
+sn
 RJ
-CI
+sn
 Px
 Px
 Px
 Px
-Ou
-CI
+Px
+sn
 kf
-CI
+sn
 MB
-RS
+GK
+CO
 pG
-pG
-pG
+ga
 yE
-RS
+GK
 "}
 (10,1,1) = {"
-RS
-RS
-Px
+GK
+GK
 sn
 Px
-RJ
-CI
-CI
-CI
-CI
-CI
-CI
-MB
-RS
-CI
-CI
-RS
-pG
+rN
+GK
+rN
+sn
+sn
+sn
+sn
+sn
+Ri
+GK
+sn
+sn
+GK
+NZ
 Fr
 pi
 aN
-RS
+GK
 "}
 (11,1,1) = {"
-RS
-Px
-Px
+GK
+XE
 sn
+Px
 VO
-RS
-RS
 GK
 GK
+GK
+RJ
 RS
-RS
-RS
-RS
-RS
+RJ
+GK
+GK
+GK
 CI
-CI
-RS
-pG
-pG
-pG
+Px
+GK
+XK
+jD
+TE
 JQ
-RS
+GK
 "}
 (12,1,1) = {"
-RS
-Px
+GK
+go
 sn
 mf
-Px
-RS
+ed
+GK
 se
 ds
-uC
-uC
-uC
-uC
-hh
-RS
+ie
+ie
+yf
+Kp
+Ui
+GK
 Sb
-CI
-RS
-pG
+Px
+GK
+KY
 QN
-pG
-pG
-RS
+ga
+Gq
+GK
 "}
 (13,1,1) = {"
-RS
+GK
 zj
-sn
-sn
-Px
-RS
-se
-Zo
+OY
+Lu
+pm
+GK
+ie
+NY
 uC
 sP
-uC
-uC
-Cs
-RS
+Xs
+GQ
+AN
+RJ
 xL
-CI
-RS
-pG
-pG
-pG
-pG
-RS
+nC
+GK
+RJ
+gd
+RJ
+RJ
+GK
 "}
 (14,1,1) = {"
-RS
+GK
 pY
-sn
-sn
-VO
-RS
-uC
-uC
-YD
-uC
-uC
+ZG
+ZG
+fv
+GK
 ie
-Le
-RS
-dd
-MB
-RS
-pG
-pG
-pG
+fL
+YD
+zd
+WS
+ie
+hh
+RJ
+Df
+qC
+RJ
+Gv
+nh
+nh
 Iw
-RS
+GK
 "}
 (15,1,1) = {"
 TO
-Px
-mf
-sn
-Px
-FB
-uC
-uC
+pY
+bn
+dd
+ZG
+GK
+aG
+Xs
 Zo
 WU
 Xs
-uC
-aD
-RS
+SN
+hh
+RJ
 CX
-CI
+wT
 kR
-pG
-pG
+nh
+nh
 xr
 gE
-RS
+GK
 "}
 (16,1,1) = {"
-RS
-Px
-sn
-sn
-VO
-RS
-uC
-uC
-uC
+GK
+pY
+ZG
+ZG
+fv
+GK
+ie
+Uj
+Ad
 Cz
-uC
-uC
+OV
+ie
 hh
-RS
+RJ
 yG
-MB
-RS
-pG
-pG
-pG
+SB
+RJ
+nh
+nh
+nh
 HH
-RS
+GK
 "}
 (17,1,1) = {"
-RS
-Px
-sn
-sn
-Px
-RS
+GK
+ho
+Nh
+FT
+zJ
+GK
 hm
 nz
-uC
-uC
-dh
-uC
+Uj
+Uj
+Uj
+Td
 Cs
-RS
+RJ
 xL
-CI
-RS
-pG
+nC
+GK
+nh
 TH
-pG
+nh
 XC
-RS
+GK
 "}
 (18,1,1) = {"
-RS
-Px
+GK
+kQ
 sn
-sn
 Px
-RS
+XZ
+GK
 se
-uC
-uC
-uC
-uC
-uC
+ie
+hm
+ie
+Ui
+kW
 Le
-RS
+GK
 Df
-CI
-RS
-Mb
-pG
-pG
-pG
-RS
+Px
+GK
+nh
+nh
+nh
+nh
+GK
 "}
 (19,1,1) = {"
-RS
-Px
-Px
+GK
+he
 sn
+Px
 VO
-RS
-RS
 GK
 GK
+GK
+RJ
 RS
-RS
-RS
-RS
-RS
+RJ
+GK
+GK
+GK
 CI
-CI
-RS
-pG
+wT
+GK
+nh
 Wx
-pG
+nh
 qg
-RS
+GK
 "}
 (20,1,1) = {"
-RS
-RS
-Px
+GK
+GK
 sn
 Px
-RJ
-CI
-CI
-CI
-CI
-CI
-CI
-MB
-RS
-CI
-CI
-RS
-pG
-pG
-pG
+rN
+GK
+rN
+sn
+sn
+sn
+dw
+sn
+Ri
+GK
+sn
+sn
+GK
+nh
+nh
+nh
 yA
-RS
+GK
 "}
 (21,1,1) = {"
 Vb
-RS
-Px
+GK
 sn
 Px
+sn
 RJ
-CI
+sn
 Px
 Px
 Px
 Px
-Ou
-CI
+Px
+sn
 kf
-CI
+sn
 MB
-RS
+GK
 nh
 YV
-pG
+nh
 TH
-RS
+GK
 "}
 (22,1,1) = {"
 Vb
-RS
-Px
-Px
-Px
-RS
-CI
-Px
-CI
-CI
-CI
-CI
-MB
-RS
-CI
-CI
-RS
-RS
-RS
-RS
-RS
-RS
+GK
+rN
+sn
+rN
+GK
+rN
+sn
+sn
+sn
+sn
+sn
+Ri
+GK
+Zz
+aD
+GK
+GK
+GK
+GK
+GK
+GK
 "}
 (23,1,1) = {"
-RS
-RS
-RS
-kf
-RS
-RS
-RS
-TO
-RS
-RS
-RS
-RS
-RS
-RS
-RS
-RS
-RS
+GK
+GK
+GK
+Iv
+GK
+GK
+GK
+Iv
+GK
+GK
+GK
+GK
+GK
+GK
+GK
+GK
+GK
 Vb
 Vb
 Vb
@@ -951,16 +1338,16 @@ Vb
 Vb
 "}
 (24,1,1) = {"
-RS
-JH
-JH
-CI
-MB
-RS
+GK
+mW
+sd
+TP
+Mn
+GK
 SI
-Px
-MB
-RS
+Wu
+YJ
+GK
 Vb
 Vb
 Vb
@@ -975,16 +1362,16 @@ Vb
 Vb
 "}
 (25,1,1) = {"
-RS
+GK
 kc
-JH
-CI
-CI
-kf
-CI
-Px
-CI
-RS
+TP
+TP
+TP
+AP
+Wu
+Dw
+Ea
+GK
 Vb
 Vb
 Vb
@@ -999,16 +1386,16 @@ Vb
 Vb
 "}
 (26,1,1) = {"
-RS
-MI
-JH
-CI
-CI
-RS
-CI
-Px
-aR
-RS
+GK
+FK
+TP
+TP
+Er
+GK
+Wu
+CP
+Wu
+GK
 Vb
 Vb
 Vb
@@ -1023,16 +1410,16 @@ Vb
 Vb
 "}
 (27,1,1) = {"
-RS
+GK
 JH
-JH
-CI
-MB
-RS
+TP
+Kl
+NM
+GK
 Sa
 nS
 dG
-RS
+GK
 Vb
 Vb
 Vb
@@ -1047,16 +1434,16 @@ Vb
 Vb
 "}
 (28,1,1) = {"
-RS
+GK
 ve
 TP
 QY
 rb
-RS
-RS
-RS
-RS
-RS
+GK
+GK
+GK
+GK
+GK
 Vb
 Vb
 Vb
@@ -1071,12 +1458,12 @@ Vb
 Vb
 "}
 (29,1,1) = {"
-RS
-RS
-RS
-RS
-RS
-RS
+GK
+GK
+GK
+GK
+GK
+GK
 Vb
 Vb
 Vb

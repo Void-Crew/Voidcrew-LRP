@@ -1,27 +1,19 @@
-/datum/outfit/job/head_of_personnel/nt
-	name = "First Officer (Nanotrasen)"
-	uniform = /obj/item/clothing/under/rank/command/head_of_personnel/nt
-	alt_uniform = null
-	alt_suit = null
-	shoes = /obj/item/clothing/shoes/laceup
-	head = /obj/item/clothing/head/hopcap/nt
-
 /datum/outfit/job/head_of_personnel/solgov
 	name = "Executive Officer (SolGov)"
-	uniform = /obj/item/clothing/under/rank/command/lieutenant
+	suit = /obj/item/clothing/suit/armor/vest/solgov_hop
 	head = /obj/item/clothing/head/solgov
-	shoes = /obj/item/clothing/shoes/laceup
 
 /datum/outfit/job/head_of_personnel/solgov/rebel
 	name = "Executive Officer (Deserter)"
+	suit = /obj/item/clothing/suit/armor/vest/solgov_hop/terragov
 	head = /obj/item/clothing/head/solgov/terragov
 
 /datum/outfit/job/head_of_personnel/pirate
 	name = "First Mate (Pirate)"
-	uniform = /obj/item/clothing/under/costume/russian_officer
+	uniform = /obj/item/clothing/under/pirate/hop
 	shoes = /obj/item/clothing/shoes/jackboots
 	head = /obj/item/clothing/head/pirate
-	suit = /obj/item/clothing/suit/pirate
+	suit = /obj/item/clothing/suit/pirate/hop
 
 /datum/outfit/job/head_of_personnel/western
 	name = "First Mate (Western)"

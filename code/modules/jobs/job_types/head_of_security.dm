@@ -40,7 +40,7 @@
 	id = /obj/item/card/id/silver
 	belt = /obj/item/pda/heads/hos
 	ears = /obj/item/radio/headset/heads/hos/alt
-	uniform = /obj/item/clothing/under/rank/security/head_of_security
+	uniform = /obj/item/clothing/under/rank/security/red/head_of_security
 	alt_uniform = /obj/item/clothing/under/rank/security/head_of_security/alt
 	shoes = /obj/item/clothing/shoes/jackboots
 	suit = /obj/item/clothing/suit/armor/hos/trenchcoat
@@ -80,3 +80,17 @@
 	suit = /obj/item/clothing/suit/armor/vest/syndie
 	r_pocket = /obj/item/melee/transforming/energy/sword
 	backpack_contents = list(/obj/item/melee/baton/loaded=1)
+
+/datum/outfit/job/hos/private
+	name = "Private Security Commander (Nanotrasen)"
+
+	uniform = /obj/item/clothing/under/rank/security/nanotrasenhr
+	suit = /obj/item/clothing/suit/armor/vest/alt
+	head = /obj/item/clothing/head/helmet/swat/nanotrasen/commander
+	mask = /obj/item/clothing/mask/gas/sechailer/swat
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
+	belt = /obj/item/storage/belt/security/webbing
+	id = /obj/item/card/id/pso
+	alt_uniform = null
+	backpack_contents = list(/obj/item/melee/baton/loaded=1, /obj/item/ammo_box/magazine/m50, /obj/item/gun_voucher=1)

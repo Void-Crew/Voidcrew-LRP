@@ -8,18 +8,22 @@
 /datum/outfit/centcom/spec_ops
 	name = "Special Ops Officer"
 
-	uniform = /obj/item/clothing/under/syndicate
+	uniform = /obj/item/clothing/under/rank/centcom/commander
 	suit = /obj/item/clothing/suit/space/officer
 	shoes = /obj/item/clothing/shoes/combat/swat
 	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
-	glasses = /obj/item/clothing/glasses/thermal/eyepatch
+	glasses = /obj/item/clothing/glasses/hud/security/sunglasses/eyepatch
 	ears = /obj/item/radio/headset/headset_cent/commander
 	mask = /obj/item/clothing/mask/cigarette/cigar/havana
 	head = /obj/item/clothing/head/helmet/space/beret
-	belt = /obj/item/gun/energy/pulse/pistol/m1911
-	r_pocket = /obj/item/lighter
+	r_pocket = /obj/item/flashlight/seclite
+	l_pocket = /obj/item/melee/transforming/energy/sword/saber/pirate/blue
 	back = /obj/item/storage/backpack/satchel/leather
 	id = /obj/item/card/id/centcom
+	backpack_contents = list(/obj/item/storage/box/survival/engineer=1,\
+		/obj/item/melee/baton/loaded=1,\
+		/obj/item/gun/energy/pulse/pistol/m1911=1,\
+		/obj/item/storage/firstaid/tactical=1)
 
 /datum/outfit/centcom/spec_ops/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	if(visualsOnly)
@@ -85,7 +89,7 @@
 	l_hand = /obj/item/reagent_containers/glass/bucket
 	r_pocket = /obj/item/grenade/chem_grenade/cleaner
 	l_pocket = /obj/item/grenade/chem_grenade/cleaner
-	backpack_contents = list(/obj/item/stack/tile/plasteel=6)
+	backpack_contents = list(/obj/item/stack/tile/iron=6)
 
 /datum/outfit/tournament/janitor/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	if(visualsOnly)
@@ -242,18 +246,23 @@
 	name = "CentCom Commander"
 
 	uniform = /obj/item/clothing/under/rank/centcom/commander
-	suit = /obj/item/clothing/suit/armor/bulletproof
+	suit = /obj/item/clothing/suit/armor/centcom_formal
 	shoes = /obj/item/clothing/shoes/combat/swat
 	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
 	ears = /obj/item/radio/headset/headset_cent/commander
-	glasses = /obj/item/clothing/glasses/eyepatch
-	mask = /obj/item/clothing/mask/cigarette/cigar/cohiba
-	head = /obj/item/clothing/head/centhat
-	belt = /obj/item/gun/ballistic/revolver/mateba
-	r_pocket = /obj/item/lighter
+	head = /obj/item/clothing/head/centcom_cap
+	belt = /obj/item/storage/belt/sabre
+	suit_store = /obj/item/gun/ballistic/revolver/mateba
+	r_pocket = /obj/item/melee/classic_baton/telescopic
 	l_pocket = /obj/item/ammo_box/a357
 	back = /obj/item/storage/backpack/satchel/leather
 	id = /obj/item/card/id/centcom
+
+	backpack_contents = list(
+		/obj/item/storage/box/survival/engineer=1,\
+		/obj/item/door_remote/omni=1,\
+		/obj/item/storage/fancy/cigarettes/cigars/cohiba=1,\
+		/obj/item/lighter=1)
 
 /datum/outfit/centcom/commander/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	if(visualsOnly)
@@ -352,7 +361,6 @@
 	gloves = /obj/item/clothing/gloves/color/black
 	ears = /obj/item/radio/headset
 	glasses = /obj/item/clothing/glasses/sunglasses
-	r_hand = /obj/item/gun/ballistic/automatic/tommygun
 	id = /obj/item/card/id
 
 /datum/outfit/mobster/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -418,6 +426,18 @@
 	name = "Death Commando Officer"
 	head = /obj/item/clothing/head/helmet/space/beret
 
+/datum/outfit/centcom/death_commando/officer/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	if(visualsOnly)
+		return
+
+	var/obj/item/card/id/W = H.wear_id
+	W.access = get_all_accesses()//They get full station access.
+	W.access += get_centcom_access("CentCom Commander")//Let's add their ACTUAL WORTHY ACCESS.
+	W.assignment = "Death Commando"
+	W.registered_name = H.real_name
+	W.update_label()
+	..()
+
 /datum/outfit/chrono_agent
 	name = "Timeline Eradication Agent"
 	uniform = /obj/item/clothing/under/color/white
@@ -455,31 +475,3 @@
 	var/obj/item/card/id/W = H.wear_id
 	W.registered_name = H.real_name
 	W.update_label()
-
-/datum/outfit/job/lieutenant
-	name = "Lieutenant"
-	//jobtype = /datum/job/lieutenant
-
-	id = /obj/item/card/id/silver
-	head = /obj/item/clothing/head/beret/lt
-	uniform = /obj/item/clothing/under/rank/command/lieutenant
-	alt_uniform = /obj/item/clothing/under/rank/command
-	suit = /obj/item/clothing/suit/toggle/lieutenant
-	alt_suit = /obj/item/clothing/suit/lieutenant_trenchcoat
-	dcoat = /obj/item/clothing/suit/hooded/wintercoat/captain
-	gloves = /obj/item/clothing/gloves/combat
-	shoes = /obj/item/clothing/shoes/jackboots
-	ears = /obj/item/radio/headset/heads/lieutenant/alt
-	glasses = /obj/item/clothing/glasses/hud/health/sunglasses
-	belt = /obj/item/pda/lieutenant
-
-	implants = list(/obj/item/implant/mindshield)
-
-	backpack = /obj/item/storage/backpack/security
-	satchel = /obj/item/storage/backpack/satchel/sec
-	duffelbag = /obj/item/storage/backpack/duffelbag/sec
-	courierbag = /obj/item/storage/backpack/messenger/sec
-
-	backpack_contents = list(
-		/obj/item/gun/energy/e_gun/adv_stopping = 1
-		)

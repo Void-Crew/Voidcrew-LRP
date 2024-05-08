@@ -1,0 +1,29 @@
+{
+	"map_name": "Viper(D)-Class Patrol Cruiser",
+	"prefix": "KOS",
+	"map_short_name": "Viper(D)-class",
+	"map_path": "_maps/shuttles/shiptest/viper_d.dmm",
+	"map_id": "viper_d",
+	"roundstart": false,
+	"job_slots": {
+		"Vanguard": {
+			"outfit": "/datum/outfit/job/captain/inteq",
+			"officer": true,
+			"slots": 1
+		},
+		"Master-At-Arms": {
+			"outfit": "/datum/outfit/job/warden/inteq",
+			"officer": true,
+			"slots": 1
+		},
+		"Enforcer": {
+			"outfit": "/datum/outfit/job/security/inteq",
+			"slots": 3
+		},
+		"Artificier": {
+			"outfit": "/datum/outfit/job/engineer/inteq",
+			"slots": 1
+		}
+	},
+	"cost": 750
+}

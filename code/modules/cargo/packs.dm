@@ -649,7 +649,7 @@
 	desc = "Hello Comrade, we have the most modern russian military equipment the black market can offer, for the right price of course. Sadly we couldnt remove the lock so it requires Armory access to open."
 	cost = 10500
 	contains = list(/obj/item/reagent_containers/food/snacks/rationpack,
-					/obj/item/ammo_box/a762,
+					/obj/item/ammo_box/a300,
 					/obj/item/storage/toolbox/ammo,
 					/obj/item/clothing/suit/armor/vest/russian,
 					/obj/item/clothing/head/helmet/rus_helmet,
@@ -660,8 +660,8 @@
 					/obj/item/clothing/mask/russian_balaclava,
 					/obj/item/clothing/head/helmet/rus_ushanka,
 					/obj/item/clothing/suit/armor/vest/russian_coat,
-					/obj/item/gun/ballistic/rifle/boltaction,
-					/obj/item/gun/ballistic/rifle/boltaction)
+					/obj/item/gun/ballistic/rifle/scout,
+					/obj/item/gun/ballistic/rifle/scout)
 	crate_name = "surplus military crate"
 	dangerous = TRUE
 
@@ -671,29 +671,20 @@
 		new item(C)
 
 /datum/supply_pack/security/armory/winchester
-	name = "Winchester Lever Action Rifle Crate"
-	desc = "Contains two lever action rifles intended for hunting wildlife or no-go-doers."
+	name = "Flaming Arrow Lever Action Shotgun Crate"
+	desc = "Contains two lever action shotguns intended for hunting wildlife or no-go-doers."
 	cost = 9000
-	contains = list(/obj/item/gun/ballistic/shotgun/winchester,
-					/obj/item/gun/ballistic/shotgun/winchester)
-	crate_name = "rifle crate"
+	contains = list(/obj/item/gun/ballistic/shotgun/flamingarrow,
+					/obj/item/gun/ballistic/shotgun/flamingarrow)
+	crate_name = "lever-action shotgun crate"
 	dangerous = TRUE
 
-/datum/supply_pack/security/armory/winchester_ammo
-	name = "Winchester and Detective Special .38 Ammo Boxes"
+/datum/supply_pack/security/armory/ammo38
+	name = ".38 Ammo Boxes"
 	desc = "Contains two 30 round ammo boxes for refilling .38 weapons."
 	cost = 5000
 	contains = list(/obj/item/ammo_box/c38_box,
 					/obj/item/ammo_box/c38_box)
-	crate_name = "ammo crate"
-	dangerous = TRUE
-
-/datum/supply_pack/security/armory/winchester_hunting_ammo
-	name = "Winchester and Detective Special .38 Hunting Ammo Boxes"
-	desc = "Contains two  30 round .38 ammo boxes which deal extra damage to wildlife."
-	cost = 2000
-	contains = list(/obj/item/ammo_box/c38_box/hunting,
-					/obj/item/ammo_box/c38_box/hunting)
 	crate_name = "ammo crate"
 	dangerous = TRUE
 

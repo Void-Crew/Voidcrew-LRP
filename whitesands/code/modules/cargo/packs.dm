@@ -277,8 +277,8 @@
 	name = "WT-550 Auto Rifle Exotic Ammo Crate"
 	desc = "Contains one magazine of armor-piercing and one magazine of incendiary ammunition for the WT-550 Auto Rifle. Each magazine is designed to facilitate rapid tactical reloads. Requires Armory access to open. Sadly, our manufacturer discontinued the uranium-tipped bullets."
 	cost = 2500
-	contains = list(/obj/item/ammo_box/magazine/wt550m9/wtap,
-					/obj/item/ammo_box/magazine/wt550m9/wtic)
+	contains = list(/obj/item/ammo_box/magazine/wt550m9/ap,
+					/obj/item/ammo_box/magazine/wt550m9/inc)
 	dangerous = TRUE
 
 /datum/supply_pack/security/shotgun_ammo_nonlethal
@@ -325,8 +325,7 @@
 					/obj/item/ammo_box/n762,
 					/obj/item/ammo_box/magazine/m10mm/rifle,
 					/obj/item/ammo_box/c45,
-					/obj/item/ammo_box/magazine/m50,
-					/obj/item/ammo_box/magazine/tommygunm45,
+					/obj/item/ammo_box/magazine/m50,,
 					/obj/item/ammo_box/magazine/ak47,
 					/obj/item/ammo_box/foambox/riot)
 	dangerous = TRUE

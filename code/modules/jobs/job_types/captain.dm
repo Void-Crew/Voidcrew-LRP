@@ -37,10 +37,14 @@
 	gloves = /obj/item/clothing/gloves/color/captain
 	uniform =  /obj/item/clothing/under/rank/command/captain
 	alt_uniform = /obj/item/clothing/under/rank/command/captain/parade //WS Edit - Alt Uniforms
-	dcoat = /obj/item/clothing/suit/hooded/wintercoat/captain //WS Edit - Alt Uniforms
-	shoes = /obj/item/clothing/shoes/sneakers/brown
+	suit = /obj/item/clothing/suit/armor/vest/capcarapace
+	alt_suit = /obj/item/clothing/suit/armor/vest/capcarapace/alt
+	ears = /obj/item/radio/headset/heads/captain/alt
+	shoes = /obj/item/clothing/shoes/laceup
 	head = /obj/item/clothing/head/caphat
 	backpack_contents = list(/obj/item/melee/classic_baton/telescopic=1, /obj/item/station_charter=1)
+
+	implants = list(/obj/item/implant/mindshield)
 
 	backpack = /obj/item/storage/backpack/captain
 	satchel = /obj/item/storage/backpack/satchel/cap
@@ -58,10 +62,86 @@
 	suit = /obj/item/clothing/suit/space/hardsuit/swat/captain
 	suit_store = /obj/item/tank/internals/oxygen
 
+/datum/outfit/job/captain/nt
+	name = "Captain (Nanotrasen)"
+
+	uniform =  /obj/item/clothing/under/rank/command/captain/nt
+	head = /obj/item/clothing/head/caphat/parade
+	suit = /obj/item/clothing/suit/armor/vest/capcarapace/nt
+	alt_suit = /obj/item/clothing/suit/armor/vest/capcarapace/alt/nt
+
+
 /datum/outfit/job/captain/nt/heron
 	name = "Captain (Nanotrasen Fleet Captain)"
 
-	uniform = /obj/item/clothing/under/rank/centcom/officer
-	head = /obj/item/clothing/head/centhat
-	suit = /obj/item/clothing/suit/armor/bulletproof
+	uniform = /obj/item/clothing/under/rank/centcom/official
+	head = /obj/item/clothing/head/caphat/parade/cent
+	shoes = /obj/item/clothing/shoes/jackboots
+	suit = /obj/item/clothing/suit/armor/vest/capcarapace/centcom
 	ears = /obj/item/radio/headset/headset_cent/commander
+
+/datum/outfit/job/captain/soviet
+	name = "Soviet Captain"
+	uniform =  /obj/item/clothing/under/costume/russian_officer
+	alt_uniform = /obj/item/clothing/under/costume/soviet //WS Edit - Alt Uniforms
+	shoes = /obj/item/clothing/shoes/combat
+	head = /obj/item/clothing/head/ushanka
+	backpack_contents = list(/obj/item/melee/classic_baton/telescopic=1, /obj/item/station_charter=1)
+
+	accessory = /obj/item/clothing/accessory/medal/silver/valor
+
+	chameleon_extras = list(/obj/item/gun/ballistic/rifle/boltaction, /obj/item/stamp/captain)
+
+/datum/outfit/job/captain/interdyne
+	name = "Captain (Interdyne Pharmaceuticals)"
+
+	uniform = /obj/item/clothing/under/syndicate/interdyne/officer
+	id = /obj/item/card/id/syndicate_command/captain_id
+	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
+	head = /obj/item/clothing/head/HoS/interdyne
+	shoes = /obj/item/clothing/shoes/combat
+	back = /obj/item/storage/backpack/satchel/sec
+	suit = /obj/item/clothing/suit/armor/vest/alt
+	ears = /obj/item/radio/headset/syndicate/alt/leader
+
+/datum/outfit/job/captain/cybersun
+	name = "Captain (Cybersun Industries)"
+
+	uniform = /obj/item/clothing/under/syndicate/cybersun/officer
+	id = /obj/item/card/id/syndicate_command/captain_id
+	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
+	head = /obj/item/clothing/head/HoS/cybersun
+	shoes = /obj/item/clothing/shoes/combat
+	back = /obj/item/storage/backpack/satchel/sec
+	suit = /obj/item/clothing/suit/armor/vest/capcarapace/cybersun
+	ears = /obj/item/radio/headset/syndicate/alt/leader
+
+/datum/outfit/job/captain/inteq
+	name = "Vanguard (IRMG Captain)"
+
+	ears = /obj/item/radio/headset/inteq/alt
+	uniform = /obj/item/clothing/under/syndicate/inteq
+	head = /obj/item/clothing/head/beret/sec/hos/inteq
+	glasses = /obj/item/clothing/glasses/hud/security/sunglasses/inteq
+	mask = /obj/item/clothing/mask/gas/sechailer/inteq
+	suit = /obj/item/clothing/suit/armor/hos/inteq
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/combat
+	id = /obj/item/card/id/inteq/com
+	accessory = null
+
+	backpack = /obj/item/storage/backpack/messenger/inteq
+	satchel = /obj/item/storage/backpack/messenger/inteq
+	courierbag = /obj/item/storage/backpack/messenger/inteq
+
+/datum/outfit/job/captain/soviet
+	name = "Soviet Captain"
+	uniform =  /obj/item/clothing/under/costume/russian_officer
+	alt_uniform = /obj/item/clothing/under/costume/soviet //WS Edit - Alt Uniforms
+	shoes = /obj/item/clothing/shoes/combat
+	head = /obj/item/clothing/head/ushanka
+	backpack_contents = list(/obj/item/melee/classic_baton/telescopic=1, /obj/item/station_charter=1)
+
+	accessory = /obj/item/clothing/accessory/medal/silver/valor
+
+	chameleon_extras = list(/obj/item/gun/ballistic/rifle/boltaction, /obj/item/stamp/captain)

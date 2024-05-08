@@ -24,9 +24,9 @@
 	if(!proximity)
 		return
 
-	var/turf/open/floor/plasteel/F = A
-	if(!istype(F) || istype(F, /turf/open/floor/plasteel/tech))
-		to_chat(user, "<span class='warning'>\The [src] can only be used on plasteel flooring.</span>")
+	var/turf/open/floor/iron/F = A
+	if(!istype(F) || istype(F, /turf/open/floor/iron/tech))
+		to_chat(user, "<span class='warning'>\The [src] can only be used on iron flooring.</span>")
 		return
 
 	F.icon_state = floor_state

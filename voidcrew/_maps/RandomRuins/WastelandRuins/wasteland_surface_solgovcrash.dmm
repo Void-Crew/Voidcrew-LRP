@@ -2,20 +2,31 @@
 "a" = (
 /turf/template_noop,
 /area/template_noop)
+"b" = (
+/obj/item/stack/sheet/mineral/titanium,
+/turf/template_noop,
+/area/template_noop)
 "c" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
-/obj/item/card/id/solgov,
 /obj/effect/mob_spawn/human/corpse/solgov/infantry,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "d" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium/yellow,
+/obj/item/card/id/solgov/elite,
+/turf/open/floor/carpet/nanoweave/beige,
 /area/ruin/unpowered)
+"e" = (
+/obj/structure/sign/solgov_seal{
+	pixel_y = 0;
+	pixel_x = -32
+	},
+/turf/open/floor/plating/wasteland/lit,
+/area/overmap_encounter/planetoid/wasteland)
 "f" = (
 /obj/structure/frame/machine,
 /obj/item/stack/cable_coil/random/five,
@@ -25,100 +36,212 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
-/obj/item/stack/sheet/metal,
-/obj/effect/mob_spawn/human/corpse/solgov/officer,
+/obj/effect/mob_spawn/human/corpse/solgov/officer{
+	head = 0
+	},
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/carpet/nanoweave/blue,
+/area/ruin/unpowered)
+"h" = (
+/obj/item/shard{
+	icon_state = "small"
+	},
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plating/wasteland/lit,
+/area/overmap_encounter/planetoid/wasteland)
+"i" = (
+/obj/structure/girder,
 /turf/open/floor/plating,
 /area/ruin/unpowered)
+"j" = (
+/obj/effect/decal/cleanable/glass,
+/turf/template_noop,
+/area/template_noop)
+"k" = (
+/obj/item/stack/sheet/metal,
+/turf/open/floor/plating/wasteland/lit,
+/area/overmap_encounter/planetoid/wasteland)
 "l" = (
 /obj/item/kitchen/knife/letter_opener,
-/turf/open/floor/mineral/titanium/blue,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/carpet/nanoweave/blue,
 /area/ruin/unpowered)
+"m" = (
+/obj/structure/grille/broken,
+/obj/item/shard{
+	icon_state = "small"
+	},
+/obj/effect/decal/cleanable/glass,
+/obj/item/stack/rods,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"o" = (
+/obj/item/shard{
+	icon_state = "medium"
+	},
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plating/wasteland/lit,
+/area/overmap_encounter/planetoid/wasteland)
 "p" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
-/obj/effect/turf_decal/industrial/warning{
-	dir = 10
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
 	},
-/turf/open/floor/mineral/titanium/blue,
+/obj/effect/mob_spawn/human/corpse/solgov/infantry,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "r" = (
-/obj/item/clothing/suit/armor/vest/solgov,
-/obj/effect/mob_spawn/human/corpse,
-/turf/open/floor/plating,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ruin/unpowered)
+"s" = (
+/obj/structure/door_assembly/door_assembly_shuttle,
+/turf/open/floor/plating/wasteland/lit,
+/area/overmap_encounter/planetoid/wasteland)
 "t" = (
 /obj/structure/frame/computer,
+/obj/effect/decal/cleanable/glass,
 /obj/item/circuitboard/computer/shuttle/helm,
-/turf/open/floor/mineral/titanium/blue,
+/obj/item/shard{
+	icon_state = "medium"
+	},
+/obj/item/stack/cable_coil/random/five,
+/turf/open/floor/carpet/nanoweave/blue,
 /area/ruin/unpowered)
+"u" = (
+/obj/structure/sign/solgov_seal{
+	pixel_y = 0;
+	pixel_x = -32
+	},
+/turf/template_noop,
+/area/template_noop)
 "v" = (
-/obj/machinery/door/airlock/solgov/glass,
-/turf/open/floor/plating,
+/obj/machinery/door/airlock/solgov/glass{
+	name = "Cockpit"
+	},
+/turf/open/floor/carpet/nanoweave/blue,
 /area/ruin/unpowered)
 "w" = (
-/turf/open/floor/mineral/titanium/yellow,
+/obj/item/clothing/suit/armor/vest/solgov,
+/turf/open/floor/carpet/nanoweave/beige,
 /area/ruin/unpowered)
+"y" = (
+/obj/effect/decal/cleanable/glass,
+/obj/item/stack/rods,
+/turf/template_noop,
+/area/template_noop)
+"z" = (
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plating/wasteland/lit,
+/area/overmap_encounter/planetoid/wasteland)
 "D" = (
 /obj/structure/table/reinforced,
 /obj/item/desk_flag/solgov,
 /obj/item/pen/fountain/solgov,
-/turf/open/floor/mineral/titanium/blue,
+/turf/open/floor/carpet/nanoweave/blue,
 /area/ruin/unpowered)
 "E" = (
-/obj/item/stack/rods,
-/obj/effect/turf_decal/industrial/warning{
-	dir = 5
+/obj/structure/sign/poster/official/solgov_enlist{
+	pixel_y = 32
 	},
-/obj/item/clothing/head/helmet/solgov,
-/obj/item/gun/energy/laser/terra,
-/obj/item/clothing/under/solgov/elite,
-/obj/effect/gibspawner/human,
-/turf/open/floor/mineral/titanium/yellow,
+/turf/open/floor/carpet/nanoweave/beige,
 /area/ruin/unpowered)
+"F" = (
+/obj/item/stack/sheet/mineral/titanium,
+/turf/open/floor/plating/dust/lit,
+/area/overmap_encounter/planetoid/wasteland)
 "G" = (
 /turf/open/floor/plating/dust/lit,
 /area/overmap_encounter/planetoid/wasteland)
 "H" = (
+/obj/item/clothing/under/solgov,
+/obj/structure/closet/wall{
+	dir = 1;
+	pixel_y = -32
+	},
+/obj/item/clothing/under/solgov,
+/obj/item/clothing/under/solgov,
+/obj/item/clothing/under/solgov,
+/turf/open/floor/carpet/nanoweave/beige,
+/area/ruin/unpowered)
+"I" = (
+/obj/structure/girder/displaced,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
+"J" = (
 /obj/item/stack/rods,
-/obj/effect/turf_decal/industrial/warning,
-/turf/open/floor/mineral/titanium/white,
+/obj/item/stack/sheet/metal,
+/turf/open/floor/plating,
 /area/ruin/unpowered)
 "K" = (
 /turf/closed/wall/mineral/titanium,
 /area/ruin/unpowered)
+"L" = (
+/obj/item/stack/rods,
+/turf/open/floor/plating/dust/lit,
+/area/overmap_encounter/planetoid/wasteland)
+"M" = (
+/obj/structure/window/shuttle,
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/ruin/unpowered)
 "N" = (
-/turf/open/floor/mineral/titanium/blue,
+/obj/effect/decal/cleanable/glass,
+/obj/item/shard{
+	icon_state = "small"
+	},
+/obj/item/clothing/head/beret/solgov,
+/turf/open/floor/carpet/nanoweave/blue,
 /area/ruin/unpowered)
 "O" = (
-/obj/machinery/door/airlock/titanium,
-/turf/open/floor/mineral/titanium/blue,
+/obj/machinery/door/airlock/titanium{
+	name = "SolGov Cruise Vessel"
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "P" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
-/obj/effect/turf_decal/industrial/warning{
-	dir = 4
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
 	},
-/turf/open/floor/mineral/titanium/yellow,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "Q" = (
 /turf/open/floor/plating/wasteland/lit,
 /area/overmap_encounter/planetoid/wasteland)
+"R" = (
+/obj/item/shard{
+	icon_state = "medium"
+	},
+/turf/template_noop,
+/area/template_noop)
 "S" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
-/obj/effect/turf_decal/industrial/warning{
-	dir = 8
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
 	},
-/obj/item/clothing/under/solgov,
-/turf/open/floor/mineral/titanium/yellow,
+/turf/open/floor/iron,
 /area/ruin/unpowered)
 "T" = (
 /obj/item/stack/sheet/metal,
-/obj/item/stack/cable_coil/random/five,
+/obj/item/shard{
+	icon_state = "medium"
+	},
+/obj/effect/decal/cleanable/glass,
+/obj/item/stack/rods,
+/obj/item/stack/rods,
+/obj/item/stack/sheet/metal,
 /turf/open/floor/plating,
 /area/ruin/unpowered)
 "U" = (
@@ -127,25 +250,43 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/unpowered)
+"V" = (
+/obj/item/stack/sheet/metal,
+/turf/open/floor/plating/dust/lit,
+/area/overmap_encounter/planetoid/wasteland)
+"W" = (
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plating/dust/lit,
+/area/overmap_encounter/planetoid/wasteland)
 "X" = (
-/obj/structure/window/shuttle,
+/obj/structure/grille/broken,
+/obj/item/shard,
+/obj/effect/decal/cleanable/glass,
+/obj/item/stack/rods,
+/obj/item/stack/rods,
 /turf/open/floor/plating,
 /area/ruin/unpowered)
 "Y" = (
-/obj/item/stack/sheet/metal,
-/obj/effect/mob_spawn/human/corpse/solgov/infantry,
+/obj/effect/gibspawner/human,
+/obj/item/clothing/under/solgov/elite,
+/obj/item/clothing/head/helmet/solgov,
+/obj/item/gun/energy/laser/terra,
 /turf/open/floor/plating,
 /area/ruin/unpowered)
 "Z" = (
 /obj/machinery/power/smes/shuttle{
 	dir = 1
 	},
-/turf/open/floor/mineral/titanium/white,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/plating,
 /area/ruin/unpowered)
 
 (1,1,1) = {"
 a
 a
+y
 a
 a
 a
@@ -155,12 +296,11 @@ a
 a
 a
 a
+b
 a
 a
 a
-a
-a
-a
+j
 a
 a
 a
@@ -174,41 +314,41 @@ a
 a
 "}
 (2,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-K
-K
-K
+R
+I
+m
+i
+i
+J
+i
+r
+r
+r
 Q
 a
 a
 a
+o
+z
 Q
-Q
-Q
-Q
-Q
-a
-a
-Q
+s
 Q
 a
+j
+Q
+z
 a
-Q
-Q
-Q
+a
+b
+a
+a
 "}
 (3,1,1) = {"
-a
+y
 X
 T
 l
-K
+r
 Y
 S
 p
@@ -217,25 +357,25 @@ f
 G
 G
 G
+F
+L
+G
+V
+W
 Q
 Q
+z
+k
+h
+Q
+z
 Q
 Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
+a
 "}
 (4,1,1) = {"
 a
-X
+M
 t
 g
 v
@@ -243,7 +383,7 @@ d
 w
 H
 r
-K
+r
 G
 G
 G
@@ -252,23 +392,23 @@ G
 G
 G
 G
-Q
-Q
-Q
-Q
-Q
+W
+G
+F
 G
 G
 G
 G
 G
+F
+a
 "}
 (5,1,1) = {"
 a
-a
+M
 D
 N
-K
+r
 E
 P
 c
@@ -288,22 +428,22 @@ G
 G
 G
 G
-G
-G
-G
-G
+Q
+Q
+a
+a
 "}
 (6,1,1) = {"
 a
 K
-X
-K
-K
+M
+r
+r
 O
-K
-K
-K
-K
+r
+r
+r
+r
 Q
 Q
 Q
@@ -315,43 +455,43 @@ G
 G
 G
 G
-G
-G
-G
 Q
 Q
 Q
-Q
+a
+a
+a
+a
 "}
 (7,1,1) = {"
 a
+u
+Q
+Q
+Q
+Q
+e
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
 a
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
-Q
+a
+a
+a
+a
+a
 "}
 (8,1,1) = {"
 a

@@ -80,6 +80,12 @@
 	role = "Trooper"
 	rip_and_tear = TRUE
 
+/datum/antagonist/ert/specops
+	name = "Special Operations Unit"
+	outfit = /datum/outfit/centcom/ert/security/alert/specialops
+	role = "Nanotrasen Spec Ops"
+
+
 /datum/antagonist/ert/medic/inquisitor
 	outfit = /datum/outfit/centcom/ert/medic/inquisitor
 
@@ -185,9 +191,9 @@
 
 	to_chat(owner, "<B><font size=3 color=red>You are the [name].</font></B>")
 
-	var/missiondesc = "Your squad is being sent on a mission to [station_name()] by Nanotrasen's Security Division."
+	var/missiondesc = "Your squad is being sent on a mission to the local sector by Nanotrasen."
 	if(leader) //If Squad Leader
-		missiondesc += " Lead your squad to ensure the completion of the mission. Board the shuttle when your team is ready."
+		missiondesc += " Lead your squad to ensure the completion of the mission. Get in the pod bay when your team is ready." //no ERT shuttles (apart from shuttle)
 	else
 		missiondesc += " Follow orders given to you by your squad leader."
 	if(!rip_and_tear)

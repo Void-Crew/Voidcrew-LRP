@@ -1,4 +1,3 @@
-/*WS Edit - Fuck Psychologists.
 /datum/job/psychologist
 	title = "Psychologist"
 	department_head = list("Head of Personnel","Chief Medical Officer")
@@ -29,10 +28,17 @@
 	pda_slot = ITEM_SLOT_BELT
 	l_hand = /obj/item/clipboard
 
-	backpack_contents = list(/obj/item/storage/pill_bottle/mannitol, /obj/item/storage/pill_bottle/psicodine, /obj/item/storage/pill_bottle/paxpsych, /obj/item/storage/pill_bottle/happinesspsych, /obj/item/storage/pill_bottle/lsdpsych)
+	backpack_contents = list(/obj/item/storage/pill_bottle/mannitol, /obj/item/storage/pill_bottle/psicodine, /obj/item/storage/pill_bottle/neurine, /obj/item/storage/pill_bottle/happy, /obj/item/storage/pill_bottle/lsd)
 
 	backpack = /obj/item/storage/backpack/medic
 	satchel = /obj/item/storage/backpack/satchel/med
 	duffelbag = /obj/item/storage/backpack/duffelbag/med
 
-*/
+/datum/outfit/job/psychologist/syndicate/cybersun
+	name = "Psychologist (Cybersun Industries)"
+
+	uniform = /obj/item/clothing/under/syndicate/tacticool
+	id = /obj/item/card/id/syndicate_command/crew_id
+	gloves = /obj/item/clothing/gloves/color/black
+	shoes = /obj/item/clothing/shoes/laceup
+	ears = /obj/item/radio/headset/syndicate/alt

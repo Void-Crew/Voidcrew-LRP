@@ -96,11 +96,11 @@ GLOBAL_LIST_INIT(available_depts, list(SEC_DEPT_ENGINEERING, SEC_DEPT_MEDICAL, S
 
 	belt = /obj/item/pda/security
 	ears = /obj/item/radio/headset/headset_sec/alt
-	uniform = /obj/item/clothing/under/rank/security/officer
-	alt_uniform = /obj/item/clothing/under/rank/security/old
+	uniform = /obj/item/clothing/under/rank/security/red/officer
+	alt_uniform = /obj/item/clothing/under/rank/security/officer
 	gloves = /obj/item/clothing/gloves/color/black
 	head = /obj/item/clothing/head/helmet/sec
-	suit = /obj/item/clothing/suit/armor/vest
+	suit = /obj/item/clothing/suit/armor/vest/sec
 	alt_suit = /obj/item/clothing/suit/armor/vest/security/officer
 	dcoat = /obj/item/clothing/suit/hooded/wintercoat/security //WS Edit - Alt Uniforms
 	shoes = /obj/item/clothing/shoes/jackboots
@@ -147,7 +147,7 @@ GLOBAL_LIST_INIT(available_depts, list(SEC_DEPT_ENGINEERING, SEC_DEPT_MEDICAL, S
 /datum/outfit/job/security/nanotrasen
 	name = "Security Officer (Nanotrasen)"
 
-	uniform = /obj/item/clothing/under/rank/security/officer
+	uniform = /obj/item/clothing/under/rank/security/red/officer
 	alt_uniform = null
 	backpack_contents = list(/obj/item/radio, /obj/item/flashlight/seclite, /obj/item/gun_voucher)
 
@@ -197,3 +197,81 @@ GLOBAL_LIST_INIT(available_depts, list(SEC_DEPT_ENGINEERING, SEC_DEPT_MEDICAL, S
 	backpack_contents = list(/obj/item/radio, /obj/item/flashlight/seclite)
 
 //Shiptest outfits end
+
+/datum/outfit/job/security/soviet
+	name = "Soviet Soldier"
+
+	uniform = /obj/item/clothing/under/costume/soviet
+	head = /obj/item/clothing/head/ushanka
+	l_pocket = /obj/item/reagent_containers/food/drinks/bottle/vodka
+	r_pocket = /obj/item/flashlight/seclite
+	backpack_contents = list(/obj/item/melee/baton/loaded=1) //VC edit - fuck your security rearming. glory to the soviet union
+
+/datum/outfit/job/security/interdyne
+	name = "Operative (Interdyne Pharmaceuticals)"
+
+	uniform = /obj/item/clothing/under/syndicate/combat
+	suit = /obj/item/clothing/suit/armor/vest/jacket
+	head = /obj/item/clothing/head/helmet/swat
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/tackler/combat
+	mask = /obj/item/clothing/mask/gas/sechailer/syndie
+	belt = /obj/item/storage/belt/military/syndicate
+	id = /obj/item/card/id/syndicate_command/operative
+	backpack_contents = list(/obj/item/melee/baton/loaded=1, /obj/item/ammo_box/magazine/m10mm=1)
+
+/datum/outfit/job/security/nanotrasen/private
+	name = "Private Security Recruit (Nanotrasen)"
+
+	uniform = /obj/item/clothing/under/rank/security/officer
+	suit = /obj/item/clothing/suit/armor/vest/alt
+	head = /obj/item/clothing/head/helmet/swat/nanotrasen
+	mask = /obj/item/clothing/mask/gas/sechailer/swat
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/tackler/combat
+	id = /obj/item/card/id/pso
+	alt_uniform = null
+	backpack_contents = list(/obj/item/melee/baton/loaded=1, /obj/item/gun_voucher=1)
+
+/datum/outfit/job/security/nanotrasen/private/op
+	name = "Private Security Operative (Nanotrasen)"
+
+	uniform = /obj/item/clothing/under/rank/security/red/officer
+	alt_uniform = null
+	backpack_contents = list(/obj/item/melee/baton/loaded=1, /obj/item/ammo_box/magazine/co9mm=1, /obj/item/gun_voucher=1)
+
+/datum/outfit/job/security/nanotrasen/private/nco
+	name = "Private Security Sergeant (Nanotrasen)"
+
+	uniform = /obj/item/clothing/under/rank/security/nanotrasenhr
+	head = /obj/item/clothing/head/helmet/swat/nanotrasen/hr
+	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
+	alt_uniform = null
+	backpack_contents = list(/obj/item/melee/baton/loaded=1, /obj/item/ammo_box/magazine/m50=1, /obj/item/gun_voucher=1)
+
+/datum/outfit/job/security/inteq
+	name = "Enforcer (IRMG Security)"
+
+	head = /obj/item/clothing/head/helmet/inteq
+	suit = /obj/item/clothing/suit/armor/vest/alt
+	belt = /obj/item/storage/belt/security/webbing/inteq
+	mask = /obj/item/clothing/mask/gas/sechailer/inteq
+	uniform = /obj/item/clothing/under/syndicate/inteq
+	shoes = /obj/item/clothing/shoes/combat
+	glasses = /obj/item/clothing/glasses/hud/security/sunglasses/inteq
+	gloves = /obj/item/clothing/gloves/combat
+	ears = /obj/item/radio/headset/inteq/alt
+	id = /obj/item/card/id/inteq
+
+	backpack = /obj/item/storage/backpack/messenger/inteq
+	satchel = /obj/item/storage/backpack/messenger/inteq
+	courierbag = /obj/item/storage/backpack/messenger/inteq
+
+/datum/outfit/job/security/soviet
+	name = "Soviet Soldier"
+
+	uniform = /obj/item/clothing/under/costume/soviet
+	head = /obj/item/clothing/head/ushanka
+	l_pocket = /obj/item/reagent_containers/food/drinks/bottle/vodka
+	r_pocket = /obj/item/flashlight/seclite
+	backpack_contents = list(/obj/item/melee/baton/loaded=1) //VC edit - fuck your security rearming. glory to the soviet union
