@@ -19919,6 +19919,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/beta/mining)
+"ich" = (
+/obj/item/stack/sheet/mineral/plastitanium,
+/turf/open/floor/plating/asteroid/snow/breathable,
+/area/syndicate_mothership)
 "iem" = (
 /obj/structure/curtain,
 /turf/open/floor/iron/white,
@@ -31455,6 +31459,15 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
+"snu" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/obj/item/stack/sheet/mineral/plastitanium,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "o2=22;n2=82;TEMP=180"
+	},
+/area/syndicate_mothership)
 "snx" = (
 /obj/effect/turf_decal/corner/red{
 	dir = 1;
@@ -47581,7 +47594,7 @@ ahh
 ciX
 dMq
 axb
-oyb
+snu
 ciX
 aaa
 aaa
@@ -48093,7 +48106,7 @@ axb
 axb
 ahh
 ciX
-axb
+ich
 fpt
 dMq
 vlf
