@@ -12215,6 +12215,10 @@
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/biolab)
+"bgS" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
 "bhG" = (
 /obj/structure/bed,
 /obj/item/bedsheet/nanotrasen,
@@ -13730,6 +13734,21 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/engie)
+"cED" = (
+/obj/effect/turf_decal/siding/wideplating/dark,
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1
+	},
+/obj/machinery/door/airlock/hatch{
+	name = "Office";
+	req_access_txt = "150"
+	},
+/obj/machinery/door/firedoor/heavy,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/iron/smooth_half{
+	dir = 4
+	},
+/area/syndicate_mothership/control)
 "cFt" = (
 /obj/structure/fluff/broken_flooring{
 	icon_state = "side";
@@ -16714,6 +16733,10 @@
 /obj/item/toy/figure/syndie,
 /turf/open/floor/plating/asteroid/snow/breathable,
 /area/syndicate_mothership)
+"fne" = (
+/obj/item/stack/sheet/mineral/plastitanium,
+/turf/open/floor/plating/asteroid/snow/breathable,
+/area/syndicate_mothership)
 "fnq" = (
 /obj/structure/table,
 /obj/effect/turf_decal/corner/red{
@@ -18207,6 +18230,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/rnd)
+"gEI" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/obj/item/stack/sheet/mineral/plastitanium,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "o2=22;n2=82;TEMP=180"
+	},
+/area/syndicate_mothership)
 "gEY" = (
 /obj/item/shard,
 /obj/structure/fluff/broken_flooring{
@@ -19297,6 +19329,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
 /area/syndicate_mothership/control)
 "hyX" = (
@@ -19692,6 +19725,12 @@
 	icon_state = "platingdmg2"
 	},
 /area/ruin/space/ancientstation/alpha/dorms)
+"hPO" = (
+/obj/structure/table/wood/fancy/red,
+/obj/structure/window/reinforced/spawner/north,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium,
+/area/syndicate_mothership/control)
 "hPR" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/glass/fifty{
@@ -19919,10 +19958,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/beta/mining)
-"ich" = (
-/obj/item/stack/sheet/mineral/plastitanium,
-/turf/open/floor/plating/asteroid/snow/breathable,
-/area/syndicate_mothership)
 "iem" = (
 /obj/structure/curtain,
 /turf/open/floor/iron/white,
@@ -20438,6 +20473,11 @@
 /obj/structure/railing,
 /turf/open/space/basic,
 /area/ruin/space/ancientstation/charlie/solars)
+"iCw" = (
+/obj/structure/closet/syndicate/personal,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium,
+/area/syndicate_mothership/control)
 "iCA" = (
 /obj/machinery/hydroponics/soil,
 /obj/effect/turf_decal/siding/thinplating{
@@ -20915,6 +20955,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
 /area/ruin/space/ancientstation/alpha/arrivals)
+"iYo" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium,
+/area/syndicate_mothership/control)
 "iYL" = (
 /obj/item/circuitboard/machine/thermomachine,
 /obj/item/circuitboard/machine/thermomachine,
@@ -24235,6 +24279,11 @@
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/corner/bar/diagonal,
 /turf/open/floor/iron,
+/area/syndicate_mothership/control)
+"lSt" = (
+/obj/structure/table/wood/fancy/red,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium,
 /area/syndicate_mothership/control)
 "lSI" = (
 /obj/structure/catwalk,
@@ -30736,6 +30785,7 @@
 /area/ruin/space/has_grav/powered)
 "rDI" = (
 /obj/machinery/light,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
 /area/syndicate_mothership/control)
 "rDT" = (
@@ -31277,6 +31327,14 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/charlie/hall)
+"sgk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/hatch{
+	name = "Office";
+	req_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/syndicate_mothership/control)
 "sgn" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -31459,15 +31517,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
-"snu" = (
-/obj/effect/turf_decal/weather/snow/corner{
-	dir = 9
-	},
-/obj/item/stack/sheet/mineral/plastitanium,
-/turf/open/floor/plating/rust{
-	initial_gas_mix = "o2=22;n2=82;TEMP=180"
-	},
-/area/syndicate_mothership)
 "snx" = (
 /obj/effect/turf_decal/corner/red{
 	dir = 1;
@@ -31677,6 +31726,11 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/door/window{
+	dir = 4;
+	req_access_txt = "150"
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
 /area/syndicate_mothership/control)
 "svB" = (
@@ -32307,6 +32361,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
 /area/syndicate_mothership/control)
 "sWy" = (
@@ -37906,6 +37961,11 @@
 	dir = 1
 	},
 /area/syndicate_mothership/control)
+"xYN" = (
+/obj/structure/closet/syndicate/nuclear,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium,
+/area/syndicate_mothership/control)
 "xYW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/command/glass{
@@ -38826,11 +38886,11 @@ aaa
 ahh
 ang
 ang
-vln
-vln
+iCw
+iYo
 sWw
-vln
-vln
+iYo
+iYo
 ang
 ahh
 ahh
@@ -38838,11 +38898,11 @@ ahh
 ang
 ang
 ang
-vln
-vln
-vln
-vln
-vln
+iYo
+iYo
+iYo
+iYo
+iYo
 ang
 ahh
 aaa
@@ -39082,24 +39142,24 @@ kkL
 kkL
 kkL
 kkL
-vln
-vln
-vln
-vln
-vln
-vln
+xYN
+iYo
+iYo
+iYo
+iYo
+iYo
 ang
 ang
 ang
 ang
 ang
-vln
-vln
-vln
-vln
-vln
-vln
-vln
+bgS
+iYo
+iYo
+iYo
+iYo
+iYo
+bgS
 ang
 ahh
 aaa
@@ -39339,24 +39399,24 @@ aYj
 aYj
 aYj
 awh
-vln
-vln
-vln
-vln
-vln
-vln
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
 ang
 lsM
 lsM
 lsM
 ang
-vln
-vln
-vln
-vln
-vln
-vln
-vln
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
 ang
 ahh
 aaa
@@ -39596,24 +39656,24 @@ aYj
 aYj
 aYj
 sef
-vln
-vln
-vln
-vln
-vln
+iYo
+iYo
+iYo
+iYo
+iYo
 rDI
 ang
 lsM
 lsM
 lsM
 ang
-vln
-vln
-vln
-vln
-vln
-vln
-vln
+iYo
+iYo
+bgS
+iYo
+iYo
+iYo
+iYo
 ang
 ahh
 aaa
@@ -39853,24 +39913,24 @@ aYj
 aYj
 aYj
 awh
-vln
-vln
-vln
-vln
-vln
-vln
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
 ang
 ang
 toC
 ang
 ang
-vln
-vln
-vln
-vln
-vln
-vln
-vln
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
 ang
 ahh
 aaa
@@ -40111,23 +40171,23 @@ kkL
 kkL
 kkL
 svi
-vln
-vln
-vln
-vln
-vln
+hPO
+lSt
+lSt
+lSt
+lSt
 ang
 ttz
 tmA
 dEr
 anz
-vln
-vln
-vln
-vln
-vln
-vln
-vln
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
 ang
 ahh
 ahh
@@ -40367,24 +40427,24 @@ aaa
 aaa
 ahh
 ang
-vln
-vln
-vln
-vln
-vln
-vln
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
 anz
 stG
 khG
 tmq
-hjr
-vln
-vln
-vln
-vln
-vln
-vln
-vln
+cED
+iYo
+iYo
+iYo
+iYo
+bgS
+iYo
+iYo
 ang
 ang
 ang
@@ -40624,27 +40684,27 @@ aaa
 aaa
 ahh
 ang
-vln
-vln
-vln
-vln
-vln
-vln
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
 hjr
 stG
 vRF
 tmq
 anz
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
+iYo
+bgS
+iYo
+iYo
+iYo
+iYo
+iYo
+sgk
+iYo
+iYo
 ang
 ahh
 aaa
@@ -40882,11 +40942,11 @@ ahh
 ahh
 ang
 ang
-vln
-vln
+iYo
+iYo
 hyT
-vln
-vln
+iYo
+iYo
 anz
 stG
 wVE
@@ -40900,8 +40960,8 @@ ang
 ang
 ang
 ang
-vln
-vln
+iYo
+iYo
 ang
 ahh
 aaa
@@ -41149,13 +41209,13 @@ stG
 mrd
 tmq
 ang
-vln
-vln
-vln
-vln
-vln
-vln
-vln
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
+bgS
 ang
 ang
 ang
@@ -41406,16 +41466,16 @@ stG
 atg
 tmq
 anz
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
+iYo
+iYo
+bgS
+iYo
+iYo
+iYo
+iYo
+iYo
+bgS
+iYo
 ang
 ahh
 aaa
@@ -41662,17 +41722,17 @@ kSh
 stG
 dYk
 tmq
-hjr
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
+cED
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
 ang
 ahh
 aaa
@@ -41920,16 +41980,16 @@ stG
 gbA
 tmq
 anz
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
 ang
 ahh
 aaa
@@ -42177,16 +42237,16 @@ ohB
 jpG
 cdq
 ang
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
 ang
 ahh
 aaa
@@ -42434,16 +42494,16 @@ ang
 jky
 ang
 ang
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
+iYo
+iYo
+iYo
+iYo
+iYo
+bgS
+iYo
+iYo
+iYo
+iYo
 ang
 ahh
 aaa
@@ -42691,16 +42751,16 @@ vln
 vln
 aXp
 ang
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
-vln
+bgS
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
+iYo
 ang
 ahh
 aaa
@@ -42956,8 +43016,8 @@ ang
 ang
 ang
 ang
-vln
-vln
+iYo
+iYo
 ang
 ahh
 aaa
@@ -47594,7 +47654,7 @@ ahh
 ciX
 dMq
 axb
-snu
+gEI
 ciX
 aaa
 aaa
@@ -48106,7 +48166,7 @@ axb
 axb
 ahh
 ciX
-ich
+fne
 fpt
 dMq
 vlf
