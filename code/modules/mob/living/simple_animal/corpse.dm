@@ -103,6 +103,7 @@
 	outfit = /datum/outfit/russiancorpse
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
+	icon_state = "corpserussian"
 
 /datum/outfit/russiancorpse
 	name = "Russian Corpse"
@@ -117,6 +118,7 @@
 /obj/effect/mob_spawn/human/corpse/russian/ranged
 	name = "Russian Rifleman"
 	outfit = /datum/outfit/russiancorpse/ranged
+	icon_state = "corpserussianranged"
 
 /datum/outfit/russiancorpse/ranged
 	name = "Russian Rifleman Corpse"
@@ -126,6 +128,7 @@
 /obj/effect/mob_spawn/human/corpse/russian/ranged/trooper
 	name = "Russian Soldier"
 	outfit = /datum/outfit/russiancorpse/ranged/trooper
+	icon_state = "corpserussiantrooper"
 
 /datum/outfit/russiancorpse/ranged/trooper
 	name = "Russian Soldier Corpse"
@@ -141,6 +144,7 @@
 /obj/effect/mob_spawn/human/corpse/russian/ranged/officer
 	name = "Russian Officer"
 	outfit = /datum/outfit/russiancorpse/officer
+	icon_state = "corpserussianofficer"
 
 /datum/outfit/russiancorpse/officer
 	name = "Russian Officer Corpse"
@@ -153,6 +157,7 @@
 /obj/effect/mob_spawn/human/corpse/russian/ranged/automatic
 	name = "Russian Trooper"
 	outfit = /datum/outfit/russiancorpse/automatic
+	icon_state = "corpserussianautomatic"
 
 /datum/outfit/russiancorpse/automatic
 	name = "Russian Trooper Corpse"
@@ -324,3 +329,50 @@
 	mask = /obj/item/clothing/mask/gas/sechailer
 	head = /obj/item/clothing/head/helmet/old/charlie/beret
 	id = /obj/item/card/id/away/old/sec
+
+/obj/effect/mob_spawn/human/corpse/police
+	name = "\improper SolGov Police Officer"
+	id_job = "SolGov Police Officer"
+	outfit = /datum/outfit/police
+	icon_state = "corpsepolice"
+
+/datum/outfit/police
+	name = "SolGov Police Officer Corpse"
+	uniform = /obj/item/clothing/under/rank/security/officer/spacepol
+	suit = /obj/item/clothing/suit/armor/bulletproof/spacepol
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/tackler/combat
+	head = /obj/item/clothing/head/helmet/police
+	glasses = /obj/item/clothing/glasses/sunglasses
+	mask = /obj/item/clothing/mask/gas/sechailer/swat/spacepol
+	id = /obj/item/card/id/solgov/police
+
+/obj/effect/mob_spawn/human/corpse/police/chief
+	name = "\improper SolGov Police Chief"
+	id_job = "SolGov Police Chief"
+	outfit = /datum/outfit/policechief
+	icon_state = "corpsepolicechief"
+
+/datum/outfit/policechief
+	name = "SolGov Police Chief Corpse"
+	uniform = /obj/item/clothing/under/rank/security/officer/spacepol/chief
+	suit = /obj/item/clothing/suit/armor/bulletproof/spacepol/chief
+	shoes = /obj/item/clothing/shoes/combat/swat
+	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
+	head = /obj/item/clothing/head/helmet/police/chief
+	glasses = /obj/item/clothing/glasses/sunglasses
+	mask = /obj/item/clothing/mask/gas/sechailer/swat/spacepol
+	id = /obj/item/card/id/solgov/police/chief
+
+/obj/effect/mob_spawn/human/corpse/solgovprisoner
+	name = "\improper SolGov Prisoner"
+	id_job = "SolGov Prisoner"
+	outfit = /datum/outfit/solgovprisoner
+	icon_state = "corpsesolgovprisoner"
+
+/datum/outfit/solgovprisoner
+	name = "SolGov Prisoner Corpse"
+	uniform = /obj/item/clothing/under/rank/prisoner/solgov
+	shoes = /obj/item/clothing/shoes/workboots
+	gloves = /obj/item/clothing/gloves/fingerless
+	id = /obj/item/card/id/prisoner

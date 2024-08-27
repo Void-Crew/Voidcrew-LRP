@@ -197,9 +197,15 @@
 
 /obj/item/clothing/head/helmet/police
 	name = "police officer's hat"
-	desc = "A police officer's Hat. This hat emphasizes that you are THE LAW."
+	desc = "A snazzy, vintage-looking kind of police cap, usually a five-point cap, but this one seems more formal. With a golden badge indicating who's the actual law. Worn by SolGov Police."
 	icon_state = "policehelm"
-	dynamic_hair_suffix = ""
+	armor = list("melee" = 50, "bullet" = 40, "laser" = 30,"energy" = 40, "bomb" = 50, "bio" = 90, "rad" = 20, "fire" = 100, "acid" = 100)
+
+/obj/item/clothing/head/helmet/police/chief
+	name = "police chief's hat"
+	desc = "A snazzy, vintage-looking kind of police cap, usually a five-point cap, but this one seems more formal. With a golden badge indicating who's the actual law, not to mention that gold visor! Worn by SolGov Police."
+	icon_state = "policehelm_chief"
+	armor = list("melee" = 50, "bullet" = 40, "laser" = 30,"energy" = 40, "bomb" = 50, "bio" = 90, "rad" = 20, "fire" = 100, "acid" = 100)
 
 /obj/item/clothing/head/helmet/constable
 	name = "constable helmet"
