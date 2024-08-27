@@ -165,6 +165,9 @@
 "eW" = (
 /obj/structure/table/reinforced/rglass,
 /obj/item/storage/toolbox/emergency,
+/obj/machinery/vending/wallmed{
+	pixel_y = -27
+	},
 /turf/open/floor/iron/smooth,
 /area/ship/bridge)
 "eZ" = (
@@ -282,6 +285,9 @@
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
+	},
+/obj/structure/closet/emcloset/wall{
+	pixel_y = 27
 	},
 /turf/open/floor/plating,
 /area/ship/engineering)
@@ -1182,6 +1188,10 @@
 /obj/structure/cable,
 /obj/machinery/power/terminal{
 	dir = 8
+	},
+/obj/structure/closet/firecloset/wall{
+	dir = 1;
+	pixel_y = -27
 	},
 /turf/open/floor/plating,
 /area/ship/engineering)
