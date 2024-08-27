@@ -275,3 +275,17 @@ GLOBAL_LIST_INIT(available_depts, list(SEC_DEPT_ENGINEERING, SEC_DEPT_MEDICAL, S
 	l_pocket = /obj/item/reagent_containers/food/drinks/bottle/vodka
 	r_pocket = /obj/item/flashlight/seclite
 	backpack_contents = list(/obj/item/melee/baton/loaded=1) //VC edit - fuck your security rearming. glory to the soviet union
+
+/datum/outfit/job/security/police
+	name = "Officer (SolGov Police)"
+
+	head = /obj/item/clothing/head/helmet/police
+	suit = /obj/item/clothing/suit/armor/bulletproof/spacepol
+	suit_store = /obj/item/gun/ballistic/automatic/pistol/m1911
+	mask = /obj/item/clothing/mask/gas/sechailer/swat/spacepol
+	uniform = /obj/item/clothing/under/rank/security/officer/spacepol
+	shoes = /obj/item/clothing/shoes/combat
+	glasses = /obj/item/clothing/glasses/hud/security/sunglasses
+	gloves = /obj/item/clothing/gloves/tackler/combat
+	id = /obj/item/card/id/solgov/police
+	backpack_contents = list(/obj/item/melee/classic_baton=1, /obj/item/ammo_box/magazine/m45=1, /obj/item/gun_voucher=1)

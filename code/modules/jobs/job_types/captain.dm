@@ -145,3 +145,16 @@
 	accessory = /obj/item/clothing/accessory/medal/silver/valor
 
 	chameleon_extras = list(/obj/item/gun/ballistic/rifle/boltaction, /obj/item/stamp/captain)
+
+/datum/outfit/job/captain/police
+	name = "Chief (SolGov Police)"
+
+	uniform =  /obj/item/clothing/under/rank/security/officer/spacepol/chief
+	head = /obj/item/clothing/head/helmet/police/chief
+	glasses = /obj/item/clothing/glasses/hud/security/sunglasses
+	mask = /obj/item/clothing/mask/gas/sechailer/swat/spacepol
+	suit = /obj/item/clothing/suit/armor/bulletproof/spacepol/chief
+	alt_suit = /obj/item/clothing/suit/armor/bulletproof/spacepol
+	shoes = /obj/item/clothing/shoes/combat/swat
+	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
+	id = /obj/item/card/id/solgov/police/chief

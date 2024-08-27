@@ -29,3 +29,13 @@
 	alt_uniform = /obj/item/clothing/under/rank/prisoner/protected_custody
 	alt_suit = null
 	shoes = /obj/item/clothing/shoes/sneakers/orange
+
+/datum/outfit/job/prisoner/solgov
+	name = "Prisoner (SolGov)"
+
+	uniform = /obj/item/clothing/under/rank/prisoner/solgov
+	alt_uniform = null
+	alt_suit = null
+	shoes = /obj/item/clothing/shoes/workboots
+	gloves = /obj/item/clothing/gloves/fingerless
+	id = /obj/item/card/id/prisoner

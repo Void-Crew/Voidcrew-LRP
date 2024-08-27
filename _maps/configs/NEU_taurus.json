@@ -1,0 +1,19 @@
+{
+	"prefix": "NEU",
+	"map_name": "Taurus-Class Lead Police Cruiser",
+	"map_short_name": "Taurus-class",
+	"map_path": "_maps/shuttles/shiptest/voidcrew/NEU_taurus.dmm",
+	"limit": 2,
+	"job_slots": {
+		"Police Chief": {
+			"outfit": "/datum/outfit/job/captain/police",
+			"officer": true,
+			"slots": 1
+		},
+		"Police Officer": {
+			"outfit": "/datum/outfit/job/security/police",
+			"slots": 3
+		}
+	},
+	"cost": 500
+}

@@ -205,6 +205,13 @@
 	icon_state = "protected_custody_skirt"
 	supports_variations = DIGITIGRADE_VARIATION_NO_NEW_ICON
 
+/obj/item/clothing/under/rank/prisoner/solgov
+	name = "SolGov prisoner uniform"
+	desc = "It's a unique uniform worn by Prisoners under the Solar Government's cold grasp, whoever's wearing this is just a number now. Its suit sensors are stuck in the \"Fully On\" position."
+	icon_state = "solgovprisoner"
+	item_state = "b_suit"
+	random_sensor = FALSE
+
 // Non-official //
 /obj/item/clothing/under/rank/security/old
 	name = "ancient sec jumpsuit"
@@ -221,11 +228,17 @@
 	custom_price = 200
 
 /obj/item/clothing/under/rank/security/officer/spacepol
-	name = "police uniform"
-	desc = "Space not controlled by megacorporations, planets, or pirates is under the jurisdiction of Spacepol."
+	name = "police officer's uniform"
+	desc = "A snazzy, vintage-looking kind of police uniform with a golden badge indicating who's the actual law. Worn by SolGov Police."
 	icon_state = "spacepol"
 	item_state = "spacepol"
 	can_adjust = FALSE
+
+/obj/item/clothing/under/rank/security/officer/spacepol/chief
+	name = "police chief's uniform"
+	desc = "A snazzy, vintage-looking kind of police uniform with a golden badge indicating who's the actual law, with added gold on the uniform, and black pants! Worn by SolGov Police."
+	icon_state = "spacepol_chief"
+	item_state = "spacepol_chief"
 
 /obj/item/clothing/under/rank/security/officer/beatcop
 	name = "space police uniform"

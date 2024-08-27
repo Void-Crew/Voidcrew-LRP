@@ -24,7 +24,7 @@
 /obj/item/ammo_casing/spent
 	name = "spent bullet casing"
 	desc = "A bullet casing. This one is spent."
-	icon_state = "pistol-brass-empty"
+	icon_state = "pistol-brass"
 	BB = null
 
 /obj/item/ammo_casing/Initialize()

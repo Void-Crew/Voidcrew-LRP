@@ -218,6 +218,20 @@
 	strip_delay = 70
 	equip_delay_other = 50
 
+/obj/item/clothing/suit/armor/bulletproof/spacepol
+	name = "police bulletproof armor"
+	desc = "A Type III heavy bulletproof vest that excels in protecting the wearer against traditional projectile weaponry and explosives to a minor extent, with an added SolGov Police badge!"
+	icon_state = "bulletproof_spacepol"
+	item_state = "armor"
+
+/obj/item/clothing/suit/armor/bulletproof/spacepol/chief
+	name = "police chief's armored jacket"
+	desc = "An armored jacket worn by Police Chiefs of the SolGov Police, armored to git!."
+	icon_state = "policejacket"
+	item_state = "armor"
+	armor = list("melee" = 45, "bullet" = 70, "laser" = 25, "energy" = 25, "bomb" = 15, "bio" = 15, "rad" = 10, "fire" = 50, "acid" = 50)
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
+
 /obj/item/clothing/suit/armor/laserproof
 	name = "reflector vest"
 	desc = "A vest that excels in protecting the wearer against energy projectiles, as well as occasionally reflecting them."
