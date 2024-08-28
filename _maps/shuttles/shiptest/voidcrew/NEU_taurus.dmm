@@ -192,7 +192,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ship/external)
+/area/ship/engineering)
 "gn" = (
 /turf/open/floor/iron/smooth_corner{
 	dir = 4
@@ -336,7 +336,7 @@
 	icon_state = "0-4"
 	},
 /turf/open/floor/plating,
-/area/ship/external)
+/area/ship/engineering)
 "kt" = (
 /obj/machinery/computer/crew,
 /turf/open/floor/iron/smooth_edge,
@@ -406,10 +406,6 @@
 	},
 /turf/open/floor/plating,
 /area/ship/crew/dorm)
-"nq" = (
-/obj/machinery/telecomms/allinone,
-/turf/open/floor/iron/smooth,
-/area/ship/bridge)
 "nC" = (
 /obj/structure/window/plasma/reinforced/plastitanium,
 /obj/structure/grille,
@@ -1018,6 +1014,10 @@
 	},
 /turf/open/floor/iron/textured_large,
 /area/ship/hallway/central)
+"Kv" = (
+/obj/machinery/telecomms/allinone,
+/turf/open/floor/iron/smooth,
+/area/ship/bridge)
 "Ky" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 9
@@ -1790,7 +1790,7 @@ gn
 yO
 Ec
 De
-nq
+Kv
 nC
 nC
 kN
