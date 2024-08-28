@@ -350,6 +350,12 @@
 "kN" = (
 /turf/open/space/basic,
 /area/space)
+"kT" = (
+/obj/machinery/porta_turret/centcom_shuttle/ballistic{
+	dir = 6
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ship/security/armory)
 "lc" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/machinery/light{
@@ -406,6 +412,12 @@
 	},
 /turf/open/floor/plating,
 /area/ship/crew/dorm)
+"ne" = (
+/obj/machinery/porta_turret/centcom_shuttle/ballistic{
+	dir = 5
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ship/hallway/central)
 "nC" = (
 /obj/structure/window/plasma/reinforced/plastitanium,
 /obj/structure/grille,
@@ -464,6 +476,12 @@
 	},
 /turf/open/floor/iron/herringbone,
 /area/ship/hallway/central)
+"pT" = (
+/obj/machinery/porta_turret/centcom_shuttle/ballistic{
+	dir = 5
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ship/engineering)
 "pZ" = (
 /obj/structure/table/reinforced/rglass,
 /obj/machinery/recharger,
@@ -1038,6 +1056,10 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/ship/bridge)
+"Lm" = (
+/obj/machinery/telecomms/allinone,
+/turf/open/floor/iron/smooth,
+/area/ship/bridge)
 "Lx" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
@@ -1072,10 +1094,6 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering)
-"Np" = (
-/obj/machinery/telecomms/allinone,
-/turf/open/floor/iron/smooth,
-/area/ship/bridge)
 "Nx" = (
 /obj/structure/railing{
 	dir = 4
@@ -1273,6 +1291,12 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/ship/crew/dorm)
+"Uh" = (
+/obj/machinery/porta_turret/centcom_shuttle/ballistic{
+	dir = 6
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ship/engineering)
 "Uj" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1498,7 +1522,7 @@ ZS
 "}
 (7,1,1) = {"
 kN
-dy
+pT
 dy
 CV
 cm
@@ -1512,7 +1536,7 @@ lG
 gP
 dX
 dy
-dy
+Uh
 kN
 "}
 (8,1,1) = {"
@@ -1614,7 +1638,7 @@ kN
 kN
 kN
 kN
-tv
+ne
 tv
 tv
 tv
@@ -1624,7 +1648,7 @@ Pf
 CE
 eE
 wL
-Hg
+kT
 kN
 kN
 kN
@@ -1793,7 +1817,7 @@ gn
 yO
 Ec
 De
-Np
+Lm
 nC
 nC
 kN
