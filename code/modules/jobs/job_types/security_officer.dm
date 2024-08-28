@@ -281,7 +281,7 @@ GLOBAL_LIST_INIT(available_depts, list(SEC_DEPT_ENGINEERING, SEC_DEPT_MEDICAL, S
 
 	head = /obj/item/clothing/head/helmet/police
 	suit = /obj/item/clothing/suit/armor/bulletproof/spacepol
-	suit_store = /obj/item/gun/ballistic/automatic/pistol/m1911
+	suit_store = /obj/item/gun/ballistic/automatic/pistol/candor
 	mask = /obj/item/clothing/mask/gas/sechailer/swat/spacepol
 	uniform = /obj/item/clothing/under/rank/security/officer/spacepol
 	shoes = /obj/item/clothing/shoes/combat
