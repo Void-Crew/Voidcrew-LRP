@@ -203,7 +203,7 @@
 	flags_inv = HIDEHAIR
 
 /obj/item/clothing/head/helmet/police/chief
-	name = "police chief's hat"
+	name = "police command's hat"
 	desc = "A snazzy, vintage-looking kind of police cap, usually a five-point cap, but this one seems more formal. With a golden badge indicating who's the actual law, not to mention that gold visor! Worn by SolGov Police."
 	icon_state = "policehelm_chief"
 	armor = list("melee" = 50, "bullet" = 40, "laser" = 30,"energy" = 40, "bomb" = 50, "bio" = 90, "rad" = 20, "fire" = 100, "acid" = 100)

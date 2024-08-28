@@ -334,6 +334,8 @@
 	name = "\improper SolGov Police Officer"
 	id_job = "SolGov Police Officer"
 	outfit = /datum/outfit/police
+	hairstyle = "Bald"
+	facial_hairstyle = "Shaved"
 	icon_state = "corpsepolice"
 
 /datum/outfit/police
@@ -347,27 +349,55 @@
 	mask = /obj/item/clothing/mask/gas/sechailer/swat/spacepol
 	id = /obj/item/card/id/solgov/police
 
-/obj/effect/mob_spawn/human/corpse/police/chief
-	name = "\improper SolGov Police Chief"
-	id_job = "SolGov Police Chief"
-	outfit = /datum/outfit/policechief
+/obj/effect/mob_spawn/human/corpse/police/armorless
+	name = "\improper SolGov Police Officer"
+	id_job = "SolGov Police Officer"
+	outfit = /datum/outfit/police/armorless
+	hairstyle = "Bald"
+	facial_hairstyle = "Shaved"
+	icon_state = "corpsepolice"
+
+/datum/outfit/police/armorless
+	name = "SolGov Police Officer Corpse (Armorless)"
+	suit = null
+
+/obj/effect/mob_spawn/human/corpse/police/hicom
+	name = "\improper SolGov Police Lieutenant"
+	id_job = "SolGov Police Lieutenant"
+	outfit = /datum/outfit/policehicom
+	hairstyle = "Bald"
+	facial_hairstyle = "Shaved"
 	icon_state = "corpsepolicechief"
 
-/datum/outfit/policechief
-	name = "SolGov Police Chief Corpse"
+/datum/outfit/policehicom
+	name = "SolGov Police HICOM Corpse"
 	uniform = /obj/item/clothing/under/rank/security/officer/spacepol/chief
-	suit = /obj/item/clothing/suit/armor/bulletproof/spacepol/chief
-	shoes = /obj/item/clothing/shoes/combat/swat
-	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
+	suit = /obj/item/clothing/suit/armor/bulletproof/spacepol
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/tackler/combat
 	head = /obj/item/clothing/head/helmet/police/chief
 	glasses = /obj/item/clothing/glasses/sunglasses
 	mask = /obj/item/clothing/mask/gas/sechailer/swat/spacepol
-	id = /obj/item/card/id/solgov/police/chief
+	id = /obj/item/card/id/solgov/police
+
+/obj/effect/mob_spawn/human/corpse/police/hicom/armorless
+	name = "\improper SolGov Police Lieutenant"
+	id_job = "SolGov Police Lieutenant"
+	outfit = /datum/outfit/policehicom/armorless
+	hairstyle = "Bald"
+	facial_hairstyle = "Shaved"
+	icon_state = "corpsepolicechief"
+
+/datum/outfit/policehicom/armorless
+	name = "SolGov Police HICOM Corpse (Armorless)"
+	suit = null
 
 /obj/effect/mob_spawn/human/corpse/solgovprisoner
 	name = "\improper SolGov Prisoner"
 	id_job = "SolGov Prisoner"
 	outfit = /datum/outfit/solgovprisoner
+	hairstyle = "Bald"
+	facial_hairstyle = "Shaved"
 	icon_state = "corpsesolgovprisoner"
 
 /datum/outfit/solgovprisoner

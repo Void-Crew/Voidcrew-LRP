@@ -235,7 +235,7 @@
 	can_adjust = FALSE
 
 /obj/item/clothing/under/rank/security/officer/spacepol/chief
-	name = "police chief's uniform"
+	name = "police commmand's uniform"
 	desc = "A snazzy, vintage-looking kind of police uniform with a golden badge indicating who's the actual law, with added gold on the uniform, and black pants! Worn by SolGov Police."
 	icon_state = "spacepol_chief"
 	item_state = "spacepol_chief"
