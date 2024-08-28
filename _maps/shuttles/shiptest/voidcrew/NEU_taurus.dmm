@@ -779,6 +779,10 @@
 	},
 /turf/open/floor/iron,
 /area/ship/security/prison)
+"AK" = (
+/obj/machinery/telecomms/allinone,
+/turf/open/floor/iron/smooth,
+/area/ship/bridge)
 "CE" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 9
@@ -1263,10 +1267,6 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/ship/crew/dorm)
-"Ui" = (
-/obj/machinery/telecomms/allinone,
-/turf/open/floor/iron/smooth,
-/area/ship/bridge)
 "Uj" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1790,7 +1790,7 @@ gn
 yO
 Ec
 De
-Ui
+AK
 nC
 nC
 kN
