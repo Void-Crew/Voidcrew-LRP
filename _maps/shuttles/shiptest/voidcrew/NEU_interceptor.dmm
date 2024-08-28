@@ -16,13 +16,11 @@
 /turf/open/floor/iron/herringbone,
 /area/ship/hallway/central)
 "by" = (
-/obj/structure/table/reinforced/rglass,
-/obj/item/storage/toolbox/emergency,
-/obj/item/megaphone/command,
 /obj/machinery/light{
 	dir = 8
 	},
 /obj/machinery/airalarm/directional/south,
+/obj/machinery/telecomms/allinone,
 /turf/open/floor/iron/smooth,
 /area/ship/bridge)
 "bz" = (
@@ -104,8 +102,23 @@
 /turf/open/floor/iron/smooth,
 /area/ship/bridge)
 "hF" = (
-/obj/structure/chair/office{
-	dir = 4
+/obj/structure/table/reinforced/rglass,
+/obj/machinery/button/door{
+	pixel_y = 7;
+	name = "Bridge Window Control";
+	id = "interceptor_bridge_window"
+	},
+/obj/machinery/button/door{
+	pixel_y = -3;
+	name = "External Window Control";
+	id = "interceptor_ext_window";
+	pixel_x = -6
+	},
+/obj/machinery/button/door{
+	pixel_y = -3;
+	name = "Engine Shutters Control";
+	pixel_x = 6;
+	id = "interceptor_engine"
 	},
 /turf/open/floor/iron/smooth_large,
 /area/ship/bridge)
@@ -293,7 +306,7 @@
 /turf/open/floor/iron/dark/small,
 /area/ship/bridge)
 "pL" = (
-/obj/machinery/computer/autopilot{
+/obj/machinery/computer/helm{
 	dir = 8
 	},
 /turf/open/floor/iron/smooth,
@@ -366,6 +379,9 @@
 /turf/open/floor/iron/dark/small,
 /area/ship/hallway/central)
 "Aj" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
 /turf/open/floor/iron/smooth_corner,
 /area/ship/bridge)
 "Au" = (
@@ -634,23 +650,8 @@
 /area/ship/bridge)
 "Wm" = (
 /obj/structure/table/reinforced/rglass,
-/obj/machinery/button/door{
-	pixel_y = 7;
-	name = "Bridge Window Control";
-	id = "interceptor_bridge_window"
-	},
-/obj/machinery/button/door{
-	pixel_y = -3;
-	name = "External Window Control";
-	id = "interceptor_ext_window";
-	pixel_x = -6
-	},
-/obj/machinery/button/door{
-	pixel_y = -3;
-	name = "Engine Shutters Control";
-	pixel_x = 6;
-	id = "interceptor_engine"
-	},
+/obj/item/storage/toolbox/emergency,
+/obj/item/megaphone/command,
 /turf/open/floor/iron/smooth,
 /area/ship/bridge)
 "WC" = (
@@ -663,7 +664,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "WE" = (
-/obj/machinery/computer/helm{
+/obj/machinery/computer/autopilot{
 	dir = 8
 	},
 /turf/open/floor/iron/smooth_edge{
@@ -671,6 +672,9 @@
 	},
 /area/ship/bridge)
 "WM" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
 /turf/open/floor/iron/smooth_corner{
 	dir = 4
 	},

@@ -499,9 +499,19 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/structure/sign/poster/solgov/nanomichi_ad{
-	pixel_x = -32
+/obj/structure/closet/wall{
+	dir = 4;
+	pixel_x = -27;
+	name = "emergency riot locker"
 	},
+/obj/item/gun/ballistic/shotgun/hellfire,
+/obj/item/ammo_box/a12g/beanbag,
+/obj/item/ammo_box/a12g/beanbag,
+/obj/item/ammo_box/a12g/beanbag,
+/obj/item/clothing/suit/armor/riot,
+/obj/item/clothing/suit/armor/riot,
+/obj/item/clothing/head/helmet/riot,
+/obj/item/clothing/head/helmet/riot,
 /turf/open/floor/iron/smooth_edge{
 	dir = 4
 	},
@@ -1253,6 +1263,10 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/ship/crew/dorm)
+"Ui" = (
+/obj/machinery/telecomms/allinone,
+/turf/open/floor/iron/smooth,
+/area/ship/bridge)
 "Uj" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1776,7 +1790,7 @@ gn
 yO
 Ec
 De
-pZ
+Ui
 nC
 nC
 kN
