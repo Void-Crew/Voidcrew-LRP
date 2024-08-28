@@ -349,17 +349,18 @@
 /turf/open/floor/iron/herringbone,
 /area/ship/engineering)
 "M" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 1
+/obj/structure/fans/tiny,
+/obj/effect/decal/cleanable/blood/tracks,
+/obj/docking_port/mobile{
+	callTime = 250;
+	launch_status = 0;
+	name = "Slammer-Class";
+	preferred_direction = 4;
+	port_direction = 8;
+	dir = 2
 	},
-/obj/structure/closet/crate/preopen{
-	name = "space suit crate"
-	},
-/obj/item/clothing/suit/space,
-/obj/item/clothing/suit/space,
-/obj/item/clothing/head/helmet/space,
-/obj/item/clothing/head/helmet/space,
-/turf/open/floor/iron/textured_large,
+/obj/machinery/door/airlock/external,
+/turf/open/floor/plating,
 /area/ship/engineering)
 "N" = (
 /obj/effect/decal/cleanable/blood,
@@ -494,18 +495,17 @@
 /turf/closed/wall/mineral/plastitanium,
 /area/ship/engineering)
 "Y" = (
-/obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
-/obj/effect/decal/cleanable/blood/tracks,
-/obj/docking_port/mobile{
-	callTime = 250;
-	launch_status = 0;
-	name = "Slammer-Class";
-	preferred_direction = 4;
-	port_direction = 8;
-	dir = 2
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
 	},
-/turf/open/floor/plating,
+/obj/structure/closet/crate/preopen{
+	name = "space suit crate"
+	},
+/obj/item/clothing/suit/space,
+/obj/item/clothing/suit/space,
+/obj/item/clothing/head/helmet/space,
+/obj/item/clothing/head/helmet/space,
+/turf/open/floor/iron/textured_large,
 /area/ship/engineering)
 "Z" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
@@ -668,10 +668,10 @@ a
 (15,1,1) = {"
 a
 a
-Y
+M
 s
 f
-M
+Y
 l
 a
 a
