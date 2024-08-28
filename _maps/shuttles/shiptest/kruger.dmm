@@ -80,6 +80,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/food/flour,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "cg" = (
@@ -107,6 +110,12 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
 /obj/machinery/airalarm/directional/north,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "dJ" = (
@@ -322,6 +331,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/firealarm/north,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "lB" = (
@@ -349,6 +361,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
 	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
 	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
@@ -425,6 +440,9 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
@@ -534,6 +552,9 @@
 	name = "Engine Access Shutters";
 	id = "kruger_engine"
 	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
 /turf/open/floor/iron/dark/textured_large,
 /area/ship/hallway/central)
 "sZ" = (
@@ -575,6 +596,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/plasma,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "uw" = (
@@ -596,6 +620,12 @@
 	pixel_y = 32
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "vl" = (
@@ -611,6 +641,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
 	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
@@ -630,24 +663,6 @@
 /obj/item/stock_parts/cell/gun/mini,
 /obj/item/gun/energy/e_gun/mini,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/clothing/under/rank/cargo/qm,
-/obj/item/clothing/under/suit/qm,
-/obj/item/clothing/head/beret/qm,
-/obj/item/clothing/suit/hooded/wintercoat/cargo/qm,
-/obj/item/megaphone/cargo,
-/obj/item/clothing/neck/cloak/qm,
-/obj/item/clothing/head/soft,
-/obj/item/storage/lockbox/medal/cargo,
-/obj/item/export_scanner,
-/obj/item/clothing/gloves/fingerless,
-/obj/item/clothing/suit/fire/firefighter,
-/obj/item/clothing/head/hardhat,
-/obj/item/circuitboard/machine/techfab/department/cargo,
-/obj/item/clothing/shoes/sneakers/brown,
-/obj/item/door_remote/quartermaster,
-/obj/item/clothing/mask/gas,
-/obj/item/radio/headset/heads/qm,
-/obj/item/storage/photo_album/QM,
 /turf/open/floor/pod/light,
 /area/ship/bridge)
 "vT" = (
@@ -900,6 +915,7 @@
 /obj/machinery/power/shuttle/engine/electric{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ship/hallway/central)
 "Jc" = (
@@ -927,6 +943,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
 	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
@@ -1001,6 +1020,9 @@
 /obj/machinery/door/poddoor/shutters{
 	name = "Engine Access Shutters";
 	id = "kruger_engine"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/ship/hallway/central)
@@ -1116,6 +1138,16 @@
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/pod/dark,
 /area/ship/cargo/office)
+"RL" = (
+/obj/machinery/mineral/ore_redemption,
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/cargo/office)
 "RN" = (
 /obj/effect/turf_decal/trimline/brown/filled/line,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
@@ -1228,6 +1260,13 @@
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/plating,
 /area/ship/engineering)
+"Vc" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/power/terminal,
+/turf/open/floor/iron/dark,
+/area/ship/hallway/central)
 "Vd" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/hallway/central)
@@ -1312,6 +1351,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "Xh" = (
@@ -1341,6 +1383,12 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "Zq" = (
@@ -1354,6 +1402,9 @@
 	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "Zt" = (
@@ -1377,12 +1428,17 @@
 	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "ZI" = (
 /obj/effect/turf_decal/trimline/brown/filled/line,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/garbage,
+/obj/structure/cable,
+/obj/machinery/power/terminal,
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "ZM" = (
@@ -1518,7 +1574,7 @@ Dg
 qk
 qk
 Zf
-Gb
+Vc
 sn
 Is
 "}
@@ -1538,7 +1594,7 @@ wz
 vy
 qk
 dB
-Gb
+Vc
 Mf
 Is
 "}
@@ -1572,7 +1628,7 @@ aE
 be
 vT
 vT
-vT
+RL
 CU
 vT
 vT
@@ -1638,7 +1694,7 @@ He
 vT
 vT
 um
-Gb
+Vc
 Mf
 Is
 "}

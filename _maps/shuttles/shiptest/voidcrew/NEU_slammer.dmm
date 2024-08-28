@@ -155,7 +155,6 @@
 /turf/open/floor/iron/textured_large,
 /area/ship/engineering)
 "r" = (
-/obj/item/gun/ballistic/automatic/pistol/m1911,
 /obj/machinery/power/terminal{
 	dir = 8
 	},
@@ -164,6 +163,7 @@
 	},
 /obj/structure/cable,
 /obj/effect/decal/cleanable/blood/drip,
+/obj/item/gun/ballistic/automatic/pistol/candor,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "s" = (
@@ -192,7 +192,7 @@
 	},
 /obj/item/storage/toolbox/emergency,
 /obj/item/storage/box/handcuffs,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_half,
 /area/ship/engineering)
 "v" = (
 /obj/effect/decal/cleanable/blood/splatter,
@@ -278,14 +278,16 @@
 /obj/machinery/computer/helm{
 	dir = 8
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_half{
+	dir = 8
+	},
 /area/ship/engineering)
 "D" = (
 /obj/machinery/computer/autopilot,
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 27
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_half,
 /area/ship/engineering)
 "E" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
@@ -372,7 +374,7 @@
 	dir = 8
 	},
 /obj/machinery/suit_storage_unit/standard_unit,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_half,
 /area/ship/engineering)
 "L" = (
 /obj/effect/decal/cleanable/blood,
@@ -403,12 +405,13 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
-/obj/effect/mob_spawn/human/corpse/police,
+/obj/effect/mob_spawn/human/corpse/police/armorless,
 /obj/item/paper/crumpled/bloody{
 	info = "You'd think they would make a bigger bus, with more officers with the amount of prisoners we always deliver. I almost feel like every one of them is staring daggers into the back of my head while I pilot this heap of junk. Not to mention the smart fucks who manufactured this ship left access on all the doors, so who knows what happens next. I really don't think it'll make it easier when they'll realize we'll put them to work in the mines either, they're all curious about the mining gear we have in the back, but I just keep telling them it's for emergency. They'll learn about it after we hand them off to the officers on the minin-~";
 	name = "Concerned Note"
 	},
 /obj/item/pen,
+/obj/machinery/light/floor,
 /turf/open/floor/iron/smooth_large,
 /area/ship/engineering)
 "O" = (
@@ -432,7 +435,7 @@
 	name = "External Window Control";
 	id = "slammer_ext_window"
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_half,
 /area/ship/engineering)
 "P" = (
 /obj/effect/mob_spawn/human/corpse/police,
