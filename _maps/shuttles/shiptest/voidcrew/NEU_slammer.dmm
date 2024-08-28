@@ -39,7 +39,7 @@
 "f" = (
 /obj/item/restraints/handcuffs,
 /obj/effect/decal/cleanable/blood/tracks{
-	dir = 5
+	dir = 6
 	},
 /turf/open/floor/iron/herringbone,
 /area/ship/engineering)
@@ -263,7 +263,7 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
-/obj/structure/sign/poster/solgov/solgov_enlist{
+/obj/structure/sign/warning/vacuum/external{
 	pixel_y = 32
 	},
 /turf/open/floor/iron/textured_large,
@@ -348,15 +348,18 @@
 /turf/open/floor/iron/herringbone,
 /area/ship/engineering)
 "M" = (
-/obj/effect/turf_decal/siding/thinplating/dark,
-/obj/item/clothing/suit/space,
-/obj/item/clothing/suit/space,
-/obj/item/clothing/head/helmet/space,
-/obj/item/clothing/head/helmet/space,
-/obj/structure/closet/crate/preopen{
-	name = "space suit crate"
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/external/glass,
+/obj/effect/decal/cleanable/blood/tracks,
+/obj/docking_port/mobile{
+	callTime = 250;
+	launch_status = 0;
+	name = "Slammer-Class";
+	preferred_direction = 4;
+	port_direction = 8;
+	dir = 2
 	},
-/turf/open/floor/iron/textured_large,
+/turf/open/floor/plating,
 /area/ship/engineering)
 "N" = (
 /obj/effect/decal/cleanable/blood,
@@ -477,31 +480,31 @@
 /obj/structure/window/reinforced/survival_pod{
 	dir = 4
 	},
-/obj/structure/sign/warning/vacuum/external{
-	pixel_y = -32
-	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
 /obj/effect/mob_spawn/human/corpse/solgovprisoner,
 /obj/effect/decal/cleanable/blood,
+/obj/structure/sign/poster/solgov/solgov_enlist{
+	pixel_y = -32
+	},
 /turf/open/floor/iron/textured_large,
 /area/ship/engineering)
 "X" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/ship/engineering)
 "Y" = (
-/obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
-/obj/effect/decal/cleanable/blood/tracks,
-/obj/docking_port/mobile{
-	callTime = 250;
-	launch_status = 0;
-	name = "Slammer-Class";
-	preferred_direction = 8;
-	port_direction = 4
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
 	},
-/turf/open/floor/plating,
+/obj/structure/closet/crate/preopen{
+	name = "space suit crate"
+	},
+/obj/item/clothing/suit/space,
+/obj/item/clothing/suit/space,
+/obj/item/clothing/head/helmet/space,
+/obj/item/clothing/head/helmet/space,
+/turf/open/floor/iron/textured_large,
 /area/ship/engineering)
 "Z" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
@@ -664,11 +667,11 @@ a
 (15,1,1) = {"
 a
 a
-l
 M
-f
 s
+f
 Y
+l
 a
 a
 "}
