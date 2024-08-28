@@ -12,6 +12,9 @@
 	dir = 4
 	},
 /obj/item/ammo_casing/spent,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 8
+	},
 /turf/open/floor/iron/herringbone,
 /area/ship/engineering)
 "d" = (
@@ -19,6 +22,9 @@
 	name = "Engineering"
 	},
 /obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 8
+	},
 /turf/open/floor/iron/dark/small,
 /area/ship/engineering)
 "e" = (
@@ -42,6 +48,9 @@
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 6
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 8
+	},
 /turf/open/floor/iron/herringbone,
 /area/ship/engineering)
 "g" = (
@@ -59,8 +68,15 @@
 /area/ship/engineering)
 "i" = (
 /obj/item/restraints/handcuffs,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
+	},
 /turf/open/floor/iron/herringbone,
 /area/ship/engineering)
+"j" = (
+/obj/machinery/atmospherics/components/unary/passive_vent,
+/turf/open/floor/plating/airless,
+/area/ship/external)
 "k" = (
 /obj/machinery/power/smes,
 /obj/structure/cable{
@@ -69,6 +85,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 10
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/iron/textured_large,
 /area/ship/engineering)
 "l" = (
@@ -92,12 +109,14 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/iron/textured_large,
 /area/ship/engineering)
 "o" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/mob_spawn/human/corpse/solgovprisoner,
 /obj/item/kitchen/knife/shiv,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
 /turf/open/floor/iron/herringbone,
 /area/ship/engineering)
 "p" = (
@@ -161,6 +180,9 @@
 	dir = 4
 	},
 /obj/machinery/airalarm/directional/north,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 8
+	},
 /turf/open/floor/iron/textured_large,
 /area/ship/engineering)
 "u" = (
@@ -175,6 +197,9 @@
 "v" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/machinery/light/floor,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 8
+	},
 /turf/open/floor/iron/herringbone,
 /area/ship/engineering)
 "w" = (
@@ -194,6 +219,9 @@
 "x" = (
 /obj/effect/decal/cleanable/blood/drip,
 /obj/item/ammo_casing/spent,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 8
+	},
 /turf/open/floor/iron/herringbone,
 /area/ship/engineering)
 "y" = (
@@ -232,12 +260,18 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/blood/drip,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 5
+	},
 /turf/open/floor/plating,
 /area/ship/engineering)
 "B" = (
 /obj/item/ammo_casing/spent,
 /obj/item/ammo_casing/spent,
 /obj/machinery/light/floor,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 5
+	},
 /turf/open/floor/iron/herringbone,
 /area/ship/engineering)
 "C" = (
@@ -346,6 +380,9 @@
 	dir = 4
 	},
 /obj/item/ammo_casing/spent,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 8
+	},
 /turf/open/floor/iron/herringbone,
 /area/ship/engineering)
 "M" = (
@@ -417,6 +454,9 @@
 	},
 /obj/effect/mob_spawn/human/corpse/solgovprisoner,
 /obj/effect/decal/cleanable/blood,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 10
+	},
 /turf/open/floor/iron/textured_large,
 /area/ship/engineering)
 "R" = (
@@ -428,7 +468,17 @@
 	dir = 4
 	},
 /obj/item/restraints/handcuffs,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
 /turf/open/floor/iron/textured_large,
+/area/ship/engineering)
+"S" = (
+/obj/structure/sign/solgov_seal{
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ship/engineering)
 "T" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -444,6 +494,9 @@
 	},
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/machinery/light/floor,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
+	},
 /turf/open/floor/iron/smooth_large,
 /area/ship/engineering)
 "U" = (
@@ -567,8 +620,8 @@ Z
 X
 "}
 (6,1,1) = {"
-a
-m
+j
+S
 n
 k
 A
