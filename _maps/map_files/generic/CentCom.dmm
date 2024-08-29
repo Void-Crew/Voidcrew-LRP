@@ -474,6 +474,15 @@
 /obj/structure/flora/ausbushes/palebush,
 /turf/open/floor/holofloor/grass,
 /area/holodeck/rec_center/pet_lounge)
+"acb" = (
+/obj/effect/turf_decal/corner/white{
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/obj/effect/turf_decal/corner/blue/three_quarters,
+/turf/open/floor/iron/white,
+/area/centcom/evac)
 "acd" = (
 /obj/structure/window{
 	dir = 1
@@ -1499,6 +1508,9 @@
 	},
 /turf/open/floor/iron,
 /area/tdome/arena_source)
+"afI" = (
+/turf/open/floor/plating/rust,
+/area/centcom/control)
 "afO" = (
 /turf/open/floor/circuit/green,
 /area/tdome/arena_source)
@@ -2270,10 +2282,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/diagonal,
 /area/ruin/space/ancientstation/alpha/office)
-"amh" = (
-/obj/effect/baseturf_helper/beach/sand,
-/turf/closed/indestructible/riveted,
-/area/centcom/prison)
 "amk" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/sign/directions/engineering{
@@ -2545,6 +2553,13 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/centcom/ferry)
+"aog" = (
+/obj/structure/ladder/unbreakable{
+	id = "centcom_maint"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/centcom/control)
 "aol" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
@@ -3972,6 +3987,11 @@
 	},
 /obj/effect/turf_decal/industrial/outline/yellow,
 /turf/open/floor/iron,
+/area/centcom/control)
+"avG" = (
+/turf/closed/indestructible/fakedoor{
+	name = "Elevator Access"
+	},
 /area/centcom/control)
 "avU" = (
 /obj/effect/decal/cleanable/dirt,
@@ -7377,23 +7397,11 @@
 /turf/open/floor/iron/white,
 /area/tdome/tdomeobserve)
 "aNg" = (
-/obj/effect/turf_decal/corner/neutral/full{
-	alpha = 50
+/obj/machinery/light/small{
+	dir = 8
 	},
-/obj/structure/filingcabinet,
-/obj/structure/filingcabinet{
-	pixel_x = -11;
-	pixel_y = 0
-	},
-/obj/structure/filingcabinet/security{
-	pixel_x = 11;
-	pixel_y = 0
-	},
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/centcom/control)
+/turf/open/floor/plating,
+/area/centcom/ferry)
 "aNh" = (
 /obj/structure/table/wood,
 /obj/item/storage/box/drinkingglasses,
@@ -12286,6 +12294,10 @@
 /obj/effect/mob_spawn/human/oldmed,
 /turf/open/floor/iron/dark,
 /area/ruin/space/ancientstation/charlie/dorms)
+"bbd" = (
+/obj/effect/turf_decal/industrial/warning,
+/turf/open/floor/circuit/red/anim,
+/area/centcom/control)
 "bbe" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/handcuffs,
@@ -12304,15 +12316,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/dorms)
-"bbT" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 4
-	},
-/obj/effect/turf_decal/floordetail/edgedrain{
-	dir = 8
-	},
-/turf/open/floor/circuit/red/anim,
-/area/centcom/control)
 "bci" = (
 /obj/effect/turf_decal/corner/green{
 	dir = 8
@@ -12562,6 +12565,15 @@
 /mob/living/simple_animal/hostile/carp,
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
+"bqN" = (
+/obj/effect/turf_decal/corner/neutral/full{
+	alpha = 50
+	},
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/centcom/control)
 "brq" = (
 /mob/living/simple_animal/hostile/zombie{
 	zombiejob = null
@@ -12582,6 +12594,12 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/ferry)
+"bsr" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Elevator Access"
+	},
+/turf/open/floor/plating,
+/area/centcom/control)
 "bsy" = (
 /obj/structure/closet/crate,
 /obj/item/stack/sheet/mineral/titanium/twenty,
@@ -12871,10 +12889,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/airless,
 /area/ruin/space/ancientstation/alpha/hall)
-"bFt" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/rust,
-/area/centcom/control)
 "bGc" = (
 /obj/machinery/door/airlock/external/glass,
 /obj/effect/turf_decal/industrial/warning/dust{
@@ -12911,6 +12925,15 @@
 /obj/item/bot_assembly/cleanbot,
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/cargo)
+"bIq" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 6
+	},
+/obj/effect/turf_decal/corner_techfloor_grid{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/centcom/control)
 "bIA" = (
 /obj/machinery/computer/secure_data,
 /obj/effect/turf_decal/industrial/warning,
@@ -12938,6 +12961,12 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/main)
+"bJT" = (
+/turf/open/chasm{
+	name = "elevator shaft";
+	desc = "I'm not even going to give you handrails. You already got past an impervious wall. Go away."
+	},
+/area/centcom/control)
 "bJW" = (
 /obj/machinery/vending/cigarette,
 /obj/machinery/newscaster{
@@ -13384,12 +13413,6 @@
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plating/airless,
 /area/ruin/space/ancientstation/alpha/hall)
-"cdH" = (
-/obj/machinery/conveyor{
-	id = "centcom_old_disposals"
-	},
-/turf/open/floor/plating/rust,
-/area/centcom/exterior)
 "cdV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -13494,6 +13517,10 @@
 /obj/item/ammo_casing/spent,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
+"cgK" = (
+/obj/effect/baseturf_helper/beach/sand,
+/turf/open/floor/iron,
+/area/tdome/tdomeobserve)
 "cgM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light_switch{
@@ -13614,6 +13641,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/ruin/space/ancientstation/delta/biolab)
+"cnI" = (
+/obj/effect/baseturf_helper/beach/sand,
+/turf/closed/indestructible/riveted,
+/area/centcom/supplypod)
 "cnL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer2{
@@ -13765,10 +13796,6 @@
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/iron,
 /area/centcom/control)
-"ctq" = (
-/obj/effect/baseturf_helper/beach/sand,
-/turf/closed/indestructible/riveted,
-/area/centcom/supplypod)
 "ctK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -13820,6 +13847,13 @@
 	icon_state = "platingdmg1"
 	},
 /area/ruin/space/ancientstation/alpha/lounge)
+"cuX" = (
+/obj/machinery/door/poddoor/crusher/automatic,
+/obj/machinery/conveyor{
+	id = "centcom_old_disposals"
+	},
+/turf/open/floor/plating/rust,
+/area/centcom/exterior)
 "cvf" = (
 /turf/closed/wall,
 /area/ruin/space/ancientstation/beta/medbay)
@@ -14641,6 +14675,13 @@
 /obj/item/clothing/shoes/sneakers/black,
 /turf/open/floor/iron/dark,
 /area/centcom/ferry)
+"cVX" = (
+/obj/machinery/quantumpad{
+	map_pad_id = "solsat_centcom";
+	map_pad_link_id = "solsat_sol"
+	},
+/turf/open/floor/circuit/red/anim,
+/area/centcom/control)
 "cWh" = (
 /obj/structure/chair/sofa/left{
 	name = "sofa";
@@ -14668,13 +14709,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plating,
 /area/ruin/unpowered/syndicate_lava_base/main)
-"cWS" = (
-/obj/effect/turf_decal/corner/neutral/full{
-	alpha = 50
-	},
-/obj/machinery/light,
-/turf/open/floor/iron,
-/area/centcom/control)
 "cWZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/orange/visible{
@@ -14724,6 +14758,9 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/ferry)
+"cYw" = (
+/turf/closed/indestructible/riveted,
+/area/centcom/exterior)
 "cYx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -14880,15 +14917,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/main)
-"dho" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-21";
-	pixel_x = -1;
-	pixel_y = 1
-	},
-/obj/effect/turf_decal/industrial/hatch/yellow,
-/turf/open/floor/iron,
-/area/centcom/control)
 "dhr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
@@ -14947,6 +14975,24 @@
 /obj/machinery/firealarm/east,
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/cargo)
+"dlm" = (
+/obj/effect/turf_decal/corner/neutral/full{
+	alpha = 50
+	},
+/obj/structure/filingcabinet,
+/obj/structure/filingcabinet{
+	pixel_x = -11;
+	pixel_y = 0
+	},
+/obj/structure/filingcabinet/security{
+	pixel_x = 11;
+	pixel_y = 0
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/centcom/control)
 "dlD" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/effect/turf_decal/siding/wood{
@@ -15082,6 +15128,26 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/alpha/comdorms)
+"dqo" = (
+/obj/structure/table/reinforced,
+/obj/item/tank/internals/emergency_oxygen/double{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/obj/item/tank/internals/emergency_oxygen/double{
+	pixel_x = -5;
+	pixel_y = 4
+	},
+/obj/item/clothing/mask/gas{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/item/clothing/mask/gas{
+	pixel_x = -6;
+	pixel_y = 7
+	},
+/turf/open/floor/iron/showroomfloor,
+/area/centcom/ferry)
 "drf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -15262,6 +15328,12 @@
 /obj/structure/table/reinforced/rglass,
 /turf/open/floor/iron,
 /area/centcom)
+"dAR" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating/dirt,
+/area/centcom/exterior)
 "dBb" = (
 /obj/structure/window/plasma,
 /obj/structure/cable{
@@ -15583,6 +15655,19 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/charlie/hall)
+"dOB" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/floordetail/edgedrain{
+	dir = 4
+	},
+/obj/structure/table,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/circuit/red/anim,
+/area/centcom/control)
 "dOL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -15683,12 +15768,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/ruin/unpowered/syndicate_lava_base/testlab)
-"dUK" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 4
-	},
-/turf/open/floor/circuit/red/anim,
-/area/centcom/control)
 "dUW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
@@ -15750,54 +15829,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
-"dWU" = (
-/obj/structure/table/reinforced,
-/obj/item/radio{
-	name = "emergency response corps walkie-talkie";
-	pixel_y = 7;
-	icon_state = "com_radio";
-	pixel_x = 7;
-	keyslot = /obj/item/encryptionkey/headset_com;
-	freerange = 1;
-	freqlock = 1;
-	frequency = 1337;
-	desc = "A rugged walkie-talkie used by Nanotrasen response corps forces to communicate during ionospheric incidents."
-	},
-/obj/item/radio{
-	name = "emergency response corps walkie-talkie";
-	pixel_y = 9;
-	icon_state = "com_radio";
-	pixel_x = -1;
-	keyslot = /obj/item/encryptionkey/headset_com;
-	freerange = 1;
-	freqlock = 1;
-	frequency = 1337;
-	desc = "A rugged walkie-talkie used by Nanotrasen response corps forces to communicate during ionospheric incidents."
-	},
-/obj/item/radio{
-	name = "emergency response corps walkie-talkie";
-	pixel_y = 7;
-	icon_state = "com_radio";
-	pixel_x = -10;
-	keyslot = /obj/item/encryptionkey/headset_com;
-	freerange = 1;
-	freqlock = 1;
-	frequency = 1337;
-	desc = "A rugged walkie-talkie used by Nanotrasen response corps forces to communicate during ionospheric incidents."
-	},
-/obj/item/radio{
-	name = "emergency response corps walkie-talkie";
-	pixel_y = 5;
-	icon_state = "com_radio";
-	pixel_x = -18;
-	keyslot = /obj/item/encryptionkey/headset_com;
-	freerange = 1;
-	freqlock = 1;
-	frequency = 1337;
-	desc = "A rugged walkie-talkie used by Nanotrasen response corps forces to communicate during ionospheric incidents."
-	},
-/turf/open/floor/iron/showroomfloor,
-/area/centcom/ferry)
 "dXa" = (
 /obj/effect/turf_decal/industrial/firstaid,
 /obj/machinery/chem_dispenser/fullupgrade,
@@ -16210,6 +16241,21 @@
 	},
 /turf/open/floor/grass,
 /area/ruin/space/ancientstation/charlie/hydro)
+"emM" = (
+/obj/effect/turf_decal/industrial/hatch/yellow,
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	name = "Teleporter Lockdown";
+	id = "centcom_tele_lockdown";
+	pixel_x = 6;
+	pixel_y = 17
+	},
+/obj/machinery/recharger{
+	pixel_x = -5;
+	pixel_y = 4
+	},
+/turf/open/floor/iron,
+/area/centcom/control)
 "emQ" = (
 /obj/structure/table/wood,
 /obj/item/storage/photo_album,
@@ -16246,6 +16292,27 @@
 	},
 /turf/open/floor/iron/dark,
 /area/centcom/ferry)
+"ens" = (
+/obj/effect/turf_decal/industrial/hatch/yellow,
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_x = -5;
+	pixel_y = 2
+	},
+/obj/item/pen{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/stamp/denied{
+	pixel_x = 7;
+	pixel_y = 8
+	},
+/obj/item/stamp{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/turf/open/floor/iron,
+/area/centcom/control)
 "enD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -16297,12 +16364,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
 /area/ruin/space/ancientstation/alpha/arrivals)
-"eqj" = (
-/obj/structure/flora/ausbushes/sparsegrass,
-/obj/structure/flora/ausbushes/grassybush,
-/obj/structure/flora/ausbushes/fernybush,
-/turf/open/floor/plating/grass,
-/area/centcom/control)
 "eqH" = (
 /obj/structure/lattice,
 /turf/open/space/basic,
@@ -16427,13 +16488,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/virology)
-"etT" = (
-/obj/machinery/quantumpad{
-	map_pad_id = "solsat_centcom";
-	map_pad_link_id = "solsat_sol"
-	},
-/turf/open/floor/circuit/red/anim,
-/area/centcom/control)
 "etU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -16513,15 +16567,6 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/court)
-"ewU" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-05";
-	pixel_y = 1;
-	pixel_x = 0
-	},
-/obj/effect/turf_decal/industrial/hatch/yellow,
-/turf/open/floor/iron,
-/area/centcom/control)
 "exs" = (
 /obj/structure/grille/broken,
 /obj/item/shard{
@@ -16540,12 +16585,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/airless,
 /area/ruin/space/ancientstation/beta/hall)
-"exU" = (
-/obj/structure/ladder/unbreakable{
-	id = "centcom_maint"
-	},
-/turf/open/floor/plating/dirt,
-/area/centcom/exterior)
 "eyR" = (
 /obj/structure/catwalk,
 /obj/structure/cable/yellow{
@@ -16601,6 +16640,15 @@
 /obj/item/megaphone,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/bridge)
+"ezw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/computer{
+	name = "teleporter programming computer";
+	desc = "A computer used to give orders to a nearby quantum pad. This one seems to be locked on to a Nanotrasen command facility and SolGov headquarters.";
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/centcom)
 "ezM" = (
 /obj/machinery/computer/security{
 	dir = 1
@@ -16710,6 +16758,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/airless,
 /area/ruin/space/ancientstation/alpha/hall)
+"eCn" = (
+/obj/effect/turf_decal/corner/brown,
+/obj/effect/turf_decal/corner/brown{
+	dir = 4
+	},
+/obj/effect/baseturf_helper/beach/sand,
+/turf/open/floor/iron,
+/area/centcom/supplypod/loading/three)
 "eCv" = (
 /obj/structure/chair{
 	dir = 8
@@ -16876,14 +16932,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/virology)
-"eHY" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/sparsegrass,
-/obj/structure/flora/ausbushes/ywflowers,
-/obj/structure/flora/ausbushes/grassybush,
-/obj/structure/flora/ausbushes/palebush,
-/turf/open/floor/plating/grass,
-/area/centcom/control)
 "eIb" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/computer{
@@ -17494,6 +17542,15 @@
 	dir = 8
 	},
 /area/centcom/control)
+"fki" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner_techfloor_grid{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/centcom/control)
 "fls" = (
 /obj/structure/lattice,
 /obj/item/stack/rods,
@@ -17702,6 +17759,15 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/centcom/control)
+"fuF" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/floordetail/edgedrain{
+	dir = 4
+	},
+/turf/open/floor/circuit/red/anim,
+/area/centcom/control)
 "fvc" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -17771,14 +17837,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine/airless,
 /area/ruin/space/ancientstation/beta/supermatter)
-"fxx" = (
-/obj/effect/decal/remains/xeno,
-/obj/item/stack/sheet/animalhide/goliath_hide{
-	pixel_x = 8;
-	pixel_y = 1
-	},
-/turf/open/floor/plating/dirt,
-/area/centcom/exterior)
 "fxE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
@@ -17807,6 +17865,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/sec)
+"fyd" = (
+/obj/machinery/computer{
+	name = "teleporter programming computer";
+	desc = "A computer used to give orders to a nearby quantum pad. This one seems to be locked on to a SolGov outpost."
+	},
+/obj/effect/turf_decal/corner/neutral/full{
+	alpha = 50
+	},
+/turf/open/floor/iron,
+/area/centcom/control)
 "fyp" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
@@ -17882,11 +17950,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/hall)
-"fAD" = (
-/obj/structure/sign/nanotrasen,
-/obj/effect/baseturf_helper/beach/sand,
-/turf/closed/indestructible/riveted,
-/area/centcom/control)
 "fAQ" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/dark,
@@ -18004,17 +18067,6 @@
 /obj/item/storage/bag/money/vault,
 /turf/open/floor/iron/dark,
 /area/ruin/unpowered/syndicate_lava_base/main)
-"fGm" = (
-/obj/machinery/vending/autodrobe/all_access{
-	pixel_x = -15;
-	pixel_y = -1
-	},
-/obj/machinery/vending/coffee{
-	pixel_x = 7;
-	pixel_y = -1
-	},
-/turf/open/floor/iron/showroomfloor,
-/area/centcom/ferry)
 "fGD" = (
 /obj/structure/lattice,
 /turf/open/space/basic,
@@ -18041,6 +18093,13 @@
 	color = "#543c30"
 	},
 /area/centcom/ferry)
+"fHL" = (
+/obj/machinery/conveyor{
+	id = "centcom_old_disposals"
+	},
+/obj/item/trash/can/food/peaches,
+/turf/open/floor/plating/rust,
+/area/centcom/exterior)
 "fIf" = (
 /obj/effect/turf_decal/corner/green{
 	dir = 1
@@ -18131,10 +18190,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/engie)
-"fKI" = (
-/obj/effect/baseturf_helper/beach/sand,
-/turf/open/floor/carpet/green,
-/area/tdome/tdomeadmin)
 "fKK" = (
 /turf/closed/wall/rust,
 /area/ruin/space/ancientstation/delta/hall)
@@ -18214,15 +18269,6 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/control)
-"fNY" = (
-/obj/effect/turf_decal/corner/white{
-	dir = 1;
-	pixel_x = 0;
-	pixel_y = 0
-	},
-/obj/effect/turf_decal/corner/blue/three_quarters,
-/turf/open/floor/iron/white,
-/area/centcom/evac)
 "fPB" = (
 /obj/machinery/vending/coffee,
 /obj/effect/turf_decal/corner/bar,
@@ -18307,6 +18353,10 @@
 /obj/structure/flora/junglebush/b,
 /turf/open/floor/plating/grass,
 /area/centcom)
+"fSA" = (
+/obj/effect/baseturf_helper/beach/sand,
+/turf/open/floor/carpet/green,
+/area/tdome/tdomeadmin)
 "fSM" = (
 /obj/structure/reagent_dispensers/virusfood{
 	pixel_y = 32
@@ -18916,16 +18966,6 @@
 	icon_state = "wood-broken"
 	},
 /area/ruin/space/ancientstation/alpha/library)
-"gmG" = (
-/obj/machinery/computer{
-	name = "teleporter programming computer";
-	desc = "A computer used to give orders to a nearby quantum pad. This one seems to be locked on to a SolGov outpost."
-	},
-/obj/effect/turf_decal/corner/neutral/full{
-	alpha = 50
-	},
-/turf/open/floor/iron,
-/area/centcom/control)
 "gmO" = (
 /obj/effect/turf_decal/corner/neutral/full{
 	alpha = 50
@@ -19017,6 +19057,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine/airless,
 /area/ruin/space/ancientstation/beta/supermatter)
+"gsY" = (
+/obj/effect/baseturf_helper/beach/sand,
+/turf/open/floor/iron,
+/area/centcom/supplypod/podStorage)
+"gtV" = (
+/obj/effect/baseturf_helper/beach/sand,
+/turf/closed/indestructible/rock,
+/area/centcom/exterior)
 "guN" = (
 /obj/effect/decal/cleanable/glass,
 /obj/effect/spawner/lootdrop/maintenance,
@@ -19076,6 +19124,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine/airless,
 /area/ruin/space/ancientstation/beta/supermatter)
+"gxf" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor{
+	id = "centcom_tele_lockdown"
+	},
+/turf/open/floor/plating,
+/area/centcom/control)
 "gya" = (
 /obj/structure/fans/tiny,
 /obj/effect/turf_decal/corner/neutral/full{
@@ -19259,6 +19314,11 @@
 /obj/effect/turf_decal/corner/white/three_quarters,
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/medbay)
+"gGG" = (
+/obj/effect/decal/remains/human,
+/obj/effect/gibspawner/human,
+/turf/open/floor/plating/dirt,
+/area/centcom/exterior)
 "gGJ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
@@ -19307,6 +19367,12 @@
 "gIC" = (
 /turf/open/floor/plating,
 /area/centcom/ferry)
+"gIQ" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/ausbushes/fernybush,
+/turf/open/floor/plating/grass,
+/area/centcom/control)
 "gIV" = (
 /obj/effect/turf_decal/corner/green{
 	dir = 4
@@ -19452,13 +19518,6 @@
 /obj/item/storage/box/lights/mixed,
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/delta/hall)
-"gOL" = (
-/obj/structure/disposalpipe/trunk{
-	dir = 8
-	},
-/obj/structure/disposaloutlet,
-/turf/open/floor/plating/dirt,
-/area/centcom/exterior)
 "gPa" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-25"
@@ -19572,6 +19631,10 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/beta/hall)
+"gRa" = (
+/obj/effect/baseturf_helper/beach/sand,
+/turf/closed/indestructible/riveted,
+/area/centcom/ferry)
 "gRr" = (
 /obj/effect/turf_decal/siding/wood{
 	color = "#2C0A05";
@@ -19693,9 +19756,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ctf)
-"gWL" = (
-/turf/open/floor/plating/rust,
-/area/centcom/control)
 "gXb" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -19810,6 +19870,24 @@
 /obj/item/gun_voucher/syndicate,
 /turf/open/floor/iron/grimy,
 /area/ruin/unpowered/syndicate_lava_base/dormitories)
+"haL" = (
+/obj/machinery/button{
+	name = "call button";
+	desc = "A button that calls the elevator. Very slowly.";
+	pixel_x = 23;
+	pixel_y = 0
+	},
+/obj/machinery/button{
+	name = "call button";
+	desc = "A button that calls the elevator. Very slowly.";
+	pixel_x = -23;
+	pixel_y = 0
+	},
+/obj/effect/turf_decal/corner/neutral/full{
+	alpha = 50
+	},
+/turf/open/floor/iron,
+/area/centcom/control)
 "haW" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -19839,6 +19917,12 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
+"hdd" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/closed/indestructible/rock,
+/area/centcom/exterior)
 "hdi" = (
 /obj/item/shovel/spade{
 	pixel_x = 2;
@@ -19972,6 +20056,12 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/cargo)
+"hhQ" = (
+/obj/machinery/conveyor{
+	id = "centcom_old_disposals"
+	},
+/turf/open/floor/plating/rust,
+/area/centcom/exterior)
 "hih" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -20286,6 +20376,14 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/charlie/engie)
+"hsL" = (
+/obj/item/pickaxe{
+	pixel_x = -15;
+	pixel_y = 5
+	},
+/obj/structure/flora/rock,
+/turf/open/floor/plating/dirt,
+/area/centcom/exterior)
 "htq" = (
 /obj/structure/flora/grass/jungle,
 /mob/living/carbon/monkey,
@@ -20358,12 +20456,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/beta/hall)
-"hxV" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/plating/dirt,
-/area/centcom/exterior)
 "hyj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -20471,10 +20563,6 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/centcom/control)
-"hBC" = (
-/obj/item/trash/popcorn,
-/turf/open/floor/plating/dirt,
-/area/centcom/exterior)
 "hBO" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/paper_bin,
@@ -20581,15 +20669,6 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/ferry)
-"hGr" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 10
-	},
-/obj/effect/turf_decal/corner_techfloor_grid{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/centcom/control)
 "hGE" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/indestructible/riveted,
@@ -20688,13 +20767,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/hall)
-"hJX" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor{
-	id = "centcom_tele_lockdown"
-	},
-/turf/open/floor/plating,
-/area/centcom/control)
 "hKg" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4
@@ -20916,6 +20988,10 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/beta/hall)
+"hSz" = (
+/obj/effect/baseturf_helper/beach/sand,
+/turf/closed/indestructible/riveted,
+/area/centcom/control)
 "hSK" = (
 /obj/structure/table,
 /obj/item/paper_bin,
@@ -20993,6 +21069,22 @@
 /obj/machinery/meter/turf,
 /turf/open/floor/engine/plasma,
 /area/ruin/unpowered/syndicate_lava_base/engineering)
+"hUx" = (
+/obj/machinery/door/airlock/centcom{
+	name = "CentCom Teleporter"
+	},
+/obj/machinery/door/poddoor{
+	id = "centcom_tele_lockdown"
+	},
+/turf/open/floor/iron,
+/area/centcom/control)
+"hVB" = (
+/obj/effect/turf_decal/corner/neutral/full{
+	alpha = 50
+	},
+/obj/structure/closet/crate/bin,
+/turf/open/floor/iron,
+/area/centcom/control)
 "hVZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -21013,13 +21105,6 @@
 /obj/machinery/atmospherics/pipe/simple/yellow,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_lava_base/engineering)
-"hWn" = (
-/obj/machinery/door/poddoor/crusher/automatic/preopen,
-/obj/machinery/conveyor{
-	id = "centcom_old_disposals"
-	},
-/turf/open/floor/plating/rust,
-/area/centcom/exterior)
 "hWZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/corner/blue{
@@ -21138,12 +21223,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/cargo)
-"ibM" = (
-/obj/machinery/conveyor_switch/oneway{
-	id = "centcom_old_disposals"
-	},
-/turf/open/floor/plating/dirt,
-/area/centcom/exterior)
 "ibW" = (
 /obj/machinery/conveyor_switch/oneway{
 	id = "beta";
@@ -21253,19 +21332,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/bridge)
-"igH" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 8
-	},
-/obj/effect/turf_decal/floordetail/edgedrain{
-	dir = 4
-	},
-/obj/structure/table,
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/circuit/red/anim,
-/area/centcom/control)
 "igM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -21280,11 +21346,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/dormitories)
-"igS" = (
-/turf/closed/indestructible/fakedoor{
-	name = "Elevator Access"
-	},
-/area/centcom/control)
 "igW" = (
 /obj/structure/mineral_door/wood{
 	name = "King Doogan's Bedroom"
@@ -21395,6 +21456,10 @@
 	dir = 8
 	},
 /area/centcom/control)
+"ikG" = (
+/obj/item/trash/waffles,
+/turf/open/floor/plating/dirt,
+/area/centcom/exterior)
 "ila" = (
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt,
@@ -21483,27 +21548,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/ruin/unpowered/syndicate_lava_base/testlab)
-"ioJ" = (
-/obj/effect/turf_decal/industrial/hatch/yellow,
-/obj/structure/table/reinforced,
-/obj/item/paper_bin{
-	pixel_x = -5;
-	pixel_y = 2
-	},
-/obj/item/pen{
-	pixel_x = -6;
-	pixel_y = 4
-	},
-/obj/item/stamp/denied{
-	pixel_x = 7;
-	pixel_y = 8
-	},
-/obj/item/stamp{
-	pixel_x = 7;
-	pixel_y = 0
-	},
-/turf/open/floor/iron,
-/area/centcom/control)
 "ioY" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/iron/dark/textured_large,
@@ -21616,6 +21660,19 @@
 /obj/item/coin,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/bridge)
+"iuo" = (
+/obj/structure/table/reinforced,
+/obj/machinery/light,
+/obj/item/paper_bin{
+	pixel_x = -3;
+	pixel_y = 4
+	},
+/obj/item/pen{
+	pixel_x = -4;
+	pixel_y = 6
+	},
+/turf/open/floor/iron/showroomfloor,
+/area/centcom/ferry)
 "ivj" = (
 /obj/effect/turf_decal/industrial/warning/corner{
 	dir = 8
@@ -21652,6 +21709,15 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/basketball)
+"iwy" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/floordetail/edgedrain{
+	dir = 8
+	},
+/turf/open/floor/circuit/red/anim,
+/area/centcom/control)
 "iwE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
@@ -22037,21 +22103,6 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/pet_lounge)
-"iNB" = (
-/obj/effect/turf_decal/industrial/hatch/yellow,
-/obj/structure/table/reinforced,
-/obj/machinery/button/door{
-	name = "Teleporter Lockdown";
-	id = "centcom_tele_lockdown";
-	pixel_x = 6;
-	pixel_y = 17
-	},
-/obj/machinery/recharger{
-	pixel_x = -5;
-	pixel_y = 4
-	},
-/turf/open/floor/iron,
-/area/centcom/control)
 "iOo" = (
 /obj/structure/closet/radiation,
 /turf/open/floor/iron,
@@ -22104,13 +22155,6 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/supply)
-"iQl" = (
-/obj/machinery/vending/clothing{
-	pixel_x = -5;
-	pixel_y = -1
-	},
-/turf/open/floor/iron/showroomfloor,
-/area/centcom/ferry)
 "iQR" = (
 /obj/machinery/portable_atmospherics/canister/stimulum,
 /obj/effect/turf_decal/industrial/warning{
@@ -22285,10 +22329,12 @@
 /obj/effect/turf_decal/corner/red/three_quarters,
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/main)
-"iVn" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/centcom/control)
+"iVa" = (
+/obj/structure/ladder/unbreakable{
+	id = "centcom_maint"
+	},
+/turf/open/floor/plating/dirt,
+/area/centcom/exterior)
 "iWb" = (
 /obj/effect/turf_decal/corner/blue/diagonal_centre,
 /obj/item/trash/can,
@@ -22327,12 +22373,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ctf)
-"iXk" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/centcom/ferry)
 "iXp" = (
 /obj/structure/rack,
 /obj/effect/decal/cleanable/dirt,
@@ -22811,6 +22851,10 @@
 /obj/item/storage/backpack/messenger,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/dorms)
+"jpn" = (
+/obj/effect/baseturf_helper/beach/sand,
+/turf/closed/indestructible/riveted,
+/area/centcom/supply)
 "jpv" = (
 /obj/effect/turf_decal/industrial/loading{
 	dir = 1
@@ -23026,6 +23070,11 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ctf)
+"jyC" = (
+/obj/structure/sign/nanotrasen,
+/obj/effect/baseturf_helper/beach/sand,
+/turf/closed/indestructible/riveted,
+/area/centcom/control)
 "jyY" = (
 /obj/machinery/computer/camera_advanced{
 	dir = 1
@@ -23127,6 +23176,10 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/unpowered/syndicate_lava_base/engineering)
+"jEL" = (
+/obj/item/trash/energybar,
+/turf/open/floor/plating/dirt,
+/area/centcom/exterior)
 "jFj" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/iron,
@@ -23447,6 +23500,15 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/arrivals)
+"jRb" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/quantumpad{
+	map_pad_id = "solsat_sol";
+	map_pad_link_id = "solsat_centcom"
+	},
+/turf/open/floor/iron,
+/area/centcom)
 "jRh" = (
 /obj/structure/closet/crate/secure/gear{
 	name = "security armor shipment";
@@ -23476,10 +23538,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/cargo)
-"jRv" = (
-/obj/effect/baseturf_helper/beach/sand,
-/turf/closed/indestructible/riveted,
-/area/centcom/supply)
 "jRL" = (
 /obj/effect/turf_decal/corner/red{
 	dir = 4
@@ -23575,14 +23633,12 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/ancientstation/alpha/library)
-"jWe" = (
-/obj/item/pickaxe{
-	pixel_x = -15;
-	pixel_y = 5
+"jVU" = (
+/obj/structure/railing{
+	dir = 4
 	},
-/obj/structure/flora/rock,
-/turf/open/floor/plating/dirt,
-/area/centcom/exterior)
+/turf/open/floor/plating,
+/area/centcom/ferry)
 "jWk" = (
 /obj/structure/window/fulltile,
 /obj/structure/grille,
@@ -23744,11 +23800,6 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/control)
-"keR" = (
-/obj/effect/landmark/ert_spawn,
-/obj/machinery/atmospherics/components/unary/cryo_cell,
-/turf/open/floor/iron/showroomfloor,
-/area/centcom/ferry)
 "kfv" = (
 /obj/machinery/power/emitter{
 	dir = 8
@@ -24008,16 +24059,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/unpowered/syndicate_lava_base/telecomms)
-"klb" = (
-/obj/effect/turf_decal/corner/brown{
-	dir = 8
-	},
-/obj/effect/turf_decal/corner/brown{
-	dir = 1
-	},
-/obj/effect/baseturf_helper/beach/sand,
-/turf/open/floor/iron,
-/area/centcom/supplypod/loading/four)
 "klm" = (
 /obj/structure/sign/warning/vacuum{
 	pixel_x = -32
@@ -24031,6 +24072,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine/airless,
 /area/ruin/space/ancientstation/beta/supermatter)
+"klT" = (
+/obj/effect/decal/remains/xeno,
+/obj/item/stack/sheet/animalhide/goliath_hide{
+	pixel_x = 8;
+	pixel_y = 1
+	},
+/turf/open/floor/plating/dirt,
+/area/centcom/exterior)
 "klW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -24293,10 +24342,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/rnd)
-"kuD" = (
-/obj/effect/baseturf_helper/beach/sand,
-/turf/closed/indestructible/riveted,
-/area/centcom/control)
 "kvs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
@@ -24638,10 +24683,6 @@
 "kLe" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/quantumpad{
-	map_pad_id = "solsat_sol";
-	map_pad_link_id = "solsat_centcom"
-	},
 /turf/open/floor/iron,
 /area/centcom)
 "kLg" = (
@@ -24843,6 +24884,10 @@
 /obj/structure/chair/stool/bar,
 /turf/open/floor/iron/dark,
 /area/ruin/unpowered/syndicate_lava_base/bar)
+"kSr" = (
+/obj/effect/baseturf_helper/beach/sand,
+/turf/open/floor/circuit/green,
+/area/tdome/arena_source)
 "kSV" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible/layer2{
 	dir = 10
@@ -24860,12 +24905,6 @@
 /obj/structure/filingcabinet/filingcabinet,
 /turf/open/floor/iron,
 /area/centcom/supply)
-"kUt" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Elevator Access"
-	},
-/turf/open/floor/plating,
-/area/centcom/control)
 "kUz" = (
 /obj/machinery/light/small/broken,
 /obj/effect/decal/cleanable/dirt,
@@ -25231,10 +25270,6 @@
 	color = "#792f27"
 	},
 /area/centcom/ferry)
-"ljV" = (
-/obj/effect/baseturf_helper/beach/sand,
-/turf/open/floor/iron,
-/area/tdome/tdomeobserve)
 "lky" = (
 /obj/effect/holodeck_effect/mobspawner/pet,
 /obj/effect/turf_decal/corner/red,
@@ -25255,6 +25290,13 @@
 	},
 /turf/open/floor/engine/vacuum,
 /area/ruin/unpowered/syndicate_lava_base/engineering)
+"llW" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/corner_techfloor_grid,
+/turf/open/floor/plating,
+/area/centcom/control)
 "lml" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
@@ -25765,6 +25807,25 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/exterior)
+"lEQ" = (
+/obj/structure/closet/secure_closet{
+	icon_state = "cc";
+	req_access = list(101);
+	name = "emergency response corps officer's locker"
+	},
+/obj/item/clothing/under/rank/centcom/official,
+/obj/item/clothing/head/centcom_cap{
+	name = "CentCom officer's cap";
+	desc = "A peaked cap worn by members of the Emergency Response Corps under Nanotrasen. While it looks similar to a commander's cap from afar, the insignia is a shield instead of the Nanotrasen logo."
+	},
+/obj/item/clothing/shoes/combat,
+/obj/item/clothing/head/beret/centcom_formal,
+/obj/item/clothing/suit/solgov_trenchcoat/terragov{
+	name = "old officer's trenchcoat";
+	desc = "An old, faded trenchcoat hastily re-fitted with Nanotrasen insignia."
+	},
+/turf/open/floor/iron/showroomfloor,
+/area/centcom/ferry)
 "lFm" = (
 /turf/open/floor/iron/smooth,
 /area/centcom/ferry)
@@ -25823,6 +25884,20 @@
 	dir = 8
 	},
 /area/tdome/tdomeobserve)
+"lGt" = (
+/obj/machinery/door/airlock/centcom{
+	name = "The Body Pit";
+	req_access_txt = "101"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/open/floor/plating,
+/area/centcom/ferry)
+"lGA" = (
+/obj/machinery/conveyor_switch/oneway{
+	id = "centcom_old_disposals"
+	},
+/turf/open/floor/plating/dirt,
+/area/centcom/exterior)
 "lHp" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -25845,6 +25920,54 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/dodgeball)
+"lHV" = (
+/obj/structure/table/reinforced,
+/obj/item/radio{
+	name = "emergency response corps walkie-talkie";
+	pixel_y = 7;
+	icon_state = "com_radio";
+	pixel_x = 7;
+	keyslot = /obj/item/encryptionkey/headset_com;
+	freerange = 1;
+	freqlock = 1;
+	frequency = 1337;
+	desc = "A rugged walkie-talkie used by Nanotrasen response corps forces to communicate during ionospheric incidents."
+	},
+/obj/item/radio{
+	name = "emergency response corps walkie-talkie";
+	pixel_y = 9;
+	icon_state = "com_radio";
+	pixel_x = -1;
+	keyslot = /obj/item/encryptionkey/headset_com;
+	freerange = 1;
+	freqlock = 1;
+	frequency = 1337;
+	desc = "A rugged walkie-talkie used by Nanotrasen response corps forces to communicate during ionospheric incidents."
+	},
+/obj/item/radio{
+	name = "emergency response corps walkie-talkie";
+	pixel_y = 7;
+	icon_state = "com_radio";
+	pixel_x = -10;
+	keyslot = /obj/item/encryptionkey/headset_com;
+	freerange = 1;
+	freqlock = 1;
+	frequency = 1337;
+	desc = "A rugged walkie-talkie used by Nanotrasen response corps forces to communicate during ionospheric incidents."
+	},
+/obj/item/radio{
+	name = "emergency response corps walkie-talkie";
+	pixel_y = 5;
+	icon_state = "com_radio";
+	pixel_x = -18;
+	keyslot = /obj/item/encryptionkey/headset_com;
+	freerange = 1;
+	freqlock = 1;
+	frequency = 1337;
+	desc = "A rugged walkie-talkie used by Nanotrasen response corps forces to communicate during ionospheric incidents."
+	},
+/turf/open/floor/iron/showroomfloor,
+/area/centcom/ferry)
 "lHZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -25897,6 +26020,10 @@
 	icon_state = "platingdmg2"
 	},
 /area/ruin/space/ancientstation/alpha/lounge)
+"lJH" = (
+/obj/item/trash/popcorn,
+/turf/open/floor/plating/dirt,
+/area/centcom/exterior)
 "lJY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
@@ -26041,14 +26168,6 @@
 	},
 /turf/open/floor/iron,
 /area/tdome/arena_source)
-"lPS" = (
-/obj/effect/landmark/ert_spawn,
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/machinery/atmospherics/components/unary/cryo_cell,
-/turf/open/floor/iron/showroomfloor,
-/area/centcom/ferry)
 "lQr" = (
 /obj/structure/sink/kitchen{
 	pixel_y = 24
@@ -26447,13 +26566,6 @@
 	dir = 8
 	},
 /area/centcom/ferry)
-"mgS" = (
-/obj/machinery/door/poddoor/crusher/automatic,
-/obj/machinery/conveyor{
-	id = "centcom_old_disposals"
-	},
-/turf/open/floor/plating/rust,
-/area/centcom/exterior)
 "mgU" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -26622,13 +26734,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/main)
-"mmb" = (
-/obj/item/pickaxe/drill{
-	pixel_x = 10;
-	pixel_y = 5
-	},
-/turf/open/floor/plating/dirt,
-/area/centcom/exterior)
 "mmy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -26706,13 +26811,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/centcom)
-"mpt" = (
-/obj/item/trash/energybar,
-/turf/open/floor/plating/dirt,
-/area/centcom/exterior)
 "mpv" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_lava_base/dormitories)
+"mqd" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Emergency Response Corps Stasis Facility";
+	req_access_txt = "101"
+	},
+/turf/open/floor/iron/showroomfloor,
+/area/centcom/ferry)
 "mqu" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner,
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
@@ -26905,6 +27013,13 @@
 	dir = 8
 	},
 /area/tdome/tdomeobserve)
+"mva" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/obj/structure/disposaloutlet,
+/turf/open/floor/plating/dirt,
+/area/centcom/exterior)
 "mwh" = (
 /obj/machinery/light{
 	dir = 4
@@ -27387,6 +27502,14 @@
 /obj/item/ammo_box/magazine/m45,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
+"mNW" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/ausbushes/palebush,
+/turf/open/floor/plating/grass,
+/area/centcom/control)
 "mPv" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
@@ -27535,12 +27658,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine/airless,
 /area/ruin/space/ancientstation/beta/supermatter)
-"mVQ" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/closed/indestructible/rock,
-/area/centcom/exterior)
 "mWm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/yellow{
@@ -27782,24 +27899,6 @@
 /obj/machinery/photocopier/faxmachine,
 /turf/open/floor/wood/large,
 /area/ruin/space/ancientstation/alpha/office)
-"ndZ" = (
-/obj/machinery/button{
-	name = "call button";
-	desc = "A button that calls the elevator. Very slowly.";
-	pixel_x = 23;
-	pixel_y = 0
-	},
-/obj/machinery/button{
-	name = "call button";
-	desc = "A button that calls the elevator. Very slowly.";
-	pixel_x = -23;
-	pixel_y = 0
-	},
-/obj/effect/turf_decal/corner/neutral/full{
-	alpha = 50
-	},
-/turf/open/floor/iron,
-/area/centcom/control)
 "neb" = (
 /turf/closed/indestructible/riveted,
 /area/centcom)
@@ -28032,16 +28131,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/medbay)
-"noq" = (
-/obj/machinery/door/airlock/centcom{
-	name = "CentCom Briefing Room";
-	req_access_txt = "101"
-	},
-/obj/effect/turf_decal/corner/neutral/full{
-	alpha = 50
-	},
-/turf/open/floor/iron/dark,
-/area/centcom/ferry)
 "noK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -28128,6 +28217,9 @@
 	color = "#531F09"
 	},
 /turf/open/floor/wood/yew,
+/area/centcom/ferry)
+"nqq" = (
+/turf/open/floor/iron/showroomfloor,
 /area/centcom/ferry)
 "nse" = (
 /obj/structure/cable{
@@ -28244,9 +28336,6 @@
 /obj/item/clothing/suit/hooded/wintercoat/captain,
 /turf/open/floor/wood/large,
 /area/ruin/space/ancientstation/alpha/comdorms)
-"nxx" = (
-/turf/open/floor/iron/showroomfloor,
-/area/centcom/ferry)
 "nxE" = (
 /obj/effect/turf_decal/industrial/warning,
 /obj/effect/turf_decal/corner/red,
@@ -28294,6 +28383,11 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/control)
+"nyU" = (
+/obj/effect/landmark/ert_spawn,
+/obj/machinery/atmospherics/components/unary/cryo_cell,
+/turf/open/floor/iron/showroomfloor,
+/area/centcom/ferry)
 "nyY" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -28348,6 +28442,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/alpha/comdorms)
+"nAL" = (
+/obj/effect/turf_decal/corner/neutral/full{
+	alpha = 50
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/centcom/control)
 "nAP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -28516,6 +28619,10 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/dormitories)
+"nFE" = (
+/obj/structure/closet/crate/trashcart,
+/turf/open/floor/plating/dirt,
+/area/centcom/exterior)
 "nGt" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/suit/space/hardsuit/deathsquad{
@@ -28598,6 +28705,31 @@
 /obj/machinery/plumbing/synthesizer,
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/delta/hall)
+"nJd" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/floordetail/edgedrain{
+	dir = 8
+	},
+/obj/structure/table,
+/obj/item/paper/pamphlet/centcom/visitor_info{
+	pixel_x = 5;
+	pixel_y = 3
+	},
+/obj/item/paper/pamphlet/centcom/visitor_info{
+	pixel_x = 1;
+	pixel_y = -9
+	},
+/obj/item/paper/pamphlet/centcom/visitor_info{
+	pixel_x = -5;
+	pixel_y = 6
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/circuit/red/anim,
+/area/centcom/control)
 "nJz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/old,
@@ -28677,6 +28809,24 @@
 /mob/living/simple_animal/hostile/charlie,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
+"nOh" = (
+/obj/item/kirbyplants{
+	icon_state = "plant-21";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/effect/turf_decal/industrial/hatch/yellow,
+/turf/open/floor/iron,
+/area/centcom/control)
+"nOn" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 10
+	},
+/obj/effect/turf_decal/corner_techfloor_grid{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/centcom/control)
 "nOx" = (
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plating/airless{
@@ -28794,11 +28944,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
-"nUl" = (
-/obj/structure/table/reinforced,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/centcom/control)
 "nUq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -28834,13 +28979,6 @@
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/plating,
 /area/centcom)
-"nXb" = (
-/obj/effect/turf_decal/corner/neutral/full{
-	alpha = 50
-	},
-/obj/structure/closet/crate/bin,
-/turf/open/floor/iron,
-/area/centcom/control)
 "nYt" = (
 /obj/structure/table/reinforced,
 /obj/item/radio/intercom/wideband,
@@ -28993,6 +29131,16 @@
 	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/beta/hall)
+"oeN" = (
+/obj/effect/turf_decal/corner/brown{
+	dir = 8
+	},
+/obj/effect/turf_decal/corner/brown{
+	dir = 1
+	},
+/obj/effect/baseturf_helper/beach/sand,
+/turf/open/floor/iron,
+/area/centcom/supplypod/loading/four)
 "ofb" = (
 /obj/machinery/pipedispenser/disposal,
 /obj/effect/turf_decal/industrial/warning/corner{
@@ -29087,6 +29235,16 @@
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/iron,
 /area/centcom/supply)
+"okb" = (
+/obj/effect/turf_decal/corner/neutral/full{
+	alpha = 50
+	},
+/obj/machinery/door/airlock/centcom{
+	name = "CentCom Maintenance";
+	req_access_txt = "101"
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/control)
 "okc" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -29111,15 +29269,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
 /area/ruin/space/ancientstation/beta/gravity)
-"oli" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 6
-	},
-/obj/effect/turf_decal/corner_techfloor_grid{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/centcom/control)
 "oll" = (
 /obj/machinery/door/airlock/external{
 	req_access_txt = "150"
@@ -29175,15 +29324,6 @@
 	dir = 1
 	},
 /turf/open/floor/iron/white,
-/area/centcom)
-"omS" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/computer{
-	name = "teleporter programming computer";
-	desc = "A computer used to give orders to a nearby quantum pad. This one seems to be locked on to a Nanotrasen command facility and SolGov headquarters.";
-	dir = 8
-	},
-/turf/open/floor/iron,
 /area/centcom)
 "onm" = (
 /obj/structure/flora/grass/jungle/b,
@@ -29314,6 +29454,13 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/chemistry)
+"osG" = (
+/obj/item/pickaxe/drill{
+	pixel_x = 10;
+	pixel_y = 5
+	},
+/turf/open/floor/plating/dirt,
+/area/centcom/exterior)
 "ota" = (
 /obj/item/stack/rods,
 /obj/effect/decal/cleanable/dirt,
@@ -29934,18 +30081,12 @@
 /turf/open/floor/iron,
 /area/centcom/control)
 "oTN" = (
-/obj/structure/table/reinforced,
-/obj/machinery/light,
-/obj/item/paper_bin{
-	pixel_x = -3;
-	pixel_y = 4
-	},
-/obj/item/pen{
-	pixel_x = -4;
-	pixel_y = 6
-	},
-/turf/open/floor/iron/showroomfloor,
-/area/centcom/ferry)
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/toolcloset,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/turf/open/floor/plating/rust,
+/area/centcom/control)
 "oUc" = (
 /obj/effect/turf_decal/corner/red{
 	dir = 1
@@ -30128,6 +30269,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/centcom)
+"pbX" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/floordetail/edgedrain{
+	dir = 8
+	},
+/obj/structure/table,
+/turf/open/floor/circuit/red/anim,
+/area/centcom/control)
 "pbY" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -30251,31 +30402,6 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/ancientstation/delta/ai)
-"pgx" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 4
-	},
-/obj/effect/turf_decal/floordetail/edgedrain{
-	dir = 8
-	},
-/obj/structure/table,
-/obj/item/paper/pamphlet/centcom/visitor_info{
-	pixel_x = 5;
-	pixel_y = 3
-	},
-/obj/item/paper/pamphlet/centcom/visitor_info{
-	pixel_x = 1;
-	pixel_y = -9
-	},
-/obj/item/paper/pamphlet/centcom/visitor_info{
-	pixel_x = -5;
-	pixel_y = 6
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/circuit/red/anim,
-/area/centcom/control)
 "pgB" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -30294,6 +30420,16 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/hydro)
+"phj" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/blue{
+	dir = 8
+	},
+/obj/effect/baseturf_helper/beach/sand,
+/turf/open/floor/iron,
+/area/centcom/evac)
 "phl" = (
 /obj/structure/grille,
 /obj/structure/window/plasma/reinforced/plastitanium,
@@ -30559,6 +30695,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/sec)
+"pqS" = (
+/obj/machinery/autolathe/hacked,
+/turf/open/floor/plating/rust,
+/area/centcom/control)
 "prw" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/maintenance,
@@ -30677,14 +30817,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/medbay)
-"pwm" = (
-/obj/machinery/computer{
-	name = "cryocommand console";
-	desc = "A computer running an extremely old and outdated piece of software still used to manage long-term cryogenic stasis systems.";
-	dir = 8
-	},
-/turf/open/floor/iron/showroomfloor,
-/area/centcom/ferry)
 "pwq" = (
 /turf/closed/mineral/gold,
 /area/ruin/unpowered)
@@ -30712,10 +30844,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/hydro)
-"pxb" = (
-/obj/effect/turf_decal/industrial/warning,
-/turf/open/floor/circuit/red/anim,
-/area/centcom/control)
 "pxv" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /mob/living/simple_animal/bot/honkbot{
@@ -30915,14 +31043,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/airless,
 /area/ruin/space/ancientstation/alpha/library)
-"pDk" = (
-/obj/machinery/door/airlock/centcom{
-	name = "The Body Pit";
-	req_access_txt = "101"
-	},
-/obj/effect/mapping_helpers/airlock/locked,
-/turf/open/floor/plating,
-/area/centcom/ferry)
 "pDx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/public/glass{
@@ -30937,6 +31057,21 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/dorms)
+"pDD" = (
+/obj/structure/table/abductor,
+/obj/item/retractor/alien,
+/obj/item/circular_saw/alien{
+	pixel_x = -5;
+	pixel_y = 10
+	},
+/obj/item/cautery/alien{
+	pixel_x = 3;
+	pixel_y = -10
+	},
+/turf/open/floor/circuit/red/anim{
+	color = "#7C64BD"
+	},
+/area/centcom/ferry)
 "pDW" = (
 /obj/effect/gibspawner/human,
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -30953,6 +31088,12 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
+"pEO" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/centcom/control)
 "pFu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/corner/yellow{
@@ -31108,6 +31249,11 @@
 /obj/item/paper/fluff/ruins/oldstation,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/dorms)
+"pNn" = (
+/turf/open/chasm{
+	desc = "The body pit. You're pretty thankful you can't smell what's down there."
+	},
+/area/centcom/ferry)
 "pNp" = (
 /obj/machinery/door/airlock/virology/glass{
 	name = "Isolation B";
@@ -31143,12 +31289,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/cargo)
-"pOx" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 8
-	},
-/turf/open/floor/circuit/red/anim,
-/area/centcom/control)
 "pOL" = (
 /obj/effect/turf_decal/corner/neutral/full{
 	alpha = 50
@@ -31208,6 +31348,9 @@
 /obj/effect/turf_decal/corner/red,
 /turf/open/floor/iron/dark,
 /area/centcom/control)
+"pQQ" = (
+/turf/open/floor/plating/dirt,
+/area/centcom/exterior)
 "pRH" = (
 /obj/structure/table,
 /obj/item/storage/box/syringes,
@@ -31378,13 +31521,6 @@
 /obj/structure/chair/office/light,
 /turf/open/floor/wood/tile,
 /area/centcom)
-"pXY" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 8
-	},
-/obj/effect/turf_decal/corner_techfloor_grid,
-/turf/open/floor/plating,
-/area/centcom/control)
 "pYn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -31452,6 +31588,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/centcom)
+"qar" = (
+/obj/machinery/door/poddoor/crusher/automatic/preopen,
+/obj/machinery/conveyor{
+	id = "centcom_old_disposals"
+	},
+/turf/open/floor/plating/rust,
+/area/centcom/exterior)
 "qaG" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin{
@@ -31539,6 +31682,16 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/beta/hall)
+"qed" = (
+/obj/machinery/door/airlock/centcom{
+	name = "CentCom Briefing Room";
+	req_access_txt = "101"
+	},
+/obj/effect/turf_decal/corner/neutral/full{
+	alpha = 50
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/ferry)
 "qem" = (
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/ancientstation/delta/ai)
@@ -31779,6 +31932,18 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/centcom)
+"qoG" = (
+/obj/structure/fluff/oldturret{
+	icon = 'whitesands/icons/obj/monitors.dmi';
+	icon_state = "aac";
+	density = 0;
+	name = "elevator panel";
+	desc = "The control panel of the elevator.";
+	pixel_x = 25;
+	pixel_y = 8
+	},
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/centcom/control)
 "qoO" = (
 /turf/closed/wall,
 /area/ruin/space/ancientstation/beta/supermatter)
@@ -32040,13 +32205,6 @@
 /obj/effect/turf_decal/industrial/outline/yellow,
 /turf/open/floor/iron,
 /area/centcom/supply)
-"qvh" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Emergency Response Corps Stasis Facility";
-	req_access_txt = "101"
-	},
-/turf/open/floor/iron/showroomfloor,
-/area/centcom/ferry)
 "qvp" = (
 /obj/structure/catwalk,
 /obj/structure/cable/yellow{
@@ -32060,6 +32218,14 @@
 	},
 /turf/open/space/basic,
 /area/ruin/space/ancientstation/charlie/solars)
+"qvy" = (
+/obj/effect/landmark/ert_spawn,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/cryo_cell,
+/turf/open/floor/iron/showroomfloor,
+/area/centcom/ferry)
 "qvZ" = (
 /obj/structure/closet/secure_closet/centcom{
 	req_access = null;
@@ -32226,6 +32392,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ctf)
+"qyX" = (
+/obj/item/trash/tray,
+/turf/open/floor/plating/dirt,
+/area/centcom/exterior)
 "qzy" = (
 /obj/item/vending_refill/cigarette,
 /obj/effect/turf_decal/corner/blue/diagonal_centre,
@@ -32649,12 +32819,6 @@
 /obj/item/bedsheet/centcom,
 /turf/open/floor/wood/large,
 /area/ruin/space/ancientstation/alpha/office)
-"qPf" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/plating/dirt,
-/area/centcom/exterior)
 "qPg" = (
 /obj/effect/turf_decal/corner/red{
 	dir = 8
@@ -32911,10 +33075,6 @@
 /obj/item/clothing/head/helmet/space/nasavoid/old,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/engie)
-"rbm" = (
-/obj/item/trash/waffles,
-/turf/open/floor/plating/dirt,
-/area/centcom/exterior)
 "rbQ" = (
 /obj/effect/turf_decal/corner/beige{
 	dir = 6
@@ -32923,6 +33083,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/cargo)
+"rbV" = (
+/obj/structure/closet/crate/bin,
+/obj/item/documents/nanotrasen{
+	name = "old briefing";
+	desc = "An old Emergency Response Corps briefing."
+	},
+/turf/open/floor/plating,
+/area/centcom/ferry)
 "rcn" = (
 /obj/structure/filingcabinet/filingcabinet,
 /obj/effect/turf_decal/corner/neutral/full{
@@ -33342,9 +33510,6 @@
 /obj/effect/spawner/lootdrop/maintenance/two,
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/delta/hall)
-"rrq" = (
-/turf/open/floor/circuit/red/anim,
-/area/centcom/control)
 "rrw" = (
 /obj/effect/turf_decal/corner/green{
 	dir = 8
@@ -33477,6 +33642,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine/airless,
 /area/ruin/space/ancientstation/beta/supermatter)
+"rxs" = (
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/centcom/control)
 "rxE" = (
 /obj/item/chair{
 	dir = 4
@@ -33501,25 +33669,6 @@
 	},
 /turf/open/floor/iron,
 /area/tdome/arena_source)
-"ryN" = (
-/obj/structure/table/abductor,
-/obj/item/retractor/alien,
-/obj/item/hemostat/alien{
-	pixel_x = -3;
-	pixel_y = -10
-	},
-/obj/item/circular_saw/alien{
-	pixel_x = -5;
-	pixel_y = 10
-	},
-/obj/item/cautery/alien{
-	pixel_x = 3;
-	pixel_y = -10
-	},
-/turf/open/floor/circuit/red/anim{
-	color = "#7C64BD"
-	},
-/area/centcom/ferry)
 "ryQ" = (
 /turf/open/floor/wood/tile{
 	color = "#e3994e"
@@ -33681,9 +33830,6 @@
 /area/ruin/unpowered/syndicate_lava_base/bar)
 "rDT" = (
 /obj/machinery/light,
-/obj/structure/bed/dogbed{
-	name = "Zec's bed"
-	},
 /turf/open/floor/circuit/red/anim{
 	color = "#7C64BD"
 	},
@@ -33800,6 +33946,12 @@
 /obj/machinery/power/rad_collector,
 /turf/open/floor/iron/dark,
 /area/ruin/unpowered/syndicate_lava_base/cargo)
+"rNn" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/turf/open/floor/circuit/red/anim,
+/area/centcom/control)
 "rNF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/corner/yellow{
@@ -33926,13 +34078,6 @@
 	},
 /turf/open/floor/iron,
 /area/tdome/arena_source)
-"rSo" = (
-/obj/machinery/conveyor{
-	id = "centcom_old_disposals"
-	},
-/obj/item/trash/can/food/peaches,
-/turf/open/floor/plating/rust,
-/area/centcom/exterior)
 "rSr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
@@ -34128,6 +34273,9 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/engineering)
+"sbf" = (
+/turf/open/floor/circuit/red/anim,
+/area/centcom/control)
 "sbl" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/grille/indestructable{
@@ -34479,10 +34627,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/centcom)
-"snm" = (
-/obj/effect/baseturf_helper/beach/sand,
-/turf/closed/indestructible/riveted,
-/area/centcom/ferry)
 "snx" = (
 /obj/effect/turf_decal/corner/red{
 	dir = 1;
@@ -34721,13 +34865,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ctf)
-"sui" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/toolcloset,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/turf/open/floor/plating/rust,
-/area/centcom/control)
 "sur" = (
 /obj/effect/turf_decal/corner/green/diagonal_centre{
 	color = "#66b266"
@@ -35107,13 +35244,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/arrivals)
-"sIg" = (
-/obj/effect/baseturf_helper/beach/sand,
-/turf/closed/indestructible/rock,
-/area/centcom/exterior)
-"sIo" = (
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/centcom/control)
 "sIu" = (
 /obj/machinery/door/airlock/command{
 	name = "Beta Station Access";
@@ -35135,26 +35265,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
 /area/ruin/space/ancientstation/alpha/arrivals)
-"sIX" = (
-/obj/structure/table/reinforced,
-/obj/item/tank/internals/emergency_oxygen/double{
-	pixel_x = 5;
-	pixel_y = 4
-	},
-/obj/item/tank/internals/emergency_oxygen/double{
-	pixel_x = -5;
-	pixel_y = 4
-	},
-/obj/item/clothing/mask/gas{
-	pixel_x = 6;
-	pixel_y = 4
-	},
-/obj/item/clothing/mask/gas{
-	pixel_x = -6;
-	pixel_y = 7
-	},
-/turf/open/floor/iron/showroomfloor,
-/area/centcom/ferry)
 "sJQ" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 9
@@ -35308,16 +35418,6 @@
 	},
 /turf/open/floor/iron,
 /area/tdome/arena_source)
-"sQJ" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 8
-	},
-/obj/effect/turf_decal/floordetail/edgedrain{
-	dir = 4
-	},
-/obj/structure/table,
-/turf/open/floor/circuit/red/anim,
-/area/centcom/control)
 "sRF" = (
 /obj/effect/turf_decal/corner/purple{
 	dir = 1
@@ -35537,16 +35637,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/delta/hall)
-"sXW" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/blue{
-	dir = 8
-	},
-/obj/effect/baseturf_helper/beach/sand,
-/turf/open/floor/iron,
-/area/centcom/evac)
 "sYe" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -35888,15 +35978,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/dorms)
-"tnt" = (
-/obj/machinery/door/airlock/centcom{
-	name = "CentCom Teleporter"
-	},
-/obj/machinery/door/poddoor{
-	id = "centcom_tele_lockdown"
-	},
-/turf/open/floor/iron,
-/area/centcom/control)
 "tnx" = (
 /obj/machinery/firealarm/south,
 /obj/effect/turf_decal/corner/neutral/full{
@@ -35990,12 +36071,6 @@
 	},
 /turf/open/space/basic,
 /area/template_noop)
-"tpN" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/centcom/ferry)
 "tpX" = (
 /obj/machinery/light_switch{
 	pixel_y = -23
@@ -36543,6 +36618,17 @@
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/plating,
 /area/centcom)
+"tLD" = (
+/obj/machinery/vending/autodrobe/all_access{
+	pixel_x = -15;
+	pixel_y = -1
+	},
+/obj/machinery/vending/coffee{
+	pixel_x = 7;
+	pixel_y = -1
+	},
+/turf/open/floor/iron/showroomfloor,
+/area/centcom/ferry)
 "tMq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair{
@@ -36698,8 +36784,8 @@
 	pixel_y = -1
 	},
 /obj/item/hemostat/alien{
-	pixel_x = -5;
-	pixel_y = 9
+	pixel_x = -11;
+	pixel_y = 10
 	},
 /turf/open/floor/circuit/red/anim{
 	color = "#7C64BD"
@@ -36965,18 +37051,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/ruin/unpowered/syndicate_lava_base/telecomms)
-"uaB" = (
-/obj/structure/fluff/oldturret{
-	icon = 'whitesands/icons/obj/monitors.dmi';
-	icon_state = "aac";
-	density = 0;
-	name = "elevator panel";
-	desc = "The control panel of the elevator.";
-	pixel_x = 25;
-	pixel_y = 8
-	},
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/centcom/control)
 "uaL" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_lava_base/testlab)
@@ -36992,13 +37066,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/rnd)
-"ubN" = (
-/obj/structure/ladder/unbreakable{
-	id = "centcom_maint"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/centcom/control)
 "ubR" = (
 /obj/structure/chair/office/light{
 	dir = 1
@@ -37090,14 +37157,6 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/charlie/hall)
-"ufe" = (
-/obj/structure/closet/crate/bin,
-/obj/item/documents/nanotrasen{
-	name = "old briefing";
-	desc = "An old Emergency Response Corps briefing."
-	},
-/turf/open/floor/plating,
-/area/centcom/ferry)
 "ufl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -37511,10 +37570,6 @@
 "uxI" = (
 /turf/closed/wall,
 /area/ruin/space/ancientstation/charlie/storage)
-"uxM" = (
-/obj/machinery/autolathe/hacked,
-/turf/open/floor/plating/rust,
-/area/centcom/control)
 "uxU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/corner/yellow,
@@ -37655,10 +37710,6 @@
 /obj/item/reagent_containers/food/drinks/shaker,
 /turf/open/floor/wood,
 /area/ruin/unpowered/syndicate_lava_base/bar)
-"uAv" = (
-/obj/effect/baseturf_helper/beach/sand,
-/turf/open/floor/iron,
-/area/centcom/supplypod/podStorage)
 "uAU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -37753,16 +37804,6 @@
 /obj/structure/grille,
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/alpha/arrivals)
-"uFg" = (
-/obj/effect/turf_decal/corner/neutral/full{
-	alpha = 50
-	},
-/obj/machinery/door/airlock/centcom{
-	name = "CentCom Maintenance";
-	req_access_txt = "101"
-	},
-/turf/open/floor/iron/dark,
-/area/centcom/control)
 "uFl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/maintenance,
@@ -37996,14 +38037,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/main)
-"uNb" = (
-/obj/effect/turf_decal/corner/brown,
-/obj/effect/turf_decal/corner/brown{
-	dir = 4
-	},
-/obj/effect/baseturf_helper/beach/sand,
-/turf/open/floor/iron,
-/area/centcom/supplypod/loading/three)
 "uNL" = (
 /obj/machinery/smartfridge/food,
 /obj/machinery/door/firedoor,
@@ -38023,10 +38056,10 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/charlie/hall)
-"uQK" = (
+"uRq" = (
 /obj/effect/baseturf_helper/beach/sand,
-/turf/open/floor/circuit/green,
-/area/tdome/arena_source)
+/turf/closed/indestructible/riveted,
+/area/centcom/prison)
 "uSb" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/airless{
@@ -38138,6 +38171,15 @@
 /obj/item/bikehorn,
 /turf/open/floor/wood,
 /area/centcom/ferry)
+"uUp" = (
+/obj/item/kirbyplants{
+	icon_state = "plant-05";
+	pixel_y = 1;
+	pixel_x = 0
+	},
+/obj/effect/turf_decal/industrial/hatch/yellow,
+/turf/open/floor/iron,
+/area/centcom/control)
 "uVk" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -38283,9 +38325,6 @@
 	icon_state = "platingdmg3"
 	},
 /area/ruin/space/ancientstation/beta/supermatter)
-"uZI" = (
-/turf/open/floor/plating/dirt,
-/area/centcom/exterior)
 "uZQ" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
@@ -38377,15 +38416,6 @@
 /obj/structure/window/fulltile,
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/delta/rnd)
-"vdb" = (
-/obj/effect/turf_decal/corner/neutral/full{
-	alpha = 50
-	},
-/obj/structure/chair/office{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/centcom/control)
 "vdp" = (
 /obj/machinery/button/door{
 	id = "addust_office_emergency_syndie";
@@ -38456,15 +38486,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/ruin/space/ancientstation/delta/biolab)
-"vfA" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 4
-	},
-/obj/effect/turf_decal/corner_techfloor_grid{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/centcom/control)
 "vfF" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/centcom{
@@ -38511,6 +38532,13 @@
 /turf/open/floor/wood/large{
 	color = "#543c30"
 	},
+/area/centcom/ferry)
+"vfJ" = (
+/obj/machinery/vending/clothing{
+	pixel_x = -5;
+	pixel_y = -1
+	},
+/turf/open/floor/iron/showroomfloor,
 /area/centcom/ferry)
 "vfQ" = (
 /obj/structure/sign/warning/securearea,
@@ -38674,6 +38702,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/diagonal,
 /area/ruin/space/ancientstation/alpha/office)
+"vjR" = (
+/obj/item/trash/plate,
+/turf/open/floor/plating/dirt,
+/area/centcom/exterior)
 "vjS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/recharge_station,
@@ -38910,11 +38942,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/beta/mining)
-"vsF" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron,
-/area/centcom)
 "vtf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
@@ -38953,6 +38980,13 @@
 /obj/structure/grille,
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/charlie/dorms)
+"vup" = (
+/obj/effect/turf_decal/corner/neutral/full{
+	alpha = 50
+	},
+/obj/machinery/light,
+/turf/open/floor/iron,
+/area/centcom/control)
 "vuG" = (
 /obj/item/shard,
 /obj/effect/decal/cleanable/glass,
@@ -39582,16 +39616,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/centcom)
-"vZG" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 4
-	},
-/obj/effect/turf_decal/floordetail/edgedrain{
-	dir = 8
-	},
-/obj/structure/table,
-/turf/open/floor/circuit/red/anim,
-/area/centcom/control)
 "vZY" = (
 /obj/effect/turf_decal/box/corners{
 	dir = 4
@@ -39682,11 +39706,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
-"wcC" = (
-/obj/effect/decal/remains/human,
-/obj/effect/gibspawner/human,
-/turf/open/floor/plating/dirt,
-/area/centcom/exterior)
 "wcM" = (
 /obj/machinery/light,
 /obj/machinery/dna_scannernew,
@@ -39838,34 +39857,6 @@
 /obj/item/stack/sheet/metal/fifty,
 /turf/open/floor/circuit,
 /area/ruin/space/ancientstation/delta/ai)
-"wiu" = (
-/obj/structure/closet/secure_closet{
-	icon_state = "cc";
-	req_access = list(101);
-	name = "emergency response corps officer's locker"
-	},
-/obj/item/clothing/under/rank/centcom/official,
-/obj/item/clothing/head/centcom_cap{
-	name = "CentCom officer's cap";
-	desc = "A peaked cap worn by members of the Emergency Response Corps under Nanotrasen. While it looks similar to a commander's cap from afar, the insignia is a shield instead of the Nanotrasen logo."
-	},
-/obj/item/clothing/shoes/combat,
-/obj/item/clothing/head/beret/centcom_formal,
-/obj/item/clothing/suit/solgov_trenchcoat/terragov{
-	name = "old officer's trenchcoat";
-	desc = "An old, faded trenchcoat hastily re-fitted with Nanotrasen insignia."
-	},
-/turf/open/floor/iron/showroomfloor,
-/area/centcom/ferry)
-"wiv" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 8
-	},
-/obj/effect/turf_decal/floordetail/edgedrain{
-	dir = 4
-	},
-/turf/open/floor/circuit/red/anim,
-/area/centcom/control)
 "wiA" = (
 /obj/machinery/vending/snack{
 	all_items_free = 1
@@ -39880,6 +39871,10 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/hydro)
+"wiU" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/rust,
+/area/centcom/control)
 "wjg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/glass,
@@ -40345,9 +40340,6 @@
 /obj/structure/grille,
 /turf/open/floor/plating/airless,
 /area/ruin/space/ancientstation/alpha/lounge)
-"wBC" = (
-/turf/closed/indestructible/riveted,
-/area/centcom/exterior)
 "wCd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
@@ -40402,15 +40394,6 @@
 /turf/open/floor/iron/dark/smooth_half{
 	dir = 8
 	},
-/area/centcom/control)
-"wEV" = (
-/obj/effect/turf_decal/corner/neutral/full{
-	alpha = 50
-	},
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/iron,
 /area/centcom/control)
 "wFc" = (
 /obj/effect/turf_decal/corner/beige{
@@ -40545,12 +40528,6 @@
 	icon_state = "platingdmg2"
 	},
 /area/ruin/space/ancientstation/alpha/library)
-"wMh" = (
-/turf/open/chasm{
-	name = "elevator shaft";
-	desc = "I'm not even going to give you handrails. You already got past an impervious wall. Go away."
-	},
-/area/centcom/control)
 "wMn" = (
 /obj/machinery/pipedispenser,
 /obj/effect/turf_decal/industrial/warning{
@@ -40605,12 +40582,6 @@
 	color = "#543c30"
 	},
 /area/centcom/ferry)
-"wOG" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium/tiled/white,
-/area/centcom/control)
 "wOW" = (
 /obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dirt,
@@ -40860,10 +40831,11 @@
 	},
 /area/lavaland/surface/outdoors)
 "wWB" = (
-/turf/open/chasm{
-	desc = "The body pit. You're pretty thankful you can't smell what's down there."
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
 	},
-/area/centcom/ferry)
+/turf/open/floor/circuit/red/anim,
+/area/centcom/control)
 "wWU" = (
 /obj/effect/turf_decal/corner/purple,
 /obj/effect/turf_decal/corner/purple{
@@ -40998,10 +40970,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/engineering)
-"xaZ" = (
-/obj/item/trash/tray,
-/turf/open/floor/plating/dirt,
-/area/centcom/exterior)
 "xbl" = (
 /obj/structure/table/reinforced/rglass,
 /obj/item/surgicaldrill/advanced,
@@ -41050,6 +41018,12 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/engie)
+"xeR" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plating/dirt,
+/area/centcom/exterior)
 "xeU" = (
 /obj/structure/bookcase/random,
 /obj/effect/turf_decal/corner/neutral/full{
@@ -41564,10 +41538,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/dorms)
-"xzo" = (
-/obj/structure/closet/crate/trashcart,
-/turf/open/floor/plating/dirt,
-/area/centcom/exterior)
+"xzE" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/centcom/control)
 "xAk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -41681,6 +41655,16 @@
 	alpha = 50
 	},
 /turf/open/floor/iron/dark,
+/area/centcom/control)
+"xDP" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/floordetail/edgedrain{
+	dir = 4
+	},
+/obj/structure/table,
+/turf/open/floor/circuit/red/anim,
 /area/centcom/control)
 "xEq" = (
 /obj/effect/turf_decal/siding/wood{
@@ -41835,10 +41819,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/airless,
 /area/ruin/space/ancientstation/alpha/cargo)
-"xKa" = (
-/obj/item/trash/plate,
-/turf/open/floor/plating/dirt,
-/area/centcom/exterior)
 "xKf" = (
 /obj/item/storage/box/monkeycubes,
 /obj/effect/decal/cleanable/dirt,
@@ -41890,6 +41870,14 @@
 "xLy" = (
 /turf/closed/wall/rust,
 /area/ruin/space/ancientstation/beta/mining)
+"xLT" = (
+/obj/machinery/computer{
+	name = "cryocommand console";
+	desc = "A computer running an extremely old and outdated piece of software still used to manage long-term cryogenic stasis systems.";
+	dir = 8
+	},
+/turf/open/floor/iron/showroomfloor,
+/area/centcom/ferry)
 "xMU" = (
 /obj/item/target,
 /obj/item/target/syndicate,
@@ -42334,6 +42322,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/charlie/hall)
+"yeP" = (
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/centcom/control)
 "yfl" = (
 /obj/machinery/light,
 /obj/effect/decal/cleanable/dirt,
@@ -76289,8 +76282,8 @@ pxy
 aXT
 aXT
 aXT
-sIg
-snm
+gtV
+gRa
 amD
 amD
 hHe
@@ -76817,7 +76810,7 @@ amD
 amD
 tQw
 mwJ
-ryN
+pDD
 amD
 amD
 amD
@@ -80208,12 +80201,12 @@ aVE
 aTW
 aVg
 aVg
-noq
-tpN
-qvh
-nxx
-nxx
-iQl
+qed
+aNg
+mqd
+nqq
+nqq
+vfJ
 amD
 awk
 vyH
@@ -80466,11 +80459,11 @@ aML
 azW
 aWZ
 amD
-ufe
+rbV
 amD
-keR
-nxx
-fGm
+nyU
+nqq
+tLD
 amD
 vyH
 vyH
@@ -80723,11 +80716,11 @@ aZb
 aWB
 aMk
 amD
-pDk
+lGt
 amD
-lPS
-nxx
-sIX
+qvy
+nqq
+dqo
 amD
 vyH
 vyH
@@ -80980,11 +80973,11 @@ aAh
 aVR
 aWL
 amD
-iXk
+jVU
 amD
-keR
-nxx
-oTN
+nyU
+nqq
+iuo
 aEp
 aEp
 aEp
@@ -81237,11 +81230,11 @@ awi
 aBt
 aWH
 amD
-wWB
+pNn
 amD
-keR
-nxx
-dWU
+nyU
+nqq
+lHV
 aEp
 aSs
 aXu
@@ -81494,11 +81487,11 @@ aVg
 azA
 ana
 amD
-wWB
+pNn
 amD
-keR
-nxx
-wiu
+nyU
+nqq
+lEQ
 aEp
 ajV
 aFE
@@ -81754,7 +81747,7 @@ amD
 amD
 amD
 amD
-pwm
+xLT
 amD
 aEp
 aRb
@@ -82008,8 +82001,8 @@ aVg
 aXY
 aXv
 amD
-ubN
-nUl
+aog
+yeP
 amD
 amD
 aEp
@@ -82265,10 +82258,10 @@ aVg
 aVg
 aXQ
 amD
-iVn
-iVn
-iVn
-iVn
+xzE
+xzE
+xzE
+xzE
 aEp
 aRG
 aEp
@@ -82523,9 +82516,9 @@ aVg
 aRs
 amD
 aoG
-iVn
-bFt
-iVn
+xzE
+wiU
+xzE
 aYP
 aQE
 tdE
@@ -82779,10 +82772,10 @@ aTp
 aVg
 ayO
 amD
-gWL
-gWL
+afI
+afI
 aoG
-iVn
+xzE
 aEp
 aEv
 aEp
@@ -83036,8 +83029,8 @@ aVg
 aVg
 aNV
 anT
-bFt
-bFt
+wiU
+wiU
 aoG
 aoG
 aEp
@@ -83293,10 +83286,10 @@ aXJ
 aCU
 aAE
 amD
-iVn
-iVn
-sui
-uxM
+xzE
+xzE
+oTN
+pqS
 aEp
 aEH
 aEv
@@ -84064,7 +84057,7 @@ amQ
 aio
 aiu
 aim
-uFg
+okb
 aip
 aiu
 aio
@@ -84534,7 +84527,7 @@ aXT
 aXT
 aXT
 aXT
-jRv
+jpn
 tRM
 rUZ
 eMu
@@ -84789,8 +84782,8 @@ aXT
 aXT
 aXT
 aXT
-uZI
-uZI
+pQQ
+pQQ
 aiF
 aiF
 aiN
@@ -85044,25 +85037,25 @@ aXT
 aXT
 aXT
 aXT
-uZI
-uZI
-uZI
-uZI
+pQQ
+pQQ
+pQQ
+pQQ
 aio
-bbT
-pgx
-vZG
-bbT
+iwy
+nJd
+pbX
+iwy
 aio
-ioJ
-iNB
-dho
+ens
+emM
+nOh
 aio
-sIo
-wOG
-sIo
+rxs
+pEO
+rxs
 aio
-eHY
+mNW
 aiu
 lvT
 aBU
@@ -85301,23 +85294,23 @@ aXT
 aXT
 aXT
 aXT
-uZI
-uZI
-jWe
-uZI
-hJX
+pQQ
+pQQ
+hsL
+pQQ
+gxf
 aHE
 aHE
 aHE
 aHE
-hJX
-gmG
-vdb
+gxf
+fyd
+bqN
 awe
 aio
-uaB
-sIo
-sIo
+qoG
+rxs
+rxs
 aio
 aio
 aio
@@ -85559,21 +85552,21 @@ aXT
 aXT
 aXT
 aXT
-uZI
-uZI
-uZI
+pQQ
+pQQ
+pQQ
 aio
-pXY
-pOx
-hGr
+llW
+rNn
+nOn
 aHE
 aio
-aNg
+dlm
 awe
 awe
 aio
 aio
-kUt
+bsr
 aio
 aio
 uGi
@@ -85815,23 +85808,23 @@ aXT
 aXT
 aXT
 aXT
-uZI
-uZI
-uZI
+pQQ
+pQQ
+pQQ
 aXT
-kuD
-rrq
-etT
-pxb
+hSz
+sbf
+cVX
+bbd
 aHE
-tnt
+hUx
 awe
 awe
 awe
 awe
-ndZ
+haL
 awe
-wEV
+nAL
 alr
 uGi
 aRD
@@ -85874,7 +85867,7 @@ aQE
 avE
 asz
 aQE
-ljV
+cgK
 aQE
 aIK
 aQE
@@ -85892,7 +85885,7 @@ aIt
 aJI
 asA
 aQx
-fKI
+fSA
 asB
 aKD
 aIR
@@ -86072,22 +86065,22 @@ aXT
 aXT
 aXT
 aXT
-mmb
-fxx
-uZI
+osG
+klT
+pQQ
 aXT
 aio
-vfA
-dUK
-oli
+fki
+wWB
+bIq
 aHE
 aio
-nXb
+hVB
 awe
-cWS
+vup
 aio
 aio
-igS
+avG
 aio
 aio
 uGi
@@ -86330,22 +86323,22 @@ aXT
 aXT
 aXT
 aXT
-uZI
-uZI
-uZI
-hJX
+pQQ
+pQQ
+pQQ
+gxf
 aHE
 aHE
 aHE
 aHE
-hJX
+gxf
 awe
 awe
 awe
 aio
-wMh
-wMh
-wMh
+bJT
+bJT
+bJT
 aio
 aio
 aio
@@ -86587,24 +86580,24 @@ aXT
 aXT
 aXT
 aXT
-uZI
-uZI
+pQQ
+pQQ
 aXT
 aio
-wiv
-sQJ
-igH
-wiv
+fuF
+xDP
+dOB
+fuF
 aio
 aTh
 aOc
-ewU
+uUp
 aio
-wMh
-wMh
-wMh
+bJT
+bJT
+bJT
 aio
-eqj
+gIQ
 aiu
 nyN
 gkc
@@ -87358,7 +87351,7 @@ aXT
 aXT
 aXT
 aXT
-amh
+uRq
 air
 aiB
 aiI
@@ -89414,7 +89407,7 @@ aXT
 aXT
 aXT
 aXT
-fAD
+jyC
 xpf
 otZ
 otZ
@@ -89928,7 +89921,7 @@ aXT
 aXT
 aXT
 aXT
-amh
+uRq
 air
 aiB
 aiI
@@ -93071,7 +93064,7 @@ aYn
 aXR
 aXR
 aYn
-uNb
+eCn
 aVi
 aVi
 aVi
@@ -93308,7 +93301,7 @@ aXS
 aXS
 aXS
 aXS
-fNY
+acb
 aVe
 avh
 aLU
@@ -93317,7 +93310,7 @@ aSa
 aPM
 auo
 aVp
-ctq
+cnI
 aYn
 aYn
 aYn
@@ -93585,7 +93578,7 @@ aYn
 hpk
 hpk
 aYn
-klb
+oeN
 aNe
 aNe
 aNe
@@ -94550,10 +94543,10 @@ aXT
 aXT
 aXT
 aXT
-uZI
-uZI
-uZI
-mVQ
+pQQ
+pQQ
+pQQ
+hdd
 aXT
 aXT
 aXT
@@ -94587,7 +94580,7 @@ aqx
 szm
 aUP
 hKg
-sXW
+phj
 iZN
 iZN
 iZN
@@ -94807,10 +94800,10 @@ aXT
 aXT
 aXT
 aXT
-uZI
-uZI
-uZI
-hxV
+pQQ
+pQQ
+pQQ
+dAR
 aXT
 aXT
 aXT
@@ -94877,7 +94870,7 @@ aWb
 aWb
 aRp
 aYn
-uAv
+gsY
 aNE
 aNE
 aYn
@@ -95063,19 +95056,19 @@ aXT
 aXT
 aXT
 aXT
-uZI
-uZI
-uZI
-uZI
-hxV
-uZI
+pQQ
+pQQ
+pQQ
+pQQ
+dAR
+pQQ
 aXT
 aXT
 aXT
 aXT
 aXT
 aXT
-rbm
+ikG
 aXT
 aXT
 aXT
@@ -95320,20 +95313,20 @@ aXT
 aXT
 aXT
 aXT
-uZI
-uZI
-uZI
-uZI
-hxV
-ibM
+pQQ
+pQQ
+pQQ
+pQQ
+dAR
+lGA
 aXT
-wBC
-uZI
-wBC
+cYw
+pQQ
+cYw
 aXT
-uZI
-uZI
-xaZ
+pQQ
+pQQ
+qyX
 aXT
 aXT
 aXT
@@ -95577,20 +95570,20 @@ aXT
 aXT
 aXT
 aXT
-exU
-uZI
-uZI
-uZI
-gOL
-uZI
-rSo
-hWn
-cdH
-mgS
-cdH
-mpt
-wcC
-hBC
+iVa
+pQQ
+pQQ
+pQQ
+mva
+pQQ
+fHL
+qar
+hhQ
+cuX
+hhQ
+jEL
+gGG
+lJH
 aXT
 aXT
 fzh
@@ -95834,20 +95827,20 @@ aXT
 aXT
 aXT
 aXT
-uZI
-uZI
-uZI
-uZI
-uZI
-uZI
+pQQ
+pQQ
+pQQ
+pQQ
+pQQ
+pQQ
 aXT
-wBC
-xzo
-wBC
+cYw
+nFE
+cYw
 aXT
-uZI
-uZI
-uZI
+pQQ
+pQQ
+vyH
 aXT
 fzh
 fzh
@@ -96091,19 +96084,19 @@ aXT
 aXT
 aXT
 aXT
-wBC
-qPf
-uZI
-uZI
-uZI
-uZI
+cYw
+xeR
+pQQ
+pQQ
+pQQ
+pQQ
 aXT
 aXT
 aXT
 aXT
 aXT
 aXT
-xKa
+vjR
 aXT
 aXT
 fzh
@@ -96349,11 +96342,11 @@ aXT
 aXT
 aXT
 aXT
-uZI
-uZI
-uZI
-uZI
-uZI
+pQQ
+pQQ
+pQQ
+pQQ
+pQQ
 aXT
 aXT
 aXT
@@ -96606,10 +96599,10 @@ aXT
 aXT
 aXT
 aXT
-uZI
-uZI
-uZI
-uZI
+pQQ
+pQQ
+pQQ
+pQQ
 aXT
 aXT
 aXT
@@ -96802,10 +96795,10 @@ sBR
 ouI
 neb
 vPP
-kLe
-omS
+jRb
+ezw
 xyR
-vsF
+kLe
 neb
 aaa
 aaa
@@ -96864,9 +96857,9 @@ aXT
 aXT
 aXT
 aXT
-uZI
-uZI
-uZI
+pQQ
+pQQ
+pQQ
 aXT
 aXT
 aXT
@@ -103707,7 +103700,7 @@ oYG
 oYG
 oYG
 afP
-uQK
+kSr
 oYG
 oYG
 oYG
