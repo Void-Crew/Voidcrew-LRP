@@ -12301,12 +12301,11 @@
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
 "bmt" = (
-/obj/machinery/mecha_part_fabricator{
-	dir = 1
+/obj/structure/girder/reinforced,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "o2=22;n2=82;TEMP=180"
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark,
-/area/centcom)
+/area/syndicate_mothership)
 "bmw" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -13073,11 +13072,6 @@
 	color = "#543c30"
 	},
 /area/centcom/ferry)
-"bZs" = (
-/turf/closed/indestructible/fakedoor{
-	name = "Generator Room"
-	},
-/area/centcom)
 "bZw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -13210,13 +13204,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
-"cfZ" = (
-/obj/effect/landmark/start/nukeop,
-/obj/structure/chair/stool{
-	dir = 1
-	},
-/turf/open/floor/wood/tile,
-/area/syndicate_mothership/control)
 "cgq" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 4
@@ -13256,6 +13243,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/proto)
+"cht" = (
+/obj/machinery/door/airlock/vault{
+	name = "DNA Vault"
+	},
+/turf/open/floor/iron/dark/smooth_half,
+/area/centcom)
 "chF" = (
 /obj/effect/decal/cleanable/food/pie_smudge,
 /obj/item/trash/plate,
@@ -13402,6 +13395,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/hall)
+"cpH" = (
+/turf/open/floor/plating/airless,
+/area/centcom)
 "cqb" = (
 /obj/machinery/vending/security,
 /obj/effect/turf_decal/industrial/warning{
@@ -13508,12 +13504,6 @@
 /obj/item/bikehorn,
 /turf/open/floor/wood,
 /area/centcom/ferry)
-"cud" = (
-/obj/machinery/door/airlock/vault{
-	name = "DNA Vault"
-	},
-/turf/open/floor/iron/dark/smooth_half,
-/area/centcom)
 "cuh" = (
 /obj/effect/turf_decal/siding/wood{
 	color = "#2C0A05";
@@ -14351,12 +14341,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/beta/mining)
-"cXN" = (
-/obj/structure/closet/firecloset/full,
-/turf/open/floor/iron/dark/textured_large{
-	initial_gas_mix = "o2=22;n2=82;TEMP=180"
-	},
-/area/syndicate_mothership)
 "cXQ" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -14731,8 +14715,7 @@
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/engie)
 "dsp" = (
-/obj/structure/girder/reinforced,
-/turf/open/floor/plating/rust{
+/turf/open/floor/iron/dark/textured_large{
 	initial_gas_mix = "o2=22;n2=82;TEMP=180"
 	},
 /area/syndicate_mothership)
@@ -15393,10 +15376,6 @@
 	},
 /turf/open/floor/carpet/royalblue,
 /area/centcom/ferry)
-"dZQ" = (
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/centcom)
 "dZX" = (
 /obj/structure/chair/comfy/black{
 	dir = 8;
@@ -15405,6 +15384,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/large,
 /area/ruin/space/ancientstation/alpha/comdorms)
+"eaj" = (
+/obj/machinery/mecha_part_fabricator{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/centcom)
 "eaH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/portable_atmospherics/scrubber,
@@ -18406,12 +18391,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/rnd)
-"gEr" = (
-/obj/structure/closet/emcloset/anchored,
-/turf/open/floor/iron/dark/textured_large{
-	initial_gas_mix = "o2=22;n2=82;TEMP=180"
-	},
-/area/syndicate_mothership)
 "gEY" = (
 /obj/item/shard,
 /obj/structure/fluff/broken_flooring{
@@ -19613,6 +19592,11 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/ferry)
+"hFX" = (
+/obj/effect/decal/cleanable/glass,
+/obj/structure/grille/broken,
+/turf/open/floor/plating/airless,
+/area/centcom)
 "hGE" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/indestructible/riveted,
@@ -19959,12 +19943,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/syndicate_mothership/elite_squad)
-"hUf" = (
-/obj/machinery/mecha_part_fabricator{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/centcom)
 "hVZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -20465,12 +20443,6 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/basketball)
-"iwr" = (
-/obj/structure/chair/stool{
-	dir = 1
-	},
-/turf/open/floor/wood/tile,
-/area/syndicate_mothership/control)
 "iwE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
@@ -22294,8 +22266,11 @@
 	},
 /area/ruin/space/ancientstation/alpha/library)
 "kbo" = (
-/turf/open/floor/plating/airless,
-/area/centcom)
+/obj/structure/chair/stool{
+	dir = 1
+	},
+/turf/open/floor/wood/tile,
+/area/syndicate_mothership/control)
 "kcB" = (
 /obj/effect/turf_decal/box/corners{
 	dir = 8
@@ -23462,6 +23437,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/rnd)
+"kYD" = (
+/obj/structure/girder/reinforced,
+/turf/open/floor/plating/airless,
+/area/centcom)
 "kYS" = (
 /turf/closed/wall/rust,
 /area/ruin/space/ancientstation/charlie/engie)
@@ -24886,10 +24865,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/bridge)
-"mmN" = (
-/obj/structure/girder/reinforced,
-/turf/open/floor/plating/airless,
-/area/centcom)
 "mmT" = (
 /obj/structure/chair{
 	dir = 8
@@ -26383,6 +26358,9 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/syndicate_mothership/control)
+"nzV" = (
+/turf/open/space/basic,
+/area/centcom)
 "nAf" = (
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
@@ -26527,11 +26505,6 @@
 /obj/effect/turf_decal/corner/bar/diagonal,
 /turf/open/floor/iron,
 /area/syndicate_mothership/control)
-"nEB" = (
-/turf/closed/indestructible/fakedoor{
-	name = "War Room Tunnel"
-	},
-/area/syndicate_mothership)
 "nEF" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -26981,6 +26954,10 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/beta/atmos)
+"ofp" = (
+/obj/structure/reagent_dispensers/watertank/high,
+/turf/open/floor/plating/catwalk_floor,
+/area/syndicate_mothership/control)
 "ohB" = (
 /obj/effect/baseturf_helper/beach/sand,
 /turf/closed/indestructible/riveted,
@@ -27374,10 +27351,6 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/ferry)
-"oAX" = (
-/obj/structure/closet/emcloset/anchored,
-/turf/open/floor/plating/airless,
-/area/centcom)
 "oBc" = (
 /obj/structure/chair/office,
 /obj/effect/turf_decal/corner/brown,
@@ -28647,6 +28620,13 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/dorms)
+"pDB" = (
+/obj/machinery/mecha_part_fabricator{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/centcom)
 "pDW" = (
 /obj/effect/gibspawner/human,
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -28792,6 +28772,10 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/control)
+"pPk" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/centcom)
 "pPo" = (
 /turf/open/floor/iron/rockvault,
 /area/syndicate_mothership)
@@ -29292,6 +29276,13 @@
 /obj/machinery/firealarm/east,
 /turf/open/floor/iron,
 /area/centcom/control)
+"qmp" = (
+/obj/effect/landmark/start/nukeop,
+/obj/structure/chair/stool{
+	dir = 1
+	},
+/turf/open/floor/wood/tile,
+/area/syndicate_mothership/control)
 "qmv" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
@@ -30290,6 +30281,11 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/beta/hall)
+"qUA" = (
+/turf/closed/indestructible/fakedoor{
+	name = "Generator Room"
+	},
+/area/centcom)
 "qVR" = (
 /obj/structure/chair/office{
 	dir = 8
@@ -30638,11 +30634,6 @@
 	},
 /turf/open/space/basic,
 /area/ruin/space/ancientstation/charlie/solars)
-"rlk" = (
-/turf/open/floor/iron/dark/textured_large{
-	initial_gas_mix = "o2=22;n2=82;TEMP=180"
-	},
-/area/syndicate_mothership)
 "rln" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom Supply";
@@ -32290,6 +32281,10 @@
 	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/dorms)
+"sGj" = (
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/plating/airless,
+/area/centcom)
 "sGx" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4
@@ -32590,10 +32585,6 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/basketball)
-"sUU" = (
-/obj/structure/reagent_dispensers/watertank/high,
-/turf/open/floor/plating/catwalk_floor,
-/area/syndicate_mothership/control)
 "sUY" = (
 /obj/machinery/light/small{
 	brightness = 3;
@@ -36235,6 +36226,11 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ctf)
+"wdc" = (
+/turf/closed/indestructible/fakedoor{
+	name = "War Room Tunnel"
+	},
+/area/syndicate_mothership)
 "wdl" = (
 /obj/effect/turf_decal/corner/purple{
 	dir = 9
@@ -36435,11 +36431,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/bridge)
-"wnt" = (
-/obj/effect/decal/cleanable/glass,
-/obj/structure/grille/broken,
-/turf/open/floor/plating/airless,
-/area/centcom)
 "woE" = (
 /obj/structure/closet/secure_closet/freezer/fridge/open,
 /obj/item/storage/fancy/egg_box,
@@ -36565,6 +36556,12 @@
 	dir = 4
 	},
 /area/syndicate_mothership/control)
+"wum" = (
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/iron/dark/textured_large{
+	initial_gas_mix = "o2=22;n2=82;TEMP=180"
+	},
+/area/syndicate_mothership)
 "wuu" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
@@ -37973,6 +37970,12 @@
 	},
 /turf/open/space/basic,
 /area/ruin/space/ancientstation/charlie/solars)
+"xJy" = (
+/obj/structure/closet/firecloset/full,
+/turf/open/floor/iron/dark/textured_large{
+	initial_gas_mix = "o2=22;n2=82;TEMP=180"
+	},
+/area/syndicate_mothership)
 "xJz" = (
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
@@ -38308,9 +38311,6 @@
 /obj/effect/mob_spawn/human/oldjan,
 /turf/open/floor/iron/dark,
 /area/ruin/space/ancientstation/charlie/dorms)
-"xZr" = (
-/turf/open/space/basic,
-/area/centcom)
 "xZL" = (
 /obj/structure/table/reinforced,
 /obj/item/paper/fluff/stations/centcom/disk_memo{
@@ -45397,7 +45397,7 @@ ang
 uzh
 efZ
 efZ
-iwr
+kbo
 ang
 met
 lXY
@@ -45654,7 +45654,7 @@ ang
 crL
 gli
 xTD
-cfZ
+qmp
 ang
 met
 lXY
@@ -45918,7 +45918,7 @@ lXY
 lXY
 tKB
 ang
-sUU
+ofp
 ang
 ucl
 flV
@@ -50565,8 +50565,8 @@ ahh
 ahh
 ahh
 wBe
-dsp
-nEB
+bmt
+wdc
 wBe
 wBe
 aNx
@@ -50822,9 +50822,9 @@ ahh
 ahh
 ahh
 wBe
-rlk
-rlk
-gEr
+dsp
+dsp
+wum
 wBe
 ejB
 axb
@@ -51079,9 +51079,9 @@ aaa
 aaa
 aaa
 wBe
-rlk
-rlk
-cXN
+dsp
+dsp
+xJy
 wBe
 nSE
 qJh
@@ -51337,7 +51337,7 @@ aaa
 aaa
 wBe
 wBe
-nEB
+wdc
 wBe
 wBe
 oah
@@ -79298,7 +79298,7 @@ aXT
 aXT
 aXT
 aXT
-aiG
+aiF
 vLQ
 bus
 bus
@@ -80326,7 +80326,7 @@ aXT
 aXT
 aXT
 aXT
-aiG
+aiF
 vLQ
 bus
 bus
@@ -81239,9 +81239,9 @@ wVk
 neb
 neb
 neb
-xZr
-mmN
-wnt
+nzV
+kYD
+hFX
 neb
 neb
 xyH
@@ -81486,7 +81486,7 @@ neb
 sna
 ayL
 ayL
-cud
+cht
 vZA
 dKy
 nyF
@@ -81495,11 +81495,11 @@ ugr
 ugr
 cEk
 neb
-dZQ
-dZQ
-xZr
-kbo
-oAX
+pPk
+pPk
+nzV
+cpH
+sGj
 neb
 ayL
 ayL
@@ -81752,10 +81752,10 @@ wXe
 uhd
 bBP
 wVk
-dZQ
-xZr
-dZQ
-xZr
+pPk
+nzV
+pPk
+nzV
 neb
 neb
 wVk
@@ -82009,10 +82009,10 @@ xOW
 naT
 wcM
 neb
-dZQ
-kbo
-dZQ
-dZQ
+pPk
+cpH
+pPk
+pPk
 neb
 pmi
 cRM
@@ -82266,10 +82266,10 @@ cRk
 dNo
 sdT
 wVk
-kbo
-dZQ
-xZr
-xZr
+cpH
+pPk
+nzV
+nzV
 wVk
 kBW
 pXI
@@ -82523,10 +82523,10 @@ lml
 lml
 qva
 neb
-dZQ
-xZr
-xZr
-xZr
+pPk
+nzV
+nzV
+nzV
 neb
 bol
 swZ
@@ -82782,7 +82782,7 @@ neb
 neb
 neb
 neb
-bZs
+qUA
 neb
 neb
 neb
@@ -83824,7 +83824,7 @@ wVk
 ccg
 naT
 nvQ
-bmt
+pDB
 ptN
 ayL
 wVk
@@ -84338,7 +84338,7 @@ wVk
 vPP
 naT
 pZT
-hUf
+eaj
 ptN
 fsz
 wVk
