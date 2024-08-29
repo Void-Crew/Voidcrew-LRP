@@ -14,8 +14,6 @@
 	speed = 0
 	stat_attack = HARD_CRIT
 	robust_searching = 1
-	maxHealth = 100
-	health = 100
 	harm_intent_damage = 5
 	melee_damage_lower = 10
 	melee_damage_upper = 15
@@ -118,8 +116,8 @@
 /mob/living/simple_animal/hostile/police/hicom
 	name = "Police Lieutenant"
 	desc = "A Solarian Government police lieutenant, on their patrol with other officers usually, they don't seem particularly friendly though.. They aren't holding anything."
-	health = 125
-	maxHealth = 125
+	health = 200
+	maxHealth = 200
 	icon_state = "policehigh"
 	icon_living = "policehigh"
 	loot = list(/obj/effect/mob_spawn/human/corpse/police/hicom/armorless)
@@ -159,8 +157,8 @@
 /mob/living/simple_animal/hostile/police/hicom/armored
 	name = "Armored Police Lieutenant"
 	desc = "A Solarian Government police lieutenant, on their patrol with other officers usually with some added armor! They don't seem particularly friendly though.. They aren't holding anything."
-	health = 200
-	maxHealth = 200
+	health = 250
+	maxHealth = 250
 	icon_state = "policehigharmored"
 	icon_living = "policehigh"
 	loot = list(/obj/effect/mob_spawn/human/corpse/police/hicom)
@@ -207,6 +205,9 @@
 	maxHealth = 300
 	health = 300
 	rapid = 5
+	ranged = 1
+	retreat_distance = 3
+	minimum_distance = 5
 	casingtype = /obj/item/ammo_casing/c9mm
 	projectilesound = 'sound/weapons/gun/smg/smg_heavy.ogg'
 	loot = list(/obj/effect/gibspawner/human,/obj/effect/explosion,/obj/item/gun/ballistic/automatic/cm5)
