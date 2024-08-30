@@ -32424,44 +32424,8 @@
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/cargo)
 "tQw" = (
-/obj/structure/closet/abductor{
-	name = "Zec's Locker";
-	dir = 8
-	},
-/obj/item/slimepotion/lovepotion,
-/obj/item/gun/magic/wand/resurrection/debug,
-/obj/item/clothing/neck/petcollar,
-/obj/item/clothing/under/costume/maid,
-/obj/item/clothing/head/helmet/abductor,
-/obj/item/clothing/under/abductor,
-/obj/item/clothing/suit/armor/abductor/vest,
-/obj/item/dnainjector/telemut,
-/obj/item/scrying,
-/obj/item/book/granter/spell/shapechange,
-/obj/item/book/granter/spell/fireball,
-/obj/item/book/granter/spell/forcewall,
-/obj/item/book/granter/spell/summonitem,
-/obj/item/melee/classic_baton/telescopic,
-/obj/item/dnainjector/activator{
-	name = "Space Adaptation mutator";
-	pixel_x = -4;
-	pixel_y = -2
-	},
-/obj/item/radio/headset/abductor,
-/obj/item/storage/backpack/satchel/kepori{
-	pixel_x = 6;
-	pixel_y = 4
-	},
-/obj/item/implanter/adrenalin{
-	icon_state = "implanter1"
-	},
-/obj/item/implanter/storage{
-	icon_state = "implanter1"
-	},
-/obj/item/card/id/centcom{
-	registered_name = "Zec Minus";
-	assignment = "Phoon's Pet"
-	},
+/obj/structure/table/abductor,
+/obj/machinery/recharger,
 /turf/open/floor/circuit/red/anim{
 	color = "#7C64BD"
 	},
