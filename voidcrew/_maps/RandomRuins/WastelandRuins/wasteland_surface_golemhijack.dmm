@@ -108,8 +108,8 @@
 /obj/item/shard{
 	icon_state = "medium"
 	},
-/turf/template_noop,
-/area/template_noop)
+/turf/open/floor/plating/wasteland/lit,
+/area/ruin/unpowered)
 "hM" = (
 /obj/item/storage/box,
 /obj/item/light/bulb/broken,
@@ -367,8 +367,8 @@
 /area/ruin/unpowered)
 "vd" = (
 /obj/item/rack_parts,
-/turf/template_noop,
-/area/template_noop)
+/turf/open/floor/plating/wasteland/lit,
+/area/ruin/unpowered)
 "vD" = (
 /obj/item/shard{
 	icon_state = "tiny"
@@ -627,6 +627,9 @@
 /obj/machinery/door/airlock/external,
 /turf/open/floor/iron/dark,
 /area/ruin/unpowered)
+"Kh" = (
+/turf/open/floor/plating/wasteland/lit,
+/area/ruin/unpowered)
 "Ks" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/freezer,
@@ -655,6 +658,15 @@
 	icon_state = "platingdmg1"
 	},
 /area/ruin/unpowered)
+"Mx" = (
+/obj/effect/turf_decal/corner/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/corner/neutral{
+	dir = 1
+	},
+/turf/open/floor/plating/wasteland/lit,
+/area/ruin/unpowered)
 "MT" = (
 /obj/structure/frame/machine,
 /obj/item/shard,
@@ -669,6 +681,9 @@
 "Nm" = (
 /obj/machinery/door/airlock/titanium,
 /turf/open/floor/iron/dark,
+/area/ruin/unpowered)
+"Nz" = (
+/turf/open/floor/plating/dust/lit,
 /area/ruin/unpowered)
 "Pe" = (
 /obj/structure/ore_box,
@@ -910,7 +925,7 @@ aZ
 rm
 aZ
 wH
-zF
+Kh
 zF
 zF
 zF
@@ -935,8 +950,8 @@ RX
 wH
 Gs
 pb
-zF
-zF
+Kh
+Kh
 zF
 zF
 zF
@@ -956,13 +971,13 @@ aZ
 wl
 ZP
 ZP
-zF
+Kh
 aZ
 Il
 hh
 pb
 wH
-zF
+Kh
 zF
 zF
 zF
@@ -980,15 +995,15 @@ mO
 aZ
 Xx
 Tc
-zF
-zF
+Kh
+Kh
 nX
 Ks
-zF
+Nz
 hh
-zF
-zF
-zF
+Nz
+Kh
+Kh
 zF
 zF
 zF
@@ -1013,7 +1028,7 @@ hh
 pQ
 ht
 hJ
-zF
+Kh
 zF
 zF
 zF
@@ -1029,7 +1044,7 @@ xJ
 mO
 pb
 Gm
-zF
+Nz
 aZ
 aZ
 aZ
@@ -1045,7 +1060,7 @@ nX
 nX
 aZ
 aZ
-zF
+Kh
 zF
 zF
 "}
@@ -1053,7 +1068,7 @@ zF
 xJ
 mO
 rm
-zF
+Nz
 yX
 hh
 kT
@@ -1070,8 +1085,8 @@ ZP
 Um
 pQ
 Ie
-zF
-zF
+Kh
+Kh
 zF
 "}
 (8,1,1) = {"
@@ -1097,7 +1112,7 @@ pQ
 WO
 fb
 hh
-zF
+Nz
 "}
 (9,1,1) = {"
 JF
@@ -1121,7 +1136,7 @@ SN
 SN
 Ie
 yc
-zF
+Nz
 yc
 "}
 (10,1,1) = {"
@@ -1145,7 +1160,7 @@ MT
 wd
 vD
 wH
-zF
+Nz
 pb
 pb
 "}
@@ -1172,7 +1187,7 @@ pQ
 qY
 pb
 hh
-zF
+Nz
 "}
 (12,1,1) = {"
 xJ
@@ -1189,15 +1204,15 @@ CL
 pb
 QX
 Gf
-zF
+Mx
 pQ
 Gf
 pQ
 pb
 pb
-zF
-zF
-zF
+Kh
+Kh
+Nz
 "}
 (13,1,1) = {"
 xJ
@@ -1219,7 +1234,7 @@ aZ
 cW
 GZ
 Ie
-zF
+Kh
 zF
 zF
 zF
@@ -1235,9 +1250,9 @@ vI
 nZ
 Hm
 xX
-zF
-zF
-zF
+Kh
+Nz
+Nz
 zF
 zF
 zF
@@ -1257,9 +1272,9 @@ Pe
 tw
 pb
 at
-zF
-zF
-zF
+Kh
+Nz
+Kh
 zF
 zF
 zF
@@ -1283,7 +1298,7 @@ eM
 tH
 pb
 Hm
-zF
+Kh
 zF
 zF
 zF
@@ -1330,8 +1345,8 @@ zF
 zF
 aZ
 aZ
-zF
-zF
+Kh
+Nz
 zF
 zF
 zF
