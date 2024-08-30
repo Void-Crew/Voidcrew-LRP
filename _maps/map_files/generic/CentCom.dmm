@@ -13092,6 +13092,15 @@
 	color = "#543c30"
 	},
 /area/centcom/ferry)
+"bYP" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "bZw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -20869,6 +20878,9 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/basketball)
+"iLR" = (
+/turf/closed/mineral/ash_rock,
+/area/centcom/exterior)
 "iMA" = (
 /obj/machinery/door/window/brigdoor/eastleft{
 	req_access_txt = "109";
@@ -21518,6 +21530,12 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/bridge)
+"jmC" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/closed/indestructible/riveted,
+/area/centcom/ferry)
 "jmN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/hatch{
@@ -21868,6 +21886,15 @@
 /turf/open/floor/wood/large{
 	color = "#543c30"
 	},
+/area/centcom/ferry)
+"jHc" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/smes/magical{
+	output_level = 100000
+	},
+/turf/open/floor/plating,
 /area/centcom/ferry)
 "jHg" = (
 /obj/effect/decal/cleanable/dirt,
@@ -22444,6 +22471,7 @@
 /obj/item/clothing/suit/straight_jacket,
 /obj/item/restraints/legcuffs/bola/tactical,
 /obj/item/restraints/legcuffs/bola/tactical,
+/obj/item/spellbook,
 /turf/open/floor/wood/yew,
 /area/centcom/ferry)
 "kgo" = (
@@ -23191,6 +23219,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/centcom)
+"kLf" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/carpet/green,
+/area/centcom/ferry)
 "kLL" = (
 /obj/structure/closet/syndicate/resources/everything{
 	name = "materials locker";
@@ -24912,6 +24946,7 @@
 	pixel_y = -8;
 	id = 69421
 	},
+/obj/item/gun/magic/wand/death/debug,
 /turf/open/floor/wood/yew,
 /area/centcom/ferry)
 "mly" = (
@@ -26759,6 +26794,7 @@
 	dir = 8;
 	color = "#531F09"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/iron/dark/smooth_half{
 	dir = 8
 	},
@@ -28084,6 +28120,12 @@
 /obj/effect/turf_decal/corner/red,
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/dodgeball)
+"pdb" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/closed/indestructible/riveted,
+/area/centcom/ferry)
 "pdk" = (
 /obj/structure/sign/number/two,
 /turf/open/floor/iron/dark,
@@ -29358,6 +29400,12 @@
 /obj/effect/turf_decal/corner/green,
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/dodgeball)
+"qlS" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/closed/indestructible/riveted,
+/area/centcom/ferry)
 "qmm" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4
@@ -29629,33 +29677,11 @@
 /turf/open/floor/iron,
 /area/centcom)
 "quP" = (
-/obj/machinery/power/emitter/welded{
-	dir = 1;
-	pixel_x = 5;
-	name = "Cool Statue";
-	desc = "A perfectly normal and safe statue of nothing in particular. No reason to be worried at all.";
-	fire_delay = 1;
-	anchored = 1
-	},
-/obj/machinery/power/emitter/welded{
-	dir = 1;
-	pixel_x = -5;
-	name = "Cool Statue";
-	desc = "A perfectly normal and safe statue of nothing in particular. No reason to be worried at all.";
-	anchored = 1;
-	fire_delay = 1
-	},
-/obj/machinery/power/emitter/welded{
-	dir = 1;
-	name = "Cool Statue";
-	desc = "A perfectly normal and safe statue of nothing in particular. No reason to be worried at all.";
-	anchored = 1;
-	fire_delay = 1
-	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 1;
 	color = "#531F09"
 	},
+/obj/structure/closet/crate/bin,
 /turf/open/floor/wood/yew,
 /area/centcom/ferry)
 "qva" = (
@@ -29856,6 +29882,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
+"qCg" = (
+/obj/machinery/button{
+	pixel_x = 24;
+	pixel_y = -24;
+	id = 69422
+	},
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "qCo" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/corner/yellow{
@@ -31044,6 +31078,7 @@
 /area/ruin/space/ancientstation/charlie/bridge)
 "rzI" = (
 /obj/machinery/door/airlock/wood/glass,
+/obj/structure/fans/tiny,
 /turf/open/floor/iron/dark/smooth_half{
 	dir = 8
 	},
@@ -34886,6 +34921,15 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/charlie/hall)
+"uQN" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "uSb" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/airless{
@@ -38247,11 +38291,35 @@
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/charlie/hall)
 "xQQ" = (
-/obj/effect/turf_decal/siding/wood/corner{
-	color = "#531F09";
-	dir = 4
+/obj/machinery/power/emitter/welded{
+	dir = 1;
+	pixel_x = 5;
+	name = "Cool Statue";
+	desc = "A perfectly normal and safe statue of nothing in particular. No reason to be worried at all.";
+	fire_delay = 1;
+	anchored = 1;
+	id = 69422
 	},
-/obj/structure/closet/crate/bin,
+/obj/machinery/power/emitter/welded{
+	dir = 1;
+	pixel_x = -5;
+	name = "Cool Statue";
+	desc = "A perfectly normal and safe statue of nothing in particular. No reason to be worried at all.";
+	anchored = 1;
+	fire_delay = 1;
+	id = 69422
+	},
+/obj/machinery/power/emitter/welded{
+	dir = 1;
+	name = "Cool Statue";
+	desc = "A perfectly normal and safe statue of nothing in particular. No reason to be worried at all.";
+	anchored = 1;
+	fire_delay = 1;
+	id = 69422
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
 /turf/open/floor/wood/yew,
 /area/centcom/ferry)
 "xRe" = (
@@ -72463,7 +72531,7 @@ wQe
 wQe
 wQe
 wQe
-wQe
+iLR
 wQe
 wQe
 wQe
@@ -72720,7 +72788,7 @@ amD
 wQe
 wQe
 wQe
-wQe
+iLR
 wQe
 wQe
 wQe
@@ -73492,7 +73560,7 @@ amD
 bub
 nbT
 aDM
-nbT
+qCg
 ukJ
 amD
 cGY
@@ -74008,7 +74076,7 @@ hcj
 beJ
 hcj
 xQQ
-amD
+qlS
 xoA
 eGD
 waz
@@ -74265,7 +74333,7 @@ vwb
 fyQ
 vwb
 quP
-amD
+tmm
 ljS
 tvb
 ldH
@@ -74522,7 +74590,7 @@ dYW
 vwb
 vwb
 hNg
-amD
+tmm
 qFO
 aMc
 aMc
@@ -74779,7 +74847,7 @@ vwb
 vwb
 vwb
 jJA
-amD
+tmm
 giz
 aMc
 aMc
@@ -75036,7 +75104,7 @@ vwb
 vwb
 vwb
 ptC
-amD
+tmm
 qFO
 aMc
 aMc
@@ -75293,7 +75361,7 @@ cWh
 uzI
 cMI
 jLI
-amD
+tmm
 oxo
 mqI
 dKl
@@ -75550,7 +75618,7 @@ amD
 nNd
 amD
 amD
-amD
+tmm
 amD
 eXg
 pmw
@@ -75807,7 +75875,7 @@ asb
 asb
 asb
 asb
-asb
+bYP
 asb
 asb
 asb
@@ -76064,7 +76132,7 @@ nai
 nai
 nai
 nai
-nai
+kLf
 nai
 nai
 nai
@@ -76321,7 +76389,7 @@ ewx
 ewx
 ewx
 jpR
-ewx
+uQN
 ewx
 oAe
 ewx
@@ -76576,9 +76644,9 @@ amD
 kIf
 aoY
 kIf
-amD
-amD
-amD
+pdb
+jmC
+euk
 amD
 amD
 aoe
@@ -76833,7 +76901,7 @@ gIC
 ufv
 aoB
 aoB
-gIC
+jHc
 amD
 wQe
 wQe
