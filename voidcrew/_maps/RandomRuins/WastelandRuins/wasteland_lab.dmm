@@ -206,12 +206,12 @@
 /area/ruin/powered)
 "ih" = (
 /obj/item/stack/sheet/mineral/uranium/five,
-/obj/structure/sign/poster/official/random{
-	pixel_x = -32
-	},
 /obj/structure/table/reinforced,
 /obj/machinery/light/dim{
 	dir = 8
+	},
+/obj/structure/sign/poster/solgov/luna{
+	pixel_x = -32
 	},
 /turf/open/floor/carpet/nanoweave/beige,
 /area/ruin/powered)
@@ -276,15 +276,19 @@
 /area/ruin/powered)
 "kj" = (
 /obj/structure/table/reinforced/titaniumglass,
-/obj/item/ammo_box/magazine/co9mm,
 /obj/machinery/light/dim{
 	dir = 8
 	},
+/obj/item/ammo_box/c45,
+/obj/item/ammo_box/c45,
+/obj/item/ammo_box/c45,
 /turf/open/floor/iron/dark/small,
 /area/ruin/powered)
 "kR" = (
-/obj/item/ammo_box/magazine/pistol556mm,
 /obj/structure/table/reinforced/titaniumglass,
+/obj/item/ammo_box/a12g,
+/obj/item/ammo_box/a12g,
+/obj/item/ammo_box/a12g,
 /turf/open/floor/iron/dark/small,
 /area/ruin/powered)
 "kV" = (
@@ -299,6 +303,13 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/ruin/powered)
+"lM" = (
+/obj/structure/table/reinforced/titaniumglass,
+/obj/item/ammo_box/c556mmHITP,
+/obj/item/ammo_box/c556mmHITP,
+/obj/item/ammo_box/c556mmHITP,
+/turf/open/floor/iron/dark/small,
+/area/ruin/powered)
 "lW" = (
 /obj/structure/table/glass,
 /obj/item/paper,
@@ -312,8 +323,10 @@
 /turf/open/floor/iron/dark/smooth_half,
 /area/ruin/powered)
 "nn" = (
-/obj/item/ammo_box/magazine/co9mm,
 /obj/structure/table/reinforced/titaniumglass,
+/obj/item/ammo_box/c38_box,
+/obj/item/ammo_box/c38_box,
+/obj/item/ammo_box/c38_box,
 /turf/open/floor/iron/dark/small,
 /area/ruin/powered)
 "oe" = (
@@ -536,22 +549,22 @@
 /turf/open/floor/wood/large,
 /area/ruin/powered)
 "yd" = (
-/obj/structure/sign/poster/official/random{
+/obj/effect/turf_decal/corner/purple/diagonal,
+/obj/structure/sign/poster/solgov/paperwork{
 	pixel_y = 32
 	},
-/obj/effect/turf_decal/corner/purple/diagonal,
 /turf/open/floor/iron/white,
 /area/ruin/powered)
 "yg" = (
-/obj/structure/sign/poster/official/random{
-	pixel_y = -32
-	},
 /obj/item/storage/firstaid/medical,
 /obj/item/storage/firstaid/fire{
 	pixel_y = 6
 	},
 /obj/structure/table/reinforced/rglass,
 /obj/machinery/light/dim,
+/obj/structure/sign/poster/official/moth/epi{
+	pixel_y = -32
+	},
 /turf/open/floor/iron/white/small,
 /area/ruin/powered)
 "yv" = (
@@ -615,10 +628,12 @@
 /area/ruin/powered)
 "Ea" = (
 /obj/structure/table/reinforced/titaniumglass,
-/obj/item/ammo_box/magazine/rifle47x33mm,
 /obj/machinery/light/dim{
 	dir = 4
 	},
+/obj/item/ammo_box/c10mm,
+/obj/item/ammo_box/c10mm,
+/obj/item/ammo_box/c10mm,
 /turf/open/floor/iron/dark/small,
 /area/ruin/powered)
 "EW" = (
@@ -629,7 +644,7 @@
 /area/ruin/powered)
 "Fb" = (
 /obj/effect/turf_decal/corner/purple/diagonal,
-/obj/structure/sign/poster/official/random{
+/obj/structure/sign/poster/solgov/terragov{
 	pixel_y = 32
 	},
 /turf/open/floor/iron/white,
@@ -779,7 +794,9 @@
 /area/ruin/powered)
 "KH" = (
 /obj/structure/table/reinforced/titaniumglass,
-/obj/item/ammo_box/magazine/rifle47x33mm,
+/obj/item/ammo_box/c9mm,
+/obj/item/ammo_box/c9mm,
+/obj/item/ammo_box/c9mm,
 /turf/open/floor/iron/dark/small,
 /area/ruin/powered)
 "KW" = (
@@ -808,12 +825,12 @@
 /turf/open/floor/carpet/nanoweave/purple,
 /area/ruin/powered)
 "Ma" = (
-/obj/structure/sign/poster/official/random{
-	pixel_x = -32
-	},
 /obj/structure/table/reinforced,
 /obj/machinery/light/dim{
 	dir = 8
+	},
+/obj/structure/sign/poster/solgov/recyle{
+	pixel_x = -32
 	},
 /turf/open/floor/carpet/nanoweave/beige,
 /area/ruin/powered)
@@ -841,7 +858,7 @@
 /turf/open/floor/iron/white,
 /area/ruin/powered)
 "Nm" = (
-/obj/structure/sign/poster/official/random{
+/obj/structure/sign/poster/solgov/solgov_logo{
 	pixel_y = 32
 	},
 /turf/open/floor/iron/herringbone,
@@ -1021,11 +1038,11 @@
 "Xl" = (
 /obj/structure/table/wood/reinforced,
 /obj/machinery/photocopier/faxmachine,
-/obj/structure/sign/poster/official/solgov_enlist{
-	pixel_y = 32
-	},
 /obj/machinery/light/dim{
 	dir = 1
+	},
+/obj/structure/sign/poster/solgov/solgov_enlist{
+	pixel_y = 32
 	},
 /turf/open/floor/wood/parquet,
 /area/ruin/powered)
@@ -1720,7 +1737,7 @@ DW
 Vf
 nn
 Ea
-kR
+lM
 cJ
 DW
 cJ
