@@ -12188,6 +12188,14 @@
 	},
 /turf/open/floor/wood/yew,
 /area/centcom/ferry)
+"beK" = (
+/obj/machinery/button{
+	pixel_x = 24;
+	pixel_y = -24;
+	id = 69422
+	},
+/turf/open/floor/wood/yew,
+/area/centcom/ferry)
 "bfO" = (
 /obj/structure/table,
 /obj/item/stock_parts/micro_laser,
@@ -12430,6 +12438,12 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/exterior)
+"btw" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/closed/indestructible/riveted,
+/area/centcom/ferry)
 "bub" = (
 /obj/machinery/light{
 	dir = 1
@@ -13091,15 +13105,6 @@
 /turf/open/floor/wood/large{
 	color = "#543c30"
 	},
-/area/centcom/ferry)
-"bYP" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/wood,
 /area/centcom/ferry)
 "bZw" = (
 /obj/effect/decal/cleanable/dirt,
@@ -17183,8 +17188,8 @@
 /area/centcom/ferry)
 "fyQ" = (
 /mob/living/simple_animal/crab/kreb{
-	desc = "This crab used to be a powergaming shitburger, he is now a crab.";
-	name = "Mr Korol"
+	desc = "This crab used to be the creator of this reality, he is now a crab.";
+	name = "Mr Konets"
 	},
 /turf/open/floor/carpet/royalblue,
 /area/centcom/ferry)
@@ -20878,9 +20883,6 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/basketball)
-"iLR" = (
-/turf/closed/mineral/ash_rock,
-/area/centcom/exterior)
 "iMA" = (
 /obj/machinery/door/window/brigdoor/eastleft{
 	req_access_txt = "109";
@@ -21530,12 +21532,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/bridge)
-"jmC" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/closed/indestructible/riveted,
-/area/centcom/ferry)
 "jmN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/hatch{
@@ -21886,15 +21882,6 @@
 /turf/open/floor/wood/large{
 	color = "#543c30"
 	},
-/area/centcom/ferry)
-"jHc" = (
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/power/smes/magical{
-	output_level = 100000
-	},
-/turf/open/floor/plating,
 /area/centcom/ferry)
 "jHg" = (
 /obj/effect/decal/cleanable/dirt,
@@ -23219,12 +23206,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/centcom)
-"kLf" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/carpet/green,
-/area/centcom/ferry)
 "kLL" = (
 /obj/structure/closet/syndicate/resources/everything{
 	name = "materials locker";
@@ -24666,6 +24647,15 @@
 "mah" = (
 /turf/closed/indestructible/edge,
 /area/space)
+"mat" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/smes/magical{
+	output_level = 100000
+	},
+/turf/open/floor/plating,
+/area/centcom/ferry)
 "max" = (
 /obj/effect/turf_decal/corner/red{
 	dir = 1
@@ -25542,6 +25532,12 @@
 	},
 /turf/open/floor/plating/asteroid/snow/breathable,
 /area/syndicate_mothership)
+"mHs" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/carpet/green,
+/area/centcom/ferry)
 "mIh" = (
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt,
@@ -27662,6 +27658,15 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/beta/hall)
+"oLg" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "oLs" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Medical Bay"
@@ -28120,12 +28125,6 @@
 /obj/effect/turf_decal/corner/red,
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/dodgeball)
-"pdb" = (
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/turf/closed/indestructible/riveted,
-/area/centcom/ferry)
 "pdk" = (
 /obj/structure/sign/number/two,
 /turf/open/floor/iron/dark,
@@ -28941,6 +28940,12 @@
 /obj/effect/turf_decal/corner/red,
 /turf/open/floor/iron/dark,
 /area/centcom/control)
+"pRE" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/closed/indestructible/riveted,
+/area/centcom/ferry)
 "pRH" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 8
@@ -29400,12 +29405,6 @@
 /obj/effect/turf_decal/corner/green,
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/dodgeball)
-"qlS" = (
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/closed/indestructible/riveted,
-/area/centcom/ferry)
 "qmm" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4
@@ -29882,14 +29881,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
-"qCg" = (
-/obj/machinery/button{
-	pixel_x = 24;
-	pixel_y = -24;
-	id = 69422
-	},
-/turf/open/floor/wood/yew,
-/area/centcom/ferry)
 "qCo" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/corner/yellow{
@@ -32654,6 +32645,9 @@
 	dir = 8
 	},
 /area/tdome/tdomeadmin)
+"sSS" = (
+/turf/closed/mineral/ash_rock,
+/area/centcom/exterior)
 "sST" = (
 /obj/structure/fence,
 /turf/open/floor/plating/asteroid/snow/breathable,
@@ -34377,6 +34371,15 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/control)
+"urn" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/wood,
+/area/centcom/ferry)
 "urp" = (
 /obj/structure/railing{
 	dir = 9
@@ -34921,15 +34924,6 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/charlie/hall)
-"uQN" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/wood,
-/area/centcom/ferry)
 "uSb" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/airless{
@@ -36915,6 +36909,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/centcom)
+"wEB" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/closed/indestructible/riveted,
+/area/centcom/ferry)
 "wEU" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/industrial/warning{
@@ -72531,7 +72531,7 @@ wQe
 wQe
 wQe
 wQe
-iLR
+sSS
 wQe
 wQe
 wQe
@@ -72788,7 +72788,7 @@ amD
 wQe
 wQe
 wQe
-iLR
+sSS
 wQe
 wQe
 wQe
@@ -73560,7 +73560,7 @@ amD
 bub
 nbT
 aDM
-qCg
+beK
 ukJ
 amD
 cGY
@@ -74076,7 +74076,7 @@ hcj
 beJ
 hcj
 xQQ
-qlS
+btw
 xoA
 eGD
 waz
@@ -75875,7 +75875,7 @@ asb
 asb
 asb
 asb
-bYP
+oLg
 asb
 asb
 asb
@@ -76132,7 +76132,7 @@ nai
 nai
 nai
 nai
-kLf
+mHs
 nai
 nai
 nai
@@ -76389,7 +76389,7 @@ ewx
 ewx
 ewx
 jpR
-uQN
+urn
 ewx
 oAe
 ewx
@@ -76644,8 +76644,8 @@ amD
 kIf
 aoY
 kIf
-pdb
-jmC
+pRE
+wEB
 euk
 amD
 amD
@@ -76901,7 +76901,7 @@ gIC
 ufv
 aoB
 aoB
-jHc
+mat
 amD
 wQe
 wQe
