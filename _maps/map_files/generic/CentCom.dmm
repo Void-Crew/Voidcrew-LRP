@@ -12385,6 +12385,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/mob/living/simple_animal/hostile/alien/sentinel,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/biolab)
 "bhG" = (
@@ -12501,6 +12502,13 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/delta/hall)
+"bnc" = (
+/obj/structure/frame/machine{
+	anchored = 1
+	},
+/obj/structure/alien/resin/membrane,
+/turf/open/floor/circuit/green/anim,
+/area/ruin/space/ancientstation/delta/ai)
 "bol" = (
 /obj/machinery/smartfridge/extract/preloaded,
 /turf/open/floor/wood/tile,
@@ -12539,13 +12547,12 @@
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
 "brq" = (
-/mob/living/simple_animal/hostile/zombie{
-	zombiejob = null
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/white,
-/area/ruin/space/ancientstation/delta/rnd)
+/obj/structure/alien/resin/wall,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/ancientstation/delta/ai)
 "brM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -12779,11 +12786,7 @@
 /area/ruin/space/ancientstation/beta/supermatter)
 "bCn" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/old,
-/mob/living/simple_animal/hostile/zombie{
-	zombiejob = null
-	},
+/obj/item/ammo_box/magazine/m45,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "bCp" = (
@@ -13158,6 +13161,11 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/ancientstation/charlie/sec)
+"bXd" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/alien/sentinel/spitter,
+/turf/open/floor/iron/white,
+/area/ruin/space/ancientstation/delta/rnd)
 "bXF" = (
 /obj/effect/turf_decal/corner/brown{
 	dir = 8
@@ -13542,9 +13550,6 @@
 /turf/open/floor/iron/dark,
 /area/ctf)
 "cqR" = (
-/mob/living/simple_animal/hostile/zombie{
-	zombiejob = null
-	},
 /obj/effect/turf_decal/corner/purple{
 	dir = 8
 	},
@@ -13553,6 +13558,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/xenoblood,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/rnd)
 "cqS" = (
@@ -13995,6 +14001,8 @@
 "cJJ" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/alien/egg/burst,
+/obj/effect/decal/cleanable/xenoblood,
 /turf/open/floor/engine,
 /area/ruin/space/ancientstation/delta/biolab)
 "cKm" = (
@@ -14163,6 +14171,13 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/charlie/dorms)
+"cQL" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/structure/alien/resin/wall,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/ancientstation/delta/ai)
 "cQX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light_switch{
@@ -14314,6 +14329,12 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/centcom/exterior)
+"cUl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/gibspawner/xeno,
+/turf/open/floor/iron,
+/area/ruin/space/ancientstation/delta/hall)
 "cVc" = (
 /obj/structure/window/reinforced/fulltile,
 /obj/structure/grille,
@@ -14707,7 +14728,7 @@
 "dqj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/charlie,
+/mob/living/simple_animal/hostile/alien/drone,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "dqm" = (
@@ -14766,6 +14787,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/firedoor,
 /obj/item/ammo_casing/spent,
+/obj/effect/decal/cleanable/xenoblood,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "duV" = (
@@ -15735,7 +15757,9 @@
 /turf/open/floor/iron/diagonal,
 /area/ruin/space/ancientstation/beta/gravity)
 "epW" = (
-/obj/structure/frame/machine,
+/obj/structure/frame/machine{
+	anchored = 1
+	},
 /obj/effect/turf_decal/corner/blue/diagonal_centre,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/firealarm/east,
@@ -16444,6 +16468,20 @@
 /obj/structure/closet/secure_closet/captains,
 /turf/open/floor/wood,
 /area/centcom/ferry)
+"eTd" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/item/ammo_casing/spent,
+/obj/item/ammo_casing/spent,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/ammo_box/magazine/m45,
+/turf/open/floor/iron,
+/area/ruin/space/ancientstation/delta/hall)
 "eTl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
@@ -16583,6 +16621,14 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/iron,
 /area/centcom/supply)
+"fcb" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/mob/living/simple_animal/hostile/alien/queen,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/ancientstation/delta/ai)
 "fcu" = (
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt,
@@ -17084,6 +17130,13 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/powered)
+"fDy" = (
+/obj/structure/frame/machine{
+	anchored = 1
+	},
+/obj/structure/alien/weeds/node,
+/turf/open/floor/circuit/green/anim,
+/area/ruin/space/ancientstation/delta/ai)
 "fEy" = (
 /obj/structure/window/reinforced/fulltile,
 /obj/structure/grille,
@@ -17124,6 +17177,7 @@
 /obj/item/ammo_casing/spent,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/stock_parts/cell/gun/empty,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "fGD" = (
@@ -17451,6 +17505,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 4
 	},
+/obj/structure/bed/nest,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/ancientstation/delta/ai)
 "fUK" = (
@@ -17507,6 +17562,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 4
 	},
+/obj/item/ammo_box/magazine/m45,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "fVu" = (
@@ -17849,6 +17905,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/item/chair,
+/mob/living/simple_animal/hostile/alien,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/rnd)
 "gkc" = (
@@ -17975,6 +18032,7 @@
 /area/ruin/space/ancientstation/alpha/cargo)
 "grU" = (
 /obj/item/emptysandbag,
+/obj/structure/alien/resin/wall,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/ancientstation/delta/ai)
 "gsz" = (
@@ -18204,6 +18262,11 @@
 /obj/effect/turf_decal/corner/blue,
 /turf/open/floor/iron/dark,
 /area/ctf)
+"gHa" = (
+/obj/effect/gibspawner/xeno,
+/obj/structure/bed/nest,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/ancientstation/delta/ai)
 "gHW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light{
@@ -18568,6 +18631,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
 	dir = 4
 	},
+/mob/living/simple_animal/hostile/alien/drone,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/rnd)
 "gYZ" = (
@@ -18661,12 +18725,9 @@
 /turf/open/floor/wood/yew,
 /area/centcom/ferry)
 "hdb" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/zombie{
-	zombiejob = null
-	},
-/turf/open/floor/iron,
-/area/ruin/space/ancientstation/delta/hall)
+/obj/effect/decal/cleanable/xenoblood,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/ancientstation/delta/ai)
 "hdi" = (
 /obj/item/shovel/spade{
 	pixel_x = 2;
@@ -19074,7 +19135,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/old,
-/mob/living/simple_animal/hostile/charlie,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/rnd)
 "hvu" = (
@@ -19768,6 +19828,8 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/item/ammo_box/magazine/m45,
+/obj/structure/alien/weeds/node,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/ancientstation/delta/ai)
 "ifw" = (
@@ -20253,6 +20315,7 @@
 "iFJ" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/ammo_box/magazine/m45,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/rnd)
 "iFM" = (
@@ -21083,6 +21146,21 @@
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/rnd)
+"jtq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/xenoblood,
+/turf/open/floor/iron,
+/area/ruin/space/ancientstation/delta/hall)
 "juL" = (
 /obj/structure/table/reinforced,
 /obj/item/paper/fluff/ruins/oldstation/protohealth,
@@ -21751,6 +21829,13 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/centcom/ferry)
+"jYX" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/xenoblood,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/ancientstation/delta/ai)
 "kas" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -21911,6 +21996,7 @@
 	dir = 1
 	},
 /obj/item/ammo_casing/spent,
+/obj/effect/decal/cleanable/xenoblood,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "kgu" = (
@@ -21986,6 +22072,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 1
 	},
+/obj/structure/bed/nest,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/ancientstation/delta/ai)
 "kjt" = (
@@ -22077,6 +22164,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/blood/old,
+/mob/living/simple_animal/hostile/alien/sentinel,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "kmC" = (
@@ -22267,6 +22355,7 @@
 /area/ruin/space/ancientstation/delta/rnd)
 "kti" = (
 /obj/effect/decal/cleanable/shreds,
+/obj/structure/alien/weeds/node,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/ancientstation/delta/ai)
 "ktB" = (
@@ -22491,7 +22580,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
 	},
-/mob/living/simple_animal/hostile/charlie/officer,
+/mob/living/simple_animal/hostile/alien/warrior,
 /turf/open/floor/circuit/green,
 /area/ruin/space/ancientstation/delta/ai)
 "kGX" = (
@@ -22940,9 +23029,7 @@
 "lbY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/zombie{
-	zombiejob = null
-	},
+/obj/effect/decal/cleanable/xenoblood,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "lcC" = (
@@ -25476,12 +25563,9 @@
 /obj/item/ammo_casing/spent,
 /obj/item/ammo_casing/spent,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/gun/energy/laser/retro/old{
-	pixel_x = 2;
-	pixel_y = 2
-	},
 /obj/effect/decal/cleanable/blood/old,
 /obj/machinery/firealarm/south,
+/obj/item/gun/energy/laser/retro/old,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "nxw" = (
@@ -25703,6 +25787,13 @@
 /obj/structure/girder/displaced,
 /turf/open/floor/plating/airless,
 /area/ruin/space/oldteleporter)
+"nGi" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/structure/alien/resin/wall,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/ancientstation/delta/ai)
 "nGt" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/suit/space/hardsuit/deathsquad{
@@ -25736,6 +25827,7 @@
 	dir = 4;
 	name = "Broken Computer"
 	},
+/obj/structure/alien/resin/wall,
 /turf/open/floor/circuit/green,
 /area/ruin/space/ancientstation/delta/ai)
 "nHN" = (
@@ -25784,6 +25876,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/xenoblood/xgibs/core,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "nIX" = (
@@ -25853,7 +25946,6 @@
 "nNF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/charlie,
 /obj/machinery/firealarm/south,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
@@ -26413,6 +26505,11 @@
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/proto)
+"ozn" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/alien/weeds/node,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/ancientstation/delta/ai)
 "ozC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/old,
@@ -26497,11 +26594,11 @@
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/sec)
 "oEo" = (
-/mob/living/simple_animal/hostile/charlie/captain,
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
 	},
+/obj/structure/alien/resin/wall,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/ancientstation/delta/ai)
 "oEW" = (
@@ -26632,7 +26729,6 @@
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/beta/medbay)
 "oLt" = (
-/obj/effect/decal/cleanable/blood/gibs/old,
 /obj/machinery/firealarm/west,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/ancientstation/delta/ai)
@@ -26730,6 +26826,7 @@
 /obj/item/ammo_casing/spent,
 /obj/item/ammo_casing/spent,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/xenoblood/xsplatter,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "oOC" = (
@@ -26905,8 +27002,8 @@
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/cargo)
 "oWx" = (
-/obj/structure/frame/machine,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/frame/machine,
 /turf/open/floor/engine/airless,
 /area/ruin/space/ancientstation/beta/supermatter)
 "oWW" = (
@@ -27053,6 +27150,15 @@
 /obj/structure/sign/number/two,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
+"pdO" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/xenoblood,
+/obj/structure/alien/weeds/node,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/ancientstation/delta/ai)
 "peI" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered)
@@ -27140,6 +27246,11 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/hydro)
+"pgU" = (
+/obj/structure/alien/weeds/node,
+/obj/structure/alien/resin/wall,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/ancientstation/delta/ai)
 "phm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/firedoor/closed,
@@ -27168,6 +27279,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/xenoblood,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/biolab)
 "phZ" = (
@@ -27655,6 +27767,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
 	},
+/obj/structure/bed/nest,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/ancientstation/delta/ai)
 "pEp" = (
@@ -27814,11 +27927,6 @@
 /turf/open/floor/wood,
 /area/centcom/ferry)
 "pTV" = (
-/obj/item/reagent_containers/glass/bottle{
-	name = "romerol bottle";
-	desc = "A small bottle of Romerol. The REAL zombie powder."
-	},
-/obj/item/reagent_containers/syringe,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
@@ -28112,7 +28220,7 @@
 /area/centcom/control)
 "qhk" = (
 /obj/effect/decal/cleanable/blood/old,
-/obj/structure/frame{
+/obj/structure/frame/machine{
 	anchored = 1
 	},
 /turf/open/floor/circuit/green/anim,
@@ -28377,6 +28485,7 @@
 	},
 /obj/item/ammo_casing/spent,
 /obj/machinery/firealarm/east,
+/mob/living/simple_animal/hostile/alien/drone,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "qtV" = (
@@ -28528,6 +28637,7 @@
 	dir = 4
 	},
 /obj/machinery/firealarm/west,
+/obj/structure/alien/resin/wall,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/ancientstation/delta/ai)
 "qxL" = (
@@ -28624,6 +28734,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/ammo_box/magazine/m45,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "qCo" = (
@@ -28774,10 +28885,10 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 1
 	},
-/mob/living/simple_animal/hostile/charlie,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/mob/living/simple_animal/hostile/alien,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "qIc" = (
@@ -29068,6 +29179,7 @@
 	},
 /obj/item/ammo_casing/spent,
 /obj/machinery/firealarm/east,
+/mob/living/simple_animal/hostile/alien/drone,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "qRl" = (
@@ -29416,9 +29528,6 @@
 	dir = 6
 	},
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/zombie{
-	zombiejob = null
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/machinery/airalarm/all_access{
 	dir = 8;
@@ -30783,9 +30892,10 @@
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "suO" = (
-/obj/structure/frame{
+/obj/structure/frame/machine{
 	anchored = 1
 	},
+/obj/structure/alien/resin/wall,
 /turf/open/floor/circuit/green/anim,
 /area/ruin/space/ancientstation/delta/ai)
 "svB" = (
@@ -31431,6 +31541,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/delta/hall)
+"sXX" = (
+/obj/structure/alien/resin/wall,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/ancientstation/delta/ai)
 "sYe" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -31453,6 +31567,21 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/ancientstation/charlie/dorms)
+"sYv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/mob/living/simple_animal/hostile/alien/sentinel,
+/turf/open/floor/iron,
+/area/ruin/space/ancientstation/delta/hall)
 "sYG" = (
 /obj/machinery/light/small/broken{
 	dir = 1;
@@ -31601,6 +31730,11 @@
 	},
 /turf/open/floor/wood/yew,
 /area/centcom/ferry)
+"tjp" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/xenoblood,
+/turf/open/floor/iron,
+/area/ruin/space/ancientstation/delta/hall)
 "tjE" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
@@ -32566,7 +32700,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/mob/living/simple_animal/hostile/charlie,
+/mob/living/simple_animal/hostile/alien,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "tZM" = (
@@ -32830,7 +32964,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/charlie/officer,
+/mob/living/simple_animal/hostile/alien/drone,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/rnd)
 "umZ" = (
@@ -32859,7 +32993,9 @@
 /turf/open/floor/engine,
 /area/ruin/space/ancientstation/delta/biolab)
 "uof" = (
-/obj/structure/frame/machine,
+/obj/structure/frame/machine{
+	anchored = 1
+	},
 /obj/item/vending_refill/coffee,
 /obj/effect/turf_decal/corner/blue/diagonal_centre,
 /obj/effect/decal/cleanable/dirt,
@@ -32888,9 +33024,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/structure/cable{
 	icon_state = "1-2"
-	},
-/mob/living/simple_animal/hostile/zombie{
-	zombiejob = null
 	},
 /obj/machinery/firealarm/east,
 /turf/open/floor/iron,
@@ -33164,11 +33297,11 @@
 /turf/closed/mineral/random/high_chance,
 /area/ruin/unpowered)
 "uDv" = (
-/mob/living/simple_animal/hostile/charlie/officer,
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
 	},
+/mob/living/simple_animal/hostile/alien/praetorian,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/ancientstation/delta/ai)
 "uDz" = (
@@ -33329,6 +33462,11 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/ferry)
+"uKk" = (
+/mob/living/simple_animal/hostile/alien/sentinel/spitter,
+/obj/effect/decal/cleanable/xenoblood,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/ancientstation/delta/ai)
 "uKs" = (
 /turf/open/floor/iron/textured_half,
 /area/ruin/space/ancientstation/beta/supermatter)
@@ -33865,6 +34003,11 @@
 	},
 /turf/open/floor/plating/beach/sand,
 /area/centcom/exterior)
+"vgP" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/alien/resin/wall,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/ancientstation/delta/ai)
 "vhP" = (
 /obj/structure/door_assembly/door_assembly_mhatch,
 /obj/structure/lattice,
@@ -34155,8 +34298,10 @@
 /turf/open/floor/carpet/royalblue,
 /area/centcom/ferry)
 "vwE" = (
-/mob/living/simple_animal/hostile/charlie,
-/turf/open/floor/iron/dark/textured_large,
+/obj/structure/frame/machine{
+	anchored = 1
+	},
+/turf/open/floor/circuit/green/anim,
 /area/ruin/space/ancientstation/delta/ai)
 "vwP" = (
 /obj/effect/turf_decal/corner/beige,
@@ -34509,6 +34654,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/xenoblood/xgibs/up,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "vRG" = (
@@ -34761,7 +34907,9 @@
 /turf/open/floor/iron,
 /area/centcom/control)
 "wbP" = (
-/obj/structure/frame/machine,
+/obj/structure/frame/machine{
+	anchored = 1
+	},
 /obj/item/circuitboard/machine/rdserver,
 /obj/item/stack/cable_coil/red,
 /obj/item/stock_parts/scanning_module/triphasic,
@@ -34870,6 +35018,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/xenoblood,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/rnd)
 "wic" = (
@@ -35253,6 +35402,7 @@
 /area/ruin/space/ancientstation/charlie/dorms)
 "wCW" = (
 /obj/effect/decal/cleanable/blood/gibs/old,
+/obj/structure/alien/weeds/node,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/ancientstation/delta/ai)
 "wDk" = (
@@ -35363,6 +35513,10 @@
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/iron,
 /area/centcom/control)
+"wHR" = (
+/obj/effect/gibspawner/xeno,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/ancientstation/delta/ai)
 "wIQ" = (
 /obj/effect/turf_decal/corner/black/full,
 /obj/effect/decal/cleanable/dirt,
@@ -35749,6 +35903,17 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/rnd)
+"xdE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/decal/cleanable/xenoblood,
+/turf/open/floor/iron,
+/area/ruin/space/ancientstation/delta/hall)
 "xeg" = (
 /obj/effect/turf_decal/corner/green{
 	dir = 1
@@ -36460,7 +36625,7 @@
 /obj/item/ammo_casing/spent,
 /obj/item/ammo_casing/spent,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/stock_parts/cell/gun/empty,
+/obj/effect/decal/cleanable/xenoblood/xsplatter,
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/delta/hall)
 "xOa" = (
@@ -36600,9 +36765,11 @@
 /turf/open/floor/iron/white,
 /area/centcom/evac)
 "xVT" = (
-/obj/structure/frame,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/circuitboard/machine/rdserver,
+/obj/structure/frame/machine{
+	anchored = 1
+	},
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/delta/rnd)
 "xVZ" = (
@@ -36865,6 +37032,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
 	dir = 4
 	},
+/obj/item/ammo_box/magazine/m45,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/rnd)
 "ykv" = (
@@ -64695,7 +64863,7 @@ eSP
 vzV
 fKK
 oOu
-jxo
+eTd
 iaC
 vzV
 vzV
@@ -66236,7 +66404,7 @@ vzV
 vzV
 vzV
 utv
-cfM
+tjp
 vQR
 utv
 nIX
@@ -66754,7 +66922,7 @@ vbq
 mnY
 wHg
 xrt
-bCn
+nKx
 soc
 duO
 jbX
@@ -66763,7 +66931,7 @@ tZq
 aDe
 sxH
 mCx
-cfM
+bCn
 ozC
 tqW
 aDe
@@ -67023,7 +67191,7 @@ iSl
 byL
 cRz
 uql
-cRz
+xdE
 suN
 aDe
 bmx
@@ -67779,7 +67947,7 @@ vzV
 vzV
 bmx
 nuP
-vIn
+jtq
 rXA
 qqh
 dnL
@@ -68024,8 +68192,8 @@ vzV
 pBB
 qem
 qem
-jmh
-qem
+jYX
+pgU
 qem
 qem
 tDw
@@ -68053,7 +68221,7 @@ fIE
 ass
 rXA
 gHW
-lbY
+dqj
 kjt
 oyI
 kmC
@@ -68299,7 +68467,7 @@ pML
 sRF
 ggq
 mxf
-ass
+bXd
 rsE
 cod
 iUn
@@ -68540,9 +68708,9 @@ gdf
 wCW
 hXa
 ioY
-qem
+uKk
 grU
-qem
+gHa
 hpu
 qem
 fum
@@ -68556,7 +68724,7 @@ qgx
 fIE
 etU
 whf
-brq
+fIE
 mkq
 ulf
 oiB
@@ -68794,10 +68962,10 @@ vzV
 vzV
 pBB
 kRf
-qem
+hdb
 jmh
+sXX
 qem
-vwE
 kQx
 ifr
 iqR
@@ -69081,7 +69249,7 @@ rXA
 gJV
 rXA
 rfB
-aDe
+cUl
 kjt
 cgM
 kFb
@@ -69308,7 +69476,7 @@ vzV
 vzV
 pBB
 qSj
-qPi
+cQL
 wlz
 pDW
 mqu
@@ -69338,7 +69506,7 @@ rYA
 wCj
 iUn
 kmx
-aDe
+mNz
 kjt
 nun
 kwS
@@ -69564,21 +69732,21 @@ vzV
 vzV
 vzV
 pBB
-fTv
+vgP
 suO
 uDv
-suO
+vwE
+pdO
+bnc
 eMb
-suO
-eMb
-suO
+vwE
 nel
 pBB
 vzV
 vzV
 bmx
 lbY
-nSN
+sYv
 iUn
 tEB
 pWS
@@ -69826,10 +69994,10 @@ suO
 eMb
 suO
 oEo
-suO
+bnc
 eMb
-suO
-iTs
+fDy
+brq
 pBB
 vzV
 vzV
@@ -70080,10 +70248,10 @@ vzV
 pBB
 iPJ
 suO
-eMb
+oEo
 suO
 pUJ
-suO
+bnc
 uDv
 qhk
 euK
@@ -70335,14 +70503,14 @@ vzV
 vzV
 vzV
 pBB
-fTv
-suO
+ozn
+vwE
 eJV
-suO
+vwE
+fcb
+bnc
 eMb
-suO
-eMb
-suO
+vwE
 iTs
 pBB
 vzV
@@ -70597,7 +70765,7 @@ pgs
 jUI
 pgs
 vRG
-pgs
+nGi
 aHV
 pgs
 kjn
@@ -70615,7 +70783,7 @@ qfy
 dWB
 oul
 fVt
-hdb
+cfM
 qkW
 utQ
 qQX
@@ -71110,7 +71278,7 @@ pBB
 dLc
 cKP
 oLt
-qem
+wHR
 lYH
 xos
 jCY
