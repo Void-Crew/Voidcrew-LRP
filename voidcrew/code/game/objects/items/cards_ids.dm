@@ -23,6 +23,20 @@
 	icon = 'icons/obj/card.dmi'
 	icon_state = "data_4"
 
+/obj/item/card/id/solgov/police
+	name = "\improper SolGov Police ID"
+	id_type_name = "\improper SolGov ID"
+	desc = "A SolGov ID, usually worn by Police Officers."
+	icon_state = "solgovcop"
+	access = list(ACCESS_AWAY_SEC)
+
+/obj/item/card/id/solgov/police/chief
+	name = "\improper SolGov Police Chief ID"
+	id_type_name = "\improper SolGov ID"
+	desc = "A SolGov ID, usually worn by Police Chiefs."
+	icon_state = "solgovcop"
+	access = list(ACCESS_AWAY_SEC, ACCESS_AWAY_GENERIC1)
+
 /obj/item/card/robo_access_card/afterattack(atom/movable/AM, mob/user, proximity)
 	. = ..()
 	if(istype(AM, /obj/item/card/id) && proximity)

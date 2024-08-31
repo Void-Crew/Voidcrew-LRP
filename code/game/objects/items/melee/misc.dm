@@ -413,6 +413,20 @@
 	target.Jitter(20)
 	target.stuttering += 20
 
+/obj/item/melee/classic_baton/solgov
+	name = "SolGov police baton"
+	desc = "A vintage fiberglass baton used by SolGov Police, packs quite the hit when used correctly, infused with plasteel with an added SolGov colored handle, fancy!"
+	icon_state = "police_baton"
+	item_state = "police_baton"
+	force = 18
+
+/obj/item/melee/classic_baton/solgov/gold
+	name = "SolGov decorated police baton"
+	desc = "A vintage fiberglass baton used by SolGov Police Command, packs quite the hit when used correctly, infused with plasteel with an added SolGov colored handle, with added gold and white band, how luxurious!"
+	icon_state = "gold_police_baton"
+	item_state = "gold_police_baton"
+	force = 20
+
 /obj/item/melee/supermatter_sword
 	name = "supermatter sword"
 	desc = "In a station full of bad ideas, this might just be the worst."
