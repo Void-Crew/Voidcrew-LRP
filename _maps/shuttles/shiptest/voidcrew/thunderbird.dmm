@@ -17,6 +17,17 @@
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood{
+	pixel_y = 32;
+	layer = 12
+	},
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
 "bk" = (
@@ -125,12 +136,14 @@
 /obj/effect/turf_decal/corner/yellow/mono,
 /obj/machinery/computer/mech_bay_power_console,
 /turf/open/floor/pod,
+/turf/open/floor/pod,
 /area/ship/cargo)
 "dJ" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
@@ -187,6 +200,8 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/executive,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/executive,
 /area/ship/bridge)
 "fa" = (
 /obj/effect/decal/cleanable/dirt,
@@ -213,6 +228,9 @@
 /obj/effect/turf_decal/industrial/caution,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod,
+/obj/effect/turf_decal/industrial/caution,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod,
 /area/ship/cargo)
 "gp" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -232,6 +250,7 @@
 	},
 /obj/structure/fans/tiny,
 /obj/effect/turf_decal/industrial/hatch/yellow,
+/obj/effect/turf_decal/industrial/hatch/yellow,
 /turf/open/floor/plating,
 /area/ship/cargo)
 "hg" = (
@@ -239,6 +258,9 @@
 /turf/open/floor/iron/patterned,
 /area/ship/crew/dorm)
 "hm" = (
+/obj/effect/turf_decal/industrial/loading,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod,
 /obj/effect/turf_decal/industrial/loading,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod,
@@ -250,6 +272,8 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod,
 /area/ship/cargo)
@@ -289,10 +313,19 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod,
 /area/ship/cargo)
+"iD" = (
+/obj/effect/turf_decal/industrial/loading,
+/obj/structure/sign/warning/vacuum{
+	pixel_x = -32
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod,
+/area/ship/cargo)
 "iK" = (
 /obj/machinery/computer/autopilot{
 	dir = 8
 	},
+/turf/open/floor/carpet/executive,
 /turf/open/floor/carpet/executive,
 /area/ship/bridge)
 "iO" = (
@@ -303,6 +336,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
@@ -363,6 +397,10 @@
 /obj/structure/sign/poster/official/nanotrasen_logo,
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/cargo)
+"kf" = (
+/obj/structure/sign/poster/official/nanotrasen_logo,
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/cargo)
 "kE" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -375,6 +413,8 @@
 /obj/machinery/computer/crew{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/executive,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/executive,
 /area/ship/bridge)
@@ -395,6 +435,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/turf/open/floor/pod,
 /turf/open/floor/pod,
 /area/ship/cargo)
 "lN" = (
@@ -431,6 +472,23 @@
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 4
 	},
+/obj/effect/turf_decal/industrial/radiation,
+/obj/effect/decal/cleanable/blood/old{
+	dir = 8;
+	icon_state = "trails_1";
+	name = "dried blood trail"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood{
+	pixel_y = 32;
+	layer = 12
+	},
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
 "mR" = (
@@ -438,6 +496,8 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/carpet/executive,
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/carpet/executive,
 /area/ship/bridge)
@@ -451,11 +511,14 @@
 	dir = 8
 	},
 /turf/open/floor/pod,
+/turf/open/floor/pod,
 /area/ship/cargo)
 "nV" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 9
 	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod,
 /area/ship/cargo)
@@ -528,6 +591,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/executive,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/executive,
 /area/ship/bridge)
 "pR" = (
 /obj/effect/turf_decal/corner/red/mono,
@@ -558,6 +626,10 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/industrial/radiation{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
 "qj" = (
@@ -577,6 +649,9 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
+/obj/effect/turf_decal/industrial/radiation,
+/obj/machinery/suit_storage_unit/radsuit,
+/obj/item/tank/internals/oxygen,
 /obj/effect/turf_decal/industrial/radiation,
 /obj/machinery/suit_storage_unit/radsuit,
 /obj/item/tank/internals/oxygen,
@@ -614,6 +689,17 @@
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/effect/decal/cleanable/blood/old{
+	dir = 10;
+	icon_state = "trails_1";
+	name = "dried blood trail"
+	},
+/obj/effect/decal/cleanable/blood/gibs/body,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/footprints,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 1
 	},
 /obj/effect/decal/cleanable/blood/old{
 	dir = 10;
@@ -739,6 +825,8 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod,
 /area/ship/cargo)
 "un" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
@@ -775,6 +863,10 @@
 /obj/machinery/atmospherics/pipe/manifold/orange/visible{
 	dir = 8
 	},
+/obj/effect/turf_decal/industrial/radiation{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/industrial/radiation{
 	dir = 8
 	},
@@ -826,6 +918,16 @@
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 1
 	},
+/obj/effect/turf_decal/industrial/radiation,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/gibs/core,
+/obj/effect/decal/cleanable/blood/footprints,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
 "ww" = (
@@ -844,13 +946,21 @@
 	},
 /obj/machinery/suit_storage_unit/ert/engineer,
 /obj/item/tank/internals/oxygen,
+/obj/machinery/suit_storage_unit/ert/engineer,
+/obj/item/tank/internals/oxygen,
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
 "ym" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod,
 /area/ship/cargo)
+"yK" = (
+/obj/structure/sign/poster/official/nanotrasen_logo,
+/turf/closed/wall/mineral/titanium,
+/area/ship/crew/dorm)
 "yK" = (
 /obj/structure/sign/poster/official/nanotrasen_logo,
 /turf/closed/wall/mineral/titanium,
@@ -877,6 +987,20 @@
 /obj/item/stamp/captain,
 /obj/item/reagent_containers/food/drinks/bottle/lizardwine,
 /turf/open/floor/carpet/executive,
+/obj/machinery/photocopier/faxmachine/longrange{
+	layer = 3.1;
+	pixel_y = 6;
+	pixel_x = -4
+	},
+/obj/item/paper_bin{
+	pixel_y = 4;
+	pixel_x = 8
+	},
+/obj/item/pen/fountain,
+/obj/item/pen/fourcolor,
+/obj/item/stamp/captain,
+/obj/item/reagent_containers/food/drinks/bottle/lizardwine,
+/turf/open/floor/carpet/executive,
 /area/ship/bridge)
 "zE" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible{
@@ -885,6 +1009,10 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
+/obj/effect/turf_decal/industrial/radiation{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/industrial/radiation{
 	dir = 1
 	},
@@ -898,6 +1026,8 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
+/obj/effect/decal/cleanable/blood/gibs/bubblegum,
+/obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/blood/gibs/bubblegum,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
@@ -940,6 +1070,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod,
 /area/ship/cargo)
+"BZ" = (
+/obj/effect/turf_decal/industrial/caution,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod,
+/area/ship/cargo)
 "Cj" = (
 /obj/effect/turf_decal/corner/yellow/mono,
 /obj/structure/rack,
@@ -947,6 +1082,7 @@
 /obj/item/t_scanner/adv_mining_scanner/lesser,
 /obj/item/t_scanner/adv_mining_scanner/lesser,
 /obj/item/t_scanner/adv_mining_scanner/lesser,
+/turf/open/floor/pod,
 /turf/open/floor/pod,
 /area/ship/cargo)
 "Cu" = (
@@ -961,7 +1097,20 @@
 /obj/effect/turf_decal/corner/yellow/mono,
 /obj/machinery/airalarm/directional/west,
 /turf/open/floor/pod,
+/turf/open/floor/pod,
 /area/ship/cargo)
+"Cy" = (
+/obj/machinery/atmospherics/pipe/simple/orange/visible,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/footprints,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ship/maintenance/aft)
 "Cy" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible,
 /obj/structure/cable{
@@ -1036,7 +1185,12 @@
 	dir = 2
 	},
 /turf/open/floor/pod,
+/turf/open/floor/pod,
 /area/ship/cargo)
+"Ft" = (
+/obj/structure/sign/warning/radiation,
+/turf/closed/wall/mineral/titanium,
+/area/ship/maintenance/aft)
 "Ft" = (
 /obj/structure/sign/warning/radiation,
 /turf/closed/wall/mineral/titanium,
@@ -1047,6 +1201,8 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/holopad/emergency/command,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/executive,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/executive,
 /area/ship/bridge)
@@ -1075,6 +1231,8 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/executive,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/executive,
 /area/ship/bridge)
 "GY" = (
 /obj/machinery/power/terminal{
@@ -1090,6 +1248,9 @@
 /obj/effect/turf_decal/industrial/radiation{
 	dir = 1
 	},
+/obj/effect/turf_decal/industrial/radiation{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
 "HM" = (
@@ -1102,6 +1263,7 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
@@ -1229,6 +1391,10 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/industrial/radiation{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
 "MH" = (
@@ -1246,6 +1412,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/patterned,
 /area/ship/security/armory)
+"NH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/greenglow,
+/turf/open/floor/pod,
+/area/ship/cargo)
 "NH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/greenglow,
@@ -1345,6 +1516,26 @@
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/ship/maintenance/aft)
+"Ri" = (
+/obj/machinery/atmospherics/pipe/simple/orange/visible,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood/old{
+	icon_state = "trails_1";
+	name = "dried blood trail"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/footprints,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
 "Ss" = (
@@ -1353,6 +1544,8 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod,
 /area/ship/cargo)
@@ -1414,8 +1607,11 @@
 /obj/effect/turf_decal/corner/yellow/mono,
 /obj/machinery/ore_silo,
 /turf/open/floor/pod,
+/turf/open/floor/pod,
 /area/ship/cargo)
 "Vl" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod,
 /area/ship/cargo)
@@ -1447,6 +1643,8 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod,
 /area/ship/cargo)
 "Ww" = (
 /obj/machinery/am_shielding,
@@ -1456,10 +1654,15 @@
 /obj/structure/sign/poster/official/nanotrasen_logo,
 /turf/closed/wall/mineral/titanium,
 /area/ship/cargo)
+"WG" = (
+/obj/structure/sign/poster/official/nanotrasen_logo,
+/turf/closed/wall/mineral/titanium,
+/area/ship/cargo)
 "WR" = (
 /obj/machinery/atmospherics/components/unary/tank/toxins{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
@@ -1477,6 +1680,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/turf/open/floor/pod,
 /turf/open/floor/pod,
 /area/ship/cargo)
 "Xc" = (
@@ -1503,6 +1707,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
 "XH" = (
@@ -1510,6 +1715,17 @@
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/chair/plastic{
+	dir = 8
+	},
+/obj/item/storage/fancy/cigarettes/cigars,
+/obj/item/storage/fancy/cigarettes/cigpack_cannabis,
+/obj/item/storage/fancy/cigarettes/cigpack_robustgold,
+/obj/item/storage/fancy/cigarettes/cigpack_uplift,
+/obj/item/lighter/greyscale,
+/obj/item/lighter/greyscale,
+/obj/effect/decal/cleanable/ash,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/chair/plastic{
 	dir = 8
@@ -1544,6 +1760,10 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/industrial/radiation{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
 "Yh" = (
@@ -1572,11 +1792,16 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/executive,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/executive,
 /area/ship/bridge)
 "YY" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/oil/slippery,
+/turf/open/floor/pod,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/oil/slippery,
 /turf/open/floor/pod,
@@ -1588,12 +1813,15 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod,
 /area/ship/cargo)
 "Zg" = (
 /obj/effect/turf_decal/corner/yellow/mono,
 /obj/machinery/autolathe,
 /obj/item/stack/sheet/glass/fifty,
 /obj/item/stack/sheet/metal/fifty,
+/turf/open/floor/pod,
 /turf/open/floor/pod,
 /area/ship/cargo)
 "Zp" = (
@@ -1621,6 +1849,8 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/ash,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/ash,
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
 "ZX" = (
@@ -1628,6 +1858,10 @@
 /obj/machinery/vending/security,
 /turf/open/floor/iron/patterned,
 /area/ship/security/armory)
+"ZY" = (
+/obj/structure/sign/poster/official/nanotrasen_logo,
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/crew/dorm)
 "ZY" = (
 /obj/structure/sign/poster/official/nanotrasen_logo,
 /turf/closed/wall/mineral/titanium/nodiagonal,
@@ -1681,6 +1915,7 @@ zq
 oy
 IW
 JL
+JL
 oy
 ya
 qu
@@ -1702,6 +1937,8 @@ zq
 Zy
 zL
 rk
+Cy
+Ri
 Cy
 Ri
 wp
@@ -1763,6 +2000,7 @@ zq
 zq
 hx
 lc
+lc
 me
 AA
 Dk
@@ -1773,6 +2011,7 @@ Ij
 Qb
 TK
 TK
+VH
 VH
 qj
 VV
@@ -1792,7 +2031,10 @@ TK
 oy
 ur
 Ft
+Ft
 TK
+ka
+JS
 ka
 JS
 vN
@@ -1842,8 +2084,10 @@ uF
 uF
 aJ
 yK
+yK
 "}
 (11,1,1) = {"
+WG
 WG
 SG
 tp
@@ -1863,9 +2107,12 @@ tj
 Xc
 ww
 dS
+dS
 "}
 (12,1,1) = {"
 hc
+iD
+BZ
 iD
 BZ
 nD
@@ -1879,15 +2126,18 @@ dK
 uF
 SC
 hg
+hg
 Iv
 iq
 KW
 cM
 oO
+oO
 "}
 (13,1,1) = {"
 hc
 hm
+NH
 NH
 Vl
 Wp
@@ -1895,7 +2145,9 @@ uj
 lk
 OZ
 ji
+ji
 Lw
+ji
 ji
 fy
 OI
@@ -1903,7 +2155,9 @@ Dd
 dB
 un
 fa
+fa
 tr
+dS
 dS
 "}
 (14,1,1) = {"
@@ -1918,13 +2172,17 @@ Yh
 Pc
 tD
 Ao
+Ao
 uF
 bL
 LT
 hg
 hg
+hg
+hg
 Iv
 Ei
+uF
 uF
 "}
 (15,1,1) = {"
@@ -1950,11 +2208,13 @@ uF
 "}
 (16,1,1) = {"
 WG
+WG
 tp
 SG
 WY
 Cj
 Vl
+Vg
 Vg
 SG
 pG
@@ -1967,6 +2227,7 @@ Fc
 Yv
 aJ
 uF
+yK
 yK
 "}
 (17,1,1) = {"
@@ -2041,9 +2302,11 @@ zq
 zq
 zq
 kf
+kf
 dh
 dh
 dh
+ZY
 ZY
 zq
 zq
