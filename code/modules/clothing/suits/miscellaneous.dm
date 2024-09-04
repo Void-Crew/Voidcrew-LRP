@@ -566,7 +566,7 @@
 
 // CentCom
 /obj/item/clothing/suit/hooded/wintercoat/centcom
-	name = "centcom winter coat"
+	name = "CentCom winter coat"
 	desc = "A luxurious winter coat woven in the bright green and gold colours of Central Command. It has a small pin in the shape of the Nanotrasen logo for a zipper."
 	icon_state = "coatcentcom"
 	item_state = "coatcentcom"

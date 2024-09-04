@@ -492,3 +492,47 @@
 
 /obj/item/vending_refill/wardrobe/det_wardrobe
 	machine_name = "DetDrobe"
+
+/obj/machinery/vending/wardrobe/cent_wardrobe
+	name = "\improper CentDrobe"
+	desc = "A one-of-a-kind vending machine for all your CentCom aesthetic needs!"
+	icon_state = "centdrobe"
+	product_ads = "Show those ERTs who's the most stylish in the briefing room!"
+	vend_reply = "Thank you for using the CentDrobe!"
+	products = list(
+		/obj/item/clothing/glasses/sunglasses = 3,
+		/obj/item/clothing/head/centcom_cap = 3,
+		/obj/item/clothing/head/centhat = 3,
+		/obj/item/clothing/head/intern = 3,
+		/obj/item/clothing/head/beret/centcom = 3,
+		/obj/item/clothing/head/beret/centcom/formal = 3,
+		/obj/item/clothing/under/rank/centcom/commander = 3,
+		/obj/item/clothing/under/rank/centcom/commander/skirt = 3,
+		/obj/item/clothing/under/rank/centcom/official = 3,
+		/obj/item/clothing/under/rank/centcom/official/turtleneck = 3,
+		/obj/item/clothing/under/rank/centcom/officer/commander = 3,
+		/obj/item/clothing/under/rank/centcom/officer/commander/skirt = 3,
+		/obj/item/clothing/under/rank/centcom/officer = 3,
+		/obj/item/clothing/under/rank/centcom/officer/skirt = 3,
+		/obj/item/clothing/under/rank/centcom/intern/head = 3,
+		/obj/item/clothing/under/rank/centcom/intern = 3,
+		/obj/item/clothing/suit/armor/centcom_formal = 3,
+		/obj/item/clothing/suit/space/officer = 3,
+		/obj/item/clothing/suit/armor/vest/capjacket/cent/real = 3,
+		/obj/item/clothing/suit/armor/vest/capcarapace/centcom/real = 3,
+		/obj/item/clothing/suit/hooded/wintercoat/centcom = 3,
+		/obj/item/clothing/shoes/sneakers/black = 3,
+		/obj/item/clothing/shoes/laceup = 3,
+		/obj/item/clothing/shoes/jackboots = 3,
+		/obj/item/clothing/shoes/combat = 3,
+		/obj/item/clothing/shoes/combat/swat = 3,
+		/obj/item/clothing/gloves/combat = 3,
+		/obj/item/clothing/gloves/color/captain/centcom = 3,
+		/obj/item/clothing/gloves/tackler/combat = 3,
+		/obj/item/clothing/gloves/tackler/combat/insulated = 3
+	)
+	refill_canister = /obj/item/vending_refill/wardrobe/cent_wardrobe
+
+/obj/item/vending_refill/wardrobe/cent_wardrobe
+	machine_name = "CentDrobe"
+	light_color = LIGHT_COLOR_ELECTRIC_GREEN

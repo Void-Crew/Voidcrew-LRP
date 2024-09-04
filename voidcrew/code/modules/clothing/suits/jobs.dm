@@ -13,6 +13,6 @@
 
 /obj/item/clothing/suit/solgov_trenchcoat/terragov
 	name = "TerraGov officer's trenchcoat"
-	desc = "A Sol Government official's trenchcoat. Has a lot of pockets. This one is in a familiar TaerraGov color."
+	desc = "A Sol Government official's trenchcoat. Has a lot of pockets. This one is in a familiar TerraGov color."
 	icon_state = "trenchcoat_terragov"
 	item_state = "trenchcoat_terragov"

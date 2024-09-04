@@ -25,6 +25,8 @@
 	name = "ERT Commander"
 
 	id = /obj/item/card/id/ert
+	mask = /obj/item/clothing/mask/gas/sechailer/swat
+	uniform = /obj/item/clothing/under/rank/centcom/officer/commander
 	suit = /obj/item/clothing/suit/space/hardsuit/ert
 	glasses = /obj/item/clothing/glasses/hud/security/sunglasses
 	back = /obj/item/storage/backpack/ert
@@ -46,12 +48,17 @@
 /datum/outfit/centcom/ert/commander/alert
 	name = "ERT Commander - High Alert"
 
-	mask = /obj/item/clothing/mask/gas/sechailer/swat
 	glasses = /obj/item/clothing/glasses/thermal/eyepatch
 	backpack_contents = list(/obj/item/storage/box/survival/engineer=1,\
 		/obj/item/melee/baton/loaded=1,\
 		/obj/item/gun/energy/pulse/pistol/loyalpin=1)
 	l_pocket = /obj/item/melee/transforming/energy/sword/saber
+
+/datum/outfit/centcom/ert/commander/suitless
+	name = "ERT Commander - No Suit"
+
+	suit = null
+	head = /obj/item/clothing/head/beret/centcom/formal
 
 /datum/outfit/centcom/ert/security
 	name = "ERT Security"
@@ -201,6 +208,11 @@
 	W.registered_name = H.real_name
 	W.update_label()
 	..()
+
+/datum/outfit/centcom/centcom_official/turtleneck
+	name = "CentCom Official - Turtleneck"
+
+	uniform = /obj/item/clothing/under/rank/centcom/official/turtleneck
 
 /datum/outfit/centcom/ert/commander/inquisitor
 	name = "Inquisition Commander"
@@ -356,6 +368,7 @@
 
 /datum/outfit/centcom/centcom_intern/leader
 	name = "CentCom Head Intern"
+	uniform = /obj/item/clothing/under/rank/centcom/intern/head
 	belt = /obj/item/melee/baton/loaded
 	suit = /obj/item/clothing/suit/armor/vest
 	suit_store = /obj/item/gun/ballistic/rifle/scout

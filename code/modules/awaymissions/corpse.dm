@@ -478,39 +478,39 @@
 /////////////////Officers+Nanotrasen Security//////////////////////
 
 /obj/effect/mob_spawn/human/bridgeofficer
-	name = "Bridge Officer"
-	id_job = "Bridge Officer"
+	name = "CentCom Bridge Officer"
+	id_job = "CentCom Bridge Officer"
 	id_access_list = list(ACCESS_CENT_CAPTAIN)
 	outfit = /datum/outfit/nanotrasenbridgeofficercorpse
 
 /datum/outfit/nanotrasenbridgeofficercorpse
-	name = "Bridge Officer Corpse"
-	ears = /obj/item/radio/headset/heads/head_of_personnel
-	uniform = /obj/item/clothing/under/rank/centcom/officer
-	suit = /obj/item/clothing/suit/armor/bulletproof
-	shoes = /obj/item/clothing/shoes/sneakers/black
+	name = "CentCom Bridge Officer Corpse"
+	ears = /obj/item/radio/headset/headset_cent/empty
+	uniform = /obj/item/clothing/under/rank/centcom/bridgeofficer
+	suit = /obj/item/clothing/suit/armor/vest/capjacket/cent/bridgeofficer
+	head = /obj/item/clothing/head/centcom_cap/bridgeofficer
+	shoes = /obj/item/clothing/shoes/jackboots
+	gloves = /obj/item/clothing/gloves/color/black
 	glasses = /obj/item/clothing/glasses/sunglasses
-	id = /obj/item/card/id
+	id = /obj/item/card/id/centcom
 
 
-/obj/effect/mob_spawn/human/commander
-	name = "Commander"
-	id_job = "Commander"
+/obj/effect/mob_spawn/human/captain
+	name = "CentCom Captain"
+	id_job = "CentCom Captain"
 	id_access_list = list(ACCESS_CENT_CAPTAIN, ACCESS_CENT_GENERAL, ACCESS_CENT_SPECOPS, ACCESS_CENT_MEDICAL, ACCESS_CENT_STORAGE)
-	outfit = /datum/outfit/nanotrasencommandercorpse
+	outfit = /datum/outfit/nanotrasencaptaincorpse
 
-/datum/outfit/nanotrasencommandercorpse
-	name = "\improper Nanotrasen Private Security Commander"
+/datum/outfit/nanotrasencaptaincorpse
+	name = "CentCom Captain Corpse"
 	uniform = /obj/item/clothing/under/rank/centcom/commander
-	suit = /obj/item/clothing/suit/armor/bulletproof
-	ears = /obj/item/radio/headset/heads/captain
-	glasses = /obj/item/clothing/glasses/eyepatch
-	mask = /obj/item/clothing/mask/cigarette/cigar/cohiba
+	suit = /obj/item/clothing/suit/armor/vest/capcarapace/centcom
+	ears = /obj/item/radio/headset/headset_cent/empty
+	glasses = /obj/item/clothing/glasses/sunglasses
 	head = /obj/item/clothing/head/centhat
-	gloves = /obj/item/clothing/gloves/tackler/combat
-	shoes = /obj/item/clothing/shoes/combat/swat
-	r_pocket = /obj/item/lighter
-	id = /obj/item/card/id
+	gloves = /obj/item/clothing/gloves/color/captain/centcom
+	shoes = /obj/item/clothing/shoes/jackboots
+	id = /obj/item/card/id/centcom
 
 
 /obj/effect/mob_spawn/human/nanotrasensoldier

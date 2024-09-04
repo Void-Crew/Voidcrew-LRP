@@ -122,3 +122,14 @@
 	. = ..()
 	new /obj/item/documents/syndicate/mining(src)
 	update_icon()
+
+/obj/item/folder/centcom
+	icon_state = "folder_cent"
+	name = "folder- 'TOP SECRET'"
+	desc = "A folder stamped \"Top Secret - Property of Nanotrasen's Central Command Division. Unauthorized distribution is punishable by death.\""
+
+/obj/item/folder/centcom/gold
+	icon_state = "folder_cgold"
+
+/obj/item/folder/centcom/red
+	icon_state = "folder_cred"

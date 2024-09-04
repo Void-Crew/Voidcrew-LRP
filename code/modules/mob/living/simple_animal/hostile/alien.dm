@@ -9,6 +9,7 @@
 	speed = 0
 	butcher_results = list(/obj/item/reagent_containers/food/snacks/meat/slab/xeno = 4,
 							/obj/item/stack/sheet/animalhide/xeno = 1)
+	pixel_x = -16
 	maxHealth = 200
 	health = 200
 	harm_intent_damage = 5
