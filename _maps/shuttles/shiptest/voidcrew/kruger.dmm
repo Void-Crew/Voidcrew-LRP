@@ -80,6 +80,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/food/flour,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "cg" = (
@@ -94,9 +97,22 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "cU" = (
-/obj/effect/turf_decal/trimline/brown/filled/corner,
-/turf/closed/wall/mineral/titanium,
-/area/ship/hallway/central)
+/obj/machinery/mineral/ore_redemption,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/structure/window/reinforced,
+/turf/open/floor/iron/dark/textured_large,
+/area/ship/cargo/office)
 "dB" = (
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 1
@@ -107,6 +123,12 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
 /obj/machinery/airalarm/directional/north,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "dJ" = (
@@ -186,7 +208,6 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/ship/hallway/central)
 "gh" = (
-/obj/structure/closet/secure_closet/engineering_personal,
 /obj/item/clothing/under/rank/engineering/engineer/maintenance_tech,
 /obj/item/clothing/suit/space/engineer,
 /obj/item/clothing/suit/hooded/wintercoat/engineering,
@@ -197,6 +218,12 @@
 	},
 /obj/machinery/airalarm/directional/west,
 /obj/item/clothing/head/hardhat/white,
+/obj/structure/closet/secure_closet{
+	icon_state = "eng_secure";
+	name = "engineer's locker"
+	},
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/belt/utility/full,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "gm" = (
@@ -302,6 +329,10 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
+/mob/living/simple_animal/bot/cleanbot{
+	on = 0;
+	name = "Rusky"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "kt" = (
@@ -322,6 +353,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/firealarm/north,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "lB" = (
@@ -350,15 +384,14 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "lS" = (
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 1
-	},
-/mob/living/simple_animal/bot/cleanbot{
-	on = 0;
-	name = "Rusky"
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/apc/auto_name/north,
@@ -371,6 +404,7 @@
 	pixel_y = 26;
 	pixel_x = 11
 	},
+/obj/machinery/autolathe,
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "mb" = (
@@ -397,12 +431,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
-"mZ" = (
-/obj/effect/turf_decal/trimline/brown/filled/corner{
-	dir = 4
-	},
-/turf/closed/wall/mineral/titanium,
-/area/ship/hallway/central)
 "nd" = (
 /obj/machinery/computer/autopilot,
 /obj/effect/decal/cleanable/dirt,
@@ -425,6 +453,9 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
@@ -512,12 +543,6 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/ship/hallway/central)
-"sa" = (
-/obj/effect/turf_decal/trimline/brown/filled/corner{
-	dir = 1
-	},
-/turf/closed/wall/mineral/titanium,
-/area/ship/hallway/central)
 "sn" = (
 /obj/structure/window/reinforced,
 /obj/machinery/door/window/northleft{
@@ -534,15 +559,17 @@
 	name = "Engine Access Shutters";
 	id = "kruger_engine"
 	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
 /turf/open/floor/iron/dark/textured_large,
 /area/ship/hallway/central)
 "sZ" = (
-/obj/structure/rack,
-/obj/item/tank/internals/oxygen/yellow,
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 10
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "ty" = (
@@ -575,6 +602,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/plasma,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "uw" = (
@@ -596,6 +626,12 @@
 	pixel_y = 32
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "vl" = (
@@ -612,6 +648,9 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "vy" = (
@@ -623,31 +662,26 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "vB" = (
-/obj/structure/closet/secure_closet/quartermaster{
-	populate = 0
-	},
 /obj/item/stock_parts/cell/gun/mini,
 /obj/item/stock_parts/cell/gun/mini,
 /obj/item/gun/energy/e_gun/mini,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/secure_closet{
+	icon_state = "qm";
+	name = "quartermaster's locker"
+	},
 /obj/item/clothing/under/rank/cargo/qm,
+/obj/item/clothing/under/rank/cargo/qm/skirt,
 /obj/item/clothing/under/suit/qm,
+/obj/item/clothing/under/suit/qm/skirt,
+/obj/item/radio/headset/heads/qm,
+/obj/item/clothing/neck/cloak/qm,
 /obj/item/clothing/head/beret/qm,
 /obj/item/clothing/suit/hooded/wintercoat/cargo/qm,
-/obj/item/megaphone/cargo,
-/obj/item/clothing/neck/cloak/qm,
-/obj/item/clothing/head/soft,
-/obj/item/storage/lockbox/medal/cargo,
-/obj/item/export_scanner,
-/obj/item/clothing/gloves/fingerless,
-/obj/item/clothing/suit/fire/firefighter,
-/obj/item/clothing/head/hardhat,
-/obj/item/circuitboard/machine/techfab/department/cargo,
-/obj/item/clothing/shoes/sneakers/brown,
 /obj/item/door_remote/quartermaster,
-/obj/item/clothing/mask/gas,
-/obj/item/radio/headset/heads/qm,
+/obj/item/cartridge/quartermaster,
 /obj/item/storage/photo_album/QM,
+/obj/item/megaphone/cargo,
 /turf/open/floor/pod/light,
 /area/ship/bridge)
 "vT" = (
@@ -839,10 +873,10 @@
 /turf/open/floor/pod/light,
 /area/ship/bridge)
 "GE" = (
-/obj/effect/turf_decal/trimline/brown/filled/corner{
-	dir = 8
-	},
-/turf/closed/wall/mineral/titanium,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "He" = (
 /obj/structure/closet/crate/secure/cargo/mining{
@@ -900,6 +934,7 @@
 /obj/machinery/power/shuttle/engine/electric{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ship/hallway/central)
 "Jc" = (
@@ -927,6 +962,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
 	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
@@ -1001,6 +1039,9 @@
 /obj/machinery/door/poddoor/shutters{
 	name = "Engine Access Shutters";
 	id = "kruger_engine"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/ship/hallway/central)
@@ -1284,6 +1325,7 @@
 	pixel_y = 26;
 	pixel_x = 11
 	},
+/obj/item/clothing/head/supply_chief,
 /turf/open/floor/pod/light,
 /area/ship/bridge)
 "WA" = (
@@ -1312,6 +1354,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "Xh" = (
@@ -1341,6 +1386,12 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "Zq" = (
@@ -1354,6 +1405,9 @@
 	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "Zt" = (
@@ -1377,12 +1431,16 @@
 	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "ZI" = (
 /obj/effect/turf_decal/trimline/brown/filled/line,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/garbage,
+/obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/ship/hallway/central)
 "ZM" = (
@@ -1449,7 +1507,7 @@ rf
 rf
 rf
 Vd
-cU
+dQ
 Ty
 dQ
 dQ
@@ -1457,7 +1515,7 @@ TK
 dQ
 dQ
 bO
-mZ
+dQ
 Vd
 rf
 rf
@@ -1468,7 +1526,7 @@ rf
 rf
 rf
 Vd
-cU
+dQ
 FC
 Bd
 HO
@@ -1478,7 +1536,7 @@ Xa
 nv
 Zy
 sZ
-mZ
+dQ
 Vd
 rf
 "}
@@ -1505,7 +1563,7 @@ dQ
 (6,1,1) = {"
 rf
 MS
-MS
+iN
 nZ
 iN
 TV
@@ -1518,7 +1576,7 @@ Dg
 qk
 qk
 Zf
-Gb
+GE
 sn
 Is
 "}
@@ -1538,7 +1596,7 @@ wz
 vy
 qk
 dB
-Gb
+GE
 Mf
 Is
 "}
@@ -1572,7 +1630,7 @@ aE
 be
 vT
 vT
-vT
+cU
 CU
 vT
 vT
@@ -1625,7 +1683,7 @@ Is
 (12,1,1) = {"
 rf
 MS
-MS
+iN
 vB
 iN
 xG
@@ -1638,7 +1696,7 @@ He
 vT
 vT
 um
-Gb
+GE
 Mf
 Is
 "}
@@ -1668,7 +1726,7 @@ rf
 rf
 rf
 Vd
-GE
+dQ
 Wd
 eP
 Mw
@@ -1678,7 +1736,7 @@ jJ
 tz
 Nv
 Yu
-sa
+dQ
 Vd
 rf
 "}
@@ -1689,7 +1747,7 @@ rf
 rf
 rf
 Vd
-GE
+dQ
 LN
 dQ
 dQ
@@ -1697,7 +1755,7 @@ rG
 dQ
 dQ
 ZM
-sa
+dQ
 Vd
 rf
 rf
