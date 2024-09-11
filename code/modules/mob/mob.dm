@@ -26,6 +26,11 @@
   *
   * Parent call
   */
+
+/mob/living
+    var/last_radio_assist = 0 // To prevent spam
+
+
 /mob/Destroy()//This makes sure that mobs with clients/keys are not just deleted from the game.
 	remove_from_mob_list()
 	remove_from_dead_mob_list()
@@ -684,6 +689,29 @@
 		mind.show_memory(src)
 	else
 		to_chat(src, "You don't have a mind datum for some reason, so you can't look at your notes, if you had any.")
+
+/mob/verb/radio_assist()
+    set name = "Radio Assist"
+    set category = "IC"
+    set desc = "Call for help using nearby radios."
+
+    var/turf/T = get_turf(src)
+    if(!T)
+        return
+
+    var/area/A = get_area(src)
+    if(!A)
+        return
+
+    var/obj/item/radio/R = locate() in range(1, src)
+    if(!R)
+        to_chat(src, "<span class='warning'>There are no radios nearby to use!</span>")
+        return
+
+    var/message = "[src] is calling for help at [T.x], [T.y], [T.z] ([A.name])"
+    R.talk_into(src, message, null, list(SPAN_COMMAND, SPAN_ROBOT))
+
+    to_chat(src, "<span class='notice'>You call for help using the nearby [R.name].</span>")
 
 /**
   * Add a note to the mind datum
