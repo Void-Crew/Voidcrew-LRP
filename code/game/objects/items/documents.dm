@@ -16,6 +16,14 @@
 	desc = "\"Top Secret\" Nanotrasen documents, filled with complex diagrams and lists of names, dates and coordinates."
 	icon_state = "docs_verified"
 
+/obj/item/documents/centcom
+	desc = "\"Top Secret\" Central Command documents, filled with complex diagrams and lists of names, dates and coordinates, as well as detailing sensitive Nanotrasen Emergency Team operational plans, locations of operation and team logs. These documents are verified with a red wax seal."
+	icon_state = "docs_red"
+
+/obj/item/documents/centcom/gold
+	desc = "\"Top Secret\" Central Command documents, filled with complex diagrams and lists of names, dates and coordinates, as well as detailing sensitive Nanotrasen Command documents, detailing research plans, and intelligence suggesting Central Command outposts, and detailed reports of operations. These documents are verified with a pure gold wax seal."
+	icon_state = "docs_gold"
+
 /obj/item/documents/syndicate
 	desc = "\"Top Secret\" documents detailing sensitive Syndicate operational intelligence."
 
