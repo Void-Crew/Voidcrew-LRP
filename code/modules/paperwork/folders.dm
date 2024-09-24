@@ -122,3 +122,47 @@
 	. = ..()
 	new /obj/item/documents/syndicate/mining(src)
 	update_icon()
+
+/obj/item/folder/centcom
+	name = "folder"
+	desc = "A CentCom green folder."
+	icon_state = "folder_cent"
+
+/obj/item/folder/centcom/com
+	desc = "A CentCom green folder, with added command insignia."
+	icon_state = "folder_ccom"
+
+/obj/item/folder/centcom/sec
+	desc = "A CentCom green folder, with added security insignia."
+	icon_state = "folder_csec"
+
+/obj/item/folder/centcom/cargo
+	desc = "A CentCom green folder, with added cargo insignia."
+	icon_state = "folder_ccarg"
+
+/obj/item/folder/centcom/med
+	desc = "A CentCom green folder, with added medical insignia."
+	icon_state = "folder_cmed"
+
+/obj/item/folder/centcom/eng
+	desc = "A CentCom green folder, with added engineering insignia."
+	icon_state = "folder_ceng"
+
+/obj/item/folder/centcom/documents
+	name = "folder- 'TOP SECRET'"
+	desc = "A folder stamped \"Top Secret - Property of Nanotrasen's Central Command Security Division. Unauthorized distribution is punishable by death.\""
+	icon_state = "folder_cred"
+
+/obj/item/folder/centcom/documents/Initialize()
+	. = ..()
+	new /obj/item/documents/centcom(src)
+	update_icon()
+
+/obj/item/folder/centcom/documents/gold
+	desc = "A folder stamped \"Top Secret - Property of Nanotrasen's Central Command Operations Division. Unauthorized distribution is punishable by death.\""
+	icon_state = "folder_cgold"
+
+/obj/item/folder/centcom/documents/gold/Initialize()
+	. = ..()
+	new /obj/item/documents/centcom/gold(src)
+	update_icon()

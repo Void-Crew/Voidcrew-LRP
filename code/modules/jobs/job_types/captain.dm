@@ -34,7 +34,7 @@
 
 	id = /obj/item/card/id/gold
 	belt = /obj/item/pda/captain
-	gloves = /obj/item/clothing/gloves/color/captain
+	gloves = /obj/item/clothing/gloves/color/captain/neu
 	uniform =  /obj/item/clothing/under/rank/command/captain
 	alt_uniform = /obj/item/clothing/under/rank/command/captain/parade //WS Edit - Alt Uniforms
 	suit = /obj/item/clothing/suit/armor/vest/capcarapace
@@ -66,6 +66,7 @@
 	name = "Captain (Nanotrasen)"
 
 	uniform =  /obj/item/clothing/under/rank/command/captain/nt
+	gloves = /obj/item/clothing/gloves/color/captain
 	head = /obj/item/clothing/head/caphat/parade
 	suit = /obj/item/clothing/suit/armor/vest/capcarapace/nt
 	alt_suit = /obj/item/clothing/suit/armor/vest/capcarapace/alt/nt
@@ -75,6 +76,7 @@
 	name = "Captain (Nanotrasen Fleet Captain)"
 
 	uniform = /obj/item/clothing/under/rank/centcom/official
+	gloves = /obj/item/clothing/gloves/color/captain/centcom
 	head = /obj/item/clothing/head/caphat/parade/cent
 	shoes = /obj/item/clothing/shoes/jackboots
 	suit = /obj/item/clothing/suit/armor/vest/capcarapace/centcom

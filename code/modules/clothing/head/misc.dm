@@ -454,7 +454,7 @@
 	dynamic_hair_suffix = ""
 
 /obj/item/clothing/head/intern
-	name = "\improper CentCom Head Intern beancap"
+	name = "\improper CentCom head intern's beancap"
 	desc = "A horrifying mix of beanie and softcap in CentCom green. You'd have to be pretty desperate for power over your peers to agree to wear this."
 	icon_state = "intern_hat"
 	item_state = "intern_hat"
@@ -527,15 +527,31 @@
 	name = "\improper CentCom commander cap"
 	icon_state = "centcom_cap"
 	item_state = "that"
-	desc = "Worn by the finest of CentCom commanders. Inside the lining of the cap, lies two faint initials."
-	armor = list("melee" = 30, "bullet" = 15, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
+	desc = "Worn by CentCom's highest-tier Commanders, armored heavily with nano-fabric durability enhancements. Inside the lining of the cap, lies two faint initials."
+	armor = list("melee" = 80, "bullet" = 80, "laser" = 50, "energy" = 50, "bomb" = 100, "bio" = 100, "rad" = 0, "fire" = 100, "acid" = 90)
 	strip_delay = 60
 
-/obj/item/clothing/head/beret/centcom_formal
-	name = "\improper CentCom Formal Beret"
-	desc = "Sometimes, a compromise between fashion and defense needs to be made. Thanks to Nanotrasen's most recent nano-fabric durability enhancements, this time, it's not the case."
+/obj/item/clothing/head/beret/centcom
+	name = "\improper CentCom commander's beret"
+	desc = "A snazzy aloe-scented beret worn by CentCom's highest-tier Commanders! A golden badge of the Nanotrasen logo is on it. Sometimes, a compromise between fashion and defense needs to be made. Thanks to Nanotrasen's most recent nano-fabric durability enhancements, this time, it's not the case."
 	icon_state = "centberet"
 	item_state = "that"
 	armor = list("melee" = 80, "bullet" = 80, "laser" = 50, "energy" = 50, "bomb" = 100, "bio" = 100, "rad" = 0, "fire" = 100, "acid" = 90)
+	strip_delay = 60
+
+/obj/item/clothing/head/beret/centcom/formal
+	name = "\improper CentCom formal beret"
+	desc = "A snazzy aloe-scented beret worn by CentCom officials! A silver badge of the Nanotrasen logo is on it. Sometimes, a compromise between fashion and defense needs to be made."
+	icon_state = "centformalberet"
+	item_state = "that"
+	armor = list("melee" = 30, "bullet" = 15, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
+	strip_delay = 60
+
+/obj/item/clothing/head/centcom_cap/bridgeofficer
+	name = "\improper CentCom bridge officer's cap"
+	desc = "Worn by CentCom's mid-tier Bridge Officers, barely given any padding whatsoever, nothing too special."
+	icon_state = "bridgeofficer_cap"
+	item_state = "that"
+	armor = list("melee" = 30, "bullet" = 15, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
 	strip_delay = 60
 

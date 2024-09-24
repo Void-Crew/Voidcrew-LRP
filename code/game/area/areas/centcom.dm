@@ -16,59 +16,104 @@
 	outdoors = TRUE
 
 /area/centcom/control
-	name = "CentCom Docks"
+	name = "CentCom Control Center"
+	icon_state = "centcom_control"
+
+/area/centcom/arrivals
+	name = "CentCom Arrivals"
+	icon_state = "centcom_arrivals"
+
+/area/centcom/admin
+	name = "CentCom Administration"
+	icon_state = "centcom_admin"
+
+/area/centcom/admin_storage
+	name = "CentCom Administration Storage"
+	icon_state = "centcom_admin_storage"
 
 /area/centcom/evac
 	name = "CentCom Recovery Ship"
+	icon_state = "centcom_evacuation_ship"
 
 /area/centcom/supply
-	name = "CentCom Supply Shuttle Dock"
+	name = "CentCom Cargo Bay"
+	icon_state = "centcom_supply"
 
 /area/centcom/ferry
-	name = "CentCom Transport Shuttle Dock"
+	name = "CentCom Ferry Docking Bay"
+	icon_state = "centcom_ferry"
+
+/area/centcom/brief
+	name = "CentCom Dispatch Center"
+	icon_state = "centcom_briefing"
+
+/area/centcom/armory
+	name = "CentCom Dispatch Center Armory"
+	icon_state = "centcom_armory"
 
 /area/centcom/prison
-	name = "Admin Prison"
+	name = "CentCom Prison Facility"
+	icon_state = "centcom_prison"
+
+/area/centcom/prison_cells
+	name = "CentCom Prison Cells"
+	icon_state = "centcom_cells"
 
 /area/centcom/holding
-	name = "Holding Facility"
+	name = "CentCom Holding Cell"
+	icon_state = "centcom_holding"
+
+/area/centcom/court
+	name = "CentCom Grand Courtroom"
+	icon_state = "centcom_court"
 
 /area/centcom/supplypod/flyMeToTheMoon
-	name = "Supplypod Shipping lane"
+	name = "Supply Pod Shipping lane"
 	icon_state = "supplypod_flight"
 
 /area/centcom/supplypod
-	name = "Supplypod Facility"
+	name = "CentCom Supply Pod Facility"
 	icon_state = "supplypod"
-	dynamic_lighting = DYNAMIC_LIGHTING_DISABLED
 
 /area/centcom/supplypod/podStorage
-	name = "Supplypod Storage"
+	name = "CentCom Supply Pod Storage"
 	icon_state = "supplypod_holding"
+	dynamic_lighting = DYNAMIC_LIGHTING_DISABLED
 
 /area/centcom/supplypod/loading
-	name = "Supplypod Loading Facility"
+	name = "CentCom Supply Pod Loading Facility"
 	icon_state = "supplypod_loading"
 
 /area/centcom/supplypod/loading/one
 	name = "Bay #1"
+	icon_state = "supplypod"
+	dynamic_lighting = DYNAMIC_LIGHTING_DISABLED
 
 /area/centcom/supplypod/loading/two
 	name = "Bay #2"
+	icon_state = "supplypod"
+	dynamic_lighting = DYNAMIC_LIGHTING_DISABLED
 
 /area/centcom/supplypod/loading/three
 	name = "Bay #3"
+	icon_state = "supplypod"
+	dynamic_lighting = DYNAMIC_LIGHTING_DISABLED
 
 /area/centcom/supplypod/loading/four
 	name = "Bay #4"
+	icon_state = "supplypod"
+	dynamic_lighting = DYNAMIC_LIGHTING_DISABLED
 
 /area/centcom/supplypod/loading/ert
 	name = "ERT Bay"
+	icon_state = "supplypod"
+	dynamic_lighting = DYNAMIC_LIGHTING_DISABLED
+
 //THUNDERDOME
 
 /area/tdome
 	name = "Thunderdome"
-	icon_state = "yellow"
+	icon_state = "thunder"
 	dynamic_lighting = DYNAMIC_LIGHTING_FORCED
 	requires_power = FALSE
 	has_gravity = STANDARD_GRAVITY
@@ -86,19 +131,19 @@
 
 /area/tdome/tdome1
 	name = "Thunderdome (Team 1)"
-	icon_state = "green"
+	icon_state = "thunder_team_one"
 
 /area/tdome/tdome2
 	name = "Thunderdome (Team 2)"
-	icon_state = "green"
+	icon_state = "thunder_team_two"
 
 /area/tdome/tdomeadmin
 	name = "Thunderdome (Admin.)"
-	icon_state = "purple"
+	icon_state = "thunder_admin"
 
 /area/tdome/tdomeobserve
 	name = "Thunderdome (Observer.)"
-	icon_state = "purple"
+	icon_state = "thunder_observe"
 
 
 //ENEMY

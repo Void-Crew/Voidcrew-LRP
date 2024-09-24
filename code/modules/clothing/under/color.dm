@@ -143,12 +143,12 @@
 	item_state = "y_suit"
 
 /obj/item/clothing/under/color/darkblue
-	name = "darkblue jumpsuit"
+	name = "dark blue jumpsuit"
 	icon_state = "darkblue"
 	item_state = "b_suit"
 
 /obj/item/clothing/under/color/jumpskirt/darkblue
-	name = "darkblue jumpskirt"
+	name = "dark blue jumpskirt"
 	icon_state = "darkblue_skirt"
 	item_state = "b_suit"
 
@@ -169,27 +169,27 @@
 	item_state = "p_suit"
 
 /obj/item/clothing/under/color/jumpskirt/lightpurple
-	name = "lightpurple jumpskirt"
+	name = "light purple jumpskirt"
 	icon_state = "lightpurple_skirt"
 	item_state = "p_suit"
 
 /obj/item/clothing/under/color/darkgreen
-	name = "darkgreen jumpsuit"
+	name = "dark green jumpsuit"
 	icon_state = "darkgreen"
 	item_state = "g_suit"
 
 /obj/item/clothing/under/color/jumpskirt/darkgreen
-	name = "darkgreen jumpskirt"
+	name = "dark green jumpskirt"
 	icon_state = "darkgreen_skirt"
 	item_state = "g_suit"
 
 /obj/item/clothing/under/color/lightbrown
-	name = "lightbrown jumpsuit"
+	name = "light brown jumpsuit"
 	icon_state = "lightbrown"
 	item_state = "lb_suit"
 
 /obj/item/clothing/under/color/jumpskirt/lightbrown
-	name = "lightbrown jumpskirt"
+	name = "light brown jumpskirt"
 	icon_state = "lightbrown_skirt"
 	item_state = "lb_suit"
 

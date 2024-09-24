@@ -140,8 +140,13 @@
 
 /obj/item/clothing/suit/armor/vest/capcarapace/centcom
 	name = "CentCom captain's carapace"
-	desc = "A fireproof armored chestpiece reinforced with ceramic plates and plasteel pauldrons to provide additional protection whilst still offering maximum mobility and flexibility. Issued only to the highest CentCom Officers."
+	desc = "A fireproof armored chestpiece reinforced with ceramic plates and plasteel pauldrons to provide additional protection whilst still offering maximum mobility and flexibility. This feels lesser than the Commander's version.."
 	icon_state = "centcarapace"
+
+/obj/item/clothing/suit/armor/vest/capcarapace/centcom/real
+	name = "CentCom carapace"
+	desc = "A fireproof armored chestpiece reinforced with ceramic plates and plasteel pauldrons to provide additional protection whilst still offering maximum mobility and flexibility. Issued only to the highest CentCom Officers."
+	armor = list("melee" = 35, "bullet" = 40, "laser" = 40, "energy" = 50, "bomb" = 35, "bio" = 10, "rad" = 10, "fire" = 10, "acid" = 60)
 
 /obj/item/clothing/suit/armor/vest/capcarapace/alt/nt
 	name = "captain's parade coat"
@@ -155,10 +160,29 @@
 	icon_state = "capjacket"
 	item_state = "b_suit"
 
+/obj/item/clothing/suit/armor/vest/capjacket/cent
+	name = "CentCom captain's parade jacket"
+	desc = "Worn by a CentCom Ship Captain to show their class."
+	icon_state = "capjacket_cent"
+	item_state = "g_suit"
+
+/obj/item/clothing/suit/armor/vest/capjacket/cent/bridgeofficer
+	name = "CentCom bridge officer's parade jacket"
+	desc = "Worn by a CentCom Bridge Officer to show their class."
+	icon_state = "centjacket_bridge"
+	item_state = "g_suit"
+
+/obj/item/clothing/suit/armor/vest/capjacket/cent/real
+	name = "CentCom parade jacket"
+	desc = "Worn by a CentCom officer to show their utmost superior class."
+	icon_state = "centjacket"
+	item_state = "g_suit"
+	armor = list("melee" = 35, "bullet" = 40, "laser" = 40, "energy" = 50, "bomb" = 35, "bio" = 10, "rad" = 10, "fire" = 10, "acid" = 60)
+
 /obj/item/clothing/suit/armor/vest/capcarapace/alt/cent
 	name = "CentCom captain's parade coat"
-	desc = "For when an armoured vest isn't fashionable enough. Gives you a clear indication you're lesser than your superiors."
-	icon_state = "centformal"
+	desc = "A stylish coat given to CentCom Ship Captains. Perfect for.. Flying their ship with style!"
+	icon_state = "capformal_cent"
 	item_state = "g_suit"
 
 /obj/item/clothing/suit/armor/vest/capcarapace/alt

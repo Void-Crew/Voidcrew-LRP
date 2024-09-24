@@ -164,10 +164,10 @@
 	item_state = "browngloves"
 
 /obj/item/clothing/gloves/color/captain
-	desc = "Regal white gloves, with a nice gold trim, a diamond anti-shock coating, and an integrated thermal barrier, and armoured bracers. Swanky."
 	name = "captain's gloves"
+	desc = "Regal blue gloves, with a nice gold trim, a diamond anti-shock coating, and an integrated thermal barrier. Swanky."
 	icon_state = "captain"
-	item_state = "egloves"
+	item_state = "captain"
 	siemens_coefficient = 0
 	permeability_coefficient = 0.05
 	cold_protection = HANDS
@@ -176,6 +176,17 @@
 	max_heat_protection_temperature = GLOVES_MAX_TEMP_PROTECT
 	strip_delay = 60
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 70, "acid" = 50)
+
+/obj/item/clothing/gloves/color/captain/neu
+	desc = "Regal blue gloves, with a questionable gold trim, some cheap anti-shock coating, and an integrated thermal barrier. Swanky."
+	icon_state = "captain_neu"
+	item_state = "captain_neu"
+
+/obj/item/clothing/gloves/color/captain/centcom
+	name = "CentCom gloves"
+	desc = "Luxurious green gloves, with a nice pure gold trim, built in with diamond anti-shock coating, and an integrated thermal barrier. Swanky."
+	icon_state = "centcom"
+	item_state = "centcom"
 
 /obj/item/clothing/gloves/color/latex
 	name = "latex gloves"

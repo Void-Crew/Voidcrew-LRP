@@ -212,6 +212,12 @@
 	icon_state = "nanotrasen"
 	is_editable = TRUE
 
+/obj/structure/sign/nanotrasen/flag
+	name = "\improper Nanotrasen flag"
+	sign_change_name = "Corporate Flag - Nanotrasen"
+	desc = "A flag with the Nanotrasen logo on it. Glory to Nanotrasen!"
+	icon_state = "nanotrasen_flag"
+
 /obj/structure/sign/logo
 	name = "\improper Nanotrasen logo sign"
 	desc = "The Nanotrasen corporate logo."
