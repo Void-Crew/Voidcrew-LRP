@@ -163,7 +163,8 @@
 /area/ship/bridge)
 "aZ" = (
 /obj/structure/chair/sofa/corner{
-	dir = 4
+	dir = 4;
+	name = "magical sofa"
 	},
 /turf/open/floor/carpet/green,
 /area/ship/maintenance/port)
@@ -684,8 +685,9 @@
 /turf/open/floor/wood/bamboo,
 /area/ship/crew/library)
 "gc" = (
-/obj/structure/chair/comfy/brown{
-	dir = 1
+/obj/structure/chair/comfy{
+	dir = 1;
+	name = "comfy magical chair"
 	},
 /turf/open/floor/carpet/green,
 /area/ship/maintenance/port)
@@ -1225,7 +1227,9 @@
 /turf/open/floor/wood/mahogany,
 /area/ship/storage)
 "lh" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/chair/sofa/left{
+	name = "magical sofa"
+	},
 /obj/machinery/firealarm{
 	pixel_y = 25
 	},
@@ -4128,7 +4132,8 @@
 /area/ship/security/armory)
 "KJ" = (
 /obj/structure/chair/sofa/right{
-	dir = 4
+	dir = 4;
+	name = "magical sofa"
 	},
 /turf/open/floor/carpet/green,
 /area/ship/maintenance/port)
