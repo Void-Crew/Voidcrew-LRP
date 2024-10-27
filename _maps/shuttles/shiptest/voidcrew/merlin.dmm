@@ -344,7 +344,7 @@
 /area/ship/maintenance/aft)
 "da" = (
 /obj/machinery/cryopod{
-	dir = 1
+	dir = 4
 	},
 /turf/open/floor/wood,
 /area/ship/crew/dorm)
@@ -525,7 +525,9 @@
 	can_have_cap = 0
 	},
 /obj/item/slimepotion/genderchange{
-	pixel_x = 5
+	pixel_x = 5;
+	desc = "An interesting chemical mix that changes the biological sex of what its applied to. Cannot be used on things that lack sex entirely.";
+	name = "sex change potion"
 	},
 /obj/item/slimepotion/lavaproof{
 	pixel_x = 10
@@ -1816,15 +1818,6 @@
 	},
 /turf/open/floor/bronze,
 /area/ship/maintenance/aft)
-"rn" = (
-/obj/structure/cable/cyan{
-	icon_state = "4-8"
-	},
-/obj/structure/fireaxecabinet{
-	pixel_y = -28
-	},
-/turf/open/floor/carpet/green,
-/area/ship/maintenance/aft)
 "rv" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 2
@@ -2995,8 +2988,7 @@
 /obj/machinery/button/door{
 	id = "wizardship4_top";
 	name = "Blast Doors";
-	pixel_y = 24;
-	req_access_txt = "13"
+	pixel_y = 24
 	},
 /turf/open/floor/wood/mahogany,
 /area/ship/hallway/fore)
@@ -4395,7 +4387,7 @@
 /area/ship/bridge)
 "NZ" = (
 /obj/machinery/cryopod{
-	dir = 1
+	dir = 4
 	},
 /obj/machinery/computer/cryopod{
 	dir = 1;
@@ -5564,7 +5556,7 @@ cA
 Nf
 ER
 rj
-rn
+vS
 cA
 cA
 ti
