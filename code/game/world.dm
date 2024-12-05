@@ -305,7 +305,6 @@ GLOBAL_VAR(restart_counter)
 
 	var/discordurl = CONFIG_GET(string/discordurl)
 	var/githuburl = CONFIG_GET(string/githuburl)
-	s += "<b>[station_name()]</b>";
 	if(discordurl)
 		s += " ("
 		s += "<a href=\"[discordurl]\">" //Change this to wherever you want the hub to link to.
