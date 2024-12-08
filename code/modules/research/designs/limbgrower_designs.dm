@@ -107,3 +107,20 @@
 	reagents_list = list(/datum/reagent/medicine/synthflesh = 10)
 	build_path = /obj/item/organ/tongue
 	category = list("other")
+
+/datum/design/fox_tail
+	name = "Fox Tail"
+	id = "foxtail"
+	build_type = LIMBGROWER
+	reagents_list = list(/datum/reagent/medicine/synthflesh = 20)
+	build_path = /obj/item/organ/tail/fox
+	category = list("initial",SPECIES_HUMAN)
+
+/datum/design/fox_ears
+	name = "Fox Ears"
+	id = "foxears"
+	build_type = LIMBGROWER
+	reagents_list = list(/datum/reagent/medicine/synthflesh = 10)
+	build_path = /obj/item/organ/ears/fox
+	category = list("initial",SPECIES_HUMAN)
+

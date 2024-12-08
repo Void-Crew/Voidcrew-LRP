@@ -1741,6 +1741,17 @@
 	name = "Small"
 	icon_state = "small"
 
+/datum/sprite_accessory/tails/human/fox
+	icon = 'icons/mob/species/misc/fox.dmi'
+	name = "Fox"
+	icon_state = "fox"
+	color_src = HAIR
+
+/datum/sprite_accessory/tails_animated/human/fox
+	icon = 'icons/mob/species/misc/fox.dmi'
+	name = "Fox"
+	icon_state = "fox"
+	color_src = HAIR
 //Start Face markings
 
 /datum/sprite_accessory/face_markings
@@ -1837,6 +1848,12 @@
 	name = "Normal ears"
 	icon_state = "ears"
 
+/datum/sprite_accessory/ears/human/fox
+	icon = 'icons/mob/species/misc/fox.dmi'
+	name = "Fox"
+	icon_state = "fox"
+	secondary_color = TRUE
+	color_src = HAIR
 //End ears
 
 /datum/sprite_accessory/frills/frillhawk
