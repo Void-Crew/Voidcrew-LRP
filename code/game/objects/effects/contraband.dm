@@ -69,29 +69,24 @@
 	///if above is POSTER_SUBTYPES then what which subtypes we want to pull from?
 	var/random_basetype
 	///if random_type is either POSTER_LIST or POSTER_ADD_FROM_LIST then what is the pool of posters we want to pull from/ add from?
-	var/list/random_pool
-	/// Do we want to never appear in the random poster pool? Used in the random subtype to prevent infinite loops of random posters, and the NO ERP poster to make it effectively admin only.
-	var/never_random = FALSE
+
+	var/never_random = FALSE // used for the 'random' subclasses.
 
 	var/poster_item_name = "hypothetical poster"
 	var/poster_item_desc = "This hypothetical poster item should not exist, let's be honest here."
 	var/poster_item_icon_state = "rolled_poster"
 	var/poster_item_type = /obj/item/poster
 
-/obj/item/poster/Initialize(mapload, obj/structure/sign/poster/new_poster_structure)
+/obj/structure/sign/poster/Initialize()
 	. = ..()
-	poster_structure = new_poster_structure
-	if(!new_poster_structure && poster_type)
-		poster_structure = new poster_type(src)
+	if(random_basetype)
+		randomise(random_basetype)
+	if(!ruined)
+		original_name = name // can't use initial because of random posters
+		name = "poster - [name]"
+		desc = "A large piece of space-resistant printed paper. [desc]"
 
-	// posters store what name and description they would like their
-	// rolled up form to take.
-	if(poster_structure)
-		name = poster_structure.poster_item_name
-		desc = poster_structure.poster_item_desc
-		icon_state = poster_structure.poster_item_icon_state
-
-		name = "[name] - [poster_structure.original_name]"
+	addtimer(CALLBACK(src, /datum.proc/_AddComponent, list(/datum/component/beauty, 300)), 0)
 
 /obj/item/poster/Destroy()
 	poster_structure = null
@@ -224,12 +219,6 @@
 	icon_state = "random_contraband"
 	never_random = TRUE
 	random_basetype = /obj/structure/sign/poster/contraband
-	random_pool = list(
-		/obj/structure/sign/poster/solgov/suns,
-		/obj/structure/sign/poster/official/ion_carbine,
-		/obj/structure/sign/poster/official/mini_energy_gun,
-		)
-
 
 /obj/structure/sign/poster/contraband/free_tonto
 	name = "Free Tonto"
@@ -969,33 +958,5 @@
 	name = "Serene"
 	desc = "Serene, the fifth planet of the Druja system. Covered with a thick sheet of snow, the atmosphere has been described as \"Breathable, if it weren't so darn cold.\" This poster is attempting to encounrage tourism with this poster by listing several tourist attractions, such as old Frontiersmen War sites and Xenofauna war sites."
 	icon_state = "poster-cmm_serene"
-
-// Syndicate posters. Since syndicate are dived lorewise, this would only make sense on pre-split ships.
-/obj/structure/sign/poster/syndicate
-	poster_item_name = "suspicious looking poster"
-	poster_item_desc = "A poster with an ultra adhesive backing that's carefully designed to boost pinning ability. It comes with adhesive backing, for easy pinning to any vertical surface."
-	poster_item_icon_state = "rolled_syndicate"
-
-/obj/structure/sign/poster/syndicate/random
-	name = "random syndicate poster"
-	icon_state = "random_syndicate"
-	never_random = TRUE
-	random_pool = list(
-	/obj/structure/sign/poster/contraband/syndicate,
-	/obj/structure/sign/poster/contraband/stechkin,
-	/obj/structure/sign/poster/contraband/c20r,
-	/obj/structure/sign/poster/contraband/syndiemoth,
-	/obj/structure/sign/poster/solgov/suns,
-	/obj/structure/sign/poster/contraband/bulldog,
-	/obj/structure/sign/poster/contraband/m90,
-	/obj/structure/sign/poster/contraband/cybersun,
-	/obj/structure/sign/poster/contraband/cybersun_borg,
-	/obj/structure/sign/poster/contraband/cybersun_med,
-	/obj/structure/sign/poster/contraband/aclf,
-	/obj/structure/sign/poster/contraband/engis_unite,
-	/obj/structure/sign/poster/contraband/gec,
-	/obj/structure/sign/poster/contraband/d_day_promo,
-		)
-
 
 #undef PLACE_SPEED
