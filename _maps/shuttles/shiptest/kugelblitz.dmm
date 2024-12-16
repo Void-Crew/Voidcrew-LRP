@@ -910,7 +910,7 @@
 /obj/effect/turf_decal/techfloor/orange{
 	dir = 9
 	},
-/obj/machinery/suit_storage_unit/engine,
+/obj/machinery/suit_storage_unit/syndicate,
 /turf/open/floor/iron/tech/grid,
 /area/ship/engineering)
 "nG" = (
@@ -1037,7 +1037,7 @@
 /obj/effect/turf_decal/techfloor/orange{
 	dir = 8
 	},
-/obj/machinery/suit_storage_unit/engine,
+/obj/machinery/suit_storage_unit/syndicate,
 /obj/item/radio/intercom{
 	dir = 4;
 	pixel_x = -22
@@ -1500,16 +1500,6 @@
 /obj/effect/turf_decal/syndicateemblem/top/right,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/engineering)
-"wy" = (
-/obj/machinery/door/airlock/atmos/glass,
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/turf/open/floor/iron/tech/grid,
-/area/ship/engineering/atmospherics)
 "wz" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -2590,6 +2580,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/security/marine,
 /turf/open/floor/iron/tech/grid,
 /area/ship/engineering)
 "QB" = (
@@ -3337,7 +3328,7 @@ dV
 kk
 YP
 WF
-wy
+WF
 EF
 Zg
 Vl

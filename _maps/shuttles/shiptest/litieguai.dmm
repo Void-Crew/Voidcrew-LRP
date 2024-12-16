@@ -970,6 +970,11 @@
 	},
 /turf/open/floor/iron/white,
 /area/ship/medical)
+"sc" = (
+/obj/effect/turf_decal/trimline/blue/filled/warning,
+/obj/structure/chair/office/light,
+/turf/open/floor/iron/white,
+/area/ship/science)
 "se" = (
 /turf/open/floor/iron/dark,
 /area/ship/crew)
@@ -1370,6 +1375,9 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/trimline/neutral/filled/warning,
+/obj/structure/chair/office/light{
+	dir = 8
+	},
 /turf/open/floor/iron/showroomfloor,
 /area/ship/science)
 "zt" = (
@@ -1540,7 +1548,7 @@
 /turf/open/floor/plating,
 /area/ship/maintenance/starboard)
 "Dm" = (
-/obj/machinery/smartfridge/chemistry/virology,
+/obj/machinery/chem_dispenser/mutagen,
 /turf/open/floor/iron/white,
 /area/ship/science)
 "Dy" = (
@@ -1714,7 +1722,7 @@
 /area/ship/bridge)
 "Hr" = (
 /obj/machinery/light,
-/obj/machinery/smartfridge/chemistry/virology,
+/obj/machinery/chem_master,
 /turf/open/floor/iron/white,
 /area/ship/science)
 "Hx" = (
@@ -1790,6 +1798,10 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/ship/maintenance/port)
+"Jx" = (
+/obj/machinery/chem_heater,
+/turf/open/floor/iron/white,
+/area/ship/science)
 "JA" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/poddoor/preopen{
@@ -2105,6 +2117,9 @@
 "No" = (
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/structure/chair/office/light{
+	dir = 8
 	},
 /turf/open/floor/iron/white,
 /area/ship/science)
@@ -3211,7 +3226,7 @@ Va
 nu
 Ld
 nu
-Nn
+sc
 Hr
 zo
 SP
@@ -3249,7 +3264,7 @@ mj
 bX
 nu
 Nn
-Xs
+Jx
 zo
 Qe
 VY
