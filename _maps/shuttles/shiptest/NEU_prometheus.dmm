@@ -1,6 +1,6 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ad" = (
-/obj/machinery/rnd/production/protolathe,
+/obj/structure/frame/machine,
 /turf/open/floor/iron/tech/grid,
 /area/ship/engineering)
 "bl" = (
@@ -260,7 +260,6 @@
 /obj/item/stack/sheet/metal/fifty,
 /obj/item/stack/sheet/metal/fifty,
 /obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "hm" = (
@@ -473,8 +472,6 @@
 /obj/item/stack/rods/fifty,
 /obj/item/stack/rods/fifty,
 /obj/item/stack/rods/fifty,
-/obj/item/stack/rods/fifty,
-/obj/item/stack/rods/fifty,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "jT" = (
@@ -658,6 +655,7 @@
 /area/ship/engineering/atmospherics)
 "nT" = (
 /obj/machinery/airalarm/directional/south,
+/obj/structure/frame/machine,
 /turf/open/floor/pod/dark,
 /area/ship/engineering)
 "oo" = (
@@ -952,8 +950,13 @@
 /area/ship/bridge)
 "sN" = (
 /obj/structure/table,
-/obj/item/storage/firstaid/advanced,
-/obj/item/storage/firstaid/advanced,
+/obj/item/storage/firstaid/advanced{
+	icon_state = "bezerk";
+	pixel_y = 8
+	},
+/obj/item/storage/firstaid/advanced{
+	icon_state = "bezerk"
+	},
 /turf/open/floor/mineral/titanium,
 /area/ship/medical)
 "sS" = (
@@ -1506,7 +1509,9 @@
 /area/ship/crew/canteen)
 "EU" = (
 /obj/structure/table,
-/obj/item/storage/firstaid/o2,
+/obj/item/storage/firstaid/o2{
+	pixel_y = 8
+	},
 /obj/item/storage/firstaid/toxin,
 /turf/open/floor/mineral/titanium,
 /area/ship/medical)
@@ -2172,7 +2177,9 @@
 /obj/effect/turf_decal/borderfloor{
 	dir = 1
 	},
-/obj/structure/closet/secure_closet/captains,
+/obj/structure/closet/secure_closet/captains{
+	name = "captain's locker"
+	},
 /turf/open/floor/iron/herringbone,
 /area/ship/bridge)
 "Qj" = (
@@ -2194,7 +2201,9 @@
 /area/ship/engineering/engine)
 "Qk" = (
 /obj/structure/table,
-/obj/item/storage/firstaid/brute,
+/obj/item/storage/firstaid/brute{
+	pixel_y = 8
+	},
 /obj/effect/decal/cleanable/cobweb,
 /obj/item/storage/firstaid/fire,
 /obj/machinery/camera,
@@ -2517,7 +2526,8 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/security{
 	id_tag = "Patient1";
-	req_access_txt = "1"
+	req_access_txt = "1";
+	id = "Patient1"
 	},
 /turf/open/floor/carpet/red,
 /area/ship/medical)
