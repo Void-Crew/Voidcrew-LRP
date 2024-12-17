@@ -1732,7 +1732,7 @@
 	access = ACCESS_QM
 	contains = list(/obj/item/storage/backpack/duffelbag/mining_conscript)
 	crate_name = "EXOCON Frontier starter kit"
-	crate_type = /obj/structure/closet/crate/secure/exo
+	crate_type = /obj/structure/closet/crate/secure/cargo/mining/exo
 
 /datum/supply_pack/service/hvyminer
 	name = "Heavy Mining Kit"
@@ -1740,7 +1740,7 @@
 	cost = 7500
 	access = ACCESS_QM
 	crate_name = "EXOCON Heavy Operations Kit"
-	crate_type = /obj/structure/closet/crate/secure/exo
+	crate_type = /obj/structure/closet/crate/secure/cargo/mining/exo
 	contains = list(/obj/item/clothing/suit/space/hardsuit/mining/heavy,
 					/obj/item/clothing/shoes/bhop,
 					/obj/item/reagent_containers/hypospray/medipen/stimpack/crisis,

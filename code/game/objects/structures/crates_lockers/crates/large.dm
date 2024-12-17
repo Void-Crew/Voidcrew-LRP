@@ -2,6 +2,7 @@
 	name = "large crate"
 	desc = "A hefty wooden crate. You'll need a crowbar to get it open."
 	icon_state = "largecrate"
+	base_icon_state = "largecrate"
 	density = TRUE
 	storage_capacity = 100 //its mapper only, cant be closed again, its logical
 	material_drop = /obj/item/stack/sheet/mineral/wood

@@ -1,2 +1,1 @@
 #define IS_ORGANIC_LIMB(A) (A.bodytype & BODYTYPE_ORGANIC)
-#define IS_ROBOTIC_LIMB(A) (A.bodytype & BODYTYPE_ROBOTIC)

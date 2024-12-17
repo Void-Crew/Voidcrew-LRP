@@ -111,6 +111,7 @@
 	desc = "An marked patch of soil, showing signs of a burial long ago. You wouldn't disturb a grave... right?"
 	icon = 'icons/obj/crates_new.dmi'
 	icon_state = "grave"
+	base_icon_state = "grave"
 	dense_when_open = TRUE
 	material_drop = /obj/item/stack/ore/glass/basalt
 	material_drop_amount = 5
@@ -203,6 +204,7 @@
 	desc = "Even in a place filled to the brim with graves, this one shows a level of preperation and planning that fills you with dread."
 	icon = 'icons/obj/crates_new.dmi'
 	icon_state = "grave_lead"
+	base_icon_state = "grave_lead"
 	lead_tomb = TRUE
 	first_open = TRUE
 

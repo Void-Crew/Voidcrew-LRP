@@ -147,8 +147,6 @@
 			to_chat(user, span_warning("[src] is broken!"))
 
 
-/obj/structure/closet/crate/secure/exo
+/obj/structure/closet/crate/secure/cargo/mining/exo
 	desc = "A lock-enabled crate used to carry EXOCON merchandise destined for export to potential buyers."
 	name = "EXOCON storage crate"
-	icon = 'icons/obj/crates.dmi'
-	icon_state = "exocrate"

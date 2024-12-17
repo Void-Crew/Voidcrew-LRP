@@ -64,7 +64,7 @@
 	var/drop_amount = 3
 	var/deconstructible = TRUE
 
-/obj/structure/fluff/attackby(obj/item/I, mob/living/user, params)
+/obj/structure/barricade/wooden/attackby(obj/item/I, mob/living/user, params)
 	if(I.tool_behaviour == TOOL_CROWBAR && deconstructible)
 		user.visible_message("<span class='notice'>[user] starts prying [src]...</span>", "<span class='notice'>You start prying [src]...</span>")
 		I.play_tool_sound(src)
