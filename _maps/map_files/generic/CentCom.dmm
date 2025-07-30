@@ -3395,6 +3395,14 @@
 /obj/structure/dresser,
 /turf/open/floor/holofloor/carpet,
 /area/holodeck/rec_center/photobooth)
+"att" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/iron/airless,
+/area/ruin/space/ancientstation/alpha/hall)
 "atx" = (
 /obj/item/storage/pill_bottle/dice,
 /obj/structure/table/wood/fancy/green,
@@ -5072,6 +5080,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
@@ -12229,6 +12240,13 @@
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/biolab)
+"bgR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/iron/airless,
+/area/ruin/space/ancientstation/alpha/cargo)
 "bhG" = (
 /obj/structure/bed,
 /obj/item/bedsheet/nanotrasen,
@@ -12314,6 +12332,9 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
 "bmt" = (
@@ -12366,8 +12387,12 @@
 	auto_name = 0
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /mob/living/simple_animal/hostile/carp,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
 "brq" = (
@@ -13207,6 +13232,16 @@
 /obj/effect/turf_decal/borderfloor,
 /turf/open/floor/mineral/titanium,
 /area/syndicate_mothership/control)
+"cfp" = (
+/obj/effect/turf_decal/corner/green/diagonal_centre{
+	color = "#66b266"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/iron/dark/diagonal,
+/area/ruin/space/ancientstation/alpha/office)
 "cfx" = (
 /obj/machinery/power/port_gen/pacman/uranium{
 	name = "\improper emergency power generator"
@@ -13769,6 +13804,9 @@
 	},
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/ancientstation/alpha/dorms)
 "cFA" = (
@@ -13799,6 +13837,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
 "cFH" = (
@@ -14443,6 +14484,9 @@
 	},
 /obj/effect/turf_decal/corner/blue/diagonal_centre,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/iron/diagonal,
 /area/ruin/space/ancientstation/alpha/arrivals)
 "dcv" = (
@@ -14779,6 +14823,9 @@
 "dwq" = (
 /obj/structure/door_assembly/door_assembly_public,
 /obj/effect/decal/cleanable/glass,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/ancientstation/alpha/dorms)
 "dwS" = (
@@ -14909,6 +14956,9 @@
 	auto_name = 0
 	},
 /obj/machinery/firealarm/east,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/alpha/comdorms)
 "dCH" = (
@@ -15146,6 +15196,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/ancientstation/alpha/hall)
@@ -16088,6 +16141,9 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
 "eAl" = (
@@ -16215,6 +16271,9 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/ancientstation/alpha/dorms)
 "eEN" = (
@@ -16244,6 +16303,9 @@
 /obj/structure/fans/tiny/invisible,
 /obj/effect/turf_decal/corner/blue/diagonal_centre,
 /obj/machinery/door/firedoor/closed,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/iron/diagonal,
 /area/ruin/space/ancientstation/alpha/arrivals)
 "eFZ" = (
@@ -16448,6 +16510,9 @@
 /obj/item/stack/sheet/mineral/wood,
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/wood/airless,
 /area/ruin/space/ancientstation/alpha/library)
 "eNf" = (
@@ -16488,6 +16553,12 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
 	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
 	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
@@ -16666,15 +16737,15 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space/ancientstation/beta/hall)
 "eYG" = (
+/obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 8
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 4
+/turf/open/floor/plating/airless{
+	icon_state = "platingdmg3"
 	},
-/turf/open/floor/iron/airless,
-/area/ruin/space/ancientstation/alpha/hall)
+/area/ruin/space/ancientstation/alpha/lounge)
 "eZl" = (
 /obj/structure/catwalk,
 /obj/structure/cable/yellow{
@@ -16732,6 +16803,9 @@
 	name = "Alpha Station Lounge APC";
 	start_charge = 0;
 	auto_name = 0
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
 	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/lounge)
@@ -16827,6 +16901,9 @@
 "fhy" = (
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/dorms)
 "fhZ" = (
@@ -17066,6 +17143,9 @@
 	icon_state = "pile"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /turf/open/floor/plating/airless{
 	icon_state = "platingdmg3"
 	},
@@ -17627,6 +17707,13 @@
 /obj/item/clothing/gloves/color/yellow,
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/beta/hall)
+"fUi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/iron/airless,
+/area/ruin/space/ancientstation/alpha/hall)
 "fUo" = (
 /obj/machinery/light/small{
 	brightness = 3;
@@ -17670,6 +17757,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
 	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
@@ -18427,6 +18517,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/delta/rnd)
+"gCB" = (
+/obj/effect/turf_decal/corner/blue/diagonal_centre,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/iron/diagonal,
+/area/ruin/space/ancientstation/alpha/arrivals)
 "gEY" = (
 /obj/item/shard,
 /obj/structure/fluff/broken_flooring{
@@ -18898,6 +18996,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/carp,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/ancientstation/alpha/dorms)
 "gZx" = (
@@ -20285,6 +20386,12 @@
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /turf/open/floor/plating/airless{
 	icon_state = "platingdmg2"
 	},
@@ -21908,6 +22015,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
 "jJq" = (
@@ -22167,6 +22277,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /mob/living/simple_animal/hostile/carp,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
 "jRS" = (
@@ -22237,6 +22350,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/ancientstation/alpha/library)
@@ -22359,6 +22475,9 @@
 /obj/item/trash/boritos,
 /obj/item/trash/raisins,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/open/floor/iron/diagonal,
 /area/ruin/space/ancientstation/alpha/arrivals)
 "ked" = (
@@ -22902,6 +23021,9 @@
 	name = "Alpha Station Docks APC";
 	start_charge = 0;
 	auto_name = 0
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
 	},
 /turf/open/floor/iron/diagonal,
 /area/ruin/space/ancientstation/alpha/arrivals)
@@ -23755,6 +23877,17 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/pet_lounge)
+"llb" = (
+/obj/item/shard,
+/obj/effect/decal/cleanable/glass,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating/airless{
+	icon_state = "platingdmg1"
+	},
+/area/ruin/space/ancientstation/alpha/library)
 "lml" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
@@ -23896,6 +24029,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
@@ -24184,6 +24320,7 @@
 /area/ruin/space/ancientstation/charlie/hall)
 "lEN" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
 /turf/open/floor/plating/airless{
 	icon_state = "platingdmg1"
 	},
@@ -24664,6 +24801,9 @@
 /obj/machinery/light_switch{
 	pixel_x = -26
 	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plating/airless{
 	icon_state = "platingdmg1"
 	},
@@ -24793,6 +24933,12 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/ancientstation/alpha/hall)
 "mhF" = (
@@ -25652,6 +25798,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/ancientstation/alpha/hall)
 "mRs" = (
@@ -25689,6 +25838,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 5
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
 	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
@@ -25772,6 +25924,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine/airless,
 /area/ruin/space/ancientstation/beta/supermatter)
+"mWl" = (
+/obj/item/kirbyplants{
+	icon_state = "plant-25"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/iron,
+/area/ruin/space/ancientstation/alpha/comdorms)
 "mWm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/yellow{
@@ -26314,6 +26476,9 @@
 	color = "#3d3c38"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/alpha/comdorms)
 "nuP" = (
@@ -27387,6 +27552,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/alpha/comdorms)
 "oxU" = (
@@ -27615,6 +27783,17 @@
 /obj/item/trash/energybar,
 /turf/open/floor/plating/dirt,
 /area/centcom/exterior)
+"oKt" = (
+/obj/machinery/door/airlock/mining/glass{
+	name = "Cargo Bay"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/firedoor,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/iron/airless,
+/area/ruin/space/ancientstation/alpha/cargo)
 "oKG" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
 /obj/effect/decal/cleanable/dirt,
@@ -27655,6 +27834,9 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
@@ -27982,6 +28164,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/firedoor,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/iron/dark/diagonal,
 /area/ruin/space/ancientstation/alpha/office)
 "oYG" = (
@@ -28134,6 +28319,9 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/alpha/comdorms)
 "pfQ" = (
@@ -28647,6 +28835,9 @@
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
 	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
@@ -30079,6 +30270,19 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/hall)
+"qJT" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/iron/airless,
+/area/ruin/space/ancientstation/alpha/hall)
 "qJZ" = (
 /turf/open/floor/mineral/plastitanium/red,
 /area/syndicate_mothership/elite_squad)
@@ -30984,6 +31188,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/iron/dark/diagonal,
 /area/ruin/space/ancientstation/alpha/office)
 "rxH" = (
@@ -31092,6 +31299,9 @@
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/carp,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plating/airless{
 	icon_state = "platingdmg2"
 	},
@@ -31104,6 +31314,9 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/lounge)
@@ -31153,6 +31366,9 @@
 	},
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/ancientstation/alpha/hall)
 "rGP" = (
@@ -31403,6 +31619,9 @@
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
 	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
@@ -31665,6 +31884,9 @@
 	name = "Alpha Station Cargo Bay APC";
 	start_charge = 0;
 	auto_name = 0
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
 	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/cargo)
@@ -32406,6 +32628,9 @@
 /obj/item/weldingtool/mini,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /turf/open/floor/iron/diagonal,
 /area/ruin/space/ancientstation/alpha/arrivals)
 "sIu" = (
@@ -32682,6 +32907,9 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/lounge)
 "sVI" = (
@@ -33858,6 +34086,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
 "tWM" = (
@@ -34307,6 +34538,7 @@
 /obj/item/shard,
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
 /turf/open/floor/plating/airless{
 	icon_state = "platingdmg1"
 	},
@@ -34450,6 +34682,13 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/ancientstation/charlie/hall)
+"uxB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/iron/airless,
+/area/ruin/space/ancientstation/alpha/cargo)
 "uxI" = (
 /turf/closed/wall,
 /area/ruin/space/ancientstation/charlie/storage)
@@ -34529,6 +34768,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
 	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/ancientstation/alpha/hall)
@@ -34805,6 +35047,9 @@
 /obj/effect/decal/cleanable/glass,
 /obj/structure/table_frame,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plating/airless{
 	icon_state = "platingdmg1"
 	},
@@ -35464,6 +35709,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
 "vkc" = (
@@ -35742,6 +35990,9 @@
 	name = "Alpha Station Representative's Office APC";
 	start_charge = 0;
 	auto_name = 0
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
 	},
 /turf/open/floor/iron/dark/diagonal,
 /area/ruin/space/ancientstation/alpha/office)
@@ -36059,6 +36310,16 @@
 "vSc" = (
 /turf/closed/wall/rust,
 /area/ruin/space/ancientstation/beta/gravity)
+"vSU" = (
+/obj/effect/decal/cleanable/glass,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating/airless{
+	icon_state = "platingdmg3"
+	},
+/area/ruin/space/ancientstation/alpha/lounge)
 "vTf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -36156,6 +36417,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
@@ -36833,6 +37097,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/hall)
 "wCj" = (
@@ -37003,6 +37270,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 6
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
 	},
 /turf/open/floor/plating/airless{
 	icon_state = "platingdmg2"
@@ -37280,6 +37550,22 @@
 	dir = 4
 	},
 /area/syndicate_mothership/control)
+"wWu" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/iron/airless,
+/area/ruin/space/ancientstation/alpha/hall)
 "wWU" = (
 /obj/effect/turf_decal/corner/purple,
 /obj/effect/turf_decal/corner/purple{
@@ -37873,6 +38159,7 @@
 	start_charge = 0;
 	auto_name = 0
 	},
+/obj/structure/cable,
 /turf/open/floor/iron/airless,
 /area/ruin/space/ancientstation/alpha/dorms)
 "xAI" = (
@@ -38580,6 +38867,9 @@
 "yhu" = (
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plating/airless{
 	icon_state = "platingdmg2"
 	},
@@ -38621,6 +38911,9 @@
 	name = "Alpha Station Library APC";
 	start_charge = 0;
 	auto_name = 0
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
 	},
 /turf/open/floor/wood/airless{
 	icon_state = "wood-broken3"
@@ -44082,7 +44375,7 @@ cKm
 tKX
 vjO
 uFz
-vjO
+cfp
 sur
 vjO
 hLe
@@ -44596,7 +44889,7 @@ cKm
 hnf
 amf
 hSK
-vjO
+cfp
 fvY
 wkK
 cKm
@@ -45110,7 +45403,7 @@ qYI
 cVg
 caJ
 nAi
-cVg
+tXq
 wAy
 uYn
 caJ
@@ -45367,7 +45660,7 @@ wCd
 wCd
 wCd
 wCd
-vjW
+qJT
 oMe
 vVU
 jRR
@@ -45634,7 +45927,7 @@ doc
 doc
 doc
 srk
-eYG
+uGe
 caJ
 kjm
 kjm
@@ -45891,7 +46184,7 @@ lxj
 lxj
 doc
 doc
-eYG
+uGe
 caJ
 kjm
 wxo
@@ -46128,10 +46421,10 @@ eHm
 ohR
 wIQ
 kcB
-tPg
-tPg
-aBK
-cVg
+bgR
+uxB
+oKt
+fUi
 pAB
 vCP
 dRN
@@ -46405,7 +46698,7 @@ diC
 diC
 lpr
 dix
-eYG
+uGe
 cVg
 gan
 hFh
@@ -47162,7 +47455,7 @@ asu
 gXb
 acj
 jWk
-dqm
+mWl
 qxD
 vCP
 qsk
@@ -47174,7 +47467,7 @@ lpr
 uSb
 olW
 rSu
-upx
+llb
 exs
 ila
 rGN
@@ -49222,8 +49515,8 @@ fhZ
 fbL
 sUY
 mbO
-qss
-qss
+eYG
+vSU
 qss
 uTo
 jaA
@@ -49470,7 +49763,7 @@ tDR
 jcf
 jcf
 vlG
-tDR
+gCB
 pzK
 cVg
 acj
@@ -49727,7 +50020,7 @@ lKb
 lZL
 iYb
 tDR
-tDR
+gCB
 pzK
 cVg
 acj
@@ -50243,8 +50536,8 @@ qzy
 iWb
 sHi
 eFY
-caJ
-rVh
+att
+wWu
 hvx
 vzV
 wBw
