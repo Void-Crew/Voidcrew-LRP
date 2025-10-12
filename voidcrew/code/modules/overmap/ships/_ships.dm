@@ -52,7 +52,7 @@
 		return
 
 	var/timer = 1 / MAGNITUDE(speed[1], speed[2]) * offset
-	movement_callback_id = addtimer(CALLBACK(src, .proc/tick_move), timer, TIMER_STOPPABLE)
+	movement_callback_id = addtimer(CALLBACK(src, PROC_REF(tick_move)), timer, TIMER_STOPPABLE)
 
 /**
   * Called by /proc/adjust_speed(), this continually moves the ship according to it's speed
@@ -76,7 +76,7 @@
 		return
 
 	var/timer = 1 / current_speed
-	movement_callback_id = addtimer(CALLBACK(src, .proc/tick_move), timer, TIMER_STOPPABLE)
+	movement_callback_id = addtimer(CALLBACK(src, PROC_REF(tick_move)), timer, TIMER_STOPPABLE)
 	update_screen()
 
 /**

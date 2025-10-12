@@ -29,13 +29,13 @@
 		if(WIRE_HACK)
 			if (!subv.hacked)
 				subv.adjust_hacked(TRUE)
-				addtimer(CALLBACK(subv, /obj/machinery/subverter.proc/reset, wire), 5)
+				addtimer(CALLBACK(subv, TYPE_PROC_REF(/obj/machinery/subverter, reset), wire), 5)
 		if(WIRE_SHOCK)
 			subv.shocked = !subv.shocked
-			addtimer(CALLBACK(subv, /obj/machinery/subverter.proc/reset, wire), 60)
+			addtimer(CALLBACK(subv, TYPE_PROC_REF(/obj/machinery/subverter, reset), wire), 60)
 		if(WIRE_DISABLE)
 			subv.disabled = !subv.disabled
-			addtimer(CALLBACK(subv, /obj/machinery/subverter.proc/reset, wire), 60)
+			addtimer(CALLBACK(subv, TYPE_PROC_REF(/obj/machinery/subverter, reset), wire), 60)
 
 /datum/wires/subverter/on_cut(wire, mend)
 	var/obj/machinery/subverter/subv = holder

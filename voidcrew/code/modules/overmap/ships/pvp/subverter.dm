@@ -200,7 +200,7 @@
 					continue
 				LAZYOR(ship.close_overmap_objects, add)
 			LAZYREMOVE(ship.close_overmap_objects, target_ship) //prevent confusion, since you wanna dock in the empty space
-		addtimer(CALLBACK(target_ship, /obj/structure/overmap/ship/simulated/.proc/systems_restored), COOLDOWN_TIMELEFT(target_ship, engine_cooldown))
+		addtimer(CALLBACK(target_ship, TYPE_PROC_REF(/obj/structure/overmap/ship/simulated, systems_restored)), COOLDOWN_TIMELEFT(target_ship, engine_cooldown))
 		return TRUE
 	else
 		target_ship.most_recent_helm.say("Viral agent blocked. Source: [ship.name]")

@@ -156,7 +156,7 @@
 /mob/living/simple_animal/hologram/proc/disco()
 	color = pick(HOLOGRAM_CYCLE_COLORS)
 	alpha = rand(75, 180)
-	addtimer(CALLBACK(src, .proc/disco, src), 5) //Call ourselves every 0.5 seconds to change color
+	addtimer(CALLBACK(src, PROC_REF(disco), src), 5) //Call ourselves every 0.5 seconds to change color
 
 /mob/living/simple_animal/hologram/med_hud_set_health()
 	var/image/holder = hud_list[DIAG_HUD]

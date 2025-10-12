@@ -66,7 +66,7 @@
 /obj/structure/overmap/ship/simulated/proc/register_crewmember(mob/living/carbon/human/crewmate)
 	var/datum/weakref/new_cremate = WEAKREF(crewmate)
 	crewmembers.Add(new_cremate)
-	RegisterSignal(crewmate, COMSIG_MOB_DEATH, .proc/handle_inactive_ship)
+	RegisterSignal(crewmate, COMSIG_MOB_DEATH, PROC_REF(handle_inactive_ship))
 	//Adds a faction hud to a newplayer documentation in _HELPERS/game.dm
 	add_faction_hud(FACTION_HUD_GENERAL, faction_prefix, crewmate)
 

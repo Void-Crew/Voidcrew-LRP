@@ -154,7 +154,7 @@
 		return
 	to_chat(victim, "<span class='reallybig redtext'>RIP AND TEAR</span>")
 
-	INVOKE_ASYNC(src, .proc/blood_delusion, victim)
+	INVOKE_ASYNC(src, PROC_REF(blood_delusion), victim)
 
 	chainsaw = new(victim.loc)
 	victim.log_message("entered a marg frenzy", LOG_ATTACK)
@@ -169,7 +169,7 @@
 	var/datum/client_colour/colour = victim.add_client_colour(/datum/client_colour/bloodlust)
 	QDEL_IN(colour, 11)
 	doomslayer = victim
-	RegisterSignal(src, COMSIG_PARENT_QDELETING, .proc/end_blood_frenzy)
+	RegisterSignal(src, COMSIG_PARENT_QDELETING, PROC_REF(end_blood_frenzy))
 	QDEL_IN(WEAKREF(src), duration)
 
 /obj/effect/mine/pickup/bloodbath/proc/end_blood_frenzy()

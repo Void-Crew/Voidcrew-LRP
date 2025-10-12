@@ -14,7 +14,7 @@ export const HelmConsole = (props, context) => {
       height={708}
       resizable>
       <div className="CameraConsole__left">
-        <Window.Content>
+        <Window.Content scrollable>
           {!isViewer && (
             <ShipControlContent />
           )}

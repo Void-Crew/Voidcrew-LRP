@@ -221,6 +221,10 @@
 /// just check density
 #define ATMOS_PASS_DENSITY -2
 
+// Adjacency flags
+#define ATMOS_ADJACENT_ANY (1<<0)
+#define ATMOS_ADJACENT_FIRELOCK (1<<1)
+
 #define CANATMOSPASS(A, O) ( A.CanAtmosPass == ATMOS_PASS_PROC ? A.CanAtmosPass(O) : ( A.CanAtmosPass == ATMOS_PASS_DENSITY ? !A.density : A.CanAtmosPass ) )
 #define CANVERTICALATMOSPASS(A, O) ( A.CanAtmosPassVertical == ATMOS_PASS_PROC ? A.CanAtmosPass(O, TRUE) : ( A.CanAtmosPassVertical == ATMOS_PASS_DENSITY ? !A.density : A.CanAtmosPassVertical ) )
 
@@ -366,6 +370,13 @@
 #define GAS_FLAG_DANGEROUS (1<<0)
 #define GAS_FLAG_BREATH_PROC (1<<1)
 
+// Flag for update_air_ref()
+#define AIR_REF_CLOSED_TURF -1
+#define AIR_REF_SPACE_TURF 0
+
+#define AIR_REF_PLANETARY_TURF (1<<0) //SIMULATION_DIFFUSE 0b1
+#define AIR_REF_OPEN_TURF (1<<1) //SIMULATION_ALL 0b10
+
 //HELPERS
 #define PIPING_LAYER_SHIFT(T, PipingLayer) \
 	if(T.dir & (NORTH|SOUTH)) {									 \
@@ -386,17 +397,6 @@
 #define PIPING_LAYER_DOUBLE_SHIFT(T, PipingLayer) \
 	T.pixel_x = (PipingLayer - PIPING_LAYER_DEFAULT) * PIPING_LAYER_P_X; \
 	T.pixel_y = (PipingLayer - PIPING_LAYER_DEFAULT) * PIPING_LAYER_P_Y;
-
-GLOBAL_VAR(atmos_extools_initialized) // this must be an uninitialized (null) one or init_monstermos will be called twice because reasons
-#define ATMOS_EXTOOLS_CHECK if(!GLOB.atmos_extools_initialized){ \
-	GLOB.atmos_extools_initialized=TRUE; \
-	if(fexists(world.system_type == MS_WINDOWS ? "./byond-extools.dll" : "./libbyond-extools.so")){ \
-		var/result = call((world.system_type == MS_WINDOWS ? "./byond-extools.dll" : "./libbyond-extools.so"),"init_monstermos")(); \
-		if(result != "ok") {CRASH(result);} \
-	} else { \
-		CRASH("byond-extools.dll does not exist!"); \
-	} \
-}
 
 GLOBAL_LIST_INIT(pipe_paint_colors, sortList(list(
 	"amethyst" = rgb(130,43,255), //supplymain

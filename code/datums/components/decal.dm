@@ -18,11 +18,11 @@
 
 /datum/component/decal/RegisterWithParent()
 	if(first_dir)
-		RegisterSignal(parent, COMSIG_ATOM_DIR_CHANGE, .proc/rotate_react)
+		RegisterSignal(parent, COMSIG_ATOM_DIR_CHANGE, PROC_REF(rotate_react))
 	if(cleanable != FALSE)
-		RegisterSignal(parent, COMSIG_COMPONENT_CLEAN_ACT, .proc/clean_react)
+		RegisterSignal(parent, COMSIG_COMPONENT_CLEAN_ACT, PROC_REF(clean_react))
 	if(description)
-		RegisterSignal(parent, COMSIG_PARENT_EXAMINE, .proc/examine)
+		RegisterSignal(parent, COMSIG_PARENT_EXAMINE, PROC_REF(examine))
 
 /datum/component/decal/UnregisterFromParent()
 	UnregisterSignal(parent, list(COMSIG_ATOM_DIR_CHANGE, COMSIG_COMPONENT_CLEAN_ACT, COMSIG_PARENT_EXAMINE))
@@ -51,13 +51,13 @@
 
 /datum/component/decal/proc/apply(atom/thing)
 	var/atom/master = thing || parent
-	RegisterSignal(master,COMSIG_ATOM_UPDATE_OVERLAYS,.proc/apply_overlay)
+	RegisterSignal(master,COMSIG_ATOM_UPDATE_OVERLAYS,PROC_REF(apply_overlay))
 	if(master.flags_1 & INITIALIZED_1)
 		master.update_icon() //could use some queuing here now maybe.
 	else
-		RegisterSignal(master,COMSIG_ATOM_AFTER_SUCCESSFUL_INITIALIZE,.proc/late_update_icon)
+		RegisterSignal(master,COMSIG_ATOM_AFTER_SUCCESSFUL_INITIALIZE,PROC_REF(late_update_icon))
 	if(isitem(master))
-		addtimer(CALLBACK(master, /obj/item/.proc/update_slot_icon), 0, TIMER_UNIQUE)
+		addtimer(CALLBACK(master, TYPE_PROC_REF(/obj/item, update_slot_icon)), 0, TIMER_UNIQUE)
 
 /datum/component/decal/proc/late_update_icon(atom/source)
 	if(source && istype(source))
@@ -72,7 +72,7 @@
 	UnregisterSignal(master,COMSIG_ATOM_UPDATE_OVERLAYS)
 	master.update_icon()
 	if(isitem(master))
-		addtimer(CALLBACK(master, /obj/item/.proc/update_slot_icon), 0, TIMER_UNIQUE)
+		addtimer(CALLBACK(master, TYPE_PROC_REF(/obj/item, update_slot_icon)), 0, TIMER_UNIQUE)
 
 /datum/component/decal/proc/rotate_react(datum/source, old_dir, new_dir)
 	SIGNAL_HANDLER

@@ -62,7 +62,7 @@
 		playsound(src, 'sound/items/deconstruct.ogg', 50, FALSE)
 		to_chat(user, "You load the [I.name] into the printer.")
 		icon_state = icon_insert
-		addtimer(CALLBACK(src, .proc/resetIcon), 1 SECONDS)
+		addtimer(CALLBACK(src, PROC_REF(resetIcon)), 1 SECONDS)
 
 	if(istype(I, /obj/item/stack/sheet/metal) && reusable)
 		if (metal_amount >= metal_required)
@@ -83,7 +83,7 @@
 			to_chat(user, "<span class='warning'>You insert [metal_needed] metal sheets into the machine.</span>")
 			playsound(src, 'sound/items/deconstruct.ogg', 50, FALSE)
 			icon_state = icon_insert
-			addtimer(CALLBACK(src, .proc/resetIcon), 1 SECONDS)
+			addtimer(CALLBACK(src, PROC_REF(resetIcon)), 1 SECONDS)
 
 /obj/machinery/ammo_printer/interact(mob/user)
 	. = ..()
@@ -115,7 +115,7 @@
 	playsound(src, 'sound/machines/button1.ogg', 25, FALSE)
 	icon_state = icon_craft
 	active = TRUE
-	addtimer(CALLBACK(src, .proc/manufacture), 2 SECONDS)
+	addtimer(CALLBACK(src, PROC_REF(manufacture)), 2 SECONDS)
 
 
 /obj/machinery/ammo_printer/proc/manufacture()

@@ -426,7 +426,7 @@
 		countdown--
 
 /obj/item/paper/evilfax/proc/evilpaper_specialaction(target)
-	addtimer(CALLBACK(src, .proc/handle_specialaction, target), 30)
+	addtimer(CALLBACK(src, PROC_REF(handle_specialaction), target), 30)
 
 /obj/item/paper/evilfax/proc/handle_specialaction(var/mob/living/carbon/target)
 	if(istype(target,/mob/living/carbon))

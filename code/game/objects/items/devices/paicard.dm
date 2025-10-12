@@ -58,7 +58,9 @@
 		dat += "No personality installed.<br>"
 		dat += "Searching for a personality... Press view available personalities to notify potential candidates."
 		dat += "<A href='byond://?src=[REF(src)];request=1'>\[View available personalities\]</a><br>"
-	user << browse(dat, "window=paicard")
+	var/datum/browser/browser = new(user, "paicard", null, 500, 500)
+	browser.set_content(dat)
+	browser.open()
 	onclose(user, "paicard")
 	return
 
